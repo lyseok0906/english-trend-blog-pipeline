@@ -10,8 +10,8 @@ conditional decision in `docs/niche-decision.md`.
 This gate does **not** measure whether n8n works. That is already known.
 
 It measures whether the operator can **independently reproduce, explain, and diagnose**
-workflows. That is the only durable advantage this blog has — the same advantage that made
-Blog B work — and it cannot be established by assertion.
+workflows. That is the only durable advantage this blog has, and it cannot be established by
+assertion.
 
 **The user runs the gate.** If Claude builds the workflows, the measurement is void.
 Claude's role is limited to:
@@ -60,11 +60,18 @@ into the repository only after that.
 | Purpose | The basic pipeline: take messy external input, normalize it, store it |
 | Minimum shape | Webhook trigger → normalization with a **no-code node (Set)** → file / local output |
 | Normalization must cover | Trimming whitespace, unifying date format, coercing types, and **distinguishing `null` from an empty string (`""`)** |
-| Required failure case | Send a payload with a required field missing, and establish from the actual run whether the whole execution fails or the item is partially processed |
+| Required failure case | Send a payload with a required field missing. **A missing field does not fail an execution on its own** — it can resolve to an empty value that passes through while the run reports success, so a green checkmark is not evidence that validation works. The workflow must therefore contain an explicit required-field check (an IF node or equivalent no-code test) that routes invalid submissions off the normal path, and that path must be shown being taken |
 | Constraint | **No Code node, no JavaScript.** The technical-depth boundary in `docs/niche-decision.md` §4 makes code-node work out of scope for this blog, so the gate must not measure it. If normalization cannot be done with no-code nodes, that is itself a finding and must be reported rather than worked around |
 
-The `null` vs `""` requirement mirrors a trap already verified in Blog B Pilot D. Repeating
-it here tests whether the same class of trap detection transfers to a new tool.
+The edge cases for W1 are supplied to the operator in advance, so W1 does **not** test
+unprompted discovery of them — hidden-defect detection is measured by T3, which is sealed. W1 is
+judged on three things:
+
+1. Whether the difference between `null`, an empty string and a non-breaking space is explained
+   and handled **from actual run results**, not restated from the brief.
+2. Whether the required-field validation step was built by the operator and the invalid path
+   proven.
+3. Whether results that contradicted expectations are recorded rather than quietly fixed.
 
 ### W2 — scheduled check → change detection → notification
 
@@ -89,7 +96,7 @@ it here tests whether the same class of trap detection transfers to a new tool.
 
 | # | Evidence | Form |
 |---|---|---|
-| 1 | Screenshots | Full canvas + key node configuration + execution result. **Capture in English UI** — a Blog B Pilot F lesson, where Korean-UI captures had to be redone |
+| 1 | Screenshots | Full canvas + key node configuration + execution result. **Capture in English UI** — a non-English UI means the screenshots have to be recaptured before they can be used |
 | 2 | Exported workflow JSON | After applying the sanitization rules in §2 |
 | 3 | Real failure case | Including the verbatim error message text, not a summary |
 | 4 | Verified fix | Before/after comparison plus an execution result showing the fix works |
