@@ -27,9 +27,9 @@ This distinction is an operating constraint, not a framing preference:
 - If n8n proves unsuitable, the tool is replaced and the site continues. Make, Zapier,
   Activepieces and similar tools can occupy the same slot.
 - No affiliate program is joined for any single tool. Affiliate enrollment is prohibited
-  until the gate passes (see `docs/proof-gate-n8n.md`, prohibitions).
+  until the gate passes.
 
-## 3. Out of scope
+## 3. Out of scope — subject matter
 
 The following are out of scope for this blog:
 
@@ -43,14 +43,48 @@ changing numbers, or restating a work situation as a generic example does not br
 scope. If the case originates in the user's work, it is out of scope regardless of how it
 is presented.
 
-Positioning this blog toward QA teams or operations teams is also out of scope, and has
-been removed from every niche document.
+Positioning this blog toward QA teams or operations teams is also out of scope.
 
-**Consequence for the proof gate:** the gate's workflows must be built from synthetic data
-in a personal environment, with no production credentials. That requirement already exists
-in `docs/proof-gate-n8n.md` §2 and is consistent with this exclusion.
+## 4. Technical-depth boundary
 
-## 4. Evidence standard for operator capability
+This blog is a **no-code / low-code** publication. The boundary below governs what articles
+may cover.
+
+### Allowed
+
+- n8n workflows built in the **UI**, using no-code / low-code nodes
+- **public services** as integration targets
+- **synthetic data** in all examples
+
+### Excluded
+
+- Code-node tutorials
+- JavaScript
+- Docker
+- Self-hosting
+- Infrastructure
+- API implementation
+- Authentication and security architecture
+- All company-, development-, and QA-derived material (§3)
+
+### What this boundary governs, and what it does not
+
+This boundary applies to **published subject matter**. It does not govern the mechanics of
+how the operator runs a tool while producing evidence.
+
+Concretely: running n8n locally via Docker or npx to build gate evidence is **allowed**,
+because that is production mechanics, not subject matter. Writing an article that explains
+how to run n8n in Docker is **excluded**. The same split applies to self-hosting generally.
+
+### Downstream consequences
+
+| Area | Consequence |
+|---|---|
+| Proof gate W1 | Normalization must be built with a **no-code node (Set)**, not a Code node. A gate that tested Code-node skill would be measuring a capability the blog is not allowed to use. `docs/proof-gate-n8n.md` §3 is updated accordingly |
+| Audience | Excluding self-hosting content skews readership toward hosted/cloud users. This **reduces** the affiliate leakage previously recorded — self-hosted readers do not convert on a cloud referral, and they are no longer the target |
+| Entry angle | The "self-hosted environment reproduction conditions" angle recorded in earlier niche research is void. Remaining angles: what actually broke after a version change, undocumented migration traps, and trade-offs between approaches the official docs stay neutral on |
+
+## 5. Evidence standard for operator capability
 
 Operator capability is established only by reproduced evidence.
 
@@ -65,7 +99,7 @@ folders. That reasoning is withdrawn. Installation traces, trial use, sustained 
 and the ability to diagnose failures are different things, and only the last matters for
 this blog's defensibility. The proof gate exists to test it.
 
-## 5. Handling of external traffic statistics
+## 6. Handling of external traffic statistics
 
 Reported AI Overviews click-through figures — including a −89% figure for news content —
 are **directional reference only** and are not used as grounds for a niche decision. That
@@ -81,15 +115,28 @@ not on trend coverage. The primary support for that is this project's own measur
 | Blog A market validation (2026-09-04) | Weak: the number itself, the definition itself, today's value, general explanation of news. Strong: official data + differences between systems/indicators + time lag + effect on the reader's own money |
 | Blog B Pilots A–G (7/7 PASS) | What worked was reproducible evergreen problem-solving — version-specific behavior, a locale bug, a `null` vs `""` trap, edge cases |
 
-## 6. Open items
+## 7. NO-GO outcome
+
+If the proof gate returns NO-GO, the outcome is:
+
+**`PAUSED — niche research restart.`**
+
+Explicitly:
+
+- **No automatic pivot to another niche.**
+- **No fallback vertical is created**, by Claude or otherwise.
+- Work stops. Niche research restarts as a separate, deliberate decision by the user.
+
+This replaces the earlier fallback (a QA automation vertical based on Playwright / Android
+testing evidence), which is void under §3.
+
+## 8. Open items
 
 | # | Item | Status |
 |---|---|---|
-| 1 | **NO-GO alternative is void.** The previously recorded fallback was a QA automation vertical based on Playwright / Android testing evidence. §3 places QA and development material out of scope, so that fallback no longer exists. A NO-GO result currently has no successor vertical | **Needs user decision.** Not filled in by Claude |
-| 2 | **Technical-depth boundary.** §3 excludes development material. The candidate vertical still involves technical mechanics (webhooks, retries, error handling). The boundary between "technical automation content for a small team" and "development material" is not yet defined in writing | Needs user decision before the first topic brief |
-| 3 | Niche confirmation | Blocked on proof gate GO + user approval |
+| 1 | Niche confirmation | Blocked on proof gate GO + user approval |
 
-## 7. Approval status
+## 9. Approval status
 
-The conditional decision in §1–§5 was approved by the user on 2026-09-28 with the revisions
-applied here. Confirmation of the niche itself is not approved and is not implied.
+The conditional decision in §1–§7 was approved by the user on 2026-09-28. Confirmation of
+the niche itself is not approved and is not implied.

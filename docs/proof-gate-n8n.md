@@ -35,6 +35,11 @@ Claude's role is limited to:
 These conditions also enforce the out-of-scope rule in `docs/niche-decision.md` §3: nothing
 in this gate may originate in the user's work.
 
+**Docker / self-hosting note.** Running n8n locally via Docker or npx is permitted here.
+The technical-depth boundary (`docs/niche-decision.md` §4) excludes Docker and self-hosting
+as *subject matter* for articles; it does not restrict how the operator runs the tool while
+producing evidence. Nothing about the local setup becomes publishable content.
+
 **Evidence location.** Evidence is kept outside this repository until GO is returned and the
 user approves — for example a sibling folder such as `C:\blog\_proofgate-n8n\`. It is moved
 into the repository only after that.
@@ -53,9 +58,10 @@ into the repository only after that.
 | Item | Detail |
 |---|---|
 | Purpose | The basic pipeline: take messy external input, normalize it, store it |
-| Minimum shape | Webhook trigger → normalization node (Set or Code) → file / local output |
+| Minimum shape | Webhook trigger → normalization with a **no-code node (Set)** → file / local output |
 | Normalization must cover | Trimming whitespace, unifying date format, coercing types, and **distinguishing `null` from an empty string (`""`)** |
 | Required failure case | Send a payload with a required field missing, and establish from the actual run whether the whole execution fails or the item is partially processed |
+| Constraint | **No Code node, no JavaScript.** The technical-depth boundary in `docs/niche-decision.md` §4 makes code-node work out of scope for this blog, so the gate must not measure it. If normalization cannot be done with no-code nodes, that is itself a finding and must be reported rather than worked around |
 
 The `null` vs `""` requirement mirrors a trap already verified in Blog B Pilot D. Repeating
 it here tests whether the same class of trap detection transfers to a new tool.
@@ -141,11 +147,15 @@ result.
 | 6 | Changing the scope definitions in `README.md` or `docs/operating-model.md` |
 | 7 | Buying a domain or creating a site |
 
-## 8. Open item — no successor vertical if NO-GO
+## 8. NO-GO outcome
 
-The previously recorded NO-GO fallback was a QA automation vertical based on Playwright /
-Android testing evidence. `docs/niche-decision.md` §3 puts QA and development material out
-of scope, which voids that fallback.
+If this gate returns NO-GO, the outcome is:
 
-**A NO-GO result therefore has no successor vertical.** This is recorded as an open decision
-for the user rather than filled in by Claude. It does not block the gate from starting.
+**`PAUSED — niche research restart.`**
+
+- **No automatic pivot to another niche.**
+- **No fallback vertical is created.**
+- Work stops. Restarting niche research is a separate, deliberate decision by the user.
+
+The earlier fallback (a QA automation vertical based on Playwright / Android testing
+evidence) is void under `docs/niche-decision.md` §3. See `docs/niche-decision.md` §7.
