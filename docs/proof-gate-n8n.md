@@ -30,7 +30,7 @@ Claude's role is limited to:
 | Credentials | **No production credentials.** No real API keys, no company systems, no live account connections |
 | Data | Synthetic data only. No real personal data and no work data |
 | External calls | Public, unauthenticated endpoints only |
-| Version | Record the n8n version in each workflow's evidence (current stable is the 2.40.x line) |
+| Version | Record the n8n version in each workflow's evidence |
 
 These conditions also enforce the out-of-scope rule in `docs/niche-decision.md` §3: nothing
 in this gate may originate in the user's work.
