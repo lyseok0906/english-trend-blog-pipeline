@@ -107,3 +107,25 @@ unverifiable "not LLM-generated" requirement was dropped.
 - **The technical-depth boundary is undefined.** Decision 4 excludes development material
   while the candidate vertical still involves technical mechanics. Where the line falls needs
   to be stated before the first topic brief.
+
+---
+
+## 2026-09-28 — Correction: document scope cleanup
+
+Correction entry. Earlier entries are left as written.
+
+Cross-project references were removed from active policy and proof-gate documents.
+Hidden-discovery wording was removed from W1 because the cases are intentionally disclosed.
+
+**Files affected.** `docs/niche-decision.md`, `docs/proof-gate-n8n.md`.
+
+**W1 is judged on three things**, recorded here so the criterion is unambiguous:
+
+1. Whether the difference between `null`, an empty string and a non-breaking space is
+   explained and handled from actual run results.
+2. Whether the required-field validation step was built by the operator and the invalid path
+   proven — a missing field does not fail an execution on its own.
+3. Whether results that contradicted expectations are recorded rather than quietly fixed.
+
+Detection of an undisclosed defect is measured by T3, which is sealed, and is not duplicated
+in W1.

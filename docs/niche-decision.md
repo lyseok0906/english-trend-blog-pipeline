@@ -110,19 +110,8 @@ The basis for this blog's direction is that **a new site competes on evergreen
 problem-solving content backed by real execution, real errors, and reproduced results** — not on
 trend coverage.
 
-That position does not rest on the figures above. It rests on measured results from the
-operator's prior publishing work, recorded outside this repository, which found two things
-consistently:
-
-- **Weak:** the bare number, the definition, today's current value, and general explanation of
-  news — all of it competing directly with the search engine's own answer and with
-  higher-authority publishers.
-- **Strong:** reproducible, evergreen problem-solving — version-specific behaviour, environment
-  and locale-dependent failures, and edge cases where the documented answer and the observed
-  answer differ.
-
-Those results belong to separate projects and are deliberately not restated here (see §3). They
-are cited as the origin of this position, not reproduced as content.
+This project prioritizes reproducible, recurring problem-solving content that can be
+validated in an independent test environment.
 
 ## 7. NO-GO outcome
 
