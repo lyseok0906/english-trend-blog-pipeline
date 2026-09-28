@@ -73,7 +73,7 @@ required a proof gate first.
 6. **External AI Overviews CTR figures are directional reference only,** not grounds for a
    niche decision. The −89% news figure in particular is one publisher's self-reported number
    relayed through secondary coverage. The basis for this blog's direction is this project's
-   own measured history (Blog A market validation; Blog B Pilots A–G, 7/7 PASS).
+   own measured history.
 7. **A 14-day proof gate must pass before any backlog work.** Three reproducible workflows
    (webhook → normalization → output; scheduled check → change detection → notification;
    failure handling / retry / diagnosis), each with screenshots, sanitized exported JSON, a
