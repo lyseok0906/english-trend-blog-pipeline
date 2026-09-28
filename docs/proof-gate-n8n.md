@@ -116,7 +116,7 @@ falsifiable.
 |---|---|---|
 | **T1 — Reproduce** | Rebuild one of W1–W3, named by Claude on the day, from scratch — without notes, the earlier JSON, or earlier screenshots | Within **40 minutes**, output matches expected |
 | **T2 — Explain** | Explain how each of the three workflows works, **in Korean**. Cover each node's role and how the shape of the data changes at each step. Claude then asks **three follow-up questions per workflow**, which must be answered | **Zero technical errors** across the explanations and the follow-up answers. No length requirement |
-| **T3 — Diagnose** | Given a workflow JSON that Claude has broken in advance, identify the cause **from the error message alone** and fix it | Within **30 minutes**, the identified cause matches the actual cause |
+| **T3 — Diagnose** | Given a workflow JSON that Claude has broken in advance, identify the cause **from what the run produces** and fix it | Within **30 minutes**, the identified cause matches the actual cause |
 
 **GO**: T1, T2 and T3 all pass.
 **NO-GO**: any one fails.
@@ -130,6 +130,15 @@ Notes on T2:
   explanation can be assembled without understanding; unscripted follow-ups cannot.
 - An earlier revision required the explanation not to be LLM-generated. That requirement is
   removed: it is not verifiable, and the follow-up questions test the same thing directly.
+
+Notes on T3:
+
+- **An error message is not required.** Depending on the webhook output shape and the n8n
+  version, a defect can surface with no error at all. Any of the following is valid evidence:
+  a verbatim error message, the execution taking the **wrong branch**, or a **wrong or empty
+  output** on a run that reports success.
+- What the actual run produces is the final authority. Where a recorded expectation conflicts
+  with a measured result, the measured result takes precedence.
 
 No automatic extension is granted for a failed test. Whether to extend is the user's
 explicit decision; Claude reports only how an extension affects the reliability of the
