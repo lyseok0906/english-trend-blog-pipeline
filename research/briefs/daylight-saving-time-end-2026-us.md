@@ -17,6 +17,8 @@ When daylight saving time ends in the United States in 2026, what happens to the
 
 When Does Daylight Saving Time End in 2026? What Changes and Where It Doesn't Apply
 
+Final title after English + SEO QA (2026-10-07): "When Does Daylight Saving Time End in the U.S. in 2026?" (shortened to avoid being cut off in search results).
+
 ## Search intent and focus keyword
 
 - **Focus keyword:** `when does daylight saving time end in the us`

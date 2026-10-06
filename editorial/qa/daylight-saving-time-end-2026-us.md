@@ -2,7 +2,7 @@
 
 Draft: `content/drafts/daylight-saving-time-end-2026-us.md`
 Sources: `research/sources/daylight-saving-time-end-2026-us.md` (S1–S7)
-Stage: factual QA done by Claude on 2026-10-06; English + SEO QA pending (Gate 2).
+Stage: factual QA done by Claude on 2026-10-06 (Gate 1 pass); English + SEO QA reviewed by ChatGPT, revisions applied 2026-10-07 (Gate 2: Pass after revision). Publish approval pending.
 
 Limit of this check: all pages were read through a summarizing reader, not a browser.
 Two statements were checked a second time on the live DOT pages at QA (C13, C15), and
@@ -27,7 +27,7 @@ as attributed to the named source in the text; `computed` = checked by calculati
 | C10 | NIST's list is almost the same and does not mention the Northern Mariana Islands | S1-4 compared with S2-1 | pass (attributed) |
 | C11 | NIST says the Navajo Indian Reservation is the exception in Arizona and does observe DST | S1-4 | pass (attributed) |
 | C12 | DOT oversees the nation's time zones and the uniform observance of DST | S2-2, S3-1, S3-5 | pass |
-| C13 | The statute lets a state exempt itself by state law and stay on standard time | S3-2 (verbatim: "States may choose to exempt themselves from observing Daylight Saving Time by State law."), S4-2. "Stay on standard time" is the plain meaning of not observing DST; neither page uses that phrase | pass (wording is the draft's own plain-English reading) |
+| C13 | Federal law allows a state to exempt itself from observing daylight saving time by state law (revised after Gate 2; the earlier wording "and stay on standard time" was removed from the sentence; the heading "Can a state stay on standard time?" is a question, answered by the sentence below it) | S3-2 (verbatim: "States may choose to exempt themselves from observing Daylight Saving Time by State law."), S4-2. The revised sentence follows the source wording | pass |
 | C14 | States do not have the authority to choose permanent DST (as DOT says) | S3-3, now confirmed verbatim on the live page (Uniform Time, updated July 15, 2026): "States do not have the authority to choose to be on permanent Daylight Saving Time." | pass (attributed) |
 | C15 | DOT says it does not have the power to repeal or change DST | S3-4, verbatim on the live page: "DOT does not have the power to repeal or change Daylight Saving Time." | pass (attributed) |
 | C16 | Source titles, page dates and URLs in the Sources section | S1–S4 headers (NIST updated Feb 9, 2026; DOT DST Sept 3, 2025; DOT Uniform Time July 15, 2026; govinfo statute text) | pass |
@@ -44,7 +44,7 @@ C1–C8. Rendered and checked visually; no overlapping text.
   draft attributes each list and states the difference. It does not merge them into one
   unattributed list.
 - The article does not say whether any law to end DST is pending. It says what DOT
-  states today and that the article does not track proposals.
+  states today and that the article does not track proposals (now in "Who decides").
 
 ### Not verified (and kept out of the article)
 
@@ -68,18 +68,41 @@ English + SEO QA.
 
 ## Gate 2 — English + SEO QA
 
-Status: pending. To be reviewed by commit SHA; Claude records the findings and applies
-the changes here.
+Reviewer: ChatGPT, on the draft text of commit `ae6c3de` (the diagram image was not
+provided to the reviewer, so the text inside the diagram and its rendering were checked
+by Claude only). Applied by Claude on 2026-10-07.
 
-Questions for this round:
+Result: **Pass after revision.**
 
-1. US-English wording, tone and reading level (the article is for a general reader).
-2. Search intent: does the opening answer `when does daylight saving time end in the us`
-   in the first sentence; does the page stay on one intent.
-3. Title, meta description (149 characters, limit 160), headings, alt text.
-4. Whether "Is daylight saving time ending?" is a fair, non-speculative heading.
+Passed as written:
 
-Findings: —
+- The first sentence answers the search question directly.
+- The whole page keeps one search intent.
+- Meta description is 149 characters (limit 160); unchanged.
+- US-English wording and a general-reader tone.
+- Image alt text describes the diagram appropriately.
+
+Revisions requested and applied:
+
+| # | Finding | Change made |
+|---|---|---|
+| 1 | Title was 83 characters and could be cut off in search results | Title and H1 changed to "When Does Daylight Saving Time End in the U.S. in 2026?" (55 characters). Slug and focus keyword unchanged |
+| 2 | "The statute lets a state exempt itself by state law and stay on standard time" was farther from the source wording than needed | Replaced with "Federal law allows a state to exempt itself from observing daylight saving time by state law." This also updates C13 above |
+| 3 | The heading "Is daylight saving time ending?" could read as a claim or forecast about the rule ending, which the article does not cover | Heading removed. The DOT "no power to repeal or change" sentence and the "does not track proposals" sentence now sit in "Who decides". A new section "Can a state stay on standard time?" follows it and opens with the sentence from #2, then the DOT sentence on permanent daylight saving time |
+
+Claude's note on #3: the reviewer's text suggested the new heading in place of the old
+one, but the old section's content was about DOT's lack of power to repeal or change the
+rule, which does not answer "Can a state stay on standard time?". To keep every claim
+under a heading that fits it, the repeal/proposals sentences were moved into "Who
+decides" and the new heading was given the state-exemption content. No claim was added
+or removed, only moved or reworded; C12–C15 still hold against S2–S4.
+
+After the revisions the page has these sections: What happens at 2:00 a.m. on
+November 1; The rule behind the date; Where clocks do not change; Who decides; Can a
+state stay on standard time?; Sources.
+
+Still to confirm by the reviewer (optional): the final text after revision, and the
+diagram image itself.
 
 ## Gate 3 — Publish approval
 

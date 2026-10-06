@@ -1,5 +1,5 @@
 ---
-title: "When Does Daylight Saving Time End in 2026? What Changes and Where It Doesn't Apply"
+title: "When Does Daylight Saving Time End in the U.S. in 2026?"
 slug: daylight-saving-time-end-2026-us
 meta_description: "Daylight saving time in the US ends Sunday, November 1, 2026, at 2:00 a.m. local time. See what changes, which places skip it, and who sets the rule."
 category: US dates, seasons and holidays
@@ -11,7 +11,7 @@ image: assets/optimized/daylight-saving-time-end-2026-us.png
 image_alt: "Timeline of 2026 showing daylight saving time from March 8 to November 1, and below it the clock going from 2:00 a.m. back to 1:00 a.m. on November 1."
 ---
 
-# When Does Daylight Saving Time End in 2026? What Changes and Where It Doesn't Apply
+# When Does Daylight Saving Time End in the U.S. in 2026?
 
 **In the United States, daylight saving time ends on Sunday, November 1, 2026, at 2:00 a.m. local time.** At that moment, clocks go back to 1:00 a.m.
 
@@ -47,11 +47,11 @@ NIST's list is almost the same. It does not mention the Northern Mariana Islands
 
 ## Who decides
 
-DOT oversees the nation's time zones and the uniform observance of daylight saving time. The statute lets a state exempt itself by state law and stay on standard time. DOT also says that states do not have the authority to choose permanent daylight saving time.
+DOT oversees the nation's time zones and the uniform observance of daylight saving time. DOT says it does not have the power to repeal or change daylight saving time. This article describes the rule as federal sources state it today and does not track proposals to change it.
 
-## Is daylight saving time ending?
+## Can a state stay on standard time?
 
-This article describes the rule as federal sources state it today. DOT says it does not have the power to repeal or change daylight saving time. This article does not track proposals to change the rule.
+Federal law allows a state to exempt itself from observing daylight saving time by state law. DOT says that states do not have the authority to choose permanent daylight saving time.
 
 ## Sources
 
