@@ -1,13 +1,12 @@
 # Source notes — daylight-saving-time-end-2026-us
 
-Retrieved: **2026-10-06** (all items below), by Cowork (Claude).
-**Reading limit:** every page was read through a page-summarizing tool, not opened in a browser. Quotes below are what the tool returned. Open the pages yourself before drafting and before publishing.
+Retrieved: **2026-10-06** (all items below), by Cowork (Claude). Revised the same day after the DOT and statute pages were read (revision note at the end).
+**Reading limit:** every page was read through a page-summarizing tool, not opened in a browser. Quotes below are what the tool returned. Claude re-reads these pages at drafting, at factual QA and before publish approval. The user's own look happens at final publish approval (user instruction, 2026-10-06).
 
 ## S1 — NIST: Daylight Saving Time (primary, official)
 
 - URL: https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst
 - Page date shown: "Updated February 9, 2026".
-- Read: yes (summary by tool).
 
 | # | Claim supported | Support |
 |---|---|---|
@@ -17,26 +16,60 @@ Retrieved: **2026-10-06** (all items below), by Cowork (Claude).
 | S1-4 | Places that do not observe daylight saving time: Hawaii, American Samoa, Guam, Puerto Rico, U.S. Virgin Islands, and Arizona (except the Navajo Indian Reservation) | Stated on page |
 | S1-5 | Daylight saving time and time zones are regulated by the U.S. Department of Transportation, not by NIST; the Energy Policy Act of 2005 is the law cited | Stated on page (paraphrased) |
 
-Not on the page (per the tool): energy-savings data, legislative history beyond the 2005 Act, practices of non-US territories.
+## S2 — U.S. DOT: Daylight Saving Time page (primary, official; the regulating agency)
 
-## S2 — 15 U.S.C. § 260a, Cornell Legal Information Institute copy (statute text, not the government's own site)
-
-- URL: https://www.law.cornell.edu/uscode/text/15/260a
-- Page date: shows an amendment note; the 2005 amendment took effect March 1, 2007 (per tool).
-- Read: yes (summary by tool). **This is a university-hosted copy of the statute, not uscode.house.gov or govinfo.gov.** If the draft cites the statute, open the official copy and use it as the citation.
+- URL: https://www.transportation.gov/regulations/daylight-saving-time
+- Page date shown: "Last updated September 3, 2025".
 
 | # | Claim supported | Support |
 |---|---|---|
-| S2-1 | Daylight saving time runs from 2 a.m. on the second Sunday of March to 2 a.m. on the first Sunday of November | Stated in statute text |
-| S2-2 | A state entirely within one time zone may exempt itself by law if the entire state observes standard time; a state in more than one time zone may exempt the whole state or the part within a given zone | Stated in statute text (paraphrased) |
+| S2-1 | Places that do not observe daylight saving time: Hawaii, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, the Virgin Islands, and most of Arizona | Quoted by tool from the page |
+| S2-2 | DOT oversees regulations under the Uniform Time Act | Stated on page (paraphrased) |
 
-## S3 — Calendar computation (Python, 2026-10-06)
+Not on the page (per the tool): the start and end Sundays, whether states may adopt year-round daylight time.
+
+**Difference between S1 and S2 (must be settled at factual QA):** S2 lists the Northern Mariana Islands and S1 does not; S1 says Arizona "except the Navajo Indian Reservation" while S2 says "most of Arizona". The two sources are not contradictory about Arizona, but the lists differ on one territory. The draft attributes the list to DOT (the regulating agency) and does not present the NIST list as complete.
+
+## S3 — U.S. DOT: Uniform Time (primary, official)
+
+- URL: https://www.transportation.gov/regulations/time-act
+- Page date shown: "Last updated July 15, 2026".
+
+| # | Claim supported | Support |
+|---|---|---|
+| S3-1 | The Uniform Time Act establishes a system of uniform daylight saving time across the nation; states that observe it must begin and end on federally mandated dates | Stated on page (paraphrased) |
+| S3-2 | "States may choose to exempt themselves from observing Daylight Saving Time by State law." | Quoted on page |
+| S3-3 | States cannot choose permanent daylight saving time | Reported by tool as the page's statement; **confirm the exact wording at factual QA** |
+| S3-4 | "DOT does not have the power to repeal or change Daylight Saving Time" and has no role in individual state decisions | Quoted on page |
+| S3-5 | DOT oversees the nation's time zones; Congress or the Secretary of Transportation can change time-zone boundaries | Stated on page (paraphrased) |
+
+Not on the page (per the tool): the start and end dates.
+
+## S4 — 15 U.S.C. § 260a, govinfo.gov (primary, official statute text)
+
+- URL: https://www.govinfo.gov/link/uscode/15/260a
+- Page date: no edition date labeled (per tool); amendment notes show changes in 1972, 1983, 1986 and 2005, and the text reflects amendments through Pub. L. 109-58 (Aug. 8, 2005).
+
+| # | Claim supported | Support |
+|---|---|---|
+| S4-1 | Daylight saving time runs from 2 a.m. on the second Sunday of March to 2 a.m. on the first Sunday of November | Stated in statute text |
+| S4-2 | A state entirely within one time zone may exempt itself by law; a state in more than one time zone may exempt the whole state or the part within a given zone | Stated in statute text (paraphrased) |
+| S4-3 | The 2005 amendment moved the period from April-October to March-November | Reported by tool from the page's amendment notes |
+
+The uscode.house.gov copy returned only a maintenance notice on 2026-10-06 and was not used.
+
+## S5 — 15 U.S.C. § 260a, Cornell Legal Information Institute copy (corroboration only)
+
+- URL: https://www.law.cornell.edu/uscode/text/15/260a
+- Read the same day; it agrees with S4 on the dates (S4-1) and state exemptions (S4-2). It is a university-hosted copy, so S4 is the citation if the draft cites the statute.
+
+## S6 — Calendar computation (Python, 2026-10-06)
 
 - March 2026 Sundays: 1, 8, 15 → second Sunday is March 8. November 2026 Sundays: 1, 8 → first Sunday is November 1.
 - Days from 2026-10-06 to 2026-11-01: 26.
-- This checks S1-1 against the rule in S1-2; it does not replace S1.
+- This checks S1-1 against the rule in S1-2 and S4-1; it does not replace them.
 
-## S4 — Google autocomplete, US setting (demand signal, qualitative only)
+## S7 — Google autocomplete, US setting (demand signal, qualitative only)
 
 Endpoint: suggestqueries.google.com, `hl=en&gl=us`. Fetched 2026-10-06 through the summarizing tool. Autocomplete changes between fetches and shows that a query shape is suggested; it gives no search volume and no competition.
 
@@ -51,11 +84,15 @@ Endpoint: suggestqueries.google.com, `hl=en&gl=us`. Fetched 2026-10-06 through t
 ## Not verified
 
 - Search volume and competition.
-- The Department of Transportation's own page on this topic (not read; a DOT page returned 404 in an earlier session).
-- Anything about proposed legislation (out of scope).
+- The exact wording of S3-3 (permanent daylight saving time).
+- Whether the Northern Mariana Islands belong in the list the article gives (S2 includes them, S1 does not).
+- Anything about pending legislation (out of scope). S3-4 is the only sentence the article uses for readers who ask whether daylight saving time is ending, and it says only what DOT can and cannot do.
 - Other countries' dates (out of scope).
-- The official statute copy at uscode.house.gov or govinfo.gov.
 
-## To re-check before drafting and before publishing
+## To re-check at drafting, at factual QA and before publish approval
 
-Re-open S1 (look at the "Updated" date and the 2026 dates and the non-observing list) and the statute (S2) in a browser.
+Re-read S1 to S4 (page dates, the 2026 dates, the non-observing list, S3-3 wording). If a page date or a fact changed, record it here and return to draft.
+
+## Revision note
+
+First version (commit e346543) listed the DOT page as unread and the statute as read only through the Cornell copy. This revision adds S2, S3 and S4, and records the difference between the NIST and DOT lists.
