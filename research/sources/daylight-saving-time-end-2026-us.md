@@ -39,7 +39,7 @@ Not on the page (per the tool): the start and end Sundays, whether states may ad
 |---|---|---|
 | S3-1 | The Uniform Time Act establishes a system of uniform daylight saving time across the nation; states that observe it must begin and end on federally mandated dates | Stated on page (paraphrased) |
 | S3-2 | "States may choose to exempt themselves from observing Daylight Saving Time by State law." | Quoted on page |
-| S3-3 | States cannot choose permanent daylight saving time | Reported by tool as the page's statement; **confirm the exact wording at factual QA** |
+| S3-3 | States cannot choose permanent daylight saving time | Verified verbatim on the live page 2026-10-06: "States do not have the authority to choose to be on permanent Daylight Saving Time." |
 | S3-4 | "DOT does not have the power to repeal or change Daylight Saving Time" and has no role in individual state decisions | Quoted on page |
 | S3-5 | DOT oversees the nation's time zones; Congress or the Secretary of Transportation can change time-zone boundaries | Stated on page (paraphrased) |
 
@@ -84,7 +84,6 @@ Endpoint: suggestqueries.google.com, `hl=en&gl=us`. Fetched 2026-10-06 through t
 ## Not verified
 
 - Search volume and competition.
-- The exact wording of S3-3 (permanent daylight saving time).
 - Whether the Northern Mariana Islands belong in the list the article gives (S2 includes them, S1 does not).
 - Anything about pending legislation (out of scope). S3-4 is the only sentence the article uses for readers who ask whether daylight saving time is ending, and it says only what DOT can and cannot do.
 - Other countries' dates (out of scope).
