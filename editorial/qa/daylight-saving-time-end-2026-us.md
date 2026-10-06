@@ -138,7 +138,7 @@ Result: no source changed. Article moved to `content/ready/`, front matter `stat
 - Slug (permalink): `daylight-saving-time-end-2026-us` (stable once published)
 - Category: US dates, seasons and holidays
 - Meta description (149 characters): "Daylight saving time in the US ends Sunday, November 1, 2026, at 2:00 a.m. local time. See what changes, which places skip it, and who sets the rule."
-- Body: the text of `content/ready/daylight-saving-time-end-2026-us.md` below the second `#` title line is not needed; WordPress uses the Title field. Start the body at the bold first sentence.
+- Body: start at the bold first sentence. Do not repeat the `#` title line, because WordPress shows the Title field as the page title.
 - Image: upload `assets/optimized/daylight-saving-time-end-2026-us.png` and use it in the body where the markdown image line is; use it as the featured image as well. Alt text: the `image_alt` value in the front matter.
 - Table under "Where clocks do not change" and the four links under "Sources" should keep their format.
 - Before pressing Publish: read the preview once; publish before November 1, 2026.
