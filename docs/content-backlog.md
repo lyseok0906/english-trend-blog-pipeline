@@ -20,7 +20,9 @@ A topic that fails any of these is recorded as `rejected` with the reason.
 
 | # | Slug | Working title | Search intent | Stage | Notes |
 |---|---|---|---|---|---|
-| — | — | _No topics entered yet_ | — | — | Selection framework agreed in `docs/blog-c-site-structure.md` (2026-10-06). First entries come with the week-1 briefs; each must meet the three entry conditions above |
+| 1 | `daylight-saving-time-end-2026-us` | When Does Daylight Saving Time End in 2026? What Changes and Where It Doesn't Apply | `when does daylight saving time end in the us` | brief | Week 1, first post; must publish before 2026-11-01. Lane: US dates, seasons, holidays. Source notes drafted 2026-10-06; browser check of sources pending |
+| 2 | `tsa-3-1-1-liquids-rule` | What Is the TSA 3-1-1 Liquids Rule? What Counts, What's Exempt, What to Expect | `what is the tsa liquids rule` | brief | Week 1. Lane: airport security rules. Mandatory official-page re-check; TSA pages often return 403 to Claude's reader, so the user opens them in a browser. Source notes drafted 2026-10-06 |
+| 3 | `forever-stamp-how-it-works` | How Does a Forever Stamp Work? What It Covers and What It Doesn't | `how does a forever stamp work` | brief | Week 1. Lane: postal service and stamps. Mandatory official-page re-check; no price number in article text. Source notes drafted 2026-10-06 |
 
 ## Rejected
 
