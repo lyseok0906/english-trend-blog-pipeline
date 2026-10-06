@@ -4,7 +4,7 @@ slug: daylight-saving-time-end-2026-us
 meta_description: "Daylight saving time in the US ends Sunday, November 1, 2026, at 2:00 a.m. local time. See what changes, which places skip it, and who sets the rule."
 category: US dates, seasons and holidays
 focus_keyword: when does daylight saving time end in the us
-status: draft
+status: ready
 date: 2026-10-06
 internal_link_candidates: none (no published articles yet)
 image: assets/optimized/daylight-saving-time-end-2026-us.png

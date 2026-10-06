@@ -1,6 +1,6 @@
 # QA record — daylight-saving-time-end-2026-us
 
-Draft: `content/drafts/daylight-saving-time-end-2026-us.md`
+Article: `content/ready/daylight-saving-time-end-2026-us.md` (moved from `content/drafts/` on 2026-10-07)
 Sources: `research/sources/daylight-saving-time-end-2026-us.md` (S1–S7)
 Stage: factual QA done by Claude on 2026-10-06 (Gate 1 pass); English + SEO QA reviewed by ChatGPT, revisions applied 2026-10-07 (Gate 2: Pass after revision). Publish approval pending.
 
@@ -106,5 +106,40 @@ diagram image itself.
 
 ## Gate 3 — Publish approval
 
-Not requested. The user approves publishing each article explicitly; this record does
-not grant it.
+Approval: given by the user in chat on 2026-10-07 for this article only ("approve moving to
+ready"). It is not approval of any other article and not approval to publish
+automatically. The user publishes in WordPress.
+
+Final reviewer confirmation: ChatGPT confirmed the three Gate 2 revisions on commit
+`910a211` and checked the diagram (dates, times, the repeated 1:00–2:00 a.m. hour, no
+clipped or overlapping text) and that the four source links open.
+
+Pre-approval source re-check by Claude, 2026-10-07 (same reading tool as before, so the
+same limit applies):
+
+| Source | Re-check result |
+|---|---|
+| NIST | Updated Feb 9, 2026; 2026 dates, rule wording, non-observing list (no Northern Mariana Islands; Navajo Indian Reservation observes DST) and DOT-regulates statement unchanged |
+| DOT, Daylight Saving Time | Updated Sept 3, 2025; list unchanged (includes Northern Mariana Islands, "most of Arizona") |
+| DOT, Uniform Time | Updated July 15, 2026; the three quoted sentences unchanged (exemption by state law; no authority for permanent DST; no power to repeal or change DST) |
+| 15 U.S.C. § 260a (govinfo) | 2:00 a.m. second Sunday of March to 2:00 a.m. first Sunday of November; state exemption by law; latest amendment Aug 8, 2005 (Pub. L. 109-58); unchanged |
+
+One nuance recorded: the reader's summary of the DOT "Daylight Saving Time" page did not
+repeat a sentence about what DOT oversees. The article's statement that DOT oversees the
+nation's time zones and uniform observance of daylight saving time rests on NIST
+(S1-5: regulated by DOT) and the DOT "Uniform Time" page (S3-1, S3-5), not on that
+page, and is not attributed to it in the text. No change needed.
+
+Result: no source changed. Article moved to `content/ready/`, front matter `status: ready`.
+
+### Hand-off for publishing in WordPress (user)
+
+- Title: When Does Daylight Saving Time End in the U.S. in 2026?
+- Slug (permalink): `daylight-saving-time-end-2026-us` (stable once published)
+- Category: US dates, seasons and holidays
+- Meta description (149 characters): "Daylight saving time in the US ends Sunday, November 1, 2026, at 2:00 a.m. local time. See what changes, which places skip it, and who sets the rule."
+- Body: the text of `content/ready/daylight-saving-time-end-2026-us.md` below the second `#` title line is not needed; WordPress uses the Title field. Start the body at the bold first sentence.
+- Image: upload `assets/optimized/daylight-saving-time-end-2026-us.png` and use it in the body where the markdown image line is; use it as the featured image as well. Alt text: the `image_alt` value in the front matter.
+- Table under "Where clocks do not change" and the four links under "Sources" should keep their format.
+- Before pressing Publish: read the preview once; publish before November 1, 2026.
+- After publishing: send Claude the live URL. Claude then moves the article to `content/published/` with that URL and updates the backlog.
