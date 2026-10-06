@@ -129,3 +129,60 @@ Hidden-discovery wording was removed from W1 because the cases are intentionally
 
 Detection of an undisclosed defect is measured by T3, which is sealed, and is not duplicated
 in W1.
+
+---
+
+## 2026-10-06 — Direction change: n8n proof gate stopped, initial 4-week pilot scope adopted
+
+Earlier entries are left as written.
+
+**Context.** The 2026-09-28 conditional niche (workflow automation for small teams) depended
+on a 14-day proof gate that was recorded as `NOT STARTED` and never returned a result. The
+user then moved to a different direction, tested it with one unpublished trial article
+(Meta Muse; see `docs/blog-c-trial1-record.md`), answered "no" to writing similar posts, and
+confirmed the reason: the single AI-agent topic did not match their interest or their
+original idea of covering several light keywords. That answer did not judge whether the
+blog's operating method itself fits. Lane comparisons followed (`docs/blog-c-lanes-planning.md`
+and further lane research kept outside this repository).
+
+**Decisions.**
+
+1. **The n8n / workflow-automation direction is stopped.** The proof gate is not started or
+   resumed. `docs/niche-decision.md` and `docs/proof-gate-n8n.md` are marked
+   `SUPERSEDED / STOPPED` and kept as history. The "prohibited until the gate passes" list
+   (decision 9 of the 2026-09-28 niche entry) no longer applies as a gate condition.
+2. **Initial pilot scope: three lanes**, each marked "want to continue" by the user:
+   US dates, seasons and holidays; airport security rules; postal service and stamps. The
+   user's confirmation rule (at least two different lanes marked "want to continue") is met.
+3. **Site promise: "Everyday U.S. Questions, Explained Simply."**
+4. **Pilot design: first 4 weeks, target 12 posts, 3 posts per week, daylight saving time
+   first** (it ends November 1, 2026). Sustainability of this pace for this lane combination
+   is not verified; it is evaluated after the 4 weeks, and no 12-week plan is made before
+   then.
+5. **This is not a permanent niche confirmation.** The active standard is
+   `docs/blog-c-site-structure.md`, with status `ACTIVE — initial 4-week pilot scope`.
+6. **Rule-type posts (airport security, postal) must be re-checked against the official page
+   right before drafting and again right before publishing.** If the page cannot be opened,
+   the post is not published.
+7. **Excluded from the initial scope:** K-pop (copyright and publicity-rights dependence, an
+   operating criterion and not a legal finding), viral video memes (failed source and image
+   verification), weather-alert terms (definitions tie directly to immediate safety actions),
+   and health, investment, legal and election-procedure topics.
+
+**Written in this round.** `docs/blog-c-site-structure.md` (new), status banners on
+`docs/niche-decision.md` and `docs/proof-gate-n8n.md`, the placeholder row in
+`docs/content-backlog.md`, one row in the `README.md` Documents table, and this entry.
+
+**Deliberately not done.** No topic brief, source note or article was written. Nothing was
+pushed. `docs/operating-model.md`, `config/editorial-policy.md` and `AGENTS.md` were not
+changed. The n8n installation and the `_proofgate-n8n` folder outside this repository were
+not touched.
+
+**Open items.**
+
+- Twelve posts need twelve topics; five candidates exist (daylight saving end, first day of
+  winter, Thanksgiving, the TSA 3-1-1 liquids rule, the Forever stamp). Seven more must pass
+  the entry conditions in `docs/content-backlog.md`.
+- `README.md` and `docs/operating-model.md` still call this an English "trends" blog. The
+  pilot lanes explain rules, dates and how things work rather than cover trends. The wording
+  is deliberately left for the user to decide after the pilot evaluation.

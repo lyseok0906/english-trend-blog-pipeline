@@ -1,6 +1,17 @@
 # Niche Decision
 
-**Status: `CONDITIONAL — NOT FINALIZED`**
+**Status: `SUPERSEDED / STOPPED` (2026-10-06)**
+
+> **Historical record.** The n8n / workflow-automation direction described below was stopped
+> on 2026-10-06. This document no longer governs the blog, the n8n proof gate is not started
+> or resumed, and nothing below is deleted. The active standard for the initial 4-week pilot
+> is `docs/blog-c-site-structure.md`; the decision is recorded in `docs/decision-log.md`
+> (entry 2026-10-06). A rule from this document that should still apply must be restated in
+> that document or in the decision log; it does not carry over by default.
+>
+> Previous status, as of 2026-09-28: `CONDITIONAL — NOT FINALIZED`.
+
+The text below is preserved as written on 2026-09-28.
 
 This document records a conditional decision. The niche is not settled. It becomes settled
 only when the proof gate in `docs/proof-gate-n8n.md` returns GO and the user approves that

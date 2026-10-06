@@ -20,7 +20,7 @@ A topic that fails any of these is recorded as `rejected` with the reason.
 
 | # | Slug | Working title | Search intent | Stage | Notes |
 |---|---|---|---|---|---|
-| — | — | _No topics selected yet_ | — | — | Topic selection framework to be agreed before the first entry |
+| — | — | _No topics entered yet_ | — | — | Selection framework agreed in `docs/blog-c-site-structure.md` (2026-10-06). First entries come with the week-1 briefs; each must meet the three entry conditions above |
 
 ## Rejected
 

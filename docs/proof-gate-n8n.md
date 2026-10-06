@@ -1,6 +1,15 @@
 # Proof Gate — n8n (14 days)
 
-**Status: `NOT STARTED`**
+**Status: `SUPERSEDED / STOPPED` (2026-10-06)**
+
+> **Historical record.** The n8n direction was stopped on 2026-10-06. This gate is not
+> started or resumed, it returns no GO or NO-GO result, and the "Prohibited until the gate
+> passes" list in section 7 no longer applies. Nothing below is deleted. The active standard
+> is `docs/blog-c-site-structure.md`; see `docs/decision-log.md`, entry 2026-10-06.
+>
+> Previous status: `NOT STARTED`.
+
+The text below is preserved as written.
 
 A 14-day gate that must pass before any content backlog work begins. It relates to the
 conditional decision in `docs/niche-decision.md`.
