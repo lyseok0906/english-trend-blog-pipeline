@@ -143,3 +143,11 @@ Result: no source changed. Article moved to `content/ready/`, front matter `stat
 - Table under "Where clocks do not change" and the four links under "Sources" should keep their format.
 - Before pressing Publish: read the preview once; publish before November 1, 2026.
 - After publishing: send Claude the live URL. Claude then moves the article to `content/published/` with that URL and updates the backlog.
+
+### After publishing (checks by Claude on the live site, with the user's browser pane)
+
+1. The live URL opens, the title and headings are as in `content/ready/`, and the table renders.
+2. The diagram loads, has the alt text from the front matter, and is not cut off on a phone-width screen.
+3. Meta description and title in the page source match this record.
+4. `https://statesideexplained.com/sitemap_index.xml` opens and lists the post. On 2026-10-07, before any content was published, it returned 404 while `post-sitemap.xml` and `page-sitemap.xml` returned 200; Rank Math reports that URL as the sitemap index and its sitemap module is on, so the 404 was probably caused by having no published content. This is not proven. If it is still 404 after the first post is published, treat it as a site setup problem (Rank Math sitemap settings, permalinks, cache) and fix it before publishing more posts.
+5. Wordfence license registration and turning comments off (Settings → Discussion) are done before or right after this first post.
