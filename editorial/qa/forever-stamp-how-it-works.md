@@ -1,8 +1,8 @@
 # QA record — forever-stamp-how-it-works
 
-Article: `content/drafts/forever-stamp-how-it-works.md`
+Article: `content/ready/forever-stamp-how-it-works.md` (moved from `content/drafts/` on 2026-10-07)
 Sources: `research/sources/forever-stamp-how-it-works.md` (S1–S4, section "Re-read in a real browser (2026-10-07)")
-Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07; Gate 2 (English + SEO, ChatGPT) passed 2026-10-07 after three wording fixes.
+Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07; Gate 2 (English + SEO, ChatGPT) passed 2026-10-07 after three wording fixes. Pre-approval USPS re-check done 2026-10-07 (no change). Moved to `content/ready/` 2026-10-07 after the user's approval. Publishing is a separate step by the user.
 
 Method: all four USPS pages were read in the built-in browser on 2026-10-07. The quoted sentences and the page titles were tested again by script after the draft was written (S2 and S1). USPS is the only source used. No price number is in the article text (brief rule).
 
@@ -66,4 +66,16 @@ ChatGPT reviewed commit `e0aee2b` on 2026-10-07. Title kept as is (57 characters
 
 ChatGPT said Gate 2 counts as PASS once these three changes are made. Done in the commit that follows `e0aee2b`. The word "separate" no longer appears in the article, the diagram or the alt text.
 
-Result: **PASS** (2026-10-07). Next: mandatory USPS re-check right before the user approves moving the article to `ready`.
+Result: **PASS** (2026-10-07). Next: mandatory USPS re-check right before the user approves moving the article to `ready` (done below).
+
+## Pre-approval USPS re-check (2026-10-07)
+
+All four USPS pages were opened again in the built-in browser and the draft's quoted and paraphrased wording was tested by script (details in the source notes, section "Re-check before approval"). No difference: S1 April 12, 2007; S2 validity, domestic, 1 oz, territories and "approximately 4 sheets" wording; S3 effective October 4, 2026 and rising stamped-letter rows, no "Forever" line; S4 Global Forever wording, 180 countries, no statement about a regular Forever stamp. Result: unchanged, article may move to `ready`.
+
+## Gate 3 — Approval
+
+The user approved moving this article to `content/ready/` on 2026-10-07, on condition that Claude re-checks the USPS pages first and the content is the same. It was. Order set by the user: publish the TSA article first, run live QA on it, then Claude uploads this article to WordPress as a draft and the user previews and publishes it.
+
+## WordPress hand-off (for the upload step)
+
+Title, slug, category (new category "Postal service and stamps" to be created), meta description and focus keyword are in the front matter. Body starts at the bold sentence (the title is the post title). Upload the PNG with the `image_alt` text and do not also set it as the featured image. Preview on phone width before publishing. If more than a day passes before publishing, tell Claude so the USPS pages are re-read. After publishing, send the live URL for live QA.

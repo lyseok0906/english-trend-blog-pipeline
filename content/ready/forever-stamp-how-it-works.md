@@ -4,7 +4,7 @@ slug: forever-stamp-how-it-works
 meta_description: "A Forever stamp pays the 1-ounce First-Class Mail rate even after prices rise. See what USPS says it covers, and what it doesn't."
 category: Postal service and stamps
 focus_keyword: how does a forever stamp work
-status: draft
+status: ready
 date: 2026-10-07
 internal_link_candidates: none (the published article is about daylight saving time; the TSA article is not related)
 image: assets/optimized/forever-stamp-how-it-works.png

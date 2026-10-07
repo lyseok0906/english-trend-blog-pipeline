@@ -243,3 +243,7 @@ Claude drafted `content/drafts/forever-stamp-how-it-works.md` (about 700 words i
 ## 2026-10-07 — Forever stamp: Gate 2 passed
 
 ChatGPT reviewed commit `e0aee2b`: title kept (57 characters); body, meta description, structure and diagram readability passed. One fix in three places: the word "separate" (USPS does not use it) was removed from the body, the diagram and the alt text, leaving "the Global Forever stamp". Fixed and recorded; Gate 2 counts as PASS. The article stays in `content/drafts/`. Before the user approves the move to `ready`, Claude re-reads the four USPS pages (mandatory re-check).
+
+## 2026-10-07 — Forever stamp: approved to move to ready
+
+Claude re-read all four USPS pages in the browser first; nothing differed. The user then approved moving `forever-stamp-how-it-works` to `content/ready/` for this article only. Front matter set to `status: ready`; backlog stage `ready`. Publishing order set by the user: (1) the user previews and publishes the TSA article, (2) the user sends the live URL and Claude runs live QA, (3) Claude uploads the Forever stamp article as a WordPress draft, (4) the user previews and publishes it.

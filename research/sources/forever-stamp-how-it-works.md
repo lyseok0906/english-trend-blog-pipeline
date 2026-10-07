@@ -110,3 +110,11 @@ The summarizing tool was not needed. Each page was opened in the built-in browse
 ## To re-check before drafting, after factual QA, and before publishing (mandatory)
 
 Open S1, S2, S3 and S4 in a browser. Compare the validity wording, the domestic 1 ounce limit, the price list, and the Global Forever description with the tables above. Record page dates.
+
+## Re-check before approval (2026-10-07, after Gate 2)
+
+All four pages were opened again in the built-in browser and the draft's wording was tested by script. No difference from the earlier read.
+- S1: title "2007 - First Forever stamps issued - U.S. Postal Facts"; visible text still says "issued April 12, 2007"; metadata modified date unchanged (2026-05-20).
+- S2: "Always valid for the First-Class Mail 1 oz rate, even if postage rates increase"; "domestic mail weighing up to 1 oz via First-Class Mail"; "letters and cards up to 1 oz"; the territories and military bases wording; the "approximately 4 sheets" wording. All present, also in a fresh uncached fetch.
+- S3: "Notice 123 • Effective October 04, 2026"; Letters (Stamped) 1 oz, 2 oz and 3 oz rows still rise in that order; the word "Forever" is still absent.
+- S4: Global Forever sentence ("never expires, even if the postage price goes up"), "more than 180 countries" and "Global Forever stamp available" still present; the only "Forever" lines on the page are the Global Forever ones, so it still does not say whether a regular Forever stamp works internationally.
