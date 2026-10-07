@@ -97,3 +97,7 @@ Both pages were opened again after the draft was written and the whole `main` te
 - **T2** (https://www.tsa.gov/travel/frequently-asked-questions/breast-milk-formula-and-juice-exempt-3-1-1-liquids-rule, 1,144 characters of text): identical to the record above (carry-on allowed over 3.4 oz, not needed in a quart-sized bag, remove to screen separately). No update date and no change notice on the page.
 - Neither page was changed since the earlier read the same day.
 - Still to do: one more read of both pages right before publish approval.
+
+## Re-check after Gate 2 (2026-10-07)
+
+Both pages opened again; all draft-relevant sentences matched by script and no update date or change notice appeared. Details in `editorial/qa/tsa-3-1-1-liquids-rule.md`, section "Pre-approval source re-check". One more read is still required right before publishing if time passes.

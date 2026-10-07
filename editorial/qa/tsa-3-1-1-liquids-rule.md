@@ -2,7 +2,7 @@
 
 Article: `content/drafts/tsa-3-1-1-liquids-rule.md`
 Sources: `research/sources/tsa-3-1-1-liquids-rule.md` (T1 and T2, read in a real browser on 2026-10-07; the earlier S1–S3 reads used a summarizing tool)
-Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT) not yet done. Publish approval not given.
+Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07; Gate 2 (English + SEO, ChatGPT) passed 2026-10-07. Pre-approval TSA re-check done 2026-10-07 (no change). Article still in `content/drafts/`: moving it to `ready` needs the user's approval. Publish approval not given.
 
 Method: the full text of both TSA pages was read in the built-in browser and compared with every claim in the draft. The pages were opened a second time after the draft was written, and the key sentences were tested by script (see the re-check section in the source notes). TSA is the only source used.
 
@@ -95,10 +95,33 @@ The article text did not change. The diagram was redrawn (same layout, three lin
 
 Per the reviewer's rule, this revised diagram needs only a wording check by the reviewer, not a full review. After that check, Gate 2 counts as passed.
 
-Status: Gate 2 passed for text and SEO; diagram wording check pending.
+Diagram wording check: done by ChatGPT on commit `df5d08c` (user report, 2026-10-07). Both wording changes are reflected exactly (the "Any liquid, aerosol, gel, cream or paste that alarms needs additional screening." line and the "Tamper-evident bag, original receipt, and a purchase within 48 hours." line); the alt text in the article matches the new bottom line; no clipped or overlapping text.
+
+**Gate 2: PASS (2026-10-07).**
 
 Points the reviewer was given:
 
 - Title is 50 characters ("What Is the TSA 3-1-1 Liquids Rule? What's Exempt?"); the focus keyword is `what is the tsa liquids rule`.
 - Meta description is 152 characters (limit 160).
 - One short quote only ("facilitates the screening process").
+
+## Pre-approval source re-check (2026-10-07, after Gate 2)
+
+Both TSA pages were opened again in the built-in browser and their text was tested by script against the draft's wording (rule page read in the browser pane; the FAQ page fetched from the same site and parsed).
+
+| Check | Result |
+|---|---|
+| T1: quart-sized bag sentence; "3.4 ounces (100 milliliters) or less per item"; "separating from your carry-on baggage facilitates the screening process"; checked-baggage sentence; "alarms during screening will require additional screening" | all found, wording unchanged |
+| T1: three exemption links (Medications, Infant and child nourishments, Inbound International Flights) | found |
+| T1: duty-free conditions (purchased internationally and flying to the U.S. on a connecting flight; transparent, secure, tamper-evident bag packed by the retailer; original receipt and purchase within 48 hours); "must be screened and cleared"; the recommendation to pack liquids over 3.4 oz in checked baggage; last sentence on liquids not in a tamper-evident bag | all found, wording unchanged |
+| T1: any instruction to remove or take out the bag | none |
+| T2: breast milk, formula and juice over 3.4 oz allowed in carry-on and not needed in a quart-sized bag; remove them to be screened separately | both found, wording unchanged |
+| Update date or change notice on either page | none found |
+
+Result: no TSA wording changed since the first read. Method note: the character counts differ slightly from the earlier reads (T1 1,673 vs 1,686; the FAQ was parsed from fetched HTML, so its count is not comparable) because spacing was normalized and the FAQ was read a different way; the tested sentences are what matters and all matched.
+
+Because the user will approve, Claude will read both pages once more immediately before the WordPress publish step if more than a day passes between this check and publishing.
+
+## Gate 3 — Publish approval
+
+Not given yet. Next: the user decides whether to move the article to `content/ready/`.
