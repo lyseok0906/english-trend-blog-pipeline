@@ -8,7 +8,7 @@ status: draft
 date: 2026-10-07
 internal_link_candidates: none (the published article is about daylight saving time; the TSA article is not related)
 image: assets/optimized/forever-stamp-how-it-works.png
-image_alt: "Flowchart of how a Forever stamp works: USPS says it is always valid for the First-Class Mail 1 ounce rate even if postage rates increase. Domestic mail up to 1 ounce is covered by that rate. For domestic mail over 1 ounce, the USPS price list shows higher prices for letters up to 2 and 3 ounces. For international mail, USPS describes a separate stamp called the Global Forever."
+image_alt: "Flowchart of how a Forever stamp works: USPS says it is always valid for the First-Class Mail 1 ounce rate even if postage rates increase. Domestic mail up to 1 ounce is covered by that rate. For domestic mail over 1 ounce, the USPS price list shows higher prices for letters up to 2 and 3 ounces. For international mail, USPS describes the Global Forever stamp."
 ---
 
 # How Does a Forever Stamp Work? What It Covers and Doesn't
@@ -17,7 +17,7 @@ image_alt: "Flowchart of how a Forever stamp works: USPS says it is always valid
 
 This article explains what USPS's own pages say. The wording below is as of October 7, 2026, and comes from the four USPS pages listed at the end. None of the four pages shows an update date. The price list shows its effective date, October 4, 2026.
 
-![Flowchart of how a Forever stamp works: USPS says it is always valid for the First-Class Mail 1 ounce rate even if postage rates increase. Domestic mail up to 1 ounce is covered by that rate. For domestic mail over 1 ounce, the USPS price list shows higher prices for letters up to 2 and 3 ounces. For international mail, USPS describes a separate stamp called the Global Forever.](assets/optimized/forever-stamp-how-it-works.png)
+![Flowchart of how a Forever stamp works: USPS says it is always valid for the First-Class Mail 1 ounce rate even if postage rates increase. Domestic mail up to 1 ounce is covered by that rate. For domestic mail over 1 ounce, the USPS price list shows higher prices for letters up to 2 and 3 ounces. For international mail, USPS describes the Global Forever stamp.](assets/optimized/forever-stamp-how-it-works.png)
 
 ## What "Forever" means
 
@@ -35,7 +35,7 @@ For a sense of scale, the same page says 1 ounce is approximately 4 sheets of re
 
 **Mail over 1 ounce.** A Forever stamp is for mail up to 1 ounce. USPS's price list charges more for heavier letters: a stamped letter up to 2 ounces and one up to 3 ounces each have a higher price than a stamped letter up to 1 ounce. This article does not cover how to add postage for a heavier letter.
 
-**International mail.** USPS's store page describes a Forever stamp as being for domestic mail. USPS's international page describes a separate stamp, the Global Forever, for sending 1-ounce letters or postcards to other countries. It says that stamp never expires, even if the postage price goes up, and that First-Class Mail International reaches more than 180 countries. The USPS pages used here do not say whether a regular Forever stamp can be used on international mail, so this article does not say.
+**International mail.** USPS's store page describes a Forever stamp as being for domestic mail. USPS's international page describes the Global Forever stamp for sending 1-ounce letters or postcards to other countries. It says that stamp never expires, even if the postage price goes up, and that First-Class Mail International reaches more than 180 countries. The USPS pages used here do not say whether a regular Forever stamp can be used on international mail, so this article does not say.
 
 ## What this article does not cover
 

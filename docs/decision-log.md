@@ -239,3 +239,7 @@ Claude read S1–S4 in the built-in browser and recorded the wording in `researc
 ## 2026-10-07 — Forever stamp: draft written, Gate 1 done
 
 Claude drafted `content/drafts/forever-stamp-how-it-works.md` (about 700 words including front matter and sources) with its own flowchart (no stamp art, no USPS logo). The title was shortened to "How Does a Forever Stamp Work? What It Covers and Doesn't" (57 characters) from the 64-character working title, so it is less likely to be cut off in search results. No price number is in the text. Gate 1 (18 claims) is in `editorial/qa/forever-stamp-how-it-works.md`; one open wording point (C13, "separate stamp") is flagged for Gate 2. Next: Gate 2 by ChatGPT, then the mandatory USPS re-check before the user approves the move to `ready`.
+
+## 2026-10-07 — Forever stamp: Gate 2 passed
+
+ChatGPT reviewed commit `e0aee2b`: title kept (57 characters); body, meta description, structure and diagram readability passed. One fix in three places: the word "separate" (USPS does not use it) was removed from the body, the diagram and the alt text, leaving "the Global Forever stamp". Fixed and recorded; Gate 2 counts as PASS. The article stays in `content/drafts/`. Before the user approves the move to `ready`, Claude re-reads the four USPS pages (mandatory re-check).
