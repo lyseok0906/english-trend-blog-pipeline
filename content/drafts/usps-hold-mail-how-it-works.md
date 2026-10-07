@@ -47,7 +47,7 @@ If you choose carrier delivery and nobody is home, the FAQ says only the mail th
 
 ## What this article does not cover
 
-This article does not cover holding a single package or having a package held for pickup, which USPS describes separately. It does not cover authorizing someone else to pick up held mail, how a change of address affects a hold, PO boxes, business or military mail. It gives no advice on mail theft or home safety. This article describes what USPS's pages state on the date above and does not track changes to them.
+This article does not cover holding a single package or having a package held for pickup, which USPS describes separately. It does not cover authorizing someone else to pick up held mail, how a change of address affects a hold, PO boxes, or business or military mail. It gives no advice on mail theft or home safety. This article describes what USPS's pages state on the date above and does not track changes to them.
 
 ## Sources
 

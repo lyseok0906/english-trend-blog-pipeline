@@ -1,0 +1,64 @@
+# QA record — usps-mail-forwarding-how-long
+
+Article: `content/drafts/usps-mail-forwarding-how-long.md`
+Brief: `research/briefs/usps-mail-forwarding-how-long.md`. Sources: `research/sources/usps-mail-forwarding-how-long.md` (S1 USPS "Standard Forward Mail & Change of Address", S2 USPS FAQ "Mail Forwarding Options", S3 USPS FAQ "Extended Mail Forwarding").
+Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Not sent to Gate 2, not approved, not on WordPress, not published.
+
+Method: the three USPS pages were opened again in the built-in browser on 2026-10-07; their text was read and the quoted statements tested by script against the page text (S1 18 phrases, S2 the FAQ sentence, S3 12 phrases): all present. This is the drafting and factual-QA re-check required for rule posts; the re-check right before the user approves moving to `ready` and again right before publishing is still **mandatory**; if a page cannot be opened, do not publish.
+
+## Gate 1 — Factual QA (claim by claim)
+
+| # | Claim in the draft | Source | Result |
+|---|---|---|---|
+| C1 | USPS says standard mail forwarding lasts 12 months | S1-1 | pass (attributed) |
+| C2 | When forwarding ends, USPS returns mail to the sender for 6 months with a label that has the new address | S1-12 | pass (attributed) |
+| C3 | A paid extension is possible for a permanent change of address | S1-2, S3-2 | pass |
+| C4 | Wording as of October 7, 2026; three USPS pages; no prices, no advice | Browser reads; scope | pass |
+| C5 | Forwarding may begin within 3 business days; best to allow up to 2 weeks | S1-3 | pass (attributed) |
+| C6 | USPS says identity must be verified to submit a change of address | S1-13 | pass (attributed; no fee mentioned) |
+| C7 | The FAQ separates permanent (12 months) from temporary (a specified period of time) | S2-1, S2-2 | pass (attributed) |
+| C8 | The forwarding page says a temporary change of address is for relocating 15 days up to 1 year | S1-10 | pass (attributed) |
+| C9 | Mail is forwarded piece by piece | S1-4 | pass (attributed) |
+| C10 | Free: First-Class Mail and periodicals (newsletters and magazines); Priority Mail Express, Priority Mail and USPS Ground Advantage | S1-5, S1-6 | pass (attributed) |
+| C11 | Media Mail is forwarded, customer pays shipping from the local Post Office | S1-7 | pass (attributed) |
+| C12 | USPS Marketing Mail is not forwarded | S1-8 | pass (attributed) |
+| C13 | The pages differ on periodicals: page says free, no separate limit; FAQ says "primarily First-Class Mail service for 12 months and Periodicals for 60 days" | S1-5, S2-1 | pass (each attributed; the one quote is USPS's words minus the registered mark; "gives no separate time limit" reflects the page text read) |
+| C14 | The FAQ adds that it generally does not forward Marketing Mail or Package Services Mail | S2-1 | pass (attributed, "generally" kept) |
+| C15 | Extra time in 6-, 12- or 18-month increments, not to exceed 18 months of extended time, in addition to the initial 12 months | S3-1, S1-2 | pass (attributed) |
+| C16 | "Up to 30 months in all" is the article's arithmetic (12 + 18), labeled as not a USPS statement | S1-1 + S3-1 | pass (computed, labeled) |
+| C17 | Only for a permanent change of address, and a permanent, domestic request | S3-2 | pass (attributed) |
+| C18 | Can be bought with the initial request, or later with the confirmation code and the new ZIP Code | S3-3 | pass (attributed) |
+| C19 | A reminder email at the 11th month | S3-4 | pass (attributed) |
+| C20 | After 6 months, another 6-month interval can be added until 18 months | S3-6 | pass (attributed) |
+| C21 | Once the request has expired, the extension can no longer be bought | S3-7 | pass (attributed) |
+| C22 | The extension request cannot be changed; canceling the change of address cancels it; no refund; the forwarding page says it cannot be canceled or refunded | S3-5, S1-11 | pass (attributed) |
+| C23 | Classes forwarded during the extension: First-Class Mail, USPS Ground Advantage Commercial items, Priority Mail | S3-8 | pass (attributed) |
+| C24 | A change of address order only changes the address with the Post Office; the customer must still update government agencies and companies | S1-9 | pass (attributed) |
+| C25 | For an absence of 3 to 30 days, the page points to Hold Mail | S1-14 | pass (attributed) |
+| C26 | Internal link to the Hold Mail draft (https://statesideexplained.com/usps-hold-mail-how-it-works/) | Pipeline | **link works only after that article is published** |
+| C27 | Scope: no prices or fees, Premium Forwarding Service, business or military, deceased, international, identity problems | Scope statement | pass (scope) |
+| C28 | Sources: all three checked October 7, 2026; FAQ dates Aug 26, 2026 and Jul 11, 2026; forwarding page no date | Browser reads | pass |
+
+### Image (`assets/optimized/usps-mail-forwarding-how-long.png`, original SVG in `assets/raw/`)
+
+- Own timeline (three steps plus one dashed optional card), no photos, no USPS logo. 1200x2697. Every line traces to the claims above: C5, C9, C1, C10 (the card says only that First-Class Mail is forwarded for free, to avoid the periodicals discrepancy), C12, C3, C15, C17, C22, C2, C28. Visual check of the render: no text overflow.
+- Alt text in the front matter and the body is identical (356 characters).
+- File check on the device: pixel hash of the PNG should match the cloud render (md5 of RGB bytes 09b531c7...); checked at commit.
+
+### Handled by wording
+
+- Every rule statement is attributed to USPS; the periodicals difference is reported from each page, not resolved; "up to 30 months" is labeled as arithmetic.
+- No prices, no fee, no advice on which option to choose.
+
+### Not verified
+
+- Which of the two USPS statements on periodicals is current in practice (USPS does not reconcile them).
+- Whether the "Change of Address - The Basics" FAQ adds conditions (not read).
+- Whether durations or the extension terms change after today (the mandatory re-check covers this).
+- Search volume and competition for the focus keyword (not measured; third-party pages rank ahead of USPS's).
+- Diagram text size on a real phone (to be checked in the WordPress preview).
+- The internal link to the Hold Mail article is dead until that article is published.
+
+### Re-check obligations
+
+**Mandatory**: re-read S1, S2 and S3 right before the user approves moving the article to `ready`, and again right before publishing. Compare 12 months, 6/12/18-month increments and the 18-month maximum, 3 business days / 2 weeks, 6 months of return-to-sender, the periodicals wording on both pages, and the FAQ page dates. If a page differs or cannot be opened, return to draft or do not publish.

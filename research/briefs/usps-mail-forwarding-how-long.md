@@ -1,8 +1,8 @@
 # Brief — usps-mail-forwarding-how-long
 
-**Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/usps-mail-forwarding-how-long.md` at the sources step. No draft exists.
+**Stage:** drafted (lifecycle step 3 done on 2026-10-07). Source notes: `research/sources/usps-mail-forwarding-how-long.md`. The verbatim notes below are the brief-stage reading; the Extended Mail Forwarding FAQ was read at drafting.
 **Lane:** postal service and stamps (rule-type post: mandatory official-page re-check). Links to the Hold Mail article.
-**Pilot status:** counted in the 12-post pilot (lane 3). Not yet drafted.
+**Pilot status:** counted in the 12-post pilot (lane 3). Drafted 2026-10-07 (`content/drafts/usps-mail-forwarding-how-long.md`; Gate 1 done; not sent to Gate 2).
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card

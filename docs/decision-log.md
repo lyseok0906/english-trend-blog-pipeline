@@ -357,3 +357,7 @@ Claude re-opened the TSA PreCheck page and also read the PreCheck FAQ and the KT
 ## 2026-10-07 — usps-hold-mail-how-it-works: draft written, Gate 1 done
 
 Claude re-opened the three USPS pages (Hold Mail, the Hold Mail FAQ dated Sep 16, 2026, Standard Forward Mail), tested 35 quoted statements (all present, none changed), wrote the source notes, the draft with its own four-step timeline, and the Gate 1 claim table (20 claims, all pass). The brief's open question 2 was not answered; the in-person route (PS Form 8076) is one sentence attributed to the FAQ. Mandatory re-check before approval and publishing stays. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 5; brief 1 (pilot) plus 2 deferred; idea 1.
+
+## 2026-10-07 — Draft: usps-mail-forwarding-how-long
+
+Sixth and last pilot draft. Three USPS pages re-read; extension prices and fee left out; periodicals difference between the pages reported separately; Gate 1 done; no WordPress upload, no ready move. Counts: published 4; ready 2; draft 6; brief 0 (pilot) plus 2 deferred; idea 1.
