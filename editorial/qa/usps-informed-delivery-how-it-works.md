@@ -114,3 +114,25 @@ Not verified by Claude: the diagram text size on a real phone (the user's previe
 
 Notes for follow-up (not blocking): the byline may still show "admin" (see the DST record); re-read the official pages if the article is revisited; the article does not track rule changes.
 
+## Unpublished and republished (2026-10-07)
+
+About 03:43 (site time) the post's status changed from published to draft; Claude did not make that change, and the page returned 404 to logged-out visitors. At the user's instruction Claude did not recreate or republish it. The user previewed it and published it again at 04:10:31 (modified time).
+
+Live QA after the republish (built-in browser, page HTML, logged out for the status check):
+
+| Check | Result |
+|---|---|
+| Post status and URL | Post 30 `publish`; https://statesideexplained.com/usps-informed-delivery-how-it-works/ returns 200 logged out; slug unchanged |
+| Canonical, robots | Canonical equals the URL; robots "index, follow" |
+| Title and H1 | Same as the repository file |
+| Meta description | Present, 151 characters (under 160), equals the front matter |
+| Category | Postal service and stamps |
+| Image | One diagram in the body with alt text of 492 characters |
+| Headings, table | Same seven H2 headings as before; 1 table; visible text length 4,496 characters, identical to the check before the status change |
+| Source links | 2 outbound links, both to USPS (FAQ "Informed Delivery - The Basics" and usps.com "Informed Delivery") |
+| Structured data | BlogPosting JSON-LD present; datePublished 2026-10-07 (the original publish time), dateModified 04:10 |
+| Comments and pings | No comment form; comments and pings closed on the post |
+| Home page, feed, sitemap | Listed on the home page and in `/feed/`; in `post-sitemap.xml` (lastmod 2026-10-07T08:10:31+00:00) |
+
+Not verified by Claude: the diagram text size on a real phone (the user previewed it), the cause of the 03:43 status change, and a fresh pre-publish re-check of the two USPS pages right before the republish (not recorded). The article stays in `content/published/` with `live_url` set; the file needed no change.
+
