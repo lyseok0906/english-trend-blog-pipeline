@@ -66,3 +66,10 @@ Applies to the Thanksgiving claims (OPM rows, statute wording, computed dates). 
 ## Ready-move approval (2026-10-07)
 
 The user approved moving this article to `content/ready/` after Gate 2 final PASS and the recommended source re-check, for this article only. Front matter set to `status: ready`; backlog stage `ready`. Not on WordPress and not published. Next: Claude creates the WordPress draft when the user asks; the user previews on a phone and publishes. If more than a day passes before publishing, tell Claude so the sources are re-read.
+
+## WordPress draft (2026-10-07)
+
+Claude created the draft through the logged-in browser: post id 34, status draft, slug `thanksgiving-2026-date`, category "US dates, seasons and holidays" (id 4), diagram uploaded as media id 33 (1200x1668, not scaled; file hash matches the repository PNG, sha-256 71baaa3b...) with the `image_alt` text (media alt text and body alt identical), no featured image, comments and pings closed. Rank Math meta description (141 characters, equals the front matter) and focus keyword set and confirmed in the edit screen. Body checked against `content/ready/thanksgiving-2026-date.md`: letters and digits only, lowercase, the same 1967 characters as the repository text (image alt and title excluded), one table, six H2 headings, two official source links (OPM and govinfo). The draft returns 404 to logged-out visitors, as it should.
+
+Remaining: the user previews on a phone width (preview link https://statesideexplained.com/?p=34) and publishes (Publish is the user's step). If more than a day passes before publishing, tell Claude so the sources are re-read. After publishing, send the live URL for live QA, then Claude moves the article to `content/published/`.
+

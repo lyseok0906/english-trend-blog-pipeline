@@ -80,3 +80,9 @@ At the ready-move approval the user asked for a shorter alt text for the diagram
 
 Check: both occurrences were replaced and are identical. The text matches the diagram (the diagram shows Saturday-to-Friday and Sunday-to-Monday examples for 2026 to 2028, including Saturday July 4, 2026 observed Friday July 3, and Sunday July 4, 2027 observed Monday July 5) and OPM's wording "usually is observed" (S1-1) for most federal employees. The shorter text no longer lists Juneteenth 2027, Christmas 2027 or New Year's Day 2028 by name; those examples remain in the diagram and the article table. The diagram image itself is unchanged. This supersedes the earlier remark about the 539-character alt text.
 
+## WordPress draft (2026-10-07)
+
+Claude created the draft through the logged-in browser: post id 36, status draft, slug `federal-holiday-weekend-observed`, category "US dates, seasons and holidays" (id 4), diagram uploaded as media id 35 (1200x2109, not scaled; file hash matches the repository PNG, sha-256 93819e5d...) with the `image_alt` text (media alt text and body alt identical), no featured image, comments and pings closed. Rank Math meta description (142 characters, equals the front matter) and focus keyword set and confirmed in the edit screen. Body checked against `content/ready/federal-holiday-weekend-observed.md`: letters and digits only, lowercase, the same 2960 characters as the repository text (image alt and title excluded), one table, six H2 headings, two official source links (OPM and govinfo). The draft returns 404 to logged-out visitors, as it should.
+
+Remaining: the user previews on a phone width (preview link https://statesideexplained.com/?p=36) and publishes (Publish is the user's step). If more than a day passes before publishing, tell Claude so the sources are re-read. After publishing, send the live URL for live QA, then Claude moves the article to `content/published/`.
+
