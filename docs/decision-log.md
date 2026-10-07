@@ -353,3 +353,7 @@ Claude re-opened the three TSA pages (acceptable ID, REAL ID, ConfirmID), tested
 ## 2026-10-07 — tsa-precheck-what-it-changes: draft written, Gate 1 done
 
 Claude re-opened the TSA PreCheck page and also read the PreCheck FAQ and the KTN benefits page (the brief had read only the first), tested 30 quoted statements (all present), wrote the source notes, the draft with its own three-step diagram, and the Gate 1 claim table (20 claims, all pass). The brief's open question 2 was not answered, so the 99% wait-time statement was left out as promotional; no prices or offers. Mandatory re-check before approval and publishing stays. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 4; brief 2 (pilot) plus 2 deferred; idea 1.
+
+## 2026-10-07 — usps-hold-mail-how-it-works: draft written, Gate 1 done
+
+Claude re-opened the three USPS pages (Hold Mail, the Hold Mail FAQ dated Sep 16, 2026, Standard Forward Mail), tested 35 quoted statements (all present, none changed), wrote the source notes, the draft with its own four-step timeline, and the Gate 1 claim table (20 claims, all pass). The brief's open question 2 was not answered; the in-person route (PS Form 8076) is one sentence attributed to the FAQ. Mandatory re-check before approval and publishing stays. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 5; brief 1 (pilot) plus 2 deferred; idea 1.
