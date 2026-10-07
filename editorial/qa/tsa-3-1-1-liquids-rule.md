@@ -84,7 +84,7 @@ Not done. To be run by ChatGPT on the commit that contains this record.
 
 Points for the reviewer to look at:
 
-- Title is 49 characters ("What Is the TSA 3-1-1 Liquids Rule? What's Exempt"); the focus keyword is `what is the tsa liquids rule`.
+- Title is 50 characters ("What Is the TSA 3-1-1 Liquids Rule? What's Exempt?"); the focus keyword is `what is the tsa liquids rule`.
 - Meta description is 152 characters (limit 160).
 - The article answers the question in the first sentence and keeps one search intent.
 - Alt text describes the diagram; the diagram image itself should be looked at, not only the text.

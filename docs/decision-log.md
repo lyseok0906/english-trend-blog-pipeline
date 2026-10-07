@@ -218,7 +218,7 @@ This replaces the earlier entry "platform for this blog is not decided".
 **What was done.**
 
 1. Both TSA pages were opened in the built-in browser and the whole text of each was read (the earlier 403 problem applied only to the summarizing reader). Verbatim wording is in `research/sources/tsa-3-1-1-liquids-rule.md`.
-2. The draft is `content/drafts/tsa-3-1-1-liquids-rule.md`. Title shortened to 49 characters (the first post's title was flagged at 83 characters in review). The article uses TSA's wording that separating the liquids bag from the carry-on "facilitates the screening process" and does not add a "must remove" rule, because the page does not state one. It states no claim about whether the rule is new or changed.
+2. The draft is `content/drafts/tsa-3-1-1-liquids-rule.md`. Title shortened to 50 characters (a question mark was added to the second question after the user's review on 2026-10-07) (the first post's title was flagged at 83 characters in review). The article uses TSA's wording that separating the liquids bag from the carry-on "facilitates the screening process" and does not add a "must remove" rule, because the page does not state one. It states no claim about whether the rule is new or changed.
 3. Own flowchart, no photos (`assets/raw/` and `assets/optimized/`).
 4. Gate 1 (factual QA) passed, claim by claim, in `editorial/qa/tsa-3-1-1-liquids-rule.md`.
 
