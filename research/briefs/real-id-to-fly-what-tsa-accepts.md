@@ -2,7 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/real-id-to-fly-what-tsa-accepts.md` at the sources step. No draft exists.
 **Lane:** airport security rules (rule-type post: mandatory official-page re-check, see `docs/blog-c-site-structure.md`).
-**Pilot status:** counted in the 12-post pilot (lane 2). ConfirmID fee excluded (user decision 2026-10-07). Not yet drafted.
+**Pilot status:** counted in the 12-post pilot (lane 2). ConfirmID fee excluded (user decision 2026-10-07). Drafted 2026-10-07 (`content/drafts/`; Gate 1 done; not yet at Gate 2).
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card

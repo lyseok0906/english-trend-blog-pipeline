@@ -345,3 +345,7 @@ Under the user's instruction of 2026-10-07 (drafts only, up to Gate 1 and a loca
 ## 2026-10-07 — federal-holiday-weekend-observed: draft written, Gate 1 done
 
 Claude re-opened the OPM Federal Holidays page and read 5 U.S.C. 6103 with Executive Order 11582 (govinfo.gov, 2023 edition), wrote the source notes, the draft with its own diagram, and the Gate 1 claim table (19 claims, all pass; weekday facts computed and labeled). No USPS source is used. Alt text is long (539 characters); Gate 2 may shorten it. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 2; brief 4 (pilot) plus 2 deferred; idea 1.
+
+## 2026-10-07 — real-id-to-fly-what-tsa-accepts: draft written, Gate 1 done
+
+Claude re-opened the three TSA pages (acceptable ID, REAL ID, ConfirmID), tested 34 quoted statements (all present, none changed), wrote the source notes, the draft with its own flowchart (no ID images, no fee amount), and the Gate 1 claim table (18 claims, all pass). Mandatory re-check before approval and before publishing stays. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 3; brief 3 (pilot) plus 2 deferred; idea 1.
