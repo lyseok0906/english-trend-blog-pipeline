@@ -136,10 +136,10 @@ Result: no source changed. Article moved to `content/ready/`, front matter `stat
 
 After the article was uploaded to WordPress as a draft, the preview on a phone-width screen
 (375 px) showed the first diagram shrunk to about 26% of its size, so its text was too small
-to read. The diagram was redrawn in portrait format (PNG 1200 x 1650; text is 34 px or larger in the 800 px wide source) with less content:
+to read. The diagram was redrawn in portrait format (PNG 1200 x 1830; text is 34 px or larger in the 800 px wide source) with less content:
 
-- top: timeline with only "March 8" and "November 1";
-- bottom: "2:00 a.m. -> 1:00 a.m." and "1-2 a.m. happens twice";
+- top: title "Daylight saving time in the U.S., 2026" (so the image still says it is the U.S. rule when shared on its own), then a timeline with only "March 8" and "November 1";
+- bottom: "2:00 a.m. -> 1:00 a.m." and "1-2 a.m. happens twice", where each of the two bars carries the time zone as text and not only as colour: "first time (daylight time)" and "second time (standard time)";
 - removed from the image: the statute citation, the rule sentence and the places that do not
   observe daylight saving time. These stay in the article text and table only.
 
@@ -149,8 +149,10 @@ hour happens twice, first on daylight time and then on standard time). The image
 simulated at 315 px width and all text was readable. Alt text in the front matter and in the
 body was updated to match.
 
-Status: image re-review by ChatGPT pending. The WordPress draft keeps the old image until the
-new one is uploaded after that review.
+Image review by ChatGPT (2026-10-07): dates and times match the article, no clipped or overlapping text, better on a phone than the first version. Two changes were requested and made: the image title now says "in the U.S." and the two bars now carry the time zone as text. With those two changes ChatGPT counted the image review as passed.
+
+Status: image review passed. The new image replaces the old one in the WordPress draft before
+publishing.
 
 ### Hand-off for publishing in WordPress (user)
 
