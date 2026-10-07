@@ -95,3 +95,9 @@ Before asking for the ready-move approval, the TSA pages were opened again in th
 The ConfirmID fee amount, which the pages show, remains unused in the article. The two sentences changed after Gate 2 (the REAL ID page sentence and the identification page's list of alternatives) rest on S2 and S1 strings that are all still present.
 **Result: no difference from the source notes; no article change.** The check is dated 2026-10-08; the as-of date in the text is October 7, 2026 (the day the pages were first read for this article, and no wording changed in between). Ready-move approval has not been given yet; a fresh read right before publishing is still **mandatory**.
 
+
+## Ready-move approval (2026-10-08)
+
+The user approved moving this article to `content/ready/` after Gate 2 final PASS and the mandatory pre-approval TSA re-check (2026-10-08, no difference). Front matter set to `status: ready` (the text is unchanged; checked by comparing the files without the `status` line); the draft-folder copy was removed. Not on WordPress and not published; no WordPress draft is created until the user asks.
+
+Remaining before publishing: the user previews on a phone width and publishes. **Mandatory**: re-read the TSA pages right before Publish (the last re-read was 2026-10-08).

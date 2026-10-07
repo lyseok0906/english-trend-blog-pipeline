@@ -4,7 +4,7 @@ slug: real-id-to-fly-what-tsa-accepts
 meta_description: "No. Adults need an ID on TSA's list; a REAL ID-compliant state license or ID is one option. See alternatives and what happens without one."
 category: Airport security rules
 focus_keyword: do i need a real id to fly
-status: draft
+status: ready
 date: 2026-10-07
 internal_link_candidates: tsa-precheck-what-it-changes (once drafted), power-bank-on-a-plane-tsa-faa
 image: assets/optimized/real-id-to-fly-what-tsa-accepts.png

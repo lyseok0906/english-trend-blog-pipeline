@@ -432,3 +432,7 @@ Hold Mail: Claude created the WordPress draft (post 40, media 39; not published)
 
 REAL ID and PreCheck: Claude ran the mandatory TSA re-check. REAL ID: identification page 25 of 25, REAL ID page 4 of 4, ConfirmID page 3 of 3. PreCheck: PreCheck page 9 of 9, FAQ 15 of 15 (three strings differed only in spacing), benefits page 7 of 7. No difference; no article change. The ready-move approval is requested separately for each. The mail forwarding article waits until Hold Mail is actually published (user instruction). Counts: published 8; ready 1 (Hold Mail, with a WordPress draft); draft 3 (REAL ID, PreCheck, forwarding); brief 0 (pilot) plus 2 deferred; idea 1.
 
+
+## 2026-10-08 — REAL ID and PreCheck: moved to `content/ready/`
+
+The user approved moving `real-id-to-fly-what-tsa-accepts` and `tsa-precheck-what-it-changes` to `content/ready/`, each for its own article, after Gate 2 final PASS and the mandatory TSA re-check (2026-10-08, no difference). Front matter set to `status: ready`; backlog stage `ready`; QA files and briefs updated. Neither is on WordPress and neither is published; WordPress drafts are created only when the user asks, and each needs a fresh TSA re-check right before publishing. Hold Mail (post 40) stays a WordPress draft: the user previews it and asks for the USPS re-check right before Publish. The mail forwarding article waits until Hold Mail is actually published. Counts: published 8; ready 3 (Hold Mail with a WordPress draft; REAL ID and PreCheck without); draft 1 (forwarding); brief 0 (pilot) plus 2 deferred; idea 1.

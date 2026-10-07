@@ -4,7 +4,7 @@ slug: tsa-precheck-what-it-changes
 meta_description: "TSA says PreCheck lanes let you keep electronics and 3-1-1 liquids in your bag, but no one is guaranteed expedited screening. See what TSA says."
 category: Airport security rules
 focus_keyword: what is tsa precheck
-status: draft
+status: ready
 date: 2026-10-07
 internal_link_candidates: tsa-3-1-1-liquids-rule (used once, in the table)
 image: assets/optimized/tsa-precheck-what-it-changes.png
