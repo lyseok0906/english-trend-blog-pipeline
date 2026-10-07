@@ -24,11 +24,11 @@ Updated 2026-10-07. "Published" is the only number that counts as articles on th
 |---|---|---|
 | published | 3 (DST, TSA liquids, Forever stamp) | 0 |
 | ready | 0 | 0 |
-| draft | 0 | 0 |
-| brief | 9 | 2 (TSA Thanksgiving food, USPS Thanksgiving) |
+| draft | 1 (first-day-of-winter-2026, Gate 1 done, Gate 2 pending) | 0 |
+| brief | 8 | 2 (TSA Thanksgiving food, USPS Thanksgiving) |
 | idea | 0 | 1 (TSA shoe policy) |
 
-Pilot 12 plan: 3 published + 9 briefs = 12 slots, 4 per lane (lane 1: DST, winter start, Thanksgiving date, weekend holidays; lane 2: liquids, REAL ID, PreCheck, power banks; lane 3: Forever stamp, hold mail, forwarding, Informed Delivery). Only the 3 published articles are live; the 9 briefs are plans and may change or be dropped. Update this table at every stage change and read the pilot result from the "published" row only.
+Pilot 12 plan: 3 published + 1 draft + 8 briefs = 12 slots, 4 per lane (lane 1: DST, winter start, Thanksgiving date, weekend holidays; lane 2: liquids, REAL ID, PreCheck, power banks; lane 3: Forever stamp, hold mail, forwarding, Informed Delivery). Only the 3 published articles are live; the draft and the 8 briefs are plans and may change or be dropped. Update this table at every stage change and read the pilot result from the "published" row only.
 
 ## Backlog
 
@@ -37,7 +37,7 @@ Pilot 12 plan: 3 published + 9 briefs = 12 slots, 4 per lane (lane 1: DST, winte
 | 1 | `daylight-saving-time-end-2026-us` | When Does Daylight Saving Time End in the U.S. in 2026? | `when does daylight saving time end in the us` | published | counted | Week 1, first post. Lane: US dates, seasons, holidays. Gate 1 and Gate 2 passed; user approved 2026-10-07 and published in WordPress; live URL https://statesideexplained.com/daylight-saving-time-end-2026-us/ ; live QA passed 2026-10-07 (see `editorial/qa/` record). Check again before 2026-11-01 |
 | 2 | `tsa-3-1-1-liquids-rule` | What Is the TSA 3-1-1 Liquids Rule? What Counts, What's Exempt, What to Expect | `what is the tsa liquids rule` | published | counted | Week 1. Lane: airport security rules. Gate 1 and Gate 2 passed 2026-10-07; user published in WordPress 2026-10-07; live URL https://statesideexplained.com/tsa-3-1-1-liquids-rule/ ; live QA passed 2026-10-07 (see `editorial/qa/` record). No deadline; re-read both TSA pages if the article is revisited |
 | 3 | `forever-stamp-how-it-works` | How Does a Forever Stamp Work? What It Covers and Doesn't | `how does a forever stamp work` | published | counted | Week 1. Lane: postal service and stamps. No price number in article text. Gate 1 and Gate 2 passed 2026-10-07; pre-approval USPS re-check passed 2026-10-07; user published in WordPress 2026-10-07; live URL https://statesideexplained.com/forever-stamp-how-it-works/ ; live QA passed 2026-10-07 (see `editorial/qa/` record). Re-read the four USPS pages if the article is revisited (prices and rules change) |
-| 4 | `first-day-of-winter-2026` | When Is the First Day of Winter in 2026? Two Answers | `when is the first day of winter 2026` | brief | counted | Lane: US dates, seasons, holidays. Brief 2026-10-07 (USNO + NOAA NCEI). Dec 1 meteorological, Dec 21 solstice. Re-check recommended, not mandatory. Search demand not measured |
+| 4 | `first-day-of-winter-2026` | When Is the First Day of Winter in 2026? Two Answers | `when is the first day of winter 2026` | draft | counted | Lane: US dates, seasons, holidays. Brief 2026-10-07 (USNO + NOAA NCEI). Dec 1 meteorological, Dec 21 solstice. Draft and diagram written and Gate 1 done 2026-10-07 (`content/drafts/`, `editorial/qa/` record); Gate 2 pending (ChatGPT). Re-check recommended, not mandatory. Search demand not measured |
 | 5 | `thanksgiving-2026-date` | When Is Thanksgiving 2026 in the U.S.? How the Date Is Set | `when is thanksgiving 2026` | brief | counted | Lane: US dates, seasons, holidays. Brief 2026-10-07 (OPM + 5 U.S.C. 6103). Thursday, Nov 26. Angle approved 2026-10-07: explain how the date is set (not a one-line answer). Search demand not measured |
 | 6 | `federal-holiday-weekend-observed` | When a Federal Holiday Falls on a Weekend, What Changes? | `federal holiday falls on a weekend` | brief | counted | Lane: US dates, seasons, holidays. Brief 2026-10-07 (OPM + 5 U.S.C. 6103(b)). July 2026 USPS example NOT used here (user decision 2026-10-07; OPM's rule is not USPS operations). Search demand not measured |
 | 7 | `real-id-to-fly-what-tsa-accepts` | Do You Need a REAL ID to Fly? What TSA Accepts | `do i need a real id to fly` | brief | counted | Lane: airport security rules. Brief 2026-10-07 (three TSA pages). Mandatory strict re-check. ConfirmID fee excluded (user decision 2026-10-07). Search demand not measured |
