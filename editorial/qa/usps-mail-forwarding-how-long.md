@@ -79,4 +79,6 @@ Claim check: "for a permanent change of address ... 12 months" is S2-1 (the FAQ 
 
 **Publish-order condition (Gate 2).** The internal link to the Hold Mail article (C26) may stay only after the Hold Mail article is live. Publish Hold Mail first; if this article must go first, remove the link. Check this at the `ready` move and before publishing.
 
-Not sent back to Gate 2 yet. For the changed articles, ChatGPT will re-review the fix commit.
+## Gate 2 final (ChatGPT, 2026-10-07, result reported by the user)
+
+The fixed version (commit `4746e4a`) was re-reviewed: **Gate 2 final PASS**. No further changes requested. The publish-order condition stands: keep the internal link to the Hold Mail article only if Hold Mail is published first; otherwise remove it.

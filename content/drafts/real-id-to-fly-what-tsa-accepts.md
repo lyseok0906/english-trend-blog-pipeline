@@ -19,7 +19,7 @@ This article covers what TSA's pages say. The wording is as of October 7, 2026, 
 
 ## What TSA says about REAL ID
 
-TSA says REAL ID enforcement began on May 7, 2025. It says that as of that date, state-issued driver's licenses and IDs that are not REAL ID compliant are no longer accepted as valid identification at airports. TSA's REAL ID page says U.S. travelers must be REAL ID compliant to board domestic flights and to access certain federal facilities.
+TSA says REAL ID enforcement began on May 7, 2025. It says that as of that date, state-issued driver's licenses and IDs that are not REAL ID compliant are no longer accepted as valid identification at airports. TSA's REAL ID page says that a traveler using a state-issued driver's license or ID card for a domestic flight must use one that is REAL ID compliant. TSA's identification page also lists other acceptable forms of ID, including a U.S. passport.
 
 TSA's identification page says that passengers should either travel with an acceptable alternative form of ID, like a passport, or enroll for a state-issued REAL ID through their state Department of Motor Vehicles (DMV). If you are not sure whether your ID complies with REAL ID, TSA says to check with your state DMV. TSA also says a temporary driver's license is not an acceptable form of identification.
 

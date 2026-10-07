@@ -67,4 +67,6 @@ Method: three TSA pages were opened in the built-in browser on 2026-10-07. The b
 
 Claim check: the new first sentence is a paraphrase of S1-1 ("gives trusted travelers a speedier security experience in dedicated lanes across the U.S."); "eligible travelers" follows TSA's use of "PreCheck eligible" in the FAQ (S2-8) and drops the quotation attribution, which the next sentence ("TSA says ...") carries. "You can keep on" matches TSA's "leave on belts, light jackets, and shoes" (S1). The diagram was re-rendered (1200x1947, no text overflow; pixel hash md5 of RGB e91371ac...); the PNG and SVG on the device match the cloud render. Result: pass.
 
-Not sent back to Gate 2 yet. For the changed articles, ChatGPT will re-review the fix commit.
+## Gate 2 final (ChatGPT, 2026-10-07, result reported by the user)
+
+The fixed version (commit `4746e4a`) was re-reviewed: **Gate 2 final PASS**. No further changes requested.

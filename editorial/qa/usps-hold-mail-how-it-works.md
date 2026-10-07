@@ -58,3 +58,7 @@ Method: the three USPS pages were opened again in the built-in browser on 2026-1
 ## Gate 2 (ChatGPT, 2026-10-07, result reported by the user)
 
 **PASS.** No changes requested. The mandatory re-check of the three USPS pages before the move to `ready` and again before publishing still applies. Publish order: this article goes live before `usps-mail-forwarding-how-long`, which links to it.
+
+## Gate 2 final (ChatGPT, 2026-10-07)
+
+**Gate 2 final PASS** (the original review result stands; no changes were requested).
