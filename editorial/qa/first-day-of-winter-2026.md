@@ -1,6 +1,6 @@
 # QA record — first-day-of-winter-2026
 
-Article: `content/ready/first-day-of-winter-2026.md` (moved from `content/drafts/` on 2026-10-07)
+Article: `content/published/first-day-of-winter-2026.md` (moved from `content/drafts/` to `content/ready/` and then to `content/published/` on 2026-10-07)
 Brief: `research/briefs/first-day-of-winter-2026.md`. Sources: `research/sources/first-day-of-winter-2026.md` (S1 USNO, S2 NOAA NCEI).
 Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT): PASS on commit `2edbc32`, 2026-10-07, no changes. Not approved, not on WordPress, not published.
 
@@ -86,4 +86,28 @@ Claude created the draft through the logged-in browser after the user's go-ahead
 Checked on the preview page (logged-in): title tag "When Is the First Day of Winter in 2026? Two Answers - Stateside Explained"; meta description and og:description equal the front matter; one H1 and six H2s as in the file; two tables; two source links, exactly the URLs in the file; one image with the alt text; category shown; body text identical to `content/ready/` (lowercase letters and digits give the same 2660 characters and the same hash); robots `index, follow`. The draft's address is https://statesideexplained.com/?p=25 until it is published; the published address will be https://statesideexplained.com/first-day-of-winter-2026/.
 
 Remaining: the user previews on a phone width and presses Publish (Publish is the user's step). If more than a day passes before publishing, tell Claude so USNO and NOAA are re-read first. After publishing, send the live URL for live QA; Claude then moves the article to `content/published/`.
+
+## Live QA (2026-10-07)
+
+Published by the user at https://statesideexplained.com/first-day-of-winter-2026/ (WordPress post id 25; published time 2026-10-07 02:06 EDT). The user previewed and pressed Publish. The USNO and NOAA pages were last re-read earlier the same day (pre-approval check), so no further re-read was needed.
+Checked by Claude in the built-in browser, anonymous requests (no login cookies).
+
+| Check | Result |
+|---|---|
+| HTTP status, canonical URL | 200; canonical equals the live URL |
+| Title tag | "When Is the First Day of Winter in 2026? Two Answers - Stateside Explained" |
+| Meta description | Equals the 152-character text in the front matter (og:description too) |
+| robots meta | `index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large`; twitter:card `summary_large_image` |
+| Headings | One H1 and six H2s as in the file |
+| Body text | Identical to `content/published/` text: lowercase letters and digits give the same 2660 characters and the same hash (9e76c52bcb0d) as the repository file |
+| Tables and links | 2 tables; 2 source links, exactly the URLs in the file |
+| Diagram | One copy only (no featured image); alt text equals `image_alt`; loads (WordPress serves a reduced version in the page; the full file is 1200x1509) |
+| Category | `article:section` "US dates, seasons and holidays"; the category page lists this post and the daylight saving time post |
+| Structured data | Rank Math BlogPosting JSON-LD present; no `&#039;` (the title has no apostrophe) |
+| Comments | No comment form |
+| Home page, feed, sitemap | Home lists the post; `/feed/` includes it; `post-sitemap.xml` lists it; `sitemap_index.xml` 200 |
+
+Not verified: the exact diagram text size on a real phone (the user's preview before publishing is the check).
+
+Notes for follow-up (not blocking): the byline still shows "admin" (display name not yet set), as on the other posts.
 

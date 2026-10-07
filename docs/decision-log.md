@@ -302,3 +302,7 @@ The user pushed `23c2394` and approved moving `first-day-of-winter-2026` to `con
 
 After the user pushed `0f95e56` and asked for it, Claude created the WordPress draft through the logged-in browser: post 25, slug `first-day-of-winter-2026`, category "US dates, seasons and holidays", diagram (media 24) with alt text, Rank Math meta description and focus keyword. Body text on the preview matches the repository file exactly. Not published; the user previews on phone width and publishes. Counts: published 3; ready 1 (WordPress draft); draft 2; brief 6 (pilot) plus 2 deferred; idea 1.
 
+## 2026-10-07 — first-day-of-winter-2026: published and live QA passed
+
+The user pushed `20132c7`, previewed and published the winter article at https://statesideexplained.com/first-day-of-winter-2026/. Live QA by Claude passed (body text identical to the repository file; meta, canonical, category, sitemap, feed and home correct; the structured data has no `&#039;` because the title has no apostrophe). Moved to `content/published/`. Counts: published 4 (daylight saving time, TSA liquids rule, Forever stamp, first day of winter); ready 0; draft 2 (power bank, Informed Delivery); brief 6 (pilot) plus 2 deferred; idea 1.
+
