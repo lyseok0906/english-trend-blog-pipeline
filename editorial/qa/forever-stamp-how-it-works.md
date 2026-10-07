@@ -79,3 +79,9 @@ The user approved moving this article to `content/ready/` on 2026-10-07, on cond
 ## WordPress hand-off (for the upload step)
 
 Title, slug, category (new category "Postal service and stamps" to be created), meta description and focus keyword are in the front matter. Body starts at the bold sentence (the title is the post title). Upload the PNG with the `image_alt` text and do not also set it as the featured image. Preview on phone width before publishing. If more than a day passes before publishing, tell Claude so the USPS pages are re-read. After publishing, send the live URL for live QA.
+
+## WordPress draft (2026-10-07)
+
+Claude created the draft through the logged-in browser after the TSA article went live and passed live QA: post id 22, status draft, slug `forever-stamp-how-it-works`, new category "Postal service and stamps", diagram uploaded (1200x2280, not scaled; file hash matches the repository PNG) with the `image_alt` text, Rank Math meta description (125 characters, equals the front matter) and focus keyword set, comments closed, no featured image. Body text checked against `content/ready/forever-stamp-how-it-works.md` (lowercase letters and digits, same 2254 characters and same SHA-256). Four USPS source links present. The draft returns 404 to anonymous visitors, as it should.
+
+Remaining: the user previews on a phone width and publishes (Publish is the user's step). If more than a day passes before publishing, tell Claude so the four USPS pages are re-read. After publishing, send the live URL for live QA, then Claude moves the article to `content/published/`.

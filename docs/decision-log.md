@@ -251,3 +251,7 @@ Claude re-read all four USPS pages in the browser first; nothing differed. The u
 ## 2026-10-07 — TSA 3-1-1 liquids rule: published and live QA passed
 
 Claude created the WordPress draft (post 19) through the already logged-in browser: title, slug, new category "Airport security rules", diagram with alt text, Rank Math meta description and focus keyword. The user previewed and published it at https://statesideexplained.com/tsa-3-1-1-liquids-rule/. Live QA by Claude passed (body text identical to the repository file; meta, canonical, category, sitemap, feed and home all correct; both TSA source pages open and still carry the checked wording). Moved to `content/published/`. Next: Forever stamp article goes to WordPress as a draft; the user previews and publishes.
+
+## 2026-10-07 — Forever stamp: WordPress draft created
+
+After the TSA live QA, Claude uploaded `forever-stamp-how-it-works` as a WordPress draft (post 22): new category "Postal service and stamps", diagram with alt text, Rank Math meta description and focus keyword. Body text matches the repository file exactly. Not published; the user previews and publishes.
