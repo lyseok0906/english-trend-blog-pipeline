@@ -4,7 +4,7 @@ slug: usps-informed-delivery-how-it-works
 meta_description: "USPS Informed Delivery is a free service that previews the address side of incoming letters and tracks packages. See what it shows and who can sign up."
 category: Postal service and stamps
 focus_keyword: what is usps informed delivery
-status: draft
+status: ready
 date: 2026-10-07
 internal_link_candidates: none (the published postal article is about Forever stamps and is not related)
 image: assets/optimized/usps-informed-delivery-how-it-works.png

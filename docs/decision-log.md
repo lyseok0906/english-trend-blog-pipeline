@@ -328,3 +328,7 @@ At the user's request Claude created the WordPress draft (post id 28, media id 2
 
 After the power bank WordPress draft, Claude re-read the USPS FAQ "Informed Delivery - The Basics" and the usps.com Informed Delivery page and tested 36 + 8 phrases and numbers: no difference, same FAQ date (Sep 30, 2026). Claude asked the user to approve moving only this article to `content/ready/`. Nothing moved yet.
 
+## 2026-10-07 — usps-informed-delivery-how-it-works: approved to move to ready
+
+The user pushed `cafc738` and approved moving `usps-informed-delivery-how-it-works` to `content/ready/` (this article only). Claude moved the file, set `status: ready`, recorded Gate 3 in the QA record and set the backlog stage to `ready`. Not on WordPress yet. The mandatory re-check of the two USPS pages is repeated right before publishing. Counts: published 4; ready 2 (power bank on WordPress as a draft, id 28; Informed Delivery not yet on WordPress); draft 0; brief 6 (pilot) plus 2 deferred; idea 1.
+
