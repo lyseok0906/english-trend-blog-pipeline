@@ -349,3 +349,7 @@ Claude re-opened the OPM Federal Holidays page and read 5 U.S.C. 6103 with Execu
 ## 2026-10-07 — real-id-to-fly-what-tsa-accepts: draft written, Gate 1 done
 
 Claude re-opened the three TSA pages (acceptable ID, REAL ID, ConfirmID), tested 34 quoted statements (all present, none changed), wrote the source notes, the draft with its own flowchart (no ID images, no fee amount), and the Gate 1 claim table (18 claims, all pass). Mandatory re-check before approval and before publishing stays. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 3; brief 3 (pilot) plus 2 deferred; idea 1.
+
+## 2026-10-07 — tsa-precheck-what-it-changes: draft written, Gate 1 done
+
+Claude re-opened the TSA PreCheck page and also read the PreCheck FAQ and the KTN benefits page (the brief had read only the first), tested 30 quoted statements (all present), wrote the source notes, the draft with its own three-step diagram, and the Gate 1 claim table (20 claims, all pass). The brief's open question 2 was not answered, so the 99% wait-time statement was left out as promotional; no prices or offers. Mandatory re-check before approval and publishing stays. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 4; brief 2 (pilot) plus 2 deferred; idea 1.

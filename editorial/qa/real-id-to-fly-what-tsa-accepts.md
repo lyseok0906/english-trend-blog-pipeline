@@ -33,7 +33,7 @@ Method: all three TSA pages were opened again in the built-in browser on 2026-10
 
 - Own flowchart, no photos, no license, passport or REAL ID star, no TSA logo. 1200x2607. Every line traces to the claims above: "Adult 18 or older at the TSA checkpoint" (C1); "Is your ID on TSA's list? The list can change without notice (TSA)" (C2); the example IDs (C7); "Not accepted since May 7, 2025: a state license or ID that is not REAL ID compliant" (C3); "Fee-based identity check", "Average 10-15 minutes; could take 30 minutes or more", "If identity cannot be verified: no entry to the checkpoint" (C13 to C15); "Source: TSA pages, read Oct. 7, 2026" (C17). No fee amount.
 - The vertical layout puts the "if no" card after the "if yes" card; the arrow between them is labeled "ID is not on the list".
-- Alt text in the front matter and the body is identical (about 520 characters; the example list in the alt is shorter than the diagram's).
+- Alt text in the front matter and the body is identical (540 characters; the example list in the alt is shorter than the diagram's).
 - File check on the device: pixel hash of the PNG matches the cloud render (md5 of RGB bytes c4e1f3ca...). Visual check of the render: no text overflow.
 
 ### Handled by wording

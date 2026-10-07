@@ -2,7 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/tsa-precheck-what-it-changes.md` at the sources step. No draft exists.
 **Lane:** airport security rules (mandatory official-page re-check).
-**Pilot status:** counted in the 12-post pilot (lane 2). Not yet drafted.
+**Pilot status:** counted in the 12-post pilot (lane 2). Drafted 2026-10-07 (`content/drafts/`; Gate 1 done; not yet at Gate 2). The wait-time statement and prices were left out.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card
