@@ -80,3 +80,14 @@ Publish order (Gate 2): this article goes live before `usps-mail-forwarding-how-
 ## Ready-move approval (2026-10-07)
 
 The user approved moving this article to `content/ready/` after Gate 2 final PASS and the mandatory pre-approval re-check of the three USPS pages (no difference), for this article only. Front matter set to `status: ready`; backlog stage `ready`. Not on WordPress and not published. Next: Claude creates the WordPress draft when the user asks; the user previews on a phone and publishes. **Mandatory**: re-read the three USPS pages right before publishing (and again if more than a day passes). Publish order: this article before `usps-mail-forwarding-how-long`.
+
+## WordPress draft (2026-10-08)
+
+Claude created the draft through the logged-in browser: post id 40, status draft, slug `usps-hold-mail-how-it-works`, category "Postal service and stamps" (id 6), diagram uploaded as media id 39 with the `image_alt` text (media alt text and body alt identical, 404 characters), no featured image, comments and pings closed. Rank Math meta description (139 characters, equals the front matter) and focus keyword set and confirmed in the edit screen. Body checked against the repository text of this article: letters and digits only, lowercase, the same 3,137 characters (image alt and title excluded); six H2 headings, three lists, three USPS source links, no internal links. The draft returns 404 to logged-out visitors, as it should.
+
+Note on the image: WordPress scaled the 1200x2667 upload down to 1152x2560 (its large-image limit) and kept the original file. The post's image block was changed to point to the original file, so the page shows the repository PNG (sha-256 65349215...), not the scaled copy. The scaled copy stays in the media library unused. (The earlier posts' images were shorter than the limit and were not scaled.)
+
+The WordPress draft was built from the draft-folder file as pushed (commit `058b00b`); the ready file differs only in `status: ready` (checked by hash of the text without the `status` line). The ready-move commit `5594e57` had not been pushed at that time.
+
+Remaining: the user previews on a phone width (preview link https://statesideexplained.com/?p=40) and publishes. **Mandatory**: re-read the three USPS pages right before Publish (the last re-read was 2026-10-07; repeat because more than a day will have passed if publishing happens later than 2026-10-08). Hold Mail is published before `usps-mail-forwarding-how-long`. After publishing, send the live URL for live QA, then Claude moves the article to `content/published/`.
+

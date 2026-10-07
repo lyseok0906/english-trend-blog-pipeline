@@ -70,3 +70,17 @@ Claim check: the new first sentence is a paraphrase of S1-1 ("gives trusted trav
 ## Gate 2 final (ChatGPT, 2026-10-07, result reported by the user)
 
 The fixed version (commit `4746e4a`) was re-reviewed: **Gate 2 final PASS**. No further changes requested.
+
+## Mandatory pre-approval re-check (2026-10-08)
+
+Before asking for the ready-move approval, the TSA pages were opened again in the built-in browser and their text tested by script (strings normalized for case, quotes, registered marks, asterisks and spacing):
+
+| Page | Strings tested | Present |
+|---|---|---|
+| S1 TSA "TSA PreCheck" (https://www.tsa.gov/precheck) | 9 (electronics and 3-1-1 liquids stay in the bag; belts, light jackets and shoes stay on; "speedier security experience in dedicated lanes across the U.S."; children 17 and under; KTN in airline reservations; three enrollment providers CLEAR, IDEMIA, Telos; no individual guaranteed expedited screening) | 9 of 9 |
+| S2 TSA "TSA PreCheck FAQ" (https://www.tsa.gov/precheck/faq) | 15 (a card or approval notification does not give access; KTN and indicator on the boarding pass; memberships last five years; children's rules by age; gate passes; lane not available; no guarantee of expedited screening; international departures; same reservation) | 15 of 15 (three strings first failed only because of spacing and punctuation: the page runs "?no.", "under:can join" and "?no," together; they match when whitespace is ignored) |
+| S3 TSA "How to use TSA PreCheck benefits" (https://www.tsa.gov/precheck/benefits) | 7 (benefits are not automatic; how to get the indicator; KTN field; name match; date of birth; contact the airline; PASS ID as KTN) | 7 of 7 |
+
+Prices, offers, location counts and the wait-time statistic, which the pages show, remain unused in the article.
+**Result: no difference from the source notes; no article change.** The check is dated 2026-10-08; the as-of date in the text is October 7, 2026 (the day the pages were first read for this article, and no wording changed in between). Ready-move approval has not been given yet; a fresh read right before publishing is still **mandatory**.
+

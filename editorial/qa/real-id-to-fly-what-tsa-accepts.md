@@ -81,3 +81,17 @@ One more sentence fix was requested for this article and applied. In the section
 Claim check: the REAL ID page's own words (S2-2) are "U.S. travelers must be REAL ID compliant to board domestic flights and access certain federal facilities"; the identification page (S1-6) says non-compliant state licenses and IDs are no longer accepted at airports and that passengers should bring an acceptable alternative like a passport or enroll for a REAL ID; and the list on that page includes a U.S. passport (S1-3). The new sentence 2 is S1-3 and S1-6. The new sentence 1 narrows the REAL ID page's wording to travelers who use a state license or ID card, which is the reading S1-6 supports; the narrowing is therefore a combination of S2-2 and S1-6, although the sentence attributes it to the REAL ID page. Result: pass, with this note for the record. The federal-facilities clause is no longer in the body; the scope section still says the article does not cover access to federal facilities.
 
 **Gate 2 final result: PASS** for this article (after this fix), as reported by the user.
+
+## Mandatory pre-approval re-check (2026-10-08)
+
+Before asking for the ready-move approval, the TSA pages were opened again in the built-in browser and their text tested by script (strings normalized for case, quotes, registered marks, asterisks and spacing):
+
+| Page | Strings tested | Present |
+|---|---|---|
+| S1 TSA "Acceptable Identification at the TSA Checkpoint" (https://www.tsa.gov/travel/security-screening/identification) | 25 (18+ must show ID; list subject to change; REAL ID-compliant license, EDL/EID, mobile driver's license condition, passport, passport card, DHS trusted traveler cards, DoD ID, permanent resident card, Tribal Nation photo ID; temporary license not acceptable; May 7, 2025 wording and the alternative-ID sentence; ConfirmID option from February 1, 2026; expired ID up to two years; children; unaccompanied minors; identity not verified means no entry) | 25 of 25 |
+| S2 TSA "REAL ID" (https://www.tsa.gov/realid) | 4 (enforcement began May 7, 2025; "must be REAL ID compliant to board domestic flights and access certain federal facilities"; REAL ID Act 2005; state selector) | 4 of 4 |
+| S3 TSA "About TSA ConfirmID" (https://www.tsa.gov/tsaconfirm-id/about-confirmid) | 3 (fee-based service; lost ID or no REAL ID; average 10-15 minutes, could take 30 minutes or more) | 3 of 3 |
+
+The ConfirmID fee amount, which the pages show, remains unused in the article. The two sentences changed after Gate 2 (the REAL ID page sentence and the identification page's list of alternatives) rest on S2 and S1 strings that are all still present.
+**Result: no difference from the source notes; no article change.** The check is dated 2026-10-08; the as-of date in the text is October 7, 2026 (the day the pages were first read for this article, and no wording changed in between). Ready-move approval has not been given yet; a fresh read right before publishing is still **mandatory**.
+
