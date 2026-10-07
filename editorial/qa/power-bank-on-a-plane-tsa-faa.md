@@ -61,3 +61,10 @@ Method: all three pages were opened in the built-in browser on 2026-10-07, once 
 ChatGPT reviewed commit `2edbc32` on 2026-10-07 (this article's draft is in that commit unchanged from the one recorded under Gate 1). Result: **PASS**, no changes requested. The article stays in `content/drafts/` and is not changed by Gate 2.
 
 Next: Mandatory re-check of the three TSA/FAA pages right before the user approves the move to `ready`, and again right before publishing. Moving to `ready` needs the user's approval for this article alone. Not on WordPress, not published.
+
+## Pre-approval source re-check (2026-10-07, mandatory)
+
+Done by Claude after Gate 2 passed and before asking the user to approve the move to `ready`. All three pages were opened again in the built-in browser and the same phrases as in Gate 1 were tested against the page text: 6 phrases on TSA "Power Banks", 6 on TSA "Lithium batteries with more than 100 watt hours", 17 on the FAA "Airline Passengers and Batteries" page (every number: 100 Wh, 101-160 Wh, 160 Wh, two spare batteries per person, 12 V x 8 Ah = 96 Wh, the carry-on-only rows, the airline caveat and the damaged-or-recalled sentence). All 29 are present, unchanged. The page dates are unchanged: TSA "Last Updated on May 14, 2025", TSA "Last Updated on March 29, 2023", FAA "Last updated: Friday, October 2, 2026". The FAA table row "Spare Battery or Power Bank" is still present.
+
+Result: **no difference**; the draft needs no change. The draft text on the device is the text Gate 2 reviewed (commit `2edbc32`). The user's approval to move this article to `ready` is requested separately; until then the article stays in `content/drafts/`. The mandatory re-check is repeated right before the user publishes, and again if more than a day passes after this one.
+

@@ -306,3 +306,7 @@ After the user pushed `0f95e56` and asked for it, Claude created the WordPress d
 
 The user pushed `20132c7`, previewed and published the winter article at https://statesideexplained.com/first-day-of-winter-2026/. Live QA by Claude passed (body text identical to the repository file; meta, canonical, category, sitemap, feed and home correct; the structured data has no `&#039;` because the title has no apostrophe). Moved to `content/published/`. Counts: published 4 (daylight saving time, TSA liquids rule, Forever stamp, first day of winter); ready 0; draft 2 (power bank, Informed Delivery); brief 6 (pilot) plus 2 deferred; idea 1.
 
+## 2026-10-07 — power-bank-on-a-plane-tsa-faa: mandatory re-check done, approval requested
+
+After the user's push of `50a1a5a`, Claude re-read the two TSA pages and the FAA page and tested 29 phrases and numbers: no difference, same page dates. Claude asked the user to approve moving only this article to `content/ready/`. Nothing moved yet.
+
