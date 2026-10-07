@@ -82,3 +82,11 @@ The user approved moving this article to `content/ready/` on 2026-10-07, after G
 
 **Mandatory**: re-read the two USPS pages again right before the user presses Publish (and again before the WordPress upload if more than a day has passed since the re-check above). If a page differs or cannot be opened, do not publish.
 
+## WordPress draft (2026-10-07)
+
+Claude created the draft through the logged-in browser after the user's request: post id 30, status draft, slug `usps-informed-delivery-how-it-works`, existing category "Postal service and stamps" (id 6), comments and pings closed, no featured image. The diagram was uploaded as media id 29 (1200x2325, file hash equal to the repository PNG: SHA-256 `2417b293...a3866`) with the `image_alt` text (equal to the front matter) and the media title "How USPS Informed Delivery works: diagram"; inserted once in the body, after the table. The Rank Math meta description (151 characters) and focus keyword `what is usps informed delivery` were set and confirmed on the post edit screen data.
+
+Checked on the preview page (logged-in): title tag "What Is USPS Informed Delivery? How the Free Preview Works - Stateside Explained"; meta description equal to the front matter; one H1 and six H2s as in the file; one table; two source links, exactly the URLs in the file; one image; robots `index, follow`; body text identical to `content/ready/` (lowercase letters and digits give the same 3582 characters). The draft's address is https://statesideexplained.com/?p=30; the published address will be https://statesideexplained.com/usps-informed-delivery-how-it-works/.
+
+Remaining: the user previews on a phone width (diagram text size is the open item above) and presses Publish. **Mandatory**: re-read the two USPS pages right before Publish (last re-read 2026-10-07; repeat if more than a day has passed). If a page differs or cannot be opened, do not publish.
+

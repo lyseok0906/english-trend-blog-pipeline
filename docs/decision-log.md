@@ -332,3 +332,9 @@ After the power bank WordPress draft, Claude re-read the USPS FAQ "Informed Deli
 
 The user pushed `cafc738` and approved moving `usps-informed-delivery-how-it-works` to `content/ready/` (this article only). Claude moved the file, set `status: ready`, recorded Gate 3 in the QA record and set the backlog stage to `ready`. Not on WordPress yet. The mandatory re-check of the two USPS pages is repeated right before publishing. Counts: published 4; ready 2 (power bank on WordPress as a draft, id 28; Informed Delivery not yet on WordPress); draft 0; brief 6 (pilot) plus 2 deferred; idea 1.
 
+## 2026-10-07 — usps-informed-delivery-how-it-works: WordPress draft created
+
+At the user's request Claude created the WordPress draft (post id 30, media id 29): title, slug, category "Postal service and stamps", diagram with alt text, Rank Math meta description and focus keyword as in the front matter. Not published. Body text equals `content/ready/`. The user previews on a phone and publishes; mandatory re-check of the two USPS pages right before Publish.
+
+Instruction for today (user, 2026-10-07): draft the six remaining pilot briefs in order, starting with the Thanksgiving date article. Each gets: official sources re-opened, source notes, draft with a photo-free diagram, Gate 1 factual QA, local commit. No WordPress upload, no move to `ready`, no publishing. If a source cannot be opened or checking is insufficient, the article is not forced; only a hold and its reason are recorded.
+
