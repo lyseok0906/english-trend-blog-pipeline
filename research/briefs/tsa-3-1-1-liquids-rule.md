@@ -4,6 +4,8 @@
 **Lane:** airport security rules (rule-type post: mandatory official-page re-check, see `docs/blog-c-site-structure.md`).
 **Prepared:** 2026-10-06 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
+> **Update 2026-10-07.** Two statements in this brief are out of date. (1) TSA pages returned 403 only to the summarizing reader; the built-in browser pane opens them, so Claude reads them and the user does not have to for the first check. The user may still look at them before publish approval. (2) Open question 2 is answered: the rule page says that separating the bag from the carry-on "facilitates the screening process" and does not say the bag must be removed (source notes, T1). The draft is `content/drafts/tsa-3-1-1-liquids-rule.md`; the working title was shortened. Open question 1 (focus keyword, exclusion of medical liquids) was treated as approved by the user's instruction to start drafting.
+
 ## Topic
 
 What the TSA 3-1-1 liquids rule says, what it exempts, and what TSA says to do at the checkpoint.

@@ -88,3 +88,12 @@ URL: https://www.tsa.gov/travel/frequently-asked-questions/breast-milk-formula-a
 
 - Search for any TSA announcement of a rule change (only a limited search was done on 2026-10-06). Do a fresh check right before publish approval, in a browser.
 - The article states TSA's wording "as of" the check date; it does not say the rule is unchanged.
+
+## Re-check after the draft (2026-10-07, built-in browser pane, full page text read by script)
+
+Both pages were opened again after the draft was written and the whole `main` text of each was read (not a summary).
+
+- **T1** (https://www.tsa.gov/travel/security-screening/liquids-aerosols-gels-rule, 1,686 characters of text): wording identical to the verbatim record above. Script checks all true: quart-sized bag sentence, "3.4 ounces (100 milliliters) or less per item", "separating from your carry-on baggage facilitates the screening process", checked-baggage sentence, "alarms during screening will require additional screening", the three exemption links (Medications, Infant and child nourishments, Inbound International Flights). No text saying the traveler must remove or take out the bag. No update date, "last updated" or change notice anywhere on the page.
+- **T2** (https://www.tsa.gov/travel/frequently-asked-questions/breast-milk-formula-and-juice-exempt-3-1-1-liquids-rule, 1,144 characters of text): identical to the record above (carry-on allowed over 3.4 oz, not needed in a quart-sized bag, remove to screen separately). No update date and no change notice on the page.
+- Neither page was changed since the earlier read the same day.
+- Still to do: one more read of both pages right before publish approval.
