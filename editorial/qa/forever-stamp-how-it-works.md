@@ -61,7 +61,7 @@ Mandatory re-check of S1–S4 right before the user approves moving the article 
 ChatGPT reviewed commit `e0aee2b` on 2026-10-07. Title kept as is (57 characters, shows search intent and the limit). Body, meta description, structure and diagram readability passed. One fix was requested, in three places, because USPS does not use the word "separate":
 
 1. Body: "a separate stamp, the Global Forever" became "the Global Forever stamp".
-2. Diagram: "USPS describes a separate stamp for it, called the Global Forever." became "USPS describes the Global Forever stamp for international mail." (the new PNG's pixel hash was checked on the device).
+2. Diagram: "USPS describes a separate stamp for it, called the Global Forever." became "USPS describes the Global Forever stamp for international mail." (the new PNG was checked on the device by pixel hash; the first write came through stale, so it was re-written and checked again).
 3. Alt text: "a separate stamp called the Global Forever" became "the Global Forever stamp".
 
 ChatGPT said Gate 2 counts as PASS once these three changes are made. Done in the commit that follows `e0aee2b`. The word "separate" no longer appears in the article, the diagram or the alt text.
