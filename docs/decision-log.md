@@ -297,3 +297,8 @@ Claude re-ran the USNO query (seven time-zone offsets) and tested 13 NOAA phrase
 ## 2026-10-07 — first-day-of-winter-2026: approved to move to ready
 
 The user pushed `23c2394` and approved moving `first-day-of-winter-2026` to `content/ready/` (this article only). Claude moved the file, set `status: ready`, recorded Gate 3 in the QA record and set the backlog stage to `ready`. Next: WordPress draft by Claude, then the user previews and publishes. Counts: published 3; ready 1; draft 2; brief 6 (pilot) plus 2 deferred; idea 1.
+
+## 2026-10-07 — first-day-of-winter-2026: WordPress draft created
+
+After the user pushed `0f95e56` and asked for it, Claude created the WordPress draft through the logged-in browser: post 25, slug `first-day-of-winter-2026`, category "US dates, seasons and holidays", diagram (media 24) with alt text, Rank Math meta description and focus keyword. Body text on the preview matches the repository file exactly. Not published; the user previews on phone width and publishes. Counts: published 3; ready 1 (WordPress draft); draft 2; brief 6 (pilot) plus 2 deferred; idea 1.
+

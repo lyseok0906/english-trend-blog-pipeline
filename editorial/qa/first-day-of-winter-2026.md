@@ -78,3 +78,12 @@ Result: **no difference**; the draft needs no change. The draft text on the devi
 The user approved moving this article to `content/ready/` on 2026-10-07, after Gate 2 PASS and the source re-check above (no difference). The approval covers this article only. Front matter set to `status: ready`. Publishing is a separate step by the user: next, Claude uploads the article to WordPress as a draft (title, slug, category "US dates, seasons and holidays", diagram with alt text, Rank Math meta description and focus keyword), and the user previews on phone width and presses Publish.
 
 If more than a day passes before publishing, tell Claude so USNO and NOAA are re-read before Publish (recommended for lane 1).
+
+## WordPress draft (2026-10-07)
+
+Claude created the draft through the logged-in browser after the user's go-ahead: post id 25, status draft, slug `first-day-of-winter-2026`, existing category "US dates, seasons and holidays" (id 4), comments and pings closed (as on the other posts), no featured image. The diagram was uploaded as media id 24 (1200x1509, file hash equal to the repository PNG: SHA-256 `8a8389e8...cc5c6`) with the `image_alt` text (315 characters, equal to the front matter) and the media title "Two start dates for winter 2026: diagram"; it is inserted once in the body, after the table. The Rank Math meta description (152 characters, equal to the front matter) and focus keyword `when is the first day of winter 2026` were set through Rank Math's update call and confirmed on the post edit screen data.
+
+Checked on the preview page (logged-in): title tag "When Is the First Day of Winter in 2026? Two Answers - Stateside Explained"; meta description and og:description equal the front matter; one H1 and six H2s as in the file; two tables; two source links, exactly the URLs in the file; one image with the alt text; category shown; body text identical to `content/ready/` (lowercase letters and digits give the same 2660 characters and the same hash); robots `index, follow`. The draft's address is https://statesideexplained.com/?p=25 until it is published; the published address will be https://statesideexplained.com/first-day-of-winter-2026/.
+
+Remaining: the user previews on a phone width and presses Publish (Publish is the user's step). If more than a day passes before publishing, tell Claude so USNO and NOAA are re-read first. After publishing, send the live URL for live QA; Claude then moves the article to `content/published/`.
+
