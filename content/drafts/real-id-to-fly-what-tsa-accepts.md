@@ -1,7 +1,7 @@
 ---
 title: "Do You Need a REAL ID to Fly? What TSA Accepts"
 slug: real-id-to-fly-what-tsa-accepts
-meta_description: "TSA says adults need an ID on its list, and a state license must be REAL ID compliant. See what else TSA accepts and what happens without one."
+meta_description: "No. Adults need an ID on TSA's list; a REAL ID-compliant state license or ID is one option. See alternatives and what happens without one."
 category: Airport security rules
 focus_keyword: do i need a real id to fly
 status: draft
@@ -13,7 +13,7 @@ image_alt: "Flowchart of what ID TSA takes. An adult 18 or older checks whether 
 
 # Do You Need a REAL ID to Fly? What TSA Accepts
 
-**You need an ID that is on TSA's list, and a REAL ID is one of them.** TSA says adults 18 and older must show valid identification at the airport checkpoint. A state license or ID card must be REAL ID compliant to be on the list. A U.S. passport is also on the list.
+**No—not necessarily. You need an ID on TSA's list, and a REAL ID-compliant state license or ID is one option.** TSA says adults 18 and older must show valid identification at the airport checkpoint. A U.S. passport is also on the list. A state license or ID card must be REAL ID compliant to be on the list.
 
 This article covers what TSA's pages say. The wording is as of October 7, 2026, and comes from the three TSA pages listed at the end. TSA says its list "is subject to change without notice" and encourages travelers to check it again before traveling.
 

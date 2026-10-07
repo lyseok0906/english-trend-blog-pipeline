@@ -380,3 +380,13 @@ The user published both articles in WordPress and sent the live URLs: https://st
 
 **Going forward.** New posts are created with comments and pings closed by default; still confirm both are closed when creating each WordPress draft and in live QA. Revisit this policy only if the user decides to open comments.
 
+## 2026-10-07 — Gate 2 for the six new drafts, fixes applied
+
+ChatGPT's Gate 2 result (reported by the user): PASS for `thanksgiving-2026-date`, `federal-holiday-weekend-observed` and `usps-hold-mail-how-it-works`; FIX REQUIRED for three.
+
+1. `real-id-to-fly-what-tsa-accepts`: the first answer and the meta description now answer "is a REAL ID required?" directly ("No—not necessarily ...").
+2. `tsa-precheck-what-it-changes`: the bold first sentence now reads "offers eligible travelers a speedier security experience"; the diagram label "Stays on you:" became "You can keep on:" (alt text updated to match).
+3. `usps-mail-forwarding-how-long`: the 12 months is stated as the permanent-change figure in the first answer, the meta description and the diagram ("2. Permanent forwarding: 12 months"); the temporary-change wording ("the period you specify") is now in the first three sentences.
+
+Each fix was re-checked against the source notes and recorded in the article's `editorial/qa/` file. Condition from Gate 2: the forwarding article keeps its internal link to the Hold Mail article only if Hold Mail is published first; otherwise the link is removed. Not done: the fixed articles have not gone back to Gate 2 (ChatGPT re-reviews the fix commit); no WordPress upload, no ready move, no publishing. Counts: published 6; ready 0; draft 6; brief 0 (pilot) plus 2 deferred; idea 1.
+

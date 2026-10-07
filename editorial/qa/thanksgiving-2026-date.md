@@ -48,3 +48,7 @@ Method: both official pages were opened again in the built-in browser on 2026-10
 ### Re-check obligations
 
 Recommended (lane 1): re-read S1 and S2 before the user approves moving the article to `ready`. If OPM's 2026 date or the statute's wording differs, return to draft.
+
+## Gate 2 (ChatGPT, 2026-10-07, result reported by the user)
+
+**PASS.** No changes requested. A recommended (not mandatory) re-check of the official pages before the user approves the move to `ready` still applies, because the dates are fixed by statute and OPM tables that rarely change.

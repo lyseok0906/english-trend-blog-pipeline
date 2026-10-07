@@ -54,3 +54,19 @@ Method: all three TSA pages were opened again in the built-in browser on 2026-10
 ### Re-check obligations
 
 **Mandatory**: re-read S1, S2 and S3 right before the user approves moving the article to `ready`, and again right before publishing. Compare the acceptable-ID list, the May 7, 2025 wording, the expired-ID and children statements and the ConfirmID description. If a page differs or cannot be opened, return to draft or do not publish.
+
+## Gate 2 (ChatGPT, 2026-10-07, result reported by the user)
+
+**FIX REQUIRED, applied.** The first answer and the meta description now answer directly whether a REAL ID is required.
+
+| Change | Before | After |
+|---|---|---|
+| `meta_description` (138 characters) | "TSA says adults need an ID on its list, and a state license must be REAL ID compliant. See what else TSA accepts and what happens without one." | "No. Adults need an ID on TSA's list; a REAL ID-compliant state license or ID is one option. See alternatives and what happens without one." |
+| Bold first sentence | "You need an ID that is on TSA's list, and a REAL ID is one of them." | "No—not necessarily. You need an ID on TSA's list, and a REAL ID-compliant state license or ID is one option." |
+| Next sentences | "TSA says adults 18 and older ... checkpoint. A state license or ID card must be REAL ID compliant to be on the list. A U.S. passport is also on the list." | "TSA says adults 18 and older must show valid identification at the airport checkpoint. A U.S. passport is also on the list." then "A state license or ID card must be REAL ID compliant to be on the list." |
+
+Claim check for the new wording (Gate 1 re-run on the changed sentences): "You need an ID on TSA's list" and "adults 18 and older must show valid identification" are TSA statements already in the Gate 1 table; "a REAL ID-compliant state license or ID is one option" and "a U.S. passport is also on the list" are on TSA's list (the ID table in the article); "not necessarily" follows from the TSA identification page, which tells passengers to travel with an acceptable alternative ID such as a passport or to enroll for a REAL ID. Result: pass. No diagram change (the flowchart already starts from "is the ID on TSA's list"). Alt text unchanged (540 characters; Gate 2 did not ask to shorten it).
+
+Left as it was, for the re-review: the section "What TSA says about REAL ID" still reports, attributed to TSA's REAL ID page, that U.S. travelers must be REAL ID compliant to board domestic flights, followed by the identification page's alternatives. The two statements are both TSA's and are shown together.
+
+Not sent back to Gate 2 yet. For the changed articles, ChatGPT will re-review the fix commit.

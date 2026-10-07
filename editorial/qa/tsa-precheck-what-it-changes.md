@@ -54,3 +54,17 @@ Method: three TSA pages were opened in the built-in browser on 2026-10-07. The b
 ### Re-check obligations
 
 **Mandatory**: re-read S1, S2 and S3 right before the user approves moving the article to `ready`, and again right before publishing. Compare the benefits sentence, the "not guaranteed" caveat, the indicator and KTN wording, the children's conditions, the five-year statement and the provider names. If a page differs or cannot be opened, return to draft or do not publish.
+
+## Gate 2 (ChatGPT, 2026-10-07, result reported by the user)
+
+**FIX REQUIRED, applied.**
+
+| Change | Before | After |
+|---|---|---|
+| Bold first sentence | "TSA PreCheck is a TSA program that, in TSA's words, gives trusted travelers a speedier security experience in dedicated lanes across the U.S." | "TSA PreCheck is a TSA program that offers eligible travelers a speedier security experience in dedicated lanes across the U.S." |
+| Diagram, step 2 label | "Stays on you:" | "You can keep on:" |
+| Alt text (front matter and body, identical, 469 characters) | "belts, light jackets and shoes stay on you" | "you can keep belts, light jackets and shoes on" |
+
+Claim check: the new first sentence is a paraphrase of S1-1 ("gives trusted travelers a speedier security experience in dedicated lanes across the U.S."); "eligible travelers" follows TSA's use of "PreCheck eligible" in the FAQ (S2-8) and drops the quotation attribution, which the next sentence ("TSA says ...") carries. "You can keep on" matches TSA's "leave on belts, light jackets, and shoes" (S1). The diagram was re-rendered (1200x1947, no text overflow; pixel hash md5 of RGB e91371ac...); the PNG and SVG on the device match the cloud render. Result: pass.
+
+Not sent back to Gate 2 yet. For the changed articles, ChatGPT will re-review the fix commit.

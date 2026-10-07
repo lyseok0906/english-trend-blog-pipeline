@@ -62,3 +62,21 @@ Method: the three USPS pages were opened again in the built-in browser on 2026-1
 ### Re-check obligations
 
 **Mandatory**: re-read S1, S2 and S3 right before the user approves moving the article to `ready`, and again right before publishing. Compare 12 months, 6/12/18-month increments and the 18-month maximum, 3 business days / 2 weeks, 6 months of return-to-sender, the periodicals wording on both pages, and the FAQ page dates. If a page differs or cannot be opened, return to draft or do not publish.
+
+## Gate 2 (ChatGPT, 2026-10-07, result reported by the user)
+
+**FIX REQUIRED, applied.** The 12 months is now tied to a permanent change of address in the first answer, the meta description and the diagram, and the temporary-change wording no longer conflicts with the first answer.
+
+| Change | Before | After |
+|---|---|---|
+| `meta_description` (144 characters) | "USPS standard mail forwarding lasts 12 months, with paid extensions for permanent moves. See what is forwarded and what happens when it ends." | "For a permanent change of address, USPS mail forwarding lasts 12 months. See what is forwarded, extension options and what happens when it ends." |
+| First three sentences | "USPS says standard mail forwarding lasts 12 months. After that, USPS says it returns mail to the sender for 6 months ... A paid extension is possible for a permanent change of address." | "For a permanent change of address, USPS says standard mail forwarding lasts 12 months. For a temporary change, USPS says mail is forwarded for the period you specify. A paid extension is possible for a permanent change of address." |
+| Diagram, step 2 title | "2. Standard forwarding: 12 months" | "2. Permanent forwarding: 12 months" |
+| Alt text (front matter and body, identical, 357 characters) | "Standard forwarding: 12 months." | "Permanent forwarding: 12 months." |
+| `internal_link_candidates` | Hold Mail (drafted) | Hold Mail (drafted; keep the link only if Hold Mail is published first, otherwise remove it) |
+
+Claim check: "for a permanent change of address ... 12 months" is S2-1 (the FAQ ties 12 months to a permanent change of address) together with S1-1 (the forwarding page's 12 months); "for a temporary change ... the period you specify" is S2-2 ("a specified period of time"); the extension sentence is S3-2. The sentence about the 6 months of return-to-sender is no longer in the introduction; it stays in the section "When forwarding ends" (S1-12). The diagram was re-rendered (1200x2697, no text overflow; pixel hash md5 of RGB 676147eb...); the PNG and SVG on the device match the cloud render. Result: pass.
+
+**Publish-order condition (Gate 2).** The internal link to the Hold Mail article (C26) may stay only after the Hold Mail article is live. Publish Hold Mail first; if this article must go first, remove the link. Check this at the `ready` move and before publishing.
+
+Not sent back to Gate 2 yet. For the changed articles, ChatGPT will re-review the fix commit.

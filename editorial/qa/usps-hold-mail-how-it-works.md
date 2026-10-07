@@ -54,3 +54,7 @@ Method: the three USPS pages were opened again in the built-in browser on 2026-1
 ### Re-check obligations
 
 **Mandatory**: re-read S1, S2 and S3 right before the user approves moving the article to `ready`, and again right before publishing. Compare the numbers (3 days, 30 days, 3 days between holds, 2:00 a.m. Central Time, 3 AM ET, 10 days), the account and identity requirement, the in-person route and the FAQ page date. If a page differs or cannot be opened, return to draft or do not publish.
+
+## Gate 2 (ChatGPT, 2026-10-07, result reported by the user)
+
+**PASS.** No changes requested. The mandatory re-check of the three USPS pages before the move to `ready` and again before publishing still applies. Publish order: this article goes live before `usps-mail-forwarding-how-long`, which links to it.

@@ -8,12 +8,12 @@ status: draft
 date: 2026-10-07
 internal_link_candidates: tsa-3-1-1-liquids-rule (used once, in the table)
 image: assets/optimized/tsa-precheck-what-it-changes.png
-image_alt: "Diagram of what TSA PreCheck changes, according to TSA, in three steps. Step 1: to get the PreCheck lane, a Known Traveler Number goes in the airline reservation and the PreCheck indicator must show on the boarding pass; benefits are not automatic. Step 2: in a PreCheck lane, electronics and 3-1-1 liquids stay in your bag, and belts, light jackets and shoes stay on you. Step 3: all travelers will be screened, and no individual is guaranteed expedited screening."
+image_alt: "Diagram of what TSA PreCheck changes, according to TSA, in three steps. Step 1: to get the PreCheck lane, a Known Traveler Number goes in the airline reservation and the PreCheck indicator must show on the boarding pass; benefits are not automatic. Step 2: in a PreCheck lane, electronics and 3-1-1 liquids stay in your bag, and you can keep belts, light jackets and shoes on. Step 3: all travelers will be screened, and no individual is guaranteed expedited screening."
 ---
 
 # What Is TSA PreCheck? What It Changes at the Checkpoint
 
-**TSA PreCheck is a TSA program that, in TSA's words, gives trusted travelers a speedier security experience in dedicated lanes across the U.S.** TSA says that in a PreCheck lane you leave electronics and 3-1-1 liquids in your bag and leave on belts, light jackets and shoes. TSA also says no individual is guaranteed expedited screening.
+**TSA PreCheck is a TSA program that offers eligible travelers a speedier security experience in dedicated lanes across the U.S.** TSA says that in a PreCheck lane you leave electronics and 3-1-1 liquids in your bag and leave on belts, light jackets and shoes. TSA also says no individual is guaranteed expedited screening.
 
 This article covers what TSA's pages say. The wording is as of October 7, 2026, and comes from the three TSA pages listed at the end. It describes the program and does not recommend enrolling.
 
@@ -27,7 +27,7 @@ This article covers what TSA's pages say. The wording is as of October 7, 2026, 
 
 TSA's FAQ adds that if a PreCheck lane is not available, a traveler with a PreCheck boarding pass may be able to keep 3-1-1 liquids and laptops in the bag and shoes and light jackets on in the standard lane. It says eligible passengers should check with the TSA officer on duty.
 
-![Diagram of what TSA PreCheck changes, according to TSA, in three steps. Step 1: to get the PreCheck lane, a Known Traveler Number goes in the airline reservation and the PreCheck indicator must show on the boarding pass; benefits are not automatic. Step 2: in a PreCheck lane, electronics and 3-1-1 liquids stay in your bag, and belts, light jackets and shoes stay on you. Step 3: all travelers will be screened, and no individual is guaranteed expedited screening.](assets/optimized/tsa-precheck-what-it-changes.png)
+![Diagram of what TSA PreCheck changes, according to TSA, in three steps. Step 1: to get the PreCheck lane, a Known Traveler Number goes in the airline reservation and the PreCheck indicator must show on the boarding pass; benefits are not automatic. Step 2: in a PreCheck lane, electronics and 3-1-1 liquids stay in your bag, and you can keep belts, light jackets and shoes on. Step 3: all travelers will be screened, and no individual is guaranteed expedited screening.](assets/optimized/tsa-precheck-what-it-changes.png)
 
 ## It is not guaranteed
 

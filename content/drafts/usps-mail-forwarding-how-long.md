@@ -1,19 +1,19 @@
 ---
 title: "How Long Does USPS Mail Forwarding Last?"
 slug: usps-mail-forwarding-how-long
-meta_description: "USPS standard mail forwarding lasts 12 months, with paid extensions for permanent moves. See what is forwarded and what happens when it ends."
+meta_description: "For a permanent change of address, USPS mail forwarding lasts 12 months. See what is forwarded, extension options and what happens when it ends."
 category: Postal service and stamps
 focus_keyword: how long does usps forward mail
 status: draft
 date: 2026-10-07
-internal_link_candidates: usps-hold-mail-how-it-works (drafted), usps-informed-delivery-how-it-works (once published)
+internal_link_candidates: usps-hold-mail-how-it-works (drafted; keep the link only if Hold Mail is published first, otherwise remove it), usps-informed-delivery-how-it-works (once published)
 image: assets/optimized/usps-mail-forwarding-how-long.png
-image_alt: "Timeline of USPS mail forwarding. Request a change of address: forwarding may begin within 3 business days; allow up to 2 weeks. Standard forwarding: 12 months. Optional paid Extended Mail Forwarding for permanent changes of address: 6, 12 or 18 more months, up to 18. Forwarding ends: USPS returns mail to the sender for 6 months with a new-address label."
+image_alt: "Timeline of USPS mail forwarding. Request a change of address: forwarding may begin within 3 business days; allow up to 2 weeks. Permanent forwarding: 12 months. Optional paid Extended Mail Forwarding for permanent changes of address: 6, 12 or 18 more months, up to 18. Forwarding ends: USPS returns mail to the sender for 6 months with a new-address label."
 ---
 
 # How Long Does USPS Mail Forwarding Last?
 
-**USPS says standard mail forwarding lasts 12 months.** After that, USPS says it returns mail to the sender for 6 months with a label that has your new address. A paid extension is possible for a permanent change of address.
+**For a permanent change of address, USPS says standard mail forwarding lasts 12 months.** For a temporary change, USPS says mail is forwarded for the period you specify. A paid extension is possible for a permanent change of address.
 
 This article covers what USPS's pages say. The wording is as of October 7, 2026, and comes from the three USPS pages listed at the end. It gives no prices and no advice on which option to choose.
 
@@ -29,7 +29,7 @@ USPS says mail is forwarded piece by piece. Its forwarding page lists what is fo
 
 The two USPS pages do not describe periodicals the same way. The forwarding page says periodicals are forwarded for free and gives no separate time limit. The FAQ says a permanent change of address forwards "primarily First-Class Mail service for 12 months and Periodicals for 60 days". The FAQ adds that it generally does not forward USPS Marketing Mail or Package Services Mail. This article reports each page's wording as it stands.
 
-![Timeline of USPS mail forwarding. Request a change of address: forwarding may begin within 3 business days; allow up to 2 weeks. Standard forwarding: 12 months. Optional paid Extended Mail Forwarding for permanent changes of address: 6, 12 or 18 more months, up to 18. Forwarding ends: USPS returns mail to the sender for 6 months with a new-address label.](assets/optimized/usps-mail-forwarding-how-long.png)
+![Timeline of USPS mail forwarding. Request a change of address: forwarding may begin within 3 business days; allow up to 2 weeks. Permanent forwarding: 12 months. Optional paid Extended Mail Forwarding for permanent changes of address: 6, 12 or 18 more months, up to 18. Forwarding ends: USPS returns mail to the sender for 6 months with a new-address label.](assets/optimized/usps-mail-forwarding-how-long.png)
 
 ## Extended Mail Forwarding
 

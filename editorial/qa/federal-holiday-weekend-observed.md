@@ -52,3 +52,7 @@ Method: the OPM page was opened again in the built-in browser on 2026-10-07 and 
 ### Re-check obligations
 
 Recommended (lane 1): re-read the OPM overview, both footnotes and the 2026 to 2028 tables before the user approves moving the article to `ready`. If a date or the rule wording changed, return to draft.
+
+## Gate 2 (ChatGPT, 2026-10-07, result reported by the user)
+
+**PASS.** No changes requested. A recommended (not mandatory) re-check of the official pages before the user approves the move to `ready` still applies, because the dates are fixed by statute and OPM tables that rarely change.
