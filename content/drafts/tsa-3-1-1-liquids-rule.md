@@ -8,7 +8,7 @@ status: draft
 date: 2026-10-07
 internal_link_candidates: none (the only published article is about daylight saving time and is not related)
 image: assets/optimized/tsa-3-1-1-liquids-rule.png
-image_alt: "Flowchart of the TSA liquids rule: liquids, aerosols, gels, creams and pastes of 3.4 ounces (100 milliliters) or less go in a quart-sized bag in the carry-on; larger containers go in checked baggage unless an exception applies. Exceptions listed: breast milk, formula and juice, and qualifying duty-free liquids. Anything that alarms needs additional screening."
+image_alt: "Flowchart of the TSA liquids rule: liquids, aerosols, gels, creams and pastes of 3.4 ounces (100 milliliters) or less go in a quart-sized bag in the carry-on; larger containers go in checked baggage unless an exception applies. Exceptions listed: breast milk, formula and juice, and qualifying duty-free liquids. Any liquid, aerosol, gel, cream or paste that alarms needs additional screening."
 ---
 
 # What Is the TSA 3-1-1 Liquids Rule? What's Exempt?
@@ -17,7 +17,7 @@ image_alt: "Flowchart of the TSA liquids rule: liquids, aerosols, gels, creams a
 
 This article explains what TSA's own pages say. The wording below is as of October 7, 2026, and comes from the two TSA pages listed at the end. Neither page shows an update date or a notice of change, so they do not say when the wording last changed. This article does not either.
 
-![Flowchart of the TSA liquids rule: liquids, aerosols, gels, creams and pastes of 3.4 ounces (100 milliliters) or less go in a quart-sized bag in the carry-on; larger containers go in checked baggage unless an exception applies. Exceptions listed: breast milk, formula and juice, and qualifying duty-free liquids. Anything that alarms needs additional screening.](assets/optimized/tsa-3-1-1-liquids-rule.png)
+![Flowchart of the TSA liquids rule: liquids, aerosols, gels, creams and pastes of 3.4 ounces (100 milliliters) or less go in a quart-sized bag in the carry-on; larger containers go in checked baggage unless an exception applies. Exceptions listed: breast milk, formula and juice, and qualifying duty-free liquids. Any liquid, aerosol, gel, cream or paste that alarms needs additional screening.](assets/optimized/tsa-3-1-1-liquids-rule.png)
 
 ## What the rule says
 

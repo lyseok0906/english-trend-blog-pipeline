@@ -46,11 +46,11 @@ Own flowchart, no photos, logos or third-party artwork. 800 px wide source, 1200
 - "Yes … Carry-on, in a quart-sized bag" → C1; "TSA: keeping the bag separate from your carry-on baggage helps screening" → C8 (paraphrase, no "must").
 - "No … Pack it in checked baggage, unless an exception applies" → C2 and the exemptions.
 - "Breast milk, formula, juice … allowed in carry-on … no quart bag needed … removed and screened separately" → C13, C14.
-- "Qualifying duty-free liquids … bought internationally, flying to the U.S. on a connecting flight … tamper-evident bag and a receipt dated within 48 hours" → C16–C18. This is a shortened version: the image does not say that the retailer packs the bag or that the bag is transparent. The full conditions are in the article text. "Receipt dated within 48 hours" is a short form of "the purchase was made within 48 hours".
-- "Anything that alarms needs additional screening" → C10.
+- "Qualifying duty-free liquids … bought internationally, flying to the U.S. on a connecting flight … tamper-evident bag and a receipt dated within 48 hours" → C16–C18 (revised after Gate 2, see below: "Tamper-evident bag, original receipt, and a purchase within 48 hours"). This is a shortened version: the image does not say that the retailer packs the bag or that the bag is transparent. The full conditions are in the article text.
+- "Any liquid, aerosol, gel, cream or paste that alarms needs additional screening" → C10 (revised after Gate 2, see below).
 - "Source: TSA website, read Oct. 7, 2026" → C3.
 
-Rendered and viewed; no clipped or overlapping text. The image does not state that the rule is unchanged.
+Rendered and viewed (current version 1200 x 2763 after the Gate 2 revision); no clipped or overlapping text. The image does not state that the rule is unchanged.
 
 Note on the file in the repo: files written to the connected folder get a provenance (C2PA) block added by the file tool. The SVG is larger than the generated file for that reason (11,832 vs 4,058 bytes). The pixels of the PNG were compared with the generated PNG and are identical.
 
@@ -80,12 +80,25 @@ Pass. No claim in the draft lacks a recorded source. The draft can go to English
 
 ## Gate 2 — English + SEO QA
 
-Not done. To be run by ChatGPT on the commit that contains this record.
+Reviewer: ChatGPT, on commit `6db909d` (article, QA record and diagram). Result received from the user on 2026-10-07: **text and SEO pass; diagram needs two wording changes.**
 
-Points for the reviewer to look at:
+Passed as written (per the reviewer): title, meta description, first-sentence answer, heading structure; not stating that the bag must be removed at every checkpoint; the portrait diagram is not cut off and explains the exceptions without photos.
+
+Revisions requested and applied (Claude, 2026-10-07):
+
+| # | Finding | Change made |
+|---|---|---|
+| 1 | The line "Anything that alarms needs additional screening." reads wider than the TSA liquids rule | Diagram bottom line and the matching sentence in the alt text (front matter and body image) changed to "Any liquid, aerosol, gel, cream or paste that alarms needs additional screening." This follows T1: "Any liquid, aerosol, gel, cream or paste that alarms during screening will require additional screening." |
+| 2 | "Tamper-evident bag and a receipt dated within 48 hours needed." did not match the TSA conditions closely | Diagram line changed to "Tamper-evident bag, original receipt, and a purchase within 48 hours." This follows T1: "The original receipt for the liquids is present and the purchase was made within 48 hours." |
+
+The article text did not change. The diagram was redrawn (same layout, three lines at the bottom, five lines in the duty-free card; the PNG is now 1200 x 2763). It was viewed after rendering; no clipped or overlapping text. Pixels of the file in the repository were compared with the rendered file.
+
+Per the reviewer's rule, this revised diagram needs only a wording check by the reviewer, not a full review. After that check, Gate 2 counts as passed.
+
+Status: Gate 2 passed for text and SEO; diagram wording check pending.
+
+Points the reviewer was given:
 
 - Title is 50 characters ("What Is the TSA 3-1-1 Liquids Rule? What's Exempt?"); the focus keyword is `what is the tsa liquids rule`.
 - Meta description is 152 characters (limit 160).
-- The article answers the question in the first sentence and keeps one search intent.
-- Alt text describes the diagram; the diagram image itself should be looked at, not only the text.
 - One short quote only ("facilitates the screening process").
