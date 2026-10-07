@@ -74,6 +74,39 @@ Fetched 2026-10-06 through the summarizing tool, `hl=en&gl=us`. For `how does a 
 - Whether a Forever stamp may be used on postcards.
 - Search volume and competition.
 
+## Re-read in a real browser (2026-10-07)
+
+The summarizing tool was not needed. Each page was opened in the built-in browser and its text read by script. Wording below is as the pages showed it.
+
+### S1 — facts.usps.com (first Forever stamp)
+- Visible body text: the first Forever stamp featured the Liberty Bell and was issued April 12, 2007 at Philadelphia's Independence Hall.
+- The validity sentence is **not in the visible body**. It appears only in the `og:description` meta tag: "POSTAL FACT: The first Forever stamp, issued in 2007, was an image of the Liberty Bell. Forever stamps are purchased at the current First-Class Mail 1-ounce postage price and remain valid for the first ounce no matter how prices change."
+- Page metadata: modified 2026-05-20 (earlier note said May 15, 2026 — corrected); published 2025-07-01.
+- Consequence: do not cite S1 as the main source for "remains valid". Use S2 (visible text) for validity and S1 only for the 2007 launch fact.
+
+### S2 — store.usps.com, U.S. Flag 2026 stamps product page
+- "A Forever® stamp is for sending domestic mail weighing up to 1 oz via First-Class Mail®."
+- "Purpose: Send letters and cards up to 1 oz (approximately 4 sheets of regular, 8-1/2" x 11" paper in a rectangular envelope) within the U.S., including U.S. territories and military bases overseas."
+- "Value: Always valid for the First-Class Mail 1 oz rate, even if postage rates increase. Visit First-Class Mail and Postage to view current rates."
+- Product line shows "Forever 82¢". No page date. Price not for article text.
+
+### S3 — pe.usps.com, Notice 123 (Price List)
+- Header: "Notice 123 • Effective October 04, 2026".
+- First-Class Mail, Retail—Single Piece, Letters (Stamped): 1 oz $0.82; 2 oz $1.11; 3 oz $1.40; 3.5 oz $1.69. Letters (Metered): 1 oz $0.78. Postcards: $0.65. Letters with nonmachinable characteristics: $0.49 surcharge.
+- The word "Forever" does not appear anywhere on the page. No Global Forever line.
+- So S2's 82 cents matches the stamped 1 oz row. Additional ounces are visible in the table (1.11 at 2 oz), which supports "a heavier letter needs more postage" but the numbers stay out of article text.
+
+### S4 — usps.com, First-Class Mail International
+- "First-Class Mail International® (FCMI) service is the most affordable way to send letters and large envelopes to more than 180 countries, including Canada, Great Britain, and Australia."
+- "Send 1 oz letters or postcards around the world with one Global Forever® stamp, which currently costs $1.75 and never expires, even if the postage price goes up."
+- "Global Forever stamp available". Prices for standard letters and postcards up to 1 oz "start at $1.75 for all countries".
+- The page does not say whether a regular Forever stamp is accepted for international mail. No page date. Price not for article text.
+
+### Still not verified after this read
+- The USPS FAQ pages (404 or empty earlier) were not retried. Not needed for the claims above.
+- Whether a regular Forever stamp may be used on postcards or international mail: no official page read says so. Keep out of the article, or state only what S2 and S4 say.
+- Search volume and competition.
+
 ## To re-check before drafting, after factual QA, and before publishing (mandatory)
 
 Open S1, S2, S3 and S4 in a browser. Compare the validity wording, the domestic 1 ounce limit, the price list, and the Global Forever description with the tables above. Record page dates.

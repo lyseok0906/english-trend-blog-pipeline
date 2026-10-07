@@ -2,7 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes: `research/sources/forever-stamp-how-it-works.md`. No draft exists.
 **Lane:** postal service and stamps (rule- and price-type post: mandatory official-page re-check, see `docs/blog-c-site-structure.md`).
-**Prepared:** 2026-10-06 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
+**Prepared:** 2026-10-06 by Cowork (Claude); sources re-read in a browser 2026-10-07. Not yet reviewed by the user or ChatGPT.
 
 ## Topic
 
@@ -47,10 +47,11 @@ Own flow diagram: buy a stamp → postage price rises later → the same stamp s
 
 ## Re-check rule (mandatory for this post)
 
-Before drafting, after factual QA, and again right before publish approval: open the USPS pages in the source notes. Check validity wording, domestic-only wording, the price list and the Global Forever page. If any differs, return to draft. If a USPS page cannot be opened or shows no content, the post is not published. The user opens the USPS pages in a browser for the final check.
+Before drafting, after factual QA, and again right before publish approval: open the USPS pages in the source notes. Check validity wording, domestic-only wording, the price list and the Global Forever page. If any differs, return to draft. If a USPS page cannot be opened or shows no content, the post is not published. Claude opens the pages in the built-in browser and reads the text by script (the 2026-10-07 re-read worked this way); the user does not need to open them.
 
 ## Risks
 
+- **The validity sentence on S1 is in the page's meta description, not its visible body (found 2026-10-07).** The article takes "remains valid" from S2's visible text and uses S1 only for the 2007 launch.
 - **Two USPS FAQ pages returned no content to the reading tool.** The claims come from a USPS facts page and a USPS store page instead.
 - The USPS international page used for Global Forever is a single source with no page date, and the price list page did not show a Global Forever line. The article keeps it to a pointer.
 - Prices (82 cents for a stamp as read on 2026-10-06) change. They are not in the article text.
@@ -59,4 +60,4 @@ Before drafting, after factual QA, and again right before publish approval: open
 ## Open questions for the user
 
 1. Approve the focus keyword and the no-price-number rule.
-2. Open the USPS pages in a browser before drafting, because the FAQ pages and the international page could not be fully read here.
+2. ~~Open the USPS pages in a browser before drafting.~~ Done by Claude on 2026-10-07: S1–S4 read in a real browser and recorded in the source notes. Remaining gap: no official page read says whether a regular Forever stamp works on international mail, so the article points to Global Forever and says only what S4 says.
