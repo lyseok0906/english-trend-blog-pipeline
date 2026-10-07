@@ -132,6 +132,26 @@ page, and is not attributed to it in the text. No change needed.
 
 Result: no source changed. Article moved to `content/ready/`, front matter `status: ready`.
 
+### Image revision after Gate 3 (2026-10-07)
+
+After the article was uploaded to WordPress as a draft, the preview on a phone-width screen
+(375 px) showed the first diagram shrunk to about 26% of its size, so its text was too small
+to read. The diagram was redrawn in portrait format (PNG 1200 x 1650; text is 34 px or larger in the 800 px wide source) with less content:
+
+- top: timeline with only "March 8" and "November 1";
+- bottom: "2:00 a.m. -> 1:00 a.m." and "1-2 a.m. happens twice";
+- removed from the image: the statute citation, the rule sentence and the places that do not
+  observe daylight saving time. These stay in the article text and table only.
+
+Checks by Claude: every date and time matches C1-C6 (March 8 and November 1 are the second
+Sunday of March and the first Sunday of November; 2:00 a.m. becomes 1:00 a.m.; the 1:00-2:00 a.m.
+hour happens twice, first on daylight time and then on standard time). The image was
+simulated at 315 px width and all text was readable. Alt text in the front matter and in the
+body was updated to match.
+
+Status: image re-review by ChatGPT pending. The WordPress draft keeps the old image until the
+new one is uploaded after that review.
+
 ### Hand-off for publishing in WordPress (user)
 
 - Title: When Does Daylight Saving Time End in the U.S. in 2026?

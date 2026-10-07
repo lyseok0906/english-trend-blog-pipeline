@@ -8,7 +8,7 @@ status: ready
 date: 2026-10-06
 internal_link_candidates: none (no published articles yet)
 image: assets/optimized/daylight-saving-time-end-2026-us.png
-image_alt: "Timeline of 2026 showing daylight saving time from March 8 to November 1, and below it the clock going from 2:00 a.m. back to 1:00 a.m. on November 1."
+image_alt: "Diagram of 2026 daylight saving time from March 8 to November 1, and the clock change on November 1: 2:00 a.m. daylight time becomes 1:00 a.m. standard time, so the hour from 1:00 to 2:00 a.m. happens twice."
 ---
 
 # When Does Daylight Saving Time End in the U.S. in 2026?
@@ -23,7 +23,7 @@ When local clocks reach 2:00 a.m., they move back one hour to 1:00 a.m. That mea
 
 Daylight saving time began this year on March 8, 2026, when clocks moved ahead from 2:00 a.m. to 3:00 a.m.
 
-![Timeline of 2026 showing daylight saving time from March 8 to November 1, and below it the clock going from 2:00 a.m. back to 1:00 a.m. on November 1.](assets/optimized/daylight-saving-time-end-2026-us.png)
+![Diagram of 2026 daylight saving time from March 8 to November 1, and the clock change on November 1: 2:00 a.m. daylight time becomes 1:00 a.m. standard time, so the hour from 1:00 to 2:00 a.m. happens twice.](assets/optimized/daylight-saving-time-end-2026-us.png)
 
 ## The rule behind the date
 
