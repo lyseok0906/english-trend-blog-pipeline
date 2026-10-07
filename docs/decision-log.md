@@ -316,3 +316,11 @@ The user pushed `81318be` and approved moving `power-bank-on-a-plane-tsa-faa` to
 
 Rule change by the user (2026-10-07): Claude may now push local commits itself, by typing `git push origin main` in the user's own VS Code terminal through computer control, after showing the list of commits to be pushed and after the user has granted access to the app. Only `git push origin main`; never a forced push or another branch; Claude reads the result and reports it. Publishing on WordPress stays the user's step. Counts: published 4; ready 1; draft 1; brief 6 (pilot) plus 2 deferred; idea 1.
 
+## 2026-10-07 — push rule: computer-control push does not work; user pushes
+
+The push rule recorded above (Claude types `git push origin main` into the user's VS Code terminal) could not be used: when Claude checked the access it would get, VS Code is granted only at a click-only level (no typing or key presses), and Claude did not work around that block. The user pushed `a8ca13e` themselves (`81318be..a8ca13e`). Standing rule again: the user pushes; Claude shows the commit list and asks.
+
+## 2026-10-07 — power-bank-on-a-plane-tsa-faa: WordPress draft created
+
+At the user's request Claude created the WordPress draft (post id 28, media id 27): title, slug, category "Airport security rules", diagram with alt text, Rank Math meta description and focus keyword as in the front matter. Not published. Body text on the draft equals `content/ready/`. The user previews on a phone and publishes; mandatory re-check of the three TSA/FAA pages right before Publish. Counts: published 4; ready 1 (on WordPress as a draft); draft 1 (Informed Delivery); brief 6 (pilot) plus 2 deferred; idea 1.
+

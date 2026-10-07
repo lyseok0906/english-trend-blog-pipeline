@@ -74,3 +74,11 @@ The user approved moving this article to `content/ready/` on 2026-10-07, after G
 
 **Mandatory**: re-read the three TSA/FAA pages again right before the user presses Publish (and again before the WordPress upload if more than a day has passed since the re-check above). If a page differs or cannot be opened, do not publish.
 
+## WordPress draft (2026-10-07)
+
+Claude created the draft through the logged-in browser after the user's request: post id 28, status draft, slug `power-bank-on-a-plane-tsa-faa`, existing category "Airport security rules" (id 5), comments and pings closed (as on the other posts), no featured image. The diagram was uploaded as media id 27 (1200x2367, file hash equal to the repository PNG: SHA-256 `f27bcb97...fb67b`) with the `image_alt` text (equal to the front matter) and the media title "Power bank rules on a plane: TSA and FAA diagram"; it is inserted once in the body, after the table. The Rank Math meta description (149 characters, equal to the front matter) and focus keyword `can you bring a power bank on a plane` were set through Rank Math's update call and confirmed on the post edit screen data.
+
+Checked on the preview page (logged-in): title tag "Can You Bring a Power Bank on a Plane? TSA and FAA Rules - Stateside Explained"; meta description and og:description equal the front matter; one H1 and five H2s as in the file; one table; four links in the body, exactly the URLs in the file (the internal TSA liquids link and the three TSA/FAA pages); one diagram with the alt text; robots `index, follow`; body text identical to `content/ready/` (lowercase letters and digits give the same 2786 characters). The draft's address is https://statesideexplained.com/?p=28 until it is published; the published address will be https://statesideexplained.com/power-bank-on-a-plane-tsa-faa/.
+
+Remaining: the user previews on a phone width (the diagram text size is the open item above) and presses Publish. **Mandatory**: before Publish, re-read the three TSA/FAA pages (the last re-read was 2026-10-07; repeat if more than a day has passed or right before Publish). If a page differs or cannot be opened, do not publish. After publishing, send the live URL for live QA; Claude then moves the article to `content/published/`.
+
