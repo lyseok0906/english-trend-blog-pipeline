@@ -24,11 +24,11 @@ Updated 2026-10-07. "Published" is the only number that counts as articles on th
 |---|---|---|
 | published | 3 (DST, TSA liquids, Forever stamp) | 0 |
 | ready | 0 | 0 |
-| draft | 1 (first-day-of-winter-2026, Gate 1 done, Gate 2 pending) | 0 |
-| brief | 8 | 2 (TSA Thanksgiving food, USPS Thanksgiving) |
+| draft | 2 (first-day-of-winter-2026, power-bank-on-a-plane-tsa-faa; Gate 1 done, Gate 2 pending) | 0 |
+| brief | 7 | 2 (TSA Thanksgiving food, USPS Thanksgiving) |
 | idea | 0 | 1 (TSA shoe policy) |
 
-Pilot 12 plan: 3 published + 1 draft + 8 briefs = 12 slots, 4 per lane (lane 1: DST, winter start, Thanksgiving date, weekend holidays; lane 2: liquids, REAL ID, PreCheck, power banks; lane 3: Forever stamp, hold mail, forwarding, Informed Delivery). Only the 3 published articles are live; the draft and the 8 briefs are plans and may change or be dropped. Update this table at every stage change and read the pilot result from the "published" row only.
+Pilot 12 plan: 3 published + 2 drafts + 7 briefs = 12 slots, 4 per lane (lane 1: DST, winter start, Thanksgiving date, weekend holidays; lane 2: liquids, REAL ID, PreCheck, power banks; lane 3: Forever stamp, hold mail, forwarding, Informed Delivery). Only the 3 published articles are live; the 2 drafts and the 7 briefs are plans and may change or be dropped. Update this table at every stage change and read the pilot result from the "published" row only.
 
 ## Backlog
 
@@ -46,7 +46,7 @@ Pilot 12 plan: 3 published + 1 draft + 8 briefs = 12 slots, 4 per lane (lane 1: 
 | 10 | `usps-hold-mail-how-it-works` | How Does USPS Hold Mail Work? Limits and Steps | `how does usps hold mail work` | brief | counted | Lane: postal service and stamps. Brief 2026-10-07 (three USPS pages). Mandatory re-check. Search demand not measured |
 | 11 | `usps-mail-forwarding-how-long` | How Long Does USPS Mail Forwarding Last? | `how long does usps forward mail` | brief | counted | Lane: postal service and stamps. Brief 2026-10-07 (two USPS pages). No prices or fees. Page/FAQ periodicals discrepancy recorded. Mandatory re-check. Search demand not measured |
 | 12 | `usps-post-office-thanksgiving` | Is the Post Office Open on Thanksgiving? What USPS Says | `is the post office open on thanksgiving` | brief | deferred (not counted) | Lane: postal service and stamps. Brief 2026-10-07. Time-gated: wait for USPS's 2026 release (2025 came Nov 13); likely after the 4-week window. Mandatory re-check Decided 2026-10-07: write in mid-November after the 2026 notice; outside the 4-week pilot. |
-| 13 | `power-bank-on-a-plane-tsa-faa` | Can You Bring a Power Bank on a Plane? What TSA and the FAA Say | `can you bring a power bank on a plane` | brief | counted | Lane: airport security rules. Brief 2026-10-07 (two TSA pages, FAA PackSafe page updated Oct 2, 2026). Replacement for a deferred slot. Mandatory re-check. Airline rules not researched. Search demand not measured |
+| 13 | `power-bank-on-a-plane-tsa-faa` | Can You Bring a Power Bank on a Plane? What TSA and the FAA Say | `can you bring a power bank on a plane` | draft | counted | Lane: airport security rules. Brief 2026-10-07 (two TSA pages, FAA PackSafe page updated Oct 2, 2026). Draft, diagram and Gate 1 done 2026-10-07 (`content/drafts/`, `editorial/qa/` record); Gate 2 pending (ChatGPT). Title shortened to "Can You Bring a Power Bank on a Plane? TSA and FAA Rules". Mandatory re-check before approval and before publishing. Airline rules not researched. Search demand not measured |
 | 14 | `usps-informed-delivery-how-it-works` | What Is USPS Informed Delivery? How the Free Preview Works | `what is usps informed delivery` | brief | counted | Lane: postal service and stamps. Brief 2026-10-07 (USPS FAQ dated Sep 30, 2026, plus the usps.com page). Replacement for a deferred slot. Some FAQ sections unread. Mandatory re-check. Search demand not measured |
 | 15 | `tsa-shoe-policy` | Do You Have to Take Off Your Shoes at TSA? | `do you have to take your shoes off at tsa` | idea | reserve (not counted) | Not briefed. Weak source: only the July 8, 2025 TSA/DHS release says domestic passengers may keep shoes on; TSA's own evergreen pages read on 2026-10-07 (Steel Toe Boots, updated May 26, 2022; Laptops, July 15, 2026) still say only PreCheck travelers need not remove shoes, and the 75-and-older page says shoes may be left on but may be removed if an alarm sounds. Use only if a TSA evergreen page states the standard-lane rule |
 
