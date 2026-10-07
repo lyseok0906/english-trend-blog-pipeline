@@ -235,3 +235,7 @@ The user approved moving `tsa-3-1-1-liquids-rule` to `content/ready/` for this a
 ## 2026-10-07 — Forever stamp: USPS sources re-read in a browser
 
 Claude read S1–S4 in the built-in browser and recorded the wording in `research/sources/forever-stamp-how-it-works.md`. Findings: the S1 validity sentence is only in the page's meta description, so the article takes "remains valid" from the S2 store page's visible text; S3 price list (effective Oct 4, 2026) matches S2's price but has no Forever line; S4 says Global Forever never expires and does not say whether a regular Forever stamp works abroad. The brief was updated (re-check done by Claude, not the user). No price numbers go into article text. Next: draft, Gate 1, Gate 2 (ChatGPT), mandatory USPS re-check before approval.
+
+## 2026-10-07 — Forever stamp: draft written, Gate 1 done
+
+Claude drafted `content/drafts/forever-stamp-how-it-works.md` (about 700 words including front matter and sources) with its own flowchart (no stamp art, no USPS logo). The title was shortened to "How Does a Forever Stamp Work? What It Covers and Doesn't" (57 characters) from the 64-character working title, so it is less likely to be cut off in search results. No price number is in the text. Gate 1 (18 claims) is in `editorial/qa/forever-stamp-how-it-works.md`; one open wording point (C13, "separate stamp") is flagged for Gate 2. Next: Gate 2 by ChatGPT, then the mandatory USPS re-check before the user approves the move to `ready`.
