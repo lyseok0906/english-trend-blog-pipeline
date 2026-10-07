@@ -1,6 +1,6 @@
 # QA record — forever-stamp-how-it-works
 
-Article: `content/ready/forever-stamp-how-it-works.md` (moved from `content/drafts/` on 2026-10-07)
+Article: `content/published/forever-stamp-how-it-works.md` (moved from `content/ready/` after publishing, 2026-10-07)
 Sources: `research/sources/forever-stamp-how-it-works.md` (S1–S4, section "Re-read in a real browser (2026-10-07)")
 Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07; Gate 2 (English + SEO, ChatGPT) passed 2026-10-07 after three wording fixes. Pre-approval USPS re-check done 2026-10-07 (no change). Moved to `content/ready/` 2026-10-07 after the user's approval. Publishing is a separate step by the user.
 
@@ -85,3 +85,30 @@ Title, slug, category (new category "Postal service and stamps" to be created), 
 Claude created the draft through the logged-in browser after the TSA article went live and passed live QA: post id 22, status draft, slug `forever-stamp-how-it-works`, new category "Postal service and stamps", diagram uploaded (1200x2280, not scaled; file hash matches the repository PNG) with the `image_alt` text, Rank Math meta description (125 characters, equals the front matter) and focus keyword set, comments closed, no featured image. Body text checked against `content/ready/forever-stamp-how-it-works.md` (lowercase letters and digits, same 2254 characters and same SHA-256). Four USPS source links present. The draft returns 404 to anonymous visitors, as it should.
 
 Remaining: the user previews on a phone width and publishes (Publish is the user's step). If more than a day passes before publishing, tell Claude so the four USPS pages are re-read. After publishing, send the live URL for live QA, then Claude moves the article to `content/published/`.
+
+## Live QA (2026-10-07)
+
+Published by the user at https://statesideexplained.com/forever-stamp-how-it-works/ (WordPress post id 22; published time 2026-10-07 01:13 EDT). The user previewed and pressed Publish. The USPS pages were last re-read earlier the same day (pre-approval check), so no further re-read was needed.
+Checked by Claude in the built-in browser, anonymous requests (no login cookies).
+
+| Check | Result |
+|---|---|
+| HTTP status, canonical URL | 200; canonical equals the live URL |
+| Title tag | "How Does a Forever Stamp Work? What It Covers and Doesn't - Stateside Explained" |
+| Meta description | Equals the 125-character text in the front matter (og:description too) |
+| robots meta | `index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large`; twitter:card `summary_large_image` |
+| Headings | One H1 and five H2s as in the file |
+| Body text | Identical to `content/published/` text: lowercase letters and digits give the same 2254 characters and the same SHA-256 as the repository file and the earlier draft check |
+| Links | 4 USPS source links, exactly the URLs in the file |
+| Diagram | One copy only (no featured image); loads at 1200x2280 (WordPress serves a 539x1024 version in the page); alt text matches `image_alt` and no longer contains "separate" |
+| Category | "Postal service and stamps"; category page lists the post; article:section matches |
+| Structured data | Rank Math BlogPosting JSON-LD present |
+| Comments | No comment form |
+| Home page, feed, sitemap | Home shows all three posts; `/feed/` includes the post; `post-sitemap.xml` lists it; `sitemap_index.xml` 200 |
+
+Not verified: the exact diagram text size on a real phone (the user's preview before publishing is the check).
+
+Notes for follow-up (not blocking):
+
+- Structured data headline and WebPage name show a literal `&#039;` for the apostrophe ("Doesn&#039;t") on this article and on the TSA article ("What&#039;s"). The visible title and the title tag are correct. Probably Rank Math encoding apostrophes in JSON-LD; not proven, and the effect on search display is unknown. Options: leave it, check Rank Math's title settings, or avoid apostrophes in future titles.
+- Byline still shows "admin" (display name not yet set).

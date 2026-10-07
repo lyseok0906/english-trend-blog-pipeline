@@ -255,3 +255,7 @@ Claude created the WordPress draft (post 19) through the already logged-in brows
 ## 2026-10-07 — Forever stamp: WordPress draft created
 
 After the TSA live QA, Claude uploaded `forever-stamp-how-it-works` as a WordPress draft (post 22): new category "Postal service and stamps", diagram with alt text, Rank Math meta description and focus keyword. Body text matches the repository file exactly. Not published; the user previews and publishes.
+
+## 2026-10-07 — Forever stamp: published and live QA passed
+
+The user previewed and published the Forever stamp article at https://statesideexplained.com/forever-stamp-how-it-works/. Live QA by Claude passed (body text identical to the repository file; meta, canonical, category, sitemap, feed and home correct). Moved to `content/published/`. Week 1 now has three published articles (daylight saving time, TSA liquids rule, Forever stamp). One non-blocking note: Rank Math's structured data shows `&#039;` for apostrophes in titles (this article and the TSA article).

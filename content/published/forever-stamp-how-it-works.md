@@ -4,8 +4,10 @@ slug: forever-stamp-how-it-works
 meta_description: "A Forever stamp pays the 1-ounce First-Class Mail rate even after prices rise. See what USPS says it covers, and what it doesn't."
 category: Postal service and stamps
 focus_keyword: how does a forever stamp work
-status: ready
+status: published
 date: 2026-10-07
+published_date: 2026-10-07
+live_url: https://statesideexplained.com/forever-stamp-how-it-works/
 internal_link_candidates: none (the published article is about daylight saving time; the TSA article is not related)
 image: assets/optimized/forever-stamp-how-it-works.png
 image_alt: "Flowchart of how a Forever stamp works: USPS says it is always valid for the First-Class Mail 1 ounce rate even if postage rates increase. Domestic mail up to 1 ounce is covered by that rate. For domestic mail over 1 ounce, the USPS price list shows higher prices for letters up to 2 and 3 ounces. For international mail, USPS describes the Global Forever stamp."
