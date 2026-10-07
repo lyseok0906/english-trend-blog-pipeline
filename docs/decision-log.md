@@ -338,3 +338,6 @@ At the user's request Claude created the WordPress draft (post id 30, media id 2
 
 Instruction for today (user, 2026-10-07): draft the six remaining pilot briefs in order, starting with the Thanksgiving date article. Each gets: official sources re-opened, source notes, draft with a photo-free diagram, Gate 1 factual QA, local commit. No WordPress upload, no move to `ready`, no publishing. If a source cannot be opened or checking is insufficient, the article is not forced; only a hold and its reason are recorded.
 
+## 2026-10-07 — thanksgiving-2026-date: draft written, Gate 1 done
+
+Under the user's instruction of 2026-10-07 (drafts only, up to Gate 1 and a local commit), Claude re-opened the OPM Federal Holidays page and 5 U.S.C. 6103 (2023 edition, govinfo.gov), wrote the source notes, the draft with its own calendar diagram, and the Gate 1 claim table (14 claims, all pass; two are computed and labeled). The OPM tables for 2024 to 2030 match the computed fourth Thursdays. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 1; brief 5 (pilot) plus 2 deferred; idea 1.
