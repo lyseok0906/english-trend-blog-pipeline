@@ -82,3 +82,24 @@ Claim check: "for a permanent change of address ... 12 months" is S2-1 (the FAQ 
 ## Gate 2 final (ChatGPT, 2026-10-07, result reported by the user)
 
 The fixed version (commit `4746e4a`) was re-reviewed: **Gate 2 final PASS**. No further changes requested. The publish-order condition stands: keep the internal link to the Hold Mail article only if Hold Mail is published first; otherwise remove it.
+
+
+## Mandatory pre-approval re-check (2026-10-08): DIFFERENCE FOUND on S1
+
+The three USPS pages were opened again in the built-in browser and tested by script (strings normalized for case, quotes, dashes, registered marks and spacing).
+
+| Page | Result |
+|---|---|
+| S2 USPS FAQ "Mail Forwarding Options" (Aug 26, 2026) | the permanent-change sentence (12 months, Periodicals 60 days, Marketing Mail and Package Services Mail generally not forwarded) and "a specified period of time" present; **unchanged** |
+| S3 USPS FAQ "Extended Mail Forwarding" (Jul 11, 2026) | all 7 quoted statements present; **unchanged** |
+| S1 USPS "Standard Forward Mail" (no date shown) | the 12 months and 6/12/18-month extension sentence, "can't cancel or request a refund", the 6-month return-to-sender note, piece by piece, Priority Mail Express / Ground Advantage / Media Mail, 15 days up to 1 year, 3-30 days Hold Mail and the change-of-address-only-changes-the-Post-Office note: present. **Three statements the article relies on changed** (see below) |
+
+What changed on S1 (current wording, quoted from the page):
+
+1. Start timing. The sentence "Although mail forwarding may begin within 3 business days of your submitted request, it's best to allow up to 2 weeks" is no longer on the page. The page now says: "Once your request is approved, allow at least 7-10 business days for it to go into effect."
+2. Periodicals. The page now says: "Periodicals (newsletters and magazines) are forwarded for free for 60 days if fully prepaid by the sender." (before: forwarded for free, no time limit). This now agrees with the FAQ's 60 days, so the article's paragraph about the two pages describing periodicals differently is no longer true.
+3. Marketing Mail. The page now says: "USPS Marketing Mail is not forwarded unless the sender has paid forwarding postage." (before: not forwarded).
+
+Still stated as before: First-Class Mail, Priority Mail Express, Priority Mail and USPS Ground Advantage forwarded for free; Media Mail forwarded with the customer paying shipping from the local Post Office; "piece by piece"; the reminder email (S1 now says when 1 month is left, S3 says the 11th month mark, which agree for a 12-month period).
+
+**Result: the article is affected in the lead-in section ("The 12 months and how it starts"), in "What gets forwarded" (the periodicals discrepancy paragraph and the Marketing Mail sentence) and in the diagram text and its alt text ("forwarding may begin within 3 business days; allow up to 2 weeks").** The 12-month answer, the meta description and the Extended Mail Forwarding section are not affected. The article was not changed in this step and the ready-move approval is not requested; the user decides how to fix it (proposed fixes in the decision log). Because the text and the diagram change after Gate 2 final PASS, a new Gate 2 check of the changed parts is needed before the move to `ready`.

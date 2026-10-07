@@ -90,3 +90,18 @@ Prices, offers, location counts and the wait-time statistic, which the pages sho
 The user approved moving this article to `content/ready/` after Gate 2 final PASS and the mandatory pre-approval TSA re-check (2026-10-08, no difference). Front matter set to `status: ready` (the text is unchanged; checked by comparing the files without the `status` line); the draft-folder copy was removed. Not on WordPress and not published; no WordPress draft is created until the user asks.
 
 Remaining before publishing: the user previews on a phone width and publishes. **Mandatory**: re-read the TSA pages right before Publish (the last re-read was 2026-10-08).
+
+
+## WordPress draft (2026-10-08; 2026-10-07 19:50 site time)
+
+Claude created the draft through the logged-in browser from the file in `content/ready/` as pushed (commit `3a634ab`): post id 45, status draft (not published), slug `tsa-precheck-what-it-changes`, category "Airport security rules" (id 5), diagram uploaded as media id 44 (1200x1947) with the `image_alt` text (media alt text and body alt identical, 469 characters), no featured image, comments and pings closed. The image file is the original PNG (sha-256 532aeebb... equals the repository PNG); WordPress did not scale it.
+
+| Check | Result |
+|---|---|
+| Title, slug, category | equal to the front matter / category 5 |
+| Text | equals the repository text (2843 letters and digits; 7 H2 headings, one table) |
+| Rank Math | meta description (144 characters) and focus keyword "what is tsa precheck" confirmed in the edit screen |
+| Logged-out request | 404 (not public) |
+| Comments and pings | closed |
+
+Preview: https://statesideexplained.com/?p=45 . Remaining: the user previews on a phone width and publishes. **Mandatory**: the user asks for a re-read of the three TSA pages right before Publish (the last re-read was 2026-10-08).

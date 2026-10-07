@@ -101,3 +101,18 @@ The ConfirmID fee amount, which the pages show, remains unused in the article. T
 The user approved moving this article to `content/ready/` after Gate 2 final PASS and the mandatory pre-approval TSA re-check (2026-10-08, no difference). Front matter set to `status: ready` (the text is unchanged; checked by comparing the files without the `status` line); the draft-folder copy was removed. Not on WordPress and not published; no WordPress draft is created until the user asks.
 
 Remaining before publishing: the user previews on a phone width and publishes. **Mandatory**: re-read the TSA pages right before Publish (the last re-read was 2026-10-08).
+
+
+## WordPress draft (2026-10-08; 2026-10-07 19:50 site time)
+
+Claude created the draft through the logged-in browser from the file in `content/ready/` as pushed (commit `3a634ab`): post id 43, status draft (not published), slug `real-id-to-fly-what-tsa-accepts`, category "Airport security rules" (id 5), diagram uploaded as media id 42 (1200x2607) with the `image_alt` text (media alt text and body alt identical, 540 characters), no featured image, comments and pings closed. WordPress scaled the 1200x2607 upload to its large-image limit and kept the original; the post's image block points to the original file (sha-256 ae661e82... equals the repository PNG).
+
+| Check | Result |
+|---|---|
+| Title, slug, category | equal to the front matter / category 5 |
+| Text | equals the repository text (3372 letters and digits; 6 H2 headings, one table) |
+| Rank Math | meta description (138 characters) and focus keyword "do i need a real id to fly" confirmed in the edit screen |
+| Logged-out request | 404 (not public) |
+| Comments and pings | closed |
+
+Preview: https://statesideexplained.com/?p=43 . Remaining: the user previews on a phone width and publishes. **Mandatory**: the user asks for a re-read of the three TSA pages right before Publish (the last re-read was 2026-10-08).

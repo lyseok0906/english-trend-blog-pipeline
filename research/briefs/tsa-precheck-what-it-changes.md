@@ -2,7 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/tsa-precheck-what-it-changes.md` at the sources step. No draft exists.
 **Lane:** airport security rules (mandatory official-page re-check).
-**Pilot status:** counted in the 12-post pilot (lane 2). Drafted 2026-10-07; Gate 1 and Gate 2 final PASS; mandatory TSA re-check done 2026-10-08; moved to `content/ready/tsa-precheck-what-it-changes.md` on 2026-10-08 (user approval); not on WordPress. The wait-time statement and prices were left out.
+**Pilot status:** counted in the 12-post pilot (lane 2). Drafted 2026-10-07; Gate 1 and Gate 2 final PASS; mandatory TSA re-check done 2026-10-08; moved to `content/ready/tsa-precheck-what-it-changes.md` on 2026-10-08 (user approval); WordPress draft created 2026-10-08 (post id 45; not published). The wait-time statement and prices were left out.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card
