@@ -4,7 +4,7 @@ slug: federal-holiday-weekend-observed
 meta_description: "For most federal employees, a holiday on a Saturday is treated as the Friday before, and one on a Sunday as the Monday after. See OPM's dates."
 category: US dates, seasons and holidays
 focus_keyword: federal holiday falls on a weekend
-status: draft
+status: ready
 date: 2026-10-07
 internal_link_candidates: none yet
 image: assets/optimized/federal-holiday-weekend-observed.png

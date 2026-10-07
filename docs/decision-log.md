@@ -400,3 +400,7 @@ Also on 2026-10-07: Informed Delivery (post 30) was found in `draft` status with
 
 At the user's request, Claude re-read the sources of `thanksgiving-2026-date` and `federal-holiday-weekend-observed` before asking for ready-move approval: the OPM "Federal Holidays" page (19 of 19 strings present) and 5 U.S.C. 6103 on govinfo (14 of 14 items present; three differ only in formatting), and recomputed the dates. No difference; no article change. Approval to move each article to `content/ready/` is requested separately. Order condition kept: `usps-hold-mail-how-it-works` is published before `usps-mail-forwarding-how-long`. Informed Delivery (post 30) is still a WordPress draft until the user publishes it; live QA and the `content/published/` record follow after that.
 
+## 2026-10-07 — Thanksgiving date and weekend-holiday articles: moved to `content/ready/`
+
+The user approved moving `thanksgiving-2026-date` and `federal-holiday-weekend-observed` to `content/ready/`, each for its own article, after Gate 2 final PASS and the recommended source re-check (no difference). Front matter set to `status: ready`; backlog stage `ready`; the long alt text of the weekend-holiday article (539 characters) stays, as Gate 2 passed it. Not on WordPress and not published. Publish order kept: Hold Mail before mail forwarding. Counts (repository): published 6 (Informed Delivery is a WordPress draft again, not live); ready 2; draft 4; brief 0 (pilot) plus 2 deferred; idea 1.
+
