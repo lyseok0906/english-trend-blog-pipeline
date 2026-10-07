@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-informed-delivery-how-it-works.md`
 Brief: `research/briefs/usps-informed-delivery-how-it-works.md`. Sources: `research/sources/usps-informed-delivery-how-it-works.md` (S1 USPS FAQ "Informed Delivery - The Basics", S2 usps.com Informed Delivery page).
-Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT): not yet done. Not approved, not on WordPress, not published.
+Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT): PASS on commit `2edbc32`, 2026-10-07, no changes. Not approved, not on WordPress, not published.
 
 Method: both pages were opened in the built-in browser on 2026-10-07. The user asked for extra FAQ reading before drafting; the FAQ sections Overview, Signing Up / Welcome Letter, Opt Out, Dashboard, Daily Digest and Issues, and Privacy & Security / Missing Mail were read in full from the page text (the source notes list what was not read). After the draft was written, 33 phrases from S1 and 8 phrases from S2 were tested by script against the page text with the ® and ™ marks removed: all true. This is the drafting and factual-QA re-check required for service-description posts. The re-check right before the user approves publishing is still **mandatory**; if a page cannot be opened, do not publish.
 
@@ -66,4 +66,6 @@ The user said: include "why did I get a sign-up letter" only if the USPS FAQ cle
 
 ## Gate 2 — English + SEO QA
 
-Not done yet. To be run by ChatGPT on the commit that contains this draft.
+ChatGPT reviewed commit `2edbc32` on 2026-10-07 (this article's draft is in that commit unchanged from the one recorded under Gate 1). Result: **PASS**, no changes requested. The article stays in `content/drafts/` and is not changed by Gate 2.
+
+Next: Mandatory re-check of the two USPS pages right before the user approves the move to `ready`, and again right before publishing. Moving to `ready` needs the user's approval for this article alone. Not on WordPress, not published.

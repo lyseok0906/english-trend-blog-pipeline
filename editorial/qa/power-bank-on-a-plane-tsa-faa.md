@@ -2,7 +2,7 @@
 
 Article: `content/drafts/power-bank-on-a-plane-tsa-faa.md`
 Brief: `research/briefs/power-bank-on-a-plane-tsa-faa.md`. Sources: `research/sources/power-bank-on-a-plane-tsa-faa.md` (S1 TSA Power Banks, S2 TSA batteries over 100 Wh, S3 FAA PackSafe batteries).
-Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT): not yet done. Not approved, not on WordPress, not published.
+Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT): PASS on commit `2edbc32`, 2026-10-07, no changes. Not approved, not on WordPress, not published.
 
 Method: all three pages were opened in the built-in browser on 2026-10-07, once for the source notes and again after the draft was written. After the draft, 6 phrases (S1), 6 phrases (S2) and 17 phrases (S3), including every number, were tested by script against each page's text: all true. This second read is the drafting and factual-QA re-check required for airport-rule posts. The re-check right before the user approves publishing is still **mandatory**; if a page cannot be opened, do not publish.
 
@@ -58,4 +58,6 @@ Method: all three pages were opened in the built-in browser on 2026-10-07, once 
 
 ## Gate 2 — English + SEO QA
 
-Not done yet. To be run by ChatGPT on the commit that contains this draft.
+ChatGPT reviewed commit `2edbc32` on 2026-10-07 (this article's draft is in that commit unchanged from the one recorded under Gate 1). Result: **PASS**, no changes requested. The article stays in `content/drafts/` and is not changed by Gate 2.
+
+Next: Mandatory re-check of the three TSA/FAA pages right before the user approves the move to `ready`, and again right before publishing. Moving to `ready` needs the user's approval for this article alone. Not on WordPress, not published.

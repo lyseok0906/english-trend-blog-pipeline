@@ -2,7 +2,7 @@
 
 Article: `content/drafts/first-day-of-winter-2026.md`
 Brief: `research/briefs/first-day-of-winter-2026.md`. Sources: `research/sources/first-day-of-winter-2026.md` (S1 USNO, S2 NOAA NCEI).
-Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT): not yet done. Not approved, not on WordPress, not published.
+Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT): PASS on commit `2edbc32`, 2026-10-07, no changes. Not approved, not on WordPress, not published.
 
 Method: both sources were opened in the built-in browser on 2026-10-07. The draft's NOAA phrases were tested again by script against the page text after the draft was written (all 12 checks true, including the visible "Updated date March 10, 2023"). The USNO times were produced by the page's own data service for each US standard time zone offset. The calendar facts were computed. Lane 1 rule: re-check is recommended, not mandatory.
 
@@ -59,4 +59,16 @@ Recommended, not mandatory (lane 1): before the user approves publishing, re-rea
 
 ## Gate 2 — English + SEO QA
 
-Not done yet. To be run by ChatGPT on the commit that contains this draft.
+ChatGPT reviewed commit `2edbc32` on 2026-10-07 (this article's draft is in that commit unchanged from the one recorded under Gate 1). Result: **PASS**, no changes requested. The article stays in `content/drafts/` and is not changed by Gate 2.
+
+Next: Recommended (lane 1) source re-check before the user approves the move to `ready`. Moving to `ready` needs the user's approval for this article alone. Not on WordPress, not published.
+
+## Pre-approval source re-check (2026-10-07, recommended for lane 1)
+
+Done by Claude after Gate 2 passed and before asking the user to approve the move to `ready`. Both pages were opened again in the built-in browser.
+
+- USNO: the data service was queried again for year 2026 with tz 0, -5, -6, -7, -8, -9 and -10. December solstice: 20:50 UTC, 15:50, 14:50, 13:50, 12:50, 11:50 and 10:50, all on December 21, the same as in the source notes and the draft. The page text still says "The times of the solstices mark the beginning of summer and winter." and "The seasons are hemisphere dependent." with the Northern Hemisphere naming sentence. The page's own zone selector still lists Eastern, Central, Mountain, Pacific, Alaska and Hawaii-Aleutian Standard Time at -5 to -10.
+- NOAA: 13 phrases tested against the page text (all the draft's attributed statements, including "on or around December 22", the three-month groupings, December-January-February, 90 days for winter of a non-leap year, 89 and 93 days, and the visible "Updated date March 10, 2023"): all present, nothing changed.
+- Calendar facts (December 1 is a Tuesday, December 21 is a Monday, 20 days apart) are unchanged by definition.
+
+Result: **no difference**; the draft needs no change. The draft text on the device is the text Gate 2 reviewed (commit `2edbc32`). The user's approval to move this article to `ready` is requested separately; until then the article stays in `content/drafts/`.

@@ -285,3 +285,11 @@ Claude wrote `research/sources/power-bank-on-a-plane-tsa-faa.md`, drafted `conte
 ## 2026-10-07 — usps-informed-delivery-how-it-works drafted, Gate 1 done; the sign-up-letter section is in
 
 Before drafting, Claude read the USPS FAQ sections that the brief had listed as unread (Welcome Letter, Dashboard, Daily Digest and issues, Privacy & Security, Missing Mail). The FAQ confirms the "why did I get a letter" process twice, so the user's condition was met and the draft has one short subheading for it, repeating only USPS's statements and not printing the USPS web address. Claude wrote `research/sources/usps-informed-delivery-how-it-works.md`, drafted `content/drafts/usps-informed-delivery-how-it-works.md` (about 840 words; title 58 characters, no apostrophe; meta description 151 characters), made its own flow diagram and recorded Gate 1 (24 claims, all pass) in `editorial/qa/usps-informed-delivery-how-it-works.md`. 41 phrases were tested against the two USPS pages after drafting. Not read and not described: the mobile app section, change of address, redelivery, referrals. The article is longer than the other two drafts; Gate 2 may trim it. Next: Gate 2 by ChatGPT for all three drafts; the pre-approval re-check of the USPS pages stays mandatory. Nothing is on WordPress.
+
+## 2026-10-07 — Gate 2 passed for the three drafts
+
+ChatGPT reviewed commit `2edbc32` and passed the English + SEO review (Gate 2) for `first-day-of-winter-2026`, `power-bank-on-a-plane-tsa-faa` and `usps-informed-delivery-how-it-works`, with no changes requested. Gate 2 PASS is recorded in each QA record and in the backlog; the articles stay in `content/drafts/`. Next order set by the user: the winter article first, with the recommended source re-check, then a request for approval to move it to `ready`. The power-bank and Informed Delivery articles each need a mandatory official-source re-check right before their own ready-move approval. Counts: published 3; ready 0; draft 3; brief 6 (pilot) plus 2 deferred; idea 1.
+
+## 2026-10-07 — first-day-of-winter-2026: pre-approval re-check done, approval requested
+
+Claude re-ran the USNO query (seven time-zone offsets) and tested 13 NOAA phrases after Gate 2 passed. No difference from the draft. Claude asked the user to approve moving only this article to `content/ready/`. Nothing moved yet.
