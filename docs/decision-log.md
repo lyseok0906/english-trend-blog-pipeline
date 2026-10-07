@@ -247,3 +247,7 @@ ChatGPT reviewed commit `e0aee2b`: title kept (57 characters); body, meta descri
 ## 2026-10-07 — Forever stamp: approved to move to ready
 
 Claude re-read all four USPS pages in the browser first; nothing differed. The user then approved moving `forever-stamp-how-it-works` to `content/ready/` for this article only. Front matter set to `status: ready`; backlog stage `ready`. Publishing order set by the user: (1) the user previews and publishes the TSA article, (2) the user sends the live URL and Claude runs live QA, (3) Claude uploads the Forever stamp article as a WordPress draft, (4) the user previews and publishes it.
+
+## 2026-10-07 — TSA 3-1-1 liquids rule: published and live QA passed
+
+Claude created the WordPress draft (post 19) through the already logged-in browser: title, slug, new category "Airport security rules", diagram with alt text, Rank Math meta description and focus keyword. The user previewed and published it at https://statesideexplained.com/tsa-3-1-1-liquids-rule/. Live QA by Claude passed (body text identical to the repository file; meta, canonical, category, sitemap, feed and home all correct; both TSA source pages open and still carry the checked wording). Moved to `content/published/`. Next: Forever stamp article goes to WordPress as a draft; the user previews and publishes.

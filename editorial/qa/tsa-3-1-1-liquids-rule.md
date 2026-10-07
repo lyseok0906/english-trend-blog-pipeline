@@ -1,6 +1,6 @@
 # QA record — tsa-3-1-1-liquids-rule
 
-Article: `content/ready/tsa-3-1-1-liquids-rule.md` (moved from `content/drafts/` on 2026-10-07)
+Article: `content/published/tsa-3-1-1-liquids-rule.md` (moved from `content/ready/` on 2026-10-07 after publishing)
 Sources: `research/sources/tsa-3-1-1-liquids-rule.md` (T1 and T2, read in a real browser on 2026-10-07; the earlier S1–S3 reads used a summarizing tool)
 Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07; Gate 2 (English + SEO, ChatGPT) passed 2026-10-07. Pre-approval TSA re-check done 2026-10-07 (no change). Moved to `content/ready/` on 2026-10-07 after the user's approval. Publishing is a separate step by the user.
 
@@ -140,3 +140,32 @@ Gates passed before the move: Gate 1 (Claude), Gate 2 (ChatGPT, commit `df5d08c`
 - The Sources section has two links; keep them as written.
 - Before pressing Publish: read the preview once on a phone-width screen. If more than a day has passed since 2026-10-07, tell Claude first so it can read both TSA pages again.
 - After publishing: send Claude the live URL. Claude then moves the article to `content/published/`, runs the live checks as for the first article, and updates the backlog.
+
+## Live QA (2026-10-07)
+
+Published by the user at https://statesideexplained.com/tsa-3-1-1-liquids-rule/ (WordPress post id 19; the draft was created by Claude through the logged-in browser on 2026-10-07, the user previewed and pressed Publish; published time 2026-10-07 01:08 EDT).
+Checked by Claude in the built-in browser, anonymous requests (no login cookies).
+
+| Check | Result |
+|---|---|
+| HTTP status, canonical URL | 200; canonical equals the live URL |
+| Title tag | "What Is the TSA 3-1-1 Liquids Rule? What's Exempt? - Stateside Explained" |
+| Meta description | Equals the 152-character text in the front matter (og:description too) |
+| robots meta | `index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large` |
+| Headings | One H1, four H2s plus the Sources H2 (what the rule says, checkpoint, exempt, does not cover, Sources) and two H3s, as in the file |
+| Body text | Identical to `content/published/` text: both reduced to lowercase letters and digits give the same 2747 characters and the same SHA-256 (compared programmatically; curly quotes from WordPress texturizing do not count) |
+| Lists and links | Numbered list has 3 items; 2 source links, both exactly the TSA URLs in the file; both TSA pages open in the browser and still contain the quoted and checked wording (spot test, 2026-10-07) |
+| Diagram | One copy only (no featured image); loads; alt text equals `image_alt`; WordPress scaled the file to 1112x2560 and serves a 667x1536 version in the page |
+| Category | "Airport security rules" (new category created for this post); category page lists the post |
+| Structured data | Rank Math BlogPosting JSON-LD present; article:section "Airport security rules" |
+| Comments | No comment form |
+| Home page, feed, sitemap | Home shows both posts; `/feed/` includes the post; `post-sitemap.xml` lists it (lastmod 2026-10-07T05:08:07+00:00); `sitemap_index.xml` 200 |
+| Drafts not public | `/about/` and `/privacy-policy/` return 404 anonymously |
+
+Not verified: the exact diagram text size on a real phone (not emulated in this check). The diagram text is 28 px or larger at 800 px width, which is about 12 px on a 343 px wide image column; the user's phone preview before publishing is the check. The `www.` host.
+
+Notes for follow-up (not blocking):
+
+- Byline still shows "admin" (display name not yet set; see the DST record).
+- The article date is October 7, 2026, the same day as the as-of date in the text.
+- TSA pages should be re-read when the article is revisited; there is no deadline. The article does not track rule changes.

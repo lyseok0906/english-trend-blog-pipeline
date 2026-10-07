@@ -4,8 +4,10 @@ slug: tsa-3-1-1-liquids-rule
 meta_description: "TSA lets you carry liquids, gels and aerosols in containers of 3.4 oz (100 ml) or less in a quart-sized bag. See what is exempt and what TSA says to do."
 category: Airport security rules
 focus_keyword: what is the tsa liquids rule
-status: ready
+status: published
 date: 2026-10-07
+published_date: 2026-10-07
+live_url: https://statesideexplained.com/tsa-3-1-1-liquids-rule/
 internal_link_candidates: none (the only published article is about daylight saving time and is not related)
 image: assets/optimized/tsa-3-1-1-liquids-rule.png
 image_alt: "Flowchart of the TSA liquids rule: liquids, aerosols, gels, creams and pastes of 3.4 ounces (100 milliliters) or less go in a quart-sized bag in the carry-on; larger containers go in checked baggage unless an exception applies. Exceptions listed: breast milk, formula and juice, and qualifying duty-free liquids. Any liquid, aerosol, gel, cream or paste that alarms needs additional screening."
