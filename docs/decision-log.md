@@ -324,3 +324,7 @@ The push rule recorded above (Claude types `git push origin main` into the user'
 
 At the user's request Claude created the WordPress draft (post id 28, media id 27): title, slug, category "Airport security rules", diagram with alt text, Rank Math meta description and focus keyword as in the front matter. Not published. Body text on the draft equals `content/ready/`. The user previews on a phone and publishes; mandatory re-check of the three TSA/FAA pages right before Publish. Counts: published 4; ready 1 (on WordPress as a draft); draft 1 (Informed Delivery); brief 6 (pilot) plus 2 deferred; idea 1.
 
+## 2026-10-07 — usps-informed-delivery-how-it-works: mandatory re-check done, approval requested
+
+After the power bank WordPress draft, Claude re-read the USPS FAQ "Informed Delivery - The Basics" and the usps.com Informed Delivery page and tested 36 + 8 phrases and numbers: no difference, same FAQ date (Sep 30, 2026). Claude asked the user to approve moving only this article to `content/ready/`. Nothing moved yet.
+
