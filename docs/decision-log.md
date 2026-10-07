@@ -361,3 +361,8 @@ Claude re-opened the three USPS pages (Hold Mail, the Hold Mail FAQ dated Sep 16
 ## 2026-10-07 — Draft: usps-mail-forwarding-how-long
 
 Sixth and last pilot draft. Three USPS pages re-read; extension prices and fee left out; periodicals difference between the pages reported separately; Gate 1 done; no WordPress upload, no ready move. Counts: published 4; ready 2; draft 6; brief 0 (pilot) plus 2 deferred; idea 1.
+
+## 2026-10-07 — Power bank and Informed Delivery: published, live QA, moved to `content/published/`
+
+The user published both articles in WordPress and sent the live URLs: https://statesideexplained.com/power-bank-on-a-plane-tsa-faa/ (post 28) and https://statesideexplained.com/usps-informed-delivery-how-it-works/ (post 30). Claude read the live pages in the built-in browser: HTTP 200, canonical equals the URL, robots index/follow, Rank Math meta description present and equal to the front matter, one diagram with alt text, correct category, BlogPosting JSON-LD, no comment form, listed on the home page, in `/feed/` and in `post-sitemap.xml`, official source links present. The files moved from `content/ready/` to `content/published/` with `status: published`, `published_date: 2026-10-07` and `live_url` added; backlog stage set to `published`. The diagram text size on a real phone and the pre-publish re-check of the official pages are the user's steps and are not recorded here. Local commit only; the push is the user's step. Counts: published 6; ready 0; draft 6; brief 0 (pilot) plus 2 deferred; idea 1.
+

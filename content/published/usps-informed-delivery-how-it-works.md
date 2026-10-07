@@ -4,8 +4,10 @@ slug: usps-informed-delivery-how-it-works
 meta_description: "USPS Informed Delivery is a free service that previews the address side of incoming letters and tracks packages. See what it shows and who can sign up."
 category: Postal service and stamps
 focus_keyword: what is usps informed delivery
-status: ready
+status: published
 date: 2026-10-07
+published_date: 2026-10-07
+live_url: https://statesideexplained.com/usps-informed-delivery-how-it-works/
 internal_link_candidates: none (the published postal article is about Forever stamps and is not related)
 image: assets/optimized/usps-informed-delivery-how-it-works.png
 image_alt: "Diagram of how USPS Informed Delivery works. A letter-sized mailpiece runs through USPS automated sorting equipment. USPS images the address side, showing only the exterior. You see it in a Daily Digest email with up to 10 letters, typically before 9:00 AM local time Monday to Saturday, and in the online dashboard and mobile app. Catalogs and magazines are not imaged, and packages show status updates only. A preview is not a delivery date: USPS says to allow several days, up to one week."

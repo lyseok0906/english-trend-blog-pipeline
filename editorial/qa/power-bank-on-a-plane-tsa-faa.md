@@ -82,3 +82,27 @@ Checked on the preview page (logged-in): title tag "Can You Bring a Power Bank o
 
 Remaining: the user previews on a phone width (the diagram text size is the open item above) and presses Publish. **Mandatory**: before Publish, re-read the three TSA/FAA pages (the last re-read was 2026-10-07; repeat if more than a day has passed or right before Publish). If a page differs or cannot be opened, do not publish. After publishing, send the live URL for live QA; Claude then moves the article to `content/published/`.
 
+## Live QA (2026-10-07)
+
+The user published the article (post 28) and sent the live URL: https://statesideexplained.com/power-bank-on-a-plane-tsa-faa/
+
+Checked by Claude in the built-in browser on 2026-10-07 (page HTML, not a phone render):
+
+| Check | Result |
+|---|---|
+| Status, canonical, robots | 200; canonical equals the URL; robots "index, follow" |
+| Title and H1 | Title tag ends with "- Stateside Explained"; H1 equals the front matter title |
+| Meta description | Present, equals the front matter |
+| Category | Airport security rules (article:section) |
+| Image | One diagram in the article body with alt text of 426 characters (alt in the body equals the front matter) |
+| Headings | Where a power bank goes; How big a power bank can be; How to find the watt-hour number; Your airline may be stricter; What this article does not cover; Sources |
+| Table | 1 table present |
+| Source links | 3 outbound links, all to TSA (2 pages) and FAA PackSafe |
+| Structured data | BlogPosting JSON-LD present; datePublished 2026-10-07 |
+| Comments | No comment form |
+| Home page, feed, sitemap | Listed on the home page and in `/feed/`; in `post-sitemap.xml` (lastmod 2026-10-07); `sitemap_index.xml` 200 |
+
+Not verified by Claude: the diagram text size on a real phone (the user's preview), and a fresh pre-publish re-read of the official pages right before Publish (not recorded; the last Claude re-read was before the move to `ready` on 2026-10-07). The article was moved to `content/published/`.
+
+Notes for follow-up (not blocking): the byline may still show "admin" (see the DST record); re-read the official pages if the article is revisited; the article does not track rule changes.
+
