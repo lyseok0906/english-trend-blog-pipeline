@@ -77,3 +77,6 @@ Result: no difference from the source notes; no article change. The FAQ page dat
 
 Publish order (Gate 2): this article goes live before `usps-mail-forwarding-how-long`, which links to it.
 
+## Ready-move approval (2026-10-07)
+
+The user approved moving this article to `content/ready/` after Gate 2 final PASS and the mandatory pre-approval re-check of the three USPS pages (no difference), for this article only. Front matter set to `status: ready`; backlog stage `ready`. Not on WordPress and not published. Next: Claude creates the WordPress draft when the user asks; the user previews on a phone and publishes. **Mandatory**: re-read the three USPS pages right before publishing (and again if more than a day passes). Publish order: this article before `usps-mail-forwarding-how-long`.

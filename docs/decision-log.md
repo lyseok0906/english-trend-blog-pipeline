@@ -422,3 +422,7 @@ The user published `thanksgiving-2026-date` (post 34) and `federal-holiday-weeke
 
 Then, as step 2 of the user's sequence, Claude ran the mandatory pre-approval re-check of the three USPS pages for `usps-hold-mail-how-it-works` (S1 6 of 6, S2 29 of 29, S3 3 of 3 strings present; FAQ date still Sep 16, 2026): no difference, no article change. The ready-move approval for Hold Mail is requested separately. Order condition kept: Hold Mail before mail forwarding. Counts: published 8; ready 0; draft 4 (REAL ID, PreCheck, Hold Mail, forwarding); brief 0 (pilot) plus 2 deferred; idea 1.
 
+## 2026-10-07 — Hold Mail: moved to `content/ready/`
+
+The user approved moving `usps-hold-mail-how-it-works` to `content/ready/` after Gate 2 final PASS and the mandatory pre-approval re-check (S1 6 of 6, S2 29 of 29, S3 3 of 3 strings; no difference). Front matter set to `status: ready`; backlog stage `ready`. Not on WordPress and not published. Still mandatory: a fresh read of the three USPS pages right before publishing. Order kept: Hold Mail before mail forwarding. Counts: published 8; ready 1; draft 3 (REAL ID, PreCheck, forwarding); brief 0 (pilot) plus 2 deferred; idea 1.
+

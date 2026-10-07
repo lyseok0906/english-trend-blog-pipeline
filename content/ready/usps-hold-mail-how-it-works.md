@@ -4,7 +4,7 @@ slug: usps-hold-mail-how-it-works
 meta_description: "USPS Hold Mail pauses all mail delivery to an address for 3 to 30 days. See the limits, how a request is made and how held mail comes back."
 category: Postal service and stamps
 focus_keyword: how does usps hold mail work
-status: draft
+status: ready
 date: 2026-10-07
 internal_link_candidates: usps-informed-delivery-how-it-works (once published), usps-mail-forwarding-how-long (once drafted)
 image: assets/optimized/usps-hold-mail-how-it-works.png
