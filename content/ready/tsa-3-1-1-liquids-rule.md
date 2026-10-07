@@ -4,7 +4,7 @@ slug: tsa-3-1-1-liquids-rule
 meta_description: "TSA lets you carry liquids, gels and aerosols in containers of 3.4 oz (100 ml) or less in a quart-sized bag. See what is exempt and what TSA says to do."
 category: Airport security rules
 focus_keyword: what is the tsa liquids rule
-status: draft
+status: ready
 date: 2026-10-07
 internal_link_candidates: none (the only published article is about daylight saving time and is not related)
 image: assets/optimized/tsa-3-1-1-liquids-rule.png

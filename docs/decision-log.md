@@ -227,3 +227,7 @@ This replaces the earlier entry "platform for this blog is not decided".
 ## 2026-10-07 — TSA 3-1-1 liquids rule: Gate 2 passed
 
 ChatGPT reviewed commit `6db909d`: text and SEO passed; two diagram wordings were fixed in `df5d08c` (the "alarms" line now names liquids, aerosols, gels, creams and pastes; the duty-free line now says original receipt and a purchase within 48 hours). ChatGPT checked the new diagram on `df5d08c` and passed Gate 2. Claude re-read both TSA pages the same day; nothing changed. The article stays in `content/drafts/` until the user approves moving it to `ready`; publishing is a separate approval.
+
+## 2026-10-07 — TSA 3-1-1 liquids rule: approved to move to ready
+
+The user approved moving `tsa-3-1-1-liquids-rule` to `content/ready/` for this article only. Front matter set to `status: ready`; backlog stage `ready`. Publishing remains the user's separate step after the WordPress draft and preview. The user also allowed the Forever stamp source check and brief work to run in parallel.

@@ -1,8 +1,8 @@
 # QA record — tsa-3-1-1-liquids-rule
 
-Article: `content/drafts/tsa-3-1-1-liquids-rule.md`
+Article: `content/ready/tsa-3-1-1-liquids-rule.md` (moved from `content/drafts/` on 2026-10-07)
 Sources: `research/sources/tsa-3-1-1-liquids-rule.md` (T1 and T2, read in a real browser on 2026-10-07; the earlier S1–S3 reads used a summarizing tool)
-Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07; Gate 2 (English + SEO, ChatGPT) passed 2026-10-07. Pre-approval TSA re-check done 2026-10-07 (no change). Article still in `content/drafts/`: moving it to `ready` needs the user's approval. Publish approval not given.
+Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07; Gate 2 (English + SEO, ChatGPT) passed 2026-10-07. Pre-approval TSA re-check done 2026-10-07 (no change). Moved to `content/ready/` on 2026-10-07 after the user's approval. Publishing is a separate step by the user.
 
 Method: the full text of both TSA pages was read in the built-in browser and compared with every claim in the draft. The pages were opened a second time after the draft was written, and the key sentences were tested by script (see the re-check section in the source notes). TSA is the only source used.
 
@@ -122,6 +122,21 @@ Result: no TSA wording changed since the first read. Method note: the character 
 
 Because the user will approve, Claude will read both pages once more immediately before the WordPress publish step if more than a day passes between this check and publishing.
 
-## Gate 3 — Publish approval
+## Gate 3 — Approval to move to ready
 
-Not given yet. Next: the user decides whether to move the article to `content/ready/`.
+Approval: given by the user in chat on 2026-10-07 for this article only ("TSA 글을 `content/ready/`로 옮겨도 좋습니다"). It is not approval of any other article and not approval to publish automatically. The user uploads a WordPress draft, checks the preview and publishes.
+
+Gates passed before the move: Gate 1 (Claude), Gate 2 (ChatGPT, commit `df5d08c`), pre-approval TSA re-check (2026-10-07, no change). Article moved to `content/ready/`, front matter `status: ready`.
+
+### Hand-off for publishing in WordPress (user)
+
+- Title: What Is the TSA 3-1-1 Liquids Rule? What's Exempt?
+- Slug (permalink): `tsa-3-1-1-liquids-rule` (stable once published)
+- Category: Airport security rules (new category; it does not exist in WordPress yet, create it when you set the category)
+- Meta description (152 characters): "TSA lets you carry liquids, gels and aerosols in containers of 3.4 oz (100 ml) or less in a quart-sized bag. See what is exempt and what TSA says to do."
+- Focus keyword (Rank Math): what is the tsa liquids rule
+- Body: start at the bold first sentence. Do not repeat the `#` title line, because WordPress shows the Title field as the page title.
+- Image: upload `assets/optimized/tsa-3-1-1-liquids-rule.png` and use it where the markdown image line is. Alt text: the `image_alt` value in the front matter. Do not also set it as the featured image: the theme shows the featured image above the title and the first article had a duplicate for that reason.
+- The Sources section has two links; keep them as written.
+- Before pressing Publish: read the preview once on a phone-width screen. If more than a day has passed since 2026-10-07, tell Claude first so it can read both TSA pages again.
+- After publishing: send Claude the live URL. Claude then moves the article to `content/published/`, runs the live checks as for the first article, and updates the backlog.
