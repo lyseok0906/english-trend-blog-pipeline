@@ -186,3 +186,27 @@ not touched.
 - `README.md` and `docs/operating-model.md` still call this an English "trends" blog. The
   pilot lanes explain rules, dates and how things work rather than cover trends. The wording
   is deliberately left for the user to decide after the pilot evaluation.
+
+## 2026-10-07 — Publishing platform and site set up
+
+**Decision (user).** The blog is published on its own WordPress site, separate from the Excel
+blog: brand **Stateside Explained**, domain `statesideexplained.com`, hosted on the user's
+existing Hostinger plan (second site), tagline "Everyday U.S. Questions, Explained Simply".
+This replaces the earlier entry "platform for this blog is not decided".
+
+**State on 2026-10-07 (checked from the public site and from the admin, logged in by the user).**
+
+- HTTPS works; permalinks are "Post name"; time zone America/New_York; search engines are
+  not discouraged (`index, follow`).
+- Sample post moved to the trash; theme footer placeholder links removed; footer credit
+  changed to "© 2026 Stateside Explained".
+- Plugins added: Rank Math SEO (setup wizard done, account/Google connection skipped) and
+  Wordfence Security (license registration not done). Hostinger plugins and LiteSpeed Cache
+  were already present.
+- About and Privacy Policy exist as drafts only. The Privacy Policy states only what was
+  confirmed; it contains no retention periods and no contact email.
+- `sitemap_index.xml` returned 404 while the site had no published content; re-check after the
+  first post is published.
+- No article is published yet. Publishing stays the user's step, per article.
+
+**Not done.** No post was published. Credentials are not recorded in this repository.
