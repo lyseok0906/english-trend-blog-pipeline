@@ -341,3 +341,7 @@ Instruction for today (user, 2026-10-07): draft the six remaining pilot briefs i
 ## 2026-10-07 — thanksgiving-2026-date: draft written, Gate 1 done
 
 Under the user's instruction of 2026-10-07 (drafts only, up to Gate 1 and a local commit), Claude re-opened the OPM Federal Holidays page and 5 U.S.C. 6103 (2023 edition, govinfo.gov), wrote the source notes, the draft with its own calendar diagram, and the Gate 1 claim table (14 claims, all pass; two are computed and labeled). The OPM tables for 2024 to 2030 match the computed fourth Thursdays. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 1; brief 5 (pilot) plus 2 deferred; idea 1.
+
+## 2026-10-07 — federal-holiday-weekend-observed: draft written, Gate 1 done
+
+Claude re-opened the OPM Federal Holidays page and read 5 U.S.C. 6103 with Executive Order 11582 (govinfo.gov, 2023 edition), wrote the source notes, the draft with its own diagram, and the Gate 1 claim table (19 claims, all pass; weekday facts computed and labeled). No USPS source is used. Alt text is long (539 characters); Gate 2 may shorten it. No WordPress upload, no move to ready. Counts: published 4; ready 2; draft 2; brief 4 (pilot) plus 2 deferred; idea 1.
