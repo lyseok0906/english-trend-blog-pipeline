@@ -177,3 +177,33 @@ removed in the next commit; the article uses only `daylight-saving-time-end-2026
 3. Meta description and title in the page source match this record.
 4. `https://statesideexplained.com/sitemap_index.xml` opens and lists the post. On 2026-10-07, before any content was published, it returned 404 while `post-sitemap.xml` and `page-sitemap.xml` returned 200; Rank Math reports that URL as the sitemap index and its sitemap module is on, so the 404 was probably caused by having no published content. This is not proven. If it is still 404 after the first post is published, treat it as a site setup problem (Rank Math sitemap settings, permalinks, cache) and fix it before publishing more posts.
 5. Wordfence license registration and turning comments off (Settings → Discussion) are done before or right after this first post.
+
+## Live QA (2026-10-07)
+
+Published by the user at https://statesideexplained.com/daylight-saving-time-end-2026-us/ (WordPress post id 14).
+Checked by Claude in the built-in browser, anonymous requests (no login cookies).
+
+| Check | Result |
+|---|---|
+| HTTP status, canonical URL | 200; canonical equals the live URL |
+| Title tag | "When Does Daylight Saving Time End in the U.S. in 2026? - Stateside Explained" |
+| Meta description | Equals the 149-character text in this record |
+| robots meta | `index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large` |
+| Open Graph / Twitter | og:image is the portrait diagram; twitter:card `summary_large_image` |
+| Headings, table, links | One H1, five H2s as in the file; table has 7 rows; 4 source links; category link works; no comment form |
+| Body text | Identical to `content/published/` text (compared programmatically) |
+| Diagram | Loads (1200x1830), alt text equals `image_alt`; one copy only (featured image removed to avoid a duplicate, since the theme shows it above the title) |
+| Phone width (375 px emulation) | Diagram text readable, table fits, no horizontal overflow |
+| Structured data | Rank Math BlogPosting JSON-LD present |
+| `sitemap_index.xml` | 200; lists post, page and category sitemaps; `post-sitemap.xml` lists the article. The earlier 404 is resolved after the first post. |
+| `robots.txt` | Lists `sitemap_index.xml` |
+| Drafts not public | `/about/`, `/privacy-policy/`, `/hello-world/` return 404 anonymously |
+| Network | All page requests 200 |
+
+Not verified: the `www.` host (a cross-origin fetch from the pane was blocked, which proves nothing). Check by typing `www.statesideexplained.com` in a normal browser.
+
+Notes for follow-up (not blocking):
+
+- Byline shows "Written by admin" and links to `/author/admin/`, which exposes the login username. Set a display name (Users → Profile → "Display name publicly as").
+- Shown date is October 6, 2026 (draft creation time); the article text says "as of October 6, 2026". Acceptable; the article's facts were checked on that date.
+- Before 2026-11-01, re-open sources S1–S4 once more to confirm nothing changed.
