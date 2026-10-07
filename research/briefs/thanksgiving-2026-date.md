@@ -2,7 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/thanksgiving-2026-date.md` at the sources step. No draft exists.
 **Lane:** US dates, seasons and holidays. **Pilot slot:** a week 2–4 post (see "Why now").
-**Pilot status:** counted in the 12-post pilot. Drafted, Gate 1 and Gate 2 final PASS, moved to `content/ready/thanksgiving-2026-date.md` on 2026-10-07 (user approval); not on WordPress.
+**Pilot status:** counted in the 12-post pilot. Published 2026-10-07 (`content/published/thanksgiving-2026-date.md`).
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card

@@ -86,3 +86,26 @@ Claude created the draft through the logged-in browser: post id 36, status draft
 
 Remaining: the user previews on a phone width (preview link https://statesideexplained.com/?p=36) and publishes (Publish is the user's step). If more than a day passes before publishing, tell Claude so the sources are re-read. After publishing, send the live URL for live QA, then Claude moves the article to `content/published/`.
 
+## Live QA (2026-10-07)
+
+The user published the article (post 36, published 04:15:29 site time) and sent the live URL: https://statesideexplained.com/federal-holiday-weekend-observed/
+
+Checked by Claude in the built-in browser on 2026-10-07 (page HTML, logged out for the status check; not a phone render):
+
+| Check | Result |
+|---|---|
+| Status, canonical, robots | Post `publish`; 200 logged out; canonical equals the URL; robots "index, follow" |
+| Title and H1 | H1 equals the front matter title; title tag ends with "- Stateside Explained" |
+| Meta description | Present, equals the front matter (142 characters) |
+| Category | US dates, seasons and holidays (article:section) |
+| Image | One diagram in the body; alt text of 245 characters, identical to the front matter |
+| Body text | Letters and digits equal the repository text (2960 characters); six H2 headings; 1 table |
+| Source links | 2 outbound links: OPM "Federal Holidays" and govinfo 5 U.S.C. 6103 |
+| Structured data | BlogPosting JSON-LD present; datePublished 2026-10-07 |
+| Comments and pings | No comment form; comments and pings closed |
+| Home page, feed, sitemap | Listed on the home page and in `/feed/`; in `post-sitemap.xml` (lastmod 2026-10-07); `sitemap_index.xml` 200 |
+
+Not verified by Claude: the diagram text size on a real phone (the user's preview). The article moved from `content/ready/` to `content/published/` with `status: published`, `published_date` and `live_url`.
+
+Notes for follow-up (not blocking): the byline may still show "admin"; re-read OPM and the statute if the article is revisited (there is no deadline); the article does not track changes.
+

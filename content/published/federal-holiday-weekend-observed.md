@@ -4,8 +4,10 @@ slug: federal-holiday-weekend-observed
 meta_description: "For most federal employees, a holiday on a Saturday is treated as the Friday before, and one on a Sunday as the Monday after. See OPM's dates."
 category: US dates, seasons and holidays
 focus_keyword: federal holiday falls on a weekend
-status: ready
+status: published
 date: 2026-10-07
+published_date: 2026-10-07
+live_url: https://statesideexplained.com/federal-holiday-weekend-observed/
 internal_link_candidates: none yet
 image: assets/optimized/federal-holiday-weekend-observed.png
 image_alt: "Diagram of the federal-holiday weekend rule for most federal employees: Saturday holidays are observed Friday; Sunday holidays Monday. It shows OPM examples from 2026–2028, including July 4, 2026 observed July 3 and July 4, 2027 observed July 5."

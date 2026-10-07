@@ -4,8 +4,10 @@ slug: thanksgiving-2026-date
 meta_description: "Thanksgiving 2026 is Thursday, November 26. Federal law sets it as the fourth Thursday in November, so it can fall between the 22nd and 28th."
 category: US dates, seasons and holidays
 focus_keyword: when is thanksgiving 2026
-status: ready
+status: published
 date: 2026-10-07
+published_date: 2026-10-07
+live_url: https://statesideexplained.com/thanksgiving-2026-date/
 internal_link_candidates: none yet (the USPS and TSA Thanksgiving articles are deferred to mid-November)
 image: assets/optimized/thanksgiving-2026-date.png
 image_alt: "Diagram of the November 2026 calendar with the four Thursdays marked: the 5th, 12th, 19th and 26th. The fourth Thursday, November 26, is highlighted as Thanksgiving Day. A note says federal law sets Thanksgiving Day as the fourth Thursday in November, so it falls between the 22nd and 28th."

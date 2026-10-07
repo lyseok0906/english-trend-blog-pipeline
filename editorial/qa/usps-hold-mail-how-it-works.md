@@ -62,3 +62,18 @@ Method: the three USPS pages were opened again in the built-in browser on 2026-1
 ## Gate 2 final (ChatGPT, 2026-10-07)
 
 **Gate 2 final PASS** (the original review result stands; no changes were requested).
+
+## Mandatory pre-approval re-check (2026-10-07)
+
+Before asking for the ready-move approval, the three USPS pages were opened again in the built-in browser and their text tested by script (strings normalized for case, quotes, registered marks, asterisks and spacing; the FAQ's collapsed sections tested from the page content after a 5-second wait):
+
+| Page | Strings tested | Present |
+|---|---|---|
+| S1 USPS "Hold Mail" (https://www.usps.com/manage/hold-mail.htm) | 6 (3 to 30 days, longer: forwarding, 30 days in advance, 3 AM ET / 2 AM CT / 12 AM PT cutoff, account and identity verification, verification not repeated) | 6 of 6 |
+| S2 USPS FAQ "USPS Hold Mail - The Basics" | 29 (free service and 3 to 30 days, last-day delivery or pickup, no single package, who may submit, online account, 2:00 a.m. Central Time cutoff, Monday to Saturday, PS Form 8076, online not available at all addresses, confirmation number, 3 days between holds with the 31st-day example, pickup within 10 days, ID for pickup, regular delivery after pickup, receptacle limit, PS Form 3849, early pickup cancels the hold, "when submitting your request", page date Sep 16, 2026) | 29 of 29 |
+| S3 USPS "Standard Forward Mail" (https://www.usps.com/manage/forward.htm) | 3 (3 to 30 days "pause", the Post Office holds all mail, the carrier delivers on the last day or you pick it up) | 3 of 3 |
+
+Result: no difference from the source notes; no article change. The FAQ page date is still Sep 16, 2026. The numbers checked: 3 days, 30 days, 3 days between holds, 2:00 a.m. Central Time, 3 AM ET, 10 days; the account and identity requirement and the in-person route are unchanged. The check is dated the same day as the as-of date in the text (October 7, 2026). Ready-move approval has not been given yet; a fresh read right before publishing is still **mandatory**.
+
+Publish order (Gate 2): this article goes live before `usps-mail-forwarding-how-long`, which links to it.
+

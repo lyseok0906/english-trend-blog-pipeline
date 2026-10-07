@@ -2,7 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/federal-holiday-weekend-observed.md` at the sources step. No draft exists.
 **Lane:** US dates, seasons and holidays. **Pilot slot:** a week 2–4 post.
-**Pilot status:** counted in the 12-post pilot. Drafted, Gate 1 and Gate 2 final PASS, moved to `content/ready/federal-holiday-weekend-observed.md` on 2026-10-07 (user approval); not on WordPress.
+**Pilot status:** counted in the 12-post pilot. Published 2026-10-07 (`content/published/federal-holiday-weekend-observed.md`).
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card
