@@ -1,6 +1,6 @@
 # QA record — first-day-of-winter-2026
 
-Article: `content/drafts/first-day-of-winter-2026.md`
+Article: `content/ready/first-day-of-winter-2026.md` (moved from `content/drafts/` on 2026-10-07)
 Brief: `research/briefs/first-day-of-winter-2026.md`. Sources: `research/sources/first-day-of-winter-2026.md` (S1 USNO, S2 NOAA NCEI).
 Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT): PASS on commit `2edbc32`, 2026-10-07, no changes. Not approved, not on WordPress, not published.
 
@@ -72,3 +72,9 @@ Done by Claude after Gate 2 passed and before asking the user to approve the mov
 - Calendar facts (December 1 is a Tuesday, December 21 is a Monday, 20 days apart) are unchanged by definition.
 
 Result: **no difference**; the draft needs no change. The draft text on the device is the text Gate 2 reviewed (commit `2edbc32`). The user's approval to move this article to `ready` is requested separately; until then the article stays in `content/drafts/`.
+
+## Gate 3 — Approval
+
+The user approved moving this article to `content/ready/` on 2026-10-07, after Gate 2 PASS and the source re-check above (no difference). The approval covers this article only. Front matter set to `status: ready`. Publishing is a separate step by the user: next, Claude uploads the article to WordPress as a draft (title, slug, category "US dates, seasons and holidays", diagram with alt text, Rank Math meta description and focus keyword), and the user previews on phone width and presses Publish.
+
+If more than a day passes before publishing, tell Claude so USNO and NOAA are re-read before Publish (recommended for lane 1).

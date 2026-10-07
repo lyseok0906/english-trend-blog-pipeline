@@ -293,3 +293,7 @@ ChatGPT reviewed commit `2edbc32` and passed the English + SEO review (Gate 2) f
 ## 2026-10-07 — first-day-of-winter-2026: pre-approval re-check done, approval requested
 
 Claude re-ran the USNO query (seven time-zone offsets) and tested 13 NOAA phrases after Gate 2 passed. No difference from the draft. Claude asked the user to approve moving only this article to `content/ready/`. Nothing moved yet.
+
+## 2026-10-07 — first-day-of-winter-2026: approved to move to ready
+
+The user pushed `23c2394` and approved moving `first-day-of-winter-2026` to `content/ready/` (this article only). Claude moved the file, set `status: ready`, recorded Gate 3 in the QA record and set the backlog stage to `ready`. Next: WordPress draft by Claude, then the user previews and publishes. Counts: published 3; ready 1; draft 2; brief 6 (pilot) plus 2 deferred; idea 1.

@@ -4,7 +4,7 @@ slug: first-day-of-winter-2026
 meta_description: "Winter 2026 starts on two dates: December 1 for meteorologists and December 21, the winter solstice, for the astronomical calendar. See why they differ."
 category: US dates, seasons and holidays
 focus_keyword: when is the first day of winter 2026
-status: draft
+status: ready
 date: 2026-10-07
 internal_link_candidates: none used (the only published article in this lane is about daylight saving time and is not related to the topic)
 image: assets/optimized/first-day-of-winter-2026.png
