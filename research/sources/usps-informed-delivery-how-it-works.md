@@ -1,0 +1,54 @@
+# Source notes — usps-informed-delivery-how-it-works
+
+Retrieved: **2026-10-07**, by Cowork (Claude), both pages opened in the built-in browser (a real browser). Brief: `research/briefs/usps-informed-delivery-how-it-works.md`.
+Reading limit: the FAQ article's sections are collapsed on the page; the full article text (about 45,000 characters) was read from the page text in slices. The sections read: Overview, Signing Up / Welcome Letter (including Welcome Letter and Opt Out), Dashboard, Daily Digest & Mail Delivery Notifications / Issues Receiving Notifications (first part), Privacy & Security Concerns / Missing Mail. **Not read**: the Viewing Package Details color-coding detail, Change of Address, Redelivery, Update Email Addresses, Referrals/Reminders/Sharing, the Mobile App section, and the end of the "Issues" table (login problems). Service-description post: mandatory re-check at drafting, at factual QA and right before publish approval.
+
+## S1 — USPS FAQ, "Informed Delivery - The Basics" (primary, official)
+
+- URL: https://faq.usps.com/s/article/Informed-Delivery-The-Basics
+- Page date shown: "Sep 30, 2026" (under the page title; article number 000007106).
+- Verbatim, by section:
+  - Summary: "Informed Delivery is a free and optional notification feature that gives residential, business and eligible PO Box consumers the ability to digitally preview their letter-sized mail and manage their packages scheduled to arrive soon."
+  - Overview: "The United States Postal Service (USPS) digitally images the front of letter-sized mail that runs through our automated mail sorting equipment. USPS uses those images to provide digital notifications in advance of the delivery of physical mail." Eligibility: "Informed Delivery is available to most residential and PO Box addresses, and many business addresses." "In rare instances, you may live in an eligible ZIP Code location, but can't sign up because your individual mailbox is not uniquely coded ... While most addresses are uniquely coded, not all are, especially in high density areas (e.g., apartment buildings or condos)." "You will receive daily emails to the email address associated with your USPS.com account containing images of the address side of up to 10 pieces of incoming letter mail. You can also view these images on your Informed Delivery online dashboard, where there is no limit on the number of images that will be shown." "Some mailpieces (e.g., catalogs or magazines) are not imaged by our automated equipment and will not appear in your Informed Delivery email or dashboard." Packages: "You will also receive status updates for packages arriving at your address and packages you have sent". Delivery of notifications: "Informed Delivery notifications are delivered via Daily Digest email, on your online Informed Delivery dashboard, and on the USPS Informed Delivery Mobile application. Informed Delivery can only be sent to one email address per account. However, multiple accounts can have Informed Delivery for the same address." "Emails are sent once daily, typically before 9:00AM local time, Monday through Saturday. Notifications are not sent on days when there is no mail to be delivered, on Sundays, or federal holidays."
+  - Signing up: new account steps: visit the Informed Delivery welcome page, "Sign Up for Free", "Verify your identity: Protect your privacy and personal information by verifying your identity and address". "If you are unable to verify your identity online, the system will present options to 'Request Code by Mail' or 'Verify at Post Office'". "You should receive your code in the mail within 3-7 postal business days". "Note: Most post office retail locations offer in-person identity proofing. In-person Identity Proofing will not be offered if the closest post office is more than 50 miles away from the address on the account."
+  - Welcome Letter: "A Welcome Letter is sent as a part of our mail-based verification of new Informed Delivery accounts. After signing up for Informed Delivery you will receive a Welcome Letter in the mail. If you recognize the account information listed in the letter, no further action is required. If the account was not created by you (or someone in your household), or you do not recognize the masked username or email address, deactivate it by following the instructions in the letter". The steps: visit the USPS idremove page, enter "the alphanumeric unsubscribe code provided in the letter" ("case-sensitive and must be entered exactly as it appears in the letter"), select a reason, submit. "Upon your submission of this code, the account associated with the unsubscribe code is unenrolled from Informed Delivery and access is disabled. The unsubscribe code expires 90 days after the date of issue, after successful use or if the associated USPS.com profile address is edited."
+  - Dashboard: "It automatically displays mail images for a seven-day period, and package information for 15 days after each package has been delivered."
+  - Daily Digest: "While only the first 10 pieces of mail appear in your Daily Digest email, the remaining mail images can be viewed on your dashboard for a 7-day period."
+  - Issues: "I did not receive mail that was in today's Daily Digest. Not all mail seen in the Daily Digest will be received the same day." "Only mail processed on USPS automated equipment is included in the Informed Delivery Notification. Not all mail (e.g., magazines and catalogues) is processed this way, so they cannot appear in the notifications. There are also instances where automated equipment is moved or shut down temporarily for maintenance. In some rare cases, pieces of mail may overlap when the image is taken. Any of these issues may result in images not matching the actual mail delivered that day."
+  - Privacy & Security: "I received a letter saying that someone at my home address signed up for Informed Delivery. This letter is sent as a part of our mail-based verification of new Informed Delivery accounts." (then the same unsubscribe steps). "Email messages will be sent from USPSInformeddelivery@email.informeddelivery.usps.com to the email associated with an Informed Delivery user's usps.com profile." "The scanned mail images are of the external markings, showing only the exterior, address side of letter-sized mailpieces. Package notifications do not include images, only information on the delivery status of the package." Missing mail: "Informed Delivery provides notifications for mailpieces arriving soon - not necessarily mailpieces arriving that same day." "please allow several days, up to one week, after receiving your notification for your mailpiece to arrive."
+  - Package images: "Will I see images of packages? No. Package information will be presented as status updates, not images."
+
+| # | Claim supported | Support |
+|---|---|---|
+| S1-1 | Informed Delivery is free and optional; previews letter-sized mail; manages packages | Stated on page |
+| S1-2 | USPS images the front of letter-sized mail that runs through automated sorting equipment and uses the images for notifications before delivery | Stated on page |
+| S1-3 | The images show only the exterior, address side; packages show status updates, not images | Stated on page |
+| S1-4 | Daily email: up to 10 letters; dashboard has no limit on images shown and shows mail images for seven days | Stated on page |
+| S1-5 | Catalogs and magazines are not imaged and will not appear | Stated on page |
+| S1-6 | Notifications arrive by Daily Digest email, dashboard and mobile app; email once a day, typically before 9:00 AM local time, Monday through Saturday; not sent on days with no mail, Sundays or federal holidays | Stated on page |
+| S1-7 | Notifications are for mail arriving soon, not necessarily the same day; USPS asks people to allow several days, up to one week, before reporting something missing | Stated on page |
+| S1-8 | Images may not match the actual mail delivered that day (equipment moved or shut down, overlapping pieces, non-automated mail) | Stated on page |
+| S1-9 | Eligibility: most residential and PO Box addresses and many business addresses; addresses that are not uniquely coded cannot sign up, especially in high-density buildings | Stated on page |
+| S1-10 | Sign-up involves identity verification; if it cannot be done online, a code by mail within 3-7 postal business days or in-person verification at a Post Office | Stated on page |
+| S1-11 | A Welcome Letter is sent as part of USPS's mail-based verification of new accounts; if you recognize the account, no further action; if not created by you or someone in your household, or you do not recognize the masked username or email, deactivate it by following the letter's instructions (unsubscribe code on a USPS page); the account is unenrolled; the code expires 90 days after issue, after successful use or if the profile address is edited | Stated on page (Welcome Letter section and the Privacy & Security answer) |
+| S1-12 | USPS names the sender address of its emails | Stated on page |
+
+## S2 — USPS, "Informed Delivery - Mail & Package Notifications" (primary, official)
+
+- URL: https://www.usps.com/manage/informed-delivery.htm
+- Page date shown: none.
+- Read: yes, the whole page body (7,082 characters), 2026-10-07.
+- Verbatim: "See Photos of Your Mail Before It Arrives, Free". "See images of your incoming letter-sized mail (grayscale, address side only)." Sign-up steps: "Create Your Account", "Verify Your Identity", "Watch for Updates". "Images are only provided for letter-sized mailpieces that are processed through USPS's automated equipment. Mail and packages may not arrive the same day you get a notification—please allow several days for delivery." Meta description: "Informed Delivery is a free service from USPS that shows you preview images of incoming mail, plus status updates about your incoming and outbound packages. Get notifications in a morning Daily Digest email, or at any time from the dashboard using your smartphone, computer, or USPS Mobile app."
+
+| # | Claim supported | Support |
+|---|---|---|
+| S2-1 | Free service; images of incoming letter-sized mail are grayscale, address side only | Stated on page |
+| S2-2 | Mail and packages may not arrive the same day as the notification; allow several days | Stated on page |
+| S2-3 | Sign-up is three steps: create an account, verify identity, watch for updates | Stated on page |
+
+## Not sourced and not used
+
+- Mobile app features, Mail Delivery Notifications (not available for PO Box addresses, per the FAQ), redelivery, change of address, Electronic Signature Online, interactive marketing campaigns, referrals.
+- Business-account code rules (the FAQ gives different expiry times for business accounts).
+- Whether the service is safe or worth it; any advice on what to click.
+- Search demand (not measured).
