@@ -91,3 +91,27 @@ The WordPress draft was built from the draft-folder file as pushed (commit `058b
 
 Remaining: the user previews on a phone width (preview link https://statesideexplained.com/?p=40) and publishes. **Mandatory**: re-read the three USPS pages right before Publish (the last re-read was 2026-10-07; repeat because more than a day will have passed if publishing happens later than 2026-10-08). Hold Mail is published before `usps-mail-forwarding-how-long`. After publishing, send the live URL for live QA, then Claude moves the article to `content/published/`.
 
+
+## Live QA (2026-10-07, after the user published)
+
+The user published post 40 at 19:44 site time on 2026-10-07 and sent the live URL https://statesideexplained.com/usps-hold-mail-how-it-works/ . Claude did not receive the request for the pre-publish USPS re-check before Publish; see the post-publish re-check below.
+
+| Check | Result |
+|---|---|
+| HTTP status | 200 |
+| Canonical | equals the live URL |
+| Robots | index, follow |
+| Title tag | "How Does USPS Hold Mail Work? Limits and Steps - Stateside Explained" |
+| Meta description | equals the front matter (139 characters) |
+| Headings | six H2: What it holds; How long a hold can last; How a request is made; When the hold ends; What this article does not cover; Sources |
+| Text | 3,137 letters and digits, the same count as the repository text |
+| Diagram | one image, alt text 404 characters and equal to the front matter; the image file is the original 1200x2667 PNG (sha-256 65349215..., 92,889 bytes), equal to the repository PNG |
+| Links | three official USPS links (hold-mail.htm, the FAQ "USPS Hold Mail - The Basics", forward.htm) |
+| Category | Postal service and stamps (id 6) |
+| Comments and pings | closed (no comment form) |
+| Structured data | JSON-LD present |
+| Home page, feed, sitemap | listed on the home page, in `/feed/` and in the post sitemap |
+
+**Post-publish USPS re-check (2026-10-07, evening):** S1 (usps.com Hold Mail page): minimum 3 and maximum 30 days, forwarding for longer, up to 30 days in advance or next scheduled delivery day, 3 AM ET (2 AM CT, 12 AM PT) Monday-Saturday, identity verification: all present. S2 (FAQ, dated Sep 16, 2026): free, pauses all mail, single package cannot be held, 2:00 A.M. Central cutoff, PS Form 8076, confirmation number, 3 days between holds with the 31st-day example, last-day delivery or pickup, 10 days then returned to senders, ID required, delivery resumes next Postal business day: all present (the FAQ says "USPS Forward Mail service" for holds longer than 30 days; the article's wording is consistent). S3 (forward.htm): the 3-30 days "pause" paragraph is unchanged. **No difference from the source notes; no article change.**
+
+Not verified by Claude: the diagram text size on a real phone (the user's preview). The article moved from `content/ready/` to `content/published/` with `status: published`, `published_date` and `live_url`. Notes for follow-up (not blocking): the byline may still show "admin"; re-read the three USPS pages if the article is revisited.
