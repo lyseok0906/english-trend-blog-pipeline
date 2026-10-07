@@ -2,6 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/thanksgiving-2026-date.md` at the sources step. No draft exists.
 **Lane:** US dates, seasons and holidays. **Pilot slot:** a week 2–4 post (see "Why now").
+**Pilot status:** counted in the 12-post pilot (lane 1). Angle approved 2026-10-07. Not yet drafted.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card
@@ -47,7 +48,7 @@ Thanksgiving is in 50 days. Publish by roughly mid-November at the latest; there
 
 - **In:** the date, the statute's wording, the computation, the OPM neighbor-year dates, the federal-employee scope.
 - **Out:** the history of the holiday, traditions, travel advice, store or school closings, Canada, the day after Thanksgiving (not a federal holiday on the OPM list; not covered).
-- Cross-links: the USPS and TSA Thanksgiving articles (separate briefs) are internal-link candidates once published.
+- Cross-links: the USPS and TSA Thanksgiving articles (separate briefs, deferred to mid-November and outside the 12-post pilot) are internal-link candidates once published.
 
 ## Image plan (no photos)
 
@@ -71,4 +72,4 @@ Lane 1: re-read OPM and the statute at drafting and again before publish approva
 ## Open questions for the user
 
 1. Approve the title with "in the U.S." to reduce Canadian intent.
-2. Keep or drop this candidate if you judge a one-line-answer article too thin (the backlog has reserves, see `docs/content-backlog.md`).
+2. Decided 2026-10-07: keep, with the angle "how the date is set" (the rule, the Nov 22–28 range, neighbor years). The one-line answer alone is not enough.

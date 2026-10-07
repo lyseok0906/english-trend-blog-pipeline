@@ -2,13 +2,14 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/federal-holiday-weekend-observed.md` at the sources step. No draft exists.
 **Lane:** US dates, seasons and holidays. **Pilot slot:** a week 2–4 post.
+**Pilot status:** counted in the 12-post pilot (lane 1). Not yet drafted.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card
 
 | Check | Result |
 |---|---|
-| Official sources | OPM "Federal Holidays" (2026 and 2027 tabs and footnotes); 5 U.S.C. 6103(b) on govinfo.gov. Both opened in a real browser on 2026-10-07. USPS newsroom release of June 26, 2026 as one cross-check (see "Scope") |
+| Official sources | OPM "Federal Holidays" (2026 and 2027 tabs and footnotes); 5 U.S.C. 6103(b) on govinfo.gov. Both opened in a real browser on 2026-10-07. No USPS source is used (user decision 2026-10-07) |
 | Diagram without photos | Yes: a small table or timeline of the weekend cases with arrows (Saturday → Friday, Sunday → Monday), using the 2026 and 2027 dates |
 | Search question clear | Reasonably: "what day is the holiday observed when it falls on a weekend". The same phrase is also used by private employers, so the title says "federal" |
 | Changing information | The rule is stable; the dates come from OPM's tables, which could be edited |
@@ -37,7 +38,7 @@ Readers planning around a long weekend or checking whether a Friday or Monday is
 1. **The rule (OPM).** For most federal employees on a Monday-to-Friday schedule, a holiday on a Saturday is generally observed the Friday before, and a holiday on a Sunday the Monday after.
 2. **The legal basis.** Saturday: 5 U.S.C. 6103(b)(1). Sunday: OPM cites Section 3(a) of Executive Order 11582 (February 11, 1971).
 3. **The examples in OPM's tables.** 2026: Independence Day, Saturday July 4, shown as Friday, July 3. 2027: Juneteenth (Saturday June 19) shown as Friday June 18; Independence Day (Sunday July 4) shown as Monday July 5; Christmas (Saturday December 25) shown as Friday December 24. Weekdays computed from the calendar.
-4. **The limit.** The rule is stated for federal employees ("for most Federal employees"); other institutions follow their own rules. One cross-check: USPS's June 26, 2026 release said it would observe Independence Day on Saturday, July 4 and be open on Friday, July 3. That shows federal and USPS dates can differ; whether to include it is an open question (it overlaps with the USPS holiday article).
+4. **The limit.** The rule is stated for federal employees ("for most Federal employees"); other institutions follow their own rules. The article does not equate OPM's rule with how USPS or any other organization schedules its holidays (user decision 2026-10-07).
 
 ## Why now
 
@@ -56,7 +57,7 @@ Own table/timeline: the six weekend cases in 2026–2027 with the observed weekd
 
 - **OPM, "Federal Holidays"**, https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/ . Overview: "when a holiday falls on a nonworkday -- Saturday or Sunday -- the holiday usually is observed on Monday (if the holiday falls on Sunday) or Friday (if the holiday falls on Saturday)." 2026 footnote: "If a holiday falls on a Saturday, for most Federal employees, the preceding Friday will be treated as a holiday for pay and leave purposes. (See 5 U.S.C. 6103(b).) If a holiday falls on a Sunday, for most Federal employees, the following Monday will be treated as a holiday for pay and leave purposes. (See Section 3(a) of Executive Order 11582, February 11, 1971.)" Tables as listed above. No update date shown.
 - **5 U.S.C. 6103(b)(1)**, govinfo.gov U.S. Code 2023 edition: "Instead of a holiday that occurs on a Saturday, the Friday immediately before is a legal public holiday for— (A) employees whose basic workweek is Monday through Friday". The statute does not itself name the Sunday rule (OPM cites the executive order for it).
-- **USPS newsroom**, June 26, 2026, https://about.usps.com/newsroom/national-releases/2026/0626-usps-will-be-closed-in-observance-of-independence-day-july-4.htm : "will observe Independence Day on Saturday, July 4 ... Post Offices will be open, and deliveries will occur as normal on Friday, July 3."
+- USPS's June 26, 2026 release is **not** a source for this article (user decision 2026-10-07: OPM's substitute-day rule and USPS operations are not the same thing). It stays in the USPS Thanksgiving brief only.
 
 ## Re-check rule
 
@@ -66,9 +67,9 @@ Lane 1: re-read OPM's overview, both footnotes and the 2026–2027 tables at dra
 
 - "Observed holiday" is also a private-sector and payroll topic; the title and text must stay on the federal rule (the OPM page is the only authority used).
 - The Sunday rule rests on an executive order OPM cites but that was not opened; the draft attributes it to OPM.
-- Overlap with the USPS holiday article if the July 2026 example is used in both; decide which article owns it.
+- The reader may assume the OPM rule applies to the post office, banks or schools. The text must say it is the federal-employee rule and name nothing else as covered.
 
 ## Open questions for the user
 
 1. Approve the focus keyword and the "federal employees only" scope.
-2. Include the USPS July 2026 example here, in the USPS article, or in both with a link?
+2. Decided 2026-10-07: the July 2026 USPS example is not used here; it belongs only to a USPS operations article, and only if USPS's own notice is cited.

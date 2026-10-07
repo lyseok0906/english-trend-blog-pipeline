@@ -2,6 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/usps-post-office-thanksgiving.md` at the sources step. No draft exists.
 **Lane:** postal service and stamps (rule- and schedule-type post: mandatory official-page re-check). Overlaps with the Thanksgiving date brief and the federal-holiday brief.
+**Pilot status:** **deferred, NOT counted in the 12-post pilot** (user decision 2026-10-07). Write in mid-November, after USPS's 2026 Thanksgiving notice.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card
@@ -71,10 +72,10 @@ Re-read the 2026 Thanksgiving release (once it exists) at drafting, at factual Q
 
 - No 2026 release exists yet; the article cannot state the 2026 plan until it does, so its value depends on timing.
 - USPS releases are dated news items, not a standing schedule; the article must attribute to the dated release.
-- Overlap with the federal-holiday article (July 2026 example) and the Thanksgiving date article; internal links resolve this if all three publish.
+- The July 2026 example must not imply that OPM's rule governs USPS; it is a separate case from USPS's notice. Overlap with the Thanksgiving date article is resolved by internal links.
 - Large number of third-party pages answering the same question.
 
 ## Open questions for the user
 
 1. Approve the timing plan (wait for USPS's 2026 release; hold or publish dated if it is late).
-2. Decide which article owns the July 2026 contrast (see the federal-holiday brief, question 2).
+2. Decided 2026-10-07: the July 2026 example is used only in this USPS operations article, only as a case attributed to USPS's own June 26, 2026 notice, and never as if it were the same as OPM's substitute-day rule.

@@ -2,6 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/usps-hold-mail-how-it-works.md` at the sources step. No draft exists.
 **Lane:** postal service and stamps (rule-type post: mandatory official-page re-check).
+**Pilot status:** counted in the 12-post pilot (lane 3). Not yet drafted.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card

@@ -2,6 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/tsa-thanksgiving-food-carry-on.md` at the sources step. No draft exists.
 **Lane:** airport security rules (mandatory official-page re-check). Overlaps with the published TSA 3-1-1 article, which it would link to.
+**Pilot status:** **deferred, NOT counted in the 12-post pilot** (user decision 2026-10-07). Write in mid-November, after TSA's 2026 holiday notice.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card

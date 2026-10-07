@@ -2,6 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below are moved into `research/sources/first-day-of-winter-2026.md` at the sources step. No draft exists.
 **Lane:** US dates, seasons and holidays. **Pilot slot:** a week 2–4 post (see "Why now").
+**Pilot status:** counted in the 12-post pilot (lane 1). Not yet drafted.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card
