@@ -70,3 +70,13 @@ Applies to the weekend-holiday claims (OPM footnotes and rows, statute (b)(1), E
 ## Ready-move approval (2026-10-07)
 
 The user approved moving this article to `content/ready/` after Gate 2 final PASS and the recommended source re-check, for this article only. Front matter set to `status: ready`; backlog stage `ready`. Not on WordPress and not published. Next: Claude creates the WordPress draft when the user asks; the user previews on a phone and publishes. If more than a day passes before publishing, tell Claude so the sources are re-read.
+
+## Alt text shortened at ready-move approval (2026-10-07)
+
+At the ready-move approval the user asked for a shorter alt text for the diagram, identical in the front matter and the body:
+
+- Before (539 characters): "Diagram of the weekend rule for federal holidays, for most federal employees. A Saturday holiday is treated as the Friday before; ... New Year's Day 2028, Saturday January 1, treated as Friday December 31."
+- After (245 characters): "Diagram of the federal-holiday weekend rule for most federal employees: Saturday holidays are observed Friday; Sunday holidays Monday. It shows OPM examples from 2026–2028, including July 4, 2026 observed July 3 and July 4, 2027 observed July 5."
+
+Check: both occurrences were replaced and are identical. The text matches the diagram (the diagram shows Saturday-to-Friday and Sunday-to-Monday examples for 2026 to 2028, including Saturday July 4, 2026 observed Friday July 3, and Sunday July 4, 2027 observed Monday July 5) and OPM's wording "usually is observed" (S1-1) for most federal employees. The shorter text no longer lists Juneteenth 2027, Christmas 2027 or New Year's Day 2028 by name; those examples remain in the diagram and the article table. The diagram image itself is unchanged. This supersedes the earlier remark about the 539-character alt text.
+

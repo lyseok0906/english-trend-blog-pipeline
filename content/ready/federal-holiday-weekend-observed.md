@@ -8,7 +8,7 @@ status: ready
 date: 2026-10-07
 internal_link_candidates: none yet
 image: assets/optimized/federal-holiday-weekend-observed.png
-image_alt: "Diagram of the weekend rule for federal holidays, for most federal employees. A Saturday holiday is treated as the Friday before; a Sunday holiday is treated as the Monday after. Examples from OPM's tables: Independence Day 2026, Saturday July 4, treated as Friday July 3. Juneteenth 2027, Saturday June 19, treated as Friday June 18. Independence Day 2027, Sunday July 4, treated as Monday July 5. Christmas 2027, Saturday December 25, treated as Friday December 24. New Year's Day 2028, Saturday January 1, treated as Friday December 31."
+image_alt: "Diagram of the federal-holiday weekend rule for most federal employees: Saturday holidays are observed Friday; Sunday holidays Monday. It shows OPM examples from 2026–2028, including July 4, 2026 observed July 3 and July 4, 2027 observed July 5."
 ---
 
 # When a Federal Holiday Falls on a Weekend, What Changes?
@@ -41,7 +41,7 @@ OPM's tables mark these dates with a footnote. The weekday of each actual holida
 
 OPM lists the New Year's Day 2028 row under its 2028 tab, but the date it shows falls in 2027.
 
-![Diagram of the weekend rule for federal holidays, for most federal employees. A Saturday holiday is treated as the Friday before; a Sunday holiday is treated as the Monday after. Examples from OPM's tables: Independence Day 2026, Saturday July 4, treated as Friday July 3. Juneteenth 2027, Saturday June 19, treated as Friday June 18. Independence Day 2027, Sunday July 4, treated as Monday July 5. Christmas 2027, Saturday December 25, treated as Friday December 24. New Year's Day 2028, Saturday January 1, treated as Friday December 31.](assets/optimized/federal-holiday-weekend-observed.png)
+![Diagram of the federal-holiday weekend rule for most federal employees: Saturday holidays are observed Friday; Sunday holidays Monday. It shows OPM examples from 2026–2028, including July 4, 2026 observed July 3 and July 4, 2027 observed July 5.](assets/optimized/federal-holiday-weekend-observed.png)
 
 The three federal holidays still ahead in 2026 are Veterans Day on Wednesday, November 11, Thanksgiving Day on Thursday, November 26, and Christmas Day on Friday, December 25. All three fall on weekdays, so OPM's 2026 table lists them on their own dates.
 
