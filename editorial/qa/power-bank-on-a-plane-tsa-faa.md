@@ -1,6 +1,6 @@
 # QA record — power-bank-on-a-plane-tsa-faa
 
-Article: `content/drafts/power-bank-on-a-plane-tsa-faa.md`
+Article: `content/ready/power-bank-on-a-plane-tsa-faa.md` (moved from `content/drafts/` on 2026-10-07)
 Brief: `research/briefs/power-bank-on-a-plane-tsa-faa.md`. Sources: `research/sources/power-bank-on-a-plane-tsa-faa.md` (S1 TSA Power Banks, S2 TSA batteries over 100 Wh, S3 FAA PackSafe batteries).
 Stage: draft written 2026-10-07; Gate 1 done by Claude on 2026-10-07. Gate 2 (English + SEO, ChatGPT): PASS on commit `2edbc32`, 2026-10-07, no changes. Not approved, not on WordPress, not published.
 
@@ -67,4 +67,10 @@ Next: Mandatory re-check of the three TSA/FAA pages right before the user approv
 Done by Claude after Gate 2 passed and before asking the user to approve the move to `ready`. All three pages were opened again in the built-in browser and the same phrases as in Gate 1 were tested against the page text: 6 phrases on TSA "Power Banks", 6 on TSA "Lithium batteries with more than 100 watt hours", 17 on the FAA "Airline Passengers and Batteries" page (every number: 100 Wh, 101-160 Wh, 160 Wh, two spare batteries per person, 12 V x 8 Ah = 96 Wh, the carry-on-only rows, the airline caveat and the damaged-or-recalled sentence). All 29 are present, unchanged. The page dates are unchanged: TSA "Last Updated on May 14, 2025", TSA "Last Updated on March 29, 2023", FAA "Last updated: Friday, October 2, 2026". The FAA table row "Spare Battery or Power Bank" is still present.
 
 Result: **no difference**; the draft needs no change. The draft text on the device is the text Gate 2 reviewed (commit `2edbc32`). The user's approval to move this article to `ready` is requested separately; until then the article stays in `content/drafts/`. The mandatory re-check is repeated right before the user publishes, and again if more than a day passes after this one.
+
+## Gate 3 — Approval
+
+The user approved moving this article to `content/ready/` on 2026-10-07, after Gate 2 PASS and the mandatory source re-check above (no difference). The approval covers this article only. Front matter set to `status: ready`. Publishing is a separate step by the user: next, once the user asks, Claude uploads the article to WordPress as a draft (title, slug, category "Airport security rules", diagram with alt text, Rank Math meta description and focus keyword), and the user previews on phone width and presses Publish.
+
+**Mandatory**: re-read the three TSA/FAA pages again right before the user presses Publish (and again before the WordPress upload if more than a day has passed since the re-check above). If a page differs or cannot be opened, do not publish.
 

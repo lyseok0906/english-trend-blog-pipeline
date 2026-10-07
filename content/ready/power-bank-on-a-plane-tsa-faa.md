@@ -4,7 +4,7 @@ slug: power-bank-on-a-plane-tsa-faa
 meta_description: "Power banks go in your carry-on, not checked bags. The FAA sets a 100 Wh limit per battery, with airline approval for 101 to 160 Wh. See the details."
 category: Airport security rules
 focus_keyword: can you bring a power bank on a plane
-status: draft
+status: ready
 date: 2026-10-07
 internal_link_candidates: tsa-3-1-1-liquids-rule (used once, in the scope paragraph)
 image: assets/optimized/power-bank-on-a-plane-tsa-faa.png

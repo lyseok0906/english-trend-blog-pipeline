@@ -310,3 +310,9 @@ The user pushed `20132c7`, previewed and published the winter article at https:/
 
 After the user's push of `50a1a5a`, Claude re-read the two TSA pages and the FAA page and tested 29 phrases and numbers: no difference, same page dates. Claude asked the user to approve moving only this article to `content/ready/`. Nothing moved yet.
 
+## 2026-10-07 — power-bank-on-a-plane-tsa-faa: approved to move to ready; push rule changed
+
+The user pushed `81318be` and approved moving `power-bank-on-a-plane-tsa-faa` to `content/ready/` (this article only). Claude moved the file, set `status: ready`, recorded Gate 3 in the QA record and set the backlog stage to `ready`. The mandatory re-check of the TSA and FAA pages is repeated right before publishing.
+
+Rule change by the user (2026-10-07): Claude may now push local commits itself, by typing `git push origin main` in the user's own VS Code terminal through computer control, after showing the list of commits to be pushed and after the user has granted access to the app. Only `git push origin main`; never a forced push or another branch; Claude reads the result and reports it. Publishing on WordPress stays the user's step. Counts: published 4; ready 1; draft 1; brief 6 (pilot) plus 2 deferred; idea 1.
+
