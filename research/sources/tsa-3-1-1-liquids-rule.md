@@ -56,3 +56,35 @@ One web search limited to tsa.gov and dhs.gov for a liquids-rule change returned
 ## To re-check before drafting, after factual QA, and before publishing (mandatory)
 
 Open S1 and S2 in a browser. Compare size, bag, exemptions and checked-bag statements with the table above. If TSA shows a page date or a change notice, record it here.
+
+## Re-read in a real browser (2026-10-07, built-in browser pane, page text copied by script)
+
+The 403 limit above applied to the summarizing reader. The built-in browser opened both TSA pages. No page update date is shown on either page.
+
+### T1 — TSA, "Liquids, Aerosols, and Gels Rule"
+
+URL requested: https://www.tsa.gov/travel/security-screening/liquids-rule — it redirected to https://www.tsa.gov/travel/security-screening/liquids-aerosols-gels-rule (use the second URL in the article).
+
+Verbatim body (full text of the page, apart from navigation):
+
+- "You are allowed to bring a quart-sized bag of liquids, aerosols, gels, creams and pastes in your carry-on bag and through the checkpoint. These are limited to travel-sized containers that are 3.4 ounces (100 milliliters) or less per item. Placing these items in the small bag and separating from your carry-on baggage facilitates the screening process. Pack items that are in containers larger than 3.4 ounces or 100 milliliters in checked baggage."
+- "Any liquid, aerosol, gel, cream or paste that alarms during screening will require additional screening."
+- Exemptions listed as links: "Medications", "Infant and child nourishments", "Inbound International Flights".
+- Inbound International Flights: duty-free liquids over 3.4 oz / 100 ml may be carried in a secure, tamper-evident bag if (1) purchased internationally and the traveler is flying to the United States on a connecting flight; (2) packed by the retailer in a transparent, secure, tamper-evident bag with no sign of tampering; (3) the original receipt is present and the purchase was made within 48 hours. The items must be screened and cleared; an item that alarms or cannot be screened is not permitted in the carry-on. TSA recommends packing all liquids over 3.4 oz in checked baggage even if in a tamper-evident bag. "Liquids more than 3.4 oz or 100 ml not in a secure, tamper-evident bag must be packed in checked baggage."
+
+Answer to the open question in the brief: the page says the small bag is placed "separating from your carry-on baggage" and that this "facilitates the screening process". It does not say the traveler must take the bag out at every checkpoint. The article must use that wording and not add a "must remove" rule.
+
+Also seen: the TSA Cares page says at TSA PreCheck lanes "you do not need to remove ... 3-1-1 liquids" (page: https://www.tsa.gov/travel/tsa-cares/disabilities-and-medical-conditions). Not yet read in full; do not use in the article without reading that page's context.
+
+### T2 — TSA FAQ, "Is Breast Milk, Formula and Juice exempt from the 3-1-1 liquids rule?"
+
+URL: https://www.tsa.gov/travel/frequently-asked-questions/breast-milk-formula-and-juice-exempt-3-1-1-liquids-rule
+
+- "Formula, breast milk, juice in quantities greater than 3.4 ounces or 100 milliliters are allowed in carry-on baggage and do not need to fit within a quart-sized bag. Remove these items from your carry-on bag to be screened separately from the rest of your belongings."
+- "You do not need to travel with your child to bring breast milk. Breast milk and formula are considered medically necessary liquids. This also applies to breast milk pumping equipment (regardless of presence of breast milk)."
+- Ice packs, freezer packs, frozen gel packs and other cooling accessories are allowed in carry-on; if partially frozen or slushy they are screened as above. Gel or liquid-filled teethers and canned, jarred and processed baby food are allowed in carry-on and "may be subject to additional screening."
+
+### Still open
+
+- Search for any TSA announcement of a rule change (only a limited search was done on 2026-10-06). Do a fresh check right before publish approval, in a browser.
+- The article states TSA's wording "as of" the check date; it does not say the rule is unchanged.
