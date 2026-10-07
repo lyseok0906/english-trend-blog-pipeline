@@ -151,8 +151,12 @@ body was updated to match.
 
 Image review by ChatGPT (2026-10-07): dates and times match the article, no clipped or overlapping text, better on a phone than the first version. Two changes were requested and made: the image title now says "in the U.S." and the two bars now carry the time zone as text. With those two changes ChatGPT counted the image review as passed.
 
-Status: image review passed. The new image replaces the old one in the WordPress draft before
-publishing.
+Status: image review passed (ChatGPT, 2026-10-07). The new image (`assets/optimized/daylight-saving-time-end-2026-us.png`,
+as committed in `44b9580`) was uploaded to WordPress as `daylight-saving-time-end-2026-us-portrait.png` and replaced the
+old one in the draft (post id 14). Checked in the draft preview at phone width: all text readable, no horizontal scroll;
+alt text and the social-share image (og:image) point to the new file. The old landscape image (media id 13) is still in
+the WordPress media library, unused. A stray duplicate `-us-1.png` that was committed by mistake in `44b9580` was
+removed in the next commit; the article uses only `daylight-saving-time-end-2026-us.png`.
 
 ### Hand-off for publishing in WordPress (user)
 
