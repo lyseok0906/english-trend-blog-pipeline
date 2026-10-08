@@ -716,3 +716,26 @@ Open items elsewhere: `www` 301, Search Console and sitemap submission, domain r
 The user reported that on 2026-10-08 (user's local date) they completed three things in Search Console: domain-property verification, submission of `https://statesideexplained.com/sitemap_index.xml`, and an indexing request ("Request indexing") for the home page. Source label: `사용자`. Claude did not access Search Console and did not check these; no Search Console screen values (sitemap status, discovered URL count, coverage numbers) are recorded here. The user will record screen values at the 1-week checkpoint (on or after 2026-10-14).
 
 Recorded in `docs/pilot-evaluation.md`: table E rows (property verification, property type = domain property, sitemap submission, new row for the home-page indexing request), the note under section 4 step 5, and the open-decision items in section 9. Caveat noted there: the indexing request was reported for the home page only (none reported for the 12 posts); because the home page links to the posts, an early home crawl can speed up discovery of the posts, so the 1-week notes in tables B/C should mention it. Table E's "홈·카테고리·About·Privacy 상태" cell still says About/Privacy are drafts (written before publication); the 1-week column will carry the current state. Counts unchanged: published 12 posts, 2 pages; ready 0; draft 0.
+
+## 2026-10-08 — `www` to apex redirect (Cloudflare) verified, with one gap
+
+The user changed the `www` CNAME to Proxied and deployed a `www` → apex 301 Redirect Rule in Cloudflare (done by the user; Claude made no change and has no Cloudflare access). Claude then checked from the built-in browser pane.
+
+**Method and limits.** The pane can navigate and read the final page but cannot see redirect status codes or hop counts: the network log lists only the final document, the navigation timing `redirectCount` is 0 for cross-origin redirects, and scripted requests to the `www` host are blocked from the apex page. The device shell and cloud shell cannot reach the site (proxy 403). So final destinations and final status were verified; **the 301 status code and the "exactly one hop" part of the success criteria were not verified by Claude** and need a `curl -sIL` run by the user (or a Cloudflare rule screenshot showing status 301).
+
+**Final destinations (navigation to the `www` URL; the final address, final status 200 unless noted).**
+- `https://www.statesideexplained.com/` → `https://statesideexplained.com/` (200, canonical equals the final URL)
+- `https://www.statesideexplained.com/usps-mail-forwarding-how-long/` → same path on the apex (200, canonical equals)
+- `https://www.statesideexplained.com/category/postal-service-and-stamps/` → same path on the apex (200, canonical equals)
+- `https://www.statesideexplained.com/?s=usps` → `https://statesideexplained.com/?s=usps` (200, query kept)
+- `http://www.statesideexplained.com/` → `https://statesideexplained.com/` (200)
+- `https://www.statesideexplained.com/robots.txt` → apex `robots.txt` (200, text/plain, content as before: disallows `/wp-admin/`, allows `admin-ajax.php`, `Sitemap: https://statesideexplained.com/wp-sitemap.xml`)
+- `https://www.statesideexplained.com/sitemap_index.xml` → apex `sitemap_index.xml` (200; lists `post-sitemap.xml`, `page-sitemap.xml`, `category-sitemap.xml`, all on the apex)
+- Extra: `https://www.statesideexplained.com/about/` → apex `/about/` (200); a nonexistent path on `www` → the same path on the apex with the WordPress 404 page (404 preserved, no redirect to the home page).
+- No redirect loop appeared in any of these (every navigation ended on a loaded apex page).
+
+**Apex unchanged (scripted fetch, no cookies, no redirect following, cache bypassed).** Home, the 12 posts, About, Privacy Policy, the 3 category pages: all 200 with no redirect; canonical equals the requested URL on all 18; robots meta `index, follow` (posts and pages also `max-snippet:-1,...`) as before. Apex `robots.txt` and `sitemap_index.xml`: 200, no redirect. Site Address and WordPress Address were not touched. No page content hash was compared (no baseline hash was stored), so "unchanged" means status, canonical and robots meta only.
+
+**DNS (DoH, dns.google).** `www` now answers with Cloudflare proxy addresses (104.21.31.107, 172.67.176.57), no CNAME is exposed, i.e. it is proxied; the apex still answers `31.170.160.71` (DNS only, unchanged). Mail records preserved: MX route1 / route2 / route3 `.mx.cloudflare.net` (three records); SPF `v=spf1 include:_spf.mx.cloudflare.net ~all`; DKIM at `cf2024-1._domainkey` present (`v=DKIM1; h=sha256; k=rsa; p=...`); the `google-site-verification` TXT (Search Console) is also present. A mail delivery test to `hello@` was not repeated.
+
+**Result.** Final-destination, query-string, http→https, `robots.txt` and sitemap criteria met; apex unchanged; mail DNS records preserved. Not verified: 301 (versus 302/308) and the single-hop count. Still open: that `curl` check by the user; Search Console may still show `www` URLs in its reports for a while (no action). Note: `docs/pilot-evaluation.md` table E row "`www` 주소" still says the address does not open (written before this change); update it at the 1-week checkpoint. Counts unchanged: published 12 posts, 2 pages; ready 0; draft 0.
