@@ -590,3 +590,32 @@ Verification (logged-out requests, canonical URLs, after the purge, against a ba
 | Home page | no author links |
 
 Open for the next steps: step 2 (remove the link in the `single` template; needs the user's approval), step 3 (account email after `hello@` exists), and the optional author URL slug. The 1-week checkpoint note: no post changed, so no sitemap lastmod changed. Counts unchanged: published 12; ready 0; draft 0.
+
+## 2026-10-08 — Byline link removed (step 2); profile Website corrected; cache purged; verified
+
+With the user's approval for step 2, Claude made two WordPress changes and nothing else.
+
+1. **Template `single` (twentytwentyfive//single).** Through the templates REST endpoint, the single occurrence `<!-- wp:post-author-name {"isLink":true} /-->` was replaced by `<!-- wp:post-author-name {"isLink":false} /-->`. The rest of the template content is byte-identical (length +1 character). The record now shows source `custom` (before: `theme`); it is the only customized template. To undo: Site Editor, Templates, Single Posts, Clear customizations.
+2. **Profile Website (user id 1).** `url` changed from `http://statesideexplained.com` to `https://statesideexplained.com/`. Only `url` was sent. Re-read afterwards: login `admin`, slug `admin`, display name and nickname `Stateside Explained`, role administrator unchanged; email not touched.
+
+Cache: LiteSpeed "Purge All - LSCache" run from the admin bar link, then verified.
+
+Verification (logged-out requests, cache-busted, on all 12 posts; baseline taken before the change):
+
+| Check | Result |
+|---|---|
+| Byline row text vs baseline | identical on 12/12 ("Written by Stateside Explained in [category]", same order) |
+| Link to `/author/*` inside the byline row | 0 on 12/12 (before: 1) |
+| Category link in the row | same URL as baseline on 12/12 |
+| `/author/admin/` count per post page | 3 on 12/12, all in JSON-LD (before: 4) |
+| JSON-LD author name occurrences | `Stateside Explained` present on 12/12 |
+| Canonical equals the post URL; robots | 12/12; `index, follow` |
+| Post modified times (REST) | unchanged on 12/12 |
+| Home, page 2, three category pages, `?s=usps` | no author block and no `/author/admin/`; they were not affected by a `single` template change |
+| Author archive | `noindex`, title unchanged; feed `dc:creator` `Stateside Explained`; post sitemap 13 URLs |
+| Phone-width screenshot of one post | row reads "Written by Stateside Explained in Postal service and stamps"; name is plain text; layout intact |
+| Pages 3 and 9 | still `draft`, modified times unchanged |
+
+Not reproduced, stated honestly: the pre-change baseline stored a body text length/hash and per-page hashes of home, category and search pages, but the measuring method was not kept in a form that could be repeated exactly, so those numbers could not be compared. They were replaced by the checks above (modified times unchanged, REST content untouched because no post was written, byline row text and links compared directly, the non-post pages containing no author block). The planned comparison of the 12 article texts with the repository files was not run. No post was written, so a change there is not expected.
+
+Still open: step 3 (account email after the `hello@statesideexplained.com` mailbox exists; the user will request it separately), the Administration Email, the optional author URL slug, About and Privacy edits, the `www` 301, Search Console. Counts unchanged: published 12; ready 0; draft 0.
