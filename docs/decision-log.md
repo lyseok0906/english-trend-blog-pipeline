@@ -532,3 +532,37 @@ Noted for the evaluation: all 12 articles were published on one day instead of 3
 6. Search Console: use a URL-prefix property for `https://statesideexplained.com/`; a Domain property would need a DNS TXT record (in Cloudflare).
 
 No article, diagram, page or WordPress setting was changed in this step. Counts unchanged: published 12; ready 0; draft 0.
+
+## 2026-10-08 — Author display: new account and authorship move put on hold; smaller path chosen
+
+The user put stages 1 and 2 of the site cleanup (new administrator account, moving the 12 articles, the pages and the images to it) **on hold** and chose a smaller path: keep the existing `admin` account, change its public display name to `Stateside Explained`, and, once the site-only address `hello@statesideexplained.com` exists, change the account email to that address. About and Privacy Policy stay version-controlled in `content/pages/`. Decisions 1, 3, 4, 5, 6 and 7 of the previous entry are unchanged; decision 2 is replaced by this one. Retiring or renaming `admin` is not planned now.
+
+**Investigation of the byline (Claude, read-only; nothing was changed).**
+
+- Theme: Twenty Twenty-Five 1.5 (active, no child theme).
+- The only template that outputs an author is the theme's `single` template (`twentytwentyfive//single`, source `theme`, not customized). It contains one block, inside the group "Written by": `<!-- wp:post-author-name {"isLink":true} /-->`, which renders "Written by [name linked to `/author/admin/`] in [category]". The home page, the page-2 listing, the category archive and the search results show no author (zero author blocks and zero `/author/admin/` links). The `footer` template part is already customized (stored in the database since 2026-10-06); no header or footer part contains an author block.
+- On a post page `/author/admin/` appears 4 times: the byline link (1) and the JSON-LD (3: Person `@id`, Person `url`, BlogPosting author `@id`).
+- Public pages are served from the LiteSpeed page cache (`x-litespeed-cache: hit`), so a template or profile change may not show to logged-out visitors until the cache is purged.
+
+**Smallest change to the link.** In the `single` template, change that one block to `<!-- wp:post-author-name {"isLink":false} /-->`. Result: "Written by Stateside Explained in [category]" with the name as plain text (the "Written by" row, the category link and the layout stay). Done in the Site Editor (Appearance, Editor, Templates, the single-post template; select the author name; in the block settings turn off "Link to author archive"; Save) or through the templates REST endpoint with the same one-attribute change. Saving creates a customized copy of the template in the database (like the footer); theme updates will not overwrite it, and "Clear customizations" on that template restores the theme version. No post is edited, so no post modified time or sitemap lastmod changes. Hiding the whole row is a larger change (three blocks: "Written by", the author name, the word "in"; the category link would need to be kept), and hiding the name with CSS leaves the link in the HTML and is not recommended.
+
+**What this does not change.** The `/author/admin/` URL stays in the JSON-LD (3 places) and the author archive stays open (`noindex`). Changing the author URL slug (not the display name) would remove the login name from those URLs; that is a separate, optional step.
+
+**Changing the display name.** Done on the `admin` profile (nickname and the public display name set to `Stateside Explained`; in the profile screen the public-name dropdown only offers names built from the first name, last name, nickname and username, so the nickname is set first) or by the users REST endpoint (`name`). It changes the name text in the byline, the JSON-LD Person and BlogPosting author names, the social meta "Written by", the feed `dc:creator` and the author archive heading.
+
+**Changing the account email later.** WordPress sends a confirmation message to the new address, so the `hello@` mailbox must exist and be readable first. The site Administration Email (Settings, General) is separate and is also a personal address; it is not public, but WordPress notices go there. The JSON-LD image is a Gravatar URL derived from the account email, so it changes with the email.
+
+**Proposed order (each step only after the user's approval).**
+
+1. Display name of `admin` to `Stateside Explained`; purge the LiteSpeed cache; verify.
+2. Template change `isLink` true to false; purge the cache; verify.
+3. After the `hello@` mailbox exists: account email change (confirm via the new inbox), then decide about the Administration Email.
+4. Optional later: author URL slug, a separate decision.
+
+**Verification after step 1 (logged-out requests, cache-busted).** Byline text, JSON-LD `name` values, `twitter:data1`, feed `dc:creator` and the author archive heading all read `Stateside Explained` on all 12 posts; no `admin` text remains in those places (the URL `/author/admin/` may remain); post text, canonical, meta description and post modified times unchanged.
+
+**Verification after step 2.** On all 12 posts: the byline has no link (no `<a>` containing `/author/admin/` in the page body; `/author/admin/` appears 3 times, all in JSON-LD); the "Written by" row still shows "Written by", the name and "in" plus the category link, same order; no new elements; phone-width layout unchanged (screenshot of one post); home, category and search pages unchanged; the template record shows the new attribute and source `custom`; post modified times and sitemap lastmod unchanged; the 12 article texts equal the repository texts.
+
+**Verification after step 3.** The profile shows the new email; the Gravatar URL in the JSON-LD changes; Search Console, Rank Math and Wordfence notices go to the intended address.
+
+No WordPress setting, theme template, article or page was changed in this step. Counts unchanged: published 12; ready 0; draft 0.
