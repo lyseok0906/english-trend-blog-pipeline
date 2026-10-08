@@ -105,3 +105,28 @@ Claude created the draft through the logged-in browser from the file in `content
 | Comments and pings | closed |
 
 Preview: https://statesideexplained.com/?p=45 . Remaining: the user previews on a phone width and publishes. **Mandatory**: the user asks for a re-read of the three TSA pages right before Publish (the last re-read was 2026-10-08).
+
+
+## Live QA (2026-10-07, after the user published)
+
+The user published post 45 at 19:56 site time on 2026-10-07 and sent the live URL https://statesideexplained.com/tsa-precheck-what-it-changes/ . Claude did not receive the request for the pre-publish TSA re-check before Publish; see the post-publish re-check below.
+
+| Check | Result |
+|---|---|
+| HTTP status | 200 |
+| Canonical | equals the live URL |
+| Robots | index, follow |
+| Title tag | "What Is TSA PreCheck? What It Changes at the Checkpoint - Stateside Explained" |
+| Meta description | equals the front matter (144 characters) |
+| Headings | seven H2: What TSA says changes in a PreCheck lane; It is not guaranteed; How the PreCheck lane works at the airport; Children and families; Membership and enrollment providers; What this article does not cover; Sources |
+| Text | 2,843 letters and digits, the same count as the repository text; equals the WordPress post content |
+| Diagram | one image, alt text 469 characters and equal to the front matter; the image file is the original 1200x1947 PNG (sha-256 532aeebb..., 68,279 bytes), equal to the repository PNG |
+| Links | one internal link (TSA 3-1-1 liquids rule, in the table) and three official TSA links (PreCheck, PreCheck FAQ, benefits) |
+| Category | Airport security rules (id 5) |
+| Comments and pings | closed (no comment form); no comments or pingbacks on post 19 |
+| Structured data | JSON-LD present |
+| Home page, feed, sitemap | listed on the home page, in `/feed/` and in the post sitemap |
+
+**Post-publish TSA re-check (2026-10-07, evening):** S1 PreCheck page: 7 of 7 strings. S2 PreCheck FAQ: 10 of 10 (KTN and indicator on the boarding pass; memberships last five years; children rules; gate passes; no PreCheck lane available; not guaranteed; departures to a foreign country). S3 benefits page: 3 of 3. **No difference from the source notes; no article change.**
+
+Not verified by Claude: the diagram text size on a real phone (the user's preview). The article moved from `content/ready/` to `content/published/` with `status: published`, `published_date` and `live_url`. Notes for follow-up (not blocking): the byline may still show "admin"; re-read the TSA pages if the article is revisited.

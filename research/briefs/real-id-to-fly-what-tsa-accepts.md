@@ -2,7 +2,7 @@
 
 **Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/real-id-to-fly-what-tsa-accepts.md` at the sources step. No draft exists.
 **Lane:** airport security rules (rule-type post: mandatory official-page re-check, see `docs/blog-c-site-structure.md`).
-**Pilot status:** counted in the 12-post pilot (lane 2). ConfirmID fee excluded (user decision 2026-10-07). Drafted 2026-10-07; Gate 1 and Gate 2 final PASS; mandatory TSA re-check done 2026-10-08; moved to `content/ready/real-id-to-fly-what-tsa-accepts.md` on 2026-10-08 (user approval); WordPress draft created 2026-10-08 (post id 43; not published).
+**Pilot status:** counted in the 12-post pilot (lane 2). ConfirmID fee excluded (user decision 2026-10-07). Drafted 2026-10-07; Gate 1 and Gate 2 final PASS; mandatory TSA re-check done 2026-10-08; published 2026-10-07 (user); live URL https://statesideexplained.com/real-id-to-fly-what-tsa-accepts/ ; now in `content/published/`.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
 
 ## Candidate card

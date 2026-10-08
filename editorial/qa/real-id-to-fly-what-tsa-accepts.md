@@ -116,3 +116,28 @@ Claude created the draft through the logged-in browser from the file in `content
 | Comments and pings | closed |
 
 Preview: https://statesideexplained.com/?p=43 . Remaining: the user previews on a phone width and publishes. **Mandatory**: the user asks for a re-read of the three TSA pages right before Publish (the last re-read was 2026-10-08).
+
+
+## Live QA (2026-10-07, after the user published)
+
+The user published post 43 at 19:56 site time on 2026-10-07 and sent the live URL https://statesideexplained.com/real-id-to-fly-what-tsa-accepts/ . Claude did not receive the request for the pre-publish TSA re-check before Publish; see the post-publish re-check below.
+
+| Check | Result |
+|---|---|
+| HTTP status | 200 |
+| Canonical | equals the live URL |
+| Robots | index, follow |
+| Title tag | "Do You Need a REAL ID to Fly? What TSA Accepts - Stateside Explained" |
+| Meta description | equals the front matter (138 characters) |
+| Headings | six H2: What TSA says about REAL ID; Examples of IDs on TSA's list; Expired ID and children; If you do not have an acceptable ID; What this article does not cover; Sources |
+| Text | 3,372 letters and digits, the same count as the repository text; equals the WordPress post content |
+| Diagram | one image, alt text 540 characters and equal to the front matter; the image file is the original 1200x2607 PNG (sha-256 ae661e82..., 91,070 bytes), equal to the repository PNG |
+| Links | three official TSA links (identification, REAL ID, About TSA ConfirmID) |
+| Category | Airport security rules (id 5) |
+| Comments and pings | closed (no comment form); no comments or pingbacks on post 19 |
+| Structured data | JSON-LD present |
+| Home page, feed, sitemap | listed on the home page, in `/feed/` and in the post sitemap |
+
+**Post-publish TSA re-check (2026-10-07, evening):** S1 identification page: 30 of 30 strings (18+ must show ID; list subject to change; REAL ID-compliant license/ID, EDL/EID, mobile driver's license condition, passport, passport card, DHS trusted traveler cards, DoD ID, permanent resident card, Tribal Nation photo ID and the other listed IDs; temporary license not acceptable; May 7, 2025 sentence; the alternative-ID sentence; ConfirmID from February 1, 2026; expired ID up to two years; children; identity not verified means no entry). S2 REAL ID page: 4 of 4 (Enforcement began May 7, 2025; the May 2025 REAL ID compliance sentence; the REAL ID Act 2005 sentence; the state selector sentence). S3 ConfirmID page: 4 of 4 (fee-based service; lost ID or no REAL ID; 10-15 minutes average, 30 minutes or more; page title). **No difference from the source notes; no article change.**
+
+Not verified by Claude: the diagram text size on a real phone (the user's preview). The article moved from `content/ready/` to `content/published/` with `status: published`, `published_date` and `live_url`. Notes for follow-up (not blocking): the byline may still show "admin"; re-read the TSA pages if the article is revisited.

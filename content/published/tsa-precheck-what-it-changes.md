@@ -4,8 +4,10 @@ slug: tsa-precheck-what-it-changes
 meta_description: "TSA says PreCheck lanes let you keep electronics and 3-1-1 liquids in your bag, but no one is guaranteed expedited screening. See what TSA says."
 category: Airport security rules
 focus_keyword: what is tsa precheck
-status: ready
+status: published
 date: 2026-10-07
+published_date: 2026-10-07
+live_url: https://statesideexplained.com/tsa-precheck-what-it-changes/
 internal_link_candidates: tsa-3-1-1-liquids-rule (used once, in the table)
 image: assets/optimized/tsa-precheck-what-it-changes.png
 image_alt: "Diagram of what TSA PreCheck changes, according to TSA, in three steps. Step 1: to get the PreCheck lane, a Known Traveler Number goes in the airline reservation and the PreCheck indicator must show on the boarding pass; benefits are not automatic. Step 2: in a PreCheck lane, electronics and 3-1-1 liquids stay in your bag, and you can keep belts, light jackets and shoes on. Step 3: all travelers will be screened, and no individual is guaranteed expedited screening."
