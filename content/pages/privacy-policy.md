@@ -39,7 +39,9 @@ Comments are turned off on this site, so we do not collect comment data.
 
 ## Cookies
 
-Visitors who only read the site are not given a login cookie. WordPress sets cookies for people who log in to the site, which is limited to the site's administrator. You can delete or block cookies in your browser settings.
+Visitors who only read the site are not given a login cookie. WordPress sets cookies for people who log in to the site, which is limited to the site's administrator.
+
+The Hostinger Reach script mentioned above is served from a Hostinger domain. When it loads, your browser may receive a short-lived security cookie from that domain (named `__cf_bm`, used for bot protection). We do not use it to track you or to show ads, and we do not control it. You can delete or block cookies in your browser settings.
 
 ## Links to other sites
 

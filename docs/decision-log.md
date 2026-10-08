@@ -652,3 +652,9 @@ Edited only the repository files; the WordPress drafts (page 9 About, page 3 Pri
 Front matter records `wp_ping_status_target: closed` (page 3 still has pings open in WordPress; to be closed when the text is applied).
 
 Next, each only with the user's approval: optional English check by ChatGPT; apply the text to the two WordPress drafts and close pings on page 3; the user publishes; footer-only links; live QA. Counts unchanged: published 12; ready 0; draft 0.
+
+## 2026-10-08 — Cookie check result and Privacy Policy cookie wording
+
+The user checked a logged-out private window (browser DevTools, Application, Cookies) on the home page. One cookie was present: `__cf_bm`, domain `.hostinger.com` (not `statesideexplained.com`), path `/`, Secure, HttpOnly, SameSite None, expiry about 30 minutes after setting (2026-10-08T03:48:59Z shown). No WordPress login or comment cookie. Conclusion: the statement that readers do not get a login cookie holds, and the only cookie comes from a Hostinger domain, consistent with the `cdn-reach.hostinger.com` script found earlier.
+
+`content/pages/privacy-policy.md` Cookies section now says that the Hostinger Reach script may cause a short-lived bot-protection cookie (`__cf_bm`) from a Hostinger domain, that it is not used for tracking or ads by the site, and that the site does not control it. Not yet applied to WordPress (see the previous entry). Also noted, not changed: no site icon is set (`/favicon.ico` returns 404); an optional fix in Appearance, needs approval. Counts unchanged: published 12; ready 0; draft 0.
