@@ -566,3 +566,27 @@ The user put stages 1 and 2 of the site cleanup (new administrator account, movi
 **Verification after step 3.** The profile shows the new email; the Gravatar URL in the JSON-LD changes; Search Console, Rank Math and Wordfence notices go to the intended address.
 
 No WordPress setting, theme template, article or page was changed in this step. Counts unchanged: published 12; ready 0; draft 0.
+
+## 2026-10-08 — Author display name changed to `Stateside Explained` (step 1); cache purged; verified
+
+With the user's approval for step 1, Claude changed the public name of the existing `admin` account through the users REST endpoint: `name` (public display name) and `nickname` both from `admin` to `Stateside Explained`. Nothing else in the profile was sent. Unchanged and re-read afterwards: login name `admin`, URL slug `admin` (author URL `/author/admin/`), account email, first and last name (empty), role administrator. No post, page, theme template or other setting was changed. (Noted, not changed: the profile's Website field is `http://statesideexplained.com`, with `http`.)
+
+Cache: LiteSpeed "Purge All - LSCache" (page cache only) was run from the admin bar link; a public post page then returned `miss` and the next request `hit`.
+
+Verification (logged-out requests, canonical URLs, after the purge, against a baseline taken before the change):
+
+| Check | Result |
+|---|---|
+| Visible byline on all 12 posts | `Stateside Explained` (before: `admin`); still a link to `/author/admin/` (step 2 removes the link) |
+| JSON-LD author Person `name`, BlogPosting author `name` (12 posts) | `Stateside Explained`; Person `url` still `/author/admin/` |
+| Social meta `twitter:data1` (12 posts) | `Stateside Explained` |
+| Feed `dc:creator` | `Stateside Explained` (no `admin` text left in the feed) |
+| Author archive | heading `Author: Stateside Explained`; robots `follow, noindex`; title `Stateside Explained - Stateside Explained` (the site name repeats because the archive title format is name plus site name; noindex, left as is) |
+| Visible text on a post page | no standalone `admin` outside styles and scripts; the 15 remaining occurrences in the HTML are CSS variable names (`--wp-admin-...`) and the `/wp-admin/*` path in the JSON |
+| `/author/admin/` count per post page | still 4 (byline link and 3 in JSON-LD), as expected |
+| Canonical, meta description, robots on 12 posts | unchanged (index, follow) |
+| Article text on 12 posts (letters and digits) | same count as before the change |
+| Post modified times (REST) | unchanged |
+| Home page | no author links |
+
+Open for the next steps: step 2 (remove the link in the `single` template; needs the user's approval), step 3 (account email after `hello@` exists), and the optional author URL slug. The 1-week checkpoint note: no post changed, so no sitemap lastmod changed. Counts unchanged: published 12; ready 0; draft 0.
