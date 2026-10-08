@@ -132,3 +132,10 @@ Unchanged and still supported: the 12-month answer in the first sentence, the me
 By the user's decision (2026-10-08), the USPS re-check recorded above ("Mandatory pre-approval re-check (2026-10-08)": S2 and S3 unchanged, S1 changed) counts as the mandatory re-check before the ready-move approval. The article was then fixed to the S1 wording read in that re-check, and the fixed version passed Gate 2. Result for the approval: the article matches the three USPS pages as read on 2026-10-08. Note: the re-check was run before the fix, not after it; no USPS page was re-read between the re-check and the Gate 2 PASS. Still mandatory: a fresh read of the three USPS pages right before Publish (on the user's request).
 
 Ready-move approval has not been given yet.
+
+
+## Ready-move approval (2026-10-08)
+
+The user approved moving this article to `content/ready/` after Gate 2 PASS on the fix (commit `e323977`) and the accepted 2026-10-08 USPS re-check. Front matter set to `status: ready` (the text is unchanged; checked by comparing the files without the `status` line); the draft-folder copy was removed. Not on WordPress and not published; no WordPress draft is created until the user asks.
+
+Remaining before publishing: the user previews on a phone width and publishes. **Mandatory**: the user asks for a re-read of the three USPS pages right before Publish (the last re-read was 2026-10-08).

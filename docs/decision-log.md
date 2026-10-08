@@ -467,3 +467,8 @@ The user approved the three proposed fixes after the USPS forwarding page change
 ## 2026-10-08 — Mail forwarding: Gate 2 PASS on the fix; re-check accepted; ready-move requested
 
 ChatGPT's Gate 2 re-review of `usps-mail-forwarding-how-long` on commit `e323977` is PASS (reported by the user); body, diagram and alt text stay unchanged. The user decided that the 2026-10-08 USPS re-check (S2 and S3 unchanged, S1 changed and then fixed in the article) counts as the mandatory pre-approval re-check; Claude noted in the QA record that it was run before the fix and that no USPS page was re-read after it. QA record, backlog and briefs updated. Claude asks the user for the ready-move approval; nothing is moved until the user says yes. Still required later: a fresh USPS re-read right before Publish, on the user's request. Counts unchanged: published 11; ready 0; draft 1 (forwarding, waiting for the ready-move approval); brief 0 (pilot) plus 2 deferred; idea 1.
+
+
+## 2026-10-08 — Mail forwarding article moved to `content/ready/`
+
+The user approved moving `usps-mail-forwarding-how-long` to `content/ready/` after Gate 2 PASS on the fix (commit `e323977`) and the accepted 2026-10-08 USPS re-check. Front matter set to `status: ready`; backlog stage `ready`; QA record and brief updated. Not on WordPress and not published; the WordPress draft is created only when the user asks, and a fresh USPS re-read is needed right before Publish. This was the last pilot article to reach `ready`. Counts: published 11; ready 1 (forwarding); draft 0; brief 0 (pilot) plus 2 deferred; idea 1.
