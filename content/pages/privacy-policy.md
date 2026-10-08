@@ -14,7 +14,7 @@ wp_ping_status_target: closed
 
 Last updated: October 8, 2026.
 
-This page explains what information Stateside Explained (statesideexplained.com) handles when you visit. We keep it short and describe only what we have confirmed about this site today.
+This policy describes the information Stateside Explained (statesideexplained.com) handles when you visit the site. It covers only practices we have confirmed as of the date above.
 
 ## What we do not ask for
 
@@ -41,7 +41,7 @@ Comments are turned off on this site, so we do not collect comment data.
 
 Visitors who only read the site are not given a login cookie. WordPress sets cookies for people who log in to the site, which is limited to the site's administrator.
 
-The Hostinger Reach script mentioned above is served from a Hostinger domain. When it loads, your browser may receive a short-lived security cookie from that domain (named `__cf_bm`, used for bot protection). We do not use it to track you or to show ads, and we do not control it. You can delete or block cookies in your browser settings.
+The Hostinger Reach script mentioned above is served from a Hostinger domain. When it loads, your browser may receive a short-lived security cookie from that domain (named `__cf_bm`, used for bot protection). We do not set or use this cookie for advertising or analytics, and we do not control it. You can delete or block cookies in your browser settings.
 
 ## Links to other sites
 
