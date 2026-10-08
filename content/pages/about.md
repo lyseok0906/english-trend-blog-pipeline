@@ -2,7 +2,10 @@
 title: "About"
 slug: about
 wp_page_id: 9
-status: draft
+status: published
+published_date: 2026-10-08
+live_url: https://statesideexplained.com/about/
+wp_published_at: 2026-10-08T01:35:46
 wp_status_at_export: draft
 exported_from_wordpress: 2026-10-08
 wp_modified_at_export: 2026-10-06T21:05:22

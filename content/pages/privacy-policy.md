@@ -2,7 +2,10 @@
 title: "Privacy Policy"
 slug: privacy-policy
 wp_page_id: 3
-status: draft
+status: published
+published_date: 2026-10-08
+live_url: https://statesideexplained.com/privacy-policy/
+wp_published_at: 2026-10-08T01:35:57
 wp_status_at_export: draft
 exported_from_wordpress: 2026-10-08
 wp_modified_at_export: 2026-10-06T21:05:39
