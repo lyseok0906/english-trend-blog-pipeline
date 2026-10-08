@@ -4,8 +4,10 @@ slug: usps-mail-forwarding-how-long
 meta_description: "For a permanent change of address, USPS mail forwarding lasts 12 months. See what is forwarded, extension options and what happens when it ends."
 category: Postal service and stamps
 focus_keyword: how long does usps forward mail
-status: ready
+status: published
 date: 2026-10-07
+published_date: 2026-10-07
+live_url: https://statesideexplained.com/usps-mail-forwarding-how-long/
 internal_link_candidates: usps-hold-mail-how-it-works (published 2026-10-07; link used once), usps-informed-delivery-how-it-works (once published)
 image: assets/optimized/usps-mail-forwarding-how-long.png
 image_alt: "Timeline of USPS mail forwarding. Request a change of address: once approved, allow at least 7-10 business days for it to go into effect. Permanent forwarding: 12 months. Optional paid Extended Mail Forwarding for permanent changes of address: 6, 12 or 18 more months, up to 18. Forwarding ends: USPS returns mail to the sender for 6 months with a new-address label."

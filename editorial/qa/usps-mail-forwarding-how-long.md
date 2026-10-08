@@ -156,3 +156,28 @@ Claude created the draft through the logged-in browser from the file in `content
 | Duplicates | one post with this slug; the only non-published post on the site |
 
 Preview: https://statesideexplained.com/?p=49 . Remaining: the user previews on a phone width and publishes. **Mandatory**: the user asks for a re-read of the three USPS pages right before Publish (the last re-read was 2026-10-08).
+
+
+## Live QA (2026-10-07, after the user published)
+
+The user published post 49 at 20:11 site time on 2026-10-07 and sent the live URL https://statesideexplained.com/usps-mail-forwarding-how-long/ . Claude did not receive the request for the pre-publish USPS re-check before Publish; see the post-publish re-check below.
+
+| Check | Result |
+|---|---|
+| HTTP status | 200 |
+| Canonical | equals the live URL |
+| Robots | index, follow |
+| Title tag | "How Long Does USPS Mail Forwarding Last? - Stateside Explained" |
+| Meta description | equals the front matter (144 characters) |
+| Headings | seven H2: The 12 months and how it starts; What gets forwarded; Extended Mail Forwarding; When forwarding ends; What a change of address does not do; What this article does not cover; Sources |
+| Text | 3,638 letters and digits, the same count as the repository text; equals the WordPress post content |
+| Diagram | one image, alt text 366 characters and equal to the front matter; the image file is the original 1200x2697 PNG (sha-256 bd8fd37b..., 94,406 bytes), equal to the repository PNG |
+| Links | one internal link (How Does USPS Hold Mail Work?) and three official USPS links (forward.htm, Mail Forwarding Options, Extended Mail Forwarding) |
+| Category | Postal service and stamps (id 6) |
+| Comments and pings | closed (no comment form); the site has no comments or pingbacks (the internal link created none) |
+| Structured data | JSON-LD present |
+| Home page, feed, sitemap | listed on the home page, in `/feed/` and in the post sitemap |
+
+**Post-publish USPS re-check (2026-10-07, evening):** S1 (usps.com forwarding page): 16 of 16 strings present with the current wording (12 months and the 6/12/18-month extension; "Once your request is approved, allow at least 7-10 business days for it to go into effect"; piece by piece; First-Class Mail, Priority Mail Express, Priority Mail and USPS Ground Advantage free; periodicals free for 60 days if fully prepaid by the sender; Media Mail with the customer paying shipping; Marketing Mail not forwarded unless the sender has paid forwarding postage; change of address only changes the address with the Post Office; 15 days up to 1 year; identity verification; no cancel or refund for Extended Mail Forwarding; return to sender for 6 months; Hold Mail 3-30 days). S2 FAQ "Mail Forwarding Options" (Aug 26, 2026): both statements present. S3 FAQ "Extended Mail Forwarding" (Jul 11, 2026): all 7 statements present. **No difference from the source notes as updated on 2026-10-08; no article change.**
+
+Not verified by Claude: the diagram text size on a real phone (the user's preview). The article moved from `content/ready/` to `content/published/` with `status: published`, `published_date` and `live_url`. Notes for follow-up (not blocking): the byline may still show "admin"; re-read the three USPS pages if the article is revisited (durations and rules change).
