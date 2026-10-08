@@ -121,3 +121,14 @@ At the user's instruction (2026-10-08) the article was changed to match the curr
 | As-of dates | October 7, 2026 | October 8, 2026 (intro and Sources) |
 
 Unchanged and still supported: the 12-month answer in the first sentence, the meta description (144 characters), the temporary-change sentence (S2), the Extended Mail Forwarding section (S3 unchanged), the return-to-sender note, the Hold Mail pointer and its internal link (Hold Mail is published), the "no prices" scope. Front matter and body alt text are identical; the diagram was rendered again (1200x2697) and viewed. **Gate 2: not yet done for the changed parts; sent after the commit.**
+
+
+## Gate 2 result after the USPS fix (2026-10-08)
+
+**Gate 2: PASS** (ChatGPT, on commit `e323977`, as reported by the user). The changed parts (start timing, periodicals, Marketing Mail, diagram, alt text, as-of dates) were reviewed; no further change requested. Body, diagram and alt text stay as committed.
+
+## Mandatory pre-approval re-check: the 2026-10-08 USPS re-check is used
+
+By the user's decision (2026-10-08), the USPS re-check recorded above ("Mandatory pre-approval re-check (2026-10-08)": S2 and S3 unchanged, S1 changed) counts as the mandatory re-check before the ready-move approval. The article was then fixed to the S1 wording read in that re-check, and the fixed version passed Gate 2. Result for the approval: the article matches the three USPS pages as read on 2026-10-08. Note: the re-check was run before the fix, not after it; no USPS page was re-read between the re-check and the Gate 2 PASS. Still mandatory: a fresh read of the three USPS pages right before Publish (on the user's request).
+
+Ready-move approval has not been given yet.
