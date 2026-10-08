@@ -629,3 +629,26 @@ Still open: step 3 (account email after the `hello@statesideexplained.com` mailb
 **Verification (logged-out, 12 posts plus home, feed, author archive, REST root).** All 12 posts HTTP 200 with the byline `Stateside Explained` and `/author/admin/` 3 times (JSON-LD only); no `gmail.com`, personal address text or `hello@` text appears in any of those pages (the address is not published yet); `/wp-json/wp/v2/users` is 401 for anonymous requests. The JSON-LD Gravatar hash is identical on all 12 posts and equals SHA-256 of `hello@statesideexplained.com`, so the old personal-address hash is gone from the markup.
 
 Still open: About and Privacy edits (non-affiliation statement, contact `hello@`, comments paragraph, pings, cookie check), publish, footer links; `www` 301; Search Console; domain renewal date at the registrar; optional DMARC record; optional Gmail "send as" for replies; optional two-factor authentication on the hosting account. Counts unchanged: published 12; ready 0; draft 0.
+
+## 2026-10-08 — About and Privacy Policy source text revised in `content/pages/` (WordPress drafts not yet updated)
+
+Edited only the repository files; the WordPress drafts (page 9 About, page 3 Privacy Policy) are unchanged and still drafts. Front matter gained `content_revised: 2026-10-08` and `wp_applied: false`.
+
+**About.** Added the non-affiliation sentence ("Stateside Explained is an independent informational website and is not affiliated with USPS, TSA, NIST, DOT, or any government agency.") and a Contact section with `hello@statesideexplained.com`. No operator name was added (open decision for the user). The FAA is not in the user's list although one article cites it; left as decided.
+
+**Privacy Policy.** Date set to October 8, 2026. Changes and the checks behind them:
+
+| Change | Basis |
+|---|---|
+| "does not offer visitor accounts, newsletter signup, comments or contact form" | no forms on the home page or on two posts (0 `<form>`); comments disabled by policy |
+| Hostinger Reach wording from "may load" to "loads" | `cdn-reach.hostinger.com` script and stylesheet found on the home page and on two posts |
+| Added Cloudflare (DNS and email routing) | DNS is at Cloudflare in DNS-only mode; Email Routing forwards `hello@` |
+| New section "If you email us" | the mailbox exists; text states what is received and that it is used only to answer; no retention period was claimed |
+| Comments paragraph replaced by "comments are turned off" | the earlier conditional text was inaccurate for this site |
+| Cookie paragraph: removed the commenter clause | comments off. The statement that readers get no login cookie is unchanged and is still not verified in a logged-out browser (needs the user's incognito check of Application, Cookies) |
+| Changes section now lists comments and contact form | consistent with the above |
+| No analytics or advertising script | external hosts found on the pages were only `cdn-reach.hostinger.com`; `secure.gravatar.com` appears only as an image URL string inside JSON-LD |
+
+Front matter records `wp_ping_status_target: closed` (page 3 still has pings open in WordPress; to be closed when the text is applied).
+
+Next, each only with the user's approval: optional English check by ChatGPT; apply the text to the two WordPress drafts and close pings on page 3; the user publishes; footer-only links; live QA. Counts unchanged: published 12; ready 0; draft 0.
