@@ -12,12 +12,12 @@ Retrieved: **2026-10-07**, by Cowork (Claude), three USPS pages opened in the bu
 |---|---|---|
 | S1-1 | Standard mail forwarding lasts 12 months | Stated on page |
 | S1-2 | A paid extension of 6, 12 or 18 more months is possible; 18 months is the maximum | Stated on page |
-| S1-3 | Forwarding may begin within 3 business days of the request; best to allow up to 2 weeks | Stated on page |
+| S1-3 | **Updated 2026-10-08:** once the request is approved, allow at least 7-10 business days for it to go into effect (the earlier "within 3 business days / up to 2 weeks" sentence is no longer on the page) | Stated on page (2026-10-08) |
 | S1-4 | Mail is forwarded piece by piece | Stated on page |
-| S1-5 | First-Class Mail and periodicals are forwarded for free | Stated on page |
+| S1-5 | First-Class Mail is forwarded for free; **updated 2026-10-08:** periodicals (newsletters and magazines) are forwarded for free for 60 days if fully prepaid by the sender | Stated on page (2026-10-08) |
 | S1-6 | Priority Mail Express, Priority Mail and USPS Ground Advantage are forwarded for free | Stated on page |
 | S1-7 | Media Mail is forwarded, with the customer paying shipping from the local Post Office | Stated on page |
-| S1-8 | USPS Marketing Mail is not forwarded | Stated on page |
+| S1-8 | **Updated 2026-10-08:** USPS Marketing Mail is not forwarded unless the sender has paid forwarding postage | Stated on page (2026-10-08) |
 | S1-9 | A change of address order only changes the mailing address with the Post Office; the customer must still update government agencies and companies | Stated on page |
 | S1-10 | A temporary change of address is for relocating 15 days up to 1 year | Stated on page |
 | S1-11 | Extended Mail Forwarding cannot be canceled or refunded | Stated on page |
@@ -58,3 +58,7 @@ Retrieved: **2026-10-07**, by Cowork (Claude), three USPS pages opened in the bu
 - All prices and fees (extension prices, identity-verification fee); Premium Forwarding Service; business and military moves; mail for the deceased; international moves; identity-verification troubleshooting; advice on what to update or which option to buy.
 - The total "up to 30 months" is the article's own addition of 12 + 18 and is labeled as such; USPS's pages do not state the total.
 - Search demand (not measured).
+
+## Re-read 2026-10-08
+
+The forwarding page (S1) was re-read on 2026-10-08 and three statements had changed (S1-3, S1-5, S1-8 above; current wording quoted there). S2 and S3 were unchanged. The article, diagram and alt text were updated to the new wording (see `editorial/qa/` record). The old wording of S1-3 ("may begin within 3 business days of your submitted request, it's best to allow up to 2 weeks"), of the periodicals line (forwarded for free, no time limit) and of Marketing Mail ("is not forwarded") is no longer used.

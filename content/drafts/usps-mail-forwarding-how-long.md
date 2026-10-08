@@ -6,30 +6,30 @@ category: Postal service and stamps
 focus_keyword: how long does usps forward mail
 status: draft
 date: 2026-10-07
-internal_link_candidates: usps-hold-mail-how-it-works (drafted; keep the link only if Hold Mail is published first, otherwise remove it), usps-informed-delivery-how-it-works (once published)
+internal_link_candidates: usps-hold-mail-how-it-works (published 2026-10-07; link used once), usps-informed-delivery-how-it-works (once published)
 image: assets/optimized/usps-mail-forwarding-how-long.png
-image_alt: "Timeline of USPS mail forwarding. Request a change of address: forwarding may begin within 3 business days; allow up to 2 weeks. Permanent forwarding: 12 months. Optional paid Extended Mail Forwarding for permanent changes of address: 6, 12 or 18 more months, up to 18. Forwarding ends: USPS returns mail to the sender for 6 months with a new-address label."
+image_alt: "Timeline of USPS mail forwarding. Request a change of address: once approved, allow at least 7-10 business days for it to go into effect. Permanent forwarding: 12 months. Optional paid Extended Mail Forwarding for permanent changes of address: 6, 12 or 18 more months, up to 18. Forwarding ends: USPS returns mail to the sender for 6 months with a new-address label."
 ---
 
 # How Long Does USPS Mail Forwarding Last?
 
 **For a permanent change of address, USPS says standard mail forwarding lasts 12 months.** For a temporary change, USPS says mail is forwarded for the period you specify. A paid extension is possible for a permanent change of address.
 
-This article covers what USPS's pages say. The wording is as of October 7, 2026, and comes from the three USPS pages listed at the end. It gives no prices and no advice on which option to choose.
+This article covers what USPS's pages say. The wording is as of October 8, 2026, and comes from the three USPS pages listed at the end. It gives no prices and no advice on which option to choose.
 
 ## The 12 months and how it starts
 
-USPS's forwarding page says standard mail forwarding lasts 12 months. It also says forwarding may begin within 3 business days of your request, but it is best to allow up to 2 weeks. USPS says identity must be verified to submit a change of address.
+USPS's forwarding page says standard mail forwarding lasts 12 months. It also says that once your request is approved, you should allow at least 7-10 business days for it to go into effect. USPS says identity must be verified to submit a change of address.
 
 The USPS FAQ on forwarding options separates two kinds of request. A permanent change of address forwards mail for 12 months, while a temporary one forwards mail for a specified period of time. The forwarding page says a temporary change of address is for people relocating for 15 days up to 1 year.
 
 ## What gets forwarded
 
-USPS says mail is forwarded piece by piece. Its forwarding page lists what is forwarded for free: First-Class Mail and periodicals, which it describes as newsletters and magazines, as well as Priority Mail Express, Priority Mail and USPS Ground Advantage. It says Media Mail is forwarded too, with the customer paying shipping from the local Post Office. It also says USPS Marketing Mail is not forwarded.
+USPS says mail is forwarded piece by piece. Its forwarding page lists what is forwarded for free: First-Class Mail, Priority Mail Express, Priority Mail and USPS Ground Advantage. It says periodicals, which it describes as newsletters and magazines, are forwarded for free for 60 days if fully prepaid by the sender. It says Media Mail is forwarded too, with the customer paying shipping from the local Post Office. It also says USPS Marketing Mail is not forwarded unless the sender has paid forwarding postage.
 
-The two USPS pages do not describe periodicals the same way. The forwarding page says periodicals are forwarded for free and gives no separate time limit. The FAQ says a permanent change of address forwards "primarily First-Class Mail service for 12 months and Periodicals for 60 days". The FAQ adds that it generally does not forward USPS Marketing Mail or Package Services Mail. This article reports each page's wording as it stands.
+The USPS FAQ on forwarding options gives the same 60-day figure for periodicals. It says a permanent change of address forwards "primarily First-Class Mail service for 12 months and Periodicals for 60 days". The FAQ adds that it generally does not forward USPS Marketing Mail or Package Services Mail. This article reports each page's wording as it stands.
 
-![Timeline of USPS mail forwarding. Request a change of address: forwarding may begin within 3 business days; allow up to 2 weeks. Permanent forwarding: 12 months. Optional paid Extended Mail Forwarding for permanent changes of address: 6, 12 or 18 more months, up to 18. Forwarding ends: USPS returns mail to the sender for 6 months with a new-address label.](assets/optimized/usps-mail-forwarding-how-long.png)
+![Timeline of USPS mail forwarding. Request a change of address: once approved, allow at least 7-10 business days for it to go into effect. Permanent forwarding: 12 months. Optional paid Extended Mail Forwarding for permanent changes of address: 6, 12 or 18 more months, up to 18. Forwarding ends: USPS returns mail to the sender for 6 months with a new-address label.](assets/optimized/usps-mail-forwarding-how-long.png)
 
 ## Extended Mail Forwarding
 
@@ -53,7 +53,7 @@ This article does not cover prices or fees, Premium Forwarding Service, business
 
 ## Sources
 
-All three pages were checked on October 7, 2026. The two FAQ articles show the dates Aug 26, 2026 (Mail Forwarding Options) and Jul 11, 2026 (Extended Mail Forwarding). The forwarding page shows no update date.
+All three pages were checked on October 8, 2026. The two FAQ articles show the dates Aug 26, 2026 (Mail Forwarding Options) and Jul 11, 2026 (Extended Mail Forwarding). The forwarding page shows no update date.
 
 - USPS, "Standard Forward Mail & Change of Address." https://www.usps.com/manage/forward.htm
 - USPS FAQ, "Mail Forwarding Options." https://faq.usps.com/s/article/Mail-Forwarding-Options

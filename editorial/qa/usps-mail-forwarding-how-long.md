@@ -103,3 +103,21 @@ What changed on S1 (current wording, quoted from the page):
 Still stated as before: First-Class Mail, Priority Mail Express, Priority Mail and USPS Ground Advantage forwarded for free; Media Mail forwarded with the customer paying shipping from the local Post Office; "piece by piece"; the reminder email (S1 now says when 1 month is left, S3 says the 11th month mark, which agree for a 12-month period).
 
 **Result: the article is affected in the lead-in section ("The 12 months and how it starts"), in "What gets forwarded" (the periodicals discrepancy paragraph and the Marketing Mail sentence) and in the diagram text and its alt text ("forwarding may begin within 3 business days; allow up to 2 weeks").** The 12-month answer, the meta description and the Extended Mail Forwarding section are not affected. The article was not changed in this step and the ready-move approval is not requested; the user decides how to fix it (proposed fixes in the decision log). Because the text and the diagram change after Gate 2 final PASS, a new Gate 2 check of the changed parts is needed before the move to `ready`.
+
+
+## Fix after the USPS change (2026-10-08), sent to Gate 2 again
+
+At the user's instruction (2026-10-08) the article was changed to match the current USPS forwarding page (S1):
+
+| Place | Before | After |
+|---|---|---|
+| "The 12 months and how it starts" | forwarding "may begin within 3 business days of your request, but it is best to allow up to 2 weeks" | "once your request is approved, you should allow at least 7-10 business days for it to go into effect" (S1: "Once your request is approved, allow at least 7-10 business days for it to go into effect.") |
+| "What gets forwarded", first paragraph | periodicals listed among the mail forwarded for free; Marketing Mail "is not forwarded" | periodicals described as forwarded for free for 60 days if fully prepaid by the sender (S1); Marketing Mail "is not forwarded unless the sender has paid forwarding postage" (S1); First-Class Mail, Priority Mail Express, Priority Mail and USPS Ground Advantage still free; Media Mail unchanged |
+| "What gets forwarded", second paragraph | "The two USPS pages do not describe periodicals the same way ..." | "The USPS FAQ on forwarding options gives the same 60-day figure for periodicals" (S2 unchanged: "Periodicals for 60 days"); the FAQ's Marketing Mail and Package Services sentence and "This article reports each page's wording as it stands" stay |
+| Diagram, card 1 | "Forwarding may begin within 3 business days. USPS says it is best to allow up to 2 weeks." | "Once the request is approved, USPS says to allow at least 7-10 business days to go into effect." |
+| Diagram, card 2 | "USPS Marketing Mail is not forwarded." | "USPS Marketing Mail is not forwarded unless the sender paid forwarding postage." |
+| Diagram footer | "read Oct. 7, 2026" | "read Oct. 8, 2026" |
+| Alt text (front matter and body, 366 characters) | "forwarding may begin within 3 business days; allow up to 2 weeks" | "once approved, allow at least 7-10 business days for it to go into effect" |
+| As-of dates | October 7, 2026 | October 8, 2026 (intro and Sources) |
+
+Unchanged and still supported: the 12-month answer in the first sentence, the meta description (144 characters), the temporary-change sentence (S2), the Extended Mail Forwarding section (S3 unchanged), the return-to-sender note, the Hold Mail pointer and its internal link (Hold Mail is published), the "no prices" scope. Front matter and body alt text are identical; the diagram was rendered again (1200x2697) and viewed. **Gate 2: not yet done for the changed parts; sent after the commit.**
