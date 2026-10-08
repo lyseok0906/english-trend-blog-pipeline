@@ -662,3 +662,26 @@ The user checked a logged-out private window (browser DevTools, Application, Coo
 ## 2026-10-08 — About and Privacy Policy: five Gate 2 wording fixes applied to the repository text
 
 Applied exactly as supplied by the user after ChatGPT's Gate 2 review: (1) About opening paragraph; (2) About disclaimer first sentence now "The content on Stateside Explained is for general information only. It is not legal, medical, financial, or travel advice." (the sentence after it, "For a decision that matters...", is unchanged); (3) About Contact paragraph; (4) Privacy opening paragraph; (5) Privacy cookie sentence now "We do not set or use this cookie for advertising or analytics, and we do not control it." Only `content/pages/about.md` and `content/pages/privacy-policy.md` changed. The WordPress drafts remain unchanged and unpublished; final Gate 2 check is by the commit SHA of this change. Counts unchanged: published 12; ready 0; draft 0.
+
+## 2026-10-08 — About and Privacy Policy text applied to the WordPress drafts (Gate 2 PASS at `5c72d19`)
+
+ChatGPT's final Gate 2 for About and Privacy Policy passed at commit `5c72d19`. With the user's approval, Claude applied the text to the two WordPress **drafts** only: page 9 (About) and page 3 (Privacy Policy). Nothing was published and no footer link was added.
+
+**What was written.** Through the pages REST endpoint: `content` for both pages, and `ping_status: closed` for page 3 (it was `open`; page 9 was already `closed`). No other field was sent. Status, slug, title, comment status, parent and template are unchanged (re-read and compared). The Markdown was fetched from `raw.githubusercontent.com` at the full SHA and its SHA-256 matched the local file (About `d589e71b…`, Privacy `b63d66dd…`) before conversion. Conversion to blocks follows the format of the earlier drafts (paragraph, heading, list blocks); the Hostinger privacy-policy link keeps `rel="nofollow"` as in the earlier draft; the cookie name is a `<code>` element.
+
+**Verification.**
+
+| Check | About (9) | Privacy (3) |
+|---|---|---|
+| Stored block content equals the generated content | yes | yes |
+| Text of headings, paragraphs and list items vs repository Markdown (syntax removed by a separate routine) | identical, 11 items, 1,211 characters | identical, 21 items, 2,656 characters |
+| Preview render (logged-in) matches the Markdown text after typographic-quote normalisation | yes, 11 of 11 | yes, 21 of 21 |
+| Status | draft | draft |
+| Ping status | closed | closed (changed from open) |
+| Anonymous request to `?page_id=` | 404, no content | 404, no content |
+| In the page sitemap | no | no |
+| Hostinger link `rel=nofollow`, `<code>` present | n/a | yes |
+
+The 12 published posts were not touched (latest modified time still 2026-10-07T20:11:36). Preview URLs (login required): `https://statesideexplained.com/?page_id=9&preview=true` and `https://statesideexplained.com/?page_id=3&preview=true`.
+
+Front matter of both files was updated to `wp_applied: true`, `wp_applied_from_commit: 5c72d19`, `wp_modified_at_apply: 2026-10-08T01:19:42`; the body text is unchanged from `5c72d19`. Next, only with the user's approval: the user previews and publishes both pages, then footer-only links (template part `footer`), then live QA (logged-out render, sitemap, Rank Math noindex/index state, canonical). Open items elsewhere: `www` 301, Search Console, domain renewal date, favicon. Counts unchanged: published 12; ready 0; draft 0.
