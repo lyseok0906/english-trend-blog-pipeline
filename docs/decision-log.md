@@ -472,3 +472,8 @@ ChatGPT's Gate 2 re-review of `usps-mail-forwarding-how-long` on commit `e323977
 ## 2026-10-08 — Mail forwarding article moved to `content/ready/`
 
 The user approved moving `usps-mail-forwarding-how-long` to `content/ready/` after Gate 2 PASS on the fix (commit `e323977`) and the accepted 2026-10-08 USPS re-check. Front matter set to `status: ready`; backlog stage `ready`; QA record and brief updated. Not on WordPress and not published; the WordPress draft is created only when the user asks, and a fresh USPS re-read is needed right before Publish. This was the last pilot article to reach `ready`. Counts: published 11; ready 1 (forwarding); draft 0; brief 0 (pilot) plus 2 deferred; idea 1.
+
+
+## 2026-10-08 — Mail forwarding WordPress draft
+
+At the user's request Claude created the WordPress draft for `usps-mail-forwarding-how-long` (post 49, media 48; not published) from the `content/ready/` file as pushed (`a56b560`): title, slug, category Postal service and stamps, diagram with alt text, Rank Math meta description and focus keyword set; comments and pings closed. Checks: text equals the repository text (3,638 letters and digits), the image equals the repository PNG (WordPress scaled the 2,697 px tall upload; the block points to the original file), Rank Math values confirmed in the edit screen, 404 when logged out, one post with the slug. Preview: https://statesideexplained.com/?p=49 . The user previews and publishes; the USPS re-check right before Publish is on the user's request. Counts: published 11; ready 1 (forwarding, with a WordPress draft); draft 0; brief 0 (pilot) plus 2 deferred; idea 1.

@@ -139,3 +139,20 @@ Ready-move approval has not been given yet.
 The user approved moving this article to `content/ready/` after Gate 2 PASS on the fix (commit `e323977`) and the accepted 2026-10-08 USPS re-check. Front matter set to `status: ready` (the text is unchanged; checked by comparing the files without the `status` line); the draft-folder copy was removed. Not on WordPress and not published; no WordPress draft is created until the user asks.
 
 Remaining before publishing: the user previews on a phone width and publishes. **Mandatory**: the user asks for a re-read of the three USPS pages right before Publish (the last re-read was 2026-10-08).
+
+
+## WordPress draft (2026-10-08; 2026-10-07 20:10 site time)
+
+Claude created the draft through the logged-in browser from the file in `content/ready/` as pushed (commit `a56b560`): post id 49, status draft (not published), slug `usps-mail-forwarding-how-long`, category "Postal service and stamps" (id 6), diagram uploaded as media id 48 (1200x2697) with the `image_alt` text (media alt text and body alt identical, 366 characters), no featured image, comments and pings closed. WordPress scaled the 1200x2697 upload to its large-image limit and kept the original; the post's image block points to the original file (sha-256 bd8fd37b... equals the repository PNG, 94,406 bytes).
+
+| Check | Result |
+|---|---|
+| Title, slug, category | equal to the front matter / category 6 |
+| Text | equals the repository text (3,638 letters and digits; 7 H2 headings) |
+| Links | one internal link (Hold Mail, published) and three official USPS links |
+| Rank Math | meta description (144 characters) and focus keyword "how long does usps forward mail" confirmed in the edit screen |
+| Logged-out request | 404 (not public) |
+| Comments and pings | closed |
+| Duplicates | one post with this slug; the only non-published post on the site |
+
+Preview: https://statesideexplained.com/?p=49 . Remaining: the user previews on a phone width and publishes. **Mandatory**: the user asks for a re-read of the three USPS pages right before Publish (the last re-read was 2026-10-08).
