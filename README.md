@@ -54,6 +54,7 @@ A file's location in the repository tells you which stage it is in:
 |---|---|
 | `docs/operating-model.md` | The operating rules — roles, source of truth, lifecycle, approval gates |
 | `docs/blog-c-site-structure.md` | Active standard for the initial 4-week pilot — site promise, lanes, selection and exclusion criteria, official-source re-check rule, cadence. Not a permanent niche confirmation |
+| `docs/pilot-evaluation.md` | Checklist and record frame for the 1-week checkpoint and the 4-week evaluation of the pilot — indexing, Search Console, sitemap, search visibility, per-article records. The 12 `published` rows of the backlog are the only basis |
 | `docs/content-backlog.md` | Topic candidates and their current stage |
 | `docs/decision-log.md` | Dated record of decisions and why they were made |
 | `config/editorial-policy.md` | Writing, sourcing, and SEO standards every article must meet |

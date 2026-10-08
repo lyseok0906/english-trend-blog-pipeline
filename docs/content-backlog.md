@@ -28,7 +28,7 @@ Updated 2026-10-07. "Published" is the only number that counts as articles on th
 | brief | 0 | 2 (TSA Thanksgiving food, USPS Thanksgiving) |
 | idea | 0 | 1 (TSA shoe policy) |
 
-Pilot 12 plan: 12 published + 0 ready + 0 draft + 0 briefs = 12 slots, 4 per lane (lane 1: DST, winter start, Thanksgiving date, weekend holidays; lane 2: liquids, REAL ID, PreCheck, power banks; lane 3: Forever stamp, hold mail, forwarding, Informed Delivery). Only the published articles are live; the ready and draft articles are not on WordPress and may change or be dropped. Update this table at every stage change and read the pilot result from the "published" row only.
+Pilot 12 plan: 12 published + 0 ready + 0 draft + 0 briefs = 12 slots, 4 per lane (lane 1: DST, winter start, Thanksgiving date, weekend holidays; lane 2: liquids, REAL ID, PreCheck, power banks; lane 3: Forever stamp, hold mail, forwarding, Informed Delivery). Only the published articles are live; the ready and draft articles are not on WordPress and may change or be dropped. Update this table at every stage change and read the pilot result from the "published" row only. The checkpoint and evaluation record frame is `docs/pilot-evaluation.md` (it lists exactly these 12 published articles).
 
 ## Backlog
 
