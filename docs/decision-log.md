@@ -739,3 +739,15 @@ The user changed the `www` CNAME to Proxied and deployed a `www` → apex 301 Re
 **DNS (DoH, dns.google).** `www` now answers with Cloudflare proxy addresses (104.21.31.107, 172.67.176.57), no CNAME is exposed, i.e. it is proxied; the apex still answers `31.170.160.71` (DNS only, unchanged). Mail records preserved: MX route1 / route2 / route3 `.mx.cloudflare.net` (three records); SPF `v=spf1 include:_spf.mx.cloudflare.net ~all`; DKIM at `cf2024-1._domainkey` present (`v=DKIM1; h=sha256; k=rsa; p=...`); the `google-site-verification` TXT (Search Console) is also present. A mail delivery test to `hello@` was not repeated.
 
 **Result.** Final-destination, query-string, http→https, `robots.txt` and sitemap criteria met; apex unchanged; mail DNS records preserved. Not verified: 301 (versus 302/308) and the single-hop count. Still open: that `curl` check by the user; Search Console may still show `www` URLs in its reports for a while (no action). Note: `docs/pilot-evaluation.md` table E row "`www` 주소" still says the address does not open (written before this change); update it at the 1-week checkpoint. Counts unchanged: published 12 posts, 2 pages; ready 0; draft 0.
+
+## 2026-10-08 — `www` redirect: 301 status and single hop confirmed (user-run curl)
+
+The user ran `curl.exe -sIL` from their own computer (output pasted in chat, 2026-10-08 06:18 GMT) and so closed the gap left in the previous entry. Results (source: user-run command; Claude did not run it):
+
+| Request | Hop 1 | Hop 2 |
+|---|---|---|
+| `https://www.statesideexplained.com/usps-mail-forwarding-how-long/` | `301 Moved Permanently`, Location `https://statesideexplained.com/usps-mail-forwarding-how-long/` (Server: cloudflare) | `200 OK` (Server: LiteSpeed, `X-LiteSpeed-Cache: hit`) |
+| `https://www.statesideexplained.com/?s=usps` | `301`, Location `https://statesideexplained.com/?s=usps` (query kept) | `200 OK` (not cached: `no-cache` headers on search) |
+| `http://www.statesideexplained.com/` | `301`, Location `https://statesideexplained.com/` (straight to https apex, no intermediate http hop) | `200 OK` (cache hit) |
+
+Success criteria from the procedure are now all met: 301 (not 302/308), exactly one redirect hop in each case, query string kept, final status 200, no loop, apex pages/canonical/`robots.txt`/`sitemap_index.xml` unchanged (previous entry), mail DNS records preserved (previous entry). Cloudflare's reporting headers in the output were not copied into the repository. `docs/pilot-evaluation.md`: table E row "`www` 주소" and the section 9 line on `www` were updated to this state. Remaining open items elsewhere: domain renewal date at the registrar, favicon (404), optional DMARC, Gmail send-as, two-factor authentication on the hosting account, the 1-week checkpoint (on or after 2026-10-14), DST source re-check before 2026-11-01, 4-week evaluation (on or after 2026-11-04). Counts unchanged: published 12 posts, 2 pages; ready 0; draft 0.
