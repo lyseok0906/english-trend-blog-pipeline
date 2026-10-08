@@ -490,3 +490,45 @@ At the user's request Claude wrote `docs/pilot-evaluation.md`: a checklist and r
 Facts recorded as of 2026-10-08 (Claude, public pages): `sitemap_index.xml` returns 200 and lists `post-sitemap.xml` (13 URLs: the home page plus the 12 posts) and `category-sitemap.xml` (3 categories); `robots.txt` allows crawling except `/wp-admin/` and declares the sitemap; the `www` address does not load. Not known: whether a Search Console property exists (Rank Math's Google connection was skipped at setup); Claude has no access to the user's Search Console.
 
 Noted for the evaluation: all 12 articles were published on one day instead of 3 per week, so whether 3 posts per week is sustainable cannot be read from the schedule; it can only be read from the user's own time record. No pass or fail thresholds were set; the user decides them before the evaluation and records them here. No article, diagram or WordPress setting was changed.
+
+## 2026-10-08 — Site cleanup: inspection results and the user's decisions
+
+**Inspection (Claude, read-only; nothing in WordPress, DNS or hosting was changed).**
+
+- Author display `admin`: the visible byline (post-author-name block, linking to `/author/admin/`), the JSON-LD Person and BlogPosting author, the social meta "Written by admin" and the feed `dc:creator` all show `admin`. There is one user: login name, display name and URL slug are all `admin`, so the author URL discloses the login name. Already blocked: the public users REST list returns 401, `/?author=1` returns 404, no users sitemap (404). The author archive `/author/admin/` opens (200) and is `noindex` (Rank Math). The JSON-LD Person image is a Gravatar URL derived from the account email (a hash of the email is public).
+- `www`: DNS answers for `www.statesideexplained.com` as a CNAME to `statesideexplained.com`; both resolve to `31.170.160.71` (so `www` is DNS-only, not proxied). The authoritative DNS answer shows Cloudflare name servers. HTTPS to `www` fails in the built-in browser (cause not confirmed: certificate not covering `www` or no `www` alias at the host). `http://statesideexplained.com` redirects to HTTPS and opens (200). WordPress Address and Site Address are `https://statesideexplained.com`; canonical and sitemap use the non-`www` address.
+- About (page 9) and Privacy Policy (page 3) are drafts, linked nowhere (no header menu, no footer links); the Privacy Policy is set as the WordPress privacy page. The Privacy Policy matches the site in these respects: no advertising or analytics scripts; the Hostinger Reach script (`cdn-reach.hostinger.com`) does load. Points to fix before publishing: page 3 has pings `open` (policy: no pingbacks); the Comments paragraph is conditional ("if comments are turned on") although comments are off site-wide; no contact method; the cookie statement for visitors is not verified; About has no operator, contact or non-affiliation statement.
+
+**Decisions (user, 2026-10-08).**
+
+1. Public author name is `Stateside Explained`; the byline stays.
+2. Create a new site-only administrator account (public display name `Stateside Explained`); move the 12 articles and the pages to it; propose how to retire `admin` separately, after the move is done and checked.
+3. The personal Gmail is not published. A site-only address of the form `hello@statesideexplained.com` is created first; About and Privacy Policy are not published before it exists.
+4. About gets a statement, in the gist of: "Stateside Explained is an independent informational website and is not affiliated with USPS, TSA, NIST, DOT, or any government agency."
+5. About and Privacy Policy are linked in the footer only, not in the header.
+6. `www` should 301-redirect to `https://statesideexplained.com/`; Claude gives the exact procedure first (below); no setting is changed yet.
+7. The text of About and Privacy Policy is version-controlled in `content/pages/`; the existing WordPress drafts are moved there first and compared, then edited and published.
+
+**Done in this step (repository only).** `content/pages/about.md` and `content/pages/privacy-policy.md` created from the WordPress drafts (page 9 and page 3, as last modified 2026-10-06). Check: the letters-and-digits text of each file equals the text of the WordPress draft (About 675 characters, Privacy Policy 1,654; same SHA-256 prefix on both sides). The only difference: the Hostinger link in the WordPress draft carries `rel="nofollow"`, which the Markdown file does not express. No wording was changed.
+
+**Stages, each needing the user's separate approval before Claude touches WordPress.**
+
+1. New account: create the administrator (username not `admin` and not guessable; public name and nickname `Stateside Explained`), set its URL slug so the author URL does not repeat the login name (for example `stateside-explained`), choose the account email. Open choices: the account email (the site-only address once it exists is preferred, so no personal address hash appears in the Gravatar URL), and whether the author archive stays (`noindex`) or is disabled.
+2. Move authorship: the 12 articles (posts 14, 19, 22, 25, 28, 30, 34, 36, 40, 43, 45, 49), the 2 pages (9, 3) and the uploaded images. This updates each item's modified time (sitemap lastmod, JSON-LD dateModified), with no content change; recorded here so the 1-week and 4-week readings can account for it. Check afterwards on the public pages: byline, JSON-LD, social meta, feed, text unchanged, sitemap.
+3. Retire `admin`: separate proposal after stages 1 and 2 are checked (including whether the hosting's WordPress login tools depend on that account).
+4. Contact address: the user creates `hello@statesideexplained.com` (mailbox or forwarding); Claude records it. Claude does not enter any password.
+5. Page text in the repository: update About (non-affiliation statement, contact) and Privacy Policy (contact and email handling, comments paragraph, cookie statement after the cookie check, pings) in `content/pages/`; optional English review; then Claude applies the text to the WordPress drafts, closes pings on page 3, and the user previews and publishes.
+6. Footer links: after both pages are published, add the About and Privacy Policy links to the footer template part only.
+7. `www`: redirect procedure below, done by the user (or by Claude only with explicit approval and access).
+
+**`www` to non-`www` 301 redirect: procedure (not applied).**
+
+0. Diagnose: open `https://www.statesideexplained.com/` in a normal browser and note the error (certificate warning, connection refused, timeout). Check in Cloudflare (the DNS answer shows Cloudflare name servers) that the zone exists and what the `www` record is.
+1. Preferred path, in Cloudflare: make the `www` DNS record exist and be proxied (orange cloud); it is currently DNS-only. Leave the apex record as it is. Then create a Redirect Rule: when the hostname equals `www.statesideexplained.com`, redirect with status 301 to `https://statesideexplained.com` plus the same path, keeping the query string (Cloudflare's "redirect from www to root" template does this). A proxied `www` is answered by Cloudflare's own certificate, so the origin does not need a `www` certificate.
+2. Fallback, at the host (Hostinger hPanel): make sure `www.statesideexplained.com` is attached to the site and the SSL certificate covers it, then redirect `www` to the root there (host redirect setting or `.htaccess`); WordPress's own canonical redirect would then also send `www` to the Site Address.
+3. Do not add a second redirect for the same hostname (loop risk), and do not change WordPress Address or Site Address.
+4. Test afterwards (Claude can check): `https://www.statesideexplained.com/` and `.../usps-mail-forwarding-how-long/` end at the non-`www` HTTPS URL with one 301 hop; `http://www...` ends at the same place; the apex pages, canonical, `robots.txt` and `sitemap_index.xml` are unchanged; no redirect loop.
+5. Rollback: delete the Redirect Rule or set the `www` record back to DNS-only.
+6. Search Console: use a URL-prefix property for `https://statesideexplained.com/`; a Domain property would need a DNS TXT record (in Cloudflare).
+
+No article, diagram, page or WordPress setting was changed in this step. Counts unchanged: published 12; ready 0; draft 0.

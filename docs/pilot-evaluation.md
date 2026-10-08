@@ -115,8 +115,9 @@
 | 색인 안 됨 이유 목록(원문 그대로) | — |  |  |
 | 사이트 전체 노출·클릭(기간 명시) | — |  |  |
 | 홈·카테고리·About·Privacy 상태 | 홈과 카테고리 3개는 사이트맵에 있음. About·Privacy는 초안(비공개) |  |  |
-| `www` 주소 | 열리지 않음(통일 안 됨) |  |  |
+| `www` 주소 | 열리지 않음(통일 안 됨). DNS는 apex로 가는 CNAME으로 풀리지만 HTTPS 접속이 실패함. 301 리디렉션 설정은 승인 후 진행(`docs/decision-log.md` 2026-10-08 사이트 정리 항목) |  |  |
 | Search Console 알림·보안·수동 조치 메시지 | — |  |  |
+| 작성자 표시 | `admin`(글 화면, JSON-LD, 공유 메타, 피드). `Stateside Explained` 계정으로 이전 예정(`docs/decision-log.md`) |  |  |
 
 ## 4. 점검 전에 해 둘 일 (사용자 쪽)
 
