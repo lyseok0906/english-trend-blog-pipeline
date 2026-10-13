@@ -2,7 +2,7 @@
 
 Article: `content/drafts/alcohol-on-a-plane-tsa-faa.md`
 Brief: `research/briefs/alcohol-on-a-plane-tsa-faa.md`. Sources: `research/sources/alcohol-on-a-plane-tsa-faa.md` (S1 TSA "Alcoholic beverages", S2 FAA PackSafe "Alcoholic Beverages", S3 eCFR 49 CFR 175.10, S4 TSA "Alcoholic beverages over 140 proof", S5 FAA PackSafe printable chart PDF).
-Stage: draft. Latest revision after commit `6ff8034`: three wording fixes from the writer's pre-Gate-2 self-check (below). First Gate 1 on 2026-10-13 (commit `27955a4`, 20 claims, no rule stated over 70%). **Second pass 2026-10-13 on the user's request:** over-70% prohibition added, 5-liter per-passenger total confirmed, 24%-or-less wording scoped, airline-check line kept, diagram and alt text made, Gate 1 re-run (below). **Not sent to Gate 2, not approved, not on WordPress, not published.** Post-pilot article: not counted in the pilot 12.
+Stage: draft. Latest revision after commit `6ff8034`: three wording fixes from the writer's pre-Gate-2 self-check (below). First Gate 1 on 2026-10-13 (commit `27955a4`, 20 claims, no rule stated over 70%). **Second pass 2026-10-13 on the user's request:** over-70% prohibition added, 5-liter per-passenger total confirmed, 24%-or-less wording scoped, airline-check line kept, diagram and alt text made, Gate 1 re-run (below). **Gate 2 (independent, ChatGPT) PASS on commit `33aea2b`, reported by the user 2026-10-13. Stage stays `draft`: not approved for `ready`, not on WordPress, not published.** Post-pilot article: not counted in the pilot 12.
 
 Method: S1, S2, S3 and S4 were opened in the built-in browser on 2026-10-13 and the quoted statements were tested by script against each page's text (S1 11 of 11, S2 9 of 9, S3 6 of 6, S4 7 of 7): all present. **S5 (FAA printable chart, PDF) was not opened directly and not script-tested**; it was read twice through a document-reader tool and the reads agree (over 140 proof: "Not allowed in Carry-On or Checked Bags"; under 140 proof: unopened retail packaging, 5 L per packaging and 5 L total per passenger, 100-ml carry-on footnote; "Updated: 11/14/25"). Every claim that rests on S5 alone is marked below. The over-70% prohibition does not rest on S5 alone: TSA's own entry (S4) says "No" for both carry-on and checked bags. The diagram was viewed after export and its text compared with the article (see I1-I3). This is the drafting and factual-QA re-check for a rule-type post; the re-check right before the user approves moving to `ready` and again right before publishing is still **mandatory**, **including a direct open of the FAA chart PDF**; if a page cannot be opened, do not publish.
 
@@ -52,10 +52,16 @@ Done 2026-10-13 by Claude, who wrote the article, on commit `6ff8034`, at the us
 
 ## Gate 2 — English + SEO QA
 
-Not done. The independent Gate 2 (by the user's other reviewer, by commit SHA, against the repository's actual draft, QA record and PNG) is requested by the user on the new commit.
+**PASS** — independent Gate 2 by ChatGPT, on commit `33aea2b`, as reported by the user on 2026-10-13. No change requested to the body, SEO (title, meta description, focus keyword handling), the diagram SVG or the alt text. This is the result as relayed by the user; the reviewer's own text is not stored in the repository. The writer's pre-Gate-2 self-check above remains a separate item and was never counted as Gate 2.
+
+Gate 2 does not replace the source re-check below. It reviewed the text, not the live pages.
+
+## Conditions before the move to `ready` (user decision 2026-10-13)
+
+Before the user approves moving this article to `ready`, **all five pages must be re-read**: (1) TSA "Alcoholic beverages", (2) TSA "Alcoholic beverages over 140 proof", (3) FAA PackSafe "Alcoholic Beverages" web page, (4) eCFR 49 CFR 175.10, (5) FAA PackSafe printable chart (PDF). **The FAA PDF must be opened directly in a browser, not through a document reader.** If the PDF cannot be opened directly, the article is **not** published. If a re-read shows a changed or missing statement, the draft goes back to Gate 1 before anything else. The same re-check is required again right before publishing.
 
 ## Not done yet
 
 - Direct open of the FAA printable chart PDF (S5) at the mandatory pre-approval re-check. User decision 2026-10-13: the PDF stays a supporting source for this article (the over-70% rule also rests on TSA's own entry), and the direct open is required right before publishing.
-- Mandatory pre-approval re-check of all five pages.
+- Mandatory pre-approval re-check of all five pages (see conditions above).
 - Search demand and competition not measured.

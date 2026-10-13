@@ -808,3 +808,11 @@ Context: the user is concerned that a site made only of articles and diagrams lo
 **Decisions by the user (2026-10-13).** (1) Diagram: card title "over 24% to 70%" becomes "over 24% up to 70%". (2) Body: "without a quantity limit" becomes "does not state a quantity limit". (3) Alt text: include the "On board" card and the airline-check line, kept near 400 characters (now 402). (4) The focus keyword is not forced into the meta description or first sentence; the title and H1 carry it. (5) The FAA printable chart PDF stays a supporting source for this article; a direct open of the PDF is required right before publishing (the over-70% rule also rests on TSA's own entry). (6) Claude commits and pushes this revision and reports only the new SHA; the user explicitly asked for the push this time.
 
 **Applied.** SVG and PNG regenerated (1200 x 2286, 115,201 bytes) and viewed; draft, alt (front matter and embed), QA record (Gate 1 re-run result unchanged: 23 of 23 claims, 5 of 5 image checks; new self-check section; Gate 2 still "not done"), brief and backlog row updated.
+
+## 2026-10-13 — Article 13 (alcohol-on-a-plane-tsa-faa): independent Gate 2 PASS on `33aea2b`; conditions before `ready`
+
+**Result (user-reported, 2026-10-13).** ChatGPT's independent Gate 2 on commit `33aea2b`: **PASS**. No change requested to the body, SEO, the diagram SVG or the alt text. Recorded in `editorial/qa/alcohol-on-a-plane-tsa-faa.md` and backlog row 16. The reviewer's own text is not stored in the repository; this entry records the result as relayed by the user.
+
+**Stage.** Still `draft`. Not approved for `ready`, not on WordPress, not published. Post-pilot article, not counted in the pilot 12.
+
+**Conditions kept (user decision).** Before the user approves the move to `ready`, re-read five pages: TSA "Alcoholic beverages", TSA "Alcoholic beverages over 140 proof", the FAA PackSafe web page, eCFR 49 CFR 175.10, and the FAA PackSafe printable chart. **The FAA PDF must be opened directly in a browser.** If it cannot be opened, the article is not published. A changed or missing statement sends the draft back to Gate 1. The same re-check is repeated right before publishing.
