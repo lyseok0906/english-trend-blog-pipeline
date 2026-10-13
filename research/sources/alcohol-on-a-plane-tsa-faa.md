@@ -1,6 +1,8 @@
 # Source notes — alcohol-on-a-plane-tsa-faa
 
-Retrieved: **2026-10-13**, by Cowork (Claude), all three pages opened in the built-in browser (a real browser). The quoted statements below were tested by script against each page's text after reading (TSA 11 of 11, FAA 9 of 9, eCFR 6 of 6): all present. Brief: `research/briefs/alcohol-on-a-plane-tsa-faa.md`. All three are rule-type sources: re-check is **mandatory** at drafting, at factual QA, right before the user approves the move to `ready` and right before publishing.
+Retrieved: **2026-10-13**, by Cowork (Claude). Four pages (S1 TSA alcohol, S2 FAA web page, S3 eCFR, S4 TSA over 140 proof) were opened in the built-in browser (a real browser) and the quoted statements were tested by script against each page's text after reading (S1 TSA 11 of 11, S2 FAA 9 of 9, S3 eCFR 6 of 6, S4 TSA over 140 proof 7 of 7): all present. **S5 (FAA printable chart, a PDF) was NOT opened directly in a browser and NOT script-tested**: the PDF would not render in the pane (empty text, screenshot timeout), so it was read twice through a document-reader tool (WebFetch) and the two reads agree. A direct check of the PDF is **mandatory** at the pre-approval re-check. Brief: `research/briefs/alcohol-on-a-plane-tsa-faa.md`. All five are rule-type sources: re-check is **mandatory** at drafting, at factual QA, right before the user approves the move to `ready` and right before publishing.
+
+Revision 2026-10-13 (second pass, user request): S4 and S5 added so the article can state the over-70% rule; the earlier version (commit `27955a4`) used S1-S3 only and stated no rule over 70%.
 
 ## S1 — TSA, "Alcoholic beverages" (primary, official)
 
@@ -23,14 +25,14 @@ Retrieved: **2026-10-13**, by Cowork (Claude), all three pages opened in the bui
 
 - URL: https://www.faa.gov/hazmat/packsafe/alcoholic-beverages
 - Page date shown: "Last updated: Monday, April 13, 2026".
-- Verbatim: "In unopened retail packaging, containing more than 24% but not more than 70% alcohol by volume (up to 140 proof)" "Quantity limits: 5 L (1.3 gallons) per packaging and 5 L total per passenger.*" "Must be in unopened retail packagings." "*Liquids, gels, and aerosols in carry-on baggage are further limited to 100-ml (3.4 oz) containers at the TSA security checkpoint." "FAA regulations prohibit passengers from drinking alcohol on board the aircraft unless it is served by the air carrier." Heading "Alcoholic Beverages Over 140 Proof" with the line "Greater than 70% alcohol by volume (more than 140 proof), including grain alcohol and 151 proof rum" and "See the regulation: 49 CFR 175.10(a)(4)". The page DOM has no image or icon and no other text under that heading, so the page text states no rule for beverages over 70%.
+- Verbatim: "In unopened retail packaging, containing more than 24% but not more than 70% alcohol by volume (up to 140 proof)" "Quantity limits: 5 L (1.3 gallons) per packaging and 5 L total per passenger.*" "Must be in unopened retail packagings." "*Liquids, gels, and aerosols in carry-on baggage are further limited to 100-ml (3.4 oz) containers at the TSA security checkpoint." "FAA regulations prohibit passengers from drinking alcohol on board the aircraft unless it is served by the air carrier." Heading "Alcoholic Beverages Over 140 Proof" with the line "Greater than 70% alcohol by volume (more than 140 proof), including grain alcohol and 151 proof rum" and "See the regulation: 49 CFR 175.10(a)(4)". The page DOM has no image or icon and no other text under that heading, so the FAA **web page text** states no rule for beverages over 70%; the rule is stated in S4 (TSA) and S5 (FAA printable chart).
 
 | # | Claim supported | Support |
 |---|---|---|
 | S2-1 | FAA: beverages with more than 24% but not more than 70% alcohol by volume (up to 140 proof), in unopened retail packaging; 5 L per packaging and 5 L total per passenger | Stated on page |
 | S2-2 | FAA footnote: liquids, gels and aerosols in carry-on baggage are further limited to 100-ml (3.4 oz) containers at the TSA checkpoint | Stated on page |
 | S2-3 | FAA regulations prohibit passengers from drinking alcohol on board unless it is served by the air carrier | Stated on page |
-| S2-4 | The page has a separate heading "Alcoholic Beverages Over 140 Proof" (greater than 70% alcohol by volume, including grain alcohol and 151 proof rum) and refers to 49 CFR 175.10(a)(4); the text under it states no rule | Stated on page (absence of a rule checked in the page DOM) |
+| S2-4 | The page has a separate heading "Alcoholic Beverages Over 140 Proof" (greater than 70% alcohol by volume, including grain alcohol and 151 proof rum) and refers to 49 CFR 175.10(a)(4); the web page text under it states no rule (the FAA printable chart, S5, does) | Stated on page (absence of a rule checked in the page DOM) |
 
 ## S3 — eCFR, 49 CFR 175.10, "Exceptions for passengers, crewmembers, and air operators" (primary, federal regulation)
 
@@ -44,9 +46,33 @@ Retrieved: **2026-10-13**, by Cowork (Claude), all three pages opened in the bui
 | S3-2 | (a)(4)(i): not more than 24% alcohol by volume | Stated |
 | S3-3 | (a)(4)(ii): more than 24% and not more than 70% alcohol by volume, unopened retail packagings not exceeding 5 liters, carried in carry-on or checked baggage, 5 liters total net quantity per person | Stated |
 
+## S4 — TSA, "Alcoholic beverages over 140 proof" (primary, official)
+
+- URL: https://www.tsa.gov/travel/security-screening/whatcanibring/items/alcoholic-beverages-over-140-proof
+- Page date shown: "Last Updated on February 20, 2025".
+- Verbatim (tested 7 of 7 by script on the page text): "Carry On Bags: No" "Checked Bags: No"; the definition sentence (alcoholic beverages with more than 70% alcohol, over 140 proof, including grain alcohol and 151 proof rum); "For more information, see FAA regulation: 49 CFR 175.10(a)(4)."; "Last Updated on February 20, 2025"; the sentence that the final decision rests with the TSA officer.
+
+| # | Claim supported | Support |
+|---|---|---|
+| S4-1 | TSA has a separate entry for alcoholic beverages over 140 proof, defined as more than 70% alcohol, including grain alcohol and 151 proof rum | Stated on page |
+| S4-2 | Carry-on bags: No; checked bags: No | Stated on page |
+| S4-3 | The page refers to 49 CFR 175.10(a)(4); the final decision rests with the TSA officer | Stated on page |
+
+## S5 — FAA PackSafe printable chart (primary, official; PDF)
+
+- URL: https://www.faa.gov/hazmat/packsafe/printable-chart
+- Date shown: "Updated: 11/14/25".
+- **Read method: document-reader tool (WebFetch), twice; results agree. Not opened directly in a browser, not script-tested.** Direct check required before approval.
+- Content read: the row for alcoholic beverages over 140 proof (greater than 70% alcohol by volume, more than 140 proof) says "Not allowed in Carry-On or Checked Bags". The row for alcoholic beverages under 140 proof says unopened retail packaging, 5 L per packaging and 5 L total per passenger, with the 100-ml carry-on footnote.
+
+| # | Claim supported | Support |
+|---|---|---|
+| S5-1 | FAA chart (updated 11/14/25): alcoholic beverages over 140 proof (greater than 70% alcohol by volume) are not allowed in carry-on or checked bags | Read twice via document reader; not directly verified |
+| S5-2 | FAA chart: under 140 proof, unopened retail packaging, 5 L per packaging and 5 L total per passenger; carry-on liquids further limited to 100 ml | Read twice via document reader; matches S2-1 and S2-2 (which were tested on the web page) |
+
 ## Not sourced and not used
 
-- Any rule for beverages over 70% alcohol by volume (the FAA page text and TSA page state none; the regulation's exception, as written, covers up to 70%).
 - Duty-free purchases and inbound international flights (TSA liquids page has a separate exemption; not read for this article); airline policies; state and foreign laws; alcohol for sale; the TSA Spanish-language alcohol travel tip (returned 403, not read).
 - Search demand and competition (not measured).
 - eCFR is the Electronic Code of Federal Regulations display; its status as an editorial compilation was not read on the page and is not claimed.
+- The FAA web page (S2) text states no rule for beverages over 70%; the article says so and relies on S4 and S5 for the prohibition. The article does not claim the regulation itself prohibits them: it says only that the regulation's exception covers up to 70% alcohol by volume.

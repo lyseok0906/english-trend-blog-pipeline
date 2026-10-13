@@ -1,6 +1,6 @@
 # Brief — alcohol-on-a-plane-tsa-faa
 
-**Stage:** topic brief (lifecycle step 1), followed on the same day by source notes, draft and Gate 1 (see below). Not reviewed by ChatGPT or the user.
+**Stage:** topic brief (lifecycle step 1), followed on the same day by source notes, draft, Gate 1 and a second pass (over-70% rule, diagram, Gate 1 re-run). Not reviewed by ChatGPT or the user.
 **Lane:** airport security rules (rule-type post: mandatory official-page re-check).
 **Pilot status:** NOT part of the pilot 12 (post-pilot article, user decision 2026-10-13: resume new-article work now; the home-page restructure waits for the 1-week checkpoint). Not counted in the "published" row that decides the pilot result.
 **Prepared:** 2026-10-13 by Cowork (Claude).
@@ -46,27 +46,27 @@ US travelers packing for a domestic flight.
 2. **Checked-bag limits (TSA).** More than 24% but not more than 70% alcohol: 5 liters (1.3 gallons) per passenger, unopened retail packaging. 24% or less: not subject to limitations.
 3. **Carry-on detail (TSA, FAA).** Mini bottles must fit comfortably in a single quart-sized bag (TSA); carry-on liquids are limited to 100-ml containers at the checkpoint (FAA footnote). Link to the published 3-1-1 article for the general rule.
 4. **Regulation (49 CFR 175.10(a)(4)).** The exception covers not more than 24% alcohol by volume, or more than 24% and not more than 70% in unopened retail packagings not exceeding 5 liters in carry-on or checked baggage, 5 liters total per person.
-5. **Over 70%.** TSA's page is silent; the FAA page has a heading "Alcoholic Beverages Over 140 Proof" with a definition and a link to the regulation but no stated rule in its text. The article does not state a rule for those beverages.
+5. **Over 70% (revised 2026-10-13, user request).** TSA's separate entry "Alcoholic beverages over 140 proof" lists carry-on: No and checked: No (S4). The FAA PackSafe printable chart (updated 11/14/25) marks them "Not allowed in Carry-On or Checked Bags" (S5; read via a document reader, direct check mandatory). The FAA web page has the heading and the regulation link but no rule text (S2). The regulation's exception covers up to 70% alcohol by volume. The article states the prohibition, attributed to TSA and the FAA chart.
 6. **On board.** FAA regulations prohibit drinking alcohol on board unless served by the air carrier; flight attendants may not serve an intoxicated passenger (TSA).
 7. **Airline and officer.** TSA: check with your airline; the TSA officer makes the final decision.
 
 ## Scope: in and out
 
-- **In:** the seven points, each attributed, with as-of dates.
-- **Out:** duty-free purchases and flights from other countries (TSA's liquids page has a separate inbound exemption; not read for this article), airline policies, state and foreign alcohol laws, alcohol carried for sale, how to pack, how much to bring, health or safety advice, product or brand names, a prohibition rule for beverages over 70% (not stated in the text of the sources).
+- **In:** the seven points plus the 5-liter total per passenger and the 24%-or-less scope (TSA: not subject to limitations in checked bags; no separate alcohol limit for checked bags), each attributed, with as-of dates.
+- **Out:** duty-free purchases and flights from other countries (TSA's liquids page has a separate inbound exemption; not read for this article), airline policies, state and foreign alcohol laws, alcohol carried for sale, how to pack, how much to bring, health or safety advice, product or brand names.
 - The article describes what the sources say; it gives no personal advice.
 
 ## Image plan (no photos)
 
-Own table-style diagram: rows "Carry-on bag" / "Checked bag, 24% or less" / "Checked bag, more than 24% up to 70%"; right column shows what TSA says; footer line "TSA: check with your airline; the TSA officer makes the final decision". No bottle photos, no brand names, no logos. Not made yet (draft stage only).
+Own diagram, made 2026-10-13: five cards (carry-on; checked 24% or less; checked over 24% up to 70%; over 70% / over 140 proof, not allowed; on board), footer "TSA: check with your airline" and "The TSA officer makes the final decision". No bottle photos, no brand names, no logos. Files: `assets/raw/alcohol-on-a-plane-tsa-faa.svg`, `assets/optimized/alcohol-on-a-plane-tsa-faa.png` (1200 px wide). Alt text in front matter (313 characters).
 
 ## Risks
 
-- FAA's "Over 140 Proof" heading has no rule text on the page: do not turn the silence into a prohibition or an allowance.
+- The FAA web page's "Over 140 Proof" heading has no rule text; the prohibition rests on the TSA entry (S4) and the FAA printable chart (S5). The chart was read through a document reader, not opened directly: do not publish before a direct check. Do not say the regulation itself prohibits them.
 - TSA states the 5-liter and unopened-retail-packaging limits for checked bags; the regulation also applies them to carry-on. The article attributes each to its source.
 - The percentage thresholds are alcohol by volume in the FAA page and the regulation; TSA says only "alcohol". The article says so once.
 
 ## Open questions for the user
 
-1. Approve the focus keyword and the "describe, do not recommend; no rule stated for beverages over 70%" scope.
-2. Diagram in the same tall style as earlier posts, or a simpler table image?
+1. Approve the focus keyword and the "describe, do not recommend" scope (the over-70% prohibition is now stated, attributed to TSA and the FAA chart).
+2. Diagram: made in the tall style of earlier posts (done).
