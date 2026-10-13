@@ -843,3 +843,17 @@ Context: the user is concerned that a site made only of articles and diagrams lo
 ## 2026-10-13 — Open item closed: public sitemap URLs checked against the 19 discovered
 
 Claude opened the three child sitemaps in the built-in browser (logged out). `post-sitemap.xml` (13): `/` plus the 12 posts of table A. `page-sitemap.xml` (3): `/`, `/privacy-policy/`, `/about/` (last mod 2026-10-08 05:35 UTC). `category-sitemap.xml` (3): `/category/us-dates-seasons-holidays/`, `/category/airport-security-rules/`, `/category/postal-service-and-stamps/`. So the third page-sitemap URL is the home page, which is listed in both the post and the page sitemap: the 19 shown by Search Console counts it twice (18 unique URLs). Correction to the entry above: my inference that the home moves from the post sitemap to the page sitemap only after the redesign is not needed to explain the count; the home is already in both. Not a defect that was changed or fixed here; recorded for the homepage step (check what the sitemap lists after the static front page is set).
+
+## 2026-10-13 — Search Console follow-up screenshots: second home indexing request; message list
+
+**Source.** Two more user screenshots, 2026-10-13 (`사용자`).
+
+**Home indexing request (second).** The home URL inspection screen shows the "Indexing requested" dialog ("URL added to the priority crawl queue; submitting repeatedly does not change the queue position or priority"). The dialog appears only right after the click, so the request is dated to the screenshot (2026-10-13), not stated on screen. This is the second request for the home page (first: 2026-10-08, user-reported). Claude had advised not pressing it; recorded as a fact, no harm assumed. Still no request for any of the 12 posts is known.
+
+**Message list (3, all unread).**
+1. 2026-10-12, type "page indexing": "New reason is preventing pages on statesideexplained.com from being indexed" (Korean title as shown in the screen). **The body, which names the reason and the affected URLs, has not been seen.** Until it is opened, nothing is known about which pages or why; this is not interpreted here.
+2. 2026-10-11, general: Google Search traffic monitoring for the site.
+3. 2026-10-08, general, sent directly: tips on raising the site's visibility.
+No security-issue or manual-action message appears in the list (the Security and manual actions reports themselves were not seen).
+
+**Needed next.** The body of message 1 and the Pages (indexing) report (indexed / not indexed counts and the reasons list). Table E rows for those stay `—`.
