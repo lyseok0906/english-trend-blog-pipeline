@@ -113,11 +113,11 @@
 | 사이트맵 제출 주소 | `https://statesideexplained.com/sitemap_index.xml` (robots.txt에도 적혀 있음). **2026-10-08 사용자가 이 주소로 제출했다고 알려 줌**(`사용자`) | `sitemap_index.xml` 제출됨, 제출일 2026-10-08 (2026-10-13 `사용자` 스크린샷) |  |
 | 색인 생성 요청(Request indexing) | 홈페이지에 1회, 2026-10-08 사용자가 요청했다고 알려 줌(`사용자`). 글 12편에는 요청했다는 말이 없음(요청 안 했는지는 1주 점검 때 확인) | 홈 URL 검사 화면에 "색인 생성 요청" 링크가 보임. 글 12편의 요청 여부는 이번 스크린샷에 없음 → `—` |  |
 | 사이트맵 상태(Success 등)·마지막 읽은 날 | — | `sitemap_index.xml`: 상태 **성공**, 유형 Sitemap 색인, 마지막으로 읽은 날짜 2026-10-10, "사이트맵 색인 처리 완료". 하위 사이트맵: `category-sitemap.xml` 성공·2026-10-11, `page-sitemap.xml` 성공·2026-10-12, `post-sitemap.xml` 성공·2026-10-13 (2026-10-13 `사용자` 스크린샷) |  |
-| 사이트맵에서 발견된 URL 수 | 공개 사이트맵 기준 post-sitemap 13개(홈 + 글 12) + category-sitemap 3개 | **19** (발견된 동영상 0). 하위별 category 3 + page 3 + post 13 = 19. post 13은 1주 전 공개 사이트맵 기준 "홈 + 글 12"와 같은 수(Claude의 추정, 이번에 URL 목록으로 대조하지 않음). **page-sitemap 3개는 레포가 세는 페이지 2개(About·Privacy)보다 1개 많음. 세 번째 URL은 스크린샷으로 알 수 없음 → 확인 필요** (2026-10-13 `사용자` 스크린샷) |  |
+| 사이트맵에서 발견된 URL 수 | 공개 사이트맵 기준 post-sitemap 13개(홈 + 글 12) + category-sitemap 3개 | **19** (발견된 동영상 0). 하위별 category 3 + page 3 + post 13 = 19. **2026-10-13 Claude가 공개 사이트맵 3개를 브라우저로 열어 URL을 대조함:** post-sitemap 13 = 홈(`/`) + 글 12편(표 A와 같은 12개), page-sitemap 3 = 홈(`/`), `/privacy-policy/`, `/about/`, category-sitemap 3 = `/category/us-dates-seasons-holidays/`, `/category/airport-security-rules/`, `/category/postal-service-and-stamps/`. **홈(`/`)이 post-sitemap과 page-sitemap 양쪽에 있어 화면의 19는 중복 포함 수(고유 URL 18)** (2026-10-13 `사용자` 스크린샷) |  |
 | Pages(색인) 보고서: 색인됨 / 색인 안 됨 | — | **이번 스크린샷에 없음 → `—`** (색인생성 → 페이지 보고서는 아직 전달되지 않음) |  |
 | 색인 안 됨 이유 목록(원문 그대로) | — | `—` (Pages 보고서 미전달) |  |
 | 사이트 전체 노출·클릭(기간 명시) | — | 기간 "3개월"(실제 데이터는 2026-10-07~2026-10-10 그래프, "최종 업데이트 9시간 전"), 검색 유형 웹: **클릭 0, 노출 496, 평균 CTR 0%, 평균 게재순위 16.2** (2026-10-13 `사용자` 스크린샷). 검색어 103행: 상위 `thanksgiving 2026` 노출 227, `cuando cae thanksgiving 2026` 8, `first day of winter 2026` 7, `fecha de thanksgiving 2026` 6, `start of winter 2026` 6, 클릭은 모두 0. 페이지별 노출은 표 B 메모 참고 |  |
-| 홈·카테고리·About·Privacy 상태 | 홈과 카테고리 3개는 사이트맵에 있음. About·Privacy는 초안(비공개) | 홈 URL 검사(`https://statesideexplained.com/`): **"URL이 Google에 등록되어 있음"**, 페이지 색인 생성 "페이지 색인이 생성됨", HTTPS 정상(2026-10-13 `사용자` 스크린샷). 마지막 크롤 날짜·canonical 항목은 접힌 상태라 화면에 안 보임 → `—`. 카테고리 3개는 category-sitemap에서 발견 3. About·Privacy 개별 상태는 이번에 못 봄 (page-sitemap 3개 중 어떤 것인지 미확인) |  |
+| 홈·카테고리·About·Privacy 상태 | 홈과 카테고리 3개는 사이트맵에 있음. About·Privacy는 초안(비공개) | 홈 URL 검사(`https://statesideexplained.com/`): **"URL이 Google에 등록되어 있음"**, 페이지 색인 생성 "페이지 색인이 생성됨", HTTPS 정상(2026-10-13 `사용자` 스크린샷). 마지막 크롤 날짜·canonical 항목은 접힌 상태라 화면에 안 보임 → `—`. 카테고리 3개는 category-sitemap에서 발견 3. About·Privacy는 2026-10-13 공개 page-sitemap에 올라 있음(마지막 수정 2026-10-08 05:35 UTC). Search Console에서의 개별 상태는 못 봄 |  |
 | `www` 주소 | 2026-10-08 Claude 확인 시점에는 열리지 않음(통일 안 됨). **같은 날 사용자가 Cloudflare에서 `www`를 프록시로 바꾸고 `www` → apex 301 규칙을 배포함.** 사용자의 `curl -sIL` 결과로 https `www` 글·검색 쿼리와 `http://www` 홈 모두 301 한 번 후 apex 200 확인(`docs/decision-log.md` 2026-10-08 `www` 항목) |  |  |
 | Search Console 알림·보안·수동 조치 메시지 | — | 화면 우상단 알림 아이콘에 **"3"** 표시(모든 스크린샷에서 동일). 알림 내용·보안 및 직접 조치 보고서는 미확인 → 내용 `—` (2026-10-13 `사용자` 스크린샷) |  |
 | 작성자 표시 | 2026-10-08: 표시 이름을 `Stateside Explained`로 변경(글 화면, JSON-LD, 공유 메타, 피드 확인). 작성자 줄 링크 `/author/admin/`는 2026-10-08 2단계에서 제거(글 12편 확인, JSON-LD에는 URL 3곳 남음). 글 본문·modified 시각은 바뀌지 않음(`docs/decision-log.md`) |  |  |
@@ -137,7 +137,7 @@ Claude는 사용자의 Search Console 계정에 접근하지 않으며, 로그�
 ### 5-1. 사이트맵과 크롤 준비 (SC, Claude)
 
 - [x] (2026-10-13 `사용자` 스크린샷: 성공, 마지막 읽은 날짜 2026-10-10) Sitemaps 보고서에서 `sitemap_index.xml`의 상태가 성공(Success)인지, 마지막 읽은 날짜가 있는지. 실패면 화면의 오류 문구를 **원문 그대로** 표 E에 적는다.
-- [ ] 발견된 URL 수가 공개 사이트맵(13개 + 카테고리 3개)과 맞는지. (2026-10-13: 화면은 19 = post 13 + category 3 + page 3. page-sitemap 3개가 추가 항목이며 세 번째 URL 미확인. 공개 사이트맵과의 대조는 아직 안 함)
+- [ ] 발견된 URL 수가 공개 사이트맵(13개 + 카테고리 3개)과 맞는지. (2026-10-13: 화면 19 = post 13 + category 3 + page 3. Claude가 공개 사이트맵과 대조해 확인: 홈이 post·page 양쪽에 있어 고유 URL은 18, 나머지는 글 12편·카테고리 3·About·Privacy로 모두 일치)
 - [ ] (Claude) 공개 페이지로 확인: 12개 URL이 200으로 열리는지, `robots.txt`와 사이트맵이 그대로인지, 각 글의 canonical·robots 메타가 `index, follow`인지.
 
 ### 5-2. 색인 (SC)
