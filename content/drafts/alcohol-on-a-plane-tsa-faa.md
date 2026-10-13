@@ -8,7 +8,7 @@ status: draft
 date: 2026-10-13
 internal_link_candidates: tsa-3-1-1-liquids-rule (used once)
 image: assets/optimized/alcohol-on-a-plane-tsa-faa.png
-image_alt: "Diagram of what TSA and the FAA say about alcohol on a plane. Carry-on: 3.4 oz (100 ml) or less. Checked bag: 24% alcohol or less is not subject to limitations; over 24% up to 70% needs unopened retail packaging and 5 liters total per passenger. Over 70% (over 140 proof): not allowed in carry-on or checked bags."
+image_alt: "Diagram of what TSA and the FAA say about alcohol on a plane. Carry-on: 3.4 oz (100 ml) or less. Checked bag: 24% alcohol or less is not subject to limitations; over 24% up to 70% needs unopened retail packaging and 5 liters total per passenger. Over 70% (over 140 proof): not allowed in carry-on or checked bags. On board: no drinking alcohol unless the air carrier serves it. Check with your airline."
 ---
 
 # Can You Bring Alcohol on a Plane? What TSA and the FAA Say
@@ -28,7 +28,7 @@ This article covers what TSA's and the FAA's pages say. The wording is as of Oct
 
 For carry-on bags, TSA's page adds that mini bottles of alcohol must be able to comfortably fit into a single quart-sized bag. For the general carry-on liquids rule, see [the TSA 3-1-1 liquids rule](https://statesideexplained.com/tsa-3-1-1-liquids-rule/).
 
-![Diagram of what TSA and the FAA say about alcohol on a plane. Carry-on: 3.4 oz (100 ml) or less. Checked bag: 24% alcohol or less is not subject to limitations; over 24% up to 70% needs unopened retail packaging and 5 liters total per passenger. Over 70% (over 140 proof): not allowed in carry-on or checked bags.](assets/optimized/alcohol-on-a-plane-tsa-faa.png)
+![Diagram of what TSA and the FAA say about alcohol on a plane. Carry-on: 3.4 oz (100 ml) or less. Checked bag: 24% alcohol or less is not subject to limitations; over 24% up to 70% needs unopened retail packaging and 5 liters total per passenger. Over 70% (over 140 proof): not allowed in carry-on or checked bags. On board: no drinking alcohol unless the air carrier serves it. Check with your airline.](assets/optimized/alcohol-on-a-plane-tsa-faa.png)
 
 ## The 5-liter limit is a total per passenger
 
@@ -36,7 +36,7 @@ For beverages with more than 24% but not more than 70% alcohol by volume (up to 
 
 ## Beverages with 24% alcohol or less
 
-TSA's page says beverages with 24% alcohol or less are not subject to limitations in checked bags. That is TSA's statement about checked bags only. It does not change the carry-on limit above, and it does not speak for any airline's own policy. The regulation, 49 CFR 175.10(a)(4), covers beverages with not more than 24% alcohol by volume without a quantity limit.
+TSA's page says beverages with 24% alcohol or less are not subject to limitations in checked bags. That is TSA's statement about checked bags only. It does not change the carry-on limit above, and it does not speak for any airline's own policy. The regulation, 49 CFR 175.10(a)(4), covers beverages with not more than 24% alcohol by volume and does not state a quantity limit for them.
 
 ## Beverages with more than 70% alcohol
 

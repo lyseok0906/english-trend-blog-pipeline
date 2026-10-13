@@ -58,7 +58,7 @@ US travelers packing for a domestic flight.
 
 ## Image plan (no photos)
 
-Own diagram, made 2026-10-13: five cards (carry-on; checked 24% or less; checked over 24% up to 70%; over 70% / over 140 proof, not allowed; on board), footer "TSA: check with your airline" and "The TSA officer makes the final decision". No bottle photos, no brand names, no logos. Files: `assets/raw/alcohol-on-a-plane-tsa-faa.svg`, `assets/optimized/alcohol-on-a-plane-tsa-faa.png` (1200 px wide). Alt text in front matter (313 characters).
+Own diagram, made 2026-10-13: five cards (carry-on; checked 24% or less; checked over 24% up to 70%; over 70% / over 140 proof, not allowed; on board), footer "TSA: check with your airline" and "The TSA officer makes the final decision". No bottle photos, no brand names, no logos. Files: `assets/raw/alcohol-on-a-plane-tsa-faa.svg`, `assets/optimized/alcohol-on-a-plane-tsa-faa.png` (1200 px wide). Alt text in front matter (402 characters after the 2026-10-13 pre-Gate-2 fixes; third card title "over 24% up to 70%").
 
 ## Risks
 

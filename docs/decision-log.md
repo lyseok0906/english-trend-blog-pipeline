@@ -800,3 +800,11 @@ Context: the user is concerned that a site made only of articles and diagrams lo
 **Gate 1 (Claude, re-run).** 23 of 23 claims and 5 of 5 image checks pass; one open caveat (the FAA chart PDF read method; the over-70% rule is also stated by TSA's own entry). Files updated: brief, source notes (S4, S5 added), QA record, backlog row 16.
 
 **Status and limits.** Stage `draft`. Not sent to Gate 2 by Claude, not approved, not on WordPress, not published; post-pilot, not counted in the pilot 12. Mandatory before approval: direct open of the FAA chart PDF and re-read of all five pages.
+
+## 2026-10-13 — Article 13: pre-Gate-2 self-check by the writer; three wording fixes applied (not a Gate 2 pass)
+
+**Context.** After commit `6ff8034`, Claude (the article's writer) checked the four points the user listed. This is a **self-check and is not recorded as Gate 2**; the independent Gate 2 is done by the user's other reviewer on the new commit, against the repository's actual draft, QA record and PNG.
+
+**Decisions by the user (2026-10-13).** (1) Diagram: card title "over 24% to 70%" becomes "over 24% up to 70%". (2) Body: "without a quantity limit" becomes "does not state a quantity limit". (3) Alt text: include the "On board" card and the airline-check line, kept near 400 characters (now 402). (4) The focus keyword is not forced into the meta description or first sentence; the title and H1 carry it. (5) The FAA printable chart PDF stays a supporting source for this article; a direct open of the PDF is required right before publishing (the over-70% rule also rests on TSA's own entry). (6) Claude commits and pushes this revision and reports only the new SHA; the user explicitly asked for the push this time.
+
+**Applied.** SVG and PNG regenerated (1200 x 2286, 115,201 bytes) and viewed; draft, alt (front matter and embed), QA record (Gate 1 re-run result unchanged: 23 of 23 claims, 5 of 5 image checks; new self-check section; Gate 2 still "not done"), brief and backlog row updated.
