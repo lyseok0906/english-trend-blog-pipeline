@@ -857,3 +857,15 @@ Claude opened the three child sitemaps in the built-in browser (logged out). `po
 No security-issue or manual-action message appears in the list (the Security and manual actions reports themselves were not seen).
 
 **Needed next.** The body of message 1 and the Pages (indexing) report (indexed / not indexed counts and the reasons list). Table E rows for those stay `—`.
+
+## 2026-10-13 — Pages (indexing) report and message bodies received; Claude's check of the 18 sitemap URLs
+
+**Received (`사용자` screenshots, 2026-10-13).** Pages report "all known pages", last updated 2026-10-09: **indexed 12, not indexed 9 (4 reasons)**: "Page with redirect" 3 (source: website), "Excluded by 'noindex' tag" 2 (website), "Discovered – currently not indexed" 3 (Google systems), "Crawled – currently not indexed" 1 (Google systems); validation "not started" for all. Message 1 (2026-10-12) says the two new reasons are "Page with redirect" and "Excluded by 'noindex' tag"; no URLs are named. Message 2 (2026-10-11): Google Search impressions started being collected on 2026-10-09. Message 3 (2026-10-08): domain property verification and getting-started tips. No manual-action or security message in the list.
+
+**Not known.** Which URLs are the 12 indexed and which are the 9 not indexed (the report's per-reason URL lists were not sent). So the 12 posts' individual index status is still unknown.
+
+**Claude's check (read-only, built-in browser, same-origin fetch, logged out, 2026-10-13).** All 18 unique URLs of the three sitemaps (home, About, Privacy Policy, 3 category pages, 12 posts) return 200, declare `index, follow` in the robots meta and a self-referencing canonical, and send no `X-Robots-Tag` header. So none of the sitemap URLs is a "noindex" or canonical-pointing-elsewhere page. Pages that do carry `noindex` today: `/author/admin/` (200, "follow, noindex", the author archive whose link was removed from post bylines on 2026-10-08, JSON-LD still has some URLs) and `/author/stateside-explained/` (404, "follow, noindex"). These are candidates for the 2 noindex pages, **not confirmed** (the report's URL list is needed). The 3 "Page with redirect" URLs are most likely the non-canonical `www` or `http` variants that the 2026-10-08 Cloudflare 301 rule redirects, again **not confirmed**.
+
+**Reading (Claude, not a decision).** Nothing seen so far points at a problem with the 12 posts: they are indexable, in the sitemap and canonical to themselves. "Discovered" and "Crawled – currently not indexed" (4 URLs) are common states for a one-week-old site and are recorded as observation, not as a defect. No change made to WordPress, the theme or Search Console; no indexing request for any post.
+
+**Next.** The user clicks each of the four reasons in the Pages report and sends the URL lists (9 URLs in total); then the table E rows get filled and the 12 posts' individual status is settled.
