@@ -45,24 +45,26 @@
 | 11 | 3 우편·우표 | `usps-informed-delivery-how-it-works` | https://statesideexplained.com/usps-informed-delivery-how-it-works/ | 2026-10-07 | `what is usps informed delivery` |
 | 12 | 3 우편·우표 | `usps-mail-forwarding-how-long` | https://statesideexplained.com/usps-mail-forwarding-how-long/ | 2026-10-07 | `how long does usps forward mail` |
 
-### 표 B — 1주 점검 기록 (확인일: ______ )
+### 표 B — 1주 점검 기록 (확인일: 2026-10-13 수신, 사용자 Search Console 스크린샷. SC 데이터 기준은 2026-10-10까지)
 
 열 설명: **색인**=Search Console URL 검사의 "URL is on Google" 여부(`예`/`아니오`/`—`), **마지막 크롤**=URL 검사의 Last crawl 날짜, **Google 선택 canonical**=URL 검사의 "Google-selected canonical"이 선언한 canonical과 같은지(`같음`/`다름`/`—`), **노출·클릭**=Performance의 최근 7일(Search type: Web) 값, **제목 검색**=글 제목을 그대로 검색했을 때 보이는지(`수동`), **키워드 검색**=포커스 키워드로 검색했을 때 보이는지(`수동`, 대략 위치 구간만).
 
 | # | 슬러그 | 색인 | 마지막 크롤 | Google 선택 canonical | 노출 | 클릭 | 제목 검색 | 키워드 검색 | 메모(이유 문구, 출처 라벨) |
 |---|---|---|---|---|---|---|---|---|---|
-| 1 | `daylight-saving-time-end-2026-us` |  |  |  |  |  |  |  |  |
-| 2 | `federal-holiday-weekend-observed` |  |  |  |  |  |  |  |  |
-| 3 | `first-day-of-winter-2026` |  |  |  |  |  |  |  |  |
-| 4 | `thanksgiving-2026-date` |  |  |  |  |  |  |  |  |
-| 5 | `power-bank-on-a-plane-tsa-faa` |  |  |  |  |  |  |  |  |
-| 6 | `real-id-to-fly-what-tsa-accepts` |  |  |  |  |  |  |  |  |
-| 7 | `tsa-3-1-1-liquids-rule` |  |  |  |  |  |  |  |  |
-| 8 | `tsa-precheck-what-it-changes` |  |  |  |  |  |  |  |  |
-| 9 | `forever-stamp-how-it-works` |  |  |  |  |  |  |  |  |
-| 10 | `usps-hold-mail-how-it-works` |  |  |  |  |  |  |  |  |
-| 11 | `usps-informed-delivery-how-it-works` |  |  |  |  |  |  |  |  |
-| 12 | `usps-mail-forwarding-how-long` |  |  |  |  |  |  |  |  |
+| 1 | `daylight-saving-time-end-2026-us` |  |  |  | 9 | 0 |  |  | 노출·클릭: SC 실적 페이지 탭, 기간 3개월(데이터 10/7~10/10), 검색 유형 웹, `사용자` 스크린샷. 색인·크롤·canonical은 미전달 |
+| 2 | `federal-holiday-weekend-observed` |  |  |  | 36 | 0 |  |  | 노출·클릭: SC 실적 페이지 탭, 기간 3개월(데이터 10/7~10/10), 검색 유형 웹, `사용자` 스크린샷. 색인·크롤·canonical은 미전달 |
+| 3 | `first-day-of-winter-2026` |  |  |  | 84 | 0 |  |  | 노출·클릭: SC 실적 페이지 탭, 기간 3개월(데이터 10/7~10/10), 검색 유형 웹, `사용자` 스크린샷. 색인·크롤·canonical은 미전달 |
+| 4 | `thanksgiving-2026-date` |  |  |  | 274 | 0 |  |  | 노출·클릭: SC 실적 페이지 탭, 기간 3개월(데이터 10/7~10/10), 검색 유형 웹, `사용자` 스크린샷. 색인·크롤·canonical은 미전달 |
+| 5 | `power-bank-on-a-plane-tsa-faa` |  |  |  | — | — |  |  | 표시된 10행에 없음(페이지 탭 "총 11행 중 1~10"; 10행 합계가 총 노출 496과 같아 11번째 행은 미확인). `0`으로 적지 않음. 색인·크롤·canonical은 미전달 |
+| 6 | `real-id-to-fly-what-tsa-accepts` |  |  |  | 5 | 0 |  |  | 노출·클릭: SC 실적 페이지 탭, 기간 3개월(데이터 10/7~10/10), 검색 유형 웹, `사용자` 스크린샷. 색인·크롤·canonical은 미전달 |
+| 7 | `tsa-3-1-1-liquids-rule` |  |  |  | 7 | 0 |  |  | 노출·클릭: SC 실적 페이지 탭, 기간 3개월(데이터 10/7~10/10), 검색 유형 웹, `사용자` 스크린샷. 색인·크롤·canonical은 미전달 |
+| 8 | `tsa-precheck-what-it-changes` |  |  |  | — | — |  |  | 표시된 10행에 없음(페이지 탭 "총 11행 중 1~10"; 10행 합계가 총 노출 496과 같아 11번째 행은 미확인). `0`으로 적지 않음. 색인·크롤·canonical은 미전달 |
+| 9 | `forever-stamp-how-it-works` |  |  |  | 13 | 0 |  |  | 노출·클릭: SC 실적 페이지 탭, 기간 3개월(데이터 10/7~10/10), 검색 유형 웹, `사용자` 스크린샷. 색인·크롤·canonical은 미전달 |
+| 10 | `usps-hold-mail-how-it-works` |  |  |  | 53 | 0 |  |  | 노출·클릭: SC 실적 페이지 탭, 기간 3개월(데이터 10/7~10/10), 검색 유형 웹, `사용자` 스크린샷. 색인·크롤·canonical은 미전달 |
+| 11 | `usps-informed-delivery-how-it-works` |  |  |  | — | — |  |  | 표시된 10행에 없음(페이지 탭 "총 11행 중 1~10"; 10행 합계가 총 노출 496과 같아 11번째 행은 미확인). `0`으로 적지 않음. 색인·크롤·canonical은 미전달 |
+| 12 | `usps-mail-forwarding-how-long` |  |  |  | 12 | 0 |  |  | 노출·클릭: SC 실적 페이지 탭, 기간 3개월(데이터 10/7~10/10), 검색 유형 웹, `사용자` 스크린샷. 색인·크롤·canonical은 미전달 |
+
+**표 B 1주 점검 메모 (2026-10-13 수신, `사용자` 스크린샷 5장).** 페이지 탭의 표시된 10행(노출): `thanksgiving-2026-date` 274, `first-day-of-winter-2026` 84, `usps-hold-mail-how-it-works` 53, `federal-holiday-weekend-observed` 36, `forever-stamp-how-it-works` 13, `usps-mail-forwarding-how-long` 12, `daylight-saving-time-end-2026-us` 9, `tsa-3-1-1-liquids-rule` 7, `real-id-to-fly-what-tsa-accepts` 5, 홈(`/`) 3 (홈은 12편에 합산하지 않음). 합계 496 = 사이트 전체 노출. 클릭은 전부 0. 이 값은 기간 "3개월"로 본 것이라 표 B 열 설명의 "최근 7일"과 기간 표기가 다르다(사이트 데이터가 2026-10-07부터라 실제 구간은 같다고 보지만 7일 필터로 다시 본 것은 아님). **전달되지 않은 값:** Pages(색인) 보고서의 색인됨/안 됨 개수와 이유, 글 12편 각각의 URL 검사(홈만 전달), 알림 "3"의 내용.
 
 ### 표 C — 4주 평가 기록 (확인일: ______ )
 
@@ -106,18 +108,18 @@
 
 | 항목 | 2026-10-08 (Claude) | 1주 점검 | 4주 평가 |
 |---|---|---|---|
-| Search Console 속성 만듦·소유 확인 | 2026-10-08 Claude 확인 시점에는 확인 안 됨(Rank Math의 Google 연결은 설정 때 건너뜀). **같은 날(2026-10-08) 사용자가 도메인 속성 인증을 완료했다고 알려 줌**(`사용자`, 화면값은 기록하지 않음) |  |  |
-| 속성 종류 | 도메인 속성(`사용자`, 2026-10-08) |  |  |
-| 사이트맵 제출 주소 | `https://statesideexplained.com/sitemap_index.xml` (robots.txt에도 적혀 있음). **2026-10-08 사용자가 이 주소로 제출했다고 알려 줌**(`사용자`) |  |  |
-| 색인 생성 요청(Request indexing) | 홈페이지에 1회, 2026-10-08 사용자가 요청했다고 알려 줌(`사용자`). 글 12편에는 요청했다는 말이 없음(요청 안 했는지는 1주 점검 때 확인) |  |  |
-| 사이트맵 상태(Success 등)·마지막 읽은 날 | — |  |  |
-| 사이트맵에서 발견된 URL 수 | 공개 사이트맵 기준 post-sitemap 13개(홈 + 글 12) + category-sitemap 3개 |  |  |
-| Pages(색인) 보고서: 색인됨 / 색인 안 됨 | — |  |  |
-| 색인 안 됨 이유 목록(원문 그대로) | — |  |  |
-| 사이트 전체 노출·클릭(기간 명시) | — |  |  |
-| 홈·카테고리·About·Privacy 상태 | 홈과 카테고리 3개는 사이트맵에 있음. About·Privacy는 초안(비공개) |  |  |
+| Search Console 속성 만듦·소유 확인 | 2026-10-08 Claude 확인 시점에는 확인 안 됨(Rank Math의 Google 연결은 설정 때 건너뜀). **같은 날(2026-10-08) 사용자가 도메인 속성 인증을 완료했다고 알려 줌**(`사용자`, 화면값은 기록하지 않음) | 속성 `statesideexplained.com`이 Search Console 화면에서 열림(2026-10-13 `사용자` 스크린샷). 소유 확인 방법은 화면에 안 보임 |  |
+| 속성 종류 | 도메인 속성(`사용자`, 2026-10-08) | 도메인 속성 형태로 표시(`statesideexplained.com`, 스킴·경로 없음) (2026-10-13 `사용자` 스크린샷) |  |
+| 사이트맵 제출 주소 | `https://statesideexplained.com/sitemap_index.xml` (robots.txt에도 적혀 있음). **2026-10-08 사용자가 이 주소로 제출했다고 알려 줌**(`사용자`) | `sitemap_index.xml` 제출됨, 제출일 2026-10-08 (2026-10-13 `사용자` 스크린샷) |  |
+| 색인 생성 요청(Request indexing) | 홈페이지에 1회, 2026-10-08 사용자가 요청했다고 알려 줌(`사용자`). 글 12편에는 요청했다는 말이 없음(요청 안 했는지는 1주 점검 때 확인) | 홈 URL 검사 화면에 "색인 생성 요청" 링크가 보임. 글 12편의 요청 여부는 이번 스크린샷에 없음 → `—` |  |
+| 사이트맵 상태(Success 등)·마지막 읽은 날 | — | `sitemap_index.xml`: 상태 **성공**, 유형 Sitemap 색인, 마지막으로 읽은 날짜 2026-10-10, "사이트맵 색인 처리 완료". 하위 사이트맵: `category-sitemap.xml` 성공·2026-10-11, `page-sitemap.xml` 성공·2026-10-12, `post-sitemap.xml` 성공·2026-10-13 (2026-10-13 `사용자` 스크린샷) |  |
+| 사이트맵에서 발견된 URL 수 | 공개 사이트맵 기준 post-sitemap 13개(홈 + 글 12) + category-sitemap 3개 | **19** (발견된 동영상 0). 하위별 category 3 + page 3 + post 13 = 19. post 13은 1주 전 공개 사이트맵 기준 "홈 + 글 12"와 같은 수(Claude의 추정, 이번에 URL 목록으로 대조하지 않음). **page-sitemap 3개는 레포가 세는 페이지 2개(About·Privacy)보다 1개 많음. 세 번째 URL은 스크린샷으로 알 수 없음 → 확인 필요** (2026-10-13 `사용자` 스크린샷) |  |
+| Pages(색인) 보고서: 색인됨 / 색인 안 됨 | — | **이번 스크린샷에 없음 → `—`** (색인생성 → 페이지 보고서는 아직 전달되지 않음) |  |
+| 색인 안 됨 이유 목록(원문 그대로) | — | `—` (Pages 보고서 미전달) |  |
+| 사이트 전체 노출·클릭(기간 명시) | — | 기간 "3개월"(실제 데이터는 2026-10-07~2026-10-10 그래프, "최종 업데이트 9시간 전"), 검색 유형 웹: **클릭 0, 노출 496, 평균 CTR 0%, 평균 게재순위 16.2** (2026-10-13 `사용자` 스크린샷). 검색어 103행: 상위 `thanksgiving 2026` 노출 227, `cuando cae thanksgiving 2026` 8, `first day of winter 2026` 7, `fecha de thanksgiving 2026` 6, `start of winter 2026` 6, 클릭은 모두 0. 페이지별 노출은 표 B 메모 참고 |  |
+| 홈·카테고리·About·Privacy 상태 | 홈과 카테고리 3개는 사이트맵에 있음. About·Privacy는 초안(비공개) | 홈 URL 검사(`https://statesideexplained.com/`): **"URL이 Google에 등록되어 있음"**, 페이지 색인 생성 "페이지 색인이 생성됨", HTTPS 정상(2026-10-13 `사용자` 스크린샷). 마지막 크롤 날짜·canonical 항목은 접힌 상태라 화면에 안 보임 → `—`. 카테고리 3개는 category-sitemap에서 발견 3. About·Privacy 개별 상태는 이번에 못 봄 (page-sitemap 3개 중 어떤 것인지 미확인) |  |
 | `www` 주소 | 2026-10-08 Claude 확인 시점에는 열리지 않음(통일 안 됨). **같은 날 사용자가 Cloudflare에서 `www`를 프록시로 바꾸고 `www` → apex 301 규칙을 배포함.** 사용자의 `curl -sIL` 결과로 https `www` 글·검색 쿼리와 `http://www` 홈 모두 301 한 번 후 apex 200 확인(`docs/decision-log.md` 2026-10-08 `www` 항목) |  |  |
-| Search Console 알림·보안·수동 조치 메시지 | — |  |  |
+| Search Console 알림·보안·수동 조치 메시지 | — | 화면 우상단 알림 아이콘에 **"3"** 표시(모든 스크린샷에서 동일). 알림 내용·보안 및 직접 조치 보고서는 미확인 → 내용 `—` (2026-10-13 `사용자` 스크린샷) |  |
 | 작성자 표시 | 2026-10-08: 표시 이름을 `Stateside Explained`로 변경(글 화면, JSON-LD, 공유 메타, 피드 확인). 작성자 줄 링크 `/author/admin/`는 2026-10-08 2단계에서 제거(글 12편 확인, JSON-LD에는 URL 3곳 남음). 글 본문·modified 시각은 바뀌지 않음(`docs/decision-log.md`) |  |  |
 
 ## 4. 점검 전에 해 둘 일 (사용자 쪽)
@@ -134,8 +136,8 @@ Claude는 사용자의 Search Console 계정에 접근하지 않으며, 로그�
 
 ### 5-1. 사이트맵과 크롤 준비 (SC, Claude)
 
-- [ ] Sitemaps 보고서에서 `sitemap_index.xml`의 상태가 성공(Success)인지, 마지막 읽은 날짜가 있는지. 실패면 화면의 오류 문구를 **원문 그대로** 표 E에 적는다.
-- [ ] 발견된 URL 수가 공개 사이트맵(13개 + 카테고리 3개)과 맞는지.
+- [x] (2026-10-13 `사용자` 스크린샷: 성공, 마지막 읽은 날짜 2026-10-10) Sitemaps 보고서에서 `sitemap_index.xml`의 상태가 성공(Success)인지, 마지막 읽은 날짜가 있는지. 실패면 화면의 오류 문구를 **원문 그대로** 표 E에 적는다.
+- [ ] 발견된 URL 수가 공개 사이트맵(13개 + 카테고리 3개)과 맞는지. (2026-10-13: 화면은 19 = post 13 + category 3 + page 3. page-sitemap 3개가 추가 항목이며 세 번째 URL 미확인. 공개 사이트맵과의 대조는 아직 안 함)
 - [ ] (Claude) 공개 페이지로 확인: 12개 URL이 200으로 열리는지, `robots.txt`와 사이트맵이 그대로인지, 각 글의 canonical·robots 메타가 `index, follow`인지.
 
 ### 5-2. 색인 (SC)
@@ -147,7 +149,7 @@ Claude는 사용자의 Search Console 계정에 접근하지 않으며, 로그�
 
 ### 5-3. 검색 노출 (SC)
 
-- [ ] Performance → Search results, 기간 최근 7일, Search type Web: 사이트 전체 클릭·노출·평균 순위를 표 E에 적는다.
+- [x] (2026-10-13 `사용자` 스크린샷, 기간은 7일이 아니라 3개월로 본 값) Performance → Search results, 기간 최근 7일, Search type Web: 사이트 전체 클릭·노출·평균 순위를 표 E에 적는다.
 - [ ] Pages 탭에서 12편 각각의 노출·클릭을 표 B에 옮긴다. 목록에 없는 글은 `0`이 아니라 **"목록에 없음"**으로 적는다(데이터가 아직 없는 것과 0은 다르다).
 - [ ] 최근 1~3일은 데이터가 비어 있을 수 있으므로 기간 끝 날짜를 함께 적는다.
 

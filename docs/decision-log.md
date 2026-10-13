@@ -816,3 +816,26 @@ Context: the user is concerned that a site made only of articles and diagrams lo
 **Stage.** Still `draft`. Not approved for `ready`, not on WordPress, not published. Post-pilot article, not counted in the pilot 12.
 
 **Conditions kept (user decision).** Before the user approves the move to `ready`, re-read five pages: TSA "Alcoholic beverages", TSA "Alcoholic beverages over 140 proof", the FAA PackSafe web page, eCFR 49 CFR 175.10, and the FAA PackSafe printable chart. **The FAA PDF must be opened directly in a browser.** If it cannot be opened, the article is not published. A changed or missing statement sends the draft back to Gate 1. The same re-check is repeated right before publishing.
+
+## 2026-10-13 — 1-week Search Console values recorded (user screenshots, 5)
+
+**Source and timing.** Five Search Console screenshots sent by the user on 2026-10-13 (source label `사용자`), one day before the planned "on or after 2026-10-14" checkpoint. Search Console data in them runs only to 2026-10-10 ("last updated 9 hours ago"). Treated as the 1-week values; if the user wants a fresh read on or after 2026-10-14, add a second reading rather than overwriting. Recorded in `docs/pilot-evaluation.md` (table E "1주 점검" column, table B, checklist 5-1 and 5-3). Property: `statesideexplained.com` (domain property).
+
+**Values.**
+- Sitemaps: `sitemap_index.xml` submitted 2026-10-08, status **Success**, last read 2026-10-10, "sitemap index processed". Children: `category-sitemap.xml` 3 URLs (read 10-11), `page-sitemap.xml` 3 URLs (read 10-12), `post-sitemap.xml` 13 URLs (read 10-13). Discovered pages **19**, videos 0.
+- Performance (web, window "3 months", data 2026-10-07 to 10-10): **clicks 0, impressions 496, CTR 0%, average position 16.2**. Queries: 103 rows; top `thanksgiving 2026` (227 impressions), then `cuando cae thanksgiving 2026` 8, `first day of winter 2026` 7, `fecha de thanksgiving 2026` 6, `start of winter 2026` 6; all with 0 clicks.
+- Pages tab (impressions, clicks all 0): `thanksgiving-2026-date` 274, `first-day-of-winter-2026` 84, `usps-hold-mail-how-it-works` 53, `federal-holiday-weekend-observed` 36, `forever-stamp-how-it-works` 13, `usps-mail-forwarding-how-long` 12, `daylight-saving-time-end-2026-us` 9, `tsa-3-1-1-liquids-rule` 7, `real-id-to-fly-what-tsa-accepts` 5, home 3. The 10 rows sum to 496. Listed as 11 rows; the 11th was not visible.
+- Home URL inspection (`https://statesideexplained.com/`): "URL is on Google", page indexing "page is indexed", HTTPS fine. Last-crawl date and canonical were collapsed on screen, not recorded. A "Request indexing" link is shown.
+
+**Not received / not verified.**
+- Pages (indexing) report: indexed / not indexed counts and reasons.
+- URL inspection for the 12 posts (only home was sent), so table B's index, last-crawl and canonical columns stay empty.
+- Content of the notification badge ("3") shown top right on every screen; Security and manual actions report.
+- `power-bank-on-a-plane-tsa-faa`, `tsa-precheck-what-it-changes` and `usps-informed-delivery-how-it-works` are not among the 10 visible Pages rows; recorded as `—`, not as 0.
+- The 7-day filter was not used (window was 3 months, which for a site live since 2026-10-07 covers the same days, assumed not verified).
+
+**Open item.** `page-sitemap.xml` lists 3 URLs while the repo counts 2 pages (About, Privacy). The third URL is unknown from the screenshots. Post-sitemap 13 is consistent with "home + 12 posts" (Claude's inference, URL list not compared). Both matter for the homepage step (the home moves from the post sitemap to the page sitemap).
+
+**Reading (Claude, not a decision).** One week is too early to judge: impressions exist, no clicks, nothing in these numbers says to change a post. Over half of the impressions (274 of 496) sit on the Thanksgiving date article, and the Spanish and "start of winter" queries show seasonal date queries are the first to be shown. The 12 posts' pass/fail thresholds for the 4-week evaluation are still undecided.
+
+**Next (needs the user's approval each step).** Homepage restructure step 1: check the 12 posts for a sources list and a stated check date, then finalize the intro copy. No WordPress or theme change has been made.
