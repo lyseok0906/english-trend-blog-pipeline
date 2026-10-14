@@ -999,3 +999,13 @@ No security-issue or manual-action message appears in the list (the Security and
 
 **Next.** Step 5: a final logged-out round (home, header, posts, About, Privacy) and decision-log entry were largely covered by the checks above; remaining: the user's own look on a real phone, including the 20 px menu link height and the sideways scroll above. Search Console: re-check the Pages report around 2026-10-16.
 
+## 2026-10-14 — Sideways scroll on phones fixed with CSS (post bodies not edited)
+
+**Approval.** The user pushed `4a2a0b3` and decided: fix the sideways scroll with CSS, do not edit post bodies; apply only to body links and not to header, menu or footer: `.wp-block-post-content a { overflow-wrap: anywhere; }`; then purge the cache and re-check the 12 posts at 375 px logged out (no sideways scroll; short links, body text, tables, previous/next links, header menu not broken).
+
+**Done (Claude, site editor).** The rule was added as Additional CSS in Styles (the site's user global styles record, ID 4, `styles.css`; the record had no other customizations before). No theme file, no post and no template was changed. LiteSpeed "Purge All - LSCache" was run ("Notified LiteSpeed Web Server to purge all LSCache entries").
+
+**Verification (logged out: HTML fetched without credentials and rendered in a 375 px frame; 12 of 12 posts).** No sideways scroll on any post (document scroll width equals the visible width, no element past the right edge); previous/next navigation and header do not overflow; the 8 to 9 tables (1 or 2 on seven posts) are about 300 px wide inside the 330 px content area. Computed `overflow-wrap`: `anywhere` on body links, `normal` on header and previous/next links; the footer's `break-word` is the theme's own and unchanged. Effect isolated by switching the rule off in the same frame: short link text (non-URL links) has identical size on all 12 posts, header, footer and navigation heights identical on all 12; only the printed source URLs now wrap, and the body grows by 0 to 102 px in height (two posts, `real-id-to-fly-what-tsa-accepts` and `usps-informed-delivery-how-it-works`, unchanged). The home page, About, Privacy and the category archives were not part of this check; the rule targets `.wp-block-post-content` only, which they use for body text but with no printed URL.
+
+**Not checked.** A real phone or Safari; the user's own look at the 20 px menu link height and tap area remains.
+
