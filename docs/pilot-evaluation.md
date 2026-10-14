@@ -66,6 +66,8 @@
 
 **표 B 1주 점검 메모 (2026-10-13 수신, `사용자` 스크린샷 5장).** 페이지 탭의 표시된 10행(노출): `thanksgiving-2026-date` 274, `first-day-of-winter-2026` 84, `usps-hold-mail-how-it-works` 53, `federal-holiday-weekend-observed` 36, `forever-stamp-how-it-works` 13, `usps-mail-forwarding-how-long` 12, `daylight-saving-time-end-2026-us` 9, `tsa-3-1-1-liquids-rule` 7, `real-id-to-fly-what-tsa-accepts` 5, 홈(`/`) 3 (홈은 12편에 합산하지 않음). 합계 496 = 사이트 전체 노출. 클릭은 전부 0. 이 값은 기간 "3개월"로 본 것이라 표 B 열 설명의 "최근 7일"과 기간 표기가 다르다(사이트 데이터가 2026-10-07부터라 실제 구간은 같다고 보지만 7일 필터로 다시 본 것은 아님). **전달되지 않은 값:** Pages(색인) 보고서의 색인됨/안 됨 개수와 이유, 글 12편 각각의 URL 검사(홈만 전달), 알림 "3"의 내용.
 
+**1주 점검 2차 값 (2026-10-14 수신, `사용자` 스크린샷 9장; 1차 값은 위에 그대로 둠).** Performance(웹): 기간 "7일"과 "3개월" 모두 **클릭 0, 노출 710, 평균 CTR 0%, 평균 게재순위 15.1**(1차: 노출 496, 순위 16.2). 그래프는 2026-10-07~2026-10-11, "최종 업데이트 10시간 전". 검색어(7일): `thanksgiving 2026` 249, `cuando es thanksgiving 2026` 32, `fecha de thanksgiving 2026` 11, `first day of winter 2026` 10, `winter kab se start hoga 2026` 8, 클릭은 모두 0. 일별 노출은 10-09에 낮고 10-10에 가장 높고 10-11에 줄어든 모양(그래프만 보고 읽은 대략값, 정확한 일별 숫자는 안 받음). **Pages 보고서는 1차와 같음:** 색인됨 12 / 안 됨 9(이유 4개: 리디렉션 3, NOINDEX 2, 발견됨 3, 크롤링됨 1), 보고서 최종 업데이트 여전히 2026-10-09, 이유별 URL도 1차와 같음(발견됨 3편 = `power-bank-on-a-plane-tsa-faa`, `tsa-precheck-what-it-changes`, `usps-informed-delivery-how-it-works`, 최종 크롤 "해당사항 없음"). Sitemaps: `sitemap_index.xml` 성공, 마지막으로 읽은 날짜 2026-10-10, 발견된 페이지 19(1차와 같음). 알림 아이콘의 "3" 표시는 사라짐(메시지를 읽음). **못 받은 값:** 색인됨 12개의 URL 목록, 7일 기준 글별(페이지 탭) 노출. **읽기:** Pages 보고서가 1차 이후 갱신되지 않아 크롤 안 된 3편의 변화는 아직 알 수 없다. 노출만 늘었고 클릭은 0이다.
+
 ### 표 C — 4주 평가 기록 (확인일: ______ )
 
 같은 열이고, 노출·클릭은 **최근 28일** 값이다.
