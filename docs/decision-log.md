@@ -889,3 +889,30 @@ No security-issue or manual-action message appears in the list (the Security and
 **Not received.** The list of the 12 indexed URLs; per-post impressions for the 7-day view.
 
 **Reading (Claude, not a decision).** The Pages report has not refreshed since the first reading, so there is no new information about the three posts Google has discovered but not crawled (`power-bank-on-a-plane-tsa-faa`, `tsa-precheck-what-it-changes`, `usps-informed-delivery-how-it-works`). Impressions rose (496 to 710, data one day longer), clicks stay 0. Nothing here asks for a change to a post, WordPress or Search Console. Recorded in `docs/pilot-evaluation.md` as a second reading below table B; the first reading was not overwritten. Suggested next look at the Pages report: when its "last updated" date moves past 2026-10-09 (not before about 2026-10-16), then decide whether to ask for indexing of the three posts.
+
+## 2026-10-14 — Homepage restructure, step 1: do the 12 posts list sources and a check date? (read-only)
+
+**Scope (user instruction, 2026-10-14).** Check only whether each of the 12 published posts really has a source list and a stated check date. No change to WordPress, the theme or any post. The user will finalize the intro copy from this result. Method: Claude, logged out, built-in browser, same-origin fetch of the 12 post pages on 2026-10-14; the "Sources" section and the date text were read from the page HTML. Not changed: anything on the site; not checked: whether each source statement still matches the live agency page (that is the separate DST re-check before 2026-11-01 and the 4-week evaluation).
+
+**Result: 12 of 12 have both.** Each post has an H2 "Sources" with linked official pages (33 links in total: 2 to 4 per post) and a sentence in that section saying when the pages were checked ("All pages were checked on ..."). Each also says "as of [date]" in the body. All 33 links are on government or agency domains: nist.gov, transportation.gov, govinfo.gov, opm.gov, aa.usno.navy.mil, ncei.noaa.gov, tsa.gov, faa.gov and USPS sites (usps.com, faq., pe., store., facts.usps.com). Sources lines also note the page's own update date where the page shows one, and say "no update date" where it does not. The About page already says: facts come from official sources, each article lists its sources at the end and says when they were checked, independent site not affiliated with USPS, TSA, NIST, DOT or any government agency.
+
+| Post | Sources | Check date stated |
+|---|---|---|
+| `daylight-saving-time-end-2026-us` | 4 | October 6, 2026 |
+| `federal-holiday-weekend-observed` | 2 | October 7, 2026 |
+| `first-day-of-winter-2026` | 2 | October 7, 2026 |
+| `thanksgiving-2026-date` | 2 | October 7, 2026 |
+| `power-bank-on-a-plane-tsa-faa` | 3 | October 7, 2026 |
+| `real-id-to-fly-what-tsa-accepts` | 3 | October 7, 2026 |
+| `tsa-3-1-1-liquids-rule` | 2 | October 7, 2026 |
+| `tsa-precheck-what-it-changes` | 3 | October 7, 2026 |
+| `forever-stamp-how-it-works` | 4 | October 7, 2026 |
+| `usps-hold-mail-how-it-works` | 3 | October 7, 2026 |
+| `usps-informed-delivery-how-it-works` | 2 | October 7, 2026 |
+| `usps-mail-forwarding-how-long` | 3 | **October 8, 2026** |
+
+**Consequence for the intro draft.** The sentence "Each article is based on official sources, lists them at the end, and says the date we checked them" is true for all 12 as written. Do not say "updated" or give one shared check date: the dates differ (Oct 6, 7 and 8).
+
+**Finding for the user to decide (nothing changed).** Every post carries the same publish time on the site, 2026-10-07 20:11 (US Eastern), which a date shown on a card would display as Oct 7. `usps-mail-forwarding-how-long` says its sources were checked on October 8, 2026, a day after that displayed date. The likely cause is the date convention: the check was written in the user's local date (Oct 8 in Korea, still Oct 7 in US Eastern time). A reader could see a check date later than the publish date. Options for later, each needing the user's approval because it edits a published post: leave as is (low risk), or word that date with its time zone. Cards with a real publish date would show Oct 7 for all 12 either way. The daylight-saving post's check date (Oct 6) is earlier than the publish date, which is normal.
+
+**Next step (needs approval).** Finalize the intro copy from this result, then step 2: build the static homepage as a draft.
