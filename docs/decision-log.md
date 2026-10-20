@@ -1009,3 +1009,13 @@ No security-issue or manual-action message appears in the list (the Security and
 
 **Not checked.** A real phone or Safari; the user's own look at the 20 px menu link height and tap area remains.
 
+## 2026-10-20 — 1-week checkpoint, third reading (Claude read Search Console directly; read-only)
+
+**How.** The built-in browser pane is signed in to Search Console; Claude opened the domain property `statesideexplained.com` (after the user's pane access was granted) and only read the Pages report, the four reason lists, the indexed list and Performance (7 days, by page). Nothing was clicked that changes data: no indexing request, no validation, no setting. Details recorded in `docs/pilot-evaluation.md` ("1주 점검 3차 값").
+
+**Result.** Pages report last updated 2026-10-12 (it had been 10-09). Indexed 12 (home, 9 posts, About, Privacy), not indexed 15 (noindex 3, redirect 3, discovered 6, crawled 3). Indexed posts: 9 of 12; **not yet crawled: `power-bank-on-a-plane-tsa-faa`, `tsa-precheck-what-it-changes`, `usps-informed-delivery-how-it-works`** (discovered, last crawl "not applicable"). The 6 new not-indexed pages are not posts: the 3 category archives (discovered through the category sitemap), 2 feeds (`/feed/`, `/author/admin/feed/`) and `/author/admin/page/2/` (noindex). Performance 2026-10-11 to 10-17: clicks 1 (`tsa-3-1-1-liquids-rule`), impressions 2,340, average position 12.8; per page: Thanksgiving 843, first day of winter 527, 3-1-1 341, Hold Mail 203, weekend holidays 142, Forever stamp 117, forwarding 100, DST 40, REAL ID 14, home 13, Privacy 1; none for the three uncrawled posts and About.
+
+**Reading (Claude, not a decision).** First click; all nine crawled posts have impressions; three posts still uncrawled about 13 days after publishing (they were discovered on 2026-10-10). Nothing says a post, WordPress or Search Console needs a change. The new not-indexed items are expected states (archives not yet crawled, feeds, a noindex author page).
+
+**Open decision for the user (nothing done).** Whether to request indexing for the three uncrawled posts now or keep observing until the 4-week evaluation (on or after 2026-11-04). Requesting would change the "natural discovery" observation; waiting costs time on three posts that Google already knows from the sitemap. Option for later: inspect only those three URLs in the URL Inspection tool (read-only view) to see the sitemap/discovery state before deciding.
+
