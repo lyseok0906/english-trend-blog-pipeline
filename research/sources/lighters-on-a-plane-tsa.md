@@ -134,3 +134,7 @@ Run 2026-10-29 in the built-in browser. Each quoted statement above was tested a
 | S9 DOT-SP 14415 | read in full by script (5 pages); date and expiration read from page 1 | Confirmed |
 
 Not tested by script and not claimed: any statement about the FAA FAQ being "the current FAA position" (the FAA still hosts it, but it is dated 2013); anything about how the exemption works today.
+
+## Use in the draft (2026-10-29)
+
+S1 to S4 (the five TSA pages), S5 (FAA page), S6 (chart) and S7 (eCFR) are used in the article body and listed in its Sources (eight pages). **S8 (2013 FAQ) and S9 (DOT-SP 14415) are not used in the body**; they are recorded here and in `editorial/qa/lighters-on-a-plane-tsa.md` ("The 2013 FAQ and the special permit"). Gate 1 re-read the FAA page and chart, the five TSA pages and the eCFR section after the draft existed (2026-10-29): all statements still present.
