@@ -90,8 +90,24 @@ Mobile preview (375 x 812 emulated, `https://statesideexplained.com/?p=69&previe
 
 Not done: publishing (the user previews and publishes). **Mandatory before Publish: re-read the five official pages (the FAA PDF opened directly).** The article's "checked on October 13, 2026" and "as of October 13, 2026" wording was not changed; the 2026-10-29 re-check is recorded above in this file.
 
+## Pre-publish re-check of the five official pages (2026-10-29, Claude, after the WordPress draft)
+
+Requested by the user right before publishing. Each page was opened as a real page load in the built-in browser; the first four were tested by script against the quoted statements, the FAA PDF was opened directly in the browser's PDF viewer and read visually.
+
+| # | Source | Page date shown | Test | Result |
+|---|---|---|---|---|
+| 1 | TSA "Alcoholic beverages" | Last Updated on February 20, 2025 | 11 of 11 statements present, unchanged (carry-on 3.4 oz/100 ml; checked yes; airline check; FAA on-board rule; intoxicated passengers not served; over 24% up to 70%: 5 liters (1.3 gallons) per passenger in unopened retail packaging; 24% or less not subject to limitations in checked bags; mini bottles in a single quart-sized bag; 49 CFR 175.10(a)(4); date; TSA officer decides) | no difference |
+| 2 | TSA "Alcoholic beverages over 140 proof" | Last Updated on February 20, 2025 | 7 of 7 present: carry-on No, checked No, more than 70% alcohol (over 140 proof) including grain alcohol and 151 proof rum, regulation reference, date, TSA officer decides | no difference |
+| 3 | FAA PackSafe "Alcoholic Beverages" | Last updated: Monday, April 13, 2026 | 9 of 9 present: more than 24% up to 70% (up to 140 proof), unopened retail packaging, 5 L per packaging and 5 L total per passenger, carry-on 100 ml / 3.4 oz footnote, no drinking on board unless served by the air carrier; the "Over 140 Proof" section still gives only the strength, the regulation reference and the date, with no rule sentence | no difference |
+| 4 | eCFR 49 CFR 175.10 | "up to date as of 10/27/2026"; Title 49 last amended 10/13/2026 (same as on the earlier check today) | Paragraph (a)(4)(i) and (ii) word for word: 3 of 3 present | no difference |
+| 5 | FAA PackSafe printable chart (PDF) | "Updated: 11/14/25" (page 3 foot) | **Opened directly**; page 3 read at 100% zoom, both columns pairs: "Alcoholic Beverages under 140 Proof" (more than 24% but not more than 70%): carry-on yes, unopened retail packagings, liquids further limited to 100-ml (3.4 oz) containers at the TSA checkpoint; checked yes, "Must be in unopened retail packagings. Quantity limits: 5 L (1.3 gallons) per packaging and 5 L total per passenger." "Alcoholic Beverages over 140 Proof" (greater than 70%, including grain alcohol and 151 proof rum): "Not allowed in Carry-On or Checked Bags" in both columns. The file's size (758,737 bytes), type and HTTP Last-Modified (2026-05-14) are the same as at the check earlier today | no difference |
+
+**Result: no source changed and no statement of the article is contradicted; the FAA PDF opened directly and the alcohol rows match.** The WordPress draft (post 69) was re-read at the same time: still `draft`, category 5, body text equal to the repository text (3,662 letters and digits), last modified 2026-10-29 01:33 site time (the Rank Math save). Nothing in the article or on WordPress was changed by this re-check.
+
+Note for the user: the article's wording "checked on October 13, 2026" and "as of October 13, 2026" refers to the original read; this re-check (also today) is recorded here only, per the user's earlier rule not to edit dates to match. If the article is published later than today or the pages are revisited, the re-check must be repeated.
+
 ## Not done yet
 
 - Publishing (the WordPress draft exists as post 69; the user previews on a phone and publishes).
-- The five-page re-check again right before publishing, with the FAA PDF opened directly again (mandatory).
+- The five-page re-check right before publishing: done 2026-10-29 (above); repeat if publishing happens on a later day, with the FAA PDF opened directly again.
 - Search demand and competition not measured.
