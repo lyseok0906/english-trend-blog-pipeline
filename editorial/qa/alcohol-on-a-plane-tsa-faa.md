@@ -1,6 +1,6 @@
 # QA record — alcohol-on-a-plane-tsa-faa
 
-Article: `content/drafts/alcohol-on-a-plane-tsa-faa.md`
+Article: `content/ready/alcohol-on-a-plane-tsa-faa.md`
 Brief: `research/briefs/alcohol-on-a-plane-tsa-faa.md`. Sources: `research/sources/alcohol-on-a-plane-tsa-faa.md` (S1 TSA "Alcoholic beverages", S2 FAA PackSafe "Alcoholic Beverages", S3 eCFR 49 CFR 175.10, S4 TSA "Alcoholic beverages over 140 proof", S5 FAA PackSafe printable chart PDF).
 Stage: draft. Latest revision after commit `6ff8034`: three wording fixes from the writer's pre-Gate-2 self-check (below). First Gate 1 on 2026-10-13 (commit `27955a4`, 20 claims, no rule stated over 70%). **Second pass 2026-10-13 on the user's request:** over-70% prohibition added, 5-liter per-passenger total confirmed, 24%-or-less wording scoped, airline-check line kept, diagram and alt text made, Gate 1 re-run (below). **Gate 2 (independent, ChatGPT) PASS on commit `33aea2b`, reported by the user 2026-10-13. Stage stays `draft`: not approved for `ready`, not on WordPress, not published.** Post-pilot article: not counted in the pilot 12.
 
@@ -76,8 +76,12 @@ Notes and limits: (a) the chart's printed date is the same as on 2026-10-13, but
 
 Before the user approves moving this article to `ready`, **all five pages must be re-read**: (1) TSA "Alcoholic beverages", (2) TSA "Alcoholic beverages over 140 proof", (3) FAA PackSafe "Alcoholic Beverages" web page, (4) eCFR 49 CFR 175.10, (5) FAA PackSafe printable chart (PDF). **The FAA PDF must be opened directly in a browser, not through a document reader.** If the PDF cannot be opened directly, the article is **not** published. If a re-read shows a changed or missing statement, the draft goes back to Gate 1 before anything else. The same re-check is required again right before publishing.
 
+## Move to `ready` (user approval 2026-10-29)
+
+The user approved moving this article to `ready` on 2026-10-29 after the five-page re-check above (no source changed; FAA PDF opened directly). The file was moved from `content/drafts/` to `content/ready/` and the front matter set to `status: ready`; the article text, title, meta description, image and alt text were not changed, so the Gate 1 and Gate 2 results stand. Not on WordPress and not published; the WordPress upload and publishing are separate steps the user will start.
+
 ## Not done yet
 
-- User approval to move the article to `ready` (requested 2026-10-29 after the re-check above). Not moved; not on WordPress; not published.
-- The five-page re-check again right before publishing, with the FAA PDF opened directly again.
+- WordPress draft and publishing (not started; the user will request them).
+- The five-page re-check again right before publishing, with the FAA PDF opened directly again (mandatory).
 - Search demand and competition not measured.

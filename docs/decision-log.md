@@ -1049,3 +1049,7 @@ No security-issue or manual-action message appears in the list (the Security and
 
 **Post-pilot cadence (user, 2026-10-29).** After the pilot, new posts continue at a target of 1 to 2 per week, recorded separately from the 12 pilot posts, and adjusted to the real workload. Article 13 is a post-pilot post (not counted in the 12). Search volume and any crawl effect of a faster cadence are not stated as facts; they are not measured.
 
+## 2026-10-29 — Article 13 (alcohol on a plane): approved to move to ready
+
+The user approved moving `alcohol-on-a-plane-tsa-faa` to `content/ready/` on 2026-10-29, after the five-page source re-check (no source changed; FAA PDF opened directly) recorded above, and pushed `9d09a1a`. Claude moved the file from `content/drafts/` to `content/ready/` and set `status: ready`; the article text, front matter fields other than status, image and alt text are unchanged. Backlog row 16 stage `ready` (post-pilot, not counted among the 12) and the stage table (deferred or reserve: ready 1, draft 0) updated; QA record updated. Not on WordPress and not published: the WordPress upload and publishing are separate steps the user will request. Before publishing the five-page re-check is mandatory again, with the FAA PDF opened directly; if it cannot be opened, the article is not published.
+

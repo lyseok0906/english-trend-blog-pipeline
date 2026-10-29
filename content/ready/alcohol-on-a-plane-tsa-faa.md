@@ -4,7 +4,7 @@ slug: alcohol-on-a-plane-tsa-faa
 meta_description: "TSA lists alcohol as allowed in carry-on (3.4 oz max) and checked bags, with limits, and not allowed above 70% alcohol. See the rules."
 category: Airport security rules
 focus_keyword: can you bring alcohol on a plane
-status: draft
+status: ready
 date: 2026-10-13
 internal_link_candidates: tsa-3-1-1-liquids-rule (used once)
 image: assets/optimized/alcohol-on-a-plane-tsa-faa.png
