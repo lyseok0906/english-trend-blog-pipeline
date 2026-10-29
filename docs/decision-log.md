@@ -1086,3 +1086,15 @@ After reading the live QA and the publish record for article 13 (and pushing `6e
 **Thanksgiving notices.** No 2026 USPS or TSA Thanksgiving release found as of 2026-10-29. Rows 8 and 12 stay deferred; the 2026 notices must be re-read before publishing (earlier user rule unchanged). USPS notice expected around mid-November (estimate); the TSA release probably comes too late for indexing before the holiday (estimate).
 
 **Waiting for the user** to choose the candidate(s) before any brief or draft starts.
+
+## 2026-10-29 — Candidate selection: B first, A in parallel, C checked only
+
+**User decision.** Start with B (Veterans Day post office), and run A (lighters) sources and brief in parallel. For B, re-check whether USPS published its 2026 notice; if not, report what can be written from confirmed official evidence, do not use last year's notice as this year's operating information, and hold publication if the 2026 evidence is not enough. For A, define first what one article can say accurately. For C (medications), check against the existing health exclusion and do not write it now. The 3-posts-per-week target stays, with no shortcut on source checks or review.
+
+**Done (no draft, no WordPress work).**
+- B: no 2026 USPS Veterans Day notice as of 2026-10-29 (newsroom, RSS, Sept. 22 and Oct. 22 holiday releases, "Holidays & events" page, ELM 518.1). The standing page lists Nov. 11, 2026 but does not say open or closed. Brief written, on hold: `research/briefs/usps-veterans-day-post-office.md`.
+- A: scope set (disposable and Zippo-type, arc/electronic and lithium-battery, torch, unabsorbed-liquid lighters, lighter fluid in one row; DOT special-permit mechanics out). FAA FAQ PDF (2013) opened directly. Source conflicts recorded (checked bags for disposable/Zippo-type: TSA vs FAA; number of lighters; torch lighters: 2013 FAQ vs current FAA and TSA pages). DOT-SP 14415 shows an expiration date of Feb. 28, 2017. Brief and nine source notes written; all quotes tested against source text: `research/briefs/lighters-on-a-plane-tsa.md`, `research/sources/lighters-on-a-plane-tsa.md`.
+- C: conflicts with `docs/blog-c-site-structure.md` (common criterion 3 and the lane-2 exclusion "medication rules (close to a health topic)"); outside current criteria; not drafted. Details in `docs/next-candidates-2026-10-29.md`.
+
+**Waiting for the user.** Approval of the A scope and the 2013 FAQ handling; the B hold or fold-in decision; whether to research non-health replacement candidates for the third weekly slot.
+

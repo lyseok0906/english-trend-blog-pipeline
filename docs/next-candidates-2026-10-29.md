@@ -78,3 +78,28 @@ Per post, Claude's work: brief and source read (about 1 working block), draft wi
 ## Nothing changed
 
 No file other than this record, the backlog, the decision log and the pilot-evaluation note was touched; no WordPress change; no Search Console action.
+
+## Addendum, 2026-10-29 (second pass, user instruction)
+
+The user chose B (Veterans Day) first and A (lighters) for sources and a brief in parallel; for C, a criteria check only and no draft. Nothing is drafted or uploaded.
+
+### B: re-check
+
+No 2026 USPS Veterans Day notice exists as of 2026-10-29 (details and the writable-scope split in `research/briefs/usps-veterans-day-post-office.md`). Rule from the user: 2025 text is not used as 2026 operating information; if the 2026 evidence is not enough, publication is held. The brief is on hold.
+
+### A: scope and sources
+
+Scope, source conflicts and open decisions: `research/briefs/lighters-on-a-plane-tsa.md`; nine source notes with verification: `research/sources/lighters-on-a-plane-tsa.md`. Correction to the first-pass record above: the FAA FAQ PDF has now been opened directly (both pages, both table columns) and it matches the first-pass summary (torch lighters in DOT special-permit containers may be carried in checked baggage in the U.S., a 2013 statement); the FAA's web page (Apr 13, 2026) and chart (11/14/25) say torch lighters are not allowed in either place. The only DOT special-permit document found (DOT-SP 14415, April 26, 2013) shows an expiration date of Feb 28, 2017.
+
+### C: check against the existing health-related exclusion
+
+| Where | What it says |
+|---|---|
+| `docs/blog-c-site-structure.md`, common selection criteria (marked fixed) | Criterion 3: the topic is not health, investment, legal or election procedure |
+| Same file, common exclusions (fixed) | Health, investment, legal, election procedure |
+| Same file, lane 2 (airport security rules), lane-specific exclusion | "Medication rules (close to a health topic)" |
+| `docs/decision-log.md`, active standard item 7 | Health, investment, legal and election-procedure topics excluded from the initial scope |
+| `research/briefs/tsa-3-1-1-liquids-rule.md` | "medications and other medical liquids (health-adjacent; excluded)" |
+
+Result: C (what TSA says about medications, liquid medications and medical items) matches the lane-specific exclusion almost word for word, even though the content would only quote TSA's rules and give no medical advice. It is outside the current criteria. Only the user can change that; Claude does not widen the criteria by itself. If the user wants it later, the likely path is to revisit the scope at the 4-week evaluation (on or after 2026-11-04) and then decide, with a narrow, rule-only framing. For the third weekly slot, C should not be counted on. Reserve non-health ideas already on file: row 15 (shoe policy, weak) and TSA scissors (easy, thin; not in the backlog). New non-health candidates can be researched on request.
+
