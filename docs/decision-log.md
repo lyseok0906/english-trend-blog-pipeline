@@ -1131,3 +1131,15 @@ After reading the live QA and the publish record for article 13 (and pushing `6e
 - Open points reported: 15-day hold trigger (P1), Priority Mail Express named in one FAQ sentence but not in its eligibility list (P2), "(PM only)" (P3), signature wording across pages (P4), the "Prove you sent it." quote (P5), no revision dates on two pages (P6).
 
 **Waiting for the user.** Push, then ChatGPT Gate 2 by SHA for lighters round 2 and for Certified Mail; whether to read DMM 508 to settle P1 (optional); B re-checks continue (2026-10-30, 2026-11-03, 2026-11-05).
+
+## 2026-10-29 — Gate 2 FIX on lighters (round 2) and Certified Mail (round 1)
+
+**Gate 2 result (base `aa72f32`).** Both articles: FIX. Lighters: the SVG and PNG on GitHub were still the previous diagram; show the conditional checked-bag answer, the FAA chart difference and the unconfirmed DOT permit in the diagram; limit the TSA officer wording to the security checkpoint; open the files as committed and compare with the alt. Certified Mail: check DMM 508.1.1.7 against the FAQ for the 15-day conditions and the sender's shorter period; do not estimate the start of the count; revise body, diagram and alt together and separate ordinary signature from Restricted Delivery scope; fix the "prices must change" sentence; remove "Prove you sent it." and explain the mailing receipt plainly.
+
+**Finding (Claude's error).** The lighters diagram files committed in `318b5b2` and `aa72f32` were the first diagram: the file transfer reused an earlier file under the same name, and the round 1 image check looked at the build folder rather than the repository file. Corrected by writing the files under new transfer names and reading them back from the repository (size, dimensions, pixel comparison with the render, SVG text). The files also carry a provenance manifest added by the transfer (PNG `caBX` chunk, SVG `<metadata>`); the earlier QA statement "no embedded metadata" is withdrawn. New rule: read every image back from the repository file before committing.
+
+**Done (local commit only; no ready move, no WordPress).**
+- Lighters: diagram footer "At the security checkpoint, the TSA officer decides whether an item is allowed through."; alt rewritten (521 characters) and matched to the diagram; QA section "Gate 2 FIX round 2".
+- Certified Mail: DMM 508 read (1.1.1 to 1.1.8, source S5). 15-day period from the FAQ and DMM 508.1.1.7 together; the start of the count is stated by neither page and is not estimated; the sender may specify fewer days on the piece (how is not stated). Signature (508.1.1.7) and Restricted Delivery (508.1.1.8) scopes separated. "Prove you sent it." removed; fee sentence now "a newer version of the list may show different fees". New diagram (1200 x 3207) and alt (504 characters). 42 of 42 claims pass against the five USPS pages, re-read after the edits.
+
+**Waiting for the user.** Push, then Gate 2 round 3 (lighters) and round 2 (Certified Mail) by SHA. B re-checks continue (2026-10-30, 2026-11-03, 2026-11-05).

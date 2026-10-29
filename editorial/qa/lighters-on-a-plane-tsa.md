@@ -2,7 +2,7 @@
 
 Article: `content/drafts/lighters-on-a-plane-tsa.md` (draft, 2026-10-29, about 1,590 words after the Gate 2 FIX round; the Gate 1 table below refers to the first version, commit `e75b3bc`/`50ce2d8`, and the FIX round section at the end re-checks every changed statement).
 Brief: `research/briefs/lighters-on-a-plane-tsa.md`. Sources: `research/sources/lighters-on-a-plane-tsa.md` (S1 to S4 the five TSA pages, S5 FAA PackSafe Lighters, S6 FAA printable chart, S7 eCFR 49 CFR 175.10; S8 FAA 2013 FAQ and S9 DOT-SP 14415 are **not used in the article body**, see "The 2013 FAQ and the special permit").
-Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 (ChatGPT, base commit `50ce2d8`) result: FIX (5 items). The FIX round was applied on 2026-10-29 and is recorded in the last section; Gate 2 on the revised version has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
+Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `50ce2d8`): FIX (5 items), applied. Gate 2 round 2 (base commit `aa72f32`): FIX (diagram files and checkpoint wording), applied; both are recorded in the last sections. Gate 2 round 3 has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
 
 Method: before drafting (earlier on 2026-10-29) all pages were opened in the built-in browser and each quoted statement was tested against the page or PDF text (see the source notes, "Verification"). At Gate 1, after the draft existed, the FAA page and chart, the five TSA pages and the eCFR section were opened again (2026-10-29) and the statements the draft relies on were tested again by script: FAA page 11 of 11 plus "does not mention the exemption" confirmed; FAA chart (PDF text layer, 9 pages) 5 of 5; TSA pages 27 of 27 (disposable and Zippo 6 of 6 with "no number limit stated" confirmed, arc and electronic 7 of 7, lithium battery powered 3 of 3, torch 4 of 4 with "the torch page does not use the name butane" confirmed, lighter fluid 3 of 3); eCFR 7 of 7 ("up to date as of 10/27/2026"; title last amended 10/13/2026). The chart's lighter rows and the FAA FAQ's two pages were also checked on screen in the PDF viewer (source notes).
 
@@ -74,7 +74,7 @@ User instruction 2026-10-29: record the older FAQ in the source notes and QA fir
 
 ## Gate 2 — English + SEO QA
 
-Round 1 (base `50ce2d8`): **FIX**, five items (F1 to F5 below). Round 2 on the revised version: not run. Requested from ChatGPT by commit SHA after the user pushes.
+Round 1 (base `50ce2d8`): **FIX**, five items (F1 to F5), applied. Round 2 (base `aa72f32`): **FIX**, the diagram files in the repository and the checkpoint wording (L1 to L4), applied. Round 3 on the revised version: not run. Request from ChatGPT by commit SHA after the user pushes.
 
 ## Gate 2 FIX round (applied 2026-10-29)
 
@@ -115,7 +115,7 @@ All eight pages were opened again in the built-in browser after the edits and th
 
 Result: 18 of 18 revised statements pass as attributed statements. The limits P1 to P4 above remain open and are stated in the article.
 
-### Image and alt text (revised)
+### Image and alt text (revised in FIX round 1; superseded by FIX round 2 below: the file checked here was not the file in the repository)
 
 | # | Check | Result |
 |---|---|---|
@@ -130,6 +130,19 @@ Result: 18 of 18 revised statements pass as attributed statements. The limits P1
 
 - **P1 and P2 remain.** The pages do not reconcile TSA's conditional checked-bag answer with the FAA chart's "Not allowed in Checked Bags", and no current DOT permit was confirmed. The article states both and does not say the exemption applies today.
 - Whether TSA's "Special Instructions" for fueled lighters can be met by a traveler today is not something the pages used here establish.
+
+## Gate 2 FIX round 2 (applied 2026-10-29, base `aa72f32`)
+
+| # | Gate 2 instruction | Result |
+|---|---|---|
+| L1 | The SVG and PNG on GitHub are both the previous diagram; put the corrected files in | **Confirmed.** In commits `318b5b2` and `aa72f32` the repository files were the first diagram (PNG 1200 x 2319, 102,590 bytes; SVG 11,588 bytes; card text "Carry-on: allowed (TSA)..." and footer "The TSA officer makes the final decision."). Cause: the file transfer into the repository folder delivered the earlier version under the reused file name, and round 1's image check (I3, I4) looked at the build folder, not at the repository file, so it described a file that was not the one committed. This was a process error on Claude's side. Fix: the corrected files were written again under new transfer names and read back from the repository (L4) |
+| L2 | Show the conditional checked-bag answer (without fuel / with fuel), the difference from the FAA chart, and the unconfirmed current DOT permit in the diagram | Card 1 now reads: "Carry-on bag: FAA: one per passenger, in carry-on or on your person. TSA: allowed." "Checked bag, TSA: allowed without fuel. With fuel, prohibited unless a DOT exemption applies (up to two, in a DOT approved case)." "Checked bag, FAA chart: not allowed. The two sources differ." "Current DOT permit: not confirmed here." Matches R1 to R4 above (re-tested against the pages in round 1; no page changed) |
+| L3 | Limit the TSA officer wording to the security checkpoint | Diagram footer: "At the security checkpoint, the TSA officer decides whether an item is allowed through." Alt text ends with the same limit. Body section "The TSA officer" already says the statement is about screening at the security checkpoint. Matches R15 |
+| L4 | Open the PNG and SVG as the files that will go to GitHub and compare them with the in-body alt text | Done after the final write, on the repository files: PNG 1200 x 2901, 125,762 bytes, pixel-identical to the rendered image (difference box empty) and viewed; SVG height 1934, 12,980 bytes, 33 text elements, text matches the diagram above. Both carry an embedded provenance manifest added by the transfer (a `caBX` chunk of 5,758 bytes in the PNG, a `<metadata>` block in the SVG); the round 1 line "no embedded metadata" is withdrawn |
+
+Alt text, 521 characters, same string in the front matter and in the body image: "Disposable and Zippo-type: carry-on allowed, one per passenger (FAA)" matches card 1 line 1; "Checked bags: TSA allows lighters without fuel and prohibits fueled ones unless a DOT exemption applies; the FAA chart says not allowed; a current DOT permit was not confirmed" matches card 1 lines 2 to 4; "Arc, electronic and lithium battery lighters: carry-on only" matches card 2; "Torch lighters, liquid-fuel lighters and lighter fluid: not allowed" matches cards 3 and 4; "At the security checkpoint, the TSA officer decides whether an item goes through" matches the footer. The alt is longer than round 1's 462 characters and can be cut if Gate 3 asks.
+
+Process change: every image is now read back from the repository file (size, dimensions, pixel comparison with the render, text of the SVG) before it is committed, and the QA states which file was checked.
 
 ## Not done yet
 

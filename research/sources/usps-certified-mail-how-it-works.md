@@ -70,3 +70,27 @@ Retrieved: **2026-10-29**, by Cowork (Claude), in the built-in browser (a real b
 - The 15-day hold (S1-10) appears only in the FAQ among the pages read. A DMM section on delivery (508) was not read.
 - Adult Signature options: S1 says not available at retail; the DMM exhibit footnote was not resolved (S2). Not covered in depth.
 - Not read: Certificate of Mailing, Registered Mail, Signature Confirmation pages in full; Form 3800 itself; USPS Tracking pages; international mail; any state or court rule.
+
+## S5 — USPS Postal Explorer, Domestic Mail Manual 508 "Recipient Services", sections 1.1.7 and 1.1.8 (primary, official; added 2026-10-29 for the Gate 2 FIX)
+
+- URL: https://pe.usps.com/text/dmm300/508.htm
+- Page date: no revision date in the page text read (footer "Copyright © 2026 USPS"). Cite as "read October 29, 2026".
+- 1.1.7 "Priority Mail Express and Accountable Mail" (verbatim anchors): "The following conditions also apply to the delivery of Priority Mail Express, Registered Mail, Certified Mail, mail insured for more than $500.00, Adult Signature, or COD, as well as mail for which a return receipt is requested or the sender has specified restricted delivery." "Unless an electronic signature is used as described in 503.1.8a, a mailpiece may not be opened or given to the recipient before the recipient signs and legibly prints his or her name on the applicable form or label and returns the form or label to the USPS employee." "An acceptable primary form of identification as specified under 608.10.3 may be required of the recipient before delivery of the mailpiece." "When delivery is not restricted at the sender's request, mail addressed to a person at a hotel, apartment house, etc., may be delivered to any person in a position to whom mail for that location is usually delivered." **"A notice is provided to the addressee for a mailpiece that cannot be delivered. If the piece is not called for or redelivery is not requested, the piece is returned to the sender after 15 days (5 days for Priority Mail Express, 10 days for COD), unless the sender specifies fewer days on the piece."**
+- 1.1.8 "Additional Delivery Standards for Restricted Delivery": postal employees must deliver mail marked "Restricted Delivery" only to the addressee or a person authorized in writing as the addressee's agent, under conditions listed for particular cases (executives, officials, military units, inmates, minors or persons under guardianship, standing agent authorizations on Form 3801 or Form 3849); "When mail is addressed to two or more persons jointly, all addressees or their agents must be present to accept delivery together."
+- 1.1.1: "Mail addressed to several persons may be delivered to any one of them" (without a contrary order). Not used in the article.
+- **What 508 does not say:** which day the 15-day count starts from; how the sender specifies fewer days on the piece; whether "after 15 days" is the same day as the FAQ's "returned on the 16th day".
+
+| # | Claim supported | Support |
+|---|---|---|
+| S5-1 | The 1.1.7 conditions apply to Certified Mail | Stated (list in the first sentence) |
+| S5-2 | The recipient signs and prints a name on the form or label before the piece is opened or given to the recipient, unless an electronic signature is used; identification may be required | Stated |
+| S5-3 | Unrestricted delivery example: hotel, apartment house, etc. | Stated |
+| S5-4 | Notice to the addressee for a mailpiece that cannot be delivered; if not called for or redelivery not requested, returned after 15 days, unless the sender specifies fewer days on the piece | Stated |
+| S5-5 | Restricted Delivery: only the addressee or a person authorized in writing as the agent; identification may be required; joint addressees must all be present | Stated (1.1.8) |
+| S5-6 | Priority Mail Express 5 days, COD 10 days | Stated (not used beyond a sentence saying it is not covered) |
+
+## Revision note (Gate 2 FIX, 2026-10-29)
+
+- S3's line "Prove you sent it." is **no longer used** in the article (Gate 2 instruction); S3 remains the source for the Return Receipt and signature wording.
+- S1-10 (the 15-day hold) is now supported by S5-4 as well. The "limits" line above that said the hold appears only in the FAQ and that DMM 508 was not read is superseded: 508.1.1.7 was read on 2026-10-29.
+- The price rule is unchanged: Notice 123 values are recorded in S4 and not used; the article's fee paragraph states no value and says that a newer version of the list may show different fees.

@@ -8,7 +8,7 @@ status: draft
 date: 2026-10-29
 internal_link_candidates: power-bank-on-a-plane-tsa-faa (used once, in the arc and lithium battery section)
 image: assets/optimized/lighters-on-a-plane-tsa.png
-image_alt: "Diagram of what TSA and the FAA say about lighters on a plane. Disposable and Zippo-type: carry-on allowed, one per passenger (FAA). Checked bags: TSA allows lighters without fuel and prohibits fueled lighters unless a DOT exemption applies; the FAA chart says not allowed; a current DOT permit was not confirmed. Arc, electronic and lithium battery lighters: carry-on only. Torch lighters, unabsorbed liquid fuel lighters and lighter fluid: not allowed. The TSA officer decides at the checkpoint."
+image_alt: "Diagram of what TSA and the FAA say about lighters on a plane. Disposable and Zippo-type: carry-on allowed, one per passenger (FAA). Checked bags: TSA allows lighters without fuel and prohibits fueled ones unless a DOT exemption applies; the FAA chart says not allowed; a current DOT permit was not confirmed. Arc, electronic and lithium battery lighters: carry-on only. Torch lighters, liquid-fuel lighters and lighter fluid: not allowed. At the security checkpoint, the TSA officer decides whether an item goes through."
 ---
 
 # Can You Bring a Lighter on a Plane? What TSA and the FAA Say
@@ -28,7 +28,7 @@ This article covers what TSA's and the FAA's pages say. The wording is as of Oct
 | Unabsorbed liquid fuel (desk, table and antique wick lighters) | Forbidden. The regulation: not permitted on one's person, in carry-on or in checked baggage (other than liquefied gas) | No separate TSA page was read for this type |
 | Lighter fluid and refills | The regulation: lighter fuel and lighter refills not permitted on one's person, in carry-on or in checked baggage | Lighter fluid: carry-on No, checked No |
 
-![Diagram of what TSA and the FAA say about lighters on a plane. Disposable and Zippo-type: carry-on allowed, one per passenger (FAA). Checked bags: TSA allows lighters without fuel and prohibits fueled lighters unless a DOT exemption applies; the FAA chart says not allowed; a current DOT permit was not confirmed. Arc, electronic and lithium battery lighters: carry-on only. Torch lighters, unabsorbed liquid fuel lighters and lighter fluid: not allowed. The TSA officer decides at the checkpoint.](assets/optimized/lighters-on-a-plane-tsa.png)
+![Diagram of what TSA and the FAA say about lighters on a plane. Disposable and Zippo-type: carry-on allowed, one per passenger (FAA). Checked bags: TSA allows lighters without fuel and prohibits fueled ones unless a DOT exemption applies; the FAA chart says not allowed; a current DOT permit was not confirmed. Arc, electronic and lithium battery lighters: carry-on only. Torch lighters, liquid-fuel lighters and lighter fluid: not allowed. At the security checkpoint, the TSA officer decides whether an item goes through.](assets/optimized/lighters-on-a-plane-tsa.png)
 
 ## Disposable and Zippo-type lighters
 
