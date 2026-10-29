@@ -1077,3 +1077,12 @@ The user published `alcohol-on-a-plane-tsa-faa` (post 69) on 2026-10-29 at 02:01
 
 After reading the live QA and the publish record for article 13 (and pushing `6e412d4`), the user decided to keep the home page as it is: the newest 4 cards per category. The fact that `tsa-3-1-1-liquids-rule` is no longer among the home cards stays as recorded in `docs/pilot-evaluation.md` (table F note) and is to be looked at together with the 4-week evaluation (on or after 2026-11-04). Nothing changed on the site. Any new post in a category with four or more posts will push the oldest card off the home page the same way; this is expected under the chosen setting.
 
+## 2026-10-29 — Cadence back to 3 posts per week; candidate research (nothing drafted)
+
+**User decision.** From now on the English blog targets 3 new posts per week, spread across the week rather than published at once. The 4-week evaluation (on or after 2026-11-04) and new-article work run in parallel. This replaces the earlier post-pilot target of 1 to 2 per week. Post-pilot posts stay recorded separately from the 12 pilot posts.
+
+**Research done (no brief, draft or WordPress work started).** Three candidates were compared on official sources, overlap with live posts, reader question, difficulty and whether demand can be checked: A lighters (`lighters-on-a-plane-tsa`, row 17), B Veterans Day post office (`usps-veterans-day-post-office`, new row 18), C TSA medications (`tsa-medications-liquids-carry-on`, new row 19). Full record: `docs/next-candidates-2026-10-29.md`. Search demand cannot be confirmed with the tools available; Google Trends gives relative, coarse values only and these are labelled estimates. Recommended order: B first (deadline), then A (hardest, start sources early), then C (swap-in).
+
+**Thanksgiving notices.** No 2026 USPS or TSA Thanksgiving release found as of 2026-10-29. Rows 8 and 12 stay deferred; the 2026 notices must be re-read before publishing (earlier user rule unchanged). USPS notice expected around mid-November (estimate); the TSA release probably comes too late for indexing before the holiday (estimate).
+
+**Waiting for the user** to choose the candidate(s) before any brief or draft starts.
