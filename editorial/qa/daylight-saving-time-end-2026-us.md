@@ -206,4 +206,22 @@ Notes for follow-up (not blocking):
 
 - Byline shows "Written by admin" and links to `/author/admin/`, which exposes the login username. Set a display name (Users → Profile → "Display name publicly as").
 - Shown date is October 6, 2026 (draft creation time); the article text says "as of October 6, 2026". Acceptable; the article's facts were checked on that date.
-- Before 2026-11-01, re-open sources S1–S4 once more to confirm nothing changed.
+- Before 2026-11-01, re-open sources S1–S4 once more to confirm nothing changed. (Done 2026-10-29, see "Re-check before 2026-11-01" below.)
+
+## Re-check before 2026-11-01 (2026-10-29, Claude)
+
+Requested by the user on 2026-10-29: re-read NIST, DOT Daylight Saving Time, DOT Uniform Time and 15 U.S.C. § 260a, and confirm the November 1, 2026 end at 2:00 a.m., the clock going back to 1:00 a.m., the non-observing places and the legal rule are unchanged. **Method differs from the earlier checks:** this time each page was opened in the built-in browser (a real page load, page text read from the page itself), not read through a summarizing tool. The statute was read from the govinfo HTML of the 2024 edition (the `govinfo.gov/link/uscode/15/260a` link used in the article opens that edition as a PDF; its text could not be extracted in the browser, so the HTML copy of the same section was read).
+
+| Source | Page date | Result |
+|---|---|---|
+| NIST, Daylight Saving Time Rules | "Updated February 9, 2026" (unchanged) | "During 2026, daylight saving time is in effect from March 8 at 2 a.m. (local time) to November 1 at 2 a.m. (local time)." Rule unchanged: ends 2:00 a.m. on the first Sunday of November, "the local time becomes 1 a.m. and that hour is repeated"; begins 2:00 a.m. second Sunday of March, skipping ahead to 3 a.m. Not observed in Hawaii, American Samoa, Guam, Puerto Rico, the Virgin Islands and Arizona (except the Navajo Indian Reservation, which does observe it); no Northern Mariana Islands (unchanged). "Regulated by the U.S. Department of Transportation, not by NIST" (unchanged). Energy Policy Act of 2005 cited (unchanged). |
+| DOT, Daylight Saving Time | "Last updated: Wednesday, September 3, 2025" (unchanged) | "Daylight Saving Time is not observed in Hawaii, American Samoa, Guam, Northern Mariana Islands, Puerto Rico, the Virgin Islands, and most of Arizona." States may exempt themselves by State law (unchanged). |
+| DOT, Uniform Time | "Last updated: Wednesday, July 15, 2026" (unchanged) | The three quoted sentences are unchanged: "DOT does not have the power to repeal or change Daylight Saving Time"; "States may choose to exempt themselves from observing Daylight Saving Time by State law" (page wording: "Under the Uniform Time Act, States may choose to exempt themselves ..."); "States do not have the authority to choose to be on permanent Daylight Saving Time." DOT oversees the Nation's time zones and uniform observance of DST (unchanged). |
+| 15 U.S.C. § 260a (govinfo, 2024 edition) | Latest amendment Pub. L. 109-58, Aug. 8, 2005 (unchanged) | Text unchanged: advance one hour from 2 o'clock antemeridian on the second Sunday of March to 2 o'clock antemeridian on the first Sunday of November; a one-zone State may exempt itself by law (whole State); a State in more than one zone may exempt the whole State or the area within a zone. Subsections (b) and (c) are as before. |
+
+Calendar check (S6) still holds: the first Sunday of November 2026 is November 1. Gate 1 claims C1 to C16 are therefore unchanged. The article body, front matter, WordPress post and SEO settings were not touched.
+
+Observation, not a defect: the NIST page also says, as before, that DST is in effect for "238 days" and that "Congress retained the right to revert to the prior law"; the article does not use either statement. Not verified in this re-check: anything outside the four pages (pending bills, other countries), as before.
+
+Result: **no source changed; no change to the article is needed.** Next re-check, if wanted, would only follow a change reported on one of these pages; the article's fact date stays "as of October 6, 2026" (sources re-confirmed 2026-10-29).
+
