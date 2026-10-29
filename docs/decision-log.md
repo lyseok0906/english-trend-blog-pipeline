@@ -1073,3 +1073,7 @@ The user published `alcohol-on-a-plane-tsa-faa` (post 69) on 2026-10-29 at 02:01
 
 **Counts.** Live: 13 (12 pilot + 1 post-pilot). Pilot 12 unchanged. Post-pilot cadence stays: target 1 to 2 new posts per week, adjusted to the real workload.
 
+## 2026-10-29 — Home cards: keep the newest 4 per category (user decision)
+
+After reading the live QA and the publish record for article 13 (and pushing `6e412d4`), the user decided to keep the home page as it is: the newest 4 cards per category. The fact that `tsa-3-1-1-liquids-rule` is no longer among the home cards stays as recorded in `docs/pilot-evaluation.md` (table F note) and is to be looked at together with the 4-week evaluation (on or after 2026-11-04). Nothing changed on the site. Any new post in a category with four or more posts will push the oldest card off the home page the same way; this is expected under the chosen setting.
+
