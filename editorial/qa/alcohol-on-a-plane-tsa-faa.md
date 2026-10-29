@@ -106,8 +106,37 @@ Requested by the user right before publishing. Each page was opened as a real pa
 
 Note for the user: the article's wording "checked on October 13, 2026" and "as of October 13, 2026" refers to the original read; this re-check (also today) is recorded here only, per the user's earlier rule not to edit dates to match. If the article is published later than today or the pages are revisited, the re-check must be repeated.
 
+## Live QA (2026-10-29)
+
+The user published the article (post 69) on 2026-10-29 at 02:01:16 site time (America/New_York; `datePublished` in the structured data 2026-10-29T02:01:16-04:00) and said so in chat; the live URL is https://statesideexplained.com/alcohol-on-a-plane-tsa-faa/ (the URL field in the user's message had been left as a placeholder; Claude read the URL from the post itself, link field in the REST data, after confirming that the post was published).
+
+Checked by Claude as a logged-out request of the public page plus a 375 px emulated phone render (logged in; only the admin bar was wider than the screen):
+
+| Check | Result |
+|---|---|
+| Status, canonical, robots | 200 at the post URL; canonical equals the URL; robots "index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large"; no X-Robots-Tag header; page served from the LiteSpeed cache ("hit") with the correct content |
+| Title and H1 | Title tag "Can You Bring Alcohol on a Plane? What TSA and the FAA Say - Stateside Explained"; H1 equals the front matter title |
+| Meta description | Present, equals the front matter (134 characters); Open Graph description the same |
+| Category | Airport security rules (byline link and "More in Airport security rules →" both go to the category archive); structured data `articleSection` Airport security rules |
+| Body text | Equals the `content/published/` text: 3,662 letters and digits (image alt and title excluded); eight H2 headings |
+| Table | 5 rows by 2 columns, cell text identical to the repository table |
+| Image and alt | One diagram in the body, the repository PNG (1200 x 2286, sha-256 `99ef82ae...3449`) with a srcset; alt text identical to the front matter (402 characters); Open Graph image is the diagram |
+| Links | 6 links, all equal to the repository's: the internal link to `tsa-3-1-1-liquids-rule` (once; returns 200) and the five official pages (TSA x2, FAA web page, FAA chart PDF, eCFR); the five official pages were re-read the same day, see the pre-publish re-check above |
+| Comments and pings | No comment form, no comments block, no pingback link tag, no X-Pingback header; the post is set to comments closed and pings closed |
+| Structured data | WebSite, WebPage, Person, ImageObject and BlogPosting; BlogPosting headline equals the title; `datePublished` 2026-10-29T02:01:16-04:00 |
+| Byline and date | "Written by Stateside Explained in Airport security rules · October 29, 2026" |
+| Previous/next | Only one link (to the PreCheck post): this is the newest post in its category, so it has no "next" |
+| Mobile (375 px) | No horizontal scroll (page width 375), table 315 px wide with no clipping, diagram 315 px wide and legible, the long source URLs wrap, header menu button present |
+| Home | The post is the first card in the "Airport security rules" section |
+| Sitemaps and feed | In `post-sitemap.xml` (13 post URLs, see the note below) with the image, lastmod 2026-10-29T06:01:18+00:00; `category-sitemap.xml` lastmod for the category updated to the same time; first item in `/feed/` (10 items); listed first in the category archive; `robots.txt` unchanged and still declares the sitemap index |
+
+Note on the sitemap: the post sitemap lists 13 post URLs, the 12 pilot posts plus this one (the home page is listed in the page sitemap together with About and Privacy Policy, since the home became a static page).
+
+**Result: live QA passes; no problem found with the article, its settings or the page.** Nothing was edited or changed on WordPress by Claude after the user's publish.
+
+**One observation outside the article (nothing changed).** The home page shows four cards per category. With five airport-security posts, `tsa-3-1-1-liquids-rule` (the oldest of the five, and the first post to get a click in Search Console) is no longer one of the cards on the home page; it is still in the category archive, the sitemap, the feed and linked from the body of this article and of the power-bank article. Recorded in `docs/pilot-evaluation.md` as a condition to keep in mind when reading the 4-week values. No search or crawl effect is claimed.
+
 ## Not done yet
 
-- Publishing (the WordPress draft exists as post 69; the user previews on a phone and publishes).
-- The five-page re-check right before publishing: done 2026-10-29 (above); repeat if publishing happens on a later day, with the FAA PDF opened directly again.
-- Search demand and competition not measured.
+- Search Console: the new URL has not been inspected or requested; observe natural discovery like the earlier posts (the user decided on 2026-10-20 not to request indexing now). No search demand, impressions or crawl value is known for this post.
+- Repeat the source re-check if the article is revisited; the five pages and dates are listed above.
