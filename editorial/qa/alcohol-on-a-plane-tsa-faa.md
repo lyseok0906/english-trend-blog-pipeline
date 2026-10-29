@@ -80,8 +80,18 @@ Before the user approves moving this article to `ready`, **all five pages must b
 
 The user approved moving this article to `ready` on 2026-10-29 after the five-page re-check above (no source changed; FAA PDF opened directly). The file was moved from `content/drafts/` to `content/ready/` and the front matter set to `status: ready`; the article text, title, meta description, image and alt text were not changed, so the Gate 1 and Gate 2 results stand. Not on WordPress and not published; the WordPress upload and publishing are separate steps the user will start.
 
+## WordPress draft (2026-10-29)
+
+At the user's request Claude created the draft through the logged-in browser (the pane's wp-admin session had expired and the user signed in again): post id 69, status draft, slug `alcohol-on-a-plane-tsa-faa`, category "Airport security rules" (id 5), diagram uploaded as media id 68 with the `image_alt` text (media alt text, body alt and front matter identical, 402 characters), no featured image, comments and pings closed. Rank Math meta description (134 characters, equals the front matter) and focus keyword "can you bring alcohol on a plane" set and re-read after a fresh load of the edit screen. The draft was built from `content/ready/alcohol-on-a-plane-tsa-faa.md` as pushed (`0b87786`).
+
+Checks: all 21 blocks valid in the editor; eight H2 headings, one table, one image, five list items, six links (five source links and the internal link to the TSA 3-1-1 liquids rule, once); body text equals the repository text (3,662 letters and digits, image alt and title excluded) and the link URLs equal the repository's; the image is the repository PNG (sha-256 `99ef82ae...3449`, 1200 x 2286, not scaled by WordPress); one post with the slug; the draft returns 404 to logged-out visitors (`/?p=69` and the slug URL); not in the sitemap (draft).
+
+Mobile preview (375 x 812 emulated, `https://statesideexplained.com/?p=69&preview=true`, logged in): no horizontal scroll (page width 375), title, byline "Written by Stateside Explained in Airport security rules", table fits (315 px, no clipping), diagram legible at phone width, `More in Airport security rules →` present, no comment form, meta description and `index, follow` robots as expected, canonical shows `?p=69` in preview only (it becomes the post URL when published). The preview byline shows today's date (October 29, 2026); the post date will be the publish date. The first bold sentence renders at normal weight; the same happens on the published posts (theme style, not a change here). The diagram's text size on a real phone is the user's check.
+
+Not done: publishing (the user previews and publishes). **Mandatory before Publish: re-read the five official pages (the FAA PDF opened directly).** The article's "checked on October 13, 2026" and "as of October 13, 2026" wording was not changed; the 2026-10-29 re-check is recorded above in this file.
+
 ## Not done yet
 
-- WordPress draft and publishing (not started; the user will request them).
+- Publishing (the WordPress draft exists as post 69; the user previews on a phone and publishes).
 - The five-page re-check again right before publishing, with the FAA PDF opened directly again (mandatory).
 - Search demand and competition not measured.
