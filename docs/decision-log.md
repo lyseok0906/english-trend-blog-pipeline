@@ -1109,3 +1109,13 @@ After reading the live QA and the publish record for article 13 (and pushing `6e
 
 **Waiting for the user.** Gate 2 request after the push; decision on the 2013 FAQ sentence; choice of third candidate; whether to start B drafting if a 2026 notice appears.
 
+## 2026-10-29 — Gate 2 FIX on lighters; Certified Mail brief; 2027 holidays as a late-November candidate
+
+**User decisions.** (1) Start the Certified Mail brief and source notes: legal effect is not covered; no fee until the official USPS price list is confirmed. (2) Record the 2027 federal holidays article as a late-November preparation candidate. (3) Do not add the 2013 FAQ sentence to the lighters article; send the current version to ChatGPT Gate 2. (4) Lighters Gate 2 result: **FIX**, base `50ce2d8`, five items.
+
+**Done (local commits only; no ready move, no WordPress).**
+- Lighters FIX applied (commit `318b5b2`): lead and table now show the FAA carry-on guidance first and split the disposable and Zippo-type row into carry-on and checked bags; TSA's checked-bag answer is shown as conditional (without fuel allowed; with fuel prohibited unless the DOT exemption applies, up to two in a DOT approved case) against the FAA chart's "Not allowed in Checked Bags"; the limit that no current DOT permit was confirmed is kept in the lead, table, body, diagram and alt, and the article does not say the exemption applies today; the TSA officer wording is scoped to the checkpoint; the 2013 FAQ stays in the source note and QA only. Diagram redrawn (1200 x 2901) and alt rewritten (497 characters). All eight official pages (five TSA pages, FAA page, FAA chart PDF opened directly, eCFR) were re-read after the edits; 18 of 18 revised statements pass as attributed statements (QA, "Gate 2 FIX round"). Open limits P1 to P4 remain and are stated in the article.
+- Certified Mail: brief `research/briefs/usps-certified-mail-how-it-works.md` and source notes `research/sources/usps-certified-mail-how-it-works.md`. Four USPS pages read (FAQ dated May 12, 2026; DMM 503 section 3.0; USPS.com extra-services page; Notice 123 effective October 4, 2026). The Certified Mail fee is recorded in the source note for reference and not used in any draft; Claude recommends the first draft states no number.
+- 2027 federal holidays: backlog row 21 marked as a late-November preparation candidate; nothing started.
+
+**Waiting for the user.** Push of `318b5b2` (and the earlier unpushed commits), then ChatGPT Gate 2 round 2 for lighters by SHA; approval of the Certified Mail scope, the fee option (no number recommended) and the go-ahead to draft; B re-checks continue (reminders 2026-10-30, 2026-11-03, 2026-11-05).

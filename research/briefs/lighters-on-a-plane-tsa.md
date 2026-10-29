@@ -90,3 +90,5 @@ Re-read all TSA pages, the FAA page, the FAA chart (PDF) and the eCFR section at
 1. Approve the scope above (four types plus lighter fluid; DOT special-permit mechanics out).
 2. Decide how the 2013 FAQ is used: (a) one dated sentence in the body, or (b) source notes only.
 3. Approve moving to drafting, or hold for a later week.
+
+**Resolved 2026-10-29:** question 2 (2013 FAQ): option (b), source notes and QA only; no sentence in the body (user decision). Gate 2 round 1 returned FIX; applied the same day (see `editorial/qa/lighters-on-a-plane-tsa.md`).
