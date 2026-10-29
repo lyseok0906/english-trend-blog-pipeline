@@ -103,3 +103,21 @@ Scope, source conflicts and open decisions: `research/briefs/lighters-on-a-plane
 
 Result: C (what TSA says about medications, liquid medications and medical items) matches the lane-specific exclusion almost word for word, even though the content would only quote TSA's rules and give no medical advice. It is outside the current criteria. Only the user can change that; Claude does not widen the criteria by itself. If the user wants it later, the likely path is to revisit the scope at the 4-week evaluation (on or after 2026-11-04) and then decide, with a narrow, rule-only framing. For the third weekly slot, C should not be counted on. Reserve non-health ideas already on file: row 15 (shoe policy, weak) and TSA scissors (easy, thin; not in the backlog). New non-health candidates can be researched on request.
 
+### Third-slot candidates, non-health (research 2026-10-29)
+
+User instruction: C is out this week; research 2 or 3 non-health candidates and mark demand as not measured where it cannot be checked. Official pages were read in the built-in browser; demand is Google Trends relative interest only (US, weekly; not volume; sampled).
+
+| | 1. USPS Certified Mail (`usps-certified-mail-how-it-works`) | 2. Federal holidays 2027 (`federal-holidays-2027-list`) | 3. Laptops at the TSA checkpoint (`tsa-laptops-at-checkpoint`) |
+|---|---|---|---|
+| Lane | Postal service and stamps (lane has 4 live posts plus B on hold) | US dates, seasons and holidays | Airport security rules (lane has 6 live or in progress with the lighters post) |
+| Official sources read | USPS FAQ "Certified Mail - The Basics" (May 12, 2026). Not read: Notice 123 (fees), DMM 503 | OPM Federal Holidays, 2027 tab (11 dates, observed dates marked; 5 U.S.C. 6103) | TSA "Laptops" item (July 15, 2026); TSA "Computed Tomography" page (no date shown) |
+| Overlap with live posts | None | Partial: the weekend-holiday post shows the four 2027 weekend rows; the Thanksgiving date post shows Thanksgiving 2027 | Partial: the PreCheck post says laptops can stay in the bag in PreCheck lanes; 3-1-1 post |
+| Reader question | "What is Certified Mail and how does it work" | "What are the federal holidays in 2027" | "Do I take my laptop out at TSA" |
+| Difficulty | Low to medium (one detailed FAQ; fees time-sensitive; no legal-effect statements) | Low (one table); thin unless it adds the law and observed-date explanation, which overlaps | Low to medium (two short TSA pages that differ: remove it, or it may stay in the bag with CT; the CT page is undated and does not say where CT is used) |
+| Demand (relative, one comparison; not volume) | Highest: "usps certified mail" average 52 and "what is certified mail" 22 (of 100) in the 12 months to Oct 25, 2026, against 4 for "can you bring a lighter on a plane" in the same comparison | "federal holidays 2027" rose from about 34 (late Aug) to 69 (Oct 25) in that comparison; last year's "federal holidays 2026" rose from about 14 in mid-October 2025 to 56 in late December and peaked in early January (estimate that 2027 repeats the pattern; not measured) | Lowest: "tsa laptop" average 5 (of the same scale as "federal holidays 2026" at 36), "take laptop out tsa" 0.5, "laptop out at tsa" 0 (phrase variants may be searched differently) |
+| Time pressure | None (USPS fees change in January and July, so no prices unless Notice 123 is read) | Publish by early December (estimate from last year's curve) | None |
+| Fit with the criteria | Passes (USPS primary source, diagram-able, not health, investment, legal or election; keep to what USPS says) | Passes | Passes |
+| Recommended order | 1 | 2 | 3 |
+
+Notes: (1) Trends compares only within one comparison; the 5-phrase comparisons differ, so values from different tables are not combined. (2) A low value for an exact phrase does not mean the topic has no searches (the power-bank phrase read near 1 earlier while its post exists). (3) Search volume is not measured for any candidate.
+

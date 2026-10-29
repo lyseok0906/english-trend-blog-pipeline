@@ -1098,3 +1098,14 @@ After reading the live QA and the publish record for article 13 (and pushing `6e
 
 **Waiting for the user.** Approval of the A scope and the 2013 FAQ handling; the B hold or fold-in decision; whether to research non-health replacement candidates for the third weekly slot.
 
+## 2026-10-29 — Lighters draft and Gate 1; B monitoring; third-slot research
+
+**User decision.** Proceed with A (lighters) to a draft and Gate 1; record the older 2013 FAA FAQ in source notes and QA first and propose before it enters the body; do not state a current special permit that cannot be confirmed; report the checked-bag and cabin rules that cannot be set out clearly. For B, check the USPS notice until about Nov. 5 and hold publication if 2026 operations are not confirmed. C is out this week; research 2 or 3 non-health third candidates; mark unverified demand as not measured. Commit locally; no WordPress upload or publishing.
+
+**Done.**
+- A: draft `content/drafts/lighters-on-a-plane-tsa.md`, diagram (`assets/raw/lighters-on-a-plane-tsa.svg`, `assets/optimized/lighters-on-a-plane-tsa.png`, 1200 x 2319), Gate 1 in `editorial/qa/lighters-on-a-plane-tsa.md`: 32 of 32 claims pass as attributed statements; sources re-read after drafting. Four open points reported (checked bags for disposable and Zippo-type lighters, the DOT exemption, number of lighters, torch label). The 2013 FAQ and DOT-SP 14415 are not used in the body; a proposal for one dated sentence is in the QA and awaits the user. Gate 2 not run; not in `content/ready/`; no WordPress upload.
+- B: re-checked again on 2026-10-29 (about 08:00 UTC): still no 2026 USPS Veterans Day notice (RSS newest item Oct. 22). Three in-session reminders set for 2026-10-30, 2026-11-03 and 2026-11-05 (each at 02:00 UTC) to re-check; the final one reports and recommends holding or folding into row 12 if there is still no 2026 notice. Nothing drafted.
+- Third slot: three non-health candidates researched (rows 20 to 22 of the backlog; table in `docs/next-candidates-2026-10-29.md`): USPS Certified Mail, federal holidays 2027, TSA laptops at the checkpoint. Demand: Trends relative only; volume not measured.
+
+**Waiting for the user.** Gate 2 request after the push; decision on the 2013 FAQ sentence; choice of third candidate; whether to start B drafting if a 2026 notice appears.
+
