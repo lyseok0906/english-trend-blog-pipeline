@@ -1119,3 +1119,15 @@ After reading the live QA and the publish record for article 13 (and pushing `6e
 - 2027 federal holidays: backlog row 21 marked as a late-November preparation candidate; nothing started.
 
 **Waiting for the user.** Push of `318b5b2` (and the earlier unpushed commits), then ChatGPT Gate 2 round 2 for lighters by SHA; approval of the Certified Mail scope, the fee option (no number recommended) and the go-ahead to draft; B re-checks continue (reminders 2026-10-30, 2026-11-03, 2026-11-05).
+
+## 2026-10-29 — Certified Mail draft and Gate 1
+
+**User decision.** Draft Certified Mail in the proposed scope: no legal effect, no Registered Mail comparison; no fee number in the body (point to the official price list); state the 15-day hold on the basis of the USPS FAQ with its conditions made clear; do not guess what "(PM only)" means. Then source check, Gate 1, records and a local commit; no WordPress upload or publishing. (The user's push `50ce2d8..41ab09f` is also on record.)
+
+**Done (local commit only; no ready move, no WordPress).**
+- Draft `content/drafts/usps-certified-mail-how-it-works.md` (about 1,265 words) and diagram (`assets/raw/usps-certified-mail-how-it-works.svg`, `assets/optimized/usps-certified-mail-how-it-works.png`, 1200 x 2697, no price, no logo).
+- Gate 1 in `editorial/qa/usps-certified-mail-how-it-works.md`: the four USPS pages were opened again after drafting and tested by script (FAQ 36 of 36, DMM 503 16 of 16, USPS.com 2 of 2, Notice 123 4 of 4); 34 of 34 claims pass as attributed statements or stated limits.
+- The 15-day hold is written as the FAQ states it, followed by what the FAQ does not say (what starts the 15 days, a notice, any change of the period); the DMM Certified Mail section does not repeat it; DMM 508 was not read. "(PM only)" is left out of the body and recorded as P3.
+- Open points reported: 15-day hold trigger (P1), Priority Mail Express named in one FAQ sentence but not in its eligibility list (P2), "(PM only)" (P3), signature wording across pages (P4), the "Prove you sent it." quote (P5), no revision dates on two pages (P6).
+
+**Waiting for the user.** Push, then ChatGPT Gate 2 by SHA for lighters round 2 and for Certified Mail; whether to read DMM 508 to settle P1 (optional); B re-checks continue (2026-10-30, 2026-11-03, 2026-11-05).
