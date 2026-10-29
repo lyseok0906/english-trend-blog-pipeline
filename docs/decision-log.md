@@ -1039,3 +1039,13 @@ No security-issue or manual-action message appears in the list (the Security and
 
 **Status.** The follow-up item "before 2026-11-01, re-open S1 to S4" is closed. Remaining: nothing for this post unless a source changes before November 1; the 4-week evaluation (on or after 2026-11-04) is next.
 
+## 2026-10-29 — Article 13 (alcohol on a plane): five official sources re-checked before the `ready` approval request; no change; post-pilot cadence noted
+
+**Request (user, 2026-10-29).** Re-check the five official sources of `alcohol-on-a-plane-tsa-faa` against the draft (two TSA pages, the FAA web page, eCFR, the FAA PDF chart), open the FAA PDF directly, report "not verified" if it cannot be opened, and if nothing is off, record the re-check and ask for approval to move to `ready`. No WordPress upload and no publishing yet.
+
+**Done.** Claude opened each page in the built-in browser and compared it with the draft and the source notes. **No source changed, no statement of the draft is contradicted.** TSA pages: still Last Updated Feb 20, 2025, same text (carry-on 3.4 oz/100 ml; checked yes; over 24% up to 70%: 5 liters per passenger, unopened retail packaging; 24% or less not subject to limitations in checked bags; over 70%: no in carry-on and checked). FAA web page: still last updated April 13, 2026, 5 L per packaging and 5 L total per passenger, no drinking on board unless served by the air carrier. eCFR 49 CFR 175.10(a)(4): word for word the same; only the page's "up to date as of" date moved (10/08/2026 to 10/27/2026). **FAA PDF: opened directly in the browser (9 pages), "Updated: 11/14/25", alcohol rows read on page 3 and unchanged.** This closes the caveat that had travelled with C17 since 2026-10-13. One observation only: the PDF file's HTTP "Last-Modified" header says 2026-05-14 while its printed date and the alcohol rows are unchanged. Details: `editorial/qa/alcohol-on-a-plane-tsa-faa.md` (new section), `research/sources/alcohol-on-a-plane-tsa-faa.md`, `docs/content-backlog.md` row 16. The article text, WordPress and SEO settings were not touched.
+
+**Status.** Article 13 stays `draft`. Claude asked the user for approval to move it to `ready`; not moved until the user says so. The same five-page re-check (FAA PDF opened directly) is required again right before publishing.
+
+**Post-pilot cadence (user, 2026-10-29).** After the pilot, new posts continue at a target of 1 to 2 per week, recorded separately from the 12 pilot posts, and adjusted to the real workload. Article 13 is a post-pilot post (not counted in the 12). Search volume and any crawl effect of a faster cadence are not stated as facts; they are not measured.
+

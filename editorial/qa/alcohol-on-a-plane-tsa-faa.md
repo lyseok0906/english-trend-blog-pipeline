@@ -56,12 +56,28 @@ Done 2026-10-13 by Claude, who wrote the article, on commit `6ff8034`, at the us
 
 Gate 2 does not replace the source re-check below. It reviewed the text, not the live pages.
 
+## Pre-approval re-check of the five official pages (2026-10-29, Claude)
+
+Requested by the user on 2026-10-29 as the condition for moving this article to `ready`. Each page was opened as a real page load in the built-in browser (signed-in pane on the user's computer) and compared with the draft and with source notes S1 to S5. Nothing on WordPress was touched; the article stays `draft`.
+
+| # | Source | Page date shown on 2026-10-29 | Compared with the draft | Result |
+|---|---|---|---|---|
+| 1 | TSA "Alcoholic beverages" | Last Updated Feb 20, 2025 (same) | Carry-on: Yes, 3.4 oz / 100 ml or less; checked: Yes; over 24% to 70%: 5 liters (1.3 gallons) per passenger in unopened retail packaging; 24% or less not subject to limitations in checked bags; mini bottles must fit comfortably in a single quart-sized bag; check with your airline; FAA regulations prohibit drinking on board unless served by a flight attendant; flight attendants may not serve an intoxicated passenger; final decision rests with the TSA officer; refers to 49 CFR 175.10(a)(4) | no difference |
+| 2 | TSA "Alcoholic beverages over 140 proof" | Last Updated Feb 20, 2025 (same) | Carry-on: No; checked: No; more than 70% alcohol (over 140 proof), including grain alcohol and 151 proof rum; refers to 49 CFR 175.10(a)(4); final decision rests with the TSA officer | no difference |
+| 3 | FAA PackSafe "Alcoholic Beverages" web page | Last updated Monday, April 13, 2026 (same) | More than 24% up to 70% (up to 140 proof), unopened retail packaging: 5 L (1.3 gallons) per packaging and 5 L total per passenger; carry-on liquids further limited to 100-ml (3.4 oz) containers at the TSA checkpoint; no drinking on board unless served by the air carrier; the "Over 140 Proof" heading gives only the strength and the regulation reference, with no rule sentence (as recorded in C18) | no difference |
+| 4 | eCFR 49 CFR 175.10 | Page says "up to date as of 10/27/2026" (was 10/08/2026 on 2026-10-13); the page also says Title 49 was last amended 10/13/2026 | Paragraph (a)(4) read word for word: (i) not more than 24% alcohol by volume; (ii) more than 24% and not more than 70% alcohol by volume in unopened retail packagings not exceeding 5 liters (1.3 gallons) in carry-on or checked baggage, with a total net quantity per person of 5 liters (1.3 gallons). Same text as S3 | no difference in (a)(4); only the "up to date as of" date moved |
+| 5 | FAA PackSafe printable chart (PDF) | "Updated: 11/14/25" printed at the foot of page 3 (same) | **Opened directly in the browser** (a 9-page PDF rendered in the browser's own PDF viewer; read at 120% zoom, page 3). Row "Alcoholic Beverages under 140 Proof" (more than 24% but not more than 70%): carry-on yes, must be in unopened retail packagings, liquids further limited to 100-ml (3.4 oz) containers at the TSA checkpoint; checked yes, unopened retail packagings, 5 L (1.3 gallons) per packaging and 5 L total per passenger. Row "Alcoholic Beverages over 140 Proof" (greater than 70%, including grain alcohol and 151 proof rum): "Not allowed in Carry-On or Checked Bags" in both columns | no difference |
+
+**Result: no source changed and no statement of the draft is contradicted. The caveat on C17 (and the FAA-chart part of C8) is closed: the FAA PDF was opened directly and the over-70% and 5 L rows match.** The article text was not changed, so Gate 1 and Gate 2 results stand.
+
+Notes and limits: (a) the chart's printed date is the same as on 2026-10-13, but the file itself was served with an HTTP "Last-Modified" of 2026-05-14 (read from the response header); the printed update date and the alcohol rows are unchanged, so this is recorded as an observation only, not as a source change; (b) the eCFR "up to date as of" date in the article's Sources section (10/08/2026) describes the day of the original check on 2026-10-13 and is left as it is; a re-check date is only added to the article if the user decides to (not done); (c) the PDF text could not be extracted by script, so it was read visually; (d) this re-check covers the pages' content on 2026-10-29 only; **the same five-page re-check is required again right before publishing**, and the FAA PDF must be opened directly again then.
+
 ## Conditions before the move to `ready` (user decision 2026-10-13)
 
 Before the user approves moving this article to `ready`, **all five pages must be re-read**: (1) TSA "Alcoholic beverages", (2) TSA "Alcoholic beverages over 140 proof", (3) FAA PackSafe "Alcoholic Beverages" web page, (4) eCFR 49 CFR 175.10, (5) FAA PackSafe printable chart (PDF). **The FAA PDF must be opened directly in a browser, not through a document reader.** If the PDF cannot be opened directly, the article is **not** published. If a re-read shows a changed or missing statement, the draft goes back to Gate 1 before anything else. The same re-check is required again right before publishing.
 
 ## Not done yet
 
-- Direct open of the FAA printable chart PDF (S5) at the mandatory pre-approval re-check. User decision 2026-10-13: the PDF stays a supporting source for this article (the over-70% rule also rests on TSA's own entry), and the direct open is required right before publishing.
-- Mandatory pre-approval re-check of all five pages (see conditions above).
+- User approval to move the article to `ready` (requested 2026-10-29 after the re-check above). Not moved; not on WordPress; not published.
+- The five-page re-check again right before publishing, with the FAA PDF opened directly again.
 - Search demand and competition not measured.

@@ -76,3 +76,7 @@ Revision 2026-10-13 (second pass, user request): S4 and S5 added so the article 
 - Search demand and competition (not measured).
 - eCFR is the Electronic Code of Federal Regulations display; its status as an editorial compilation was not read on the page and is not claimed.
 - The FAA web page (S2) text states no rule for beverages over 70%; the article says so and relies on S4 and S5 for the prohibition. The article does not claim the regulation itself prohibits them: it says only that the regulation's exception covers up to 70% alcohol by volume.
+
+## Re-check 2026-10-29 (Claude, before the `ready` approval request)
+
+All five sources re-read as real page loads in the built-in browser; no statement used in the draft changed. Page dates: TSA (both) Last Updated Feb 20, 2025; FAA web page last updated April 13, 2026; eCFR "up to date as of 10/27/2026" (Title 49 last amended 10/13/2026), paragraph (a)(4) unchanged; **S5 (FAA printable chart PDF) opened directly in the browser**, "Updated: 11/14/25" at the foot of page 3, alcohol rows unchanged (under 140 proof: unopened retail packagings, 5 L per packaging and 5 L total per passenger; over 140 proof: not allowed in carry-on or checked bags). The earlier note "S5 not opened directly" is therefore closed. Details in `editorial/qa/alcohol-on-a-plane-tsa-faa.md`.
