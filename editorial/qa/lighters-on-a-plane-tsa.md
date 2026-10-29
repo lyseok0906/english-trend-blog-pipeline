@@ -1,8 +1,8 @@
 # QA record — lighters-on-a-plane-tsa
 
-Article: `content/drafts/lighters-on-a-plane-tsa.md` (draft, 2026-10-29, about 1,540 words).
+Article: `content/drafts/lighters-on-a-plane-tsa.md` (draft, 2026-10-29, about 1,590 words after the Gate 2 FIX round; the Gate 1 table below refers to the first version, commit `e75b3bc`/`50ce2d8`, and the FIX round section at the end re-checks every changed statement).
 Brief: `research/briefs/lighters-on-a-plane-tsa.md`. Sources: `research/sources/lighters-on-a-plane-tsa.md` (S1 to S4 the five TSA pages, S5 FAA PackSafe Lighters, S6 FAA printable chart, S7 eCFR 49 CFR 175.10; S8 FAA 2013 FAQ and S9 DOT-SP 14415 are **not used in the article body**, see "The 2013 FAQ and the special permit").
-Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 (ChatGPT, by commit SHA) has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
+Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 (ChatGPT, base commit `50ce2d8`) result: FIX (5 items). The FIX round was applied on 2026-10-29 and is recorded in the last section; Gate 2 on the revised version has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
 
 Method: before drafting (earlier on 2026-10-29) all pages were opened in the built-in browser and each quoted statement was tested against the page or PDF text (see the source notes, "Verification"). At Gate 1, after the draft existed, the FAA page and chart, the five TSA pages and the eCFR section were opened again (2026-10-29) and the statements the draft relies on were tested again by script: FAA page 11 of 11 plus "does not mention the exemption" confirmed; FAA chart (PDF text layer, 9 pages) 5 of 5; TSA pages 27 of 27 (disposable and Zippo 6 of 6 with "no number limit stated" confirmed, arc and electronic 7 of 7, lithium battery powered 3 of 3, torch 4 of 4 with "the torch page does not use the name butane" confirmed, lighter fluid 3 of 3); eCFR 7 of 7 ("up to date as of 10/27/2026"; title last amended 10/13/2026). The chart's lighter rows and the FAA FAQ's two pages were also checked on screen in the PDF viewer (source notes).
 
@@ -61,7 +61,7 @@ User instruction 2026-10-29: record the older FAQ in the source notes and QA fir
 - **Why the body does not use it:** it is more than twelve years old, the permit mechanism it relies on could not be confirmed as current (P2), and quoting it would put a possibly superseded statement next to current pages.
 - **Proposal for the user (not applied):** the reader need is real but small. A reader who finds the FAQ on the FAA site may see torch lighters allowed in checked bags and wonder. If the user wants it addressed, one dated sentence could say that an older FAA FAQ (November 2013) describes DOT-approved travel containers for torch lighters in checked baggage in U.S. domestic travel, and that the FAA's current web page and chart and TSA's torch page say torch lighters are not allowed in either place, so the article follows the current pages. Claude's judgment: leave it out of the body now, and add the sentence only if Gate 2 or the user asks.
 
-## Image and alt text
+## Image and alt text (first version; superseded by the FIX round table below)
 
 | # | Check | Result |
 |---|---|---|
@@ -74,10 +74,65 @@ User instruction 2026-10-29: record the older FAQ in the source notes and QA fir
 
 ## Gate 2 — English + SEO QA
 
-Not run. Requested from ChatGPT by commit SHA after the user pushes. Points for the reviewer: the checked-bag section (P1, P2), the table's wording, whether the lead gives the answer early enough, and whether the 2013 FAQ proposal above should be adopted.
+Round 1 (base `50ce2d8`): **FIX**, five items (F1 to F5 below). Round 2 on the revised version: not run. Requested from ChatGPT by commit SHA after the user pushes.
+
+## Gate 2 FIX round (applied 2026-10-29)
+
+### Instructions and what was changed
+
+| # | Gate 2 instruction | Change made |
+|---|---|---|
+| F1 | In the diagram and alt, show TSA's checked-bag guidance as a conditional exception (without fuel / with fuel) and mark the difference from the FAA chart | Diagram card 1 now has four labelled lines: "Carry-on bag" (FAA first, then TSA), "Checked bag, TSA" (allowed without fuel; with fuel prohibited unless a DOT exemption applies, up to two, in a DOT approved case), "Checked bag, FAA chart" (not allowed; "The two sources differ."), "Current DOT permit: not confirmed here." Alt text rewritten to say the same |
+| F2 | Keep the limit that no current DOT permit was confirmed; do not state that the checked-bag exception applies today | Kept in four places: lead ("could not confirm a current DOT permit, so it does not say whether that exemption applies today"), table row 2 ("A current DOT permit was not confirmed"), the bold "What this article could not confirm" paragraph (now also says it does not say whether the exemption applies today), and the diagram and alt. The body still does not explain how the exemption works |
+| F3 | Scope the TSA officer final-decision wording to the security checkpoint | Diagram footer: "The TSA officer decides at the checkpoint whether an item is allowed through." Alt ends "The TSA officer decides at the checkpoint." Body section: "...whether an item is allowed through the checkpoint. That statement is about screening at the security checkpoint." |
+| F4 | Make the first answer and the table concise; show the common disposable and Zippo-type FAA carry-on guidance first; make the source difference for checked bags clear | Lead rewritten: the FAA carry-on guidance first, then TSA carry-on, then the checked-bag difference in one sentence. Table columns reordered to FAA first, TSA second; the disposable and Zippo-type row is split into "carry-on" and "checked bags" so the difference is visible row by row. The "Disposable and Zippo-type lighters" section now opens with the FAA. The checked-bags section says TSA's answer is conditional and the FAA's chart does not allow them, and that the article does not choose between them |
+| F5 | Keep the 2013 FAA FAQ out of the body; keep it in the source notes and QA | Not mentioned in the body or the diagram or alt. Source note S8 and the section "The 2013 FAQ and the special permit" above are unchanged. User decision 2026-10-29: the optional one-sentence addition is **not** adopted |
+
+### Re-check against the official pages (2026-10-29, after the edits)
+
+All eight pages were opened again in the built-in browser after the edits and the statements below were tested against their text: TSA disposable and Zippo (Last Updated July 14, 2026), arc and electronic (Nov 4, 2024), lithium battery powered (Oct 10, 2024), torch (Oct 10, 2024), lighter fluid (Oct 10, 2024), each with the line "The final decision rests with the TSA officer on whether an item is allowed through the checkpoint"; FAA PackSafe Lighters (Last updated April 13, 2026); FAA printable chart (opened directly as a PDF, "Updated: 11/14/25", text layer read page by page, lighters row and torch row read); eCFR 49 CFR 175.10 ("up to date as of 10/27/2026", paragraph (a)(2) read). No page changed since Gate 1.
+
+| # | Revised statement | Source | Result |
+|---|---|---|---|
+| R1 | FAA: disposable and Zippo-type (absorbed liquid and butane) lighters limited to one per passenger in carry-on or on one's person | FAA page; chart | pass |
+| R2 | TSA lists "Carry On Bags: Yes" for Disposable and Zippo | TSA page | pass |
+| R3 | TSA: checked bags "Yes (Special Instructions)"; lighters without fuel allowed; lighters with fuel prohibited unless they adhere to the DOT exemption, which allows up to two fueled lighters if properly enclosed in a DOT approved case | TSA page | pass |
+| R4 | FAA chart lighters row ends with "Not allowed in Checked Bags" | FAA chart (text layer; row also checked on screen in the viewer at Gate 1) | pass |
+| R5 | The article could not confirm a current DOT permit | Source note S9 (DOT-SP 14415, third revision April 26, 2013, expiration Feb 28, 2017); no current permit found; TSA and FAA pages do not name one | pass (a stated limit, not a rule claim) |
+| R6 | Both list torch lighters as not allowed in carry-on or checked bags | TSA torch page No / No; FAA page "not allowed in the cabin or in checked baggage"; chart "Not allowed in Carry-On or Checked Bags" | pass |
+| R7 | Table row 1: FAA one per passenger, carry-on or person; regulation "on one's person or in carry-on baggage only"; TSA carry-on Yes | FAA; eCFR (a)(2); TSA | pass |
+| R8 | Table row 2: chart "Not allowed in Checked Bags"; TSA "Yes (Special Instructions)", without fuel allowed, with fuel prohibited unless a DOT exemption applies | FAA chart; TSA | pass |
+| R9 | Table row 3 (arc, electronic, other lithium battery): FAA carry-on only, measures against unintentional activation, no recharging; TSA arc page carry-on "Yes (Special Instructions)" / checked No; TSA lithium page carry-on Yes / checked No | FAA; TSA x2 | pass |
+| R10 | Table row 4: torch, FAA not allowed in the cabin or in checked baggage; TSA No / No | FAA; TSA | pass |
+| R11 | Table row 5: unabsorbed liquid fuel lighters "forbidden" (FAA); regulation: lighters containing unabsorbed liquid fuel (other than liquefied gas) not permitted on one's person, in carry-on or in checked baggage; no TSA page read for this type | FAA; eCFR | pass |
+| R12 | Table row 6: regulation: lighter fuel and lighter refills not permitted on one's person, in carry-on or checked baggage; TSA lighter fluid carry-on No, checked No | eCFR; TSA lighter fluid | pass |
+| R13 | FAA: when a carry-on bag is checked at the gate or at planeside, any lighter in the carry-on must be removed and kept with the passenger in the cabin | FAA page; chart | pass |
+| R14 | FAA's pages do not mention the exemption (web page text and the chart's lighters row contain no mention of an exemption, permit or special instructions) | FAA page; chart | pass |
+| R15 | "The final decision rests with the TSA officer on whether an item is allowed through the checkpoint" appears on the TSA pages; the article says this concerns screening at the checkpoint and does not extend it to checked bags or airlines | five TSA pages | pass |
+| R16 | TSA's disposable and Zippo page says questions about regulations can be taken to the FAA website | TSA page | pass |
+| R17 | TSA page dates: July 14, 2026; Nov 4, 2024; Oct 10, 2024 (three pages) | five TSA pages | pass |
+| R18 | Unchanged sections (how many lighters; arc, electronic and lithium battery details; torch description and naming note; unabsorbed liquid fuel and lighter fluid; Sources list) | Gate 1 claims C-series, re-read today | pass |
+
+Result: 18 of 18 revised statements pass as attributed statements. The limits P1 to P4 above remain open and are stated in the article.
+
+### Image and alt text (revised)
+
+| # | Check | Result |
+|---|---|---|
+| I1 | Diagram card 1 compared with R1 to R4: FAA one per passenger in carry-on or on one's person; TSA carry-on allowed; TSA checked bag allowed without fuel, with fuel prohibited unless a DOT exemption applies (up to two, in a DOT approved case); FAA chart not allowed; the two sources differ; current DOT permit not confirmed here. Cards 2 to 4 unchanged and match R9, R10, R11 and R12 | pass |
+| I2 | Footer: "The TSA officer decides at the checkpoint whether an item is allowed through." matches R15; "One-lighter limit: FAA page and chart"; "Source: TSA, FAA and eCFR pages, read Oct. 29, 2026" | pass |
+| I3 | Image viewed after export (1200 x 2901, PNG8, 64 colors, 119,568 bytes): no clipped text, no logo, no photo; the footer line wraps to three lines with a one-word last line ("through."), accepted. Source SVG updated (`assets/raw/lighters-on-a-plane-tsa.svg`, with title element) | pass |
+| I4 | Alt text, 497 characters, matches the diagram and the front matter and the in-body image text (same string). It is longer than the first version (462) because it now carries the conditional TSA checked-bag answer and the unconfirmed permit; it can be shortened if Gate 2 asks | pass (note) |
+| I5 | Meta description unchanged, 129 characters | pass |
+| I6 | Front matter complete; one H1, nine H2 sections plus Sources (the table section is now headed "What the FAA and TSA say, by type of lighter") | pass |
+
+### Still open (reported as is)
+
+- **P1 and P2 remain.** The pages do not reconcile TSA's conditional checked-bag answer with the FAA chart's "Not allowed in Checked Bags", and no current DOT permit was confirmed. The article states both and does not say the exemption applies today.
+- Whether TSA's "Special Instructions" for fueled lighters can be met by a traveler today is not something the pages used here establish.
 
 ## Not done yet
 
-- Gate 2 (independent).
+- Gate 2 round 2 on the revised version (by commit SHA, after the user pushes).
 - Fresh re-check of all eight pages before approval and again right before publishing (FAA chart PDF opened directly).
 - User approval to move to `content/ready/`; WordPress draft; publishing.
