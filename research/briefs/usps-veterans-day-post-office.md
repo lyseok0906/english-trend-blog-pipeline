@@ -63,3 +63,9 @@ Own calendar strip around Wednesday, Nov. 11, 2026, filled in only from the 2026
 ## Re-check rule (mandatory)
 
 Re-read the USPS "Holidays & events" page and look for the 2026 Veterans Day release at drafting, Gate 1, approval and publishing. If the 2026 release changes anything the draft says, the draft follows the 2026 release.
+
+## Re-check 1 of 3 (2026-10-30, about 02:00 UTC; scheduled reminder)
+
+- USPS RSS (`about.usps.com/news/latestnews.rss`): 699 items, newest still **Oct 22, 2026** ("Postal Service prepped to deliver for 2026 holiday season"); nothing newer. No 2026 Veterans Day or Thanksgiving notice. The only Veterans Day and Thanksgiving notices in the feed are the 2025 ones (Oct 29, 2025 and Nov 13, 2025), not used as 2026 information.
+- Holidays & events page (`about.usps.com/newsroom/events/`): still lists Wednesday, November 11, 2026 (Veterans Day) and Thursday, November 26, 2026 (Thanksgiving Day) without saying open or closed; the 2027 list (Veterans Day Thursday, November 11, 2027) is also shown.
+- Result: **no 2026 operations notice yet; the hold stands.** Nothing drafted. Next re-checks: 2026-11-03 and 2026-11-05 (final).

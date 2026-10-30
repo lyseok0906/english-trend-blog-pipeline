@@ -1143,3 +1143,7 @@ After reading the live QA and the publish record for article 13 (and pushing `6e
 - Certified Mail: DMM 508 read (1.1.1 to 1.1.8, source S5). 15-day period from the FAQ and DMM 508.1.1.7 together; the start of the count is stated by neither page and is not estimated; the sender may specify fewer days on the piece (how is not stated). Signature (508.1.1.7) and Restricted Delivery (508.1.1.8) scopes separated. "Prove you sent it." removed; fee sentence now "a newer version of the list may show different fees". New diagram (1200 x 3207) and alt (504 characters). 42 of 42 claims pass against the five USPS pages, re-read after the edits.
 
 **Waiting for the user.** Push, then Gate 2 round 3 (lighters) and round 2 (Certified Mail) by SHA. B re-checks continue (2026-10-30, 2026-11-03, 2026-11-05).
+
+## 2026-10-30 — B (Veterans Day) re-check 1 of 3
+
+Scheduled check at about 02:00 UTC: no 2026 USPS Veterans Day notice. RSS newest item is still Oct. 22, 2026; the Holidays & events page lists Nov. 11, 2026 without open or closed. The 2025 notices are not used as 2026 information. Hold stands; nothing drafted. Next re-checks: 2026-11-03 and 2026-11-05 (final, with a recommendation to hold or fold into row 12 if there is still no 2026 notice).
