@@ -1147,3 +1147,7 @@ After reading the live QA and the publish record for article 13 (and pushing `6e
 ## 2026-10-30 — B (Veterans Day) re-check 1 of 3
 
 Scheduled check at about 02:00 UTC: no 2026 USPS Veterans Day notice. RSS newest item is still Oct. 22, 2026; the Holidays & events page lists Nov. 11, 2026 without open or closed. The 2025 notices are not used as 2026 information. Hold stands; nothing drafted. Next re-checks: 2026-11-03 and 2026-11-05 (final, with a recommendation to hold or fold into row 12 if there is still no 2026 notice).
+
+## 2026-11-03 — B (Veterans Day) re-check 2 of 3
+
+Scheduled check at about 02:00 UTC: still no 2026 USPS Veterans Day notice. RSS has 700 items; the only item newer than Oct. 22, 2026 is the Board of Governors meeting notice (Oct. 30). The Holidays & events page is unchanged (Nov. 11, 2026 listed, no open or closed). 2025 notices not used. Hold stands; nothing drafted. Final re-check 2026-11-05, with a recommendation to hold or fold into row 12 if there is still no 2026 notice.
