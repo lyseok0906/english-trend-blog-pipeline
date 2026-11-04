@@ -132,3 +132,7 @@ Google Trends, US, 5 years, weekly, read through the page's own data endpoints (
 ## Not changed
 
 No draft, WordPress, Search Console or site change. The 2026-10-07 text above is kept as the original brief.
+
+## Draft note (2026-11-04)
+
+User approved the scope on 2026-11-04 (holiday-food framing; 2025 local release labeled by year and region; Food page and release not merged; not published until a TSA 2026 notice with food guidance has been read). Draft written: slug `tsa-holiday-food-carry-on` (renamed from `tsa-thanksgiving-food-carry-on` because of the holiday-food framing), `content/drafts/tsa-holiday-food-carry-on.md`; Gate 1 record `editorial/qa/tsa-holiday-food-carry-on.md`. Stage is now draft; the publication block (P1 in the QA record) stays.

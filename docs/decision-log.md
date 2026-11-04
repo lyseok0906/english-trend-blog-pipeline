@@ -1193,3 +1193,12 @@ TSA Thanksgiving food (backlog 8): `research/sources/tsa-thanksgiving-food-carry
 Quote check: strings in both source notes were tested against the live pages by script on 2026-11-04; all matched. Source-note sections "Quote check" record it.
 
 **Not done.** No draft for either post. No publishing. Next: the user's decisions on both briefs; push; Gate 2 results for lighters and Certified Mail.
+
+## 2026-11-04 — TSA holiday food draft (Gate 1 done; publication blocked until a 2026 TSA notice is read)
+
+**User decision (2026-11-04).** Scope of both new posts approved. Food post: holiday-food framing; the 2025 local release is shown with its year and region; the Food page and the release are kept separate by source; no publication until a TSA 2026 notice containing food guidance has been read, then compared with the draft and re-reviewed if needed. 2027 federal holidays post follows (OPM full list as the base; linked to the weekend-holiday post; Dec. 31, 2027 kept apart from the 2027 legal holiday list). Neither post goes to WordPress or ready.
+
+**Done (repository only).** `content/drafts/tsa-holiday-food-carry-on.md` (about 1,375 words, slug renamed from the backlog slug), diagram `assets/optimized/tsa-holiday-food-carry-on.png` and `assets/raw/tsa-holiday-food-carry-on.svg`, Gate 1 record `editorial/qa/tsa-holiday-food-carry-on.md`. After drafting, the Food page (59 rows), the Harrisburg release, the national release and the press-release list were re-opened and every statement tested by script; 31 of 31 claims pass. Both image files were read back from the repository (PNG pixel-identical to the build; SVG text identical). A clipped card title and an unsupported "Pennsylvania" label in the diagram were fixed before the commit. One sentence was made more exact ("in 2025 the national release had no food examples and the food examples were in local releases of Nov. 24 and 25").
+
+**Open.** P1 the 2026 notice (blocks publication; none on TSA's list as of 2026-11-04); P4 focus keyword is Claude's choice (not a measured term; Trends are relative only and not used in the article). Gate 2 only after the user decides on these. Backlog row 8 updated (slug, stage).
+
