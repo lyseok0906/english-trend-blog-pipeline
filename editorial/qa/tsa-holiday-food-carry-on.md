@@ -1,6 +1,6 @@
 # QA record — tsa-holiday-food-carry-on
 
-Article: `content/drafts/tsa-holiday-food-carry-on.md` (draft, 2026-11-04, about 1,375 words in the body, one H1, seven H2 sections including Sources).
+Article: `content/drafts/tsa-holiday-food-carry-on.md` (draft, 2026-11-04, about 1,626 words in the body after Gate 2 FIX rounds 1 and 2 (1,375 in the first version), one H1, seven H2 sections including Sources).
 Brief: `research/briefs/tsa-thanksgiving-food-carry-on.md` (backlog row 8; the slug changed from `tsa-thanksgiving-food-carry-on` to `tsa-holiday-food-carry-on` because the article is framed as holiday food, as the user's scope approval of 2026-11-04 asked). Sources: `research/sources/tsa-thanksgiving-food-carry-on.md`.
 Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); **Gate 2 round 2 (base `0336d6b`, user-reported 2026-11-04): FIX, one item, applied 2026-11-04** (section "Gate 2 FIX round 2"); round 3 has not run. **Not for publication until a TSA 2026 Thanksgiving notice that contains food guidance has been read, compared with this draft and the draft revised and re-reviewed (user rule, 2026-11-04).** Not in `content/ready/`, not uploaded to WordPress.
 
@@ -132,4 +132,4 @@ Additional claims for the Gate 1 table (numbering continues):
 | C33 | The Liquids page shows no update date; read on November 4, 2026 | Liquids page | pass (absence check) |
 | C34 | Sources: five TSA pages (Food page, Harrisburg release, national release, Liquids page, press-release list), each opened on 2026-11-04 | Reads | pass |
 
-Result after this round: 34 of 34 claims pass. The body text is about 1,626 words by the same count as before (the earlier counts omitted nothing; the additions are the per-container paragraph and the source lines). The diagram and alt were not changed in this round (PNG and SVG in the repository are the files committed in `0336d6b`). Open points unchanged; P1 (the 2026 notice) still blocks publication. Next: Gate 2 round 3 on the new SHA.
+Result after this round: 34 of 34 claims pass. The body is about 1,626 words (the additions since the first version are the per-container paragraph, the release container sentence, the lead sentence and the source lines). The diagram and alt were not changed in this round (PNG and SVG in the repository are the files committed in `0336d6b`). Open points unchanged; P1 (the 2026 notice) still blocks publication. Next: Gate 2 round 3 on the new SHA.
