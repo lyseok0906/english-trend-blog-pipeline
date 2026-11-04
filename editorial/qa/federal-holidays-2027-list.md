@@ -118,3 +118,15 @@ The user approved moving this article to `ready` on 2026-11-04 after the officia
 **Side effect on large screens (reported to the user).** On a 1280 px window the table text goes from about 21.8 px (theme) to 18 px, the same size as body text, and the columns follow their content instead of equal thirds (169/260/215 px instead of 215 each). Revert = turn "fixed layout" back on and clear the block font size.
 
 Still true: draft only, not published; comments and pingbacks closed; logged-out 404; not in the sitemap. The Certified Mail draft (post 72) was not touched in this step.
+
+## Live QA after publication (2026-11-04)
+
+**Published by the user** on 2026-11-04 at 02:57 site time (WordPress post 75, status `publish`; modified 02:57:15, no edit after the publish click). Live URL: https://statesideexplained.com/federal-holidays-2027-list/ . OPM and the statute were re-read earlier the same day (section above, no change); no new re-read after publication.
+
+**Checked as a logged-out visitor: all pass.** Status 200 and canonical = live URL; H1 = title; meta description and og:description = the repository text (140 characters); og:type article; robots `index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large`; no comment form, no "Leave a Reply" text, no pingback link; 6 H2 headings; JSON-LD BlogPosting with datePublished 2026-11-04T02:57:14-05:00; diagram loads (status 200, 102,306 bytes, sha256 equals the repository PNG; alt text 333 characters, equal to the front matter; srcset present); links: the two internal links (`thanksgiving-2026-date`, `federal-holiday-weekend-observed`) return 200 and carry the expected titles, the OPM and govinfo links are the two listed sources (`target=_blank`, `noopener`). Stored body equals the state verified after the table change (non-table part sha256 unchanged; table 36 cells; one image block). Rank Math focus keyword `federal holidays 2027` and the description are still set; comments and pingbacks closed; category "US dates, seasons and holidays"; no featured image.
+
+**Listing.** In `post-sitemap.xml` (lastmod 2026-11-04T07:57:15+00:00) and the RSS feed; public REST shows `publish`.
+
+**Mobile (375 px, live page).** Table: 315 px wide, 14.25 px text, 0 words broken, no horizontal scroll; the diagram (315 px wide, responsive sizes served) shows the 11 dates, the moved-day marks and the "Listed apart" box for Dec. 31, 2027 and is readable; the page has no horizontal scroll.
+
+**Not done (standing decisions).** No indexing request; no Search Console check yet. No link was added from `federal-holiday-weekend-observed` to this post (needs the user's approval).

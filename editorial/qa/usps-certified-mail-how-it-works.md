@@ -169,3 +169,15 @@ The user approved moving this article to `ready` on 2026-11-04 after the officia
 **Mobile (375x812, built-in browser).** No horizontal scroll; the image displays at 315 px wide and the card text is readable.
 
 **Official sources re-checked right before handoff (2026-11-04): no change.** USPS FAQ still shows "May 12, 2026" and all anchor phrases are present; DMM 503 (3.0 and 1.8) and DMM 508 (1.1.7, 1.1.8) still support every statement checked (label placement above the delivery address and to the right of the return address, or to the left on parcels; no insurance except Priority Mail with included insurance; 15 days unless the sender specifies fewer days); USPS.com page still has the Certified Mail and Return Receipt lines; Notice 123 still "Effective October 04, 2026" (Certified Mail $5.55, not used in the article). The "as of October 29, 2026" date in the article was not changed (a text change needs the user's approval).
+
+## Live QA after publication (2026-11-04)
+
+**Published by the user** on 2026-11-04 at 02:56 site time (WordPress post 72, status `publish`; modified 02:56:57, i.e. no edit after the publish click). Live URL: https://statesideexplained.com/usps-certified-mail-how-it-works/ . The official-source re-check was done earlier the same day (see the section above, no change); no new re-check was run after publication.
+
+**Checked as a logged-out visitor: all pass.** Status 200 and canonical = live URL; H1 = title; meta description and og:description = the repository text (155 characters); og:type article; robots `index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large`; no comment form, no "Leave a Reply" text, no pingback link; 10 H2 headings; JSON-LD includes BlogPosting with datePublished 2026-11-04T02:56:55-05:00; diagram loads (status 200, 139,581 bytes, sha256 equals the repository PNG; alt text 613 characters, equal to the front matter); the five source links are the five USPS pages (all `target=_blank` with `noopener`), the Notice 123 link in the Fees section is among them; the article states no price. Stored body (image block replaced by its alt text) equals the verified repository conversion (sha256 unchanged, 13,008 characters). Rank Math focus keyword `what is usps certified mail` and the description are still set; comments and pingbacks closed; category "Postal service and stamps"; no featured image.
+
+**Listing.** The post is in `post-sitemap.xml` (lastmod 2026-11-04T07:56:57+00:00) and in the RSS feed; public REST shows it as `publish`.
+
+**Mobile (375 px, live page).** No horizontal scroll; image 315 px wide, loaded in full resolution (1200x3273 original; no srcset, as accepted by the user); source links stay inside the screen.
+
+**Not done (standing decisions).** No indexing request; no Search Console check yet (natural crawl is observed until the 4-week evaluation). No internal link was added to or from other posts.
