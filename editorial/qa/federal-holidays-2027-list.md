@@ -82,3 +82,9 @@ Next: Gate 2 round 2 on the new SHA. Not in ready, not on WordPress; the mandato
 ## Gate 2 round 2 result (base 0336d6b, reported by the user 2026-11-04)
 
 **PASS.** ChatGPT checked the PNG, the body and the alt for the Dec. 31, 2027 item shown as the observed date for New Year's Day 2028. No change requested or made. Standing conditions: OPM 2027 and 2028 tabs and 5 U.S.C. 6103 are re-read and recorded before approval and before publishing (OPM shows no update date); moving to `ready` and every WordPress step need the user's approval.
+
+## OPM and statute re-read (2026-11-04, second read of the day, built-in browser; user request)
+
+**Result: no change.** OPM "Federal Holidays", 2027 table: the 11 rows (dates, weekdays, names and the footnote marks *, **, **, **) compared as a whole with the rows recorded in the source notes: identical. Both 2027 footnotes (Washington's Birthday naming; the Saturday and Sunday rule with 5 U.S.C. 6103(b) and Section 3(a) of Executive Order 11582) and the "In Lieu Of" fact-sheet title present. 2028 tab: first row "Friday, December 31 * | New Year's Day" present; its footnote is the same weekend sentence. The page still shows no update text. 5 U.S.C. 6103 (2024 edition, govinfo.gov): all 11 strings of (a), the Saturday rule of (b)(1) and the Inauguration Day text of (c) present. The weekdays were computed earlier the same day (S4) and need no repeat. No article change.
+
+The post stays in draft; the re-read is repeated before approval and right before publishing (OPM shows no update date). Moving to `ready` and every WordPress step need the user's approval.

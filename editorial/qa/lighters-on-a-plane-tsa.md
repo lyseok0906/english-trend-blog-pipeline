@@ -184,3 +184,20 @@ Before ready and before publication the mandatory official-page re-check (TSA li
 - Gate 2 round 4 on the revised version (by commit SHA, after the user pushes).
 - Fresh re-check of all eight pages before approval and again right before publishing (FAA chart PDF opened directly).
 - User approval to move to `content/ready/`; WordPress draft; publishing.
+
+## Pre-ready official-source re-check (2026-11-04, built-in browser; user request before the ready request)
+
+**Result: no change found in any source the article relies on.** Method: each page was opened or fetched in the browser and every statement used in the article (the verbatim anchors in the source notes S1 to S7) was tested by script after whitespace, apostrophe and quotation-mark normalization; page dates were compared with the dates recorded on 2026-10-29. The two TSA checkpoint lines "Carry On Bags: Yes" and "Checked Bags: Yes (Special Instructions)" matched when the colon after the label was allowed for (the first script version omitted it).
+
+| Source | Date now | Date recorded 2026-10-29 | Result |
+|---|---|---|---|
+| TSA, Lighters (Disposable and Zippo) | "Last Updated on July 14, 2026" | same | all anchors present (carry-on Yes; checked Yes (Special Instructions); fuel-free allowed in checked bags; fueled lighters prohibited unless the DOT exemption, up to two in a DOT approved case; FAA pointer; officer decides) |
+| TSA, Lighters (Arc, Electronic, E-Lighters) | "Last Updated on November 4, 2024" | same | all anchors present (carry-on Yes (Special Instructions); checked No; measures against activation and the three examples; 100 Wh and 2 g; no recharging on board) |
+| TSA, Lighters (Lithium Battery Powered) | "Last Updated on October 10, 2024" | same | carry-on Yes; checked No |
+| TSA, Lighters (Torch) | "Last Updated on October 10, 2024" | same | carry-on No; checked No; the flame description present |
+| TSA, Lighter (Fluid) | "Last Updated on October 10, 2024" | same | carry-on No; checked No |
+| FAA PackSafe, Lighters | "Last updated: Monday, April 13, 2026" | same | all six anchors present (liquid fuel without absorbent lining forbidden; one lighter limit; gate-check rule; lithium battery lighters carry-on only; no recharging; torch lighters not allowed in the cabin or checked baggage); the page still does not mention the DOT exemption |
+| FAA printable chart (PDF, 9 pages) | "Updated: 11/14/25" | same | text layer read with pdf.js: the one-lighter sentence, "Not allowed in Checked Bags" next to the lighter and lithium rows, and the torch lighter row "Not allowed in Carry-On or Checked Bags" present |
+| eCFR 49 CFR 175.10 | "up to date as of 11/02/2026" (was 10/27/2026) | 10/27/2026 | the four relied-on strings present and unchanged (one lighter on one's person or in carry-on only; unabsorbed liquid fuel lighters not permitted anywhere; safety cap; no recharging); only the "up to date as of" date moved |
+
+**Open points unchanged.** P1 (TSA's conditional checked-bag answer against the FAA chart's "Not allowed in Checked Bags"), P2 (no current DOT permit or exemption confirmed; the FAA page does not mention it) and P3 and P4 stay as recorded. **As-of date.** The article still says its facts are as of October 29, 2026; nothing changed since, so no body change was made. The as-of date is refreshed at the final re-check right before publishing, which also needs the user's approval of the text change. The ready request is made to the user; the post stays in draft until the user approves the move. No WordPress step.
