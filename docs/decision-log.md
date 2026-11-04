@@ -1243,3 +1243,11 @@ The added TSA Liquids page in Sources, its check date, the adjusted introduction
 **Done (repository only).** The three files were moved from `content/drafts/` to `content/ready/` (text, diagram and alt unchanged) with `status: ready`; each QA file has a "Move to ready" section and the changed path and stage; backlog rows 17, 20 and 21 and the stage counts were updated (ready 3 post-pilot; draft 1: the holiday food post, held). The holiday food post stays in `content/drafts/` and is not published until a TSA 2026 food notice is read. The as-of dates of the lighters and Certified Mail articles (October 29, 2026) are refreshed at the final re-check with the user's approval of that text change.
 
 **Open.** Final official-source re-check right before publication for each of the three posts (plus the new as-of dates); publication order and dates; the user's separate approval for WordPress upload and for publishing; Veterans Day USPS notice re-check on 2026-11-05.
+
+## 2026-11-04 — WordPress drafts created: Certified Mail (post 72) and 2027 federal holidays (post 75) (user decision)
+
+**User decision (2026-11-04).** Create both posts in WordPress as drafts in one pass (Certified Mail first), with no repeat of Gate 1 or Gate 2 and no step-by-step re-approval; re-check the official sources right before handoff and report only changes; the user presses Publish. The lighters post comes later.
+
+**Done.** Drafts created in the built-in browser with the user's login (the Claude Browser pane on the local PC, not the VM and not the external Chrome extension): post 72 (media 71) and post 75 (media 74), status `draft`, comments and pingbacks closed, Rank Math keyword and description set, bodies and images checked against the repository by hash, block editor shows no invalid block, logged-out 404 and not in the sitemap. Official sources re-read: no change for either post. Findings left for the user: the Certified Mail image is over WordPress's 2,560 px height limit (original used; no width/height or srcset); the holidays table breaks some words on a 375 px screen. Details in the two QA files.
+
+**Open.** The user's decision on those two findings; the user publishes (publication dates); as-of date refresh only if the user approves a text change; lighters WordPress draft later; Veterans Day USPS notice re-check on 2026-11-05.
