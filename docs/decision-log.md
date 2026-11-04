@@ -1202,3 +1202,9 @@ Quote check: strings in both source notes were tested against the live pages by 
 
 **Open.** P1 the 2026 notice (blocks publication; none on TSA's list as of 2026-11-04); P4 focus keyword is Claude's choice (not a measured term; Trends are relative only and not used in the article). Gate 2 only after the user decides on these. Backlog row 8 updated (slug, stage).
 
+## 2026-11-04 — 2027 federal holidays draft (Gate 1 done)
+
+**Done (repository only).** `content/drafts/federal-holidays-2027-list.md` (about 916 words), diagram `assets/optimized/federal-holidays-2027-list.png` and `assets/raw/federal-holidays-2027-list.svg`, Gate 1 record `editorial/qa/federal-holidays-2027-list.md`. Built on OPM's full 2027 list (11 rows, weekdays, one-phrase statutory rule for each, the three moved days marked); Friday, Dec. 31, 2027 (observed New Year's Day 2028, OPM 2028 tab) is its own section and its own diagram card and is not counted in the 2027 list; links to the weekend-holiday post (rule and examples stay there) and the Thanksgiving date post. After drafting, the OPM tabs, the statute (a), (b)(1) and (c), and both linked live posts were re-opened and tested; 21 of 21 claims pass. Both image files were read back from the repository (PNG pixel-identical; SVG text identical). Trends are not used in the article (relative values stay in the source notes).
+
+**Open.** Gate 2 by SHA after the user pushes; one link from the weekend post to this article would change a published post and needs the user's approval; publication timing (early December is an estimate); mandatory OPM re-read at approval and before publishing. Not in ready, not on WordPress.
+

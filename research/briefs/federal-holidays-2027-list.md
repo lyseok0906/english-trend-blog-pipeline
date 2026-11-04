@@ -83,3 +83,8 @@ An own table graphic of the 11 rows (date, weekday, holiday, mark for the three 
 ## Not changed
 
 No draft, WordPress, Search Console or site change.
+
+## Draft note (2026-11-04)
+
+User approved the scope on 2026-11-04 (OPM's full 2027 list as the base; linked to the weekend-holiday post; Dec. 31, 2027 clearly separated from the 2027 legal holiday list; Trends relative only and not used in the article). Draft written: `content/drafts/federal-holidays-2027-list.md`; Gate 1 record `editorial/qa/federal-holidays-2027-list.md`. The Inauguration Day sentence was included as one limit sentence (open decision 3 answered by including it with the statute's own wording). Stage is now draft.
+
