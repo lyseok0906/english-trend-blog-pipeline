@@ -1,6 +1,6 @@
 # Brief — tsa-thanksgiving-food-carry-on
 
-**Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/tsa-thanksgiving-food-carry-on.md` at the sources step. No draft exists.
+**Stage:** topic brief (lifecycle step 1), **revised 2026-11-04** (section at the end); source notes written 2026-11-04 in `research/sources/tsa-thanksgiving-food-carry-on.md`. No draft exists. Nothing is published or uploaded. **Not to be published until a 2026 TSA Thanksgiving notice has been read (user rule 2026-11-04).**
 **Lane:** airport security rules (mandatory official-page re-check). Overlaps with the published TSA 3-1-1 article, which it would link to.
 **Pilot status:** **deferred, NOT counted in the 12-post pilot** (user decision 2026-10-07). Write in mid-November, after TSA's 2026 holiday notice.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
@@ -76,3 +76,59 @@ Re-read the Food page (all pages of the list that the article's examples depend 
 
 1. Approve the timing plan (draft on the 2025 release, update if a 2026 release appears), or hold the article until TSA's 2026 release exists?
 2. Approve the focus keyword.
+
+---
+
+# Revision 2026-11-04 (brief and source notes first; no draft)
+
+**Request (user, 2026-11-04).** Next two posts: Thanksgiving food on a plane and the 2027 federal holiday list. Check overlap with existing posts, read official sources, look at search-demand signals, and write the brief and source notes first. The Thanksgiving post is not published until TSA's 2026 notice has been read. Post-pilot post (not counted in the 12). No draft is started by this revision.
+
+## What the 2026-11-04 reading changed
+
+| Item | 2026-10-07 brief | 2026-11-04 |
+|---|---|---|
+| Food page | 11 of 59 items read | **All 59 items read.** No row for cranberry sauce, stuffing, casserole, turkey, mashed potatoes or mac and cheese. Rows that matter: pies and cakes, cookies, cooked meat (no liquid), fresh meat, frozen food, fresh fruits and vegetables, gravy, jam and jelly, maple syrup, salsa and sauces, soups, canned foods, gel ice packs. The list page shows no date |
+| Where the food examples come from | "the Nov. 2025 release" | A **local** release (Harrisburg, Nov. 24, 2025) and sibling local releases of Nov. 24 and 25. The **national** release of Nov. 21, 2025 has **no food examples**. So the examples in the draft would be attributed to "a TSA local release of Nov. 24, 2025", not to TSA in general |
+| 2026 notice | not checked | **None** on TSA's press-release list as of 2026-11-04 (newest item Oct. 28, 2026; first three list pages searched) |
+| Timing evidence | 2025: Nov. 24 to 25 | 2025: national Nov. 21, local food tips Nov. 24 to 25; earlier years Nov. 16 to 21 (see source note S4). Expected 2026 window about Nov. 16 to 25 (estimate; Thanksgiving is Nov. 26) |
+
+## Overlap check (live posts and drafts, 2026-11-04)
+
+- **No existing post covers food at TSA.** The published TSA posts (3-1-1 liquids, PreCheck, REAL ID, power bank, alcohol) contain no food, Thanksgiving, cranberry, gravy or pie text (searched). The Thanksgiving date post (`thanksgiving-2026-date`) is about how the date is set. The alcohol post covers the TSA alcohol rows only; this article stays out of alcohol.
+- **Neighbours to link, not repeat:** the 3-1-1 post (the 3.4 oz rule that the Food page and the release apply to spreadable and liquid items) and the Thanksgiving date post (one sentence). Internal links are Gate 2 decisions.
+- **Related brief:** `usps-post-office-thanksgiving` (different topic; shares only the holiday).
+
+## Scope (proposal for the user's approval)
+
+**In:** (1) what the TSA Food list says about the specific items it names (carry-on and checked values as shown); (2) what TSA's 2025 local holiday release says about Thanksgiving dishes, attributed and dated, with the three source differences below shown as "the Food page says / the release says"; (3) the 3.4 oz rule as TSA states it; (4) the officer-decides statement; (5) a pointer to the 3-1-1 post.
+
+**Out:** airline rules, destination or import rules (including Hawaii, Puerto Rico and Virgin Islands fruit rules beyond naming TSA's sentence), dry ice beyond TSA's own sentence, alcohol, food-safety and health advice, recipes and packing advice, any statement that something "will" be allowed at a given checkpoint.
+
+**Differences to show, not merge (source note S1/S2):** (a) gravy, jam and jelly, maple syrup: the Food page lists carry-on "Yes (Less than or equal to 3.4oz/100 ml allowed)", the release says pack them in checked luggage; (b) cranberry sauce is named only in the release; (c) the Food page's "Yes (Special Instructions)" for fresh and frozen meat (ice must be frozen solid) versus the release's meat examples with no ice condition.
+
+## Search-demand signals (2026-11-04; relative only, not volume)
+
+Google Trends, US, 5 years, weekly, read through the page's own data endpoints (two 5-phrase comparisons; values are relative to the highest point inside each comparison; low-volume phrases read 0 or a few points and are sample noise):
+
+- The exact phrases are **near zero**: "can you bring thanksgiving food on a plane" (maximum 7 on the scale of the first comparison, in the weeks of Mar. 20, 2022 and Feb. 5, 2023, not in Thanksgiving weeks); "thanksgiving food on a plane" (maximum 7 in the second comparison; weeks not checked); "tsa thanksgiving food" (maximum 12 in the first comparison and 9 in the second, in the week of Nov. 23, 2025 only); "can you bring pie on a plane" (maximum 9 in the first comparison, weeks of Sep. 15, 2024 and Nov. 23, 2025).
+- Broader phrases do show a **small November lift**: "turkey on a plane" read 10 in two Thanksgiving weeks of 2023, 7 to 10 in 2024 and 7 to 16 in 2025; "can you bring food on a plane" averaged about 20 and read 13 to 29 in the November weeks of 2023 to 2025 (a year-round phrase, so the lift is small). For scale, "is the post office open on thanksgiving" read 81 to 100 in the Thanksgiving week of each year in the first comparison.
+- Reading (Claude's judgment): the Thanksgiving-specific phrase has little measured interest, and the real search language is spread across many phrasings (turkey, pie, gravy, cranberry sauce, food). One article could meet some of those searches; it cannot be expected to meet most of them. Demand is **not** measured in volume. Competition was not re-checked today (search tool not used); on 2026-10-07 results were news, travel and food sites.
+- Crawl timing (observation about this site): three newest pilot posts were not crawled about 13 days after publishing (Search Console, 2026-10-20). An article published about Nov. 20 to 25 may not be indexed before Thanksgiving (Nov. 26).
+
+## Timing and the publishing rule
+
+- **User rule (2026-11-04):** no publishing until TSA's 2026 notice has been read. Expected window of the notice: about Nov. 16 to 25 (estimate). Thanksgiving is Nov. 26.
+- A 2026 notice may arrive as local releases only (as in 2025, the national release had no food list). **Definition proposed for approval:** "the 2026 notice" means a TSA 2026 Thanksgiving or holiday release that contains food-packing guidance. If only a travel-volume release appears, the article is not ready under this rule, and the user decides whether that counts.
+- Claude's judgment: the useful window is short and the indexing risk is real; the Food page is undated and evergreen. If the notice appears late, the article may reach readers mostly after the holiday.
+
+## Open decisions for the user
+
+1. Approve the scope above (and the "the Food page says / the release says" structure)?
+2. Definition of "2026 notice" (food guidance in a TSA 2026 release), or a different rule?
+3. Framing: Thanksgiving-specific title (as filed), or an evergreen "holiday foods" framing that keeps working after the holiday? Claude's view: the evergreen framing fits the measured interest better; the Thanksgiving-specific title fits the question the user asked. The user decides.
+4. Whether to start the draft now (everything attributed to the 2025 release and the Food page, marked "pending 2026 notice") or only after a 2026 notice appears.
+5. Focus keyword: keep `can you bring thanksgiving food through tsa` (the exact phrase measured near zero), or choose after the framing decision.
+
+## Not changed
+
+No draft, WordPress, Search Console or site change. The 2026-10-07 text above is kept as the original brief.
