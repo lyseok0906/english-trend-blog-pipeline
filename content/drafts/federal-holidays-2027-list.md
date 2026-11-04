@@ -8,7 +8,7 @@ status: draft
 date: 2026-11-04
 internal_link_candidates: federal-holiday-weekend-observed (published; the rule for moved days); thanksgiving-2026-date (published; how the Thanksgiving date is set)
 image: assets/optimized/federal-holidays-2027-list.png
-image_alt: "Table of the 11 federal holidays on OPM's 2027 list, Friday, Jan. 1 to Friday, Dec. 24. Three are shown on a moved day: Juneteenth on Friday, June 18, Independence Day on Monday, July 5 and Christmas Day on Friday, Dec. 24. A separate box lists Friday, Dec. 31, 2027, New Year's Day 2028, from OPM's 2028 tab."
+image_alt: "Table of the 11 federal holidays on OPM's 2027 list, Friday, Jan. 1 to Friday, Dec. 24. Three are shown on a moved day: Juneteenth on Friday, June 18, Independence Day on Monday, July 5 and Christmas Day on Friday, Dec. 24. A separate box lists Friday, Dec. 31, 2027 as the observed date for New Year's Day 2028, from OPM's 2028 tab."
 ---
 
 # Federal Holidays in 2027: The Full List and Observed Dates
@@ -35,7 +35,7 @@ The table follows OPM's "2027 Holiday Schedule." The last column is the rule in 
 | Thursday, November 25 | Thanksgiving Day | Fourth Thursday in November |
 | Friday, December 24 | Christmas Day | December 25, a Saturday in 2027 |
 
-![Table of the 11 federal holidays on OPM's 2027 list, Friday, Jan. 1 to Friday, Dec. 24. Three are shown on a moved day: Juneteenth on Friday, June 18, Independence Day on Monday, July 5 and Christmas Day on Friday, Dec. 24. A separate box lists Friday, Dec. 31, 2027, New Year's Day 2028, from OPM's 2028 tab.](assets/optimized/federal-holidays-2027-list.png)
+![Table of the 11 federal holidays on OPM's 2027 list, Friday, Jan. 1 to Friday, Dec. 24. Three are shown on a moved day: Juneteenth on Friday, June 18, Independence Day on Monday, July 5 and Christmas Day on Friday, Dec. 24. A separate box lists Friday, Dec. 31, 2027 as the observed date for New Year's Day 2028, from OPM's 2028 tab.](assets/optimized/federal-holidays-2027-list.png)
 
 OPM's footnote on Washington's Birthday says that name is the one in section 6103(a), and that OPM's policy is to always refer to holidays by the names in the law. Other institutions may use other names. For Thanksgiving, see [When Is Thanksgiving 2026 in the U.S.? How the Date Is Set](https://statesideexplained.com/thanksgiving-2026-date/) for how the fourth Thursday is set.
 
@@ -51,7 +51,7 @@ For 2027 that gives Friday, June 18 for Juneteenth, Monday, July 5 for Independe
 
 ## The December 31, 2027 date
 
-OPM's 2028 table starts with Friday, December 31, for New Year's Day, marked with the same weekend footnote. New Year's Day 2028, January 1, is a Saturday, so the Friday before it is December 31, 2027. The date falls in 2027, but OPM does not print it on the 2027 tab, and this article does not count it among the 11 holidays above. The 2028 tab prints no year in that row; the year is worked out from the weekday.
+OPM's 2028 table starts with Friday, December 31, for New Year's Day, marked with the same weekend footnote. New Year's Day 2028, January 1, is a Saturday, so the Friday before it, December 31, 2027, is the observed date for New Year's Day 2028. The date falls in 2027, but OPM does not print it on the 2027 tab, and this article does not count it among the 11 holidays above. The 2028 tab prints no year in that row; the year is worked out from the weekday.
 
 ## What this article does not cover
 

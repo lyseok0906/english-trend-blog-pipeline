@@ -2,7 +2,7 @@
 
 Article: `content/drafts/federal-holidays-2027-list.md` (draft, 2026-11-04, about 916 words in the body, one H1, six H2 sections including Sources).
 Brief: `research/briefs/federal-holidays-2027-list.md`. Sources: `research/sources/federal-holidays-2027-list.md` (S1 OPM 2027 tab, S2 OPM 2028 tab, S3 5 U.S.C. 6103 2024 edition, S4 date computation).
-Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 not run. Not in `content/ready/`, not uploaded to WordPress. Mandatory OPM re-read applies again at approval and before publishing.
+Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); round 2 has not run. Not in `content/ready/`, not uploaded to WordPress. Mandatory OPM re-read applies again at approval and before publishing.
 
 ## Scope as approved by the user (2026-11-04)
 
@@ -62,3 +62,19 @@ Result: 21 of 21 claims pass as attributed statements, computed values (disclose
 | I5 | Meta description 140 characters | pass |
 | I6 | Front matter complete; one H1; two internal links (weekend post, Thanksgiving post) | pass |
 | I7 | Diagram history: the first build left spare space at the bottom of the gray card; its height was reduced before the commit | fixed |
+
+## Gate 2 FIX round 1 (base a6de32c, 2026-11-04)
+
+Gate 2 result (ChatGPT, user-reported): FIX. Request: the PNG's Dec. 31, 2027 item and the alt must say that it is the observed date for New Year's Day 2028.
+
+| # | Change | Result |
+|---|---|---|
+| H1 | Diagram card "Listed apart": "Fri, Dec 31, 2027: the observed date for New Year's Day 2028. It is on OPM's 2028 tab, not on the 2027 list above." | applied |
+| H2 | Alt (333 characters, front matter and body identical): "A separate box lists Friday, Dec. 31, 2027 as the observed date for New Year's Day 2028, from OPM's 2028 tab." | applied |
+| H3 | Body, December 31 section: "...so the Friday before it, December 31, 2027, is the observed date for New Year's Day 2028." (it only said "the Friday before it is December 31, 2027" before) | applied |
+
+**Official pages.** OPM 2028 tab first row "Friday, December 31 * | New Year's Day" and its weekend footnote, and the OPM 2027 table were re-opened and tested on 2026-11-04 (Gate 1); the Gate 2 change adds no new statement beyond the OPM row and footnote already tested (C15 to C17).
+
+**Image files checked as committed.** PNG 1200 x 2316, pixel-identical to the local build (102,306 bytes in the repository after the transfer added a C2PA block); SVG 37 text elements identical to the build; the PNG was opened and viewed from the repository copy; the card, the body and the alt agree.
+
+Next: Gate 2 round 2 on the new SHA. Not in ready, not on WordPress; the mandatory OPM re-read at approval and before publishing remains.

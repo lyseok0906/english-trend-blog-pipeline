@@ -1208,3 +1208,12 @@ Quote check: strings in both source notes were tested against the live pages by 
 
 **Open.** Gate 2 by SHA after the user pushes; one link from the weekend post to this article would change a published post and needs the user's approval; publication timing (early December is an estimate); mandatory OPM re-read at approval and before publishing. Not in ready, not on WordPress.
 
+## 2026-11-04 — Gate 2 results (ChatGPT, user-reported): lighters PASS, Certified Mail PASS, holiday food FIX, 2027 holidays FIX
+
+**Lighters (`51e6a1d`): PASS (round 4).** The alt text now separates lighters with unabsorbed liquid fuel; the PNG was checked. Kept open as the user instructed: the TSA / FAA checked-bag difference (P1) and the unconfirmed DOT permit (P2). **Certified Mail (`51e6a1d`): PASS (round 3).** The first answer's signature scope, the electronic-signature exception, the redelivery condition, the PNG and the alt were checked. Both stay in draft, not in ready; the mandatory official-page re-check before approval and publication and the existing ready and publication steps apply.
+
+**Holiday food (`a6de32c`): FIX.** Make clear in body, diagram and alt that 3.4 oz is a per-container limit (checked against TSA's Liquids page and the Harrisburg release); make the link text to the 3-1-1 post match its real title ("What Is the TSA 3-1-1 Liquids Rule? What's Exempt?"). Applied; publication hold until a 2026 TSA food notice is read is unchanged. **2027 holidays (`a6de32c`): FIX.** The PNG's Dec. 31, 2027 item and the alt must say "observed date for New Year's Day 2028". Applied (diagram card, alt, one body sentence).
+
+**Done (repository only).** Both FIX rounds recorded in `editorial/qa/tsa-holiday-food-carry-on.md` and `editorial/qa/federal-holidays-2027-list.md`; PASS recorded in the lighters and Certified Mail QA files; backlog rows 8, 17, 20, 21 updated. Both changed PNG and SVG pairs were committed under new transfer names, staged back from the repository, compared pixel-for-pixel with the builds, viewed, and checked against body and alt (food alt 514 characters, holidays alt 333, each identical in front matter and body).
+
+**Open.** New SHA for Gate 2 round 2 of the two new posts (user pushes first); the food post stays blocked until a TSA 2026 food notice is read; the food focus keyword is still Claude's choice and not a measured term; no ready move or WordPress step for any of the four posts.

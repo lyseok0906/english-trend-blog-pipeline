@@ -2,7 +2,7 @@
 
 Article: `content/drafts/lighters-on-a-plane-tsa.md` (draft, 2026-10-29, about 1,590 words after the Gate 2 FIX round; the Gate 1 table below refers to the first version, commit `e75b3bc`/`50ce2d8`, and the FIX round section at the end re-checks every changed statement).
 Brief: `research/briefs/lighters-on-a-plane-tsa.md`. Sources: `research/sources/lighters-on-a-plane-tsa.md` (S1 to S4 the five TSA pages, S5 FAA PackSafe Lighters, S6 FAA printable chart, S7 eCFR 49 CFR 175.10; S8 FAA 2013 FAQ and S9 DOT-SP 14415 are **not used in the article body**, see "The 2013 FAQ and the special permit").
-Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `50ce2d8`): FIX (5 items), applied. Gate 2 round 2 (base commit `aa72f32`): FIX (diagram files and checkpoint wording), applied; both are recorded in the last sections. Gate 2 round 3 (base `6415385`) = FIX, one item, applied 2026-11-04 (section "Gate 2 FIX round 3"); Gate 2 round 4 has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
+Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `50ce2d8`): FIX (5 items), applied. Gate 2 round 2 (base commit `aa72f32`): FIX (diagram files and checkpoint wording), applied; both are recorded in the last sections. Gate 2 round 3 (base `6415385`) = FIX, one item, applied 2026-11-04 (section "Gate 2 FIX round 3"); **Gate 2 round 4 (ChatGPT, base `51e6a1d`, user-reported 2026-11-04): PASS** (section "Gate 2 round 4 result"). Still not in ready; the mandatory TSA/FAA re-check and the existing ready and publication steps still apply. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
 
 Method: before drafting (earlier on 2026-10-29) all pages were opened in the built-in browser and each quoted statement was tested against the page or PDF text (see the source notes, "Verification"). At Gate 1, after the draft existed, the FAA page and chart, the five TSA pages and the eCFR section were opened again (2026-10-29) and the statements the draft relies on were tested again by script: FAA page 11 of 11 plus "does not mention the exemption" confirmed; FAA chart (PDF text layer, 9 pages) 5 of 5; TSA pages 27 of 27 (disposable and Zippo 6 of 6 with "no number limit stated" confirmed, arc and electronic 7 of 7, lithium battery powered 3 of 3, torch 4 of 4 with "the torch page does not use the name butane" confirmed, lighter fluid 3 of 3); eCFR 7 of 7 ("up to date as of 10/27/2026"; title last amended 10/13/2026). The chart's lighter rows and the FAA FAQ's two pages were also checked on screen in the PDF viewer (source notes).
 
@@ -166,6 +166,18 @@ Gate 2 result (ChatGPT, user-reported): FIX, one item. Request: in the front mat
 The wording "lighters with unabsorbed liquid fuel" follows the regulation's own phrase; the FAA page says "lighters that use liquid fuel, but do not have an absorbent lining" and its heading says "Unabsorbed liquid". Not re-opened today: the other five pages (TSA disposable/Zippo, arc, lithium; FAA chart), because those statements were not changed.
 
 **Image checks, repository files read back (not the build folder).** `assets/optimized/lighters-on-a-plane-tsa.png` in the repository: 125,762 bytes, 1200 x 2901, opened and read; unchanged since the previous round (the PNG was not regenerated because only the SVG title changed). The repository SVG (13,024 bytes, 33 text elements) was rendered at 1.5x and compared with the repository PNG: same size, largest per-pixel difference 30 of 255, no pixel differing by more than 40. Card text read from the repository PNG: card 1 (carry-on, TSA checked-bag conditional, FAA chart, DOT permit not confirmed), card 2 (arc/electronic/lithium), card 3 (torch), card 4 ("Lighters with unabsorbed liquid fuel, and lighter fluid or refills"), footer (security checkpoint). Each alt clause matches a card. Both files still carry an embedded C2PA provenance block from the file transfer.
+
+## Gate 2 round 4 result (base `51e6a1d`, reported by the user 2026-11-04)
+
+**PASS.** ChatGPT checked the alt text, which now separates lighters with unabsorbed liquid fuel from the other lighter types, and the committed PNG. No change to the article, diagram or alt was requested or made.
+
+Kept open, as the user instructed:
+
+- **P1 stays open.** The difference between TSA's checked-bag answer for disposable and Zippo-type lighters (fuel-free allowed; fueled lighters only under conditions) and the FAA chart's "Not allowed in Checked Bags" is not reconciled by the pages read.
+- **P2 stays open.** No current DOT permit or exemption was found or confirmed; the article repeats TSA's one sentence and says it cannot explain it.
+- P3 and P4 are unchanged.
+
+Before ready and before publication the mandatory official-page re-check (TSA lighters pages, FAA PackSafe, 49 CFR 175.10) is repeated and recorded; PASS does not replace it. Moving to `ready` and every WordPress step still need the user's approval.
 
 ## Not done yet
 

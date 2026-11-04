@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-certified-mail-how-it-works.md` (draft, 2026-10-29, about 1,620 words in the body after the Gate 2 FIX round).
 Brief: `research/briefs/usps-certified-mail-how-it-works.md`. Sources: `research/sources/usps-certified-mail-how-it-works.md` (S1 USPS FAQ, S2 DMM 503 section 3.0 and 1.8, S3 USPS.com extra-services page, S4 Notice 123, **S5 DMM 508 sections 1.1.7 and 1.1.8, added in the FIX round**).
-Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `aa72f32`): FIX, applied 2026-10-29. Gate 2 round 2 (base `6415385`): FIX, applied 2026-11-04 (section "Gate 2 FIX round 2"). Gate 2 round 3 has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
+Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `aa72f32`): FIX, applied 2026-10-29. Gate 2 round 2 (base `6415385`): FIX, applied 2026-11-04 (section "Gate 2 FIX round 2"). **Gate 2 round 3 (ChatGPT, base `51e6a1d`, user-reported 2026-11-04): PASS** (section "Gate 2 round 3 result"). Still not in ready; the mandatory USPS re-check before approval and publication still applies. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
 
 ## Scope as approved by the user (2026-10-29)
 
@@ -131,3 +131,9 @@ Round 1: FIX (above). Round 2 (base `6415385`) = FIX, applied 2026-11-04 (sectio
 - Gate 2 round 3 (independent).
 - Fresh re-check of all five pages before approval and again right before publishing (Notice 123 in particular).
 - User approval to move to `content/ready/`; WordPress draft; publishing.
+
+## Gate 2 round 3 result (base `51e6a1d`, reported by the user 2026-11-04)
+
+**PASS.** ChatGPT checked the first answer's signature scope, the electronic-signature exception, the redelivery condition, and the PNG and alt. No change was requested or made.
+
+Standing conditions: the USPS FAQ, DMM 503 and 508, the USPS.com page and Notice 123 must be re-read and recorded before approval and before publication (the as-of date in the article is October 29, 2026); the open points P1 to P6 above are unchanged; moving to `ready` and every WordPress step need the user's approval.

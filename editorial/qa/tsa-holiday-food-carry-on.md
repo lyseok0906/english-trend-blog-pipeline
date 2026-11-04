@@ -2,7 +2,7 @@
 
 Article: `content/drafts/tsa-holiday-food-carry-on.md` (draft, 2026-11-04, about 1,375 words in the body, one H1, seven H2 sections including Sources).
 Brief: `research/briefs/tsa-thanksgiving-food-carry-on.md` (backlog row 8; the slug changed from `tsa-thanksgiving-food-carry-on` to `tsa-holiday-food-carry-on` because the article is framed as holiday food, as the user's scope approval of 2026-11-04 asked). Sources: `research/sources/tsa-thanksgiving-food-carry-on.md`.
-Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 not run. **Not for publication until a TSA 2026 Thanksgiving notice that contains food guidance has been read, compared with this draft and the draft revised and re-reviewed (user rule, 2026-11-04).** Not in `content/ready/`, not uploaded to WordPress.
+Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); round 2 has not run. **Not for publication until a TSA 2026 Thanksgiving notice that contains food guidance has been read, compared with this draft and the draft revised and re-reviewed (user rule, 2026-11-04).** Not in `content/ready/`, not uploaded to WordPress.
 
 ## Scope as approved by the user (2026-11-04)
 
@@ -82,3 +82,30 @@ Result: 31 of 31 claims pass as attributed statements, stated limits or absence 
 ## Next
 
 Gate 2 on the SHA of this commit only after the user decides on P1 and P4; the draft stays blocked from `ready` and WordPress until the 2026 notice is read.
+
+## Gate 2 FIX round 1 (base a6de32c, 2026-11-04)
+
+Gate 2 result (ChatGPT, user-reported): FIX. Requests: (1) make clear in the body, diagram and alt that 3.4 oz is a per-container limit, checked against TSA's text; (2) make the display title of the link to the TSA 3-1-1 article match its real title. The hold on publication until a 2026 TSA food notice is read stays.
+
+| # | Change | Result |
+|---|---|---|
+| F1 | Lead: "...and allows gravy, jam, maple syrup and sauces in a carry-on at 3.4 ounces (100 ml) or less" followed by "TSA's liquids page says that limit applies to each container, not to a total." | applied |
+| F2 | New paragraph at the end of "What TSA's Food page says": the Food page's value reads "Yes (Less than or equal to 3.4oz/100 ml allowed)" and does not say what the 3.4 ounces is measured against; TSA's "Liquids, Aerosols, and Gels Rule" page limits items to travel-sized containers of 3.4 ounces (100 ml) or less per item in a quart-sized bag and sends larger containers to checked baggage; so the 3.4 ounces is the size of each container, not a total for the trip; the pages do not go further (for example a larger container only partly filled) and the article does not either | applied |
+| F3 | Release section: for casseroles with liquid components the release adds that each liquid or semi-liquid item must be in a container of 3.4 ounces or less and fit into a single quart-sized, clear, resealable plastic bag | applied |
+| F4 | Differences table: "Carry-on: Yes, 3.4 oz or less (container size, see above)"; the paragraph below it says "(the size of each container)" and "for those items"; the Soups sentence says "3.4 ounces (100 ml) or less" | applied |
+| F5 | Link text: "What Is the TSA 3-1-1 Liquids Rule? What's Exempt?", the live post's H1 (opened 2026-11-04; the earlier long title was wrong); front-matter link note updated | applied |
+| F6 | Alt (514 characters, front matter and body identical): "gravy, jam, maple syrup and sauces at 3.4 oz or less in carry-on, a limit TSA's liquids page applies to each container" | applied |
+| F7 | Diagram: card 1 says "Carry-on, 3.4 oz (100 ml) or less" and adds the line "TSA liquids page: the 3.4 oz limit is per container."; card 3 says "the Food page allows 3.4 oz or less in carry-on bags"; footer source line now "Source: tsa.gov Food, liquids pages, Harrisburg release" | applied |
+
+**Official pages re-opened 2026-11-04 (built-in browser).**
+
+| Page | Checked | Result |
+|---|---|---|
+| TSA, Liquids, Aerosols, and Gels Rule | "limited to travel-sized containers that are 3.4 ounces (100 milliliters) or less per item"; quart-sized bag; "Pack items that are in containers larger than 3.4 ounces or 100 milliliters in checked baggage" | present |
+| TSA Harrisburg release (Nov. 24, 2025) | "Each liquid or semi-liquid item must be in a container of 3.4 ounces or less and fit into a single quart-sized, clear, resealable plastic bag." (in the casserole paragraph) | present |
+| TSA Food page | 59 rows and value strings as in Gate 1 (read earlier the same day) | unchanged |
+| Live 3-1-1 post | H1 "What Is the TSA 3-1-1 Liquids Rule? What's Exempt?"; its text uses "each container holds 3.4 ounces ... or less" | matches |
+
+**Image files checked as committed (new transfer names; staged back from the repository).** PNG 1200 x 2946, pixel-identical to the local build (126,485 bytes in the repository after the transfer added a C2PA block); SVG 34 text elements identical to the build; the PNG was opened and viewed from the repository copy; the diagram, body and alt agree on the per-container wording and the year and airport label.
+
+Open points P1 to P6 above are unchanged (P1, the 2026 notice, still blocks publication). Not in ready, not on WordPress. Next: Gate 2 round 2 on the new SHA.
