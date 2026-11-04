@@ -1167,3 +1167,15 @@ Scheduled check at about 02:00 UTC: still no 2026 USPS Veterans Day notice. RSS 
 **Done (repository only).** `docs/pilot-evaluation.md` 10-5절을 갱신(판정 기준을 만들지 않기로 함, 원문은 그대로 둠)하고 9절 첫 항목에 갱신 표시를 붙였으며, 10-7절(평가 방식, 기록 규칙, 이미 본 값, 결과 정리 표 G)을 추가했다. 표 A~F의 기존 값은 바꾸지 않았다. 10월 27일까지의 3편 수치는 이 저장소에 없어 옮겨 적지 않았다.
 
 **Open.** Search Console 값과 레인별 네 항목은 비어 있다. 글별 제작 시간 기록은 평가 당일 다시 찾고, 없으면 미측정. 푸시 완료(`d1dc252..b224a26`)가 이 결정 이전 상태다.
+
+## 2026-11-04 — Gate 2 FIX on lighters (round 3) and Certified Mail (round 2); production target of two posts per day
+
+**Production target (user, 2026-11-04).** Two posts per day as a production target. The 4-week evaluation of the 12 pilot posts runs separately in parallel; new posts are recorded as post-pilot posts. Source checks, Gate 1 and Gate 2 are not skipped to meet the number. The earlier publishing cadence (3 posts per week, spread over the week, 2026-10-29) is a decision about publishing; it is not changed by this production target, and the user has not said otherwise.
+
+**Gate 2 (ChatGPT, base 6415385): FIX on both.**
+
+Lighters: alt text in the front matter and in the body now says "lighters with unabsorbed liquid fuel" instead of "liquid-fuel lighters" (identical strings, 537 characters); the unrendered SVG title was aligned. TSA/FAA checked-bag difference and the unconfirmed current DOT permit are unchanged. FAA PackSafe, eCFR 49 CFR 175.10, TSA torch and TSA lighter-fluid pages re-opened on 2026-11-04: no change. The repository PNG (unchanged) and SVG were read back and compared.
+
+Certified Mail: the first answer, the signature section, diagram card 1 and the alt now show that ordinary delivery is signed by the recipient (FAQ: addressee; DMM 508.1.1.7: recipient signs and prints a name unless an electronic signature is used; delivery to another person at some addresses when delivery is not restricted); DMM 503 section 1.8 electronic-signature wording added with the limit that the pages do not say which services or recipients it covers; the alt (613 characters) carries the exception and the redelivery condition; Restricted Delivery stays separate. DMM 508, DMM 503 and the USPS FAQ re-opened on 2026-11-04: no source change. The diagram was regenerated; the repository PNG and SVG were read back, compared with the build and the render, and checked against the body and alt.
+
+**Open.** Alt texts are long (537 and 613 characters); flagged for Gate 2. Not re-opened today: USPS.com extra-services page and Notice 123 (Certified Mail), five lighter pages whose statements did not change. Fresh re-check before approval and before publishing is still due for both. Not in `ready`, not on WordPress. Next: push, then Gate 2 round 4 (lighters) and round 3 (Certified Mail) by SHA.

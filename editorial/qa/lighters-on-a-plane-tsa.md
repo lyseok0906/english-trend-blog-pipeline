@@ -2,7 +2,7 @@
 
 Article: `content/drafts/lighters-on-a-plane-tsa.md` (draft, 2026-10-29, about 1,590 words after the Gate 2 FIX round; the Gate 1 table below refers to the first version, commit `e75b3bc`/`50ce2d8`, and the FIX round section at the end re-checks every changed statement).
 Brief: `research/briefs/lighters-on-a-plane-tsa.md`. Sources: `research/sources/lighters-on-a-plane-tsa.md` (S1 to S4 the five TSA pages, S5 FAA PackSafe Lighters, S6 FAA printable chart, S7 eCFR 49 CFR 175.10; S8 FAA 2013 FAQ and S9 DOT-SP 14415 are **not used in the article body**, see "The 2013 FAQ and the special permit").
-Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `50ce2d8`): FIX (5 items), applied. Gate 2 round 2 (base commit `aa72f32`): FIX (diagram files and checkpoint wording), applied; both are recorded in the last sections. Gate 2 round 3 has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
+Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `50ce2d8`): FIX (5 items), applied. Gate 2 round 2 (base commit `aa72f32`): FIX (diagram files and checkpoint wording), applied; both are recorded in the last sections. Gate 2 round 3 (base `6415385`) = FIX, one item, applied 2026-11-04 (section "Gate 2 FIX round 3"); Gate 2 round 4 has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
 
 Method: before drafting (earlier on 2026-10-29) all pages were opened in the built-in browser and each quoted statement was tested against the page or PDF text (see the source notes, "Verification"). At Gate 1, after the draft existed, the FAA page and chart, the five TSA pages and the eCFR section were opened again (2026-10-29) and the statements the draft relies on were tested again by script: FAA page 11 of 11 plus "does not mention the exemption" confirmed; FAA chart (PDF text layer, 9 pages) 5 of 5; TSA pages 27 of 27 (disposable and Zippo 6 of 6 with "no number limit stated" confirmed, arc and electronic 7 of 7, lithium battery powered 3 of 3, torch 4 of 4 with "the torch page does not use the name butane" confirmed, lighter fluid 3 of 3); eCFR 7 of 7 ("up to date as of 10/27/2026"; title last amended 10/13/2026). The chart's lighter rows and the FAA FAQ's two pages were also checked on screen in the PDF viewer (source notes).
 
@@ -144,8 +144,31 @@ Alt text, 521 characters, same string in the front matter and in the body image:
 
 Process change: every image is now read back from the repository file (size, dimensions, pixel comparison with the render, text of the SVG) before it is committed, and the QA states which file was checked.
 
+## Gate 2 FIX round 3 (base 6415385, 2026-11-04)
+
+Gate 2 result (ChatGPT, user-reported): FIX, one item. Request: in the front matter and body alt, replace `liquid-fuel lighters` with `lighters with unabsorbed liquid fuel`; keep the TSA/FAA checked-bag difference and the "current DOT permit not confirmed" state.
+
+| # | Change | Result |
+|---|---|---|
+| M1 | Alt text, front matter and body: "Torch lighters, liquid-fuel lighters and lighter fluid: not allowed." became "Torch lighters, lighters with unabsorbed liquid fuel and lighter fluid: not allowed." The string is identical in both places (537 characters; it was 521, so it is longer; flagged for Gate 2 as before). | done |
+| M2 | SVG `<title>` (not rendered) also said "liquid-fuel lighters"; reworded to "...torch lighters, and lighters with unabsorbed liquid fuel." The picture itself is unchanged: card 4 already read "Lighters with unabsorbed liquid fuel, and lighter fluid or refills: not allowed (FAA, 49 CFR 175.10; TSA for lighter fluid)." | done |
+| M3 | Not changed, as asked: the checked-bag clause ("TSA allows lighters without fuel and prohibits fueled ones unless a DOT exemption applies; the FAA chart says not allowed; a current DOT permit was not confirmed") and the checkpoint sentence. | kept |
+
+**Official pages re-opened 2026-11-04 for the changed clause (built-in browser, page loads).**
+
+| Page | Checked | Result |
+|---|---|---|
+| FAA PackSafe, Lighters (page shows April 13, 2026) | heading "Unabsorbed liquid (desk/table lighters, antique wick lighters), absorbed liquids, butane (Zippo-type lighters, disposable lighters)"; "Lighters that use liquid fuel, but do not have an absorbent lining, are forbidden."; one-lighter sentence for absorbed liquid and butane lighters | all present, unchanged |
+| eCFR 49 CFR 175.10(a)(2) | "Lighter fuel, lighter refills, and lighters containing unabsorbed liquid fuel (other than liquefied gas) are not permitted on one's person or in carry-on or checked baggage." and the one-lighter sentence | both present, unchanged |
+| TSA, Lighters (Torch) (Last Updated October 10, 2024) | Carry On Bags: No; Checked Bags: No | unchanged |
+| TSA, Lighter (Fluid) (Last Updated October 10, 2024) | Carry On Bags: No; Checked Bags: No | unchanged |
+
+The wording "lighters with unabsorbed liquid fuel" follows the regulation's own phrase; the FAA page says "lighters that use liquid fuel, but do not have an absorbent lining" and its heading says "Unabsorbed liquid". Not re-opened today: the other five pages (TSA disposable/Zippo, arc, lithium; FAA chart), because those statements were not changed.
+
+**Image checks, repository files read back (not the build folder).** `assets/optimized/lighters-on-a-plane-tsa.png` in the repository: 125,762 bytes, 1200 x 2901, opened and read; unchanged since the previous round (the PNG was not regenerated because only the SVG title changed). The repository SVG (13,024 bytes, 33 text elements) was rendered at 1.5x and compared with the repository PNG: same size, largest per-pixel difference 30 of 255, no pixel differing by more than 40. Card text read from the repository PNG: card 1 (carry-on, TSA checked-bag conditional, FAA chart, DOT permit not confirmed), card 2 (arc/electronic/lithium), card 3 (torch), card 4 ("Lighters with unabsorbed liquid fuel, and lighter fluid or refills"), footer (security checkpoint). Each alt clause matches a card. Both files still carry an embedded C2PA provenance block from the file transfer.
+
 ## Not done yet
 
-- Gate 2 round 2 on the revised version (by commit SHA, after the user pushes).
+- Gate 2 round 4 on the revised version (by commit SHA, after the user pushes).
 - Fresh re-check of all eight pages before approval and again right before publishing (FAA chart PDF opened directly).
 - User approval to move to `content/ready/`; WordPress draft; publishing.

@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-certified-mail-how-it-works.md` (draft, 2026-10-29, about 1,620 words in the body after the Gate 2 FIX round).
 Brief: `research/briefs/usps-certified-mail-how-it-works.md`. Sources: `research/sources/usps-certified-mail-how-it-works.md` (S1 USPS FAQ, S2 DMM 503 section 3.0 and 1.8, S3 USPS.com extra-services page, S4 Notice 123, **S5 DMM 508 sections 1.1.7 and 1.1.8, added in the FIX round**).
-Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `aa72f32`): FIX. The FIX round was applied on 2026-10-29 (last section). Gate 2 on the revised version has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
+Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `aa72f32`): FIX, applied 2026-10-29. Gate 2 round 2 (base `6415385`): FIX, applied 2026-11-04 (section "Gate 2 FIX round 2"). Gate 2 round 3 has not run. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
 
 ## Scope as approved by the user (2026-10-29)
 
@@ -95,12 +95,39 @@ Result: 42 of 42 claims pass as attributed statements or stated limits.
 | G4 | Fix the sentence saying fees necessarily change when a new price list is issued | Now: "A newer version of the list may show different fees, so check the version in effect." (C41) |
 | G5 | Remove "Prove you sent it." and explain the mailing receipt plainly | Quote deleted (also from the source-note use list). New plain explanation: Form 3800 has a green label for the item and a receipt for the sender; the clerk round-dates the receipt to show when the item was accepted; otherwise the sender detaches it and marks the date; the number on the receipt is used to look up status (C7, C10 to C12) |
 
+## Gate 2 FIX round 2 (base 6415385, 2026-11-04)
+
+Gate 2 result (ChatGPT, user-reported): FIX. Requests: (1) the first answer must not read as if only the addressee signs for ordinary delivery; (2) the diagram must show the electronic-signature exception; (3) the alt must carry the exception and the redelivery condition, matching body and diagram; (4) Restricted Delivery's scope stays separate.
+
+| # | Change | Result |
+|---|---|---|
+| H1 | First answer: "requires a signature from the addressee" became "requires a signature", followed by: the FAQ names the addressee as the signer; the DMM says the recipient signs and prints a name unless an electronic signature is used, and that delivery may go to another person at some addresses (hotel, apartment house) when the sender has not restricted delivery. | done (C43) |
+| H2 | "A signature" section: DMM 508 sentence now says "unless an electronic signature is used as described in 503.1.8a"; new sentence on DMM 503 section 1.8 (signature in a proof of delivery letter: obtained at delivery or, for certain services, an electronic signature the addressee or representative previously provided, kept on file); new statement of what the pages do not say (which services or recipients that covers, so no claim for a given Certified Mail item); hotel/apartment sentence attributed to DMM 508. | done (C44, C45) |
+| H3 | Diagram card 1, item 3: "The recipient signs and prints a name, unless an electronic signature is used (DMM 508)." Card 4 already read "If the piece is not called for or redelivery is not requested, it is returned after 15 days (DMM 508)". | done |
+| H4 | Alt (front matter and body, identical, 613 characters; it was 504, so it is longer; flagged for Gate 2): "signature at delivery, the recipient signs and prints a name unless an electronic signature is used" and "if the piece is not called for or redelivery is not requested, returned after 15 days, or fewer if the sender specifies; start of the count not stated". | done (C46) |
+| H5 | Restricted Delivery: body paragraph, card 2 and alt unchanged ("only the addressee or an agent authorized in writing"; DMM 508.1.1.8). | kept |
+
+**Official pages re-opened 2026-11-04 (built-in browser, page loads).**
+
+| Page | Checked | Result |
+|---|---|---|
+| DMM 508, 1.1.7 | "Unless an electronic signature is used as described in 503.1.8a, a mailpiece may not be opened or given to the recipient before the recipient signs and legibly prints his or her name on the applicable form or label..."; "When delivery is not restricted at the sender's request, mail addressed to a person at a hotel, apartment house, etc., may be delivered to any person in a position to whom mail for that location is usually delivered."; "A notice is provided to the addressee for a mailpiece that cannot be delivered. If the piece is not called for or redelivery is not requested, the piece is returned to the sender after 15 days (5 days for Priority Mail Express, 10 days for COD), unless the sender specifies fewer days on the piece." | all present, as in the article |
+| DMM 508, 1.1.8 | "postal employees must deliver mail marked "Restricted Delivery" only to the addressee or person authorized in writing as the addressee's agent" | present |
+| DMM 503, 1.8 | "...the signature provided may be a signature that was obtained from the recipient at the time of delivery, or, for certain services, an electronic signature that was previously provided by the addressee (or representative) and is maintained on file with the Postal Service." | present. Note: the text of 503 section 1.8 shows no visible "a." label; DMM 508 is what points to "503.1.8a", so the article gives the 508 reference as 508 states it and describes 503 section 1.8 |
+| USPS FAQ (May 12, 2026) | "Requires a signature from the addressee"; "held at the Post Office for 15 days and will be returned to sender on the 16th day"; Priority Mail Express named in the insurance sentence | unchanged |
+
+Not re-opened today: USPS.com extra-services page and Notice 123 (no statement about them changed). The article's as-of date stays October 29, 2026; the fresh re-check before approval and before publishing is still due.
+
+**Limits kept.** The pages do not say which services or recipients the electronic signature covers, whether Certified Mail items qualify, or when the 15-day count starts; the article says so and does not infer.
+
+**Image checks, repository files read back.** `assets/optimized/usps-certified-mail-how-it-works.png` in the repository: 139,581 bytes, 1200 x 3273, opened and read. Its pixels are identical to the build output (the 64-color PNG made from the render). The repository SVG (13,423 bytes, 38 text elements) was rendered at 1.5x and compared with the repository PNG: same size, largest per-pixel difference 42 of 255, 115 pixels above 40 (anti-aliasing against the 64-color palette), no layout difference. Text read from the PNG: card 1 item 3 with the electronic-signature clause; card 2 Restricted Delivery; card 4 redelivery condition, 15 days, fewer days, FAQ day 16, count start not stated; footer "Legal effect is not covered here." Each alt clause matches a card and the body. The files carry an embedded C2PA provenance block from the transfer. The transfer used new file names (`cm-fix-r4`) and the result was read back from the repository.
+
 ## Gate 2 — English + SEO QA
 
-Round 1: FIX (above). Round 2 on the revised version: not run. Request from ChatGPT by commit SHA after the user pushes. Points for the reviewer: the 15-day section (P1), the signature paragraph (P4), the Priority Mail Express sentence (P2), whether the alt text is too long, whether one internal link is wanted.
+Round 1: FIX (above). Round 2 (base `6415385`) = FIX, applied 2026-11-04 (section "Gate 2 FIX round 2"); round 3 on the revised version: not run. Request from ChatGPT by commit SHA after the user pushes. Points for the reviewer: the 15-day section (P1), the signature paragraph (P4), the Priority Mail Express sentence (P2), whether the alt text is too long, whether one internal link is wanted.
 
 ## Not done yet
 
-- Gate 2 round 2 (independent).
+- Gate 2 round 3 (independent).
 - Fresh re-check of all five pages before approval and again right before publishing (Notice 123 in particular).
 - User approval to move to `content/ready/`; WordPress draft; publishing.
