@@ -2,7 +2,7 @@
 
 Article: `content/drafts/federal-holidays-2027-list.md` (draft, 2026-11-04, about 916 words in the body, one H1, six H2 sections including Sources).
 Brief: `research/briefs/federal-holidays-2027-list.md`. Sources: `research/sources/federal-holidays-2027-list.md` (S1 OPM 2027 tab, S2 OPM 2028 tab, S3 5 U.S.C. 6103 2024 edition, S4 date computation).
-Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); round 2 has not run. Not in `content/ready/`, not uploaded to WordPress. Mandatory OPM re-read applies again at approval and before publishing.
+Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); **Gate 2 round 2 (ChatGPT, base `0336d6b`, user-reported 2026-11-04): PASS** (section "Gate 2 round 2 result"). Still not in ready; the mandatory OPM re-read before approval and before publishing remains. Not in `content/ready/`, not uploaded to WordPress. Mandatory OPM re-read applies again at approval and before publishing.
 
 ## Scope as approved by the user (2026-11-04)
 
@@ -78,3 +78,7 @@ Gate 2 result (ChatGPT, user-reported): FIX. Request: the PNG's Dec. 31, 2027 it
 **Image files checked as committed.** PNG 1200 x 2316, pixel-identical to the local build (102,306 bytes in the repository after the transfer added a C2PA block); SVG 37 text elements identical to the build; the PNG was opened and viewed from the repository copy; the card, the body and the alt agree.
 
 Next: Gate 2 round 2 on the new SHA. Not in ready, not on WordPress; the mandatory OPM re-read at approval and before publishing remains.
+
+## Gate 2 round 2 result (base 0336d6b, reported by the user 2026-11-04)
+
+**PASS.** ChatGPT checked the PNG, the body and the alt for the Dec. 31, 2027 item shown as the observed date for New Year's Day 2028. No change requested or made. Standing conditions: OPM 2027 and 2028 tabs and 5 U.S.C. 6103 are re-read and recorded before approval and before publishing (OPM shows no update date); moving to `ready` and every WordPress step need the user's approval.

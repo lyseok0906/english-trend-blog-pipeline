@@ -2,7 +2,7 @@
 
 Article: `content/drafts/tsa-holiday-food-carry-on.md` (draft, 2026-11-04, about 1,375 words in the body, one H1, seven H2 sections including Sources).
 Brief: `research/briefs/tsa-thanksgiving-food-carry-on.md` (backlog row 8; the slug changed from `tsa-thanksgiving-food-carry-on` to `tsa-holiday-food-carry-on` because the article is framed as holiday food, as the user's scope approval of 2026-11-04 asked). Sources: `research/sources/tsa-thanksgiving-food-carry-on.md`.
-Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); round 2 has not run. **Not for publication until a TSA 2026 Thanksgiving notice that contains food guidance has been read, compared with this draft and the draft revised and re-reviewed (user rule, 2026-11-04).** Not in `content/ready/`, not uploaded to WordPress.
+Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); **Gate 2 round 2 (base `0336d6b`, user-reported 2026-11-04): FIX, one item, applied 2026-11-04** (section "Gate 2 FIX round 2"); round 3 has not run. **Not for publication until a TSA 2026 Thanksgiving notice that contains food guidance has been read, compared with this draft and the draft revised and re-reviewed (user rule, 2026-11-04).** Not in `content/ready/`, not uploaded to WordPress.
 
 ## Scope as approved by the user (2026-11-04)
 
@@ -109,3 +109,27 @@ Gate 2 result (ChatGPT, user-reported): FIX. Requests: (1) make clear in the bod
 **Image files checked as committed (new transfer names; staged back from the repository).** PNG 1200 x 2946, pixel-identical to the local build (126,485 bytes in the repository after the transfer added a C2PA block); SVG 34 text elements identical to the build; the PNG was opened and viewed from the repository copy; the diagram, body and alt agree on the per-container wording and the year and airport label.
 
 Open points P1 to P6 above are unchanged (P1, the 2026 notice, still blocks publication). Not in ready, not on WordPress. Next: Gate 2 round 2 on the new SHA.
+
+## Gate 2 FIX round 2 (base 0336d6b, 2026-11-04)
+
+Gate 2 result (ChatGPT, user-reported): FIX, one item. The body and diagram rely on TSA's "Liquids, Aerosols, and Gels Rule" page, so it must be listed under Sources with its actual check date, and the introduction ("what TSA says in two places") must reflect the added source. The hold on publication until a 2026 TSA food notice is read stays. The rest of the article, the 3.4-ounce per-container wording, the link text, the diagram and the alt were not questioned.
+
+| # | Change | Result |
+|---|---|---|
+| J1 | Sources list: new entry "TSA, 'Liquids, Aerosols, and Gels Rule' (used for what the 3.4-ounce limit refers to; the page shows no update date)" with the URL `https://www.tsa.gov/travel/security-screening/liquids-aerosols-gels-rule` | applied |
+| J2 | Sources paragraph: "The Food page, the Liquids, Aerosols, and Gels Rule page and the press-release list were read on November 4, 2026, and both press releases were read the same day. The Food page and the Liquids page show no update date." | applied |
+| J3 | Introduction: the article covers what TSA says about holiday food in two places (Food list; Harrisburg release) and "also uses a third TSA page, 'Liquids, Aerosols, and Gels Rule,' only to explain what the 3.4-ounce limit refers to. All three were read on November 4, 2026. The Food page and the Liquids page show no date." | applied |
+| J4 | "What this article does not cover": "what two TSA sources state" became "what the TSA pages and the release listed under Sources state" | applied |
+| J5 | Sections "Where the two TSA sources differ" and the alt ("two TSA sources") unchanged: they compare the Food page and the release; the Liquids page is a supporting definition, not a third side of the comparison | kept |
+
+**Check date of the Liquids page.** First opened 2026-11-04 for Gate 2 FIX round 1 (the page's own first read) and opened again the same day for this round: title "Liquids, Aerosols, and Gels Rule | Transportation Security Administration"; no update or year date anywhere on the page (script search for "updated", "last modified" and month-day-year dates found none); the three strings the article relies on are present: "3.4 ounces (100 milliliters) or less per item", "quart-sized bag" and "Pack items that are in containers larger than 3.4 ounces or 100 milliliters in checked baggage". The article therefore states 2026-11-04 as the read date and says the page shows none of its own.
+
+Additional claims for the Gate 1 table (numbering continues):
+
+| # | Claim in the draft | Source | Result |
+|---|---|---|---|
+| C32 | The Liquids page is used only to explain what the 3.4-ounce limit refers to; items in travel-sized containers of 3.4 ounces (100 ml) or less per item, in a quart-sized bag; larger containers in checked baggage | Liquids page | pass |
+| C33 | The Liquids page shows no update date; read on November 4, 2026 | Liquids page | pass (absence check) |
+| C34 | Sources: five TSA pages (Food page, Harrisburg release, national release, Liquids page, press-release list), each opened on 2026-11-04 | Reads | pass |
+
+Result after this round: 34 of 34 claims pass. The body text is about 1,626 words by the same count as before (the earlier counts omitted nothing; the additions are the per-container paragraph and the source lines). The diagram and alt were not changed in this round (PNG and SVG in the repository are the files committed in `0336d6b`). Open points unchanged; P1 (the 2026 notice) still blocks publication. Next: Gate 2 round 3 on the new SHA.

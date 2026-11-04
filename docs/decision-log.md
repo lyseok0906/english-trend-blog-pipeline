@@ -1217,3 +1217,11 @@ Quote check: strings in both source notes were tested against the live pages by 
 **Done (repository only).** Both FIX rounds recorded in `editorial/qa/tsa-holiday-food-carry-on.md` and `editorial/qa/federal-holidays-2027-list.md`; PASS recorded in the lighters and Certified Mail QA files; backlog rows 8, 17, 20, 21 updated. Both changed PNG and SVG pairs were committed under new transfer names, staged back from the repository, compared pixel-for-pixel with the builds, viewed, and checked against body and alt (food alt 514 characters, holidays alt 333, each identical in front matter and body).
 
 **Open.** New SHA for Gate 2 round 2 of the two new posts (user pushes first); the food post stays blocked until a TSA 2026 food notice is read; the food focus keyword is still Claude's choice and not a measured term; no ready move or WordPress step for any of the four posts.
+
+## 2026-11-04 — Gate 2 round 2 on `0336d6b` (ChatGPT, user-reported): 2027 holidays PASS, holiday food FIX (one item)
+
+**2027 federal holidays: PASS.** PNG, body and alt show Dec. 31, 2027 as the observed date for New Year's Day 2028. Recorded in the QA file and the backlog. The OPM re-read before ready and before publishing stays; no ready move, no WordPress.
+
+**Holiday food: FIX (one item), applied.** The TSA "Liquids, Aerosols, and Gels Rule" page, on which the body and diagram rely for the per-container 3.4-ounce wording, is now in Sources with its check date (read 2026-11-04; the page shows no update date; re-opened the same day and the three relied-on strings found). The introduction now says the article covers two places for holiday food and uses the Liquids page only for what the 3.4-ounce limit refers to; one sentence in "What this article does not cover" was aligned. Diagram and alt unchanged. The hold on publication until a TSA 2026 food notice is read stays. QA section "Gate 2 FIX round 2" with claims C32 to C34 (34 of 34 pass); backlog row 8 updated.
+
+**Open.** Gate 2 round 3 for holiday food on the new SHA (user pushes first). The Veterans Day USPS notice final re-check is on 2026-11-05 (scheduled).

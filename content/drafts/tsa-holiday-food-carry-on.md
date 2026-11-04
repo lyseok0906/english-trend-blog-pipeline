@@ -15,7 +15,7 @@ image_alt: "Diagram of what two TSA sources say about holiday food. TSA Food pag
 
 **TSA's Food page lists pies, cakes, cookies and cooked meat as allowed in both carry-on and checked bags, and allows gravy, jam, maple syrup and sauces in a carry-on at 3.4 ounces (100 ml) or less.** TSA's liquids page says that limit applies to each container, not to a total. A TSA local press release from Harrisburg International Airport, dated November 24, 2025, gives a holiday list and says to pack gravy, cranberry sauce, jams and maple syrup in checked bags. The two TSA sources word some items differently, and this article keeps them apart.
 
-This article covers what TSA says in two places: the Food list on TSA's "What Can I Bring?" pages, and the 2025 local release from Harrisburg International Airport. Both were read on November 4, 2026. The Food page shows no date. On that day TSA's press-release list showed no 2026 Thanksgiving release (the newest item was dated October 28, 2026), so the holiday examples below are from 2025 and TSA may say something different this year. The article does not cover airline rules, food import rules, alcohol or food safety.
+This article covers what TSA says about holiday food in two places: the Food list on TSA's "What Can I Bring?" pages, and the 2025 local release from Harrisburg International Airport. It also uses a third TSA page, "Liquids, Aerosols, and Gels Rule," only to explain what the 3.4-ounce limit refers to. All three were read on November 4, 2026. The Food page and the Liquids page show no date. On that day TSA's press-release list showed no 2026 Thanksgiving release (the newest item was dated October 28, 2026), so the holiday examples below are from 2025 and TSA may say something different this year. The article does not cover airline rules, food import rules, alcohol or food safety.
 
 ![Diagram of what two TSA sources say about holiday food. TSA Food page: pies, cakes, cookies and cooked meat allowed in carry-on and checked bags; gravy, jam, maple syrup and sauces at 3.4 oz or less in carry-on, a limit TSA's liquids page applies to each container. TSA local release, Harrisburg International Airport, Nov. 24, 2025: turkey, stuffing and baked goods through the checkpoint; cranberry sauce, gravy, jams and maple syrup in checked bags. The sources differ on small amounts. The TSA officer decides.](assets/optimized/tsa-holiday-food-carry-on.png)
 
@@ -77,13 +77,14 @@ In 2025, TSA's national release had no food examples, and the holiday food examp
 
 ## What this article does not cover
 
-It does not cover airline rules, rules for bringing food into another country or into Hawaii beyond the one sentence above, alcohol, food safety, recipes or advice on how to pack. It describes what two TSA sources state on the dates above and does not track changes to them.
+It does not cover airline rules, rules for bringing food into another country or into Hawaii beyond the one sentence above, alcohol, food safety, recipes or advice on how to pack. It describes what the TSA pages and the release listed under Sources state on the dates above and does not track changes to them.
 
 ## Sources
 
-The Food page and the press-release list were read on November 4, 2026, and both press releases were read the same day.
+The Food page, the Liquids, Aerosols, and Gels Rule page and the press-release list were read on November 4, 2026, and both press releases were read the same day. The Food page and the Liquids page show no update date.
 
 - TSA, "What Can I Bring? Food" (59 items; the page shows no update date). https://www.tsa.gov/travel/security-screening/whatcanibring/food
 - TSA, local press release, "TSA prepared for busy Thanksgiving travel in Harrisburg, offers special packing tips," November 24, 2025. https://www.tsa.gov/news/press/releases/2025/11/24/tsa-prepared-for-busy-thanksgiving-travel-harrisburg-offers-special
 - TSA, national press release, "GOLDEN AGE OF TRAVEL: TSA is prepared to screen more than 3 million Thanksgiving travelers," November 21, 2025. https://www.tsa.gov/news/press/releases/2025/11/21/golden-age-travel-tsa-prepared-screen-more-3-million-thanksgiving
+- TSA, "Liquids, Aerosols, and Gels Rule" (used for what the 3.4-ounce limit refers to; the page shows no update date). https://www.tsa.gov/travel/security-screening/liquids-aerosols-gels-rule
 - TSA, press releases list (newest item October 28, 2026). https://www.tsa.gov/news/press/releases
