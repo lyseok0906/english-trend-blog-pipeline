@@ -1251,3 +1251,11 @@ The added TSA Liquids page in Sources, its check date, the adjusted introduction
 **Done.** Drafts created in the built-in browser with the user's login (the Claude Browser pane on the local PC, not the VM and not the external Chrome extension): post 72 (media 71) and post 75 (media 74), status `draft`, comments and pingbacks closed, Rank Math keyword and description set, bodies and images checked against the repository by hash, block editor shows no invalid block, logged-out 404 and not in the sitemap. Official sources re-read: no change for either post. Findings left for the user: the Certified Mail image is over WordPress's 2,560 px height limit (original used; no width/height or srcset); the holidays table breaks some words on a 375 px screen. Details in the two QA files.
 
 **Open.** The user's decision on those two findings; the user publishes (publication dates); as-of date refresh only if the user approves a text change; lighters WordPress draft later; Veterans Day USPS notice re-check on 2026-11-05.
+
+## 2026-11-04 — Mobile table in the 2027 holidays draft improved (user request)
+
+**User request.** Find a way to stop words breaking in the middle in the phone table, check the result on mobile before applying, report the scope of the change, and say what text changes (if any); do not publish either post.
+
+**Done (WordPress draft 75 only; nothing published).** Table block set to automatic column widths and a fluid block font size `clamp(13px, 3.8vw, 18px)`; checked at 320, 360, 375, 390 and 414 px: no broken word, no sideways scroll. **Text changes: none** (all 36 cell texts identical). The repository article was not changed. Side effect: on large screens the table text is 18 px instead of about 21.8 px, with content-based column widths. Revert is two settings in the block. Details in `editorial/qa/federal-holidays-2027-list.md`.
+
+**Open.** The user's view of the large-screen side effect; publishing is still the user's step. The Certified Mail image-size finding (original file used; no width/height or srcset) is still open.

@@ -104,3 +104,17 @@ The user approved moving this article to `ready` on 2026-11-04 after the officia
 **Finding (mobile, 375x812).** No horizontal scroll, but the table uses the theme's fixed column layout, so on a phone some words break in the middle ("Washingt-on's", "Juneteent-h", "Independ-ence", "Septembe-r"). Switching the table to automatic column widths removes the broken words but makes the table about 40 px wider than the screen, so it scrolls sideways. Neither was applied; the draft keeps the fixed layout. The user decides (options: keep as is; automatic widths; shorter third-column wording, which is a text change; a theme-level CSS fix).
 
 **Official sources re-read right before handoff (2026-11-04): no change.** OPM 2027 table still has the same 11 rows and observed dates; the 2028 table still starts with "Friday, December 31 *" for New Year's Day; the footnotes (Washington's Birthday name, Saturday rule with 5 U.S.C. 6103(b), Sunday rule with Section 3(a) of Executive Order 11582) are unchanged; the page shows no update date. 5 U.S.C. 6103 (2024 edition on govinfo.gov): (a) list, (b)(1) and the Inauguration Day sentence unchanged. The "as of November 4, 2026" date needs no change.
+
+## Mobile table fix in WordPress draft (2026-11-04, user request)
+
+**Problem.** At 375 px the table (theme's fixed equal-width columns, about 18 px text) broke 7 words in the middle ("Washington's", "Juneteenth", "Independence" x2, "September" x2 and "Thanksgiving" in some widths).
+
+**Tested before applying (built-in browser, emulated widths).** Automatic column widths plus a smaller font; a word-width check against each cell's inner width found no broken word and no sideways scroll at 15 px or below at 375 px. A fluid size, `clamp(13px, 3.8vw, 18px)`, gave no broken words at 320, 360, 375, 390 and 414 px (largest size without a break: about 13, 15, 15.5, 16.5 and 17.5 px).
+
+**Applied to the draft (post 75 only, table block only).** The table block now has "fixed layout" off (the `has-fixed-layout` class is gone) and a block font size of `clamp(13px, 3.8vw, 18px)`, set and saved in the block editor, so the markup is the editor's own and valid (21 blocks, 0 invalid). **Text:** unchanged. The 36 table cells (header and 11 rows x 3) are identical before and after; the rest of the body differs only by one blank line between two list items, written by the editor's own save (no visible effect). **Not in the repository:** `content/ready/federal-holidays-2027-list.md` is unchanged (the table markup lives only in WordPress; the repository table is plain Markdown).
+
+**Result after saving (real viewports).** 375 px: table 315 px wide (fits), 14.25 px text, 0 broken words, no sideways scroll, table height 904 px (was 1,253 px). 320 px: 13 px text, 0 broken words, no scroll. Wider than about 475 px the text is 18 px.
+
+**Side effect on large screens (reported to the user).** On a 1280 px window the table text goes from about 21.8 px (theme) to 18 px, the same size as body text, and the columns follow their content instead of equal thirds (169/260/215 px instead of 215 each). Revert = turn "fixed layout" back on and clear the block font size.
+
+Still true: draft only, not published; comments and pingbacks closed; logged-out 404; not in the sitemap. The Certified Mail draft (post 72) was not touched in this step.
