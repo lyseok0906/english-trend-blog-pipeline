@@ -1,8 +1,8 @@
 # QA record — federal-holidays-2027-list
 
-Article: `content/drafts/federal-holidays-2027-list.md` (draft, 2026-11-04, about 916 words in the body, one H1, six H2 sections including Sources).
+Article: `content/ready/federal-holidays-2027-list.md` (ready since 2026-11-04; written as a draft, 2026-11-04, about 916 words in the body, one H1, six H2 sections including Sources).
 Brief: `research/briefs/federal-holidays-2027-list.md`. Sources: `research/sources/federal-holidays-2027-list.md` (S1 OPM 2027 tab, S2 OPM 2028 tab, S3 5 U.S.C. 6103 2024 edition, S4 date computation).
-Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); **Gate 2 round 2 (ChatGPT, base `0336d6b`, user-reported 2026-11-04): PASS** (section "Gate 2 round 2 result"). Still not in ready; the mandatory OPM re-read before approval and before publishing remains. Not in `content/ready/`, not uploaded to WordPress. Mandatory OPM re-read applies again at approval and before publishing.
+Stage: **ready** (moved from `content/drafts/` on 2026-11-04 with the user's approval; status in the front matter set to `ready`). The earlier stage notes below are kept as history. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); **Gate 2 round 2 (ChatGPT, base `0336d6b`, user-reported 2026-11-04): PASS** (section "Gate 2 round 2 result"). Still not in ready; the mandatory OPM re-read before approval and before publishing remains. Not in `content/ready/`, not uploaded to WordPress. Mandatory OPM re-read applies again at approval and before publishing.
 
 ## Scope as approved by the user (2026-11-04)
 
@@ -88,3 +88,9 @@ Next: Gate 2 round 2 on the new SHA. Not in ready, not on WordPress; the mandato
 **Result: no change.** OPM "Federal Holidays", 2027 table: the 11 rows (dates, weekdays, names and the footnote marks *, **, **, **) compared as a whole with the rows recorded in the source notes: identical. Both 2027 footnotes (Washington's Birthday naming; the Saturday and Sunday rule with 5 U.S.C. 6103(b) and Section 3(a) of Executive Order 11582) and the "In Lieu Of" fact-sheet title present. 2028 tab: first row "Friday, December 31 * | New Year's Day" present; its footnote is the same weekend sentence. The page still shows no update text. 5 U.S.C. 6103 (2024 edition, govinfo.gov): all 11 strings of (a), the Saturday rule of (b)(1) and the Inauguration Day text of (c) present. The weekdays were computed earlier the same day (S4) and need no repeat. No article change.
 
 The post stays in draft; the re-read is repeated before approval and right before publishing (OPM shows no update date). Moving to `ready` and every WordPress step need the user's approval.
+
+## Move to `ready` (user approval 2026-11-04)
+
+The user approved moving this article to `ready` on 2026-11-04 after the official-source re-check of the same day (section above: no source changed). The file was moved from `content/drafts/` to `content/ready/` and the front matter set to `status: ready`; the article text, diagram and alt were not changed by the move. The OPM 2027 and 2028 tabs and 5 U.S.C. 6103 were read twice on 2026-11-04; no change.
+
+**Before publishing (the user's condition):** the official sources are re-read right before publication and the result is recorded here; if anything changed, the change is reported first and the text fixed before any upload. The as-of date in the article is refreshed at that re-check, which needs the user's approval because it changes the text. WordPress upload and publication have not been done and need the user's separate approval.

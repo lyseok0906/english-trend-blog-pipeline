@@ -4,7 +4,7 @@ slug: usps-certified-mail-how-it-works
 meta_description: "USPS Certified Mail adds a mailing receipt and delivery information to Priority Mail or First-Class Mail. See what it includes, the add-ons and the limits."
 category: Postal service and stamps
 focus_keyword: what is usps certified mail
-status: draft
+status: ready
 date: 2026-10-29
 internal_link_candidates: none (no live post covers Certified Mail; add one link only if a natural fit appears at Gate 2)
 image: assets/optimized/usps-certified-mail-how-it-works.png

@@ -4,7 +4,7 @@ slug: federal-holidays-2027-list
 meta_description: "OPM's 2027 federal holiday list: 11 dates from Friday, January 1 to Friday, December 24, with the rule behind each and the three moved days."
 category: US dates, seasons and holidays
 focus_keyword: federal holidays 2027
-status: draft
+status: ready
 date: 2026-11-04
 internal_link_candidates: federal-holiday-weekend-observed (published; the rule for moved days); thanksgiving-2026-date (published; how the Thanksgiving date is set)
 image: assets/optimized/federal-holidays-2027-list.png

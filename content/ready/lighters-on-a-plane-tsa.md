@@ -4,7 +4,7 @@ slug: lighters-on-a-plane-tsa
 meta_description: "TSA and the FAA list lighters by type: disposable, Zippo-type, arc and torch. See what each says about carry-on and checked bags."
 category: Airport security rules
 focus_keyword: can you bring a lighter on a plane
-status: draft
+status: ready
 date: 2026-10-29
 internal_link_candidates: power-bank-on-a-plane-tsa-faa (used once, in the arc and lithium battery section)
 image: assets/optimized/lighters-on-a-plane-tsa.png

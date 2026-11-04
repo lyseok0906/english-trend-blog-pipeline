@@ -1,8 +1,8 @@
 # QA record — usps-certified-mail-how-it-works
 
-Article: `content/drafts/usps-certified-mail-how-it-works.md` (draft, 2026-10-29, about 1,620 words in the body after the Gate 2 FIX round).
+Article: `content/ready/usps-certified-mail-how-it-works.md` (ready since 2026-11-04; written as a draft, 2026-10-29, about 1,620 words in the body after the Gate 2 FIX round).
 Brief: `research/briefs/usps-certified-mail-how-it-works.md`. Sources: `research/sources/usps-certified-mail-how-it-works.md` (S1 USPS FAQ, S2 DMM 503 section 3.0 and 1.8, S3 USPS.com extra-services page, S4 Notice 123, **S5 DMM 508 sections 1.1.7 and 1.1.8, added in the FIX round**).
-Stage: draft. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `aa72f32`): FIX, applied 2026-10-29. Gate 2 round 2 (base `6415385`): FIX, applied 2026-11-04 (section "Gate 2 FIX round 2"). **Gate 2 round 3 (ChatGPT, base `51e6a1d`, user-reported 2026-11-04): PASS** (section "Gate 2 round 3 result"). Still not in ready; the mandatory USPS re-check before approval and publication still applies. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
+Stage: **ready** (moved from `content/drafts/` on 2026-11-04 with the user's approval; status in the front matter set to `ready`). The earlier stage notes below are kept as history. Gate 1 (Claude) run on 2026-10-29. **Gate 2 round 1 (ChatGPT, base commit `aa72f32`): FIX, applied 2026-10-29. Gate 2 round 2 (base `6415385`): FIX, applied 2026-11-04 (section "Gate 2 FIX round 2"). **Gate 2 round 3 (ChatGPT, base `51e6a1d`, user-reported 2026-11-04): PASS** (section "Gate 2 round 3 result"). Still not in ready; the mandatory USPS re-check before approval and publication still applies. Nothing is in `content/ready/`, nothing is uploaded to WordPress, nothing is published.**
 
 ## Scope as approved by the user (2026-10-29)
 
@@ -151,3 +151,9 @@ Standing conditions: the USPS FAQ, DMM 503 and 508, the USPS.com page and Notice
 | USPS Notice 123, Price List | "Effective October 04, 2026" | same | the effective date is unchanged; the Certified Mail fee line is still $5.55 (recorded for reference only; the article states no price) |
 
 **Open points unchanged.** P1 to P6 stay as recorded (including that the DMM 503 text read does not show the label "503.1.8a" that DMM 508 cites). **As-of date.** The article still says "as of October 29, 2026"; since nothing changed, no body change was made; the as-of date is refreshed at the final re-check right before publishing (a text change that needs the user's approval). The ready request is made to the user; the post stays in draft until the user approves the move. No WordPress step.
+
+## Move to `ready` (user approval 2026-11-04)
+
+The user approved moving this article to `ready` on 2026-11-04 after the official-source re-check of the same day (section above: no source changed). The file was moved from `content/drafts/` to `content/ready/` and the front matter set to `status: ready`; the article text, diagram and alt were not changed by the move. The open points P1 to P6 stay as recorded.
+
+**Before publishing (the user's condition):** the official sources are re-read right before publication and the result is recorded here; if anything changed, the change is reported first and the text fixed before any upload. The as-of date in the article is refreshed at that re-check, which needs the user's approval because it changes the text. WordPress upload and publication have not been done and need the user's separate approval.
