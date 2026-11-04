@@ -1151,3 +1151,11 @@ Scheduled check at about 02:00 UTC: no 2026 USPS Veterans Day notice. RSS newest
 ## 2026-11-03 — B (Veterans Day) re-check 2 of 3
 
 Scheduled check at about 02:00 UTC: still no 2026 USPS Veterans Day notice. RSS has 700 items; the only item newer than Oct. 22, 2026 is the Board of Governors meeting notice (Oct. 30). The Holidays & events page is unchanged (Nov. 11, 2026 listed, no open or closed). 2025 notices not used. Hold stands; nothing drafted. Final re-check 2026-11-05, with a recommendation to hold or fold into row 12 if there is still no 2026 notice.
+
+## 2026-11-04 — 4주 평가 준비 (기록 틀 정리만, 숫자 없음)
+
+**Request (user, 2026-11-04).** 4주 평가 준비를 먼저 시작한다. 대상은 기존 파일럿 12편뿐이고 13번째 글 이후는 따로 기록한다. 저장소에서 확인되는 발행일과 평가 기준을 정리하고, Search Console 수치가 필요한 칸은 비운다. 글과 WordPress 설정은 바꾸지 않는다.
+
+**Done (repository only).** `docs/pilot-evaluation.md`에 10절을 추가했다. 표 A~F와 기존 값은 바꾸지 않았다. 확인한 것: 표 A의 12 slug가 백로그의 published + counted 12행과 일치(스크립트 대조), `content/published/` 13편은 12편 + 파일럿 이후 `alcohol-on-a-plane-tsa-faa`. 기록한 것: 발행 작업일 2026-10-07, 평가 가능일 2026-11-04, 서머타임 글의 사이트 표시 날짜는 10-06(표기 차이, 정정 아님), 공개 시각 기록 두 곳이 완전히 같은지는 재확인하지 않음, Search Console 28일 기간은 마지막 데이터 날짜를 끝으로 적는 규칙, 사용자가 채울 칸 목록, 평가 당일 순서, 파일럿 이후 글은 표 F에만 기록.
+
+**Not done / open.** Search Console 값(색인, 크롤, 노출, 클릭, 쿼리)과 레인별 네 항목은 비어 있다. **판정 기준은 정해지지 않았다(9절, 10-5절). 숫자를 받기 전에 사용자가 정하는 것이 문서의 원칙에 맞다.** 수익 지표는 평가 범위 밖이고 확인된 광고·제휴·수익 값은 없다. 글, WordPress, 사이트 설정은 건드리지 않았다.
