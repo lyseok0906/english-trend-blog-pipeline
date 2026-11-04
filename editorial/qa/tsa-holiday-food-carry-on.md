@@ -2,7 +2,7 @@
 
 Article: `content/drafts/tsa-holiday-food-carry-on.md` (draft, 2026-11-04, about 1,626 words in the body after Gate 2 FIX rounds 1 and 2 (1,375 in the first version), one H1, seven H2 sections including Sources).
 Brief: `research/briefs/tsa-thanksgiving-food-carry-on.md` (backlog row 8; the slug changed from `tsa-thanksgiving-food-carry-on` to `tsa-holiday-food-carry-on` because the article is framed as holiday food, as the user's scope approval of 2026-11-04 asked). Sources: `research/sources/tsa-thanksgiving-food-carry-on.md`.
-Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); **Gate 2 round 2 (base `0336d6b`, user-reported 2026-11-04): FIX, one item, applied 2026-11-04** (section "Gate 2 FIX round 2"); round 3 has not run. **Not for publication until a TSA 2026 Thanksgiving notice that contains food guidance has been read, compared with this draft and the draft revised and re-reviewed (user rule, 2026-11-04).** Not in `content/ready/`, not uploaded to WordPress.
+Stage: draft. Gate 1 (Claude) run on 2026-11-04. Gate 2 round 1 (ChatGPT, base `a6de32c`, user-reported 2026-11-04): FIX, applied 2026-11-04 (section "Gate 2 FIX round 1"); **Gate 2 round 2 (base `0336d6b`, user-reported 2026-11-04): FIX, one item, applied 2026-11-04** (section "Gate 2 FIX round 2"); **Gate 2 round 3 (ChatGPT, base `7a7cbe3`, user-reported 2026-11-04): PASS** (section "Gate 2 round 3 result"). **Publication hold unchanged: not for publication until a TSA 2026 Thanksgiving notice with food guidance has been read.** **Not for publication until a TSA 2026 Thanksgiving notice that contains food guidance has been read, compared with this draft and the draft revised and re-reviewed (user rule, 2026-11-04).** Not in `content/ready/`, not uploaded to WordPress.
 
 ## Scope as approved by the user (2026-11-04)
 
@@ -133,3 +133,9 @@ Additional claims for the Gate 1 table (numbering continues):
 | C34 | Sources: five TSA pages (Food page, Harrisburg release, national release, Liquids page, press-release list), each opened on 2026-11-04 | Reads | pass |
 
 Result after this round: 34 of 34 claims pass. The body is about 1,626 words (the additions since the first version are the per-container paragraph, the release container sentence, the lead sentence and the source lines). The diagram and alt were not changed in this round (PNG and SVG in the repository are the files committed in `0336d6b`). Open points unchanged; P1 (the 2026 notice) still blocks publication. Next: Gate 2 round 3 on the new SHA.
+
+## Gate 2 round 3 result (base 7a7cbe3, reported by the user 2026-11-04)
+
+**PASS.** ChatGPT checked the added TSA "Liquids, Aerosols, and Gels Rule" entry in Sources, its check date (read 2026-11-04, no update date on the page) and the adjusted introduction; the PNG in the repository is identical to the one in `0336d6b`. No change requested or made.
+
+**Hold stays (P1).** The article is not published until a TSA 2026 Thanksgiving notice that contains food guidance has been read. When it appears: compare each example with the draft, revise the section "What TSA had published for the 2026 holiday" (or remove it), re-test every statement against the live pages, update the diagram footer and alt if the footer line changes, and run Gate 2 again. A PASS now does not move the post to `ready` or to WordPress; both need the user's approval, and the Food page, the Liquids page and the Harrisburg release are re-read before approval and before publishing. P4 (the focus keyword is Claude's choice, not a measured term) stays noted.
