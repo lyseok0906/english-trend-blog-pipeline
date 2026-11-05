@@ -1273,3 +1273,11 @@ The added TSA Liquids page in Sources, its check date, the adjusted introduction
 **Records updated.** Backlog rows 20 and 21 = published; stage counts: published 12 pilot + 3 post-pilot (15 live), ready 1 (lighters), draft 1 (TSA holiday food, held). The official-source re-check was done the same day before handoff (no change); no re-check after publication. No indexing request (standing decision).
 
 **Open.** Lighters WordPress draft on the user's go-ahead; Veterans Day USPS notice re-check due 2026-11-05; optional link from `federal-holiday-weekend-observed` to the new 2027 post (needs approval); 4-week evaluation and Search Console values on or after 2026-11-04 are separate from these two post-pilot posts.
+
+## 2026-11-05 — B (Veterans Day) final re-check: the 2026 USPS notice exists (dated Nov. 4)
+
+Scheduled final check at about 02:00 UTC. **Result differs from the earlier checks: USPS published "USPS to observe Veterans Day on Nov. 11" on 2026-11-04** (RSS, 702 items). Read in full: all Post Office locations closed on Wednesday, November 11, 2026; regular mail delivery and retail services resume Thursday, November 12; self-service and usps.com options listed; **no sentence on Priority Mail Express delivery** (the 2025 notice had one; the 2026 text is silent and must not be read either way). The Holidays & events page is unchanged (lists Nov. 11, 2026; no open or closed statement). The 2025 notice is not used as 2026 information.
+
+**Effect on the user rule.** The condition "do not publish until the 2026 notice is read" is now met, so the publication hold in the brief is lifted as a source problem. **No draft was started** (it needs the user's go-ahead). Timing is the issue: the holiday is 6 days away and the site's crawl pace makes indexing before the holiday unlikely (estimate). Options recorded in the brief: (a) draft now, (b) fold into the Thanksgiving USPS post (backlog row 12) as one holiday-schedule post once USPS's Thanksgiving notice appears (about Nov. 12 to 13, estimate), (c) keep for 2027. Claude's recommendation: (b). Waiting for the user's decision.
+
+**Open.** The user's choice among (a), (b) and (c); Thanksgiving USPS notice watch (row 12); lighters WordPress draft on the user's go-ahead; optional link from `federal-holiday-weekend-observed` to the 2027 post (needs approval).
