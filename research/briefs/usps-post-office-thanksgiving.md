@@ -79,3 +79,14 @@ Re-read the 2026 Thanksgiving release (once it exists) at drafting, at factual Q
 
 1. Approve the timing plan (wait for USPS's 2026 release; hold or publish dated if it is late).
 2. Decided 2026-10-07: the July 2026 example is used only in this USPS operations article, only as a case attributed to USPS's own June 26, 2026 notice, and never as if it were the same as OPM's substitute-day rule.
+
+
+## Combined scope (user decision 2026-11-06): Veterans Day folded into this post
+
+**User decision 2026-11-06:** the Veterans Day candidate (backlog row 18) is not published as its own post; it is covered together with Thanksgiving in one post. Rule: check each 2026 holiday's official USPS operating notice; write only confirmed content, with date and source kept apart; where no notice exists, hold and do not estimate.
+
+- **Working title (proposal):** Is the Post Office Open on Thanksgiving and Veterans Day? What USPS Says in 2026. **Slug (proposal):** `usps-holiday-schedule-thanksgiving-veterans-day`. **Focus keyword (proposal, unchanged from this brief):** `is the post office open on thanksgiving`. Title, slug and keyword are proposals for the user to confirm.
+- **Status of the 2026 notices (checked 2026-11-06):** Veterans Day: USPS release of Nov. 4, 2026 exists and was read (closed Wed Nov 11; resumes Thu Nov 12; silent on Priority Mail Express). Thanksgiving: no USPS 2026 notice yet (RSS 702 items, newest Nov. 4); the Holidays & events page lists Thursday, November 26 without open/closed. **Thanksgiving part is on hold.**
+- **Timing consequence (estimate):** the Thanksgiving notice is expected about Nov. 12 to 13 (2025: Nov. 13), so by publication Veterans Day 2026 will have passed. The Veterans Day section is therefore written as the record of what USPS said for 2026 and as a dated comparison with 2025 (closed both years; the 2025 notice said only Priority Mail Express delivered, the 2026 notice does not mention it), not as a how-to for the coming day.
+- **Draft skeleton:** `content/drafts/usps-holiday-schedule-thanksgiving-veterans-day.md` with `[[HOLD-...]]` markers; source notes `research/sources/usps-holiday-schedule-thanksgiving-veterans-day.md`. The 2025 notices appear only as dated examples; the July 2026 Independence Day notice is used under the 2026-10-07 rule (attributed to USPS's own notice).
+- **Not started:** Gate 1, image, alt, meta description (needs the Thanksgiving fact), WordPress. The draft must not go to review or upload while any `[[HOLD` marker remains.

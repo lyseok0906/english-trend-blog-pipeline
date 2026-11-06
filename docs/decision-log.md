@@ -1286,3 +1286,14 @@ Scheduled final check at about 02:00 UTC. **Result differs from the earlier chec
 ## 2026-11-06 — Lighters WordPress draft (post 78) and final source re-check
 
 On the user's go-ahead the lighters article was put in WordPress as a draft (post 78, media 77) with the original image file, Rank Math keyword and description, comments and pings closed; Gate 1 and Gate 2 were not repeated. The article text is unchanged and still states the TSA / FAA checked-bag difference and that a current DOT permit is not confirmed. The table block has the same mobile fix as the 2027 holidays post (automatic widths, fluid font size); checked at 375 and 320 px. Final re-check of the eight official pages: no change in anything the article relies on (FAA chart file has a newer server timestamp, but its printed date "Updated: 11/14/25" and text are the same; eCFR dates moved only). The user presses Publish; live QA and records follow. Not published by Claude.
+
+
+## 2026-11-06 — Veterans Day folded into the USPS Thanksgiving post
+
+**User decision:** option (b). Veterans Day is not a separate post; it is covered together with Thanksgiving in one post (backlog row 12; row 18 closed as folded). Rule given: check each holiday's official 2026 USPS operating notice; write only confirmed content with date and source kept apart; where there is no notice, do not estimate, hold.
+
+**Checked 2026-11-06 (USPS newsroom, built-in browser):** Veterans Day 2026 notice (Nov. 4, 2026) exists and was re-read: all Post Office locations closed Wed Nov 11, regular delivery and retail services resume Thu Nov 12, no Priority Mail Express sentence. Thanksgiving 2026: no notice (RSS 702 items, newest Nov. 4; the Holidays & events page lists Thu Nov 26 without open/closed). **Thanksgiving part on hold.**
+
+**Prepared (no review, no WordPress):** source notes, combined-scope section in the brief, and a draft skeleton with `[[HOLD-...]]` markers. 2025 notices appear only as dated examples, never as 2026 information; the 2026 notice's silence on Priority Mail Express is stated as silence. Proposed title, slug and focus keyword await the user's confirmation. Effect of timing (estimate): Veterans Day 2026 will be past when the combined post goes live, so that section is a dated record and year-to-year comparison.
+
+**Next:** re-check the USPS feed on request or at the expected date (about Nov. 12 to 13, estimate); fill the holds only from the 2026 Thanksgiving notice; then Gate 1 and the usual steps with the user's approvals.
