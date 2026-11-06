@@ -4,7 +4,7 @@ slug: usps-veterans-day-post-office
 meta_description: "USPS's Nov. 4, 2026 notice says all Post Office locations are closed Wednesday, Nov. 11, and regular delivery and retail services resume Nov. 12."
 category: Postal service and stamps
 focus_keyword: is the post office open on veterans day
-status: draft
+status: ready
 date: 2026-11-06
 internal_link_candidates: none (no live post covers USPS holiday operations; decide at Gate 2 whether one natural link exists)
 image: assets/optimized/usps-veterans-day-post-office.png
