@@ -1308,3 +1308,8 @@ On the user's go-ahead the lighters article was put in WordPress as a draft (pos
 **Thanksgiving:** skeleton renamed and reduced to Thanksgiving only (HOLD markers); no 2026 notice yet; check scheduled 2026-11-14 09:00 KST.
 
 **Open:** Gate 2 for the Veterans Day post (user sends it to ChatGPT) and the user's approval to move it to ready; timing is tight (holiday is Nov. 11; indexing before it is unlikely, estimate); user pushes the commit.
+
+
+## 2026-11-06 (later) — Veterans Day post: Gate 2 PASS, ready approval requested
+
+Gate 2 (ChatGPT) PASS at `61113c6`, reported by the user; no FIX. The user asked to record it and to request approval for the move to ready; after approval the WordPress draft and mobile preview follow, and the user publishes. Rule for the pre-publication check: only whether USPS's Nov. 4, 2026 notice (and a newer Veterans Day item) changed; with no change, Gate 1 and Gate 2 are not repeated. The move to `ready` has **not** been made; it waits for the user's approval.

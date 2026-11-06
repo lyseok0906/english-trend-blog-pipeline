@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-veterans-day-post-office.md` (draft, 2026-11-06; about 370 words in the body, one H1, three H2 sections including Sources; one table).
 Brief: `research/briefs/usps-veterans-day-post-office.md`. Sources: `research/sources/usps-veterans-day-post-office.md` (S1 USPS national release of Nov. 4, 2026).
-Stage: **draft, Gate 1 (Claude) done 2026-11-06.** Gate 2 (ChatGPT), ready, WordPress and publication are not done and need the user's steps and approvals.
+Stage: **draft; Gate 1 (Claude) done 2026-11-06; Gate 2 (ChatGPT, base commit `61113c6`) = PASS, reported by the user 2026-11-06.** The move to `ready`, WordPress and publication are not done and need the user's approvals.
 
 ## Scope as set by the user (2026-11-06)
 
@@ -54,3 +54,12 @@ Title 64 characters; slug `usps-veterans-day-post-office`; meta description 145 
 ## Result and next step
 
 Gate 1: **PASS** (11 of 11 claims, 7 of 7 image checks). Next: user push, Gate 2 by commit SHA, then approval to move to `ready`; before publishing, re-read the notice and record the result (mandatory); WordPress only with the user's approval.
+
+
+## Gate 2 (ChatGPT) — PASS (user-reported 2026-11-06, base commit `61113c6`)
+
+The user reported Gate 2 round 1 as PASS for the article and the diagram at `61113c6`; no FIX items were reported. ChatGPT had said in advance that it would look at the reader's need for the closure and resumption information, the wording that Priority Mail Express delivery is not confirmed in the notice, the title and keyword, and the diagram on a phone, and that it would not force the keyword into the first paragraph. Nothing in the article, diagram or alt text was changed after Gate 1.
+
+## Move to `ready` — approval requested
+
+The article stays in `content/drafts/` with `status: draft` until the user approves the move. After approval: move the file to `content/ready/`, set `status: ready`, then prepare the WordPress draft and the mobile preview (the user publishes). **Before publishing (the user's condition):** only check whether USPS's national release of Nov. 4, 2026 changed (page text of the three relied-on sentences and the date; the RSS for a newer Veterans Day item); if nothing changed, Gate 1 and Gate 2 are not repeated; if anything changed, report it first and fix only that part. The mandatory re-read is recorded here.
