@@ -87,6 +87,11 @@ Re-read the USPS "Holidays & events" page and look for the 2026 Veterans Day rel
 **What the user should weigh (estimates, not facts).** Holiday is in 6 days (Nov. 11). A post drafted, reviewed (Gate 1, Gate 2) and published in the next 1 to 2 days would be live about 4 to 5 days before the holiday; the three newest pilot posts were still uncrawled about 13 days after publication (Search Console, 2026-10-20), so indexing before the peak week is unlikely (an observation about this site). Value after the holiday: evergreen only as a "how to read USPS holiday notices" post updated each year (the 2027 date is Thursday, November 11, 2027). Options: (a) draft now for 2026 with the dated notice (tight schedule); (b) do not publish for 2026; fold the 2026 notice into the Thanksgiving USPS post (backlog row 12; USPS's Thanksgiving notice came Nov. 13 in 2025, so a 2026 notice is likely about Nov. 12 to 13, estimate) as one "Post Office holiday schedule" post; (c) leave it for 2027. Claude's recommendation: (b), because the Veterans Day window is too short for the site's crawl speed, while the Thanksgiving post has more lead time; the user decides.
 
 
-## User decision 2026-11-06: folded into the Thanksgiving post (option b)
+## User decision 2026-11-06: folded into the Thanksgiving post (option b), SUPERSEDED later the same day
 
 The user chose option (b): no separate Veterans Day post. The 2026 Veterans Day notice (S1 in `research/sources/usps-holiday-schedule-thanksgiving-veterans-day.md`) is used in the combined post (backlog row 12, `content/drafts/usps-holiday-schedule-thanksgiving-veterans-day.md`). Backlog row 18 is closed as folded. This brief stays as the record of the notice search (Oct. 29 to Nov. 5).
+
+
+## User decision 2026-11-06 (later): separate Veterans Day post, finished now
+
+The user dropped the combined plan: the Veterans Day post is written first as its own article, using only the closure on Wednesday, November 11 and the resumption on Thursday, November 12 from the Nov. 4, 2026 release; Priority Mail Express delivery is not in the notice and is not inferred. Done 2026-11-06: source notes `research/sources/usps-veterans-day-post-office.md`, draft `content/drafts/usps-veterans-day-post-office.md`, diagram, QA `editorial/qa/usps-veterans-day-post-office.md` (Gate 1 PASS). Proposed title: "Is the Post Office Open on Veterans Day? What USPS Says for 2026"; keyword `is the post office open on veterans day`.

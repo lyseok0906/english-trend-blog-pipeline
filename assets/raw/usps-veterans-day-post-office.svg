@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Veterans Day 2026 at the Post Office, as stated in USPS's national release of November 4, 2026. Wednesday, November 11: USPS observes Veterans Day and all Post Office locations are closed. Thursday, November 12: regular mail delivery and retail services resume. Not in the notice: whether Priority Mail Express is delivered on November 11; the notice does not say either way.</title>
+<rect width="800" height="1000" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">Veterans Day 2026</text>
+<text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What USPS's Nov. 4, 2026 notice says</text>
+<rect x="40" y="160" width="720" height="250" rx="14" fill="#fee2e2" stroke="#991b1b" stroke-width="4"/>
+<text x="70" y="218" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Wednesday, November 11</text>
+<text x="70" y="272" font-size="32" fill="#111827" text-anchor="start">USPS will observe Veterans Day.</text>
+<text x="70" y="318" font-size="32" fill="#111827" text-anchor="start">All Post Office locations will be</text>
+<text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">closed.</text>
+<rect x="40" y="440" width="720" height="190" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="498" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Thursday, November 12</text>
+<text x="70" y="552" font-size="32" fill="#111827" text-anchor="start">Regular mail delivery and retail</text>
+<text x="70" y="598" font-size="32" fill="#111827" text-anchor="start">services will resume.</text>
+<rect x="40" y="660" width="720" height="260" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="718" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Not in the notice</text>
+<text x="70" y="772" font-size="32" fill="#111827" text-anchor="start">Whether Priority Mail Express is</text>
+<text x="70" y="818" font-size="32" fill="#111827" text-anchor="start">delivered on November 11: the</text>
+<text x="70" y="864" font-size="32" fill="#111827" text-anchor="start">notice does not say, either way.</text>
+<text x="40" y="970" font-size="28" fill="#374151" text-anchor="start">Source: USPS national release, Nov. 4, 2026</text>
+</svg>

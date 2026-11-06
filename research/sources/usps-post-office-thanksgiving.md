@@ -1,6 +1,6 @@
-# Source notes — usps-holiday-schedule-thanksgiving-veterans-day (combined Thanksgiving and Veterans Day post)
+# Source notes — usps-post-office-thanksgiving (Thanksgiving post; separate from Veterans Day since 2026-11-06)
 
-Retrieved: **2026-11-06**, by Cowork (Claude), in the built-in browser on about.usps.com (page text and the national-releases RSS feed read by script after whitespace, apostrophe and quotation-mark normalization). Brief: `research/briefs/usps-post-office-thanksgiving.md` (combined scope section) and `research/briefs/usps-veterans-day-post-office.md`. Rule/schedule-type post: re-check is **mandatory** at drafting, Gate 1, approval and publishing. Rule from the user (2026-11-06): use only confirmed content, keep dates and sources separate, **hold what has no notice, do not estimate**.
+Retrieved: **2026-11-06**, by Cowork (Claude), in the built-in browser on about.usps.com (page text and the national-releases RSS feed read by script after whitespace, apostrophe and quotation-mark normalization). Brief: `research/briefs/usps-post-office-thanksgiving.md`. **User direction 2026-11-06: Veterans Day is its own post (`research/sources/usps-veterans-day-post-office.md`); this file serves the Thanksgiving post only, and S1 and S3 below are kept as records, not for the Thanksgiving article.** Rule/schedule-type post: re-check is **mandatory** at drafting, Gate 1, approval and publishing. Rule from the user (2026-11-06): use only confirmed content, keep dates and sources separate, **hold what has no notice, do not estimate**.
 
 ## What exists and what does not (as of 2026-11-06)
 

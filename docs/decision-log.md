@@ -1297,3 +1297,14 @@ On the user's go-ahead the lighters article was put in WordPress as a draft (pos
 **Prepared (no review, no WordPress):** source notes, combined-scope section in the brief, and a draft skeleton with `[[HOLD-...]]` markers. 2025 notices appear only as dated examples, never as 2026 information; the 2026 notice's silence on Priority Mail Express is stated as silence. Proposed title, slug and focus keyword await the user's confirmation. Effect of timing (estimate): Veterans Day 2026 will be past when the combined post goes live, so that section is a dated record and year-to-year comparison.
 
 **Next:** re-check the USPS feed on request or at the expected date (about Nov. 12 to 13, estimate); fill the holds only from the 2026 Thanksgiving notice; then Gate 1 and the usual steps with the user's approvals.
+
+
+## 2026-11-06 (later) — Veterans Day and Thanksgiving: separate posts again
+
+**User decision:** the combined plan (same day, earlier entry) is dropped. Veterans Day is finished first as its own post because the 2026 USPS notice (Nov. 4) exists; Thanksgiving is finished separately after USPS's 2026 Thanksgiving operating notice is read. Both keep the official-source check and the review gates; already verified content is not re-checked without a reason.
+
+**Veterans Day post (done):** uses only the closure on Wed Nov 11 and the resumption on Thu Nov 12; Priority Mail Express delivery is not in the notice and is stated as "the notice does not say, either way". The notice's usps.com and kiosk paragraph, the 2025 notice and the Holidays & events page are left out per the scope. Source notes, draft, own diagram (card 3 first said "does not mention it", changed because the notice does mention Priority Mail Express in its kiosk list, though not as a delivery statement) and Gate 1 (11 of 11 claims, 7 of 7 image checks) recorded; local commit; no review by ChatGPT, no WordPress.
+
+**Thanksgiving:** skeleton renamed and reduced to Thanksgiving only (HOLD markers); no 2026 notice yet; check scheduled 2026-11-14 09:00 KST.
+
+**Open:** Gate 2 for the Veterans Day post (user sends it to ChatGPT) and the user's approval to move it to ready; timing is tight (holiday is Nov. 11; indexing before it is unlikely, estimate); user pushes the commit.
