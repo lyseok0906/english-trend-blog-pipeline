@@ -231,3 +231,35 @@ The user approved moving this article to `ready` on 2026-11-04 after the officia
 | eCFR 49 CFR 175.10 | "up to date as of 11/04/2026"; Title 49 last amended 10/28/2026 | 11/02/2026; 10/13/2026 | the four relied-on strings present and unchanged; only the dates moved |
 
 The user presses Publish. After publication: live QA and records.
+
+
+## Pre-publication re-check and publication (2026-11-06)
+
+**Standing instruction (user, 2026-11-06):** for articles that passed review, check the official sources right before publishing and publish if nothing changed, then do live QA and records; report first if official content changed or a significant source conflict appears. Applied here; the user asked specifically that the article be published only if the re-check found no change and the TSA / FAA checked-bag difference and the unconfirmed DOT permit remained stated.
+
+**Re-check (about 07:00 UTC, second check of the day):** no change in any source. TSA five pages: dates July 14, 2026 (disposable and Zippo), Nov 4, 2024 (arc and electronic), Oct 10, 2024 (lithium battery powered, torch, lighter fluid); all anchors present (7 of 7, 7 of 7, 3 of 3, 5 of 5, 3 of 3), the torch page still does not use the word butane. FAA PackSafe Lighters "Last updated: Monday, April 13, 2026", 6 of 6 anchors, still no mention of the exemption. FAA chart PDF: 9 pages, "Updated: 11/14/25", file sha256 6638585a... (758,737 bytes) identical to the 2026-11-06 morning read, one-lighter sentence, "Not allowed in Checked Bags" (11 occurrences) and torch row present. eCFR 49 CFR 175.10: "up to date as of 11/04/2026", Title 49 last amended 10/28/2026, the four relied-on strings present. No source conflict beyond the recorded P1 and P2.
+
+**Draft check:** post 78 still draft and unmodified since 2026-11-05 20:05 (site time); the plain text of the saved content equals the repository article text (9,442 characters, sha256 b269d520...1965); 38 blocks; table block with automatic widths and font size clamp(12px, 3.6vw, 18px); image block id 77 pointing to the original file (sha256 bd4eb082...6143a, 125,762 bytes), alt 537 characters; comments and pings closed; category Airport security rules. The article text contains "For checked bags the two differ" (TSA conditional answer against the FAA chart's "Not allowed in Checked Bags") and "This article could not confirm a current DOT permit, so it does not say whether that exemption applies today"; the as-of date stays "October 29, 2026" (user decision).
+
+**Publication:** published by Claude on 2026-11-06 at 07:12:48 UTC (site local time 02:12) by a REST status change on post 78.
+
+## Live QA after publication (2026-11-06)
+
+| Check | Result |
+|---|---|
+| URL https://statesideexplained.com/lighters-on-a-plane-tsa/ | 200 |
+| Title, H1 | "Can You Bring a Lighter on a Plane? What TSA and the FAA Say" (title tag adds " - Stateside Explained") |
+| Canonical, og:url | the post URL |
+| Meta description (129 characters), og:description | same text |
+| Robots | index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large |
+| og:image | the diagram file |
+| JSON-LD | Person, Organization, WebSite, ImageObject, WebPage, BlogPosting |
+| Comment form, pingback link | none |
+| Diagram | original file; read back with sha256 bd4eb082...6143a; alt text 537 characters |
+| Links | one internal link (/power-bank-on-a-plane-tsa-faa/, opens, 200); eight official links (five TSA, FAA page, FAA chart, eCFR) in new tabs with rel noopener |
+| Headings and table | ten H2 including Sources, one table; the TSA / FAA checked-bag sentence, the DOT permit sentence and the as-of date "October 29, 2026" present in the live text |
+| Phone width (375 px) | no horizontal overflow, no broken words in the table, diagram loaded and readable |
+| Post sitemap | listed, lastmod 2026-11-06T07:12:48+00:00 (17 URLs in the post sitemap) |
+| RSS feed and home page | the post is listed in both |
+
+No indexing request was made (user rule). Result: **live QA passed.** Note: the article's as-of date is October 29, 2026 while the sources were re-read on November 6, 2026 (the change would be a text change; the user chose to keep October 29).

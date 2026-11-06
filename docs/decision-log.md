@@ -1322,3 +1322,12 @@ Gate 2 (ChatGPT) PASS at `61113c6`, reported by the user; no FIX. The user asked
 **Done:** file moved to `content/ready/`; WordPress draft post 82 with media 81; mobile preview at 375 and 320 px; pre-publication check of the USPS Nov. 4 notice: no change (three sentences, no Priority Mail Express delivery statement, no newer Veterans Day item), so Gate 1 and Gate 2 were not repeated; published 2026-11-06 04:43:44 UTC; live QA passed. Counts: 16 live (12 pilot, 4 post-pilot). No indexing request. The QA record also corrects the diagram file size (221,867 bytes).
 
 **Open:** the user pushes the commits; lighters publication by the user and its live QA; Thanksgiving notice check 2026-11-14 09:00 KST; the TSA holiday food draft stays held.
+
+
+## 2026-11-06 (later) — Standing publishing rule; lighters post published
+
+**Standing rule (user, 2026-11-06):** a post that passed review is checked against its official sources right before publishing and then published by Claude if nothing changed; live QA and repository records follow. The user no longer waits to press Publish. If official content changed or an important source conflict appears, Claude reports before publishing. The TSA holiday food post stays held until a 2026 TSA food notice is read.
+
+**Lighters post (post 78) published:** re-check no change (TSA five pages, FAA page and chart, eCFR 175.10); draft text and image verified; the TSA / FAA checked-bag difference and "a current DOT permit was not confirmed" are in the live text; as-of date stays October 29, 2026. Published 2026-11-06 07:12:48 UTC; live QA passed; counts: 17 live (12 pilot, 5 post-pilot); ready stage empty. No indexing request.
+
+**Open:** the user pushes the commits; Thanksgiving USPS notice check 2026-11-14 09:00 KST; TSA holiday food held.
