@@ -1331,3 +1331,13 @@ Gate 2 (ChatGPT) PASS at `61113c6`, reported by the user; no FIX. The user asked
 **Lighters post (post 78) published:** re-check no change (TSA five pages, FAA page and chart, eCFR 175.10); draft text and image verified; the TSA / FAA checked-bag difference and "a current DOT permit was not confirmed" are in the live text; as-of date stays October 29, 2026. Published 2026-11-06 07:12:48 UTC; live QA passed; counts: 17 live (12 pilot, 5 post-pilot); ready stage empty. No indexing request.
 
 **Open:** the user pushes the commits; Thanksgiving USPS notice check 2026-11-14 09:00 KST; TSA holiday food held.
+
+## 2026-11-06 (later) — Two new candidates drafted: vape on a plane, USPS PO Box
+
+**Request (user, 2026-11-06):** research next candidates around TSA/airport security and USPS that do not overlap the 17 live posts and have clear official sources; pick two; record demand signals and sources; draft, diagram and Gate 1; after a review pass and an unchanged pre-publication source check, publish directly, then live QA and records; report first on an important source conflict or regulation change; the Thanksgiving 2026 notice conditions stay.
+
+**Chosen:** (1) `vape-on-a-plane-tsa-faa` (TSA page, FAA PackSafe page, FAA news item of 2020, 49 CFR 175.10(a)(19); no conflict); (2) `usps-po-box-how-it-works` (USPS.com page and DMM 508 section 4.0; wording differences on terms and identification are shown, not resolved). Demand signals are Google Trends relative indexes within one comparison, not search volumes; 'usps po box' is partly navigational and price-driven, so the article gives no fees. Package Intercept stays a backlog candidate.
+
+**Status:** both drafts, diagrams and Gate 1 QA are done (vape 19 of 19 claims; PO Box 28 of 28, one keys sentence fixed). Rows 23 and 24 in the backlog. Not on WordPress; Gate 2 by commit SHA is next (user relays ChatGPT's result). After a Gate 2 PASS Claude moves each file to ready, makes the WordPress draft, re-reads all sources right before publishing and publishes if nothing changed.
+
+**Open:** the user pushes the local commit and sends both posts to Gate 2; Thanksgiving USPS notice check 2026-11-14 09:00 KST; TSA holiday food held.

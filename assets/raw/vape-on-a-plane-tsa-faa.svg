@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1402" viewBox="0 0 800 1402" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What TSA, the FAA and 49 CFR 175.10(a)(19) say about vapes and e-cigarettes on a plane: carry-on bag or on your person, allowed; checked bag, not allowed; spare lithium batteries, carry-on or on your person only; on board, no recharging; number of devices, check with your airline.</title>
+<rect width="800" height="1402" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">Vapes on a plane</text>
+<text x="40" y="120" font-size="32" fill="#374151">What TSA and the FAA say</text>
+<rect x="40" y="170" width="720" height="222" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="224" font-size="36" font-weight="bold" fill="#111827">Carry-on bag or on your person</text>
+<text x="70" y="274" font-size="29" fill="#111827">Allowed. TSA: Yes (Special Instructions).</text>
+<text x="70" y="320" font-size="29" fill="#111827">Take measures so the heating element</text>
+<text x="70" y="366" font-size="29" fill="#111827">cannot turn on by accident.</text>
+<rect x="40" y="418" width="720" height="130" rx="14" fill="#fee2e2" stroke="#991b1b" stroke-width="4"/>
+<text x="70" y="472" font-size="36" font-weight="bold" fill="#111827">Checked bag</text>
+<text x="70" y="522" font-size="29" fill="#111827">Not allowed. TSA: Checked Bags: No.</text>
+<rect x="40" y="574" width="720" height="268" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="628" font-size="36" font-weight="bold" fill="#111827">Spare lithium batteries</text>
+<text x="70" y="678" font-size="29" fill="#111827">Carry-on or on your person only.</text>
+<text x="70" y="724" font-size="29" fill="#111827">Protect each one from short circuits.</text>
+<text x="70" y="770" font-size="29" fill="#111827">Each battery: 100 Wh or less (lithium ion)</text>
+<text x="70" y="816" font-size="29" fill="#111827">or 2 g lithium or less (lithium metal).</text>
+<rect x="40" y="868" width="720" height="222" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="922" font-size="36" font-weight="bold" fill="#111827">On board</text>
+<text x="70" y="972" font-size="29" fill="#111827">No recharging of the device or batteries.</text>
+<text x="70" y="1018" font-size="29" fill="#111827">FAA (2020): passengers should never</text>
+<text x="70" y="1064" font-size="29" fill="#111827">use a vape or e-cigarette on an aircraft.</text>
+<rect x="40" y="1116" width="720" height="130" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1170" font-size="36" font-weight="bold" fill="#111827">Number of devices</text>
+<text x="70" y="1220" font-size="29" fill="#111827">Check with your airline (TSA and FAA).</text>
+<text x="40" y="1322" font-size="25" fill="#374151">Sources: TSA page (Mar. 29, 2023); FAA page (Apr. 13, 2026)</text>
+<text x="40" y="1358" font-size="25" fill="#374151">and FAA news item (Jan. 17, 2020); 49 CFR 175.10(a)(19)</text>
+</svg>
