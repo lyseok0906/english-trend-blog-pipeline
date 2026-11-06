@@ -207,3 +207,27 @@ Before ready and before publication the mandatory official-page re-check (TSA li
 The user approved moving this article to `ready` on 2026-11-04 after the official-source re-check of the same day (section above: no source changed). The file was moved from `content/drafts/` to `content/ready/` and the front matter set to `status: ready`; the article text, diagram and alt were not changed by the move. The TSA / FAA checked-bag difference (P1) and the unconfirmed DOT permit (P2) stay open as the user instructed; the article keeps stating them as limits.
 
 **Before publishing (the user's condition):** the official sources are re-read right before publication and the result is recorded here; if anything changed, the change is reported first and the text fixed before any upload. The as-of date in the article is refreshed at that re-check, which needs the user's approval because it changes the text. WordPress upload and publication have not been done and need the user's separate approval.
+
+
+## WordPress draft and final source re-check (2026-11-06)
+
+**Draft created, not published.** On the user's go-ahead of 2026-11-06 the article was uploaded as a WordPress draft: post 78 (draft; edit `https://statesideexplained.com/wp-admin/post.php?post=78&action=edit`, preview `https://statesideexplained.com/?p=78&preview=true`), diagram media 77. Gate 1 and Gate 2 were not repeated (user instruction). The article text is unchanged; the TSA / FAA checked-bag difference (P1) and "current DOT permit not confirmed" (P2) are kept as written. The as-of date in the article is still "October 29, 2026".
+
+**Checks on the draft.** Body hash of the posted content sha256 `a9b5cd485f724bda3891731b9e6244a51fc7e4e7fa6b7a1a0e4120fb368bba76` (13,670 characters, verified against the typed source before posting); image file sha256 `bd4eb08296c150ebd6a6dce86ae0f29b4fae47cd141d7d570c92c708ad46143a` (1200 x 2901, 125,762 bytes) verified after upload; the original file is used in the post (WordPress also made a scaled copy; the post references the original, as for post 72); alt text 537 characters; Rank Math focus keyword "can you bring a lighter on a plane" and description (129 characters) set and read back; comments and pings closed; 38 blocks parse as valid; logged-out request returns 404 and the draft is not in the sitemap.
+
+**Mobile table fix (same as post 75, no text change).** The table block has automatic column widths (`hasFixedLayout` false) and a fluid font size `clamp(12px, 3.6vw, 18px)`. Checked at 375 and 320 px: no word breaks mid-word, no horizontal page overflow, diagram readable. To undo: turn "Fixed width table cells" back on and clear the font size in the block settings.
+
+**Final official-source re-check (2026-11-06) result: no change found.**
+
+| Source | Date now | Recorded | Result |
+|---|---|---|---|
+| TSA Lighters (Disposable and Zippo) | "Last Updated on July 14, 2026" | same | anchors present |
+| TSA Lighters (Arc, Electronic, E-Lighters) | "Last Updated on November 4, 2024" | same | anchors present |
+| TSA Lighters (Lithium Battery Powered) | "Last Updated on October 10, 2024" | same | anchors present |
+| TSA Lighters (Torch) | "Last Updated on October 10, 2024" | same | anchors present |
+| TSA Lighter (Fluid) | "Last Updated on October 10, 2024" | same | anchors present |
+| FAA PackSafe, Lighters | "Last updated: Monday, April 13, 2026" | same | liquid-fuel, one-lighter, gate-check, lithium and torch sentences present; the page still does not mention the DOT exemption |
+| FAA printable chart (PDF, 9 pages) | "Updated: 11/14/25" | same | text layer read with pdf.js: one-lighter sentence, "Not allowed in Checked Bags" in the lighter rows, torch row present. The file's server Last-Modified header is May 14, 2026, but its printed date and the relied-on text are unchanged; file hash 6638585a... (758,737 bytes) recorded as the new baseline |
+| eCFR 49 CFR 175.10 | "up to date as of 11/04/2026"; Title 49 last amended 10/28/2026 | 11/02/2026; 10/13/2026 | the four relied-on strings present and unchanged; only the dates moved |
+
+The user presses Publish. After publication: live QA and records.
