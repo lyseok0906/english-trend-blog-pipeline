@@ -1353,3 +1353,7 @@ Gate 2 (ChatGPT) PASS at `61113c6`, reported by the user; no FIX. The user asked
 Under the standing rule: Gate 2 PASS on `bed1e85`; moved to ready; WordPress draft (post 85, media 84); phone preview clean; all four sources (TSA page, FAA PackSafe page, FAA news item, eCFR 175.10(a)(19)) re-read right before publishing with no change and no conflict; published 2026-11-06 08:24:50 UTC; live QA passed. Counts: 18 live (12 pilot, 6 post-pilot). The PO Box post waits for the Gate 2 re-review of the changed parts (new SHA after the user pushes `2ce096d`).
 
 **Open:** the user pushes the commits and sends the PO Box changed parts to Gate 2; Thanksgiving USPS notice check 2026-11-14 09:00 KST; TSA holiday food held.
+
+## 2026-11-06 (later) — PO Box Gate 2 round 2 (base `78ead03`): FIX applied
+
+The diagram label "Pay-by date" made the FAQ's service-termination condition read like a payment deadline. The FAQ was re-read: service is terminated if payment has not been received by the 10th day after the due date. Diagram, alt and one body lead-in sentence now say that; the USPS.com "10th of the month the payment is due" statement is unchanged and labeled as USPS.com. Only the changed parts were checked and recorded. Next: push; Gate 2 re-review of the changed parts by the new SHA.

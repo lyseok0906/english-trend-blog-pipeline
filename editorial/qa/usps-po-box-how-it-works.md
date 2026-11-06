@@ -110,3 +110,25 @@ Gate 1: **PASS** (28 of 28 claims, 7 of 7 image checks). Next: push, Gate 2 by c
 **Remaining open points:** P1 now reads: three sources, wording differences shown, not resolved; P2: USPS.com and the DMM carry no date, the FAQ is dated Oct. 16, 2026; the FAQ's late-fee amount and refund percentages are deliberately not used. Alt text is long (1,069 characters) because it mirrors seven cards; Gate 2 may ask to shorten it.
 
 **Result:** FIX applied; Gate 1 for the changed parts: PASS (16 of 16). Next: push; Gate 2 re-review of the changed parts by the new commit SHA.
+
+---
+
+## Gate 2 round 2 = FIX (ChatGPT, base `78ead03`) and the fix (2026-11-06)
+
+**FIX point:** the diagram's "Pay-by date" label made the FAQ's service-termination condition look like a payment deadline. Change only the diagram and alt (and check the body); no other item to be re-reviewed.
+
+**Source re-opened:** USPS FAQ "PO Box - The Basics" (dated Oct. 16, 2026), tested by script: "If we have not received your payment by the 10th day after the due date, your PO Box service will be terminated and all incoming mail will be returned to senders." (present); "After 10 days of nonpayment, your mail is treated as undeliverable mail and your PO Box is closed." (present); "Box fees are due either on the 15th or the last day of the month" (present). The FAQ gives this as what happens when payment has not been received by the 10th day after the due date, not as a pay-by date.
+
+**Changes (changed parts only):**
+
+| # | Where | Before | After |
+|---|---|---|---|
+| G1 | Diagram card "Where the pages differ" | "Pay-by date: a USPS FAQ says 10 days after the due date." | "Late payment: a USPS FAQ says service ends if payment is not received by the 10th day after the due date." |
+| G2 | Alt text (front matter and body, identical, 1,123 characters) | "a USPS FAQ says 10 days after the due date" | "a USPS FAQ says service ends if payment has not been received by the 10th day after the due date" |
+| G3 | Body, lead-in to the payment-date paragraph | "The pages give the payment deadline in different words." | "The pages describe the payment date and late payment in different words." (the FAQ sentence below it already read "if payment has not been received by the 10th day after the due date, the service is terminated and incoming mail is returned to senders") |
+
+**Check against the body and sources:** diagram G1, alt G2 and the body sentence now say the same thing as the FAQ; USPS.com's "by the 10th of the month the payment is due ... closed on the 11th of that month" (card 4, alt, body) is unchanged and labeled as USPS.com; the card still states that the pages are not reconciled and sends the reader to the Post Office where the box is.
+
+**Image:** `assets/optimized/usps-po-box-how-it-works.png` (1200 x 3114, 508,390 bytes, sha256 066722385c3a15ada3ca936f32ff932568e4330833afa688617b98e395db4f39) and `assets/raw/usps-po-box-how-it-works.svg` read back from the repository; text within the 745 px limit; rendered and read on screen; the card now has six lines and the page height grew by 46 px.
+
+**Result:** FIX applied; changed-part check: PASS (3 of 3). Other items not repeated, as instructed. Next: push; Gate 2 re-review of the changed parts by the new SHA; then under the standing rule: ready, WordPress draft, re-read of the three sources right before publishing, publish if unchanged, live QA, records.
