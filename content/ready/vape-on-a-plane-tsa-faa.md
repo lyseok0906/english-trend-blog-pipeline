@@ -4,7 +4,7 @@ slug: vape-on-a-plane-tsa-faa
 meta_description: "TSA and the FAA say vapes and e-cigarettes go in carry-on bags only. See what they say about batteries, accidental activation and use on board."
 category: Airport security rules
 focus_keyword: can you bring a vape on a plane
-status: draft
+status: ready
 date: 2026-11-06
 internal_link_candidates: power-bank-on-a-plane-tsa-faa (published; one link in the spare-battery section)
 image: assets/optimized/vape-on-a-plane-tsa-faa.png

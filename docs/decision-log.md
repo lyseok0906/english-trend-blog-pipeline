@@ -1347,3 +1347,9 @@ Gate 2 (ChatGPT) PASS at `61113c6`, reported by the user; no FIX. The user asked
 **Vape: PASS.** Proceeds under the standing rule (ready, WordPress draft, phone preview, re-read of the four sources right before publishing, publish if nothing changed, live QA, records).
 
 **PO Box: FIX, applied.** (1) 10th and 11th now stated by the month the payment is due (USPS.com), in the body, diagram and alt; (2) the 3/6/12-month terms against the DMM's "two 6-month" prepaid periods are no longer called a conflict: USPS.com, the USPS FAQ (Oct. 16, 2026, added as a third source) and DMM 4.1.7, 4.4.3, 4.4.4, 4.7.5 compared; the article states that the pages do not say how the terms or the payment dates fit together and points to the Post Office where the box is; (3) refund wording is conditional with a link to USPS's refund details. Next: push; Gate 2 re-review of the changed parts by the new SHA.
+
+## 2026-11-06 (later) — Vape post published
+
+Under the standing rule: Gate 2 PASS on `bed1e85`; moved to ready; WordPress draft (post 85, media 84); phone preview clean; all four sources (TSA page, FAA PackSafe page, FAA news item, eCFR 175.10(a)(19)) re-read right before publishing with no change and no conflict; published 2026-11-06 08:24:50 UTC; live QA passed. Counts: 18 live (12 pilot, 6 post-pilot). The PO Box post waits for the Gate 2 re-review of the changed parts (new SHA after the user pushes `2ce096d`).
+
+**Open:** the user pushes the commits and sends the PO Box changed parts to Gate 2; Thanksgiving USPS notice check 2026-11-14 09:00 KST; TSA holiday food held.
