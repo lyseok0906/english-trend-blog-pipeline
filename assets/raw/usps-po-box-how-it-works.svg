@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1448" viewBox="0 0 800 1448" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>How a USPS PO Box works, as USPS.com and the Domestic Mail Manual describe it: choose a Post Office, size and term; apply online or in person on PS Form 1093; show two forms of ID at the counter and get two keys or the combination; pay by the 10th; packages that do not fit go to a counter slip or a parcel locker.</title>
-<rect width="800" height="1448" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2030" viewBox="0 0 800 2030" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>How a USPS PO Box works, as USPS.com and the Domestic Mail Manual describe it: choose a Post Office, size and term; apply online or in person on PS Form 1093; show two forms of ID at the counter and get two keys or the combination; pay by the 10th of the month the payment is due; packages that do not fit go to a counter slip or a parcel locker.</title>
+<rect width="800" height="2030" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS PO Box</text>
-<text x="40" y="120" font-size="32" fill="#374151">How it works, per USPS.com and the DMM</text>
+<text x="40" y="120" font-size="32" fill="#374151">Per USPS.com, a USPS FAQ and the DMM</text>
 <rect x="40" y="170" width="720" height="176" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
 <text x="70" y="224" font-size="36" font-weight="bold" fill="#111827">1. Choose</text>
 <text x="70" y="274" font-size="29" fill="#111827">A Post Office, a box size (five sizes)</text>
@@ -17,15 +17,27 @@
 <text x="70" y="724" font-size="29" fill="#111827">one secondary). Online: within 30 days.</text>
 <text x="70" y="770" font-size="29" fill="#111827">Then you get 2 keys or the combination.</text>
 <rect x="40" y="822" width="720" height="268" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
-<text x="70" y="876" font-size="36" font-weight="bold" fill="#111827">4. Keep it</text>
-<text x="70" y="926" font-size="29" fill="#111827">Pay by the 10th; an unpaid box closes</text>
-<text x="70" y="972" font-size="29" fill="#111827">on the 11th. Terms: 3, 6 or 12 months</text>
-<text x="70" y="1018" font-size="29" fill="#111827">(USPS.com); the DMM lists 3-, 6- or</text>
-<text x="70" y="1064" font-size="29" fill="#111827">two 6-month periods.</text>
-<rect x="40" y="1116" width="720" height="176" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1170" font-size="36" font-weight="bold" fill="#111827">Packages that do not fit</text>
-<text x="70" y="1220" font-size="29" fill="#111827">USPS.com: a slip for the counter,</text>
-<text x="70" y="1266" font-size="29" fill="#111827">or a secure parcel locker.</text>
-<text x="40" y="1368" font-size="25" fill="#374151">Sources: USPS.com, Rent a PO Box; Domestic Mail</text>
-<text x="40" y="1404" font-size="25" fill="#374151">Manual 508, section 4.0 (read Nov. 6, 2026)</text>
+<text x="70" y="876" font-size="36" font-weight="bold" fill="#111827">4. Keep it up</text>
+<text x="70" y="926" font-size="29" fill="#111827">Pay for a full term in advance. USPS.com:</text>
+<text x="70" y="972" font-size="29" fill="#111827">pay by the 10th of the month the payment</text>
+<text x="70" y="1018" font-size="29" fill="#111827">is due; if unpaid, the box closes on the</text>
+<text x="70" y="1064" font-size="29" fill="#111827">11th of that month.</text>
+<rect x="40" y="1116" width="720" height="314" rx="14" fill="#fff7ed" stroke="#9a3412" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1170" font-size="36" font-weight="bold" fill="#111827">Where the pages differ</text>
+<text x="70" y="1220" font-size="29" fill="#111827">Pay-by date: a USPS FAQ says 10 days</text>
+<text x="70" y="1266" font-size="29" fill="#111827">after the due date. Terms: 3, 6 or 12 months</text>
+<text x="70" y="1312" font-size="29" fill="#111827">(USPS.com, FAQ) against 3, 6 or two 6-month</text>
+<text x="70" y="1358" font-size="29" fill="#111827">periods (DMM). Ask the Post Office where</text>
+<text x="70" y="1404" font-size="29" fill="#111827">the box is which applies to you.</text>
+<rect x="40" y="1456" width="720" height="176" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4"/>
+<text x="70" y="1510" font-size="36" font-weight="bold" fill="#111827">Closing and refunds</text>
+<text x="70" y="1560" font-size="29" fill="#111827">A refund may be possible. It depends on</text>
+<text x="70" y="1606" font-size="29" fill="#111827">the term and how long you had the box.</text>
+<rect x="40" y="1658" width="720" height="176" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1712" font-size="36" font-weight="bold" fill="#111827">Packages that do not fit</text>
+<text x="70" y="1762" font-size="29" fill="#111827">USPS.com: a slip for the counter,</text>
+<text x="70" y="1808" font-size="29" fill="#111827">or a secure parcel locker.</text>
+<text x="40" y="1910" font-size="25" fill="#374151">Sources: USPS.com, Rent a PO Box; USPS FAQ,</text>
+<text x="40" y="1946" font-size="25" fill="#374151">PO Box - The Basics (Oct. 16, 2026); Domestic Mail</text>
+<text x="40" y="1982" font-size="25" fill="#374151">Manual 508, section 4.0 (read Nov. 6, 2026)</text>
 </svg>

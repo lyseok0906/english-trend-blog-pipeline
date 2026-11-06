@@ -73,3 +73,40 @@ Title 58 characters; slug `usps-po-box-how-it-works`; meta description 142 chara
 ## Result and next step
 
 Gate 1: **PASS** (28 of 28 claims, 7 of 7 image checks). Next: push, Gate 2 by commit SHA (user to ChatGPT). Under the user's standing rule of 2026-11-06, after a Gate 2 PASS the file moves to `content/ready/`, a WordPress draft is made, both sources are re-read right before publishing (USPS.com page and DMM 508 section 4.0), and the post is published if nothing changed, followed by live QA and records. If a source changed or the two sources now conflict on a point the article states, report first.
+
+---
+
+## Gate 2 round 1 = FIX (ChatGPT, base `bed1e85`) and the fix (2026-11-06)
+
+**FIX points:** (1) the diagram and alt gave "10th" and "11th" without the month basis; (2) the 3/6/12-month wording against the DMM's "two 6-month" prepaid periods must not be called a confirmed conflict; compare DMM 4.1.7, 4.4.3, 4.4.4 and the USPS.com renewal guidance, and state the limit if the relation cannot be confirmed; (3) refund wording must be conditional and link to USPS's detailed guidance.
+
+**Sources re-opened (built-in browser, 2026-11-06):** USPS.com page (payment, renewal, refund and closing sections), the USPS FAQ "PO Box - The Basics" (dated Oct. 16, 2026; the page USPS.com links for refunds; new source S3), DMM 508 4.1.7, 4.4.3, 4.4.4, 4.6, 4.7.5, 4.8.3. Notes in `research/sources/usps-po-box-how-it-works.md`.
+
+**Findings:** USPS.com: pay by the 10th of the month the payment is due, closed on the 11th of that month. The FAQ: terminated if payment is not received by the 10th day after the due date; fees due on the 15th or the last day of the month by billing cycle. DMM: renewal fee payable in the last 30 days of the period, no later than the last day (4.4.4); late payment charge after more than 10 days (4.7.5). The FAQ lists 12 months (annual); the DMM lists 3, 6 or two 6-month periods and says a fee may be paid up to one year in advance (4.4.3). No page says how the dates or the terms relate, so the article states the limit and sends the reader to the Post Office where the box is. Refunds: USPS.com says a partial refund depending on how long you have had the box; the FAQ says eligibility depends on the term (3-month: not eligible once activated); the article now says "may be eligible for a refund" with the condition dependence and links the FAQ refund section.
+
+**Changes:** body section "Service periods, payment and renewal" rewritten (terms, payment methods, deadline wording by source, refund paragraph with link); intro and Sources list now name three sources (FAQ added with its date); diagram rebuilt (card 4 "Keep it up" with the month basis, new cards "Where the pages differ" and "Closing and refunds", footer with three sources, subtitle "Per USPS.com, a USPS FAQ and the DMM"); alt text rewritten (1,069 characters, front matter and body identical).
+
+**Re-check of the changed parts**
+
+| # | Statement now in the article | Source | Result |
+|---|---|---|---|
+| F1 | USPS.com lists 3, 6, 12 months; FAQ lists 3-month, 6-month (semi-annual), 12-month (annual) | S1; S3 | pass |
+| F2 | DMM 4.1.7: 3-, 6- or two 6-month (semi-annual) prepaid periods; 4.4.3: a fee may generally be paid up to one year in advance | S2 | pass |
+| F3 | The pages do not say how a 12-month term relates to two 6-month periods (absence: no sentence equating them found in the three pages) | S1; S2; S3 | pass |
+| F4 | All three say the 3-month option involves automatic recurring renewal; USPS.com: no opt-out on 3 months, opt-out on 6 or 12; DMM: not at April/October-schedule locations | S1; S2; S3 | pass |
+| F5 | USPS.com: payments by the 10th of the month the payment is due; closed on the 11th of that month | S1 | pass |
+| F6 | FAQ: terminated if not received by the 10th day after the due date, incoming mail returned to senders; fees due on the 15th or the last day of the month by billing cycle | S3 | pass |
+| F7 | DMM 4.4.4 (last 30 days of the period, no later than its last day); 4.7.5 (lock replacement fee as a late payment charge after more than 10 days); 4.8.3 (failing to pay by the due date = surrendered) | S2 | pass |
+| F8 | The pages do not say how the dates fit together; the article gives no single deadline and refers to the Post Office where the box is | S1; S2; S3 | pass |
+| F9 | USPS.com: may be eligible for a refund; depends on how long the box was held (wording on the page: "you'll get a partial refund depending on how long you've had the box"; the article uses the conditional form per Gate 2) | S1 | pass |
+| F10 | FAQ: refund conditions by term, 3-month term not eligible once activated; DMM 4.6 sets refund rules by service period | S3; S2 | pass |
+| F11 | Link https://faq.usps.com/s/article/PO-Box-The-Basics#refund is the link USPS.com gives for "See full details on refunds" and opens the FAQ | S1; S3 | pass |
+| F12 | Diagram card 4 and alt: "pay by the 10th of the month the payment is due; closes on the 11th of that month" = F5 | S1 | pass |
+| F13 | Diagram card "Where the pages differ": FAQ 10 days after the due date; terms 3/6/12 (USPS.com, FAQ) against 3/6/two 6-month (DMM); ask the Post Office = F1, F2, F6, F8 | S1; S2; S3 | pass |
+| F14 | Diagram card "Closing and refunds": a refund may be possible, depends on term and time held = F9, F10 | S1; S3 | pass |
+| F15 | Alt text (front matter = body) states the same as the diagram cards and the footer sources | image | pass |
+| F16 | Repository PNG `assets/optimized/usps-po-box-how-it-works.png` (1200 x 3045, 490,806 bytes, sha256 65ebd6b0...2719) and SVG `assets/raw/usps-po-box-how-it-works.svg` read back; text within the 745 px limit (no overflow reported); rendered and read on screen | image | pass |
+
+**Remaining open points:** P1 now reads: three sources, wording differences shown, not resolved; P2: USPS.com and the DMM carry no date, the FAQ is dated Oct. 16, 2026; the FAQ's late-fee amount and refund percentages are deliberately not used. Alt text is long (1,069 characters) because it mirrors seven cards; Gate 2 may ask to shorten it.
+
+**Result:** FIX applied; Gate 1 for the changed parts: PASS (16 of 16). Next: push; Gate 2 re-review of the changed parts by the new commit SHA.

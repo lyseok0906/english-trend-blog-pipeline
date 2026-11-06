@@ -1,6 +1,6 @@
 # Source notes — usps-po-box-how-it-works
 
-Retrieved: **2026-11-06**, by Cowork (Claude), two USPS pages opened in the built-in browser (page text read by script after whitespace, apostrophe, quotation-mark and dash normalization). Brief: `research/briefs/usps-po-box-how-it-works.md`. Rule-type post (postal service lane): the re-check is **mandatory** at drafting, Gate 1, approval and right before publishing. **No fee amounts are used** (USPS says prices differ by location; the DMM points to Notice 123).
+Retrieved: **2026-11-06**, by Cowork (Claude), two USPS pages (a third, the FAQ, was added at the Gate 2 FIX) opened in the built-in browser (page text read by script after whitespace, apostrophe, quotation-mark and dash normalization). Brief: `research/briefs/usps-po-box-how-it-works.md`. Rule-type post (postal service lane): the re-check is **mandatory** at drafting, Gate 1, approval and right before publishing. **No fee amounts are used** (USPS says prices differ by location; the DMM points to Notice 123).
 
 ## S1 — USPS.com, "Rent a PO Box" (primary, official)
 
@@ -54,6 +54,26 @@ Retrieved: **2026-11-06**, by Cowork (Claude), two USPS pages opened in the buil
 | S2-8 | No box of the right size: referral, waiting list, general delivery, another size or caller service; online customers can join a waiting list | Stated |
 | S2-9 | Two keys initially issued; a refundable key deposit applies except for new customers in Competitive groups 30-44; more keys on Form 1094 | Stated; the article states only the two keys |
 | S2-10 | Surrender: failing to pay by the due date, written notice, or a permanent change-of-address order, among other cases | Stated |
+
+## S3 — USPS FAQ, "PO Box - The Basics" (added 2026-11-06 at the Gate 2 FIX; official)
+
+- URL: https://faq.usps.com/s/article/PO-Box-The-Basics . Dated "Oct 16, 2026" (Knowledge Article Number 000005315). It is the page behind USPS.com's "See full details on refunds" link (https://faq.usps.com/s/article/PO-Box-The-Basics#refund).
+- Terms: "PO Box service is provided in 3-month (requires an automatic recurring payment by credit card), 6-month (semi-annual), or 12-month (annual) increments." When applying online "you select a three-month, six-month, or 12-month payment period." "If you have signed up for a 3-month payment period, you must enroll in automatic renewal."
+- Late payment: "If we have not received your payment by the 10th day after the due date, your PO Box service will be terminated and all incoming mail will be returned to senders." "Box fees are due either on the 15th or the last day of the month (depending on what billing cycle the customer is on)." "After 10 days of nonpayment, your mail is treated as undeliverable mail and your PO Box is closed." (A late-fee amount appears in the FAQ; not used.)
+- Refunds: "Your PO Box is prepaid in advance for a three, six or twelve-month service period. If you decide to close your PO Box, you may be eligible for a refund according to the following guidelines"; for active boxes the 3-month term is "Not eligible for a refund once activated, but can still be closed online"; partial refunds for 6- and 12-month boxes depend on the month of the term; never-activated boxes get an automatic full refund after 30 days of inactivity (boxes reserved online after 6/25/2017). Percentages are not used in the article.
+
+## DMM 508 additions read at the Gate 2 FIX (same page as S2, "up to date as of 11/04/2026")
+
+- 4.1.7: "PO Box service is available in 3-, 6- or two 6-month (semi-annual) prepaid periods." 3-month option needs an automatic recurring renewal payment and is "not available at Post Office locations on the semi-annual (April/October) payment schedule."
+- 4.4.3: "All fees for PO Box service are for 3-, 6-, or two 6-month (semi-annual) prepaid periods, except as noted under 4.4.5, 4.4.7, and 4.4.9." "The general rule is that a fee may be paid up to one year in advance".
+- 4.4.4: "Fees for service renewal may be paid any time during the last 30 days of the service period, except under 4.4.3, but no later than the last day of the service period."
+- 4.7.5: "The lock replacement fee also applies as a late payment charge when the customer renews a box more than 10 days after the renewal due date, whether or not the lock is actually changed."
+- 4.6.1 (refunds): rules by service period (for example, one-half refunded within the first 3 months of a 6-month period; none after the beginning of the fourth month; no refund for the 3-month automatic-renewal term). Not quoted in the article beyond "sets refund rules by service period".
+
+## Wording differences added at the Gate 2 FIX (stated in the article, not resolved)
+
+- Pay-by date: USPS.com "by the 10th of the month the payment is due ... closed on the 11th of the month"; FAQ "by the 10th day after the due date" and due on "the 15th or the last day of the month"; DMM 4.4.4 "no later than the last day of the service period" and 4.7.5 (late payment charge after more than 10 days). Nothing read says how these fit; the article gives no single deadline and points to the Post Office where the box is.
+- Terms: USPS.com and the FAQ list 12 months; DMM 4.1.7 and 4.4.3 list 3, 6 or two 6-month periods and say a fee may be paid up to one year in advance. No page equates "12 months" with "two 6-month periods"; the article neither equates them nor calls them a conflict.
 
 ## Where the two sources differ in wording (stated in the article, not resolved)
 
