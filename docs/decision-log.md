@@ -1357,3 +1357,9 @@ Under the standing rule: Gate 2 PASS on `bed1e85`; moved to ready; WordPress dra
 ## 2026-11-06 (later) — PO Box Gate 2 round 2 (base `78ead03`): FIX applied
 
 The diagram label "Pay-by date" made the FAQ's service-termination condition read like a payment deadline. The FAQ was re-read: service is terminated if payment has not been received by the 10th day after the due date. Diagram, alt and one body lead-in sentence now say that; the USPS.com "10th of the month the payment is due" statement is unchanged and labeled as USPS.com. Only the changed parts were checked and recorded. Next: push; Gate 2 re-review of the changed parts by the new SHA.
+
+## 2026-11-09 (KST) — PO Box post published
+
+Under the standing rule: Gate 2 round 3 PASS on `e30cc5d`; moved to ready; WordPress draft (post 88, media 87); phone preview clean at 375 and 320 px; USPS.com page, USPS FAQ and DMM 508 re-read right before publishing with no change and no conflict; published 2026-11-08 23:43:11 UTC; live QA passed. Counts: 19 live (12 pilot, 7 post-pilot). The as-of dates in the text stay November 6, 2026 because the three sources were unchanged.
+
+**Open:** the user pushes the commit; Thanksgiving USPS notice check 2026-11-14 09:00 KST (a USPS Thanksgiving 2026 notice has not been read); TSA holiday food stays held until a 2026 TSA food notice is read; ready stage holds only already-published files (kept in `content/ready/`, as with the earlier post-pilot posts).

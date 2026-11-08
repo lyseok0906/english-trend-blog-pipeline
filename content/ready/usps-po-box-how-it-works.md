@@ -4,7 +4,7 @@ slug: usps-po-box-how-it-works
 meta_description: "A USPS PO Box is a locked, numbered box at a Post Office. See the sizes, how to apply, what ID USPS asks for and how renewal and closing work."
 category: Postal service and stamps
 focus_keyword: how does a usps po box work
-status: draft
+status: ready
 date: 2026-11-06
 internal_link_candidates: usps-mail-forwarding-how-long (published; one link in the closing section if it fits at Gate 2)
 image: assets/optimized/usps-po-box-how-it-works.png

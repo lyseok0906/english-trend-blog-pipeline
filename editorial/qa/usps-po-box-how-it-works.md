@@ -132,3 +132,27 @@ Gate 1: **PASS** (28 of 28 claims, 7 of 7 image checks). Next: push, Gate 2 by c
 **Image:** `assets/optimized/usps-po-box-how-it-works.png` (1200 x 3114, 508,390 bytes, sha256 066722385c3a15ada3ca936f32ff932568e4330833afa688617b98e395db4f39) and `assets/raw/usps-po-box-how-it-works.svg` read back from the repository; text within the 745 px limit; rendered and read on screen; the card now has six lines and the page height grew by 46 px.
 
 **Result:** FIX applied; changed-part check: PASS (3 of 3). Other items not repeated, as instructed. Next: push; Gate 2 re-review of the changed parts by the new SHA; then under the standing rule: ready, WordPress draft, re-read of the three sources right before publishing, publish if unchanged, live QA, records.
+
+---
+
+## Gate 2 re-review, ready, WordPress, pre-publication check, publication and live QA (2026-11-08 UTC / 2026-11-09 KST)
+
+**Gate 2 round 3 (ChatGPT, base `e30cc5d`, user-reported): PASS** for the changed diagram, alt and body; no further change requested. Earlier items not repeated.
+
+**Move to ready and WordPress draft (standing rule):** file moved to `content/ready/` with `status: ready`; image fetched from the repository (GitHub raw, main) and verified by hash before upload (sha256 066722385c3a...4f39, 508,390 bytes); media 87 (WordPress also made a `-scaled` copy; the post uses the original file URL, whose served hash was verified identical); alt text 1,123 characters, identical to the front matter; WordPress draft post 88 (category Postal service and stamps, comments and pings closed); Rank Math focus keyword `how does a usps po box work` and description (142 characters) read back in the editor; 28 blocks, none invalid; typed content verified by SHA-256 (b37f9db2...cef1) before posting; table block with the responsive font size used on the other posts.
+
+**Phone preview (draft, logged in):** 375 px and 320 px: no horizontal overflow; the four-column size table fits (cells wrap, no word wider than its cell); image visible.
+
+**Pre-publication source check (2026-11-09 KST, minutes before publishing): no change, no conflict.**
+
+| Source | Result |
+|---|---|
+| S1 USPS.com "Rent a PO Box" | 31 relied-on statements tested; 30 matched exactly and 1 differed only by the registered mark ("USPS® Smart Lockers"); the "See full details on refunds" link still points to the FAQ refund section; still no update date; no dollar amounts |
+| S3 USPS FAQ "PO Box - The Basics" | 8 of 8 statements matched (date "Oct 16, 2026"; 3, 6, 12-month increments; 3-month automatic renewal; service terminated if payment is not received by the 10th day after the due date; fees due on the 15th or the last day of the month; 3-month term not eligible for a refund once activated; "may be eligible for a refund"; refund section heading) |
+| S2 DMM 508 | 19 of 19 statements matched (4.1.3 sizes and chart; 4.1.4; 4.1.5; 4.1.6; 4.1.7; 4.4.3; 4.4.4; 4.7.5; 4.2.1 identification, spouses, minors; 4.7.1; 4.8.3; 4.6.1); page text length identical to the 2026-11-06 read (126,080 characters) |
+
+**Published:** 2026-11-08 23:43:11 UTC (site time 2026-11-08 18:43:11; 2026-11-09 08:43 KST) by Claude under the standing rule. Post 88, media 87. URL https://statesideexplained.com/usps-po-box-how-it-works/ . As-of dates in the text stay November 6, 2026 (content of all three sources unchanged). No indexing request.
+
+**Live QA (logged out, no-store fetch): PASS.** 200; canonical is the post URL; title "How Does a USPS PO Box Work? Sizes, ID and Service Periods - Stateside Explained"; meta description 142 characters, og:description identical; robots index, follow; JSON-LD WebSite, WebPage, Person, ImageObject and BlogPosting; one H1, nine H2, one table; no comment form, no pingback; image from `/wp-content/uploads/2026/11/usps-po-box-how-it-works.png`, hash 066722385c3a...4f39 identical to the repository, alt 1,123 characters; four external links (the FAQ refund anchor, USPS.com, the FAQ, DMM 508); the live text contains the checked statements (the pages do not say how the dates fit together; FAQ termination wording; "may be eligible for a refund"; no claim that the terms conflict; refund-details link); in `/post-sitemap.xml` (19 URLs), `/feed/`, the home page and the Postal service and stamps category page. Counts: 19 live (12 pilot, 7 post-pilot).
+
+**Open:** the alt text is long (1,123 characters); the page and the DMM carry no date; no internal link was added (the mail forwarding post remains a possible later link). Re-read all three sources if the article is revisited.
