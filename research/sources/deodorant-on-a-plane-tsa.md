@@ -18,6 +18,14 @@ URL https://www.tsa.gov/travel/security-screening/whatcanibring/items/deodorant-
 
 URL https://www.ecfr.gov/current/title-49/section-175.10 (page "up to date as of 11/05/2026", title last amended 10/28/2026). Verbatim: "(1)(i) Non-radioactive medicinal and toilet articles for personal use (including aerosols) carried in carry-on and checked baggage. Release devices on aerosols must be protected by a cap or other suitable means to prevent inadvertent release; (ii) Other aerosols in Division 2.2 (nonflammable gas) with no subsidiary risk carried in carry-on or checked baggage. Release devices on aerosols must be protected by a cap or other suitable means to prevent inadvertent release; (iii) The aggregate quantity of these hazardous materials carried by each person may not exceed 2 kg (70 ounces) by mass or 2 L (68 fluid ounces) by volume and the capacity of each container may not exceed 0.5 kg (18 ounces) by mass or 500 ml (17 fluid ounces) by volume; and (iv) The release of gas must not cause extreme annoyance or discomfort to crew members so as to prevent the correct performance of assigned duties."
 
+## S5 — TSA, "Liquids, Aerosols, and Gels Rule" (primary, official; added at Gate 2 round 1, 2026-11-09)
+
+URL https://www.tsa.gov/travel/security-screening/liquids-aerosols-gels-rule . No update date on the page; it does not mention deodorant. Verbatim: "You are allowed to bring a quart-sized bag of liquids, aerosols, gels, creams and pastes in your carry-on bag and through the checkpoint. These are limited to travel-sized containers that are 3.4 ounces (100 milliliters) or less per item." "Pack items that are in containers larger than 3.4 ounces or 100 milliliters in checked baggage."
+
+| ID | Statement | Source |
+|---|---|---|
+| D9 | TSA liquids rule page: a quart-sized bag of liquids, aerosols, gels, creams and pastes in the carry-on; travel-sized containers of 3.4 oz (100 ml) or less per item; larger containers go in checked baggage; no date; no mention of deodorant | S5 |
+
 ## TSA item search
 
 https://www.tsa.gov/travel/security-screening/whatcanibring/all?combine=deodorant returns exactly: deodorant-aerosol, deodorant-liquid, deodorant-solid (2026-11-09).

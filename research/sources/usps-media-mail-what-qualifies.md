@@ -40,9 +40,13 @@ Verbatim (selected): 1.2 "Media Mail and Library Mail pieces are charged per pou
 | D14 | DMM 6.3: an invoice relating solely to the matter mailed may be inside or in an envelope marked "Invoice Enclosed" attached outside | Stated |
 | D15 | DMM 1.2: charged per pound or fraction thereof (no amounts) | Stated |
 
+## Price links (added at Gate 2 round 1, 2026-11-09; links only, no amounts read or used)
+
+USPS.com's Media Mail section says "Use the USPS Price Calculator tool to calculate your domestic postage costs" and links "Calculate a Price" at https://postcalc.usps.com/ . DMM 173 section 1.1 says "See Notice 123-Price List for single-piece prices" and links https://pe.usps.com/text/dmm300/Notice123.htm (the page loads and lists Media Mail under retail prices).
+
 ## Differences shown in the article (not resolved)
 
-- Delivery time: S1 "Shipping in 2-8 Days"; S2 does not guarantee delivery within a specified time.
+- Delivery time: S1 "Shipping in 2-8 Days"; S2 does not guarantee delivery within a specified time. Not a stated conflict: the pages do not say whether the S1 range is an estimate (reworded at Gate 2 round 1).
 - Video games and digital media: S1 says video games, computer drives and digital drives do not qualify; S2 lists "computer-readable media containing prerecorded information" and does not mention video games. The article states both and does not say which controls.
 - Neither page shows an update date.
 

@@ -1392,3 +1392,7 @@ On the user's go-ahead (push of `988794a` done), about 20 TSA and USPS phrases w
 
 **Open:** the user pushes the local commit and sends both posts to Gate 2; Thanksgiving USPS notice check 2026-11-14 09:00 KST; TSA holiday food stays held.
 
+## 2026-11-09 (KST, later) — Gate 2 on `7c150b1`: deodorant and Media Mail FIX applied
+
+**Deodorant:** TSA's "Liquids, Aerosols, and Gels Rule" page added as a source; the 3.4 oz figure is now stated as the limit per item (per container) in the lead, scope, table, carry-on section, sources list, diagram and alt; the deodorant pages' silence on what the figure applies to and on the quart-sized bag is stated. **Media Mail:** the "2-8 days" and "no guarantee" lines are no longer presented as a conflict (the pages do not say whether the range is an estimate); "large and lightweight" now matches USPS.com in the diagram and alt; links to USPS.com's Price Calculator and to Notice 123 added (no amounts). Only changed parts were compared and recorded in each QA file. Re-check by Gate 2 on the new SHA is next; WordPress drafts and the table phone checks follow a PASS.
+

@@ -6,26 +6,26 @@ category: Airport security rules
 focus_keyword: can you bring deodorant on a plane
 status: draft
 date: 2026-11-09
-internal_link_candidates: tsa-3-1-1-liquids-rule (published; one link in the closing section)
+internal_link_candidates: tsa-3-1-1-liquids-rule (published; one link in the carry-on section)
 image: assets/optimized/deodorant-on-a-plane-tsa.png
-image_alt: "Diagram of what TSA says about deodorant on a plane, from three TSA pages and the FAA rule in 49 CFR 175.10(a)(1). Solid deodorant: carry-on yes, checked yes; the page shows no size limit. Aerosol deodorant: carry-on yes, 3.4 ounces (100 ml) or less allowed; checked yes; release devices must be protected by caps or other suitable means. Liquid deodorant: the page has the same text as the aerosol page. Checked-bag totals on the aerosol and liquid pages: 2 kg (70 ounces) or 2 L (68 fluid ounces) per person in total, and no more than 0.5 kg (18 ounces) or 500 ml (17 fluid ounces) per container. Page dates: solid March 30, 2017; aerosol and liquid March 29, 2023. The final decision rests with the TSA officer. Sources read Nov. 9, 2026."
+image_alt: "Diagram of what TSA says about deodorant on a plane, from three TSA deodorant pages, TSA's liquids rule page and the FAA rule in 49 CFR 175.10(a)(1). Solid deodorant: carry-on yes, checked yes; the page shows no size limit. Aerosol deodorant: carry-on yes, 3.4 ounces (100 ml) or less allowed, which TSA's liquids rule page states as a limit per item, meaning per container; checked yes; release devices must be protected by caps or other suitable means. Liquid deodorant: the page has the same text as the aerosol page. Checked-bag totals on the aerosol and liquid pages: 2 kg (70 ounces) or 2 L (68 fluid ounces) per person in total, and no more than 0.5 kg (18 ounces) or 500 ml (17 fluid ounces) per container. Page dates: solid March 30, 2017; aerosol and liquid March 29, 2023; the liquids rule page shows no date. The final decision rests with the TSA officer. Sources read Nov. 9, 2026."
 ---
 
 # Can You Bring Deodorant on a Plane? What TSA Says by Type
 
-**Yes, in both carry-on and checked bags, with size limits for sprays and liquids.** TSA's pages list solid deodorant as allowed in carry-on and checked bags and show no size limit. For aerosol deodorant and liquid deodorant, TSA lists carry-on bags as "Yes" with 3.4 ounces (100 ml) or less allowed, and checked bags as "Yes."
+**Yes, in both carry-on and checked bags, with size limits for sprays and liquids.** TSA's pages list solid deodorant as allowed in carry-on and checked bags and show no size limit. For aerosol deodorant and liquid deodorant, TSA lists carry-on bags as "Yes" with 3.4 ounces (100 ml) or less allowed, and checked bags as "Yes." TSA's general liquids rule page states the 3.4-ounce limit per item, which this article reads as per container.
 
-This article covers what three TSA "What Can I Bring?" pages say (Deodorant (Solid), Deodorant (aerosol) and Deodorant (liquid)) and what the FAA rule they point to, 49 CFR 175.10(a)(1), says about toiletries in checked bags. The wording is as of November 9, 2026. Two of the pages carry a 2023 date and one a 2017 date, and the article gives each date. It does not cover other toiletries, gel or roll-on products, antiperspirant, airline rules, other countries or any one brand.
+This article covers what three TSA "What Can I Bring?" pages say (Deodorant (Solid), Deodorant (aerosol) and Deodorant (liquid)), what TSA's "Liquids, Aerosols, and Gels Rule" page says about the 3.4-ounce size, and what the FAA rule they point to, 49 CFR 175.10(a)(1), says about toiletries in checked bags. The wording is as of November 9, 2026. Two of the deodorant pages carry a 2023 date and one a 2017 date, and the article gives each date; the liquids rule page shows no date. It does not cover other toiletries, gel or roll-on products, antiperspirant, airline rules, other countries or any one brand.
 
-![Diagram of what TSA says about deodorant on a plane, from three TSA pages and the FAA rule in 49 CFR 175.10(a)(1). Solid deodorant: carry-on yes, checked yes; the page shows no size limit. Aerosol deodorant: carry-on yes, 3.4 ounces (100 ml) or less allowed; checked yes; release devices must be protected by caps or other suitable means. Liquid deodorant: the page has the same text as the aerosol page. Checked-bag totals on the aerosol and liquid pages: 2 kg (70 ounces) or 2 L (68 fluid ounces) per person in total, and no more than 0.5 kg (18 ounces) or 500 ml (17 fluid ounces) per container. Page dates: solid March 30, 2017; aerosol and liquid March 29, 2023. The final decision rests with the TSA officer. Sources read Nov. 9, 2026.](assets/optimized/deodorant-on-a-plane-tsa.png)
+![Diagram of what TSA says about deodorant on a plane, from three TSA deodorant pages, TSA's liquids rule page and the FAA rule in 49 CFR 175.10(a)(1). Solid deodorant: carry-on yes, checked yes; the page shows no size limit. Aerosol deodorant: carry-on yes, 3.4 ounces (100 ml) or less allowed, which TSA's liquids rule page states as a limit per item, meaning per container; checked yes; release devices must be protected by caps or other suitable means. Liquid deodorant: the page has the same text as the aerosol page. Checked-bag totals on the aerosol and liquid pages: 2 kg (70 ounces) or 2 L (68 fluid ounces) per person in total, and no more than 0.5 kg (18 ounces) or 500 ml (17 fluid ounces) per container. Page dates: solid March 30, 2017; aerosol and liquid March 29, 2023; the liquids rule page shows no date. The final decision rests with the TSA officer. Sources read Nov. 9, 2026.](assets/optimized/deodorant-on-a-plane-tsa.png)
 
 ## The three pages in one table
 
 | Type of deodorant | TSA: carry-on bags | TSA: checked bags | What the page adds | Page date |
 |---|---|---|---|---|
 | Solid | Yes | Yes | No size limit or other instruction on the page | March 30, 2017 |
-| Aerosol | Yes (3.4 oz / 100 ml or less allowed) | Yes | Checked-bag totals; release device must be protected | March 29, 2023 |
-| Liquid | Yes (3.4 oz / 100 ml or less allowed) | Yes | Same text as the aerosol page | March 29, 2023 |
+| Aerosol | Yes (3.4 oz / 100 ml or less allowed; per container, per TSA's liquids rule page) | Yes | Checked-bag totals; release device must be protected | March 29, 2023 |
+| Liquid | Yes (3.4 oz / 100 ml or less allowed; per container, per TSA's liquids rule page) | Yes | Same text as the aerosol page | March 29, 2023 |
 
 ## Solid deodorant
 
@@ -33,7 +33,9 @@ TSA's Deodorant (Solid) page lists carry-on bags "Yes" and checked bags "Yes." I
 
 ## Aerosol and liquid deodorant in carry-on
 
-TSA's Deodorant (aerosol) and Deodorant (liquid) pages carry the same header and the same text. Both list carry-on bags as "Yes (Less than or equal to 3.4oz/100 ml allowed)" and checked bags as "Yes." Both were last updated on March 29, 2023. The pages do not explain the 3.4-ounce figure, and this article does not add rules that the pages do not state. TSA's general liquids rule is covered in [What Is the TSA 3-1-1 Liquids Rule? What's Exempt?](https://statesideexplained.com/tsa-3-1-1-liquids-rule/).
+TSA's Deodorant (aerosol) and Deodorant (liquid) pages carry the same header and the same text. Both list carry-on bags as "Yes (Less than or equal to 3.4oz/100 ml allowed)" and checked bags as "Yes." Both were last updated on March 29, 2023. The deodorant pages do not say what the 3.4 ounces applies to.
+
+TSA's "Liquids, Aerosols, and Gels Rule" page does. It says you are allowed to bring a quart-sized bag of liquids, aerosols, gels, creams and pastes in your carry-on bag and through the checkpoint, limited to travel-sized containers of 3.4 ounces (100 milliliters) or less per item, and to pack containers larger than 3.4 ounces in checked baggage. Read together, the 3.4-ounce figure on the deodorant pages is the size limit for each container ("per item") carried in a carry-on bag. That page shows no update date. The deodorant pages themselves do not mention the quart-sized bag. More on the rule is in [What Is the TSA 3-1-1 Liquids Rule? What's Exempt?](https://statesideexplained.com/tsa-3-1-1-liquids-rule/).
 
 ## Aerosol and liquid deodorant in a checked bag
 
@@ -56,4 +58,5 @@ All pages were read on November 9, 2026.
 - TSA, "Deodorant (Solid)," What Can I Bring? (page shows "Last Updated on March 30, 2017"). https://www.tsa.gov/travel/security-screening/whatcanibring/items/deodorant-solid
 - TSA, "Deodorant (aerosol)," What Can I Bring? (page shows "Last Updated on March 29, 2023"). https://www.tsa.gov/travel/security-screening/whatcanibring/items/deodorant-aerosol
 - TSA, "Deodorant (liquid)," What Can I Bring? (page shows "Last Updated on March 29, 2023"). https://www.tsa.gov/travel/security-screening/whatcanibring/items/deodorant-liquid
+- TSA, "Liquids, Aerosols, and Gels Rule" (the page shows no update date). https://www.tsa.gov/travel/security-screening/liquids-aerosols-gels-rule
 - eCFR, 49 CFR 175.10, "Exceptions for passengers, crewmembers, and air operators," paragraph (a)(1) (page shows "up to date as of 11/05/2026"). https://www.ecfr.gov/current/title-49/section-175.10

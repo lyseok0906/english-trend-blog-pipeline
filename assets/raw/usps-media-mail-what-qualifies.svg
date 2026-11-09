@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1660" viewBox="0 0 800 1660" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1798" viewBox="0 0 800 1798" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
 <title>What USPS says about Media Mail, from the USPS.com Mail and Shipping Services page and Domestic Mail Manual 173: what qualifies, what does not, inspection, maximum weight and delivery time.</title>
-<rect width="800" height="1660" fill="#ffffff"/>
+<rect width="800" height="1798" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS Media Mail</text>
 <text x="40" y="120" font-size="32" fill="#374151">Two USPS pages, one short list</text>
 <rect x="40" y="170" width="720" height="406" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
@@ -20,17 +20,20 @@
 <text x="70" y="844" font-size="29" fill="#111827">theaters; charts that are mainly</text>
 <text x="70" y="890" font-size="29" fill="#111827">narrative text.</text>
 <text x="70" y="936" font-size="29" fill="#111827">Items not allowed: higher postage.</text>
-<rect x="40" y="988" width="720" height="268" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<rect x="40" y="988" width="720" height="360" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
 <text x="70" y="1042" font-size="36" font-weight="bold" fill="#111827">Inspection and limits</text>
 <text x="70" y="1092" font-size="29" fill="#111827">Open to postal inspection.</text>
 <text x="70" y="1138" font-size="29" fill="#111827">Maximum weight: 70 lbs (USPS.com).</text>
-<text x="70" y="1184" font-size="29" fill="#111827">Extra fees for large, lightweight or</text>
-<text x="70" y="1230" font-size="29" fill="#111827">nonstandard packages; no amounts here.</text>
-<rect x="40" y="1282" width="720" height="222" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1336" font-size="36" font-weight="bold" fill="#111827">Delivery time: the pages differ</text>
-<text x="70" y="1386" font-size="29" fill="#111827">USPS.com: shipping in 2-8 days.</text>
-<text x="70" y="1432" font-size="29" fill="#111827">DMM: delivery is not guaranteed</text>
-<text x="70" y="1478" font-size="29" fill="#111827">within a specified time.</text>
-<text x="40" y="1580" font-size="25" fill="#374151">Sources: USPS.com Mail &amp; Shipping Services,</text>
-<text x="40" y="1616" font-size="25" fill="#374151">DMM 173; no update dates; read Nov. 9, 2026</text>
+<text x="70" y="1184" font-size="29" fill="#111827">Extra fees (USPS.com): large and</text>
+<text x="70" y="1230" font-size="29" fill="#111827">lightweight, nonstandard size, shape</text>
+<text x="70" y="1276" font-size="29" fill="#111827">or material, or perishable items.</text>
+<text x="70" y="1322" font-size="29" fill="#111827">No amounts here.</text>
+<rect x="40" y="1374" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1428" font-size="36" font-weight="bold" fill="#111827">Delivery time</text>
+<text x="70" y="1478" font-size="29" fill="#111827">USPS.com: shipping in 2-8 days.</text>
+<text x="70" y="1524" font-size="29" fill="#111827">DMM: delivery within a specified</text>
+<text x="70" y="1570" font-size="29" fill="#111827">time is not guaranteed. The pages do</text>
+<text x="70" y="1616" font-size="29" fill="#111827">not say if the range is an estimate.</text>
+<text x="40" y="1718" font-size="25" fill="#374151">Sources: USPS.com Mail &amp; Shipping Services,</text>
+<text x="40" y="1754" font-size="25" fill="#374151">DMM 173; no update dates; read Nov. 9, 2026</text>
 </svg>

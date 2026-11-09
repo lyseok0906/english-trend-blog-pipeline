@@ -57,3 +57,24 @@ Title 57 characters; slug `deodorant-on-a-plane-tsa`; meta description 147 chara
 ## Result and next step
 
 Gate 1: **PASS** (14 of 14 claims, 7 of 7 image checks). Next: push, Gate 2 by commit SHA. After a Gate 2 PASS under the standing rule: ready, WordPress draft, phone preview, re-read of the three TSA pages, the item search and the eCFR paragraph right before publishing, publish if unchanged, live QA and records.
+
+## Gate 2 round 1 (base `7c150b1`): FIX applied 2026-11-09
+
+**Finding (ChatGPT):** add TSA's general liquids guidance as a source and state clearly that the 3.4 oz figure is the carry-on size limit per container, in the body, diagram and alt. **Fix:** TSA "Liquids, Aerosols, and Gels Rule" added as S5 and to the sources list; the carry-on section now quotes it (quart-sized bag of liquids, aerosols, gels, creams and pastes; containers of 3.4 ounces (100 ml) or less per item; larger containers in checked baggage), says the deodorant pages do not say what the 3.4 ounces applies to, and reads the figure as the limit for each container ("per item"); the lead, scope paragraph, table and sources list say the same; the diagram aerosol and liquid cards and the alt say "per item, meaning per container" and "per container".
+
+**Source re-read (TSA liquids rule page, 2026-11-09, after the finding):** 3 of 3 phrases present; the page shows no update date and does not mention deodorant.
+
+| Place | New wording | Matches source | Result |
+|---|---|---|---|
+| Lead | TSA's general liquids rule page states the 3.4-ounce limit per item, which this article reads as per container | S5 | pass |
+| Scope paragraph | names the liquids rule page; says it shows no date | S5 | pass |
+| Table (aerosol and liquid rows) | "3.4 oz / 100 ml or less allowed; per container, per TSA's liquids rule page" | S5; S1; S2 | pass |
+| Carry-on section | quotes the rule page; deodorant pages do not say what the 3.4 oz applies to; deodorant pages do not mention the quart-sized bag | S5; S1; S2 | pass (absence tested) |
+| Sources list | fifth source added with "shows no update date" | S5 | pass |
+| Diagram aerosol card | "Carry-on: Yes; 3.4 oz (100 ml) or less. TSA liquids rule: per item, meaning per container. Checked: Yes. Release device must be capped or protected." | S1; S5; S4 | pass |
+| Diagram liquid card, dates card, footer | "per container"; "Liquids rule page: no date"; sources include the liquids rule | S2; S5 | pass |
+| Alt text (894 characters), front matter and body identical | same meaning as the diagram | | pass |
+| PNG and SVG in the repository | 1200 x 2655, 415,468 bytes, sha256 f7cd4bb4...d422; no text past the right margin | | pass |
+
+Nothing else was changed (the checked-bag totals, FAA paragraph, release-device and other sections are as at Gate 1).
+

@@ -66,3 +66,22 @@ Title 52 characters; slug `usps-media-mail-what-qualifies`; meta description 154
 ## Result and next step
 
 Gate 1: **PASS** (23 of 23 claims, 6 of 6 image checks). Next: push, Gate 2 by commit SHA. After a Gate 2 PASS under the standing rule: ready, WordPress draft, phone preview, re-read of both pages right before publishing, publish if unchanged, live QA and records.
+
+## Gate 2 round 1 (base `7c150b1`): FIX applied 2026-11-09
+
+**Findings (ChatGPT):** (1) the "2-8 days" and "no guarantee" lines were presented as a conflict; (2) the diagram and alt said "large, lightweight or nonstandard" where USPS says "large and lightweight"; (3) add an official price list or calculator link to the body. **Fixes:** (1) the delivery-time section is now neutral: both statements are on official USPS pages, the pages do not say whether the USPS.com range is an estimate, the article does not read it as a promise and does not say which statement controls; the diagram card is titled "Delivery time" (no longer "the pages differ") and says the pages do not say if the range is an estimate; the alt says the same. (2) The diagram card and alt now follow USPS.com: extra fees for a package that is large and lightweight, has a nonstandard size, shape or material, or has perishable items; no amounts. (3) The fees section links USPS.com's Price Calculator (https://postcalc.usps.com/, linked from the USPS.com Media Mail section) and Notice 123 (https://pe.usps.com/text/dmm300/Notice123.htm, linked from DMM 173 section 1.1; the page loads and lists Media Mail under retail prices); the scope paragraph now says the article links these instead of giving amounts. No amount was read or used.
+
+**Sources (re-read at Gate 1 the same day; link targets read after the finding):** USPS.com fee sentence and the 2-8 days line with its footnote: present (Gate 1 test, 18 of 18 phrases and the footnote); the Price Calculator link and the "TIP: Use the USPS Price Calculator tool" sentence on the USPS.com page; DMM 173 section 1.1 link to Notice 123.
+
+| Place | New wording | Matches source | Result |
+|---|---|---|---|
+| Scope paragraph | gives no prices or fee amounts and links USPS's price calculator and price list | S1; S2 | pass |
+| Fees section | adds "For prices, USPS.com links its Price Calculator, and the DMM refers readers to Notice 123, the USPS price list" with both links | S1; S2 | pass |
+| Delivery time section | neutral wording as above; the footnote about service outside the contiguous U.S. is kept | S1; S2 | pass |
+| Diagram "Inspection and limits" card | "Extra fees (USPS.com): large and lightweight, nonstandard size, shape or material, or perishable items. No amounts here." | S1 | pass |
+| Diagram "Delivery time" card | "USPS.com: shipping in 2-8 days. DMM: delivery within a specified time is not guaranteed. The pages do not say if the range is an estimate." | S1; S2 | pass |
+| Alt text (1,168 characters), front matter and body identical | same meaning as the diagram | | pass |
+| PNG and SVG in the repository | 1200 x 2697, 449,297 bytes, sha256 0bd4bbc2...5f87; no text past the right margin | | pass |
+
+Nothing else was changed. The word "differ" no longer appears in the article's delivery-time wording.
+
