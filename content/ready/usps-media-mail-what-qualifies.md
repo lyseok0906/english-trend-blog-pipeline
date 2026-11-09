@@ -4,7 +4,7 @@ slug: usps-media-mail-what-qualifies
 meta_description: "USPS lists books, printed music, recordings and a few other items for Media Mail. See what qualifies, what does not, and the inspection and content rules."
 category: Postal service and stamps
 focus_keyword: usps media mail
-status: draft
+status: ready
 date: 2026-11-09
 internal_link_candidates: none planned (decide at Gate 2; related published posts on Package Intercept and mail forwarding mention Media Mail in one sentence)
 image: assets/optimized/usps-media-mail-what-qualifies.png

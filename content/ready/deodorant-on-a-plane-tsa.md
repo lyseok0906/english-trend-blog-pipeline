@@ -4,7 +4,7 @@ slug: deodorant-on-a-plane-tsa
 meta_description: "TSA lists solid deodorant as allowed in carry-on and checked bags. Aerosol and liquid deodorant are allowed in carry-on at 3.4 oz (100 ml) or less."
 category: Airport security rules
 focus_keyword: can you bring deodorant on a plane
-status: draft
+status: ready
 date: 2026-11-09
 internal_link_candidates: tsa-3-1-1-liquids-rule (published; one link in the carry-on section)
 image: assets/optimized/deodorant-on-a-plane-tsa.png

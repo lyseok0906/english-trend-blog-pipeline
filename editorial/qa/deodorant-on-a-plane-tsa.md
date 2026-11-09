@@ -78,3 +78,16 @@ Gate 1: **PASS** (14 of 14 claims, 7 of 7 image checks). Next: push, Gate 2 by c
 
 Nothing else was changed (the checked-bag totals, FAA paragraph, release-device and other sections are as at Gate 1).
 
+
+
+## Published 2026-11-09 (under the standing rule)
+
+**Gate 2:** round 1 on `7c150b1` = FIX (applied in `ceb8aba`); re-check on `f3cfe91` = PASS (user-reported 2026-11-09). Moved to `content/ready/` (`status: ready`); text unchanged.
+
+**WordPress draft:** post 99, media 98 (PNG fetched from GitHub `main`, sha256 verified before upload; the original file URL is used in the image block because WordPress made a `-scaled` copy); category Airport security rules; comments and pings closed; Rank Math focus keyword and 147-character description set; editor check: 20 blocks, none invalid. Table style: `clamp(11px, 3vw, 18px)` (post-only; the standard 3.2vw left the five-column table 6 px too wide at 375 px). Phone preview: the table fits at 375 px; at 320 px it scrolls inside its own box (table 294 px in a 260 px box), the page does not overflow, the diagram fits.
+
+**Sources re-read right before publishing (2026-11-09):** TSA Solid, Aerosol and Liquid pages: all tested phrases present (solid "March 30, 2017"; aerosol and liquid "March 29, 2023", the 3.4oz line, the 2 kg and 0.5 kg totals, the release-device sentence, "See the FAA regulations"); no "quart" on the deodorant pages; TSA liquids rule page: 3 of 3 phrases, no update date, no "deodorant"; TSA item search for "deodorant": exactly the same three pages; eCFR 49 CFR 175.10: "up to date as of 11/05/2026", 2 kg (70 ounces) or 2 L (68 fluid ounces), container capacity, release-device, annoyance sentences present (the container-capacity figure was read only as far as "0", from the same sentence as at Gate 1). No change and no new conflict.
+
+**Published:** 2026-11-09 02:53:12 UTC, https://statesideexplained.com/deodorant-on-a-plane-tsa/ .
+
+**Live QA (logged out, no cache):** 200; canonical correct; title; meta description (147 characters) and og tags (og description identical); robots index, follow; JSON-LD includes BlogPosting and WebPage; one H1; no comment form, no pingback; image from the original upload with sha256 identical to the repository PNG (f7cd4bb4...d422), alt 894 characters; six body links (one internal link to the 3-1-1 post, three TSA deodorant pages, the TSA liquids rule page, eCFR); one table; in `/post-sitemap.xml`, `/feed/`, the home page and the Airport security rules category page.

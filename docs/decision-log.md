@@ -1396,3 +1396,8 @@ On the user's go-ahead (push of `988794a` done), about 20 TSA and USPS phrases w
 
 **Deodorant:** TSA's "Liquids, Aerosols, and Gels Rule" page added as a source; the 3.4 oz figure is now stated as the limit per item (per container) in the lead, scope, table, carry-on section, sources list, diagram and alt; the deodorant pages' silence on what the figure applies to and on the quart-sized bag is stated. **Media Mail:** the "2-8 days" and "no guarantee" lines are no longer presented as a conflict (the pages do not say whether the range is an estimate); "large and lightweight" now matches USPS.com in the diagram and alt; links to USPS.com's Price Calculator and to Notice 123 added (no amounts). Only changed parts were compared and recorded in each QA file. Re-check by Gate 2 on the new SHA is next; WordPress drafts and the table phone checks follow a PASS.
 
+
+
+## 2026-11-09 (KST, later) — Deodorant and Media Mail published under the standing rule
+
+Gate 2 re-check PASS on `f3cfe91` for both posts; moved to ready; WordPress drafts (deodorant post 99, media 98; Media Mail post 102, media 101); phone preview of the tables at 375 and 320 px (the five-column deodorant table needed a smaller post-only font size, `3vw`, to fit at 375 px); official sources re-read right before publishing with no change or conflict; both published 2026-11-09 02:53 UTC; live QA passed. 23 articles are live (12 pilot, 11 post-pilot). No indexing request. Remaining: TSA holiday food (held until a 2026 TSA food notice), USPS Thanksgiving (brief; scheduled notice check 2026-11-14), TSA shoe policy (idea).

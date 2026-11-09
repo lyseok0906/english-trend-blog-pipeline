@@ -85,3 +85,16 @@ Gate 1: **PASS** (23 of 23 claims, 6 of 6 image checks). Next: push, Gate 2 by c
 
 Nothing else was changed. The word "differ" no longer appears in the article's delivery-time wording.
 
+
+
+## Published 2026-11-09 (under the standing rule)
+
+**Gate 2:** round 1 on `7c150b1` = FIX (applied in `ceb8aba`); re-check on `f3cfe91` = PASS (user-reported 2026-11-09). Moved to `content/ready/` (`status: ready`); text unchanged.
+
+**WordPress draft:** post 102, media 101 (PNG fetched from GitHub `main`, sha256 verified before upload; original file URL used in the image block); category Postal service and stamps; comments and pings closed; Rank Math focus keyword and 154-character description set; editor check: 25 blocks, none invalid. Table style `clamp(11px, 3.2vw, 18px)`. Phone preview: the three-column table fits at 375 px and at 320 px; no horizontal overflow of the page; the diagram fits.
+
+**Sources re-read right before publishing (2026-11-09):** USPS.com Mail & Shipping Services page: the eight list items, the video-games note, the inspection, maximum-weight, fee and "Shipping in 2-8 Days" sentences, the footnote about the contiguous U.S. and the Price Calculator link (postcalc.usps.com) all present; the only differences from the tested strings are punctuation and wording of the same meaning ("video games, computer drives, and digital drives", "maximum weight is 70 lbs", "limited availability of transportation"); no update date. DMM 173: all tested phrases present (the three misses were wording: "printed music, whether in bound or sheet form", "conveyed primarily by ... nonnarrative matter" and "a chart on which the information is conveyed primarily by textual matter in a narrative form does not qualify", "constitutes consent by the mailer to postal inspection"); link to Notice 123 present; no revision date. Old media-mail page: "This Page Has Moved". No change and no new conflict. The postcalc.usps.com link itself was not opened.
+
+**Published:** 2026-11-09 02:53:14 UTC, https://statesideexplained.com/usps-media-mail-what-qualifies/ .
+
+**Live QA (logged out, no cache):** 200; canonical correct; title; meta description (154 characters) and og tags (og description identical); robots index, follow; JSON-LD includes BlogPosting and WebPage; one H1; no comment form, no pingback; image from the original upload with sha256 identical to the repository PNG (0bd4bbc2...5f87), alt 1,168 characters; four body links (Price Calculator, Notice 123, USPS.com services page, DMM 173); one table; in `/post-sitemap.xml`, `/feed/`, the home page and the Postal service and stamps category page.
