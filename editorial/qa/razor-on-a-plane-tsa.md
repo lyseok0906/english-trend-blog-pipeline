@@ -60,3 +60,16 @@ Title 63 characters; slug `razor-on-a-plane-tsa`; meta description 156 character
 ## Result and next step
 
 Gate 1: **PASS** (17 of 17 claims, 7 of 7 image checks). Next: push, Gate 2 by commit SHA (user to ChatGPT). Under the user's standing rule of 2026-11-06, after a Gate 2 PASS the file moves to `content/ready/`, a WordPress draft is made, the four TSA pages are re-read right before publishing, and the post is published if nothing changed, followed by live QA and records. If a page changed, report first.
+
+## Gate 2, WordPress, publication and live QA (2026-11-09)
+
+**Gate 2 (ChatGPT, base `1dd0826`): PASS**, no changes requested. Moved to `content/ready/` (`status: ready`).
+
+**WordPress draft:** post 92, media 91 (original file URL used in the image block; PNG fetched from GitHub main and verified sha256 1820a334...9a7c, 354,331 bytes, before upload). Content hash verified in the browser before posting (e649464e...). Category 5 (Airport security rules); comments and pings closed; Rank Math focus keyword `can you bring a razor on a plane` and the 156-character description set and read back in the editor; 20 blocks, none invalid. Table font first set to `clamp(12px, 3.6vw, 18px)`: at 375 px the five-column table was 347 px wide in a 315 px box and the last column ("Page date") was cut off (it scrolled inside the table box, the page did not overflow). Changed to `clamp(11px, 3.2vw, 18px)` in the post only (the repository file has no table style; the conversion step adds it): at 375 px the table fits (315 px, 12 px text); at 320 px it is 283 px in a 260 px box and scrolls sideways inside the table box only (page scrollWidth 320, no page overflow). Block validity rechecked after the change.
+
+**Sources re-read right before publishing (2026-11-09):** the four TSA pages unchanged (Disposable Razor: carry-on Yes, checked Yes, last updated May 4, 2017; Safety Razor With Blades: header No / Yes, text unchanged, June 22, 2023; Razor-Type Blades: No / Yes, May 4, 2017; Electric Razors: Yes / Yes, FAA sentence, July 14, 2026); TSA item search "razor" still returns exactly those four pages. No change, no conflict.
+
+**Published:** 2026-11-09 01:06:26 UTC, https://statesideexplained.com/razor-on-a-plane-tsa/ .
+
+**Live QA (logged out, no cache):** 200; canonical correct; title and meta description (156 characters) and og tags present, og description identical; robots index, follow; JSON-LD includes BlogPosting and WebPage; one H1; no comment form, no pingback; image served from the original upload, sha256 identical to the repository PNG, alt 779 characters; the internal link to the liquids post returns 200; five TSA links present (four sources and the shaving-cream pointer is internal); in `/post-sitemap.xml`, `/feed/`, the home page and the Airport security rules category page; table present with the `clamp(11px, 3.2vw, 18px)` style.
+

@@ -1373,3 +1373,10 @@ On the user's go-ahead (push of `0eed490` done), two new candidates were chosen 
 ## 2026-11-09 (KST, later) — Gate 2 on `1dd0826`: razor PASS, Package Intercept FIX applied
 
 **Razor: PASS** (proceeds under the standing rule; see the publication entry once done). **Package Intercept: FIX applied.** The lead, diagram card 4 and alt now say, per the USPS.com page re-read the same day, that if the shipment is intercepted the fee plus any applicable postage is charged and customers are not charged if it is not intercepted; the FAQ's "only if an intercept was possible" stays as attributed FAQ wording in the fees section. Only the changed parts were compared and recorded in the QA file. Re-check by Gate 2 on the new SHA is next; WordPress draft and the four-column table phone check follow the PASS.
+
+## 2026-11-09 (KST, later) — Razor post published
+
+Under the standing rule: Gate 2 PASS on `1dd0826`; moved to ready; WordPress draft (post 92, media 91); phone preview: the five-column table was widened past the box at 375 px with the first font setting, so the post-only table font was set to `clamp(11px, 3.2vw, 18px)` (fits at 375 px, scrolls inside the table box at 320 px, no page overflow); the four TSA pages and the TSA item search "razor" re-read right before publishing with no change and no conflict; published 2026-11-09 01:06:26 UTC; live QA passed. Counts: 20 live (12 pilot, 8 post-pilot). Package Intercept stays in Gate 2 (FIX applied in `1731948`).
+
+**Open:** the user pushes the commit(s) and sends Package Intercept's changed parts to Gate 2 by SHA; Thanksgiving USPS notice check 2026-11-14 09:00 KST; TSA holiday food stays held.
+

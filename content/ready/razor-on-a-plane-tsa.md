@@ -4,7 +4,7 @@ slug: razor-on-a-plane-tsa
 meta_description: "TSA lists disposable and electric razors as allowed in carry-on. A safety razor needs its blade removed, and loose razor blades are not allowed in carry-on."
 category: Airport security rules
 focus_keyword: can you bring a razor on a plane
-status: draft
+status: ready
 date: 2026-11-09
 internal_link_candidates: tsa-3-1-1-liquids-rule (published; one link in the closing section, shaving cream sentence)
 image: assets/optimized/razor-on-a-plane-tsa.png
