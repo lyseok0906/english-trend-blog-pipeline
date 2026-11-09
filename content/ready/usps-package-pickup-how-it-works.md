@@ -4,7 +4,7 @@ slug: usps-package-pickup-how-it-works
 meta_description: "USPS Package Pickup is free, on your next delivery day. See what can be picked up, the 70 lb and 130 in limits, cutoff and how Pickup on Demand differs."
 category: Postal service and stamps
 focus_keyword: usps package pickup
-status: draft
+status: ready
 date: 2026-11-09
 internal_link_candidates: usps-media-mail-what-qualifies (published; Media Mail is not named on the pickup list)
 image: assets/optimized/usps-package-pickup-how-it-works.png

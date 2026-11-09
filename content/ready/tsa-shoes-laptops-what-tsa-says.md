@@ -4,7 +4,7 @@ slug: tsa-shoes-laptops-what-tsa-says
 meta_description: "TSA says domestic passengers can keep shoes on. Its laptop wording differs for standard screening, CT and PreCheck; follow the TSA officer on the day."
 category: Airport security rules
 focus_keyword: tsa shoes off
-status: draft
+status: ready
 date: 2026-11-09
 internal_link_candidates: tsa-precheck-what-it-changes (published; PreCheck), tsa-3-1-1-liquids-rule (published; liquids)
 image: assets/optimized/tsa-shoes-laptops-what-tsa-says.png
