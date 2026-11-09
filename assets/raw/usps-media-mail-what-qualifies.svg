@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1660" viewBox="0 0 800 1660" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What USPS says about Media Mail, from the USPS.com Mail and Shipping Services page and Domestic Mail Manual 173: what qualifies, what does not, inspection, maximum weight and delivery time.</title>
+<rect width="800" height="1660" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS Media Mail</text>
+<text x="40" y="120" font-size="32" fill="#374151">Two USPS pages, one short list</text>
+<rect x="40" y="170" width="720" height="406" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="224" font-size="36" font-weight="bold" fill="#111827">What qualifies (USPS.com list)</text>
+<text x="70" y="274" font-size="29" fill="#111827">Books (at least 8 pages), films,</text>
+<text x="70" y="320" font-size="29" fill="#111827">printed music and test materials,</text>
+<text x="70" y="366" font-size="29" fill="#111827">video and sound recordings,</text>
+<text x="70" y="412" font-size="29" fill="#111827">playscripts and manuscripts,</text>
+<text x="70" y="458" font-size="29" fill="#111827">educational reference charts,</text>
+<text x="70" y="504" font-size="29" fill="#111827">medical loose-leaf pages, and</text>
+<text x="70" y="550" font-size="29" fill="#111827">computer-readable media.</text>
+<rect x="40" y="602" width="720" height="360" rx="14" fill="#fee2e2" stroke="#991b1b" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="656" font-size="36" font-weight="bold" fill="#111827">Does not qualify</text>
+<text x="70" y="706" font-size="29" fill="#111827">USPS.com: video games, computer</text>
+<text x="70" y="752" font-size="29" fill="#111827">drives and digital drives.</text>
+<text x="70" y="798" font-size="29" fill="#111827">DMM: films to or from commercial</text>
+<text x="70" y="844" font-size="29" fill="#111827">theaters; charts that are mainly</text>
+<text x="70" y="890" font-size="29" fill="#111827">narrative text.</text>
+<text x="70" y="936" font-size="29" fill="#111827">Items not allowed: higher postage.</text>
+<rect x="40" y="988" width="720" height="268" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="1042" font-size="36" font-weight="bold" fill="#111827">Inspection and limits</text>
+<text x="70" y="1092" font-size="29" fill="#111827">Open to postal inspection.</text>
+<text x="70" y="1138" font-size="29" fill="#111827">Maximum weight: 70 lbs (USPS.com).</text>
+<text x="70" y="1184" font-size="29" fill="#111827">Extra fees for large, lightweight or</text>
+<text x="70" y="1230" font-size="29" fill="#111827">nonstandard packages; no amounts here.</text>
+<rect x="40" y="1282" width="720" height="222" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1336" font-size="36" font-weight="bold" fill="#111827">Delivery time: the pages differ</text>
+<text x="70" y="1386" font-size="29" fill="#111827">USPS.com: shipping in 2-8 days.</text>
+<text x="70" y="1432" font-size="29" fill="#111827">DMM: delivery is not guaranteed</text>
+<text x="70" y="1478" font-size="29" fill="#111827">within a specified time.</text>
+<text x="40" y="1580" font-size="25" fill="#374151">Sources: USPS.com Mail &amp; Shipping Services,</text>
+<text x="40" y="1616" font-size="25" fill="#374151">DMM 173; no update dates; read Nov. 9, 2026</text>
+</svg>

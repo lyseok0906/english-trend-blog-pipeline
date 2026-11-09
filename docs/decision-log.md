@@ -1386,3 +1386,9 @@ Under the standing rule: Gate 2 re-check PASS on `f09fe67`; moved to ready; Word
 
 **Open:** the user pushes the commit; Thanksgiving USPS notice check 2026-11-14 09:00 KST (a 2026 USPS Thanksgiving notice has not been read); TSA holiday food stays held until a 2026 TSA food notice is read; next candidates are not chosen (the user decides when to start another cycle).
 
+## 2026-11-09 (KST, later) — New cycle: TSA deodorant and USPS Media Mail drafted
+
+On the user's go-ahead (push of `988794a` done), about 20 TSA and USPS phrases were compared in Google Trends against the vape phrase (relative indexes only). **Chosen:** TSA deodorant (0.7 of the vape phrase; three TSA pages plus 49 CFR 175.10(a)(1); no overlap) and USPS Media Mail (2.8 to 2.9 times the vape phrase; USPS.com Mail & Shipping Services section plus DMM 173; no overlap). **Rejected:** USPS change of address (largest signal, about 21 times, but it overlaps the live mail forwarding post), flat rate box (price-driven), snacks (overlaps the held holiday food post), batteries (overlaps the power bank post), several phrases that measured near zero. Both have brief, source notes, draft, diagram and Gate 1 QA (deodorant 14 of 14 claims, Media Mail 23 of 23). Backlog rows 27 and 28; draft stage count now 3 (one held). Not on WordPress; Gate 2 by commit SHA is next. Media Mail's phrase is probably price-driven; the article gives no price (a risk for Gate 2 to judge).
+
+**Open:** the user pushes the local commit and sends both posts to Gate 2; Thanksgiving USPS notice check 2026-11-14 09:00 KST; TSA holiday food stays held.
+
