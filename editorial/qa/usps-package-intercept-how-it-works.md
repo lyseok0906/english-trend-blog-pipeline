@@ -19,7 +19,7 @@ After drafting, all three pages were opened again in the built-in browser (2026-
 | # | Claim in the draft | Source | Result |
 |---|---|---|---|
 | C1 | Fee-based; the sender or authorized representative asks USPS to stop or redirect an item not out for delivery or already delivered | S1; S2 | pass |
-| C2 | Not guaranteed; request active 7 business days; cannot be edited or cancelled; fees only if an intercept was possible | S1; S2 | pass |
+| C2 | Not guaranteed; request active 7 business days; cannot be edited or cancelled; fees charged when the item is intercepted, none if it is not (USPS.com); the FAQ's "only if an intercept was possible" is kept as FAQ wording in the fees section | S1; S2 | pass (reworded at Gate 2 round 1) |
 | C3 | The pages describe requests by the sender or representative or agent, not by the recipient (absence tested) | S1; S2 | pass |
 | C4 | Retail senders: return to own address or Hold For Pickup; online only with a USPS.com account | S1 | pass |
 | C5 | Commercial senders: own address, new delivery address or Hold For Pickup via Business Customer Gateway; new address only commercial per the FAQ | S1; S2 | pass |
@@ -53,10 +53,10 @@ After drafting, all three pages were opened again in the built-in browser (2026-
 | I1 | Card 1 "Who and what": fee-based, sender or representative, not out for delivery or delivered, tracking or extra services barcode, 130 inches matches C1, C6 | pass |
 | I2 | Card 2 "Request": retail online with USPS.com account, check eligibility, return to sender or Hold for Pickup, not a PO Box, estimated total matches C4, C13, C14 | pass |
 | I3 | Card 3 "Wait": 7 business days, not guaranteed, cannot be edited or cancelled matches C2 | pass |
-| I4 | Card 4 "Charges": fees only if an intercept was possible; fee nonrefundable; no amounts matches C16, C17 | pass |
+| I4 | Card 4 "Charges": USPS.com: if the item is intercepted, the fee plus any applicable postage is charged; if not intercepted, no charge; fee nonrefundable; no amounts matches C16, C17 | pass (redrawn at Gate 2 round 1) |
 | I5 | Not-eligible card matches C11, C12 (labelled "as USPS lists"); "The pages differ" card matches C26 | pass |
-| I6 | Alt text (1,112 characters) in front matter and body is identical and says the same as the diagram | pass |
-| I7 | Files `assets/raw/usps-package-intercept-how-it-works.svg` and `assets/optimized/usps-package-intercept-how-it-works.png` (1200 x 3096, 507,653 bytes, sha256 a607d5ed...de6c) in the repository; no logos or photos; text 25 to 46 px on an 800 px canvas; no text past the right margin | pass |
+| I6 | Alt text (1,213 characters after Gate 2 round 1) in front matter and body is identical and says the same as the diagram | pass |
+| I7 | Files `assets/raw/usps-package-intercept-how-it-works.svg` and `assets/optimized/usps-package-intercept-how-it-works.png` (1200 x 3234, sha256 eadc3ce5...3fd4; Gate 1 version was 1200 x 3096, a607d5ed...de6c) in the repository; no logos or photos; text 25 to 46 px on an 800 px canvas; no text past the right margin | pass |
 
 ## Format
 
@@ -73,3 +73,21 @@ Title 60 characters; slug `usps-package-intercept-how-it-works`; meta descriptio
 ## Result and next step
 
 Gate 1: **PASS** (27 of 27 claims, 7 of 7 image checks; two fixes made during Gate 1). Next: push, Gate 2 by commit SHA. After a Gate 2 PASS: ready, WordPress draft, phone preview, re-read of all three USPS pages right before publishing, publish if unchanged, live QA and records.
+
+## Gate 2 round 1 (base `1dd0826`): FIX applied 2026-11-09
+
+**Finding (ChatGPT):** the lead, diagram and alt summarized the charges as "fees apply only if an intercept was possible", which is the FAQ's wording and is less clear than USPS's main guidance. **Fix:** say that if the shipment is intercepted, the fee plus any applicable postage is charged, and that customers are not charged if it is not intercepted.
+
+**Source re-read (USPS.com page, 2026-11-09, after the finding):** "If the shipment is intercepted, your credit card will be charged the [amount] Package Intercept fee plus any applicable postage. If the actual postage is greater than estimated, any additional postage will be charged accordingly." and "Customers will not be charged if the shipment was not intercepted. If successfully intercepted, the non-refundable Package Intercept fee is applied to each intercept request." The amount on the page is not used. The terms page says fees and postage are charged only upon a successful intercept (read at Gate 1).
+
+**Changed parts and comparison:**
+
+| Place | New wording | Matches source | Result |
+|---|---|---|---|
+| Lead paragraph | USPS.com says that if the shipment is intercepted, the Package Intercept fee plus any applicable postage is charged, while customers are not charged if the shipment was not intercepted | USPS.com page | pass |
+| Section "Fees and postage", charges paragraph | Card is charged the fee plus any applicable postage if intercepted; additional postage if actual postage is greater than the estimate; not charged if not intercepted; fee non-refundable if the intercept succeeds; FAQ and terms-page sentences unchanged and still attributed | USPS.com page; FAQ; terms page | pass |
+| Alt text (front matter and body identical) | Step 4: USPS.com says that if the item is intercepted, the fee plus any applicable postage is charged, that customers are not charged if it is not intercepted, and that the fee is nonrefundable | USPS.com page | pass |
+| Diagram card 4 | "USPS.com: if the item is intercepted, the fee plus any applicable postage is charged. If not intercepted, no charge. The fee is nonrefundable. No amounts here; USPS has a price page." | USPS.com page | pass |
+| Diagram versus body versus alt | Same meaning; no text past the right margin; PNG and SVG read back from the repository | | pass |
+
+Nothing else was changed. The unreconciled FAQ sentences about collection at delivery are still stated as a limit.
