@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2064" viewBox="0 0 800 2064" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What USPS says about Package Intercept, from the USPS.com page, a USPS FAQ dated Oct. 27, 2026 and an older terms page: who can request it, how a request works, the 7 business day window, charges, and what is not eligible.</title>
+<rect width="800" height="2064" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS Package Intercept</text>
+<text x="40" y="120" font-size="32" fill="#374151">What three USPS pages say</text>
+<rect x="40" y="170" width="720" height="360" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="224" font-size="36" font-weight="bold" fill="#111827">1. Who and what</text>
+<text x="70" y="274" font-size="29" fill="#111827">Fee-based. The sender or an authorized</text>
+<text x="70" y="320" font-size="29" fill="#111827">representative asks USPS to stop or</text>
+<text x="70" y="366" font-size="29" fill="#111827">redirect an item that is not out for</text>
+<text x="70" y="412" font-size="29" fill="#111827">delivery or delivered. Needs a tracking</text>
+<text x="70" y="458" font-size="29" fill="#111827">or extra services barcode; at most 130</text>
+<text x="70" y="504" font-size="29" fill="#111827">inches in length plus girth.</text>
+<rect x="40" y="556" width="720" height="314" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="610" font-size="36" font-weight="bold" fill="#111827">2. Request</text>
+<text x="70" y="660" font-size="29" fill="#111827">Retail: online, with a USPS.com account.</text>
+<text x="70" y="706" font-size="29" fill="#111827">Check eligibility first. Choose return</text>
+<text x="70" y="752" font-size="29" fill="#111827">to sender or Hold for Pickup at a Post</text>
+<text x="70" y="798" font-size="29" fill="#111827">Office, not a PO Box. USPS shows an</text>
+<text x="70" y="844" font-size="29" fill="#111827">estimated total.</text>
+<rect x="40" y="896" width="720" height="222" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="950" font-size="36" font-weight="bold" fill="#111827">3. Wait</text>
+<text x="70" y="1000" font-size="29" fill="#111827">Active for 7 business days. Not</text>
+<text x="70" y="1046" font-size="29" fill="#111827">guaranteed. Cannot be edited or</text>
+<text x="70" y="1092" font-size="29" fill="#111827">cancelled.</text>
+<rect x="40" y="1144" width="720" height="222" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="1198" font-size="36" font-weight="bold" fill="#111827">4. Charges</text>
+<text x="70" y="1248" font-size="29" fill="#111827">USPS: fees only if an intercept was</text>
+<text x="70" y="1294" font-size="29" fill="#111827">possible; the fee is nonrefundable.</text>
+<text x="70" y="1340" font-size="29" fill="#111827">No amounts here; USPS has a price page.</text>
+<rect x="40" y="1392" width="720" height="314" rx="14" fill="#fee2e2" stroke="#991b1b" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1446" font-size="36" font-weight="bold" fill="#111827">Not eligible (as USPS lists)</text>
+<text x="70" y="1496" font-size="29" fill="#111827">Marketing Mail and periodicals.</text>
+<text x="70" y="1542" font-size="29" fill="#111827">International or APO/FPO/DPO mail.</text>
+<text x="70" y="1588" font-size="29" fill="#111827">Items redirected to a PO Box.</text>
+<text x="70" y="1634" font-size="29" fill="#111827">Surface-only or hazmat markings.</text>
+<text x="70" y="1680" font-size="29" fill="#111827">No tracking or extra services barcode.</text>
+<rect x="40" y="1732" width="720" height="176" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1786" font-size="36" font-weight="bold" fill="#111827">The pages differ</text>
+<text x="70" y="1836" font-size="29" fill="#111827">The 2016 terms page says 108 inches,</text>
+<text x="70" y="1882" font-size="29" fill="#111827">not 130. Mail class lists differ.</text>
+<text x="40" y="1984" font-size="25" fill="#374151">Sources: USPS.com page, USPS FAQ (Oct. 27,</text>
+<text x="40" y="2020" font-size="25" fill="#374151">2026), terms page (2016); read Nov. 9, 2026</text>
+</svg>
