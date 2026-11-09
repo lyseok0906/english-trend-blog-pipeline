@@ -1380,3 +1380,9 @@ Under the standing rule: Gate 2 PASS on `1dd0826`; moved to ready; WordPress dra
 
 **Open:** the user pushes the commit(s) and sends Package Intercept's changed parts to Gate 2 by SHA; Thanksgiving USPS notice check 2026-11-14 09:00 KST; TSA holiday food stays held.
 
+## 2026-11-09 (KST, later) — USPS Package Intercept post published
+
+Under the standing rule: Gate 2 re-check PASS on `f09fe67`; moved to ready; WordPress draft (post 95, media 94; original file URL used because WordPress scaled the tall image); phone preview: the four-column table fits at 375 px and scrolls inside its own box at 320 px (no page overflow); the USPS.com page, the USPS FAQ (Oct. 27, 2026) and the terms page (7/15/2016) re-read right before publishing with no change and no new conflict; published 2026-11-09 01:15:16 UTC; live QA passed. Counts: 21 live (12 pilot, 9 post-pilot). The article gives no fee or postage amount.
+
+**Open:** the user pushes the commit; Thanksgiving USPS notice check 2026-11-14 09:00 KST (a 2026 USPS Thanksgiving notice has not been read); TSA holiday food stays held until a 2026 TSA food notice is read; next candidates are not chosen (the user decides when to start another cycle).
+

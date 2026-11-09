@@ -91,3 +91,18 @@ Gate 1: **PASS** (27 of 27 claims, 7 of 7 image checks; two fixes made during Ga
 | Diagram versus body versus alt | Same meaning; no text past the right margin; PNG and SVG read back from the repository | | pass |
 
 Nothing else was changed. The unreconciled FAQ sentences about collection at delivery are still stated as a limit.
+
+## Gate 2 re-check, WordPress, publication and live QA (2026-11-09)
+
+**Gate 2 re-check (ChatGPT, base `f09fe67`): PASS**, no further changes requested on charges. Moved to `content/ready/` (`status: ready`).
+
+**WordPress draft:** post 95, media 94. The PNG was fetched from GitHub main and verified (sha256 eadc3ce5...3fd4, 536,179 bytes) before upload; WordPress made a `-scaled` copy (950 x 2560) because the image is tall, so the post uses the original file URL and the served original was verified with the same hash. Content hash verified in the browser before posting (5b30d4cb...). Category 6 (Postal service and stamps); comments and pings closed; Rank Math focus keyword `how does usps package intercept work` and the 155-character description set and read back in the editor; 32 blocks, none invalid.
+
+**Phone check of the four-column table** (table font `clamp(11px, 3.2vw, 18px)`, as set for the razor post): at 375 px the table fits its box (315 px, 12 px text, smallest cell 72 px), no sideways scroll, page scrollWidth 375. At 320 px the table is 278 px in a 260 px box, so the last column ("Terms page") is cut off and the box scrolls sideways; the page itself does not overflow (scrollWidth 320) and the diagram fits (260 px). Accepted as before (the table scrolls inside its own box).
+
+**Sources re-read right before publishing (2026-11-09):** USPS.com page: all 28 tested phrases present, including the charge sentences used in the fix; price link to Notice 123 present; no update date; no 108 or 7 business days wording. FAQ: dated Oct 27, 2026; all tested phrases present (the seven-class list matched when read as list items; First-Class Mail not in the list; the 108-inch note present; no dollar amount). Terms page: 9 of 9 phrases present, "Updated: 7/15/2016", no dollar amount. No change and no new conflict beyond the differences the article already shows.
+
+**Published:** 2026-11-09 01:15:16 UTC, https://statesideexplained.com/usps-package-intercept-how-it-works/ .
+
+**Live QA (logged out, no cache):** 200; canonical correct; title; meta description (155 characters) and og tags (og description identical); robots index, follow; JSON-LD includes BlogPosting and WebPage; one H1; no comment form, no pingback; image served from the original upload with sha256 identical to the repository PNG, alt 1,213 characters; the three USPS source links present; no dollar amount in the article text; table style `clamp(11px, 3.2vw, 18px)`; in `/post-sitemap.xml`, `/feed/`, the home page and the Postal service and stamps category page.
+

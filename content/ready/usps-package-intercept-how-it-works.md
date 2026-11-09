@@ -4,7 +4,7 @@ slug: usps-package-intercept-how-it-works
 meta_description: "USPS Package Intercept lets a sender try to stop or redirect an eligible tracked package before delivery. See who can request it and the limits USPS lists."
 category: Postal service and stamps
 focus_keyword: how does usps package intercept work
-status: draft
+status: ready
 date: 2026-11-09
 internal_link_candidates: none planned (decide at Gate 2; related published posts on Certified Mail, Hold Mail, mail forwarding, PO Box)
 image: assets/optimized/usps-package-intercept-how-it-works.png
