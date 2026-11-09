@@ -1,38 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1782" viewBox="0 0 800 1782" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>What TSA's pages say about shoes and laptops at the checkpoint: standard lane, CT lane and PreCheck lane, the July 2025 shoes release and page dates.</title>
-<rect width="800" height="1782" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2398" viewBox="0 0 800 2398" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What TSA's pages say about shoes and large electronics at the checkpoint: standard screening, CT equipment, TSA PreCheck, the July 2025 shoes release, the officer's instructions and page dates.</title>
+<rect width="800" height="2398" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">TSA: shoes and laptops</text>
-<text x="40" y="120" font-size="32" fill="#374151">What TSA's pages say, lane by lane</text>
+<text x="40" y="120" font-size="32" fill="#374151">What TSA's pages say</text>
 <rect x="40" y="170" width="720" height="314" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4"/>
-<text x="70" y="224" font-size="36" font-weight="bold" fill="#111827">Standard lane</text>
+<text x="70" y="224" font-size="36" font-weight="bold" fill="#111827">Standard screening</text>
 <text x="70" y="274" font-size="29" fill="#111827">Laptops and other electronics larger</text>
 <text x="70" y="320" font-size="29" fill="#111827">than a cell phone: take them out of</text>
 <text x="70" y="366" font-size="29" fill="#111827">the bag and put them in a bin.</text>
-<text x="70" y="412" font-size="29" fill="#111827">(Travel Checklist; Laptops page)</text>
-<text x="70" y="458" font-size="29" fill="#111827">Shoes: the checklist lists no shoe step.</text>
-<rect x="40" y="510" width="720" height="314" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
-<text x="70" y="564" font-size="36" font-weight="bold" fill="#111827">CT lane</text>
-<text x="70" y="614" font-size="29" fill="#111827">Laptops and other electronics may</text>
-<text x="70" y="660" font-size="29" fill="#111827">stay in the bag. 3-1-1 liquids need</text>
-<text x="70" y="706" font-size="29" fill="#111827">not be removed. Every carry-on goes</text>
-<text x="70" y="752" font-size="29" fill="#111827">in a bin. (CT page; July 13, 2026</text>
-<text x="70" y="798" font-size="29" fill="#111827">Juneau release, a local release)</text>
-<rect x="40" y="850" width="720" height="222" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
-<text x="70" y="904" font-size="36" font-weight="bold" fill="#111827">PreCheck lane</text>
-<text x="70" y="954" font-size="29" fill="#111827">Laptops page: PreCheck travelers do</text>
-<text x="70" y="1000" font-size="29" fill="#111827">not need to remove shoes, laptops,</text>
-<text x="70" y="1046" font-size="29" fill="#111827">3-1-1 liquids, belts or light jackets.</text>
-<rect x="40" y="1098" width="720" height="314" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1152" font-size="36" font-weight="bold" fill="#111827">Shoes: two TSA wordings</text>
-<text x="70" y="1202" font-size="29" fill="#111827">July 8, 2025 release: passengers at</text>
-<text x="70" y="1248" font-size="29" fill="#111827">domestic airports can keep their shoes</text>
-<text x="70" y="1294" font-size="29" fill="#111827">on. Laptops and Steel Toe Boots pages</text>
-<text x="70" y="1340" font-size="29" fill="#111827">name shoes only for PreCheck. TSA does</text>
-<text x="70" y="1386" font-size="29" fill="#111827">not say how the two fit together.</text>
-<rect x="40" y="1438" width="720" height="222" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1492" font-size="36" font-weight="bold" fill="#111827">Page dates</text>
-<text x="70" y="1542" font-size="29" fill="#111827">Release: July 8, 2025. Laptops page:</text>
-<text x="70" y="1588" font-size="29" fill="#111827">July 15, 2026. Tablets page: July 21,</text>
-<text x="70" y="1634" font-size="29" fill="#111827">2026. Checklist and CT page: no date.</text>
-<text x="40" y="1738" font-size="25" fill="#374151">Sources: eight TSA pages; read Nov. 9, 2026</text>
+<text x="70" y="412" font-size="29" fill="#111827">(Travel Checklist; Security Screening</text>
+<text x="70" y="458" font-size="29" fill="#111827">page.) The checklist lists no shoe step.</text>
+<rect x="40" y="510" width="720" height="406" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="564" font-size="36" font-weight="bold" fill="#111827">Where CT equipment is used</text>
+<text x="70" y="614" font-size="29" fill="#111827">CT page: under current procedures,</text>
+<text x="70" y="660" font-size="29" fill="#111827">laptops may stay in the bag.</text>
+<text x="70" y="706" font-size="29" fill="#111827">Juneau release (local, July 13, 2026):</text>
+<text x="70" y="752" font-size="29" fill="#111827">at Juneau's new CT scanners, laptops</text>
+<text x="70" y="798" font-size="29" fill="#111827">and other electronics may stay in the</text>
+<text x="70" y="844" font-size="29" fill="#111827">bag, 3-1-1 liquids need not come out,</text>
+<text x="70" y="890" font-size="29" fill="#111827">and all carry-on items go in a bin.</text>
+<rect x="40" y="942" width="720" height="360" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="996" font-size="36" font-weight="bold" fill="#111827">TSA PreCheck</text>
+<text x="70" y="1046" font-size="29" fill="#111827">Laptops page: PreCheck travelers do not</text>
+<text x="70" y="1092" font-size="29" fill="#111827">need to remove shoes, laptops, 3-1-1</text>
+<text x="70" y="1138" font-size="29" fill="#111827">liquids, belts or light jackets. Two other</text>
+<text x="70" y="1184" font-size="29" fill="#111827">pages say the same about shoes. These</text>
+<text x="70" y="1230" font-size="29" fill="#111827">describe PreCheck; they are not a stated</text>
+<text x="70" y="1276" font-size="29" fill="#111827">shoe rule for other passengers.</text>
+<rect x="40" y="1328" width="720" height="314" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1382" font-size="36" font-weight="bold" fill="#111827">Shoes: July 2025 release</text>
+<text x="70" y="1432" font-size="29" fill="#111827">Passengers at domestic airports can keep</text>
+<text x="70" y="1478" font-size="29" fill="#111827">their shoes on; other security layers</text>
+<text x="70" y="1524" font-size="29" fill="#111827">still apply. The PreCheck pages above do</text>
+<text x="70" y="1570" font-size="29" fill="#111827">not mention the release, and TSA does not</text>
+<text x="70" y="1616" font-size="29" fill="#111827">say how the two fit together.</text>
+<rect x="40" y="1668" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1722" font-size="36" font-weight="bold" fill="#111827">On the day</text>
+<text x="70" y="1772" font-size="29" fill="#111827">Security Screening page: listen to the</text>
+<text x="70" y="1818" font-size="29" fill="#111827">instructions of the TSA officer. The pages</text>
+<text x="70" y="1864" font-size="29" fill="#111827">do not say how CT equipment and PreCheck</text>
+<text x="70" y="1910" font-size="29" fill="#111827">combine at a checkpoint.</text>
+<rect x="40" y="1962" width="720" height="314" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="2016" font-size="36" font-weight="bold" fill="#111827">Page dates</text>
+<text x="70" y="2066" font-size="29" fill="#111827">Release: July 8, 2025. Laptops page:</text>
+<text x="70" y="2112" font-size="29" fill="#111827">July 15, 2026. Tablets page: July 21, 2026.</text>
+<text x="70" y="2158" font-size="29" fill="#111827">Steel Toe Boots page: May 26, 2022.</text>
+<text x="70" y="2204" font-size="29" fill="#111827">Checklist, CT and Security Screening</text>
+<text x="70" y="2250" font-size="29" fill="#111827">pages: no date.</text>
+<text x="40" y="2354" font-size="25" fill="#374151">Sources: eight TSA pages; read Nov. 9, 2026</text>
 </svg>

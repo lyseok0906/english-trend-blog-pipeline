@@ -54,3 +54,23 @@ URL https://www.tsa.gov/travel/security-screening (no update date). Verbatim: "T
 - S1 (all passengers at domestic airports may keep shoes on) against S2 and S3 (shoes named only for PreCheck travelers). The pages do not say how the two fit together.
 - S4 names tablets among the devices to remove; S5 has no removal instruction.
 - S7 is a local release about one airport; S6 has no date and no airport list.
+
+## Gate 2 FIX round 1 (2026-11-09, after `5010b89`) — additions
+
+Pages reopened 2026-11-09 and the added sentences tested by script after normalization: Security Screening page 10 of 10, CT page 3 of 3, Juneau release 3 of 3 (all pass).
+
+**S8 additions (Security Screening page, no update date):** "Carry-on Baggage Screening in Standard Lanes": "You will be asked to remove personal electronic devices larger than a cell phone from your carry-on bag and place them into a bin with nothing placed on or under them for X-ray screening." Examples: laptops, tablets, e-readers and handheld game consoles; "This does not include items such as hair dryers, electric shavers or electric toothbrushes." In the Food paragraph: "Listen to the instructions of the TSA officer." and "A TSA officer will be available to guide you through the process." Packing paragraph: "TSA officers may instruct travelers to separate other items from carry-on bags such as foods, powders, and any materials that can clutter bags and obstruct clear images on the X-ray machine." "Standard and TSA PreCheck Screening": "As you know, standard screening requires that you remove all items and place them on the X-ray belt for screening. With TSA PreCheck, you are able to speed through security and don't need to remove your shoes, laptops, liquids, belts and light jackets." "TSA uses unpredictable security measures throughout the airport and no individual is guaranteed expedited screening." Absence: no "last updated" date.
+
+**S6 additions (CT page):** "If a bag requires further screening, TSA officers will inspect it to ensure there are no prohibited items inside." Absence tested in the main text: no "PreCheck", no "bin", no "shoe", no airport names, no update date.
+
+**S7 additions (Juneau release):** "TSA has installed two new state-of-the-art computed tomography (CT) checkpoint X-ray machines ... passengers ticketed to fly out of Juneau International Airport." Scope: Juneau only. The bin sentence ("With the new CT scanners, all carry-on items, including roller-bags, need to be placed into a bin for screening ...") and the "3-1-1 liquids" sentence ("passengers screened in security lanes with CT units") are in this local release; absence tested: the release's main text has no "PreCheck" and no "shoe".
+
+| ID | Added or changed statement | Source |
+|---|---|---|
+| T11 | Security Screening page: standard-lane electronics sentence and examples; hair dryers, electric shavers and electric toothbrushes excluded | S8 |
+| T12 | Security Screening page: with PreCheck you do not need to remove shoes, laptops, liquids, belts and light jackets; no individual is guaranteed expedited screening | S8 |
+| T13 | Security Screening page: standard screening requires removing all items and placing them on the X-ray belt (shoes not named) | S8 |
+| T14 | Security Screening page: listen to the instructions of the TSA officer (food paragraph); an officer will be available to guide you; officers may instruct travelers to separate other items | S8 |
+| T15 | CT page: if a bag requires further screening, officers inspect it; no bin instruction; no PreCheck mention | S6 |
+| T16 | Juneau release is about two new CT machines at one airport; the bin sentence, the liquids sentence and the carry-on recommendation are statements about those machines | S7 |
+| T17 | The pages read do not say how CT equipment and PreCheck combine at a checkpoint (absence tested on S6 and S7) | S6; S7 |

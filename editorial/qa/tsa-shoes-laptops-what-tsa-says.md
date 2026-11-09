@@ -55,3 +55,29 @@ Title 52 characters; slug `tsa-shoes-laptops-what-tsa-says`; meta description 15
 - **P2 (CT scope):** the CT page has no date and no airport list; the Juneau release is local. The article attributes both and says which lane a traveler meets is not stated.
 - **P3 (demand):** only Google Trends relative indexes were measured; search volume was not checked (`docs/next-candidates-2026-11-09.md`).
 - **P4 (re-check):** rule-type post; re-read all eight TSA pages right before approval and before publishing, and report first if the shoes wording or the CT wording changed.
+
+## Gate 2 FIX round 1 (base `5010b89`, applied 2026-11-09) — changed parts only
+
+**Gate 2 requests:** (1) do not write standard screening and CT equipment as mutually exclusive lanes, and tell travelers to follow on-site instructions, in body, table, diagram and alt; (2) the PreCheck shoe wording must not read as an opposite rule for other passengers; (3) state the scope of the bin instruction (Juneau local release).
+
+**What changed:** title now "TSA Shoes Off and Laptops Out: What TSA Says" (44 characters; "by Lane" removed); meta description 150 characters; lead and scope rewritten; table renamed "situation by situation" with a sentence that CT is equipment and PreCheck is a program and that the pages do not say how they combine; new section "On the day: the officer's instructions"; PreCheck shoe sentences rewritten (three pages, described as PreCheck wording, not a shoe rule for other passengers, with TSA's "no individual is guaranteed expedited screening"); Security Screening page's "standard screening requires that you remove all items" shown and stated not to name shoes; CT section retitled "Where CT equipment is used", with the Juneau bin, liquids, tunnel and checking-large-bags statements scoped to the two new Juneau machines; "What the pages do not say" rewritten. Diagram rebuilt (six cards: Standard screening; Where CT equipment is used; TSA PreCheck; Shoes: July 2025 release; On the day; Page dates). Alt rewritten (1,454 characters, identical in front matter and body).
+
+**Method:** Security Screening page 10 of 10 phrases, CT page 3 of 3, Juneau release 3 of 3 tested after normalization on 2026-11-09 (all pass); absence tests on the main text (CT page: no PreCheck, no bin, no shoe, no airport names, no date; Juneau release: no PreCheck, no shoe; Security Screening page: no date). Details in `research/sources/tsa-shoes-laptops-what-tsa-says.md` (T11 to T17).
+
+| # | Changed claim | Source | Result |
+|---|---|---|---|
+| F1 | Security Screening page: standard-lane electronics sentence, examples, exclusions (hair dryers, electric shavers, electric toothbrushes) | S8 | pass |
+| F2 | Security Screening page: with PreCheck you do not need to remove shoes, laptops, liquids, belts and light jackets; no individual is guaranteed expedited screening | S8 | pass |
+| F3 | Security Screening page: standard screening requires removing all items and placing them on the X-ray belt; the sentence does not name shoes | S8 | pass |
+| F4 | Three pages (Laptops, Steel Toe Boots, Security Screening) describe PreCheck; none states a shoe requirement for other passengers; none mentions the July 2025 release (absence tested on the three PreCheck sentences and the release) | S2; S3; S8; S1 | pass |
+| F5 | Security Screening page: "Listen to the instructions of the TSA officer" is in the food paragraph; an officer will be available to guide you; officers may instruct travelers to separate other items; procedures change from time to time. The article states where the sentence sits and labels the advice to follow the officer's instructions as the article's own | S8 | pass |
+| F6 | CT page: further-screening sentence; current procedures let laptops remain in the bag; no bin instruction; no date | S6 | pass (absence tested) |
+| F7 | Juneau release: two new CT machines at one airport; laptops and other electronics may stay in carry-ons; 3-1-1 liquids need not be removed in lanes with CT units; all carry-on items including roller bags go in a bin; smaller tunnel; TSA recommends checking large carry-ons. The article scopes these to the Juneau machines and says the pages do not say whether other airports' CT units work the same way | S7 | pass |
+| F8 | The pages do not list which airports, lanes or checkpoints have CT units and do not say how CT equipment and PreCheck work together | S6; S7 | pass (absence tested) |
+| F9 | Table: three rows (standard screening, CT equipment, PreCheck) match F1 to F8 and C1 to C12; the CT row attributes the laptop statement to the CT page and the liquids statement to the Juneau release | S1-S8 | pass |
+
+Earlier claim rows C1 to C16 other than those above are unchanged. Row C16's table description and the image checks I1 to I7 are superseded by F9 and the image checks below.
+
+**Image check (round 1):** cards match the body: Standard screening (F1, C8), Where CT equipment is used (F6, F7, T17 scope "Juneau's new CT scanners"), TSA PreCheck (F2, F4), Shoes July 2025 release (C1, C2, F4), On the day (F5, F8), Page dates (C4, C5, C9, C10, F2, F5; Steel Toe Boots May 26, 2022 added). Files in the repository: `assets/optimized/tsa-shoes-laptops-what-tsa-says.png` 1200 x 3597, 649,911 bytes, sha256 98460e2bae2a73d540101eef043a25748facd9698e8bf888d8d236fddcbc91b0 (equal to the render); `assets/raw/tsa-shoes-laptops-what-tsa-says.svg` 5,023 bytes. Render check printed an empty list (no text past the right margin). Alt equals body alt (1,454 characters).
+
+**Open points after the FIX:** P1 now reads: the July 2025 release against PreCheck wording on three pages (shown, not resolved, wording stated as PreCheck description). P2: CT page undated and Juneau release local (stated). P3 and P4 unchanged. The article's advice to follow the officer's instructions is the writer's, marked as such; Gate 2 may judge it.

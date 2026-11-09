@@ -43,3 +43,30 @@ URL https://pe.usps.com/text/dmm300/Notice123.htm (the FAQ names it for Pickup o
 ## Differences shown in the article (not resolved)
 
 - S1 gives the Package Pickup cutoff as "2:00 AM Central Time" in the how-it-works part and "before 2:00 am" (no zone) in the modify and cancel note.
+
+## Gate 2 FIX round 1 (2026-11-09, after `5010b89`) — additions
+
+Domestic Mail Manual sections opened 2026-11-09 and tested by script after normalization: DMM 116 3 of 3, DMM 126 3 of 3, DMM 136 3 of 3, DMM 601 5 of 5 (all pass). FAQ re-read: the "10 oz or less or 1/2-inch or less" sentence, the "provided the item weighs 10 oz or less and 1/2-inch in thickness or less" list item, and "This includes items that contain anything fragile without proper packaging or liquid items." are all present as quoted.
+
+## S5 — DMM 116 Deposit, 1.0 Priority Mail Express Deposit (primary, official)
+
+URL https://pe.usps.com/text/dmm300/116.htm . No date shown. Verbatim: "Items bearing only postage stamps as postage payment and that weigh more than 10 ounces, or measure more than one half-inch in thickness, may not be deposited into a Priority Mail Express collection box, picked up during the normal delivery and collection of mail, or through Pickup on Demand service. The sender must present such items to an employee at a Post Office location. Improperly presented items will be returned to the sender ..."
+
+## S6 — DMM 126 Deposit, 1.2 (Priority Mail) (primary, official)
+
+URL https://pe.usps.com/text/dmm300/126.htm . No date shown. Verbatim: "Priority Mail pieces bearing only postage stamps as postage payment and that weigh more than 10 ounces or measure more than one half-inch in thickness may not be deposited into a collection box, Postal Service lobby drop, Postal Service dock, customer mailbox, or other unattended location. These mailpieces are also precluded from pickup service. The sender must present such items to an employee at a retail service counter in a Postal Service facility ..."
+
+## S7 — DMM 136 Deposit, 1.0 (First-Class Mail and USPS Ground Advantage, retail) (primary, official)
+
+URL https://pe.usps.com/text/dmm300/136.htm . No date shown. Verbatim: "Items bearing only postage stamps as postage payment and that weigh more than 10 ounces, or measure more than one half-inch in thickness, may not be deposited into any collection box, picked up during the normal delivery and collection of mail, or through Pickup on Demand service. The sender must present such items to an employee at a Post Office location. Improperly presented items will be returned to the sender for proper deposit." Also seen (not used in the article): DMM 176 1.2 states the same for Media Mail and Library Mail pieces ("may not receive pickup service"); not used because the article does not say whether Media Mail can be picked up.
+
+## S8 — DMM 601 Mailability (primary, official)
+
+URL https://pe.usps.com/text/dmm300/601.htm . Date marks in the text: 7-12-26 and, on 3.4, [4-6-26]. Verbatim (selected): 3.1.1 "Mailers must package mailpieces to withstand normal transit and handling without breakage or deterioration of content ..."; "Cushion (see 3.9) fragile items to withstand handling in processing, transportation, and delivery." 3.4 Liquids: "Mailers must mark the outer container of a mailpiece containing liquid to indicate the nature of the contents (i.e. liquid), and include orientation arrows ..."; "Use screw-on caps with a minimum of one and one-half turns, soldering, clips, or similar means to close primary containers containing liquids." 3.6 "Mailpieces containing perishable, hazardous (including infectious substances), biological, or restricted materials are subject to the standards in PUB 52."
+
+| ID | Added or changed statement | Source |
+|---|---|---|
+| P17 | Items bearing only postage stamps as postage payment, over 10 ounces or over one half-inch thick: may not be picked up in normal delivery and collection or through Pickup on Demand; sender presents at a Post Office (PME 116 1.0; Priority Mail 126 1.2; retail First-Class Mail and USPS Ground Advantage 136 1.0); improperly presented items returned (116, 136); 126 says precluded from pickup service | S5; S6; S7 |
+| P18 | FAQ wording differs inside itself: "10 oz or less or 1/2-inch or less" in one sentence, "and" in the prepay list; DMM wording is "more than 10 ounces, or more than one half-inch" | S1; S5-S7 |
+| P19 | FAQ: hazardous materials must meet DMM or IMM standards; next sentence "This includes items that contain anything fragile without proper packaging or liquid items"; the FAQ does not define hazardous materials | S1 |
+| P20 | DMM 601: package to withstand transit; cushion fragile items (3.1.1); liquids marked and closed (3.4); hazardous, perishable, restricted subject to PUB 52 (3.6); these are general mailing standards, not a statement about what a carrier refuses at pickup | S8 |

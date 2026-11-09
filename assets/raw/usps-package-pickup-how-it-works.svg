@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1570" viewBox="0 0 800 1570" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>What USPS says about Package Pickup and Pickup on Demand: cost, timing, cutoff, limits, postage and what happens after scheduling.</title>
-<rect width="800" height="1570" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2002" viewBox="0 0 800 2002" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What USPS says about Package Pickup and Pickup on Demand: cost, timing, cutoff, limits, postage, the DMM stamp rule and what happens after scheduling.</title>
+<rect width="800" height="2002" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS Package Pickup</text>
 <text x="40" y="120" font-size="32" fill="#374151">What USPS's pages say</text>
 <rect x="40" y="170" width="720" height="314" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
@@ -16,19 +16,28 @@
 <text x="70" y="660" font-size="29" fill="#111827">A two-hour window you choose.</text>
 <text x="70" y="706" font-size="29" fill="#111827">Schedule, edit or cancel until 5:00 AM</text>
 <text x="70" y="752" font-size="29" fill="#111827">local time on the day (Mon to Sat).</text>
-<rect x="40" y="804" width="720" height="314" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<rect x="40" y="804" width="720" height="406" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
 <text x="70" y="858" font-size="36" font-weight="bold" fill="#111827">Limits</text>
 <text x="70" y="908" font-size="29" fill="#111827">Each item: up to 70 pounds and 130</text>
 <text x="70" y="954" font-size="29" fill="#111827">inches in length and girth. Postage</text>
-<text x="70" y="1000" font-size="29" fill="#111827">prepaid before pickup. Stamps only on</text>
-<text x="70" y="1046" font-size="29" fill="#111827">items of 10 oz or less and 1/2 inch or</text>
-<text x="70" y="1092" font-size="29" fill="#111827">less thick. Not all addresses eligible.</text>
-<rect x="40" y="1144" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1198" font-size="36" font-weight="bold" fill="#111827">After you schedule</text>
-<text x="70" y="1248" font-size="29" fill="#111827">Up to 6 months ahead. Leave the package</text>
-<text x="70" y="1294" font-size="29" fill="#111827">where you chose; you need not be there.</text>
-<text x="70" y="1340" font-size="29" fill="#111827">Snow, ice, blocked paths or dogs may</text>
-<text x="70" y="1386" font-size="29" fill="#111827">prevent a pickup.</text>
-<text x="40" y="1490" font-size="25" fill="#374151">Sources: USPS FAQ, USPS.com, Schedule a Pickup;</text>
-<text x="40" y="1526" font-size="25" fill="#374151">no update dates; read Nov. 9, 2026</text>
+<text x="70" y="1000" font-size="29" fill="#111827">prepaid before pickup. Not all addresses</text>
+<text x="70" y="1046" font-size="29" fill="#111827">are eligible. If stamps are the only</text>
+<text x="70" y="1092" font-size="29" fill="#111827">postage and the item is over 10 oz or</text>
+<text x="70" y="1138" font-size="29" fill="#111827">over 1/2 inch thick, it may not be picked</text>
+<text x="70" y="1184" font-size="29" fill="#111827">up: take it to a Post Office (DMM).</text>
+<rect x="40" y="1236" width="720" height="314" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1290" font-size="36" font-weight="bold" fill="#111827">Hazardous, fragile, liquid</text>
+<text x="70" y="1340" font-size="29" fill="#111827">FAQ: hazardous materials must meet DMM</text>
+<text x="70" y="1386" font-size="29" fill="#111827">or IMM standards. The FAQ does not say</text>
+<text x="70" y="1432" font-size="29" fill="#111827">if fragile or liquid items count as</text>
+<text x="70" y="1478" font-size="29" fill="#111827">hazardous; DMM 601 has separate</text>
+<text x="70" y="1524" font-size="29" fill="#111827">packaging rules for each.</text>
+<rect x="40" y="1576" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1630" font-size="36" font-weight="bold" fill="#111827">After you schedule</text>
+<text x="70" y="1680" font-size="29" fill="#111827">Up to 6 months ahead. Leave the package</text>
+<text x="70" y="1726" font-size="29" fill="#111827">where you chose; you need not be there.</text>
+<text x="70" y="1772" font-size="29" fill="#111827">Snow, ice, blocked paths or dogs may</text>
+<text x="70" y="1818" font-size="29" fill="#111827">prevent a pickup.</text>
+<text x="40" y="1922" font-size="25" fill="#374151">Sources: USPS FAQ, USPS.com (no update dates);</text>
+<text x="40" y="1958" font-size="25" fill="#374151">DMM 116, 126, 136, 601; read Nov. 9, 2026</text>
 </svg>
