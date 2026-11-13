@@ -31,7 +31,7 @@ Own diagram: cards for the Lower 48, AK/HI/PR/territories, international, milita
 ## Risks
 
 - Dates are time-bound: re-read right before publishing and on each later republish.
-- The USPS.com page footnote 5 (as of Aug. 1, 2023 no refund requests for guaranteed service; loss refunds still processed) and the FAQ footnote 5 ("Excluding Puerto Rico, USPS does not process refund requests...") differ: shown, not resolved. The FAQ adds a Priority Mail Express 1-Day note for Dec. 22 to 25 that the USPS.com page lacks.
+- Priority Mail Express guarantee notes are table-specific: the USPS.com footnote 5 and the FAQ footnote 5 are both on the Alaska, Hawaii, Puerto Rico and territories table and differ in wording ("as of Aug. 1, 2023" against "Excluding Puerto Rico"); the FAQ's 1-Day Dec. 22 to 25 note is on its Lower 48 row and at the top of the page, and USPS.com lacks it. Shown with the table named, not resolved (corrected after Gate 2).
 - The military table headings label ZIP 340 and 962-966 as "AE" like the others; the article repeats the ZIP prefixes without the label.
 - The Ground Advantage military date (Nov. 4) is already past on 2026-11-13: stated in the article.
 

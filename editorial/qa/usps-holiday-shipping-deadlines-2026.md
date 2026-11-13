@@ -29,14 +29,14 @@ After drafting, the three sources were opened again in the built-in browser (202
 | C11 | The Nov. 4 date has passed as of 2026-11-13 | date arithmetic | pass |
 | C12 | The release recommends the holiday shipping page for the full military and international list beginning mid-October | S2 | pass |
 | C13 | Delivery date may vary with origin, destination, Post Office acceptance time (FAQ: acceptance date and time) and other conditions; release: plan to mail early to ensure arrival by Dec. 25 | S1; S3; S2 | pass |
-| C14 | Refund wording difference: S1 (as of Aug. 1, 2023, no refund requests for guaranteed service; loss refunds processed) against S3 (excluding Puerto Rico, no refund requests; loss refunds processed); S3's Priority Mail Express 1-Day note for Dec. 22 to 25; the article does not reconcile | S1; S3 | pass |
+| C14 | Priority Mail Express guarantee notes, each scoped to its table (corrected after Gate 2): S1 footnote 5 sits on the Priority Mail Express column of the Alaska, Hawaii, Puerto Rico and territories table (as of Aug. 1, 2023, no refund requests for guaranteed service; loss refunds processed); S1 Lower 48 table has no such footnote; S3 footnote 5 sits on the same table's Priority Mail Express row ("Excluding Puerto Rico..."); S3 footnote 2 on the Lower 48 Priority Mail Express row, repeated at the top of the page, is the 1-Day Dec. 22 to 25 note, which S1 lacks; the article does not reconcile | S1; S3 | pass (DOM checked) |
 | C15 | Hanukkah (Dec. 4 to Dec. 12) is earlier this year; no send-by dates specific to Hanukkah or Kwanzaa | S1; S3 | pass |
 | C16 | The page points to free shipping supplies, printing labels and a free package pickup | S1 | pass |
 | C17 | None of the pages gives a time of day for acceptance or Post Office hours; USPS.com shows no update date; release Sept. 22, 2026; FAQ Oct. 14, 2026 | S1; S2; S3 | pass |
 
 ## Image checks
 
-Diagram `assets/optimized/usps-holiday-shipping-deadlines-2026.png` (1200 x 2796, sha256 prefix e776f16242409379) and `assets/raw/usps-holiday-shipping-deadlines-2026.svg` (sha256 prefix 74da7ac525a1b0bb). Render check printed `[]`. Opened the PNG top and bottom and read every card. Card text matches C1 to C13 and C17. The file transfer tool had added C2PA provenance metadata (caBX chunk, metadata block, namespace); removed on the device and the hashes equal the files built here. Alt text in the front matter equals the alt in the body (script check).
+Diagram `assets/optimized/usps-holiday-shipping-deadlines-2026.png` (1200 x 2796, sha256 prefix e776f16242409379; unchanged) and `assets/raw/usps-holiday-shipping-deadlines-2026.svg` (sha256 prefix 74da7ac525a1b0bb). Render check printed `[]`. Opened the PNG top and bottom and read every card. Card text matches C1 to C13 and C17. The file transfer tool had added C2PA provenance metadata (caBX chunk, metadata block, namespace); removed on the device and the hashes equal the files built here. Alt text in the front matter equals the alt in the body (script check).
 
 ## Format
 
@@ -48,3 +48,9 @@ Meta description 149 characters; title 65 characters; focus keyword `usps holida
 - The refund-wording difference between the USPS.com page and the FAQ is shown, not resolved.
 - The military table labels ZIP 340 and 962-966 as "AE" on USPS.com; the article repeats the ZIP prefixes without the label.
 - Search volume was not checked; Trends relative indexes only. The 12-month average is low; the article is chosen on seasonality (see the candidates file).
+
+## Gate 2 FIX on `cd35086` — applied 2026-11-13 (changed parts only)
+
+**Finding:** the Priority Mail Express refund footnote is attached on the USPS.com page to the table for Alaska, Hawaii, Puerto Rico and U.S. territories, but the draft read as a general condition.
+**Scope check (2026-11-13, page markup, superscripts read in each table):** USPS.com: footnote 5 is on "Priority Mail Express Service" in the Alaska, Hawaii, Puerto Rico and territories table only; the Lower 48 table has no footnote on that row; the number 5 is also used on the military table for the PMEMS availability note (a different note). The USPS.com page has no "1-Day", "December 22" or "Excluding Puerto Rico" text (absence test); its refund sentence matches. FAQ: footnote 5 ("Excluding Puerto Rico...") is on "Priority Mail Express Service" in the Alaska, Hawaii, Puerto Rico and territories table; footnote 2 on "Priority Mail Express Service" in the Lower 48 table is the 1-Day Dec. 22 to 25 note, and the same note is repeated at the top of the page (two occurrences); footnote 2 on the military table's PMEMS is the availability note.
+**Change:** the paragraph in "What "recommended" means" now says which table each note is attached to, quotes the FAQ's "Excluding Puerto Rico" sentence in full, says the Lower 48 USPS.com table has no such footnote and that the 1-Day note is on the FAQ's Lower 48 row and top of page and absent from USPS.com, and says the article does not reconcile the pages and does not apply any note outside its table. The scope was clear enough to keep the explanation. Title, tables, diagram, alt and other sections are unchanged (diagram and alt do not mention refunds).

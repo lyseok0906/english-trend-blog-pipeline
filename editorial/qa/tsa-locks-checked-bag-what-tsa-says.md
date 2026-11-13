@@ -23,7 +23,7 @@ After drafting, the three pages were fetched again in the built-in browser (2026
 | C5 | Recognized locks: TSA developed locks with several companies that officers can open with universal "master" keys so locks may not have to be cut; available at most airports and many travel stores nationwide; packaging indicates whether TSA can open them | S2 | pass |
 | C6 | Security Screening names Safe Skies Luggage Locks and Travel Sentry; locks commercially available; packaging "should indicate they may be opened by TSA officers" | S1 | pass |
 | C7 | Other lock: if TSA cannot open it through other means, the lock may have to be cut | S2 | pass |
-| C8 | Soft-sided baggage: cutting will not damage zippers or zipper pulls | S2 | pass |
+| C8 | Body only (removed from the diagram and alt after Gate 2): Travel Tips says "for soft-sided baggage, this process will not damage your zippers or zipper pulls"; the article attributes it to TSA, notes that the page says nothing about hard-sided baggage or how a lock is cut, and places the liability sentence beside it | S2 | pass (absence of hard-sided tested) |
 | C9 | TSA is careful not to damage belongings but is "not liable for damage caused to locked bags that must be opened for security purposes" | S2 | pass |
 | C10 | TSA has no position on the validity or effectiveness of the locks as a security measure and will be forced to remove them if necessary during inspection | S1 | pass |
 | C11 | Conveyor belts can damage locks and bags; 244 locks pulled from under a baggage-handling conveyor belt at a New York airport over one month | S2 | pass |
@@ -39,7 +39,7 @@ Article statements that are the article's own: the scope paragraph, the sentence
 
 ## Image checks
 
-Diagram `assets/optimized/tsa-locks-checked-bag-what-tsa-says.png` (1200 x 3252, sha256 prefix defcbe00b2ae7070) and `assets/raw/tsa-locks-checked-bag-what-tsa-says.svg` (sha256 prefix eae6fc6d5460169d). Render check printed `[]` (no text beyond the right-edge limit). Opened the PNG top and bottom and read every card. Card text matches C4 to C16. The file transfer tool had added C2PA provenance metadata (a caBX chunk in the PNG, a metadata block and a namespace in the SVG); it was removed on the device and the hashes now equal the files built here. Alt text in the front matter equals the alt in the body (script check).
+Diagram `assets/optimized/tsa-locks-checked-bag-what-tsa-says.png` (1200 x 3183, sha256 prefix 7f1f1ae60617ce62) and `assets/raw/tsa-locks-checked-bag-what-tsa-says.svg` (sha256 prefix d1fcbf4e48cb20b5). Render check printed `[]` (no text beyond the right-edge limit). Opened the PNG top and bottom and read every card. Card text matches C4 to C7 and C9 to C16 (the zipper line was removed after Gate 2). The file transfer tool had added C2PA provenance metadata (a caBX chunk in the PNG, a metadata block and a namespace in the SVG); it was removed on the device and the hashes now equal the files built here. Alt text in the front matter equals the alt in the body (script check).
 
 ## Format
 
@@ -50,3 +50,9 @@ Meta description 146 characters; title 57 characters; focus keyword `tsa lock` i
 - The Travel Tips section reads like an older first-person tip and shows no date; the article treats it as current TSA wording only as of 2026-11-13 and says no page shows a date.
 - The "may not have to be cut" against "will be forced to remove" tension is shown, not resolved.
 - Search volume was not checked; Trends relative indexes only (see the candidates file).
+
+## Gate 2 FIX on `cd35086` — applied 2026-11-13 (changed parts only)
+
+**Finding:** the diagram line "Soft-sided bags: zippers are not damaged" read as a guarantee that zippers are not damaged.
+**Change:** the line is removed from the diagram and from the alt (front matter and body, equal by script check). The Travel Tips sentence stays only in the body, as a quoted TSA statement ("for soft-sided baggage, this process will not damage your zippers or zipper pulls") described as TSA's own statement about cutting a lock, with the notes that the page says nothing about hard-sided baggage and does not say how a lock is cut, followed in the same paragraph by TSA's liability sentence. "What the pages do not say" now also says the pages say nothing about hard-sided bags.
+**Check against the source (2026-11-13):** the Travel Tips section was fetched again; the soft-sided sentence reads as quoted (script match); the section contains no "hard-sided", "hard shell" or "hard side" (absence test); the word "zipper" now appears only twice in the draft, both in the body paragraph (none in the diagram, alt or front matter). The "not liable" sentence was matched earlier at Gate 1 and is unchanged. Diagram rebuilt (render check `[]`, text right edge within the limit), the PNG and SVG opened and the "Other locks" card read; C2PA metadata added by the transfer tool was removed again and the hashes equal the files built here. No other claim, table, diagram card or source was changed.

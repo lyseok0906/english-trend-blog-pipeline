@@ -24,7 +24,7 @@ Same send-by dates as S1 and S2 (military and international dates identical). Di
 
 ## Differences shown, not resolved
 
-- Refund wording for guaranteed service: S1 (as of Aug. 1, 2023, no refund requests for guaranteed service on these items; loss refunds processed) against S3 (excluding Puerto Rico, no refund requests for guaranteed service on these items; loss refunds processed). S3 adds the Priority Mail Express 1-Day Dec. 22 to 25 note; S1 has no such note.
+- Refund wording for guaranteed service, with table scope (markup checked 2026-11-13): S1 footnote 5 is on the Priority Mail Express column of the Alaska, Hawaii, Puerto Rico and territories table only (as of Aug. 1, 2023, no refund requests for guaranteed service on these items; loss refunds processed); the S1 Lower 48 table has no footnote there. S3 footnote 5 is on the Priority Mail Express row of the same Alaska, Hawaii, Puerto Rico and territories table ("Excluding Puerto Rico, USPS does not process refund requests for guaranteed service on these items. Refund requests for loss will still be processed."). S3 footnote 2 is on the Priority Mail Express row of the Lower 48 table and is the 1-Day Dec. 22 to 25 note, repeated at the top of the page; S1 has no such note. (On S1 the number 5 is also used for the unrelated PMEMS availability note in the military table.)
 - "Post Office acceptance time" (S1) against "acceptance date and time" (S3).
 
 ## Absence tests (2026-11-13)
