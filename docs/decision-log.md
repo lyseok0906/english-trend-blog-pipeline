@@ -1479,3 +1479,9 @@ Passport: FIX. The lead, meta, diagram and alt are limited to "thousands of Post
 ## 2026-11-13 (KST, late night) — Gate 2 re-check on `8953bd9`: two scope fixes
 
 Tracking status: the diagram and alt now use the full status name "Held at Post Office, At Customer Request". Passport: "A child's passport is not renewable" became "A passport issued under 16 is not renewable" in the diagram and alt, and the body says USPS.com's "minor's passport" sentence gives no age and is read as covering passports issued to children under 16 only. Recorded in both QA files. The tracking post is still held for an independent FAQ check; the State Department urgent-travel threshold is still to be compared directly before publishing.
+
+## 2026-11-13 (KST, late night) — USPS tracking status published; passport post held on a source conflict
+
+Gate 2 PASS on `17a6018` for both posts; the tracking post's independent-check hold was lifted (the reviewer compared the FAQ through another official USPS address). Moved both to ready (`072721e`). Tracking status: WordPress draft (post 128, media 127), editor check (35 blocks, none invalid), phone check of two tables at 375 and 320 px (no overflow), both FAQs re-read right before publishing (73 of 73 and 22 of 22 phrases, unchanged), published 2026-11-13 05:17 UTC, live QA passed (30 posts live).
+
+Passport: per the user's condition the State Department pages were tried directly. The built-in browser was still blocked, but the pages opened in the user's Chrome after an automatic security check cleared by itself (no bypass action). They show timing rules that differ from USPS.com ("Less than 10 Weeks", 72 hours) against the State Department's 14 days, 2 to 3 weeks and 6 weeks. Not published; the user was told before publishing. Proposed: revise the article to say the pages were read, show the difference, and send it through Gate 2 again, unless the user prefers to publish as is. Search volume was never checked.

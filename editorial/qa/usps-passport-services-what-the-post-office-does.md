@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-passport-services-what-the-post-office-does.md` (draft, 2026-11-13; about 1,470 body words without the alt text; one H1, eight H2 sections; no table).
 Brief: `research/briefs/usps-passport-services-what-the-post-office-does.md`. Sources: `research/sources/usps-passport-services-what-the-post-office-does.md` (P1 USPS.com "Passports", no update date; P2 USPS FAQ 000007488, Nov 5, 2026).
-Stage: **draft, Gate 1 done 2026-11-13; Gate 2 PASS on `17a6018`** (two FIX rounds applied). **Rule-type post: re-read both pages (and try the State Department pages again) before any publish or republish.**
+Stage: **ready, held (not published)**: Gate 1 done 2026-11-13; Gate 2 PASS on `17a6018` after two FIX rounds; State Department comparison pending. **Rule-type post: re-read both pages (and try the State Department pages again) before any publish or republish.**
 
 ## Scope
 
@@ -67,3 +67,7 @@ FIX: "A child's passport is not renewable" (diagram card and alt) read as coveri
 ## Gate 2 PASS on `17a6018` (2026-11-13)
 
 The reviewer passed the changed parts. Condition kept by the user: before publishing, read the State Department pages directly; if they cannot be opened and the needed content cannot be checked, report the limit and ask about publishing first. Stage moved to ready (not published).
+
+## Pre-publication State Department check (2026-11-13): publication held
+
+The user's condition was to read the State Department pages directly before publishing. They opened in the user's Chrome (translated to Korean by the browser; details in the source notes). Findings: the in-person list on the adult page is consistent with the FAQ list, and children under 16 cannot renew; the timing rules differ from USPS.com: State Department says life-or-death travel within 14 days, urgent travel in 2 to 3 weeks with an appointment within 14 days of travel (28 days if a visa is needed), expedited service for travel within 6 weeks (acceptance facility or mail renewal), routine for 6 weeks or more; USPS.com says "Less than 10 Weeks" and 72 hours (3 business days). **Important conflict; the article was not published.** The user was informed. The article gives no thresholds, so the numbers are not wrong in it, but two sentences are now inaccurate or incomplete ("could not be read in full"; the pointer-only wording of the two State Department links) and the conflict itself is information a reader needs. Proposed change for a new Gate 2: say the State Department pages were read on Nov. 13, 2026 (with the update dates), show the timing difference between the two sources without resolving it, and keep the State Department links as the place to check. Waiting for the user's decision.
