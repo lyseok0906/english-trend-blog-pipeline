@@ -4,7 +4,7 @@ slug: tsa-locks-checked-bag-what-tsa-says
 meta_description: "TSA's pages do not forbid locking a checked bag, but a lock TSA cannot open may be cut. See what TSA recognized locks are and how TSA claims work."
 category: Airport security rules
 focus_keyword: tsa lock
-status: draft
+status: ready
 date: 2026-11-13
 internal_link_candidates: tsa-shoes-laptops-what-tsa-says (published; checkpoint and carry-on screening, linked once as the neighbouring topic)
 image: assets/optimized/tsa-locks-checked-bag-what-tsa-says.png

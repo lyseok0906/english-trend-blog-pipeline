@@ -4,7 +4,7 @@ slug: usps-holiday-shipping-deadlines-2026
 meta_description: "USPS recommends mailing by Dec. 17 (Ground Advantage, First-Class), Dec. 18 (Priority) or Dec. 19 (Express) for Dec. 25 delivery. See all 2026 dates."
 category: Postal service and stamps
 focus_keyword: usps holiday shipping deadlines
-status: draft
+status: ready
 date: 2026-11-13
 internal_link_candidates: usps-package-pickup-how-it-works (published; the USPS holiday page points to a free package pickup)
 image: assets/optimized/usps-holiday-shipping-deadlines-2026.png
