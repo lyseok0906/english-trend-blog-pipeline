@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1716" viewBox="0 0 800 1716" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1762" viewBox="0 0 800 1762" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
 <title>What USPS pages say about addressing an envelope: return address, delivery address placement, line by line format, letters and formatting tips, and packages.</title>
-<rect width="800" height="1716" fill="#ffffff"/>
+<rect width="800" height="1762" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">How to address an envelope</text>
 <text x="40" y="120" font-size="32" fill="#374151">What the USPS pages say</text>
 <rect x="40" y="170" width="720" height="222" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
@@ -13,25 +13,26 @@
 <text x="70" y="522" font-size="29" fill="#111827">In the center (FAQ, video) or bottom center</text>
 <text x="70" y="568" font-size="29" fill="#111827">(letters page). The popup says to write it</text>
 <text x="70" y="614" font-size="29" fill="#111827">parallel to the longest side.</text>
-<rect x="40" y="666" width="720" height="268" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<rect x="40" y="666" width="720" height="314" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
 <text x="70" y="720" font-size="36" font-weight="bold" fill="#111827">Line by line</text>
 <text x="70" y="770" font-size="29" fill="#111827">Name or company, street address, then city,</text>
-<text x="70" y="816" font-size="29" fill="#111827">state and ZIP+4. Apartment or suite: on the</text>
-<text x="70" y="862" font-size="29" fill="#111827">street line (FAQ, video) or its own line above</text>
-<text x="70" y="908" font-size="29" fill="#111827">the street (letters page).</text>
-<rect x="40" y="960" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1014" font-size="36" font-weight="bold" fill="#111827">Letters and formatting</text>
-<text x="70" y="1064" font-size="29" fill="#111827">FAQ and letters page: capital letters, no</text>
-<text x="70" y="1110" font-size="29" fill="#111827">commas or periods. The video: write legibly,</text>
-<text x="70" y="1156" font-size="29" fill="#111827">avoid red or smearing ink, print labels if</text>
-<text x="70" y="1202" font-size="29" fill="#111827">you can, and writing words out is encouraged.</text>
-<rect x="40" y="1254" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1308" font-size="36" font-weight="bold" fill="#111827">Packages</text>
-<text x="70" y="1358" font-size="29" fill="#111827">Address, return address and postage on the</text>
-<text x="70" y="1404" font-size="29" fill="#111827">same side, address parallel to the longest</text>
-<text x="70" y="1450" font-size="29" fill="#111827">side. A printed label can replace a separate</text>
-<text x="70" y="1496" font-size="29" fill="#111827">address label; do not bend, fold or overlap.</text>
-<text x="40" y="1600" font-size="25" fill="#374151">Sources: USPS FAQ, USPS.com pages and a USPS</text>
-<text x="40" y="1636" font-size="25" fill="#374151">video transcript; none shows an update date;</text>
-<text x="40" y="1672" font-size="25" fill="#374151">read Nov. 13, 2026</text>
+<text x="70" y="816" font-size="29" fill="#111827">state and ZIP Code (ZIP+4 if you know it).</text>
+<text x="70" y="862" font-size="29" fill="#111827">Apartment or suite: on the street line (FAQ,</text>
+<text x="70" y="908" font-size="29" fill="#111827">video) or its own line above the street</text>
+<text x="70" y="954" font-size="29" fill="#111827">(letters page).</text>
+<rect x="40" y="1006" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1060" font-size="36" font-weight="bold" fill="#111827">Letters and formatting</text>
+<text x="70" y="1110" font-size="29" fill="#111827">FAQ and letters page: capital letters, no</text>
+<text x="70" y="1156" font-size="29" fill="#111827">commas or periods. The video: write legibly,</text>
+<text x="70" y="1202" font-size="29" fill="#111827">avoid red or smearing ink, print labels if</text>
+<text x="70" y="1248" font-size="29" fill="#111827">you can, and writing words out is encouraged.</text>
+<rect x="40" y="1300" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1354" font-size="36" font-weight="bold" fill="#111827">Packages</text>
+<text x="70" y="1404" font-size="29" fill="#111827">Address, return address and postage on the</text>
+<text x="70" y="1450" font-size="29" fill="#111827">same side, address parallel to the longest</text>
+<text x="70" y="1496" font-size="29" fill="#111827">side. A printed label can replace a separate</text>
+<text x="70" y="1542" font-size="29" fill="#111827">address label; do not bend, fold or overlap.</text>
+<text x="40" y="1646" font-size="25" fill="#374151">Sources: USPS FAQ, USPS.com pages and a USPS</text>
+<text x="40" y="1682" font-size="25" fill="#374151">video transcript; none shows an update date;</text>
+<text x="40" y="1718" font-size="25" fill="#374151">read Nov. 13, 2026</text>
 </svg>

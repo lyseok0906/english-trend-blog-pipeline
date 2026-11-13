@@ -15,7 +15,7 @@ image_alt: "Diagram of what USPS pages say about a Missing Mail search. First, c
 
 **USPS says a Missing Mail search request can be filed online starting 7 days after the mailing date and up to 365 days after it.** USPS also says that submitting a search "does not guarantee a successful outcome," and that sometimes it cannot find the item.
 
-This article covers what two USPS pages say: the USPS FAQ "Missing Mail - The Basics" (Article 000007968, dated May 19, 2026) and the USPS.com page "Find Missing Mail" (no update date shown). The wording is as of November 13, 2026. The two pages overlap but are not identical, and the article shows where they differ instead of choosing one. It gives no prices. It does not cover claims and refunds in detail, the USPS Mail Recovery Center, international mail, or packages that tracking shows as delivered.
+This article covers what two USPS pages say about the search: the USPS FAQ "Missing Mail - The Basics" (Article 000007968, dated May 19, 2026) and the USPS.com page "Find Missing Mail" (no update date shown). It also points to a third page, USPS.com "File a Claim," for claims. The wording is as of November 13, 2026. The two search pages overlap but are not identical, and the article shows where they differ instead of choosing one. It gives no prices. It does not cover claims and refunds in detail, the USPS Mail Recovery Center, international mail, or packages that tracking shows as delivered.
 
 ![Diagram of what USPS pages say about a Missing Mail search. First, check tracking: both pages say to check USPS Tracking first, and the FAQ lists waits for some services (Priority Mail Express 7 or more days, Domestic Registered Mail 14 or more, Parcel Select 14 or more). File online: sign in or register at MissingMail.USPS.com; earliest 7 days after mailing, latest 365 days after mailing; drafts expire after 7 days; Customer Care cannot file it for you. Have ready: sender and recipient addresses, mailing date, tracking numbers if you have them, container type, size and color, a detailed description of the contents, and photos if available. USPS says it cannot search for hazardous material, live ammunition, opened hair or beauty products, over-the-counter or prescription drugs, perishables or food; handguns are returned only to a licensed dealer. After you submit: statuses are Accepted, Mailpiece Found, Expired, Rejected and Canceled; a search runs until it expires; USPS says a search does not guarantee a successful outcome. Sources: USPS FAQ dated May 19, 2026 and USPS.com, read Nov. 13, 2026.](assets/optimized/usps-missing-mail-search-how-it-works.png)
 
@@ -23,7 +23,7 @@ This article covers what two USPS pages say: the USPS FAQ "Missing Mail - The Ba
 
 Both pages put tracking first. USPS.com says that if the package or mail has tracking, check USPS Tracking for its current status before starting a search. The FAQ says to check USPS Tracking before taking the actions it describes. USPS.com adds a line for Informed Delivery users: a mail item may sometimes be delayed, and it points to the Informed Delivery FAQs (our [Informed Delivery article](https://statesideexplained.com/usps-informed-delivery-how-it-works/) covers that service).
 
-The FAQ defines Missing Mail as "mail that has not been delivered by the expected delivery date," which it says includes packages that are undelivered, lost or late. If it has been lost, late or missing for 7 days or more, the FAQ lists four options: submit a search request at MissingMail.USPS.com, read the article on the USPS Mail Recovery Center, file a claim (for insured items meeting the appropriate timeframe), or visit a local Post Office.
+The FAQ defines Missing Mail as "mail that has not been delivered by the expected delivery date," which it says includes packages that are undelivered, lost or late. If it has been lost, late or missing for 7 days or more, the FAQ lists four options: submit a search request at [MissingMail.USPS.com](https://missingmail.usps.com/), read the article on the USPS Mail Recovery Center, file a claim (for insured items meeting the appropriate timeframe), or visit a local Post Office.
 
 The FAQ then gives a table by service. In the table below, "wait" is the time the FAQ says to allow, and the last column is what the FAQ says comes next.
 
@@ -46,7 +46,7 @@ The FAQ lists these items: the mailer and recipient addresses; the date of maili
 
 ## How to file, and who cannot do it for you
 
-The FAQ says to go to MissingMail.USPS.com and sign in or register, complete the form and submit it. You can save a draft, but drafts expire after 7 days. The FAQ also says that Customer Care representatives are not able to submit a Missing Mail search request for you. USPS.com says USPS sends a confirmation email when it receives the request and periodic updates about the search.
+The FAQ says to go to [MissingMail.USPS.com](https://missingmail.usps.com/) (the USPS search request page) and sign in or register, complete the form and submit it. You can save a draft, but drafts expire after 7 days. The FAQ also says that Customer Care representatives are not able to submit a Missing Mail search request for you. USPS.com says USPS sends a confirmation email when it receives the request and periodic updates about the search.
 
 ## What USPS says it cannot search for
 
@@ -60,7 +60,9 @@ A single request can list several items inside one mailpiece, but separate mailp
 
 ## Claims and refunds
 
-USPS.com has two more sections under the search steps. For a service with a money-back guarantee, such as Priority Mail Express, it says you may be able to request a refund. For insured mail, it says you may be able to file an insurance claim and that USPS recommends filing "immediately," but "you must file no later than 60 days from the date of mailing." The FAQ's wording is shorter: file a claim "for insured items meeting the appropriate timeframe," with no number. The FAQ also lists "Domestic Claims - The Basics" as a related article, which this article did not read.
+USPS.com has two more sections under the search steps. For a service with a money-back guarantee, such as Priority Mail Express, it says you may be able to request a refund. For mail that included insurance, it says you may be able to file an insurance claim. It then adds a sentence that is limited to "damaged or missing contents": for those, USPS recommends filing a claim "immediately," and says "you must file no later than 60 days from the date of mailing." The page ties that 60-day sentence to damaged or missing contents, so it is not treated here as a deadline for every lost or late item. The FAQ's wording is shorter: file a claim "for insured items meeting the appropriate timeframe," with no number.
+
+For the claim rules themselves, USPS has a separate page, [File a Claim](https://www.usps.com/help/claims.htm). It separates two cases: if an item arrives damaged or is missing contents, it says you must file no later than 60 days after the mailing date; if an item does not arrive at all, it says to file in the time period for the service you used, which differs by service. This article gives no claim amounts or filing periods beyond that. The FAQ also lists "Domestic Claims - The Basics" as a related article, which this article did not read.
 
 ## What the pages do not say
 
@@ -70,3 +72,4 @@ Neither page gives how long a search stays active: the FAQ says a search expires
 
 - USPS FAQ, "Missing Mail - The Basics" (Article 000007968, May 19, 2026): https://faq.usps.com/s/article/Missing-Mail-The-Basics
 - USPS.com, "Find Missing Mail" (no update date): https://www.usps.com/help/missing-mail.htm
+- USPS.com, "File a Claim" (no update date; only the two filing cases described above are used): https://www.usps.com/help/claims.htm

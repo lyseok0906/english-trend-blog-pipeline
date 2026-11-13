@@ -32,7 +32,7 @@ Own diagram: cards for tracking first, file online, have ready, items USPS says 
 
 - The FAQ's table gives 14 days for Registered Mail and Parcel Select while the application's earliest day is 7; the FAQ does not reconcile them. Shown, not resolved (Gate 1 absence-tested: the FAQ has no sentence linking the two).
 - The FAQ lists handguns among items USPS "cannot search for or return" but adds "will only be returned to a licensed dealer on your behalf." Shown with both wordings.
-- USPS.com says claims must be filed within 60 days of mailing; the FAQ says "meeting the appropriate timeframe" with no number. Shown, not resolved; no claim advice.
+- USPS.com's 60-day sentence is limited to damaged or missing contents of insured mail (the page says "For damaged or missing contents"); the FAQ says "meeting the appropriate timeframe" with no number. The article scopes the 60 days exactly, does not apply it to every lost item, and points to the USPS "File a Claim" page for the rules (added after Gate 2 FIX). No claim advice.
 - No update date on USPS.com; the FAQ date (May 19, 2026) is the only date.
 - Wording that reads as a guarantee: USPS says a search "does not guarantee a successful outcome"; the article and diagram say so and promise nothing.
 

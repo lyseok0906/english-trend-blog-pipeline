@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="700" viewBox="0 0 800 700" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>A fictional example of an addressed envelope, following the USPS FAQ format: return address top left, stamp upper right, delivery address in the center.</title>
+<rect width="800" height="700" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" text-anchor="start" font-weight="bold" fill="#111827">A fictional example</text>
+<text x="40" y="120" font-size="32" text-anchor="start" fill="#374151">Format from the USPS FAQ</text>
+<rect x="40" y="150" width="720" height="370" rx="12" fill="#fffbeb" stroke="#374151" stroke-width="4"/>
+<text x="70" y="200" font-size="22" text-anchor="start" font-weight="bold" fill="#166534">RETURN ADDRESS</text>
+<text x="70" y="240" font-size="31" text-anchor="start" fill="#111827">JANE SAMPLE</text>
+<text x="70" y="280" font-size="31" text-anchor="start" fill="#111827">100 MAIN ST APT 2</text>
+<text x="70" y="320" font-size="31" text-anchor="start" fill="#111827">ANYTOWN NY 12345-6789</text>
+<rect x="620" y="175" width="110" height="130" fill="#ffffff" stroke="#92400e" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="675" y="232" font-size="24" text-anchor="middle" font-weight="bold" fill="#92400e">STAMP</text>
+<text x="675" y="264" font-size="22" text-anchor="middle" fill="#92400e">upper</text>
+<text x="675" y="290" font-size="22" text-anchor="middle" fill="#92400e">right</text>
+<rect x="250" y="330" width="450" height="165" rx="8" fill="#ffffff" stroke="#1e40af" stroke-width="3"/>
+<text x="270" y="358" font-size="22" text-anchor="start" font-weight="bold" fill="#1e40af">DELIVERY ADDRESS (CENTER)</text>
+<text x="270" y="398" font-size="31" text-anchor="start" fill="#111827">JOHN EXAMPLE</text>
+<text x="270" y="436" font-size="31" text-anchor="start" fill="#111827">250 OAK AVE</text>
+<text x="270" y="474" font-size="31" text-anchor="start" fill="#111827">OTHERTOWN CA 90001</text>
+<text x="40" y="565" font-size="23" text-anchor="start" fill="#374151">Both names and addresses are made up. The FAQ asks for</text>
+<text x="40" y="595" font-size="23" text-anchor="start" fill="#374151">capital letters, no punctuation and a two-letter state.</text>
+<text x="40" y="625" font-size="23" text-anchor="start" fill="#374151">The first ZIP shows ZIP+4; the second shows a 5-digit ZIP,</text>
+<text x="40" y="655" font-size="23" text-anchor="start" fill="#374151">which is what the FAQ says to use when ZIP+4 is not known.</text>
+</svg>

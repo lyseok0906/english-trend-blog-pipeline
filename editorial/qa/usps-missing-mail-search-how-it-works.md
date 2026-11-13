@@ -29,7 +29,7 @@ After drafting, both pages were opened again in the built-in browser (2026-11-13
 | C11 | Unsearchable list (hazardous material, live ammunition, opened hair or beauty products, over-the-counter and prescription drugs, perishables and food) and the handgun note; "not safe to forward"; the recovery restrictions page was not read | S1; S2 | pass |
 | C12 | Six statuses and their meanings; updates by email to the address under "Whom can we contact about this search?"; final email; found items rewrapped and sent to the address on the form; not found: runs until it expires | S1 | pass |
 | C13 | Several items in one mailpiece in one request; separate mailpieces separate requests; only the contents can be edited, otherwise cancel and resubmit; cancel from Search History; no further matches after cancel | S1 | pass |
-| C14 | USPS.com: refund for money-back guarantee services such as Priority Mail Express; insured mail claim, "immediately," no later than 60 days from mailing; the FAQ says "meeting the appropriate timeframe" with no number | S2; S1 | pass |
+| C14 | USPS.com: refund for money-back guarantee services such as Priority Mail Express; insured mail may be claimed; the "immediately" and 60-day sentence is limited to "damaged or missing contents" (scope corrected after Gate 2); the FAQ says "meeting the appropriate timeframe" with no number | S2; S1 | pass (after FIX) |
 | C15 | Absence statements: no retention length, no update frequency, no find rate, no fee, no sentence on who may file; the FAQ intro says "whether you are sending it or receiving it" | S1; S2 (absence tested) | pass |
 | C16 | Domestic Claims article listed as related and not read | S1 | pass |
 
@@ -46,3 +46,10 @@ One H1 in the body, H2 sections only, a single 3-column table (mobile-safe, post
 - Confirm the handling of the Registered Mail and Parcel Select 14-day rows against the 7-day application rule (shown, not resolved).
 - Confirm the claim timing paragraph reads as a source difference and not as claim advice.
 - Dated rule post: both sources are re-read right before publishing; report before publishing if the window, the table, the unsearchable list, the statuses or the claim wording changed.
+
+## Gate 2 FIX on `a2f1755` (applied 2026-11-13)
+
+1. **Scope of the 60-day claim sentence.** The reviewer read the draft as applying 60 days to all insured mail. Cause: the draft quoted the sentence without its lead-in. USPS.com's sentence begins "For damaged or missing contents" (S2 page text, tested again). Fix: the Claims and refunds section now says the sentence is limited to damaged or missing contents of insured mail, says it is not treated as a deadline for every lost or late item, and points to USPS "File a Claim" (S3, https://www.usps.com/help/claims.htm). S3 was fetched and tested 6 of 6 phrases (no update date): it separates "Damaged or Missing Contents" (no later than 60 days after the mailing date) from "Lost Mail or Package" (the time period for the service used); no table value is used. The Sources list, the scope paragraph, the brief, the backlog row and the candidates note were changed to match.
+2. **Application link.** The two body mentions of MissingMail.USPS.com are now links to https://missingmail.usps.com/, the target of "Start Your Missing Mail Search" on S2 (the link target was read from the page; a no-cors request returns an opaque response, so only the page's own href is relied on).
+3. **FAQ check.** The reviewer could not open the FAQ. It opened for Claude on 2026-11-13 and was tested 62 of 62 (the only miss is the related-articles title outside the article body), including the 7 and 365 day window, the per-service table and the unsearchable list; the verbatim lines are in the source notes (S1). Re-read the FAQ right before publishing.
+Changed parts only: the scope paragraph, the two links, the Claims and refunds section and the Sources list. The diagram and its alt do not mention claims and are unchanged.

@@ -27,13 +27,18 @@ URL https://www.usps.com/help/missing-mail.htm. No update date; an ALERT banner 
 Step 1: "if your package or mail has tracking, check USPS Tracking to see its current status"; Informed Delivery users: "There may be occasions where a mail item may be delayed in reaching its destination. For additional information, please visit Informed Delivery FAQs."
 Step 2: "Missing Mail search requests can be submitted starting 7 days from mailing." Information: sender mailing address; recipient mailing address; size and type of container or envelope; identifying information such as the USPS Tracking number(s), the mailing date from the mailing receipt or Click-N-Ship label receipt; description of the contents (brand, model, color, size); pictures.
 Next: a confirmation email and periodic updates; "If we find your package or mail, we will send it to the address you provided. Please note, sometimes we cannot find missing mail items. It is also possible that your package or mail will not be recovered because it was not safe to forward." Link: "Missing Mail Recovery Restrictions" (not read).
+Link targets on the page: "Start Your Missing Mail Search" goes to https://missingmail.usps.com/; "Filing a Claim" goes to https://www.usps.com/help/claims.htm.
 Requesting a Refund: "If you used a service with a money-back guarantee such as Priority Mail Express, you may be able to request a refund."
-File a Claim: "If your mail or package included insurance, you may be able to file an insurance claim. For damaged or missing contents, we recommend filing a claim immediately, but you must file no later than 60 days from the date of mailing."
+File a Claim: "If your mail or package included insurance, you may be able to file an insurance claim. For damaged or missing contents, we recommend filing a claim immediately, but you must file no later than 60 days from the date of mailing." The 60-day sentence begins "For damaged or missing contents" and is limited to that case (Gate 2 FIX on a2f1755).
 Absence tests: no "365", no fee or cost, no "fourteen" or "14 days", no "retention", no update date.
 
 ## Differences shown in the article (not resolved)
 
 1. FAQ table: allow 14 or more days (Registered Mail, Parcel Select) and 7 or more (Priority Mail Express); the application accepts requests from day 7 (FAQ, USPS.com).
 2. FAQ gives the 365-day latest day; USPS.com gives only the 7-day start.
-3. Claim timing: FAQ "meeting the appropriate timeframe"; USPS.com "no later than 60 days from the date of mailing."
+3. Claim timing: the FAQ says "meeting the appropriate timeframe" with no number; USPS.com gives 60 days only for damaged or missing contents. The article does not apply the 60 days to every lost item (Gate 2 FIX).
 4. The FAQ's list of items USPS "cannot search for or return" includes handguns, with a note that they are returned only to a licensed dealer.
+
+## S3 — USPS.com, "File a Claim" (primary, official; added after Gate 2 FIX on `a2f1755`, pointer only)
+
+URL https://www.usps.com/help/claims.htm (reached from the "Filing a Claim" link on S2). Fetched and tested 2026-11-13; no update date. Section "Filing Periods": "Each mail service has a different filing period. The filing period is based on the mailing date on your receipt and whether your package arrived damaged." "Damaged or Missing Contents: If your item arrives damaged or is missing contents, you may file a claim immediately but must file no later than 60 days after the mailing date." "Lost Mail or Package: If your item does not arrive at all, file a claim in the time period for the service you used." The page has a table of filing periods by service; none of its values is used. Used only for the two cases above and as the link target for claims.
