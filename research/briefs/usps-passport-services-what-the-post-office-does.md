@@ -1,6 +1,6 @@
 # Brief — usps-passport-services-what-the-post-office-does
 
-**Stage:** ready (Gate 2 PASS on `17a6018`; revised after the State Department pages were opened in a translated view; held, not published, until the changed parts pass Gate 2) (user's request of 2026-11-13 for the next candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** ready (Gate 2 PASS on `17a6018`; revised twice on 2026-11-13 after the State Department pages were read, the second time in English after Gate 2 FIX on `ad63d00`; held, not published, until the changed parts pass Gate 2) (user's request of 2026-11-13 for the next candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Working title:** USPS Passport Services: What the Post Office Does and Does Not Handle. **Focus keyword:** `usps passport`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
@@ -48,3 +48,7 @@ Scope narrowed to "thousands of Post Offices ... most of those" for applications
 ## Revision after the State Department read (2026-11-13)
 
 The State Department pages opened in the user's Chrome (translated view; English wording not verified). The article now says so, attributes every rule to USPS, shows the USPS.com and State Department urgent-travel numbers as different (State Department numbers only as displayed in the translation, none quoted or interpreted), and links the State Department's get-a-passport-faster page for urgent travel. Not published. See the QA record.
+
+## Second revision (Gate 2 FIX on `ad63d00`, 2026-11-13)
+
+The State Department's get-a-passport-faster page was read in English (Last Updated Sep. 30, 2026), together with the renew-by-mail and adult pages. The urgent-travel section now follows its four options with what each number means (time until travel; how close to the travel date an appointment is made; processing time; mailing time), says appointment slots may not be available right away and mail can add up to 2 weeks, keeps USPS.com's numbers only beside the statement that they differ, and links the State Department page to check before booking. See the QA record for who verified what.
