@@ -4,7 +4,7 @@ slug: usps-missing-mail-search-how-it-works
 meta_description: "USPS says you can file a Missing Mail search 7 to 365 days after mailing. See what to have ready, what USPS can't search for and where its pages differ."
 category: Postal service and stamps
 focus_keyword: usps missing mail
-status: draft
+status: ready
 date: 2026-11-13
 internal_link_candidates: usps-informed-delivery-how-it-works, usps-package-intercept-how-it-works, usps-certified-mail-how-it-works (all linked in the body; decide at Gate 2)
 image: assets/optimized/usps-missing-mail-search-how-it-works.png

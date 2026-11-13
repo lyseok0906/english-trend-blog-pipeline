@@ -4,7 +4,7 @@ slug: how-to-address-an-envelope-usps
 meta_description: "USPS pages agree the return address goes top left and the delivery address in the center. See the line-by-line format and where the pages differ."
 category: Postal service and stamps
 focus_keyword: how to address an envelope
-status: draft
+status: ready
 date: 2026-11-13
 internal_link_candidates: forever-stamp-how-it-works (linked in the body); usps-missing-mail-search-how-it-works (link after it is published)
 image: assets/optimized/how-to-address-an-envelope-usps.png

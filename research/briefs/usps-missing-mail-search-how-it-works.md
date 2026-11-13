@@ -1,6 +1,6 @@
 # Brief — usps-missing-mail-search-how-it-works
 
-**Stage:** brief, source notes, draft, diagram and Gate 1 done 2026-11-13 (user's request of 2026-11-13 for the next two candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** published 2026-11-13 (brief, source notes, draft, diagram and Gate 1 done 2026-11-13; Gate 2 FIX applied in `fbdf9b3`, re-check PASS) (user's request of 2026-11-13 for the next two candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Working title:** USPS Missing Mail Search: When You Can File and What You Need. **Focus keyword:** `usps missing mail`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
