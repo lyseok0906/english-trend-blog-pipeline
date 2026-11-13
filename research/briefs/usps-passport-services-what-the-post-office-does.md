@@ -1,6 +1,6 @@
 # Brief — usps-passport-services-what-the-post-office-does
 
-**Stage:** ready (Gate 2 PASS on `17a6018`; revised twice on 2026-11-13 after the State Department pages were read, the second time in English after Gate 2 FIX on `ad63d00`; held, not published, until the changed parts pass Gate 2) (user's request of 2026-11-13 for the next candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** published 2026-11-13 (post 132; Gate 2 PASS on `230c4b1`). History: ready (Gate 2 PASS on `17a6018`; revised twice on 2026-11-13 after the State Department pages were read, the second time in English after Gate 2 FIX on `ad63d00`; held, not published, until the changed parts pass Gate 2) (user's request of 2026-11-13 for the next candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Working title:** USPS Passport Services: What the Post Office Does and Does Not Handle. **Focus keyword:** `usps passport`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
