@@ -1,6 +1,6 @@
 # Brief — usps-passport-services-what-the-post-office-does
 
-**Stage:** ready (Gate 2 PASS on `17a6018`; not published until the State Department pages are read directly or the user decides) (user's request of 2026-11-13 for the next candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** ready (Gate 2 PASS on `17a6018`; revised after the State Department pages were opened in a translated view; held, not published, until the changed parts pass Gate 2) (user's request of 2026-11-13 for the next candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Working title:** USPS Passport Services: What the Post Office Does and Does Not Handle. **Focus keyword:** `usps passport`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
@@ -44,3 +44,7 @@ Re-read both pages at approval and right before publishing; report before publis
 ## Gate 2 changes (2026-11-13)
 
 Scope narrowed to "thousands of Post Offices ... most of those" for applications and photos; expedited renewal (by mail) separated from urgent travel and life-or-death cases (State Department appointments), with no time thresholds stated; two State Department pages linked as pointers (not read in full). See the QA record.
+
+## Revision after the State Department read (2026-11-13)
+
+The State Department pages opened in the user's Chrome (translated view; English wording not verified). The article now says so, attributes every rule to USPS, shows the USPS.com and State Department urgent-travel numbers as different (State Department numbers only as displayed in the translation, none quoted or interpreted), and links the State Department's get-a-passport-faster page for urgent travel. Not published. See the QA record.

@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2148" viewBox="0 0 800 2148" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2230" viewBox="0 0 800 2230" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
 <title>What USPS pages say about passport services: what a Post Office does, what it does not do, who applies in person, renewing by mail or online, appointments and what happens after you apply.</title>
-<rect width="800" height="2148" fill="#ffffff"/>
+<rect width="800" height="2230" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS passport services</text>
 <text x="40" y="120" font-size="32" fill="#374151">What the USPS pages say</text>
 <rect x="40" y="170" width="720" height="268" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
@@ -22,25 +22,27 @@
 <text x="70" y="954" font-size="29" fill="#111827">issued under 16 or over 15 years ago, or</text>
 <text x="70" y="1000" font-size="29" fill="#111827">lost, stolen or damaged; or a name change</text>
 <text x="70" y="1046" font-size="29" fill="#111827">you cannot document.</text>
-<rect x="40" y="1098" width="720" height="314" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<rect x="40" y="1098" width="720" height="360" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
 <text x="70" y="1152" font-size="36" font-weight="bold" fill="#111827">Renew by mail or online</text>
 <text x="70" y="1202" font-size="29" fill="#111827">USPS.com: if you can renew by mail or online,</text>
 <text x="70" y="1248" font-size="29" fill="#111827">you must; you cannot renew in person.</text>
 <text x="70" y="1294" font-size="29" fill="#111827">Expedited renewal service: by mail. Urgent</text>
-<text x="70" y="1340" font-size="29" fill="#111827">travel: a State Department appointment.</text>
-<text x="70" y="1386" font-size="29" fill="#111827">A passport issued under 16 is not renewable.</text>
-<rect x="40" y="1438" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1492" font-size="36" font-weight="bold" fill="#111827">Appointments</text>
-<text x="70" y="1542" font-size="29" fill="#111827">USPS.com: book online, at a lobby kiosk or a</text>
-<text x="70" y="1588" font-size="29" fill="#111827">retail counter; limited walk-in hours at select</text>
-<text x="70" y="1634" font-size="29" fill="#111827">locations. FAQ: also by phone. Renewals</text>
-<text x="70" y="1680" font-size="29" fill="#111827">cannot be booked in the scheduler.</text>
-<rect x="40" y="1732" width="720" height="222" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1786" font-size="36" font-weight="bold" fill="#111827">After you apply</text>
-<text x="70" y="1836" font-size="29" fill="#111827">Processing starts when the State Department</text>
-<text x="70" y="1882" font-size="29" fill="#111827">gets the application. It mails the passport,</text>
-<text x="70" y="1928" font-size="29" fill="#111827">sometimes apart from your documents.</text>
-<text x="40" y="2032" font-size="25" fill="#374151">Sources: USPS.com passports page (no date) and</text>
-<text x="40" y="2068" font-size="25" fill="#374151">USPS FAQ (Nov. 5, 2026); read Nov. 13, 2026.</text>
-<text x="40" y="2104" font-size="25" fill="#374151">State Department pages not read here: check them.</text>
+<text x="70" y="1340" font-size="29" fill="#111827">travel: USPS.com and the State Department</text>
+<text x="70" y="1386" font-size="29" fill="#111827">give different dates; check the State Dept.</text>
+<text x="70" y="1432" font-size="29" fill="#111827">A passport issued under 16 is not renewable.</text>
+<rect x="40" y="1484" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1538" font-size="36" font-weight="bold" fill="#111827">Appointments</text>
+<text x="70" y="1588" font-size="29" fill="#111827">USPS.com: book online, at a lobby kiosk or a</text>
+<text x="70" y="1634" font-size="29" fill="#111827">retail counter; limited walk-in hours at select</text>
+<text x="70" y="1680" font-size="29" fill="#111827">locations. FAQ: also by phone. Renewals</text>
+<text x="70" y="1726" font-size="29" fill="#111827">cannot be booked in the scheduler.</text>
+<rect x="40" y="1778" width="720" height="222" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1832" font-size="36" font-weight="bold" fill="#111827">After you apply</text>
+<text x="70" y="1882" font-size="29" fill="#111827">Processing starts when the State Department</text>
+<text x="70" y="1928" font-size="29" fill="#111827">gets the application. It mails the passport,</text>
+<text x="70" y="1974" font-size="29" fill="#111827">sometimes apart from your documents.</text>
+<text x="40" y="2078" font-size="25" fill="#374151">Sources: USPS.com passports page (no date) and</text>
+<text x="40" y="2114" font-size="25" fill="#374151">USPS FAQ (Nov. 5, 2026); read Nov. 13, 2026.</text>
+<text x="40" y="2150" font-size="25" fill="#374151">State Department pages: opened Nov. 13 in a translated</text>
+<text x="40" y="2186" font-size="25" fill="#374151">view, English not verified; check them there.</text>
 </svg>
