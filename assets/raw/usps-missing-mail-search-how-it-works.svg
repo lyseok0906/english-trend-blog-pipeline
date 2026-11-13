@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1818" viewBox="0 0 800 1818" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What USPS pages say about a Missing Mail search: check tracking first, file online starting 7 days after mailing, what to have ready, items USPS says it cannot search for, and what happens after you submit.</title>
+<rect width="800" height="1818" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS Missing Mail search</text>
+<text x="40" y="120" font-size="32" fill="#374151">What the USPS pages say</text>
+<rect x="40" y="170" width="720" height="314" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="224" font-size="36" font-weight="bold" fill="#111827">First, check tracking</text>
+<text x="70" y="274" font-size="29" fill="#111827">Both pages say to check USPS Tracking first.</text>
+<text x="70" y="320" font-size="29" fill="#111827">The FAQ then lists waits for some services:</text>
+<text x="70" y="366" font-size="29" fill="#111827">Priority Mail Express 7 or more days,</text>
+<text x="70" y="412" font-size="29" fill="#111827">Domestic Registered Mail 14 or more,</text>
+<text x="70" y="458" font-size="29" fill="#111827">Parcel Select 14 or more.</text>
+<rect x="40" y="510" width="720" height="268" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="564" font-size="36" font-weight="bold" fill="#111827">File online</text>
+<text x="70" y="614" font-size="29" fill="#111827">Sign in or register at MissingMail.USPS.com.</text>
+<text x="70" y="660" font-size="29" fill="#111827">Earliest: 7 days after mailing. Latest: 365</text>
+<text x="70" y="706" font-size="29" fill="#111827">days after mailing. Drafts expire after 7</text>
+<text x="70" y="752" font-size="29" fill="#111827">days. Customer Care cannot file it for you.</text>
+<rect x="40" y="804" width="720" height="268" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="858" font-size="36" font-weight="bold" fill="#111827">Have ready</text>
+<text x="70" y="908" font-size="29" fill="#111827">Sender and recipient addresses, mailing date,</text>
+<text x="70" y="954" font-size="29" fill="#111827">tracking numbers if you have them, container</text>
+<text x="70" y="1000" font-size="29" fill="#111827">type, size and color, a detailed description</text>
+<text x="70" y="1046" font-size="29" fill="#111827">of the contents, and photos if available.</text>
+<rect x="40" y="1098" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1152" font-size="36" font-weight="bold" fill="#111827">USPS says it cannot search for</text>
+<text x="70" y="1202" font-size="29" fill="#111827">Hazardous material, live ammunition, opened</text>
+<text x="70" y="1248" font-size="29" fill="#111827">hair or beauty products, over-the-counter or</text>
+<text x="70" y="1294" font-size="29" fill="#111827">prescription drugs, perishables or food.</text>
+<text x="70" y="1340" font-size="29" fill="#111827">Handguns: returned only to a licensed dealer.</text>
+<rect x="40" y="1392" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1446" font-size="36" font-weight="bold" fill="#111827">After you submit</text>
+<text x="70" y="1496" font-size="29" fill="#111827">Statuses: Accepted, Mailpiece Found, Expired,</text>
+<text x="70" y="1542" font-size="29" fill="#111827">Rejected, Canceled. A search runs until it</text>
+<text x="70" y="1588" font-size="29" fill="#111827">expires. USPS says a search does not</text>
+<text x="70" y="1634" font-size="29" fill="#111827">guarantee a successful outcome.</text>
+<text x="40" y="1738" font-size="25" fill="#374151">Sources: USPS FAQ (May 19, 2026) and USPS.com;</text>
+<text x="40" y="1774" font-size="25" fill="#374151">read Nov. 13, 2026</text>
+</svg>
