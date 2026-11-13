@@ -4,7 +4,7 @@ slug: usps-tracking-status-what-it-means
 meta_description: "USPS says Out for Delivery means a carrier delivers today, but tracking does not guarantee delivery. See what its statuses mean and the waits it gives."
 category: Postal service and stamps
 focus_keyword: usps tracking status
-status: draft
+status: ready
 date: 2026-11-13
 internal_link_candidates: usps-informed-delivery-how-it-works, usps-hold-mail-how-it-works, usps-missing-mail-search-how-it-works, usps-certified-mail-how-it-works, how-to-address-an-envelope-usps, usps-mail-forwarding-how-long (all linked in the body; decide at Gate 2)
 image: assets/optimized/usps-tracking-status-what-it-means.png

@@ -1,6 +1,6 @@
 # Brief — usps-tracking-status-what-it-means
 
-**Stage:** draft (Gate 1 done 2026-11-13; Gate 2 on `27cde5e` held for independent source check, two wording fixes applied; waiting for the re-check) (user's request of 2026-11-13 for the next candidates, "including USPS tracking status help"). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** ready (Gate 2 PASS on `17a6018`) (user's request of 2026-11-13 for the next candidates, "including USPS tracking status help"). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Working title:** USPS Tracking Status: What Each One Means and What USPS Says to Do. **Focus keyword:** `usps tracking status`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)

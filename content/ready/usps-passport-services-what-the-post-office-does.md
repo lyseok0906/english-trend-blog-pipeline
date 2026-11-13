@@ -4,7 +4,7 @@ slug: usps-passport-services-what-the-post-office-does
 meta_description: "USPS says thousands of Post Offices accept first-time passport applications and most take photos, but USPS does not issue passports. See what its pages say."
 category: Postal service and stamps
 focus_keyword: usps passport
-status: draft
+status: ready
 date: 2026-11-13
 internal_link_candidates: real-id-to-fly-what-tsa-accepts (linked once in the body; decide at Gate 2)
 image: assets/optimized/usps-passport-services-what-the-post-office-does.png

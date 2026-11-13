@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-passport-services-what-the-post-office-does.md` (draft, 2026-11-13; about 1,470 body words without the alt text; one H1, eight H2 sections; no table).
 Brief: `research/briefs/usps-passport-services-what-the-post-office-does.md`. Sources: `research/sources/usps-passport-services-what-the-post-office-does.md` (P1 USPS.com "Passports", no update date; P2 USPS FAQ 000007488, Nov 5, 2026).
-Stage: **draft, Gate 1 done 2026-11-13; Gate 2 on `27cde5e` was FIX, applied in this commit; waiting for the re-check**. **Rule-type post: re-read both pages (and try the State Department pages again) before any publish or republish.**
+Stage: **draft, Gate 1 done 2026-11-13; Gate 2 PASS on `17a6018`** (two FIX rounds applied). **Rule-type post: re-read both pages (and try the State Department pages again) before any publish or republish.**
 
 ## Scope
 
@@ -63,3 +63,7 @@ Image: re-rendered (render check `[]`, viewed in crops); C2PA stripped on the de
 ## Gate 2 re-check on `8953bd9` (2026-11-13)
 
 FIX: "A child's passport is not renewable" (diagram card and alt) read as covering every minor. USPS.com's wording is "A minor's passport cannot be 'renewed'. Instead, each time a minor's passport expires, you must submit a new, first-time passport application in person" and it gives no age in that sentence; its minors heading says "Passports for children under 16 have special requirements"; its renew-by-mail conditions require a passport "issued when you were age 16 or older"; the FAQ's in-person list includes a previous passport issued under 16 (all found at Gate 1). Fixed: the diagram card and the alt now say "A passport issued under 16 is not renewable"; the body keeps USPS's words ("a minor's passport"), says the sentence gives no age, and says the article reads it as covering passports issued to children under 16 and does not extend it further. No other body sentence says a child's or minor's passport is not renewable. The reviewer confirmed the participating Post Offices and photos scope, the expedited/urgent split and the State Department links; the urgent travel dates stay out, pointing to the State Department. Image re-rendered (render check `[]`), C2PA stripped; PNG 600,000 bytes (`686f50fc…`), SVG 4,691 bytes (`eea77db5…`), hashes equal the originals; front-matter alt equals the body alt.
+
+## Gate 2 PASS on `17a6018` (2026-11-13)
+
+The reviewer passed the changed parts. Condition kept by the user: before publishing, read the State Department pages directly; if they cannot be opened and the needed content cannot be checked, report the limit and ask about publishing first. Stage moved to ready (not published).

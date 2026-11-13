@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-tracking-status-what-it-means.md` (draft, 2026-11-13; about 2,090 body words without the alt text; one H1, nine H2 sections; two tables of 3 columns).
 Brief: `research/briefs/usps-tracking-status-what-it-means.md`. Sources: `research/sources/usps-tracking-status-what-it-means.md` (S1 USPS FAQ 000006077, Sep 29, 2026; S2 USPS FAQ 000007991, Sep 17, 2026).
-Stage: **draft, Gate 1 done 2026-11-13; Gate 2 on `27cde5e`: held for independent source check (reviewer could not open the FAQs) with two wording fixes applied in this commit; waiting for the re-check**. **Rule-type post: re-read both FAQs before any publish or republish.**
+Stage: **draft, Gate 1 done 2026-11-13; Gate 2 PASS on `17a6018`** (the earlier hold was lifted: the reviewer opened the FAQ through another official USPS address and compared the relevant parts). **Rule-type post: re-read both FAQs before any publish or republish.**
 
 ## Scope
 
@@ -63,3 +63,7 @@ Image: re-rendered (render check `[]`, viewed in crops); C2PA stripped on the de
 ## Gate 2 re-check on `8953bd9` (2026-11-13)
 
 FIX: the diagram card and alt said "Held at Post Office", which can read as every held status. The FAQ's entry is "Held at Post Office, At Customer Request". Fixed: the card, the alt (both copies) and the body sentence after the table now use the full status name. Checked again on the page: the redelivery-cannot-be-scheduled sentence is in "Available for Pickup" and "Held at Post Office, At Customer Request" only. The Notice Left / Available for Pickup split and the non-guarantee wording were confirmed by the reviewer. Image re-rendered (render check `[]`), C2PA stripped; PNG 576,766 bytes (`ceca970a…`), SVG 4,545 bytes (`b4bb6551…`), hashes equal the originals; front-matter alt equals the body alt. The earlier hold (reviewer could not open the FAQs) is unchanged.
+
+## Gate 2 PASS on `17a6018` (2026-11-13)
+
+The reviewer re-checked the changed parts and passed the article. The earlier "held for independent source check" status is **lifted**: the reviewer could not open the FAQ at the first address, then opened it through another official USPS address and compared the relevant parts (waits, redelivery conditions). Stage moved to ready.
