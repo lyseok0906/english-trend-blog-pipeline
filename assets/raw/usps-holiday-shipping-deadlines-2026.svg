@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1864" viewBox="0 0 800 1864" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>USPS recommended send-by dates for delivery before December 25, 2026: Lower 48, Alaska, Hawaii, Puerto Rico and territories, international and military mail, and what recommended means.</title>
+<rect width="800" height="1864" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS 2026 holiday deadlines</text>
+<text x="40" y="120" font-size="32" fill="#374151">Recommended, for delivery before Dec. 25</text>
+<rect x="40" y="170" width="720" height="268" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="224" font-size="36" font-weight="bold" fill="#111827">Lower 48 states</text>
+<text x="70" y="274" font-size="29" fill="#111827">USPS Ground Advantage: Thu, Dec. 17</text>
+<text x="70" y="320" font-size="29" fill="#111827">First-Class Mail: Thu, Dec. 17</text>
+<text x="70" y="366" font-size="29" fill="#111827">Priority Mail: Fri, Dec. 18</text>
+<text x="70" y="412" font-size="29" fill="#111827">Priority Mail Express: Sat, Dec. 19</text>
+<rect x="40" y="464" width="720" height="314" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="518" font-size="36" font-weight="bold" fill="#111827">AK, HI, Puerto Rico, territories</text>
+<text x="70" y="568" font-size="29" fill="#111827">First-Class Mail: Dec. 17. Priority Mail:</text>
+<text x="70" y="614" font-size="29" fill="#111827">Dec. 18. Priority Mail Express: Dec. 19.</text>
+<text x="70" y="660" font-size="29" fill="#111827">Ground Advantage: no date; USPS says 10</text>
+<text x="70" y="706" font-size="29" fill="#111827">days or more to and from the contiguous</text>
+<text x="70" y="752" font-size="29" fill="#111827">U.S.; look up ZIP to ZIP on postcalc.</text>
+<rect x="40" y="804" width="720" height="314" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="858" font-size="36" font-weight="bold" fill="#111827">International</text>
+<text x="70" y="908" font-size="29" fill="#111827">First-Class Package International and</text>
+<text x="70" y="954" font-size="29" fill="#111827">Priority Mail International: Wed, Dec. 9.</text>
+<text x="70" y="1000" font-size="29" fill="#111827">Priority Mail Express International:</text>
+<text x="70" y="1046" font-size="29" fill="#111827">Wed, Dec. 16. Same dates for every</text>
+<text x="70" y="1092" font-size="29" fill="#111827">region the page lists.</text>
+<rect x="40" y="1144" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4"/>
+<text x="70" y="1198" font-size="36" font-weight="bold" fill="#111827">Military (APO/FPO/DPO)</text>
+<text x="70" y="1248" font-size="29" fill="#111827">Ground Advantage: Wed, Nov. 4.</text>
+<text x="70" y="1294" font-size="29" fill="#111827">First-Class and Priority Mail: Wed, Dec. 9.</text>
+<text x="70" y="1340" font-size="29" fill="#111827">Priority Mail Express Military: Wed, Dec. 16;</text>
+<text x="70" y="1386" font-size="29" fill="#111827">N/A for ZIP 093.</text>
+<rect x="40" y="1438" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1492" font-size="36" font-weight="bold" fill="#111827">What recommended means</text>
+<text x="70" y="1542" font-size="29" fill="#111827">USPS says the actual delivery date may</text>
+<text x="70" y="1588" font-size="29" fill="#111827">vary with origin, destination, acceptance</text>
+<text x="70" y="1634" font-size="29" fill="#111827">time and other conditions. The three pages</text>
+<text x="70" y="1680" font-size="29" fill="#111827">give no time of day for acceptance.</text>
+<text x="40" y="1784" font-size="25" fill="#374151">Sources: USPS.com page, USPS release (Sept. 22, 2026),</text>
+<text x="40" y="1820" font-size="25" fill="#374151">USPS FAQ (Oct. 14, 2026); read Nov. 13, 2026</text>
+</svg>
