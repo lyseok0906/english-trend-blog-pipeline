@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1974" viewBox="0 0 800 1974" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2066" viewBox="0 0 800 2066" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
 <title>What the USPS tracking status guide says: statuses before USPS has the package, moving through the network, out for delivery, notice left or pickup, marked delivered but not found, and when USPS says to ask for help.</title>
-<rect width="800" height="1974" fill="#ffffff"/>
+<rect width="800" height="2066" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS tracking statuses</text>
 <text x="40" y="120" font-size="32" fill="#374151">What USPS's guide says</text>
 <rect x="40" y="170" width="720" height="222" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4"/>
@@ -14,29 +14,31 @@
 <text x="70" y="568" font-size="29" fill="#111827">Facility can repeat, on the same or on</text>
 <text x="70" y="614" font-size="29" fill="#111827">different days. Forwarded: a change of</text>
 <text x="70" y="660" font-size="29" fill="#111827">address or the wrong Post Office.</text>
-<rect x="40" y="712" width="720" height="268" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<rect x="40" y="712" width="720" height="314" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
 <text x="70" y="766" font-size="36" font-weight="bold" fill="#111827">Out for delivery</text>
-<text x="70" y="816" font-size="29" fill="#111827">Prepared for delivery; a carrier delivers it</text>
-<text x="70" y="862" font-size="29" fill="#111827">today, maybe later in the day. No Delivered</text>
-<text x="70" y="908" font-size="29" fill="#111827">scan by 9 pm local: Delivery Status Not</text>
-<text x="70" y="954" font-size="29" fill="#111827">Updated, expected the next business day.</text>
-<rect x="40" y="1006" width="720" height="268" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
-<text x="70" y="1060" font-size="36" font-weight="bold" fill="#111827">Notice left, pickup or hold</text>
-<text x="70" y="1110" font-size="29" fill="#111827">Signature needed, nobody home or no secure</text>
-<text x="70" y="1156" font-size="29" fill="#111827">spot: no automatic second attempt. Options:</text>
-<text x="70" y="1202" font-size="29" fill="#111827">schedule a redelivery, pick it up, or ask for</text>
-<text x="70" y="1248" font-size="29" fill="#111827">it to be returned to the sender.</text>
-<rect x="40" y="1300" width="720" height="222" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
-<text x="70" y="1354" font-size="36" font-weight="bold" fill="#111827">Marked delivered but not found</text>
-<text x="70" y="1404" font-size="29" fill="#111827">Check the garage, household, mailbox, porch,</text>
-<text x="70" y="1450" font-size="29" fill="#111827">covered spots, doors, a parcel locker (key in</text>
-<text x="70" y="1496" font-size="29" fill="#111827">the mailbox) or the building office.</text>
-<rect x="40" y="1548" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1602" font-size="36" font-weight="bold" fill="#111827">When the FAQ says to ask USPS</text>
-<text x="70" y="1652" font-size="29" fill="#111827">Out for Delivery, Arrived at Post Office, Not</text>
-<text x="70" y="1698" font-size="29" fill="#111827">Updated and Delivered: after 1 full postal</text>
-<text x="70" y="1744" font-size="29" fill="#111827">business day. No Access: after 24 hours.</text>
-<text x="70" y="1790" font-size="29" fill="#111827">Use the tracking number: service request.</text>
-<text x="40" y="1894" font-size="25" fill="#374151">Sources: two USPS FAQs (Sept. 29 and Sept. 17,</text>
-<text x="40" y="1930" font-size="25" fill="#374151">2026); read Nov. 13, 2026</text>
+<text x="70" y="816" font-size="29" fill="#111827">FAQ: carrier delivers today, maybe later</text>
+<text x="70" y="862" font-size="29" fill="#111827">in the day; USPS says tracking does not</text>
+<text x="70" y="908" font-size="29" fill="#111827">guarantee delivery. No Delivered scan by</text>
+<text x="70" y="954" font-size="29" fill="#111827">9 pm local: Delivery Status Not Updated,</text>
+<text x="70" y="1000" font-size="29" fill="#111827">delivery expected the next business day.</text>
+<rect x="40" y="1052" width="720" height="314" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="1106" font-size="36" font-weight="bold" fill="#111827">Notice left, pickup or hold</text>
+<text x="70" y="1156" font-size="29" fill="#111827">Notice Left: no automatic second attempt.</text>
+<text x="70" y="1202" font-size="29" fill="#111827">Options: schedule a redelivery, pick it up</text>
+<text x="70" y="1248" font-size="29" fill="#111827">or ask for return to the sender.</text>
+<text x="70" y="1294" font-size="29" fill="#111827">Available for Pickup and Held at Post Office:</text>
+<text x="70" y="1340" font-size="29" fill="#111827">a redelivery cannot be scheduled.</text>
+<rect x="40" y="1392" width="720" height="222" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="1446" font-size="36" font-weight="bold" fill="#111827">Marked delivered but not found</text>
+<text x="70" y="1496" font-size="29" fill="#111827">Check the garage, household, mailbox, porch,</text>
+<text x="70" y="1542" font-size="29" fill="#111827">covered spots, doors, a parcel locker (key in</text>
+<text x="70" y="1588" font-size="29" fill="#111827">the mailbox) or the building office.</text>
+<rect x="40" y="1640" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1694" font-size="36" font-weight="bold" fill="#111827">When the FAQ says to ask USPS</text>
+<text x="70" y="1744" font-size="29" fill="#111827">Out for Delivery, Arrived at Post Office, Not</text>
+<text x="70" y="1790" font-size="29" fill="#111827">Updated and Delivered: after 1 full postal</text>
+<text x="70" y="1836" font-size="29" fill="#111827">business day. No Access: after 24 hours.</text>
+<text x="70" y="1882" font-size="29" fill="#111827">Use the tracking number: service request.</text>
+<text x="40" y="1986" font-size="25" fill="#374151">Sources: two USPS FAQs (Sept. 29 and Sept. 17,</text>
+<text x="40" y="2022" font-size="25" fill="#374151">2026); read Nov. 13, 2026</text>
 </svg>

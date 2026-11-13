@@ -1,6 +1,6 @@
 # Brief — usps-tracking-status-what-it-means
 
-**Stage:** draft (brief, source notes, draft, diagram and Gate 1 done 2026-11-13; waiting for Gate 2) (user's request of 2026-11-13 for the next candidates, "including USPS tracking status help"). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** draft (Gate 1 done 2026-11-13; Gate 2 on `27cde5e` held for independent source check, two wording fixes applied; waiting for the re-check) (user's request of 2026-11-13 for the next candidates, "including USPS tracking status help"). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Working title:** USPS Tracking Status: What Each One Means and What USPS Says to Do. **Focus keyword:** `usps tracking status`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
@@ -39,3 +39,7 @@ Own diagram: six cards (before USPS has it; moving through the network; out for 
 ## Re-check rule (mandatory before publishing)
 
 Re-read both FAQs at approval and right before publishing; report before publishing if a status entry, a wait (1 full postal business day, 24 hours, 9 pm), the notice options, or the retention periods changed.
+
+## Gate 2 changes (2026-11-13)
+
+The lead now sets "will be delivered by a carrier today" beside "USPS Tracking does not expedite or guarantee delivery"; the diagram's notice card separates Notice Left (options) from Available for Pickup and Held at Post Office (a redelivery cannot be scheduled). The reviewer could not open the FAQs; this is not an independent PASS.

@@ -1,6 +1,6 @@
 # Brief — usps-passport-services-what-the-post-office-does
 
-**Stage:** draft (brief, source notes, draft, diagram and Gate 1 done 2026-11-13; waiting for Gate 2) (user's request of 2026-11-13 for the next candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** draft (Gate 1 done 2026-11-13; Gate 2 FIX on `27cde5e` applied; waiting for the re-check) (user's request of 2026-11-13 for the next candidates). **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Working title:** USPS Passport Services: What the Post Office Does and Does Not Handle. **Focus keyword:** `usps passport`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
@@ -40,3 +40,7 @@ Own diagram: six cards (what a Post Office does; what it does not do; apply in p
 ## Re-check rule (mandatory before publishing)
 
 Re-read both pages at approval and right before publishing; report before publishing if the role list, the in-person list, the renewal conditions, the appointment or walk-in wording, or the payment statements changed. Try the State Department pages again; if they open, compare and report any conflict before publishing.
+
+## Gate 2 changes (2026-11-13)
+
+Scope narrowed to "thousands of Post Offices ... most of those" for applications and photos; expedited renewal (by mail) separated from urgent travel and life-or-death cases (State Department appointments), with no time thresholds stated; two State Department pages linked as pointers (not read in full). See the QA record.

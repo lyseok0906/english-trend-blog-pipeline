@@ -35,9 +35,13 @@ URL https://faq.usps.com/s/article/U-S-Passports-The-Basics. Article 000007488; 
 - "You may receive your newly issued passport and your citizenship documents in two separate mailings"; contact the National Passport Information Center if a second mailing does not arrive within 10 business days of the first.
 - Not used: all dollar amounts, the SSN requirement and penalty, mailing envelope types, expedited service commitment.
 
+## P1 additions read for the Gate 2 fix (2026-11-13, found on the page)
+
+"Renew by Mail (Available with Expedited Service)"; "If you need expedited service for your renewal, you must renew by mail."; "Get a New Passport Faster in Emergencies & Special Cases": "you can send your passport application via Priority Mail Express® service and pay the State Department fee for faster delivery"; "Life-or-Death Emergency": "Visit the Life-or-Death Emergencies page on travel.state.gov to learn if you are eligible. The State Department processes these requests by appointment only."; "Urgent Travel in Less than 10 Weeks": "you must call the State Department Passport Agency to schedule an appointment" (thresholds, phone number and amounts not used in the article).
+
 ## Not read
 
-State Department passport pages (travel.state.gov): the built-in browser got a Cloudflare "Just a moment" challenge (HTTP 403) and it was not bypassed; one web-fetch attempt returned the page "Apply for your First Passport as an Adult" without lists, which is not usable for verbatim tests. Try again at the pre-publish re-check.
+State Department passport pages (travel.state.gov): the built-in browser got a Cloudflare "Just a moment" challenge (HTTP 403) and it was not bypassed; one earlier web-fetch attempt returned the page "Apply for your First Passport as an Adult" without lists. On 2026-11-13 (Gate 2 fix) `https://travel.state.gov/en/passports/apply/adults.html` failed again (client error) and `https://travel.state.gov/en/passports/renew-replace/mail.html` came back only as a paraphrase from a summarizing fetch (no update date; not verbatim, so not usable for tests or claims). Both are linked in the article as pointers only. Try again at the pre-publish re-check.
 
 ## Differences shown in the article (not resolved)
 

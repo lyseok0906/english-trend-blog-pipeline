@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-tracking-status-what-it-means.md` (draft, 2026-11-13; about 2,090 body words without the alt text; one H1, nine H2 sections; two tables of 3 columns).
 Brief: `research/briefs/usps-tracking-status-what-it-means.md`. Sources: `research/sources/usps-tracking-status-what-it-means.md` (S1 USPS FAQ 000006077, Sep 29, 2026; S2 USPS FAQ 000007991, Sep 17, 2026).
-Stage: **draft, Gate 1 done 2026-11-13** (waiting for Gate 2). **Rule-type post: re-read both FAQs before any publish or republish.**
+Stage: **draft, Gate 1 done 2026-11-13; Gate 2 on `27cde5e`: held for independent source check (reviewer could not open the FAQs) with two wording fixes applied in this commit; waiting for the re-check**. **Rule-type post: re-read both FAQs before any publish or republish.**
 
 ## Scope
 
@@ -50,3 +50,12 @@ One H1, H2 sections, two 3-column tables (post-only table font at publishing), p
 - Confirm the paired wording of "will be delivered by a carrier today" with S2's non-guarantee lines does not read as a promise.
 - Confirm that the waits table (1 full postal business day against 24 hours) reads as a source difference and not as advice.
 - Dated rule post: both FAQs are re-read right before publishing; report before publishing if a status entry, a wait, the notice options or the retention periods changed.
+
+## Gate 2 on `27cde5e` (2026-11-13)
+
+**Result: 확인 보류, not an independent PASS.** The reviewer's browser showed an error page for both FAQs, so the wait times and redelivery conditions were not compared independently. This record must not be read as a Gate 2 PASS on the sources; the Gate 1 phrase tests (S1 73 of 73, S2 22 of 22) are Claude's own. The reviewer asked for two wording fixes, applied here:
+
+1. **"Notice left, pickup or hold" card (diagram and alt).** The card read as if every pickup or hold status allowed scheduling a redelivery. Fixed in the diagram, the alt and the body: the card now says Notice Left has no automatic second attempt and lists the three options, and that for Available for Pickup and Held at Post Office "a redelivery cannot be scheduled". The body table already separated these; a sentence after the table now states it in one place. Checked on the page again: "A redelivery cannot be scheduled for this package" appears in exactly two entries (Available for Pickup; Held at Post Office, At Customer Request); "no automatic second delivery attempt" appears in exactly the two Notice Left entries; the three-option list appears in the two Notice Left entries and in Redelivery Scheduled / Reminder to Schedule Redelivery.
+2. **"Out for Delivery" reads as a promise.** The lead now quotes S2's "USPS Tracking does not expedite or guarantee delivery" in its first sentence, next to the "will be delivered by a carrier today" quote. The Out for Delivery section says it is the guide's description, not a delivery promise, and repeats that delivery inside an Expected Delivery Window "is not guaranteed". The diagram card now says "FAQ: carrier delivers today, maybe later in the day; USPS says tracking does not guarantee delivery", and the alt matches. The meta description now says tracking does not guarantee delivery (151 characters).
+
+Image: re-rendered (render check `[]`, viewed in crops); C2PA stripped on the device; PNG 566,162 bytes (`61daf868…`), SVG 4,468 bytes (`9753a4bd…`), hashes equal the originals. Front-matter alt equals the body alt (script). **Open:** the reviewer still needs to see the FAQ text (the verbatim lines are in `research/sources/usps-tracking-status-what-it-means.md`); both FAQs are re-read right before any publishing.
