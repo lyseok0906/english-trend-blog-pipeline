@@ -1,6 +1,6 @@
 # Brief — usps-claim-how-it-works
 
-**Stage:** draft (2026-11-17), Gate 1 done by Claude; waiting for Gate 2. **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** published (2026-11-17, post 138); Gate 2 PASS on `b2340b5`. **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Working title:** USPS Claims: Filing Periods, Who Can File and What You Need. **Focus keyword:** `usps claim`.
 Chosen 2026-11-17 on the user's approval ("A와 B 모두 승인합니다") with the user's conditions: check the start and end of the filing period per service and the difference between damage and loss in the official table; separate the role from the published Missing Mail post and link them; check insurance coverage and evidence requirements including case exceptions; keep prices out; record that search volume was not checked.
 
@@ -42,4 +42,4 @@ Re-read the claims page, the FAQ and DMM 609 right before publishing; report bef
 
 ## Links
 
-Missing Mail, Certified Mail, tracking status (all published). Not linked: the Priority Mail vs Ground Advantage post (not yet published).
+Missing Mail, Certified Mail, tracking status (all published). After publication (2026-11-17) the Priority Mail vs Ground Advantage post was linked once in the insurance section, and links back from the Priority Mail vs Ground Advantage post and the Missing Mail post were added (see the QA record).
