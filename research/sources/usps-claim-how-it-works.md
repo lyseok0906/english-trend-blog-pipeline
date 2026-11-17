@@ -46,3 +46,9 @@ URL https://www.usps.com/ship/insurance-extra-services.htm. Priority Mail and US
 4. Appeal clock: from receiving the decision (S1) against from the date of the decision (S2).
 5. Opening day for lost items: given (S1, S2, S3); not given on the insurance page (S4).
 6. Saved claims deleted after 3 days (S2) against no period (S1).
+
+## Added 2026-11-17 (Gate 2 FIX on `745ec39`)
+
+- DMM 609.6 (https://pe.usps.com/text/dmm300/609.htm, read 2026-11-17): "6.2 Appealing a Claim Decision A customer may appeal a claim decision within 30 days from the date of the original decision at usps.com/help/claims.htm. Customers who did not file their claim online must send written appeals to Accounting Services" ; "6.3 Final USPS Decision of Claims If Accounting Services sustains the denial of a claim, the customer may submit an additional appeal at usps.com/help/claims.htm within 30 days for final review and decision." The final-review start is not stated.
+- DMM 503 (https://pe.usps.com/text/dmm300/503.htm, read 2026-11-17, one sentence): "Except for Priority Mail pieces with included insurance, no insurance coverage is provided when purchasing Certified Mail."
+- Appeal clock now shown from three sources: USPS.com "receiving the decision"; FAQ and DMM 6.2 "date of the original decision"; final review: FAQ "date of the second denial", USPS.com "date you received the appeal denial", DMM no start.

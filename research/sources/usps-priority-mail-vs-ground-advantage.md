@@ -36,3 +36,7 @@ URL https://www.usps.com/ship/insurance-extra-services.htm. No update date shown
 ## Not found
 
 A USPS FAQ article for Ground Advantage: guessed URL `usps-ground-advantage-the-basics` returned 404; the FAQ global search page listed no article links.
+
+## Added 2026-11-17 (Gate 2 FIX on `745ec39`)
+
+- DMM 503 (https://pe.usps.com/text/dmm300/503.htm, read 2026-11-17, one sentence only): "Except for Priority Mail pieces with included insurance, no insurance coverage is provided when purchasing Certified Mail." Section 503.4 itself was not read.

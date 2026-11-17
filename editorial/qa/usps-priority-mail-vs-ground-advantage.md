@@ -1,6 +1,6 @@
 # QA record — usps-priority-mail-vs-ground-advantage
 
-Article: `content/drafts/usps-priority-mail-vs-ground-advantage.md` (draft, 2026-11-17; about 1,270 body words without the alt text; one H1, six H2 sections; no table).
+Article: `content/drafts/usps-priority-mail-vs-ground-advantage.md` (draft, 2026-11-17; about 1,320 body words (after Gate 2 FIX) without the alt text; one H1, six H2 sections; no table).
 Brief: `research/briefs/usps-priority-mail-vs-ground-advantage.md`. Sources: `research/sources/usps-priority-mail-vs-ground-advantage.md` (S1 USPS.com Priority Mail, S2 USPS.com Ground Advantage, S3 USPS.com Shipping Insurance and Delivery Services; none shows an update date).
 Stage: **draft, Gate 1 done by Claude; waiting for Gate 2.** Rule-type post: re-read the three pages right before any publishing.
 
@@ -53,3 +53,12 @@ One H1 in the body, H2 sections only, prose with a bulleted list only for Source
 - Confirm that $100 and $5,000 are acceptable as coverage amounts under "no prices".
 - Link plan: the article does not link to the claims article because that article is not published; after both are published, a link between them can be added in a small edit (see the claims QA record).
 - Dated rule post: re-read the three pages right before publishing; report before publishing if the delivery-time wording, size limits, insurance wording or pickup and tracking lines changed.
+
+## Gate 2 FIX on `745ec39` (applied 2026-11-17)
+
+1. **Expected, not fixed, delivery times.** The reviewer noted that the diagram and alt showed only "2-3 days" and "2–5 days". The diagram card and the alt now say "expected 2-3 days" and "expected 2-5 days", keep the Priority Mail "no money-back guarantee" line and the Ground Advantage "slower to Alaska, Hawaii, offshore places or with hazardous materials" line, and end with "Both are expected times". The lead sentence and the meta description (now 151 characters, "expected delivery of 2-3 days ... and 2-5 days") say "expected"; the Delivery time section adds that both pages word the time as an expected delivery, so the article reads the numbers as expected times, not fixed delivery times. The Ground Advantage page stays described as silent on a guarantee.
+2. **Insurance card.** Retitled "Included insurance, with conditions"; it keeps "up to $100" for Priority Mail ("most shipments"), "$100 is included" for Ground Advantage, the Tracking barcode condition attributed to the insurance page, and "up to $5,000" as the most that can be bought. Alt matches.
+3. **DMM 503 sentence.** Read directly by Claude on 2026-11-17 (pe.usps.com/text/dmm300/503.htm): "Except for Priority Mail pieces with included insurance, no insurance coverage is provided when purchasing Certified Mail." The article now quotes it from the DMM and links the Certified Mail article for the service; DMM 503 is added to Sources, and the text says only that sentence of section 503 (not 503.4) was read. The reviewer's own check of the same text is consistent with this. Claim C13 is now verified in the DMM, not carried over.
+4. **Prices.** The reviewer confirmed $100 and $5,000 as coverage limits fit "no prices"; they still appear only as limits.
+
+Changed parts only: the lead, meta description, Delivery time paragraph, the Certified Mail sentence in Insurance and tracking, the "What the pages do not say" scope sentence, Sources, the diagram card texts and the alt. Image after the change: PNG 578,060 bytes `6106ebc912e21b9b`, SVG 4,390 bytes `69375b562faffc94` (C2PA stripped; render check `[]`, crops viewed). Not published.

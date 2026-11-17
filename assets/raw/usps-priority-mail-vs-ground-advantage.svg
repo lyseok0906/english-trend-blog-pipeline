@@ -5,11 +5,11 @@
 <text x="40" y="120" font-size="32" fill="#374151">What USPS's pages say, without prices</text>
 <rect x="40" y="170" width="720" height="314" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
 <text x="70" y="224" font-size="36" font-weight="bold" fill="#111827">Delivery time</text>
-<text x="70" y="274" font-size="29" fill="#111827">Priority Mail: 2-3 days; the expected date is</text>
-<text x="70" y="320" font-size="29" fill="#111827">on the receipt or at checkout, with no</text>
-<text x="70" y="366" font-size="29" fill="#111827">money-back guarantee. Ground Advantage: 2-5</text>
-<text x="70" y="412" font-size="29" fill="#111827">days; slower to Alaska, Hawaii, offshore</text>
-<text x="70" y="458" font-size="29" fill="#111827">places or with hazardous materials.</text>
+<text x="70" y="274" font-size="29" fill="#111827">Priority Mail: expected 2-3 days; the date is on</text>
+<text x="70" y="320" font-size="29" fill="#111827">the receipt or at checkout, with no money-back</text>
+<text x="70" y="366" font-size="29" fill="#111827">guarantee. Ground Advantage: expected 2-5 days;</text>
+<text x="70" y="412" font-size="29" fill="#111827">slower to Alaska, Hawaii, offshore places or</text>
+<text x="70" y="458" font-size="29" fill="#111827">with hazardous materials. Both are expected times.</text>
 <rect x="40" y="510" width="720" height="268" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
 <text x="70" y="564" font-size="36" font-weight="bold" fill="#111827">Size and weight</text>
 <text x="70" y="614" font-size="29" fill="#111827">Both pages: up to 70 lbs. Largest combined</text>
@@ -17,12 +17,12 @@
 <text x="70" y="706" font-size="29" fill="#111827">Mail, 130 inches for Ground Advantage.</text>
 <text x="70" y="752" font-size="29" fill="#111827">Priority Mail also has Flat Rate packaging.</text>
 <rect x="40" y="804" width="720" height="314" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
-<text x="70" y="858" font-size="36" font-weight="bold" fill="#111827">Insurance and tracking</text>
+<text x="70" y="858" font-size="36" font-weight="bold" fill="#111827">Included insurance, with conditions</text>
 <text x="70" y="908" font-size="29" fill="#111827">Priority Mail page: up to $100 with 'most</text>
 <text x="70" y="954" font-size="29" fill="#111827">shipments'. Ground Advantage page: $100 is</text>
 <text x="70" y="1000" font-size="29" fill="#111827">included. Insurance page: both need a USPS</text>
-<text x="70" y="1046" font-size="29" fill="#111827">Tracking barcode to qualify; more coverage,</text>
-<text x="70" y="1092" font-size="29" fill="#111827">up to $5,000, can be bought.</text>
+<text x="70" y="1046" font-size="29" fill="#111827">Tracking barcode to qualify. More coverage</text>
+<text x="70" y="1092" font-size="29" fill="#111827">can be bought, up to $5,000.</text>
 <rect x="40" y="1144" width="720" height="222" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
 <text x="70" y="1198" font-size="36" font-weight="bold" fill="#111827">Both pages</text>
 <text x="70" y="1248" font-size="29" fill="#111827">Free Package Pickup. Tracking is included;</text>

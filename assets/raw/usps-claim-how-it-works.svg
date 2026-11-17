@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1670" viewBox="0 0 800 1670" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>What USPS pages say about filing a claim: who can file, when to file for damaged or missing contents and for lost items by service, what to have ready, and what happens after you file.</title>
-<rect width="800" height="1670" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2102" viewBox="0 0 800 2102" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What USPS pages say about filing a claim: who can file, when to file for damaged or missing contents and for lost items by service, insurance, what to have ready, and what happens after you file.</title>
+<rect width="800" height="2102" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827">USPS claims</text>
 <text x="40" y="120" font-size="32" fill="#374151">What the USPS pages say</text>
 <rect x="40" y="170" width="720" height="268" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
@@ -13,24 +13,33 @@
 <text x="70" y="518" font-size="36" font-weight="bold" fill="#111827">Damaged or missing contents</text>
 <text x="70" y="568" font-size="29" fill="#111827">File immediately; no later than 60 days after</text>
 <text x="70" y="614" font-size="29" fill="#111827">the mailing date.</text>
-<rect x="40" y="666" width="720" height="314" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
-<text x="70" y="720" font-size="36" font-weight="bold" fill="#111827">Lost item: days after mailing</text>
-<text x="70" y="770" font-size="29" fill="#111827">Priority Mail Express: day 7 to day 60.</text>
-<text x="70" y="816" font-size="29" fill="#111827">Priority Mail, Ground Advantage, Insured Mail,</text>
-<text x="70" y="862" font-size="29" fill="#111827">COD, Registered Mail: day 15 to day 60.</text>
-<text x="70" y="908" font-size="29" fill="#111827">APO/FPO/DPO: opens day 21, 45 or 75; closes</text>
-<text x="70" y="954" font-size="29" fill="#111827">at 180 days or 1 year.</text>
-<rect x="40" y="1006" width="720" height="222" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4"/>
-<text x="70" y="1060" font-size="36" font-weight="bold" fill="#111827">Have ready</text>
-<text x="70" y="1110" font-size="29" fill="#111827">Tracking or label number, proof of insurance</text>
-<text x="70" y="1156" font-size="29" fill="#111827">and proof of value. For damage: photos and a</text>
-<text x="70" y="1202" font-size="29" fill="#111827">repair estimate. Keep the packaging.</text>
-<rect x="40" y="1254" width="720" height="222" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1308" font-size="36" font-weight="bold" fill="#111827">After you file</text>
-<text x="70" y="1358" font-size="29" fill="#111827">Decision usually in 5-10 days; up to 30 for</text>
-<text x="70" y="1404" font-size="29" fill="#111827">in-depth claims. Two appeals, 30 days each.</text>
-<text x="70" y="1450" font-size="29" fill="#111827">Uninsured items: no claim; Missing Mail Search.</text>
-<text x="40" y="1554" font-size="25" fill="#374151">Sources: USPS.com claims page, USPS FAQ (Nov. 6,</text>
-<text x="40" y="1590" font-size="25" fill="#374151">2026), DMM 609; read Nov. 17, 2026</text>
-<text x="40" y="1626" font-size="25" fill="#374151">No amounts or fees are shown.</text>
+<rect x="40" y="666" width="720" height="360" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="720" font-size="36" font-weight="bold" fill="#111827">Lost item (from the mailing date)</text>
+<text x="70" y="770" font-size="29" fill="#111827">Priority Mail Express: no sooner than 7 days,</text>
+<text x="70" y="816" font-size="29" fill="#111827">no later than 60 days. Priority Mail, Ground</text>
+<text x="70" y="862" font-size="29" fill="#111827">Advantage, Insured Mail, COD, Registered Mail:</text>
+<text x="70" y="908" font-size="29" fill="#111827">no sooner than 15 days, no later than 60.</text>
+<text x="70" y="954" font-size="29" fill="#111827">APO/FPO/DPO: from 21, 45 or 75 days, up to</text>
+<text x="70" y="1000" font-size="29" fill="#111827">180 days or 1 year.</text>
+<rect x="40" y="1052" width="720" height="268" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4"/>
+<text x="70" y="1106" font-size="36" font-weight="bold" fill="#111827">Insurance</text>
+<text x="70" y="1156" font-size="29" fill="#111827">A claim needs insurance, which some services</text>
+<text x="70" y="1202" font-size="29" fill="#111827">include; it need not be bought separately.</text>
+<text x="70" y="1248" font-size="29" fill="#111827">A Missing Mail Search looks for the item;</text>
+<text x="70" y="1294" font-size="29" fill="#111827">it is not a claim.</text>
+<rect x="40" y="1346" width="720" height="222" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4"/>
+<text x="70" y="1400" font-size="36" font-weight="bold" fill="#111827">Have ready</text>
+<text x="70" y="1450" font-size="29" fill="#111827">Tracking or label number, proof of insurance</text>
+<text x="70" y="1496" font-size="29" fill="#111827">and proof of value. For damage: photos and a</text>
+<text x="70" y="1542" font-size="29" fill="#111827">repair estimate. Keep the packaging.</text>
+<rect x="40" y="1594" width="720" height="314" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1648" font-size="36" font-weight="bold" fill="#111827">After you file</text>
+<text x="70" y="1698" font-size="29" fill="#111827">Decision usually in 5-10 days; up to 30 for</text>
+<text x="70" y="1744" font-size="29" fill="#111827">in-depth claims. Two appeals, 30 days each,</text>
+<text x="70" y="1790" font-size="29" fill="#111827">counted from the decision date or from</text>
+<text x="70" y="1836" font-size="29" fill="#111827">receiving it; the sources differ. Check the</text>
+<text x="70" y="1882" font-size="29" fill="#111827">USPS claims page.</text>
+<text x="40" y="1986" font-size="25" fill="#374151">Sources: USPS.com claims page, USPS FAQ (Nov. 6,</text>
+<text x="40" y="2022" font-size="25" fill="#374151">2026), DMM 609; read Nov. 17, 2026</text>
+<text x="40" y="2058" font-size="25" fill="#374151">No amounts or fees are shown.</text>
 </svg>
