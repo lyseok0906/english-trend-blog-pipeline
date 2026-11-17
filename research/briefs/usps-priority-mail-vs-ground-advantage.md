@@ -1,6 +1,6 @@
 # Brief — usps-priority-mail-vs-ground-advantage
 
-**Stage:** draft (2026-11-17), Gate 1 done by Claude; waiting for Gate 2. **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** published 2026-11-17 (post 135; Gate 2 PASS on `754b40d`). History: draft 2026-11-17, Gate 2 FIX on `745ec39` applied. **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Working title:** Priority Mail vs. Ground Advantage: What USPS Pages Say. **Focus keyword:** `priority mail vs ground advantage`.
 Chosen 2026-11-17 on the user's approval ("A와 B 모두 승인합니다") after the sixth survey (`docs/next-candidates-2026-11-17.md`), with the user's conditions: explain delivery time by checking the guarantee and the footnotes, do not assert conditions that cannot be confirmed, check insurance, pickup and size limits per service, keep prices out, record that search volume was not checked.
 
