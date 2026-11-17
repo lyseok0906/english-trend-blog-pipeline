@@ -1,0 +1,55 @@
+# QA record — usps-priority-mail-vs-ground-advantage
+
+Article: `content/drafts/usps-priority-mail-vs-ground-advantage.md` (draft, 2026-11-17; about 1,270 body words without the alt text; one H1, six H2 sections; no table).
+Brief: `research/briefs/usps-priority-mail-vs-ground-advantage.md`. Sources: `research/sources/usps-priority-mail-vs-ground-advantage.md` (S1 USPS.com Priority Mail, S2 USPS.com Ground Advantage, S3 USPS.com Shipping Insurance and Delivery Services; none shows an update date).
+Stage: **draft, Gate 1 done by Claude; waiting for Gate 2.** Rule-type post: re-read the three pages right before any publishing.
+
+## Scope
+
+What the three USPS.com pages say about Priority Mail and USPS Ground Advantage: delivery-time wording and footnotes, size and weight, packaging, included insurance and conditions, tracking, pickup, one-page-only lines, what the pages do not say. No prices, Priority Mail Express, business options, international mail or recommendation.
+
+## Method
+
+After drafting, the three pages were opened again in the built-in browser (2026-11-17) and tested by script after normalization (apostrophes and quotes removed, dashes unified, ® and ™ removed, footnote digits after words removed, asterisks removed, lowercase): S1 30 of 30 phrases, S2 25 of 25, S3 11 of 11. Absence tests: S2 text (footnotes included) has no "money-back", no "guarantee", no "drop-off"; none of the three pages shows "last updated", "updated on", "last modified" or "revised". The article text has no `$` except $100 (included insurance, as a coverage amount) and $5,000 (additional coverage, as a coverage amount); no postage or fee amount. Internal links 200: pickup, holiday deadlines, tracking status, Certified Mail, Missing Mail (live check, logged out). The new slug returns 404 now (not live); `post-sitemap.xml` lists 31 posts and not the new one.
+
+## Gate 1 — Factual QA (claim by claim)
+
+| # | Claim in the draft | Source | Result |
+|---|---|---|---|
+| C1 | Priority Mail page: "2-3 Days"; service includes tracking and delivery in 2-3 days | S1 | pass |
+| C2 | Footnote: the expected delivery date on the receipt or at checkout "in most cases" reflects 2-3 days and is based on origin, destination and drop-off time; it "does not come with a money-back guarantee" | S1 | pass |
+| C3 | The page points to the USPS Service Standards Map for estimates | S1 | pass |
+| C4 | Ground Advantage page: "Packages in 2–5 Days"; footnote "Expected delivery in 2–5 days"; slower service possible to certain places (including Alaska, Hawaii and offshore destinations) or with hazardous materials | S2 | pass |
+| C5 | The Ground Advantage page does not say how much slower, does not mention a guarantee either way, does not say where the date is shown or that it depends on drop-off time | S2 (absence tested: no "money-back", "guarantee", "drop-off") | pass |
+| C6 | Maximum weight 70 lbs on both; combined length and girth 108 inches (Priority Mail) and 130 inches (Ground Advantage) | S1; S2 | pass |
+| C7 | Priority Mail Flat Rate products "let you ship packages up to 70 lbs to any state at the same price"; Flat Rate envelopes or boxes in standard sizes; own box priced by weight and zone | S1 | pass |
+| C8 | Ground Advantage: own packaging, measure it; price tiers up to 4, 8, 12 and 15.999 oz then by the pound rounded up; a large First-Class Mail envelope over 15" long, 12" high or 3/4" thick, rigid, or not uniformly thick pays the Ground Advantage price | S2 | pass |
+| C9 | Both pages give the same dimensional-weight rule (over 1 cubic foot, divide by 139); both list handling fees for live animals or perishable items such as food or plants; the nonstandard-fee lists are not the same (amounts differ, not given); Flat Rate packaging is exempt from nonstandard fees (Priority Mail page) | S1; S2 | pass |
+| C10 | Priority Mail page: "Includes USPS Tracking and up to $100 of insurance with most shipments (restrictions apply)"; Ground Advantage page: "$100 insurance is included (for both outbound and return shipments)" and up to $5,000 additional coverage for merchandise | S1; S2 | pass |
+| C11 | Priority Mail footnotes: insurance available only for certain products and destinations; does not cover certain items; DMM 609.4.3, 609 and 503.4; domestic shipments need the applicable USPS Tracking barcode; not included for Open & Distribute, Premium Forwarding Service-Residential or -Commercial; additional insurance replaces the included insurance | S1 | pass |
+| C12 | Insurance page: both services' domestic shipments must have an applicable USPS Tracking barcode to qualify; Priority Mail insurance not included with certain extra services (not named); chart footnote: maximum liability of $100 with an IMpb or USPS retail tracking barcode "and the mailer pays retail or commercial prices" | S3 | pass |
+| C13 | The DMM rule "no insurance coverage is provided when purchasing Certified Mail, except for Priority Mail pieces with included insurance" is reported from our published Certified Mail article, not re-read in the DMM today | published article (DMM and FAQ read 2026-11-04) | pass (carried over; attributed to our article) |
+| C14 | Tracking included in both; Priority Mail page excludes Prepaid Forever Priority Mail Flat Rate from tracking; no page says whether those packages get included insurance | S1; S2; S3 | pass (absence reasoned from the three pages; not searched for an explicit statement elsewhere) |
+| C15 | Keep the postmarked mailing receipt and proof of value in case you need to file a claim | S3 | pass |
+| C16 | Both pages list free Package Pickup at home or office; our Package Pickup article says the FAQ lists Priority Mail and USPS Ground Advantage as eligible | S1; S2; published pickup article | pass |
+| C17 | Priority Mail "no surcharges for fuel; residential or rural delivery; or Saturday delivery"; the footnote on the Saturday part concerns Priority Mail Express (no conclusion drawn) | S1 | pass |
+| C18 | Ground Advantage "includes forwarding, undeliverable as addressed (UAA), and return to sender (RTS) at no additional cost"; the Priority Mail page has no such line | S2; S1 (absence reasoned) | pass |
+| C19 | Ground Advantage is the "primary option" for HAZMAT only mailable by ground, with a zero handling fee; the Priority Mail page lists a HAZMAT handling fee | S2; S1 | pass |
+| C20 | Ground Advantage page calls itself "our best-priced service for items up to 15.999 oz"; no cost comparison made | S2 | pass |
+| C21 | No update date on any of the three pages; no Ground Advantage FAQ article found (404 and empty FAQ search); DMM 503.4 not read | S1; S2; S3; research notes | pass |
+
+## Image checks
+
+800 px wide SVG, 1200 px wide PNG (scale 1.5), render check printed `[]` (no text beyond 745 px), viewed in crops. Six cards (delivery time; size and weight; insurance and tracking; both pages; hazardous materials; not stated) and a two-line footer ("Prices are not shown"). The insurance card was reworded after the first render so that "both need a USPS Tracking barcode" is attributed to the insurance page, not to both product pages. Alt text equals the front-matter alt and describes every card. C2PA metadata stripped on the device; SHA-256 prefix and sizes equal the originals (PNG 566,849 bytes `bc4a20b27732e420`; SVG 4,344 bytes `21e6959c3afab0c4`).
+
+## Format
+
+One H1 in the body, H2 sections only, prose with a bulleted list only for Sources, no table, meta description 151 characters (target 150 to 156). Focus keyword `priority mail vs ground advantage`.
+
+## Open points for Gate 2
+
+- Confirm the Delivery time section reads as "page is silent", not "no guarantee", for Ground Advantage.
+- Confirm the insurance section attributes each condition to the right page (Priority Mail footnotes against the insurance page) and does not state anything about Prepaid Forever insurance.
+- Confirm that $100 and $5,000 are acceptable as coverage amounts under "no prices".
+- Link plan: the article does not link to the claims article because that article is not published; after both are published, a link between them can be added in a small edit (see the claims QA record).
+- Dated rule post: re-read the three pages right before publishing; report before publishing if the delivery-time wording, size limits, insurance wording or pickup and tracking lines changed.
