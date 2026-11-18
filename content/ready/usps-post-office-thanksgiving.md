@@ -4,7 +4,7 @@ slug: usps-post-office-thanksgiving
 meta_description: "USPS's Nov. 17, 2026 notice says all Post Office locations are closed Thursday, Nov. 26, and regular delivery and retail services resume Nov. 27."
 category: Postal service and stamps
 focus_keyword: is the post office open on thanksgiving
-status: draft
+status: ready
 date: 2026-11-18
 internal_link_candidates: usps-hold-mail-how-it-works and usps-holiday-shipping-deadlines-2026 (both published; both linked once in the body; decide at Gate 2)
 image: assets/optimized/usps-post-office-thanksgiving.png

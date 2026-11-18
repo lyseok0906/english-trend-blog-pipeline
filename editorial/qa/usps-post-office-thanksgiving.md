@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-post-office-thanksgiving.md` (draft, 2026-11-18; about 610 words in the body, one H1, four H2 sections including Sources; one table; two internal links).
 Brief: `research/briefs/usps-post-office-thanksgiving.md`. Sources: `research/sources/usps-post-office-thanksgiving.md` (S6 USPS national release of Nov. 17, 2026; S2 Holidays and Events page).
-Stage: **draft, Gate 1 done by Claude 2026-11-18; waiting for Gate 2.** Rule/schedule-type post: re-read the release and the Holidays and Events page right before any publishing.
+Stage: **published 2026-11-18 (post 144, media 143); Gate 1 done by Claude; Gate 2 PASS on `be17de1` (user-reported 2026-11-18).** Rule/schedule-type post: re-read the release and the Holidays and Events page right before any publishing.
 
 ## Scope as set by the user (2026-11-18)
 
@@ -71,3 +71,17 @@ Title 63 characters; slug `usps-post-office-thanksgiving`; meta description 145 
 ## Result and next step
 
 Gate 1: **PASS** (22 of 22 claims, 8 of 8 image checks). Next: user push, Gate 2 by commit SHA, then approval to move to `ready`; before publishing, re-read the release and the events page and record the result; WordPress only after the Gate 2 PASS.
+
+## Gate 2 and publication record (2026-11-18)
+
+Gate 2: **PASS** on `be17de1` (user-reported 2026-11-18; no change requested). The user asked for the official notice and the events page to be re-read right before publishing and for publication if nothing important had changed.
+
+Pre-publish re-read (2026-11-18, built-in browser): the USPS national release of Nov. 17, 2026 (2,998 characters; 20 of 20 test phrases present) and the "Holidays & events" page (1,402 characters; Thursday, Nov. 26, 2026 still listed as Thanksgiving Day, no open/closed statement) are **unchanged**; the Newsroom RSS (708 items) has no newer notice. No difference from the draft, so the post was published as agreed (P6 closed).
+
+WordPress: media 143 (original 1200 x 1980 PNG, SHA-256 prefix `ccfd2837cb26a20d`, 308,403 bytes, alt equal to the front-matter alt); draft post 144 (category Postal service and stamps; Rank Math description 145 characters and focus keyword set; comments and pings closed). The content was converted by the same script as before and its SHA-256 equals the local conversion. Editor check: 17 blocks, 0 invalid; Rank Math keyword and description read back correctly. Phone check (preview, logged in): 375 px table and image 315 px wide; 320 px table and image 260 px wide; no horizontal scroll at either width; one H1. Viewport reset afterwards.
+
+Published 2026-11-18 05:16:27 UTC (site local time 00:16) by Claude under the user's standing instruction. https://statesideexplained.com/usps-post-office-thanksgiving/ . No indexing request.
+
+Live QA (logged out, `cache: no-store`): 200; canonical equals the URL; title and meta description (145 characters) equal the draft; Open Graph title, description and image present; robots index, follow; JSON-LD with a BlogPosting; one H1; no comment form or pingback; image src, alt and hash (`ccfd2837cb26a20d`, 308,403 bytes) correct; one table; four H2s; key sentences present (all Post Office locations closed, regular delivery and retail resume, the Priority Mail Express "does not say" sentence); no dollar amounts; internal links to Hold Mail and holiday shipping deadlines return 200 (one more link to the claims post and two category links appear in the page area outside the article text, from the theme's related-posts and category blocks, not from the draft); present in `/post-sitemap.xml`, the feed, the home page and the category page; 34 posts live.
+
+Note: the Priority Mail Express answer stays "not in the notice". Reuse note for 2027: re-read that year's notice; do not carry this year's text over.

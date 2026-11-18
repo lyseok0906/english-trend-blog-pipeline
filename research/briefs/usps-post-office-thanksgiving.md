@@ -1,6 +1,6 @@
 # Brief — usps-post-office-thanksgiving
 
-**Stage (updated 2026-11-18):** draft with Gate 1 done by Claude (22 of 22 claims; `editorial/qa/usps-post-office-thanksgiving.md`), waiting for Gate 2. Written only from the USPS release of Nov. 17, 2026; Priority Mail Express is stated as not in the notice; the 2025 notice is not applied. Sources: `research/sources/usps-post-office-thanksgiving.md`.
+**Stage (updated 2026-11-18):** **published 2026-11-18 (post 144)** after Gate 1 (22 of 22 claims; `editorial/qa/usps-post-office-thanksgiving.md`) and Gate 2 PASS on `be17de1`; release and events page re-read right before publishing, no change. Written only from the USPS release of Nov. 17, 2026; Priority Mail Express is stated as not in the notice; the 2025 notice is not applied. Sources: `research/sources/usps-post-office-thanksgiving.md`.
 **Lane:** postal service and stamps (rule- and schedule-type post: mandatory official-page re-check). Overlaps with the Thanksgiving date brief and the federal-holiday brief.
 **Pilot status:** **deferred, NOT counted in the 12-post pilot** (user decision 2026-10-07). Write in mid-November, after USPS's 2026 Thanksgiving notice.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
