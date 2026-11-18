@@ -42,3 +42,20 @@ Retrieved: **2026-11-06**, by Cowork (Claude), in the built-in browser on about.
 1. Read it in full; record its URL, title, date, verbatim operating sentences and whether Priority Mail Express is mentioned (S6).
 2. Fill the `[[HOLD-...]]` markers in the draft only from S6. Do not carry S3 or S4 wording over.
 3. Re-read S1, S2 and S6 at Gate 1, before approval and right before publishing; refresh the as-of date.
+
+## S6 — USPS national release, Nov. 17, 2026 — Thanksgiving 2026 (primary, official; read 2026-11-18)
+
+- URL: https://about.usps.com/newsroom/national-releases/2026/1117-usps-to-close-for-thanksgiving-holiday-on-nov-26.htm . Page title: "U.S. Postal Service To Observe Thanksgiving Holiday, Nov. 26"; RSS title "USPS to close for Thanksgiving holiday on Nov. 26" (RSS date Tue, 17 Nov 2026 13:36 -0500); date shown "Nov. 17, 2026"; label "National news". Page text 2,998 characters after whitespace normalization (read twice on 2026-11-18, 20 of 20 phrase checks).
+- Subtitle: "Self-service options are available in many retail lobbies when Post Offices are closed".
+- Verbatim: "The U.S. Postal Service will observe the Thanksgiving federal holiday on Thursday, November 26. All Post Office locations will be closed. Regular mail delivery and retail services will resume on Friday, November 27."
+- Verbatim: "Customers are reminded that when Post Offices are closed, they can still visit usps.com to order stamps and free USPS boxes, and to access services such as Hold Mail, Change of Address, PO Box rental or renewal, and Click-N-Ship to print pre-paid labels. In addition, self-service kiosks are available in select lobbies nationwide." Kiosk features: postage printing for Priority Mail, Priority Mail Express and international shipping; stamps for purchase; ability to weigh and mail packages; package tracking information. "As USPS modernizes its retail locations, more self-service options are becoming available at more locations and may include": Rapid Dropoff Stations for customers who have already created and printed labels online; an option to print shipping labels from a merchant-provided QR code; USPS Smart Lockers to drop off and pick up packages. "Many self-service kiosks are available 24/7".
+- **Not in the text:** any sentence on Priority Mail Express delivery on the holiday ("Priority Mail Express" occurs once, in the kiosk postage-printing list); hours or times; mailing deadlines; names of lobbies; a kiosk count (the 2025 release had one).
+- Site banner on every about.usps.com page read (not part of the release): effective Nov. 29, international mail service to Canada is temporarily suspended because of the strike of the Canadian Union of Postal Workers. Not used.
+
+## S2 refresh (read 2026-11-18)
+
+Holidays and Events page, 1,402 characters after normalization, no update date: "2026 holidays": Wednesday, November 11, Veterans Day; Thursday, November 26, Thanksgiving Day; Friday, December 25, Christmas Day. No open/closed wording. Unchanged in substance from 2026-11-06.
+
+## Rule for the article (user, 2026-11-18)
+
+S4 (the 2025 notice) is a record only and is not applied to 2026. The Priority Mail Express question is answered only with "the notice does not say, either way".

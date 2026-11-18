@@ -1,6 +1,6 @@
 # Brief — usps-post-office-thanksgiving
 
-**Stage:** topic brief (lifecycle step 1). Source notes not yet created: the verbatim notes below move into `research/sources/usps-post-office-thanksgiving.md` at the sources step. No draft exists.
+**Stage (updated 2026-11-18):** draft with Gate 1 done by Claude (22 of 22 claims; `editorial/qa/usps-post-office-thanksgiving.md`), waiting for Gate 2. Written only from the USPS release of Nov. 17, 2026; Priority Mail Express is stated as not in the notice; the 2025 notice is not applied. Sources: `research/sources/usps-post-office-thanksgiving.md`.
 **Lane:** postal service and stamps (rule- and schedule-type post: mandatory official-page re-check). Overlaps with the Thanksgiving date brief and the federal-holiday brief.
 **Pilot status:** **deferred, NOT counted in the 12-post pilot** (user decision 2026-10-07). Write in mid-November, after USPS's 2026 Thanksgiving notice.
 **Prepared:** 2026-10-07 by Cowork (Claude). Not yet reviewed by the user or ChatGPT.
@@ -113,3 +113,7 @@ USPS newsroom RSS (`about.usps.com/news/latestnews.rss`, 705 items): the newest 
 - **Side note, outside this post's scope:** every about.usps.com page read showed a banner: "Effective Nov. 29, international mail service to Canada is temporarily suspended, due to the strike of the Canadian Union of Postal Workers." It is not part of the Thanksgiving notice; recorded only so nobody mistakes it for one.
 - **What this changes:** the HOLD condition in the skeleton (`content/drafts/usps-post-office-thanksgiving.md`, eight `[[HOLD` markers) is now met for the lead, scope and operating section; the Priority Mail Express question stays open (the notice is silent). Next steps if the user approves: complete the draft only from this notice, make the diagram and the alt, run Gate 1, then Gate 2 by SHA; re-read the notice and the events page right before publishing. Timing note: Thanksgiving is Thursday, Nov. 26, so the post is time-sensitive.
 - **Search volume** was not checked and is not claimed.
+
+## User decision 2026-11-18: proceed
+
+After the check above, the user approved drafting, diagram and Gate 1 from the Nov. 17, 2026 release; Priority Mail Express delivery on the day is handled as "not confirmed by the notice"; the 2025 notice is not applied to 2026. Done the same day: draft (`content/drafts/usps-post-office-thanksgiving.md`, 8 HOLD markers filled, none left), diagram, Gate 1. Re-read the release and the events page right before publishing (mandatory); report before publishing if either changed.
