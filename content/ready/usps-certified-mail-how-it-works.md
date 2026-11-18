@@ -59,7 +59,7 @@ Three limits follow from the pages. First, the DMM mentions only fewer days for 
 
 ## Refunds
 
-The FAQ says the service fee, not the postage, is eligible for a refund in four cases: the mailing receipt and electronic verification have not been received after 30 days but the item is known to have been delivered; non-delivery when USPS is at fault; incorrect charges for postage or fees; and paid services not provided. A request can be made 30 to 60 days after the mailing date, on USPS.com (usps.com/help/refunds.htm) or at a Post Office with PS Form 3533, along with evidence of mailing and postage. The FAQ says refunds are at the discretion of the local Post Office, and that there is no refund for Certified Mail service if the item is undeliverable but a delivery was attempted.
+The FAQ says the service fee, not the postage, is eligible for a refund in four cases: the mailing receipt and electronic verification have not been received after 30 days but the item is known to have been delivered; non-delivery when USPS is at fault; incorrect charges for postage or fees; and paid services not provided. A request can be made 30 to 60 days after the mailing date, on USPS.com (usps.com/help/refunds.htm) or at a Post Office with PS Form 3533, along with evidence of mailing and postage. The FAQ says refunds are at the discretion of the local Post Office, and that there is no refund for Certified Mail service if the item is undeliverable but a delivery was attempted. Our [USPS refunds article](https://statesideexplained.com/usps-refund-how-it-works/) covers the USPS.com refund page and DMM 604.9, including how they count the 30 to 60 days for extra services.
 
 ## Fees
 

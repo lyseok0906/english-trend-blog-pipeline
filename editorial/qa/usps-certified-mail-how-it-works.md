@@ -181,3 +181,11 @@ The user approved moving this article to `ready` on 2026-11-04 after the officia
 **Mobile (375 px, live page).** No horizontal scroll; image 315 px wide, loaded in full resolution (1200x3273 original; no srcset, as accepted by the user); source links stay inside the screen.
 
 **Not done (standing decisions).** No indexing request; no Search Console check yet (natural crawl is observed until the 4-week evaluation). No internal link was added to or from other posts.
+
+## Link to the USPS refunds article (link-only edit, 2026-11-18)
+
+Approved by the user after the refunds post was published (post 147). Place: section "Refunds", end of the paragraph. Added sentence: "Our USPS refunds article covers the USPS.com refund page and DMM 604.9, including how they count the 30 to 60 days for extra services." Link target: https://statesideexplained.com/usps-refund-how-it-works/ (anchor "USPS refunds article").
+
+Changed from the proposal: the proposed wording said the refunds article "compares this FAQ", but the refunds article did not read the Certified Mail FAQ (it reads the USPS.com refund page, DMM 604.9 and the refund FAQ). The sentence now names only what the refunds article covers. The Certified Mail paragraph's own statement (30 to 60 days after the mailing date, from the FAQ) is untouched; the refunds article separately notes that DMM 604.9.2.4 counts extra-service fees from the date the service was purchased.
+
+Checked after the edit: repository file and WordPress raw content carry the same sentence; the link goes to the USPS refunds article (post 147) without a new-window attribute, like the other internal links, and returns 200 logged out; the public page has the paragraph text exactly as in the repository, one refund-article link, one H1, canonical unchanged and no comment form; block editor: 31 blocks, 0 invalid. No other text, source statement, date or checked-state line was changed. Repository: `content/ready/usps-certified-mail-how-it-works.md`; WordPress post 72 edited by REST (one asserted-unique paragraph end replaced).

@@ -99,3 +99,11 @@ The user asked, after the PASS, to link A and B to each other and to add a B lin
 | Missing Mail (123) | "Claims and refunds", end of the last paragraph | "Our USPS claims article compares that FAQ with the File a Claim page and section 609 of the Domestic Mail Manual." |
 
 The Missing Mail sentence "which this article did not read" is unchanged and still true for that article. Result, checked logged out: each of the three pages has exactly one link to its partner in the article body (200), page title and meta description unchanged, one H1; editor check of 138, 135 and 123: 28, 24 and 27 blocks, 0 invalid; Rank Math keywords unchanged. The Sources lists were not changed.
+
+## Link to the USPS refunds article (link-only edit, 2026-11-18)
+
+Approved by the user after the refunds post was published (post 147). Place: section "Refunds" paragraph beginning "On refunds" (end of the paragraph). Added sentence: "USPS.com sends postage and fee refunds to a separate page, which this article did not read; our USPS refunds article covers that page and the refund rules in the Domestic Mail Manual." Link target: https://statesideexplained.com/usps-refund-how-it-works/ (anchor "USPS refunds article").
+
+The earlier sentence "which this article did not read" is kept on purpose: it states what this article's own sources covered and stays true. The link sentence only says where the separate page is covered. No claim is made that this article was checked against the refund page.
+
+Checked after the edit: repository file and WordPress raw content carry the same sentence; the link goes to the USPS refunds article (post 147) without a new-window attribute, like the other internal links, and returns 200 logged out; the public page has the paragraph text exactly as in the repository, one refund-article link, one H1, canonical unchanged and no comment form; block editor: 28 blocks, 0 invalid. No other text, source statement, date or checked-state line was changed. Repository: `content/ready/usps-claim-how-it-works.md`; WordPress post 138 edited by REST (one asserted-unique paragraph end replaced).

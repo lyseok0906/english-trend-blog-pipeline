@@ -66,7 +66,7 @@ USPS.com says USPS usually sends claims decisions "within 5-10 days." The FAQ gi
 
 For a partly paid or denied claim, there are two appeals, but the sources count the 30 days differently. USPS.com says you may file an appeal "within 30 days of receiving the decision," and a second appeal "within 30 days of the date you received the appeal denial." The FAQ says a first appeal is "within 30 days of the date of the original decision" and a final appeal to the Consumer Advocate is "within 30 days of the date of the second denial." The DMM (section 609.6) says a customer may appeal "within 30 days from the date of the original decision," and for the final review says only "within 30 days," without saying from when. Whether "receiving" and "date of" mean the same day is not stated, and this article does not say which wording applies. Anyone close to a limit may want to count from the decision date and to check the current wording on the [USPS claims page](https://www.usps.com/help/claims.htm), which the DMM names for filing appeals.
 
-On refunds, the FAQ says postage reimbursement is included with the claim payment if the item was lost or not delivered, and that insurance fees "are not reimbursed." USPS.com sends postage and fee refunds to a separate page, which this article did not read.
+On refunds, the FAQ says postage reimbursement is included with the claim payment if the item was lost or not delivered, and that insurance fees "are not reimbursed." USPS.com sends postage and fee refunds to a separate page, which this article did not read; our [USPS refunds article](https://statesideexplained.com/usps-refund-how-it-works/) covers that page and the refund rules in the Domestic Mail Manual.
 
 ## Cases that are limited or not paid
 
