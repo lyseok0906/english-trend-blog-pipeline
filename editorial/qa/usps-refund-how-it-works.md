@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-refund-how-it-works.md` (draft, 2026-11-18; about 2,240 words in the body, one H1, nine H2 sections including Sources; two tables; seven internal links).
 Brief: `research/briefs/usps-refund-how-it-works.md`. Sources: `research/sources/usps-refund-how-it-works.md` (S1 USPS.com refund page, S2 DMM 604.9, S3 FAQ 000005310, S4 FAQ PO Box 000005315, S5 FAQ claims 000006089).
-Stage: **draft, Gate 1 done by Claude 2026-11-18; Gate 2 on `be17de1` = FIX, applied 2026-11-18; waiting for the user's re-check of the changed parts.** Rule-type post: re-read S1, S2 and S4 right before any publishing.
+Stage: **published 2026-11-18 (post 147, media 146); Gate 1 done by Claude; Gate 2 on `be17de1` = FIX (applied), Gate 2 on `f6acd07` = PASS (user-reported 2026-11-18).** Rule-type post: re-read S1, S2 and S4 right before any publishing.
 
 ## Scope as set by the user (2026-11-18)
 
@@ -117,3 +117,35 @@ Re-read right before the fix (2026-11-18, built-in browser): USPS.com refund pag
 | F3 | Make clear that an application window does not guarantee eligibility or approval; point to official service-specific conditions | Body: lead sentence; "Windows" cell of table 1; a paragraph before the timing table (window is only the period in which a request may be made; conditions and exceptions are on the USPS.com refund page and DMM 604.9, with 604.9.2 and 604.9.5 named); the timing table header "a window, not a guarantee"; the Click-N-Ship row and paragraph (the online route also needs an unscanned label with no earlier refund request); "What is not refundable" now opens with "Being inside a window does not make a request eligible, and these exceptions apply even then." Diagram: "A window does not guarantee a refund. Service conditions and exceptions apply: see the USPS.com page and DMM 604.9." and "Timing alone does not guarantee a refund" in the Click-N-Ship card; Priority Mail Express exceptions line in the "Not refundable" card. Two new external links in the body (USPS.com refund page, DMM 604.9; both also in Sources). | body, table 2, image cards 3, 4, 5, alt | pass |
 
 Unchanged on purpose: the body explanation of the source differences (extra-service dates, PO Box, Package Intercept, the 10-to-60-day row, FAQ), the DMM 604.9.2.4 and 604.9.5.5 exception lists, all other claims C2 to C41. The article now has about 3,100 words including the front matter and alt text (the body text without them is longer than before by about 250 words); the user said length need not be cut.
+
+## Gate 2 PASS and publication record (2026-11-18)
+
+Gate 2 on `f6acd07`: **PASS** (user-reported 2026-11-18). The user asked for the three sources to be re-read right before publishing and for publication if nothing important had changed.
+
+Pre-publish re-read (2026-11-18, built-in browser): 
+- S1 USPS.com refund page: normalized text 11,306 characters, the same length as the first read; 37 of 39 test phrases matched at once and the other two failed only because of my phrasing (the page writes "2–3 business days" with an en dash and "Part I of Form 3533"; both confirmed in the text); the page still has no "10 days" row. Unchanged.
+- S2 DMM 604: 31 of 38 phrases matched; the seven others failed on wording and were confirmed in the text ("Collect on delivery (COD), Priority Mail Express insurance, insured mail, and Registered Mail fees"; "postmarked (round-dated) mailing receipt"; "valid USPS acceptance/mail processing scan events"; "within 2 business days"; "Alaska or Hawaii"; the evidence-retention sentence; "thirty (30) days of printing the indicia"). Click-N-Ship is still named once. The only bracketed amendment dates outside section 9 are new ([11-2-26] in 4.5 and elsewhere); section 9 shows none newer than before. Unchanged for this article.
+- S4 PO Box FAQ: still dated Nov. 13, 2026; the 3-month "Not eligible for a refund once activated, but can still be closed online" row and the "automatic full refund after 30 days of inactivity" sentence unchanged.
+No important change, so the post was published as agreed.
+
+WordPress: media 146 (original 1200 x 3579 PNG, SHA-256 prefix `5a75b1a665dcb575`, 691,592 bytes, alt (1,388 characters) equal to the front-matter alt); draft post 147 (category Postal service and stamps; Rank Math description 149 characters and focus keyword "usps refund"; comments and pings closed). The converted content (20,213 characters) has the same SHA-256 as the local Python conversion (`4c063ee3...`). Editor check: 32 blocks, 0 invalid; Rank Math read back. Phone check (preview, logged in): 375 px: both tables and the image 315 px wide, scroll width 375; 320 px: tables and image 260 px, scroll width 320; one H1; table text 12 px. Viewport reset afterwards.
+
+Published 2026-11-18 05:27:27 UTC (site local 00:27) by Claude. https://statesideexplained.com/usps-refund-how-it-works/ . No indexing request.
+
+Live QA (logged out, `cache: no-store`): 200; canonical equals the URL; title and meta description (149 characters) equal the draft; Open Graph title, description and image present; robots index, follow; JSON-LD with a BlogPosting; one H1; nine H2; two tables; no comment form or pingback; image src, alt (1,388 characters, starts and ends as the draft) and hash (`5a75b1a665dcb575`, 691,592 bytes) correct; the five key FIX sentences present (window is not approval; day 60 not asserted; PME guarantee; "Being inside a window does not make a request eligible"; more than 30 but less than 60 days); no dollar amounts and no percentage; the seven internal links return 200 (claims, Missing Mail, Certified Mail, PO Box, Package Intercept, Package Pickup, holiday shipping deadlines); external links are the USPS.com refund page and DMM 604.9 (each twice: body and Sources), the refund FAQ, the PO Box FAQ and the claims FAQ; present in `/post-sitemap.xml`, the feed, the home page and the category page; 35 posts live.
+
+## Link follow-ups to other posts (proposed, not applied; link-only edits need the user's approval)
+
+The new post is linked from nothing yet. Proposed wording and place (each is one sentence, all link to https://statesideexplained.com/usps-refund-how-it-works/ with the anchor "USPS refunds article"):
+
+| Priority | Post (WordPress id) | Where | Change |
+|---|---|---|---|
+| 1 | Claims (138), `usps-claim-how-it-works`, "On refunds" paragraph | Replace the last sentence "USPS.com sends postage and fee refunds to a separate page, which this article did not read." | "USPS.com sends postage and fee refunds to a separate page; our [USPS refunds article](...) covers that page and the refund rules in the Domestic Mail Manual." (the old sentence says the claims article did not read the page, which is now covered elsewhere; the new one makes no claim about what the claims article read) |
+| 2 | Missing Mail (123), section "Claims and refunds" | Add at the end of the first paragraph (after the sentence on the FAQ's shorter wording) | "Our [USPS refunds article](...) covers the refund windows and conditions for services such as Priority Mail Express." |
+| 3 | Certified Mail, section "Refunds" | Add at the end of the paragraph | "Our [USPS refunds article](...) compares this FAQ with the USPS.com refund page and DMM 604.9, including how they count the 30 to 60 days." |
+| 4 | PO Box, refund paragraph | Add after "...for the current conditions." | "Our [USPS refunds article](...) shows how the USPS.com page and the FAQ word PO Box refunds differently." |
+| 5 | Package Intercept, "when charges apply" paragraph | Add at the end | "Our [USPS refunds article](...) notes how the USPS.com page and the DMM word the refund of the intercept fee." |
+| 6 | Package Pickup, last sentence of the FAQ paragraph on Pickup on Demand refunds | Add at the end | "Our [USPS refunds article](...) lists the USPS.com conditions for a Pickup On Demand refund." |
+| 7 | Holiday shipping deadlines, Priority Mail Express guarantee paragraph | Add at the end | "Our [USPS refunds article](...) lists the DMM exceptions to the Priority Mail Express refund." |
+
+Not proposed: Priority Mail vs Ground Advantage, tracking status, Media Mail (no refund text). Rows 1 to 4 are the closest matches; 5 to 7 are optional. Rule used before: after approval, apply to the repository files and WordPress (REST edit of one asserted-unique paragraph per post), then record the places and results.

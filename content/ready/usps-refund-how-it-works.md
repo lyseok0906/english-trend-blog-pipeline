@@ -4,7 +4,7 @@ slug: usps-refund-how-it-works
 meta_description: "USPS refund windows run 2 to 60 days after mailing, but each service has its own conditions. See what to bring and how a refund differs from a claim."
 category: Postal service and stamps
 focus_keyword: usps refund
-status: draft
+status: ready
 date: 2026-11-18
 internal_link_candidates: usps-claim-how-it-works, usps-missing-mail-search-how-it-works, usps-certified-mail-how-it-works, usps-po-box-how-it-works, usps-package-intercept-how-it-works, usps-package-pickup-how-it-works, usps-holiday-shipping-deadlines-2026 (all published; all linked once in the body; decide at Gate 2). After publication, a link-only edit to the claims post (which says it did not read the refund page) is proposed, not applied.
 image: assets/optimized/usps-refund-how-it-works.png
