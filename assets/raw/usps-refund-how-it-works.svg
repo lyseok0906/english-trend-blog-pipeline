@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1834" viewBox="0 0 800 1834" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What USPS pages say about a refund and how it differs from a claim, with no amounts or fees. Refund: money back for postage or fees paid when no service was rendered or too much was charged (DMM 604.9.2). Claim: for insured mail that was lost, damaged or missing contents, a separate process on the USPS.com File a Claim page and in DMM 609. When to apply, counted from the mailing date: Priority Mail Express day 2 to 30, or day 30 to 60 with an extra service; extra services day 30 to 60; postage on other mail day 10 to 60 (DMM chart). Click-N-Ship label, counted from the print date: online in your account for labels printed within 30 days; for an older label, email the Click-N-Ship Help Desk (the page says up to 60 days). Not refundable (DMM): COD, Priority Mail Express insurance, insured mail and Registered Mail fees after USPS accepts the item; unused stamps are exchanged.</title>
+<rect width="800" height="1834" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS refund or claim?</text>
+<text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
+<rect x="40" y="160" width="720" height="250" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="218" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Refund: money back</text>
+<text x="70" y="272" font-size="32" fill="#111827" text-anchor="start">For postage or fees paid when no</text>
+<text x="70" y="318" font-size="32" fill="#111827" text-anchor="start">service was rendered, or when too</text>
+<text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">much was charged (DMM 604.9.2).</text>
+<rect x="40" y="440" width="720" height="296" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="498" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Claim: a different request</text>
+<text x="70" y="552" font-size="32" fill="#111827" text-anchor="start">For insured mail that was lost,</text>
+<text x="70" y="598" font-size="32" fill="#111827" text-anchor="start">damaged or missing contents.</text>
+<text x="70" y="644" font-size="32" fill="#111827" text-anchor="start">See the USPS.com File a Claim page</text>
+<text x="70" y="690" font-size="32" fill="#111827" text-anchor="start">and DMM 609.</text>
+<rect x="40" y="766" width="720" height="342" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="824" font-size="36" font-weight="bold" fill="#111827" text-anchor="start">When to apply (from mailing date)</text>
+<text x="70" y="878" font-size="32" fill="#111827" text-anchor="start">Priority Mail Express: day 2 to 30;</text>
+<text x="70" y="924" font-size="32" fill="#111827" text-anchor="start">with an extra service: day 30 to 60.</text>
+<text x="70" y="970" font-size="32" fill="#111827" text-anchor="start">Extra services: day 30 to 60.</text>
+<text x="70" y="1016" font-size="32" fill="#111827" text-anchor="start">Postage on other mail: day 10 to 60</text>
+<text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">(DMM chart only).</text>
+<rect x="40" y="1138" width="720" height="250" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="1196" font-size="36" font-weight="bold" fill="#111827" text-anchor="start">Click-N-Ship label (from print date)</text>
+<text x="70" y="1250" font-size="32" fill="#111827" text-anchor="start">Online in your account: label printed</text>
+<text x="70" y="1296" font-size="32" fill="#111827" text-anchor="start">within 30 days. Older label: email the</text>
+<text x="70" y="1342" font-size="32" fill="#111827" text-anchor="start">Help Desk; the page says up to 60 days.</text>
+<rect x="40" y="1418" width="720" height="296" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1476" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Not refundable (DMM 604.9.2.4)</text>
+<text x="70" y="1530" font-size="32" fill="#111827" text-anchor="start">COD, Priority Mail Express insurance,</text>
+<text x="70" y="1576" font-size="32" fill="#111827" text-anchor="start">insured mail and Registered Mail fees</text>
+<text x="70" y="1622" font-size="32" fill="#111827" text-anchor="start">after USPS accepts the item. Unused</text>
+<text x="70" y="1668" font-size="32" fill="#111827" text-anchor="start">stamps are exchanged, not refunded.</text>
+<text x="40" y="1774" font-size="28" fill="#374151" text-anchor="start">Sources: USPS.com refund page, DMM 604.9;</text>
+<text x="40" y="1808" font-size="28" fill="#374151" text-anchor="start">read Nov. 18, 2026</text>
+</svg>
