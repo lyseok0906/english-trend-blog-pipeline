@@ -1,6 +1,6 @@
 # Brief — usps-refund-how-it-works
 
-**Stage:** draft (2026-11-18), Gate 1 done by Claude; waiting for Gate 2. **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
+**Stage:** draft (2026-11-18), Gate 1 done by Claude; Gate 2 on `be17de1` = FIX, applied 2026-11-18 (refund definition widened, Click-N-Ship email route and day-60 wording, window is not a guarantee); waiting for the user's re-check of the changed parts. **Lane:** postal service and stamps (rule-type; official-page re-check before publishing). **Pilot status:** post-pilot (not counted).
 **Chosen:** 2026-11-18 on the user's approval of the seventh survey (`docs/next-candidates-2026-11-18.md`). Title, slug and keyword (`usps refund`) as proposed there.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
