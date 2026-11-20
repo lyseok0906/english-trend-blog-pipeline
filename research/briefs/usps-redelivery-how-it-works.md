@@ -1,6 +1,6 @@
 # Brief — usps-redelivery-how-it-works
 
-**Stage (2026-11-20):** draft with Gate 1 done by Claude (see `editorial/qa/usps-redelivery-how-it-works.md`), waiting for Gate 2. **Lane:** postal service and stamps (rule-type; re-read all four sources right before publishing). **Pilot status:** post-pilot (not counted). Sources: `research/sources/usps-redelivery-how-it-works.md`.
+**Stage (2026-11-20):** **published 2026-11-20** (post 155, media 154; Gate 2 round 1 FIX applied, round 2 PASS on `39202d9`; see `editorial/qa/usps-redelivery-how-it-works.md`). **Lane:** postal service and stamps (rule-type; re-read all four sources right before publishing). **Pilot status:** post-pilot (not counted). Sources: `research/sources/usps-redelivery-how-it-works.md`.
 **Chosen:** 2026-11-20 from the user's two proposed candidates (`docs/next-candidates-2026-11-20.md`). Title "USPS Redelivery: How to Schedule It, Cutoffs and Return Dates", slug `usps-redelivery-how-it-works`, keyword `usps redelivery`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)

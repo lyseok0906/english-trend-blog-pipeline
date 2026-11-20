@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-return-to-sender-how-it-works.md` (draft, 2026-11-20; about 2,470 words in the body without the alt text, one H1, seven H2 sections including Sources; one table; four internal links).
 Brief: `research/briefs/usps-return-to-sender-how-it-works.md`. Sources: `research/sources/usps-return-to-sender-how-it-works.md` (S1 FAQ 000006175, S2 FAQ 000006162, S3 DMM 508, S4 DMM 507, S5 DMM 604).
-Stage: **draft, Gate 1 done by Claude 2026-11-20; waiting for Gate 2.** Rule-type post: re-read S1 to S5 right before any publishing.
+Stage: **published 2026-11-20 (post 157, media 156).** See the Publication section at the end. Rule-type post: re-read S1 to S5 right before any publishing.
 
 ## Method
 
@@ -84,7 +84,7 @@ No conflicts in the facts of the published posts were found. The wording "return
 
 ## Not checked
 
-The WordPress draft, mobile layout (375 px, 320 px), editor validity and the live page have not been checked; this is a repository draft. Search volume was not checked; Trends numbers are relative indexes.
+(Superseded by the Publication section below.) At the time of Gate 1 the WordPress draft, mobile layout, editor validity and the live page had not been checked. Search volume was not checked; Trends numbers are relative indexes.
 
 ## Gate 2 round 1 (reviewer, on `ec2de70`): FIX — applied 2026-11-20
 
@@ -100,3 +100,15 @@ The WordPress draft, mobile layout (375 px, 320 px), editor validity and the liv
 **Re-check:** every changed statement restates text already matched in S1 (7 days from the date of mailing; the three options; the claim for insured items meeting the timeframe requirements) and S3 (the five types; unopened; reasonable time); the added absence statement ("does not say … returned") was checked by reading the whole undeliverable-mail FAQ section. No fee, price or percentage was added. The reviewer's note that the three-situation split, the two markings ("Not at this address" for the right location with the wrong person, no marking for the wrong location) and the way the cited section numbers are explained are fine is kept as is.
 
 **Files after the fix:** md 20,068 B `b97bf2cdc7a509d6`; PNG 1200 x 3924, 753,824 B `25e2037ecd474e29`; SVG 7,901 B `063a32bbd9927356` (no C2PA data; equal to the originals). The script check for text past the right margin returned an empty list. The WordPress draft and mobile layout are still not checked.
+
+## Publication — 2026-11-20 (KST)
+
+**Gate 2.** Round 1 on the first commit = FIX (applied in `39202d9`); round 2 on `39202d9` = PASS (changed parts only). Remote `main` carried `39202d9`; the raw repository files matched the local ones before publishing.
+
+**Sources re-read right before publishing (five pages: FAQ 000006175, FAQ 000006162 and DMM 507, 508 and 604).** Dates unchanged (May 19, 2026; Sep 3, 2026). The Gate 1 phrase lists were run again: FAQ 000006175 all phrases including "timeframe requirements"; FAQ 000006162 21 of 21; DMM 508 15 of 15; DMM 507 22 of 22; DMM 604 4 of 4. The DMM 507 Post Office box sentence was re-read in full and still has no comma before "and perishable mail". No important change, so nothing was reported before publishing.
+
+**WordPress.** The built-in browser's WordPress login had expired; the user signed in again and the work continued. The markdown was converted in the browser with the JavaScript port of the conversion script: the SHA-256 of the converted block content equalled the Python result (`da7abb1f464f6b4754a1d63aba4f2c28073a754cb96da69c8021175af6ed2e8d`). The PNG was fetched from the repository `main` and its hash matched before upload (media 156; original file URL 200, same hash). Draft post 157 (category 6, comments and pings closed, no featured image); Rank Math description and focus keyword set through the Rank Math update call. Editor: 36 blocks, 0 invalid (paragraph, image, heading, table, list); the Rank Math keyword and a 148-character description were read back. Preview at 375 px and 320 px: no horizontal scroll (scroll width equal to the viewport); the table and the image fit inside the text column (315 px at 375 px, 260 px at 320 px); the viewport was reset to desktop afterwards. Published with a single status change.
+
+**Live QA, logged out (no cookies, no cache).** Page 200; canonical, title, meta description (148 characters), og:title and og:image present; robots "index, follow"; JSON-LD BlogPosting; one H1; no comment form or pingback link; no "$" or "%" in the article text; image source, alt (1,865 characters) and hash equal to the repository PNG; key sentences present; 4 body internal links (each 200) and every external body link opens in a new tab with noopener; the URL is in `/post-sitemap.xml`, `/feed/`, the home page and `/category/postal-service-and-stamps/` (200). Public posts: 37.
+
+**Link proposals (not applied; each needs the user's approval).** (1) In the refuse section, after the Certified Mail sentence: "For scheduling a redelivery after a notice is left, see our redelivery article." (2) Mail forwarding post (published): one sentence where it says mail goes back to the sender after forwarding ends, "Our return to sender article compares what USPS pages say about returned and undeliverable mail." Neither changes a fact; both only add a link.

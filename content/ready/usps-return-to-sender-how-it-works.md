@@ -4,7 +4,7 @@ slug: usps-return-to-sender-how-it-works
 meta_description: "USPS pages treat mail you refuse, mail that came to you for someone else and a sender's returned mail as three cases. See what each page says to do."
 category: Postal service and stamps
 focus_keyword: usps return to sender
-status: draft
+status: ready
 date: 2026-11-20
 internal_link_candidates: usps-missing-mail-search-how-it-works, usps-tracking-status-what-it-means, usps-mail-forwarding-how-long, usps-certified-mail-how-it-works (all live; each linked once in the body; decide at Gate 2). After the redelivery article is published, a link to it from the "refuse" section is proposed, not applied.
 image: assets/optimized/usps-return-to-sender-how-it-works.png

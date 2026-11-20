@@ -4,7 +4,7 @@ slug: usps-redelivery-how-it-works
 meta_description: "USPS says you can schedule a free redelivery online, by phone or on PS Form 3849. See the cutoffs, who can accept it and how long items are held."
 category: Postal service and stamps
 focus_keyword: usps redelivery
-status: draft
+status: ready
 date: 2026-11-20
 internal_link_candidates: usps-tracking-status-what-it-means, usps-informed-delivery-how-it-works, usps-certified-mail-how-it-works (all published; each linked once in the body; decide at Gate 2). After publication, a link-only edit to the tracking status post (which says it does not give the time limit) is proposed, not applied.
 image: assets/optimized/usps-redelivery-how-it-works.png

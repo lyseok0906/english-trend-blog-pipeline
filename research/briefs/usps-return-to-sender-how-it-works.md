@@ -1,6 +1,6 @@
 # Brief — usps-return-to-sender-how-it-works
 
-**Stage (2026-11-20):** draft with Gate 1 done by Claude (see `editorial/qa/usps-return-to-sender-how-it-works.md`), waiting for Gate 2. **Lane:** postal service and stamps (rule-type; re-read all five sources right before publishing). **Pilot status:** post-pilot (not counted). Sources: `research/sources/usps-return-to-sender-how-it-works.md`.
+**Stage (2026-11-20):** **published 2026-11-20** (post 157, media 156; Gate 2 round 1 FIX applied, round 2 PASS on `39202d9`; see `editorial/qa/usps-return-to-sender-how-it-works.md`). **Lane:** postal service and stamps (rule-type; re-read all five sources right before publishing). **Pilot status:** post-pilot (not counted). Sources: `research/sources/usps-return-to-sender-how-it-works.md`.
 **Chosen:** 2026-11-20 on the user's instruction to proceed with the reframed `usps return to sender` post as the second new post (row 41 of the backlog, reframed in `docs/next-candidates-2026-11-20.md`). Title "USPS Return to Sender: Refused, Misdelivered, Undeliverable", slug `usps-return-to-sender-how-it-works` (the placeholder slug `usps-undeliverable-misdelivered-mail` is retired), keyword `usps return to sender`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
