@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2298" viewBox="0 0 800 2298" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What USPS pages say about redelivery. Notice left, PS Form 3849: a delivery was attempted but not completed; the form lists carrier redelivery, Post Office pickup, or a Smart Locker if that box is checked. Schedule it, free, for a day rather than a time: with the QR code or online using the tracking or barcode number, by phone with the tracking number, or on the paper form for non-accountable mail only; for same-day redelivery, submit by 2 AM CST, Monday to Saturday. Change or cancel online with the confirmation number no later than the day before; only one request is allowed and a Return to Sender request cannot be changed. Who can accept: the addressee or an authorized agent, at the original address only; for signature mail, you or your agent must be there and signing the notice is not enough. How long it is held, in calendar days: Priority Mail Express 5 days after the first attempt; extra-service items 15 days; Collect on Delivery 30 days in one USPS table and 10 days in the text; the final notice shows the Return Date. Cannot schedule: an item already returned to the sender, an existing request, or an address that does not match the original.</title>
+<rect width="800" height="2298" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS redelivery</text>
+<text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
+<rect x="40" y="160" width="720" height="296" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="218" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Notice left: PS Form 3849</text>
+<text x="70" y="272" font-size="32" fill="#111827" text-anchor="start">A delivery was attempted but not</text>
+<text x="70" y="318" font-size="32" fill="#111827" text-anchor="start">completed. The form lists your options:</text>
+<text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">carrier redelivery, Post Office pickup,</text>
+<text x="70" y="410" font-size="32" fill="#111827" text-anchor="start">or a Smart Locker if that box is checked.</text>
+<rect x="40" y="486" width="720" height="388" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="544" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Schedule it: free, pick a day</text>
+<text x="70" y="598" font-size="32" fill="#111827" text-anchor="start">QR code, or online with the tracking or</text>
+<text x="70" y="644" font-size="32" fill="#111827" text-anchor="start">barcode number; by phone with the</text>
+<text x="70" y="690" font-size="32" fill="#111827" text-anchor="start">tracking number; or the paper form</text>
+<text x="70" y="736" font-size="32" fill="#111827" text-anchor="start">(non-accountable mail only).</text>
+<text x="70" y="782" font-size="32" fill="#111827" text-anchor="start">Same day: submit by 2 AM CST,</text>
+<text x="70" y="828" font-size="32" fill="#111827" text-anchor="start">Monday to Saturday.</text>
+<rect x="40" y="904" width="720" height="296" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="962" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Change or cancel</text>
+<text x="70" y="1016" font-size="32" fill="#111827" text-anchor="start">Online with the confirmation number,</text>
+<text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">no later than the day before. One</text>
+<text x="70" y="1108" font-size="32" fill="#111827" text-anchor="start">request only; a Return to Sender</text>
+<text x="70" y="1154" font-size="32" fill="#111827" text-anchor="start">request cannot be changed.</text>
+<rect x="40" y="1230" width="720" height="296" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="1288" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Who can accept it</text>
+<text x="70" y="1342" font-size="32" fill="#111827" text-anchor="start">The addressee or an authorized agent,</text>
+<text x="70" y="1388" font-size="32" fill="#111827" text-anchor="start">at the original address only. Signature</text>
+<text x="70" y="1434" font-size="32" fill="#111827" text-anchor="start">mail: you or your agent must be there;</text>
+<text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">signing the notice is not enough.</text>
+<rect x="40" y="1556" width="720" height="342" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1614" font-size="36" font-weight="bold" fill="#111827" text-anchor="start">How long it is held (calendar days)</text>
+<text x="70" y="1668" font-size="32" fill="#111827" text-anchor="start">Priority Mail Express: 5 days after the</text>
+<text x="70" y="1714" font-size="32" fill="#111827" text-anchor="start">first attempt. Extra-service items: 15</text>
+<text x="70" y="1760" font-size="32" fill="#111827" text-anchor="start">days. COD: 30 in one table, 10 in the</text>
+<text x="70" y="1806" font-size="32" fill="#111827" text-anchor="start">text. The final notice shows the Return</text>
+<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">Date; after it the item goes back.</text>
+<rect x="40" y="1928" width="720" height="250" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1986" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">When you cannot schedule one</text>
+<text x="70" y="2040" font-size="32" fill="#111827" text-anchor="start">An item already returned to the sender;</text>
+<text x="70" y="2086" font-size="32" fill="#111827" text-anchor="start">a request already exists; or the address</text>
+<text x="70" y="2132" font-size="32" fill="#111827" text-anchor="start">does not match the original.</text>
+<text x="40" y="2238" font-size="28" fill="#374151" text-anchor="start">Sources: USPS Redelivery FAQs and the USPS.com</text>
+<text x="40" y="2272" font-size="28" fill="#374151" text-anchor="start">Schedule a Redelivery page; read Nov. 20, 2026</text>
+</svg>
