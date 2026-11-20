@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2244" viewBox="0 0 800 2244" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>What USPS pages say about return to sender, which they treat as three situations. 1, mail for someone else: for a previous resident or a person who does not live there, write &quot;Not at this address&quot; and give it to the carrier or a collection box, without erasing the address; for a piece delivered to the wrong location, write nothing and put it back or hand it to the carrier; for Priority Mail Express only, call 1-800-ASK-USPS; the FAQ says destroying mail not meant for you may be prohibited by law. 2, you refuse it: refuse it when offered, or after delivery mark it &quot;Refused&quot; and return it unopened within a reasonable time; an opened piece needs a new envelope, correct address and new postage; Registered, insured, Certified, COD and Adult Signature mail cannot be returned postage-free after delivery; accountable mail can be refused before signing by checking &quot;Refused&quot; on the notice. 3, you sent it: it goes to the return address; with none, the local Post Office or the Mail Recovery Center handles it; Priority Mail Express, Priority Mail, First-Class Mail and USPS Ground Advantage are returned at no additional charge unless the sender asks otherwise; USPS Marketing Mail is not returned unless endorsed; if it has not arrived in 7 days, use Missing Mail. Where the pages differ: the refusal FAQ cites DMM 604.8.1.2 and 507.1.8.2 but the refusal text is in DMM 508.1.1; the FAQ's not-refusable list has four types and the DMM adds Adult Signature; a reasonable time is not defined; the pages do not say whether &quot;Not at this address&quot; mail must be unopened. Sources: USPS FAQs 000006175 and 000006162 and DMM 507, 508 and 604, read Nov. 20, 2026.</title>
-<rect width="800" height="2244" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2616" viewBox="0 0 800 2616" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>What USPS pages say about return to sender, which they treat as three situations. 1, mail for someone else: for a previous resident or a person who does not live there, write &quot;Not at this address&quot; and give it to the carrier or a collection box, without erasing the address; for a piece delivered to the wrong location, write nothing and put it back or hand it to the carrier; for Priority Mail Express only, call 1-800-ASK-USPS; the FAQ says destroying mail not meant for you may be prohibited by law. 2, you refuse it: refuse it when offered, or after delivery mark it &quot;Refused&quot; and return it unopened within a reasonable time; an opened piece needs a new envelope, correct address and new postage; Registered, insured, Certified, COD and Adult Signature mail cannot be returned postage-free after delivery; accountable mail can be refused before signing by checking &quot;Refused&quot; on the notice. 3, you sent it and USPS cannot deliver it: it goes to the return address; with none, the local Post Office or the Mail Recovery Center handles it; Priority Mail Express, Priority Mail, First-Class Mail and USPS Ground Advantage are returned at no additional charge unless the sender asks otherwise; USPS Marketing Mail is not returned unless endorsed. Separate case, not arrived yet: this is not the same as a return; if it has not arrived within 7 days from mailing, the FAQ points to Find Missing Mail, a search request or, for insured items, a claim, each with its own conditions. Where the pages differ: the refusal FAQ cites DMM 604.8.1.2 and 507.1.8.2 but the refusal text is in DMM 508.1.1; the FAQ's not-refusable list has four types and the DMM adds Adult Signature; a reasonable time is not defined; the pages do not say whether &quot;Not at this address&quot; mail must be unopened. Sources: USPS FAQs 000006175 and 000006162 and DMM 507, 508 and 604, read Nov. 20, 2026.</title>
+<rect width="800" height="2616" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS return to sender: 3 cases</text>
 <text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
 <rect x="40" y="160" width="720" height="480" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
@@ -13,35 +13,42 @@
 <text x="70" y="502" font-size="32" fill="#111827" text-anchor="start">carrier. Priority Mail Express only:</text>
 <text x="70" y="548" font-size="32" fill="#111827" text-anchor="start">call 1-800-ASK-USPS. The FAQ says</text>
 <text x="70" y="594" font-size="32" fill="#111827" text-anchor="start">destroying it may be prohibited by law.</text>
-<rect x="40" y="670" width="720" height="480" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<rect x="40" y="670" width="720" height="526" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
 <text x="70" y="728" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">2. You refuse it</text>
 <text x="70" y="782" font-size="32" fill="#111827" text-anchor="start">At delivery: refuse it. After delivery:</text>
 <text x="70" y="828" font-size="32" fill="#111827" text-anchor="start">mark "Refused", return it unopened,</text>
 <text x="70" y="874" font-size="32" fill="#111827" text-anchor="start">within a reasonable time. Opened: new</text>
 <text x="70" y="920" font-size="32" fill="#111827" text-anchor="start">envelope, address and postage.</text>
-<text x="70" y="966" font-size="32" fill="#111827" text-anchor="start">Registered, insured, Certified, COD,</text>
-<text x="70" y="1012" font-size="32" fill="#111827" text-anchor="start">Adult Signature: not returned postage-</text>
-<text x="70" y="1058" font-size="32" fill="#111827" text-anchor="start">free. Accountable mail: check "Refused"</text>
-<text x="70" y="1104" font-size="32" fill="#111827" text-anchor="start">on the notice before you sign.</text>
-<rect x="40" y="1180" width="720" height="480" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
-<text x="70" y="1238" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. You sent it</text>
-<text x="70" y="1292" font-size="32" fill="#111827" text-anchor="start">Goes to the return address. None or</text>
-<text x="70" y="1338" font-size="32" fill="#111827" text-anchor="start">unreadable: local Post Office or Mail</text>
-<text x="70" y="1384" font-size="32" fill="#111827" text-anchor="start">Recovery Center. Priority Mail Express,</text>
-<text x="70" y="1430" font-size="32" fill="#111827" text-anchor="start">Priority, First-Class, Ground Advantage:</text>
-<text x="70" y="1476" font-size="32" fill="#111827" text-anchor="start">no additional charge unless you ask</text>
-<text x="70" y="1522" font-size="32" fill="#111827" text-anchor="start">otherwise. Marketing Mail: not returned</text>
-<text x="70" y="1568" font-size="32" fill="#111827" text-anchor="start">unless endorsed. Not arrived in 7 days:</text>
-<text x="70" y="1614" font-size="32" fill="#111827" text-anchor="start">use Missing Mail.</text>
-<rect x="40" y="1690" width="720" height="434" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1748" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
-<text x="70" y="1802" font-size="32" fill="#111827" text-anchor="start">The FAQ cites DMM 604.8.1.2 and</text>
-<text x="70" y="1848" font-size="32" fill="#111827" text-anchor="start">507.1.8.2; refusal text is in DMM 508.1.1.</text>
-<text x="70" y="1894" font-size="32" fill="#111827" text-anchor="start">Not-refusable list: four types in the FAQ,</text>
-<text x="70" y="1940" font-size="32" fill="#111827" text-anchor="start">Adult Signature added in the DMM.</text>
-<text x="70" y="1986" font-size="32" fill="#111827" text-anchor="start">"Reasonable time" is not defined. Not</text>
-<text x="70" y="2032" font-size="32" fill="#111827" text-anchor="start">stated: must "Not at this address" mail</text>
-<text x="70" y="2078" font-size="32" fill="#111827" text-anchor="start">be unopened?</text>
-<text x="40" y="2184" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQs 000006175, 000006162;</text>
-<text x="40" y="2218" font-size="28" fill="#374151" text-anchor="start">DMM 507, 508, 604; read Nov. 20, 2026</text>
+<text x="70" y="966" font-size="32" fill="#111827" text-anchor="start">Exceptions after delivery (not returned</text>
+<text x="70" y="1012" font-size="32" fill="#111827" text-anchor="start">postage-free): Registered, insured,</text>
+<text x="70" y="1058" font-size="32" fill="#111827" text-anchor="start">Certified, COD, Adult Signature.</text>
+<text x="70" y="1104" font-size="32" fill="#111827" text-anchor="start">Accountable mail: check "Refused" on</text>
+<text x="70" y="1150" font-size="32" fill="#111827" text-anchor="start">the notice before you sign.</text>
+<rect x="40" y="1226" width="720" height="434" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="1284" font-size="36" font-weight="bold" fill="#111827" text-anchor="start">3. Sent, but cannot be delivered</text>
+<text x="70" y="1338" font-size="32" fill="#111827" text-anchor="start">Goes to the return address. None or</text>
+<text x="70" y="1384" font-size="32" fill="#111827" text-anchor="start">unreadable: local Post Office or Mail</text>
+<text x="70" y="1430" font-size="32" fill="#111827" text-anchor="start">Recovery Center. Priority Mail Express,</text>
+<text x="70" y="1476" font-size="32" fill="#111827" text-anchor="start">Priority, First-Class, Ground Advantage:</text>
+<text x="70" y="1522" font-size="32" fill="#111827" text-anchor="start">no additional charge unless you ask</text>
+<text x="70" y="1568" font-size="32" fill="#111827" text-anchor="start">otherwise. Marketing Mail: not returned</text>
+<text x="70" y="1614" font-size="32" fill="#111827" text-anchor="start">unless endorsed.</text>
+<rect x="40" y="1690" width="720" height="342" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1748" font-size="36" font-weight="bold" fill="#111827" text-anchor="start">Not arrived yet: a different case</text>
+<text x="70" y="1802" font-size="32" fill="#111827" text-anchor="start">Not the same as a return. After 7 days</text>
+<text x="70" y="1848" font-size="32" fill="#111827" text-anchor="start">from mailing, the FAQ points to Find</text>
+<text x="70" y="1894" font-size="32" fill="#111827" text-anchor="start">Missing Mail, a search request or, for</text>
+<text x="70" y="1940" font-size="32" fill="#111827" text-anchor="start">insured items, a claim. Each has its</text>
+<text x="70" y="1986" font-size="32" fill="#111827" text-anchor="start">own conditions.</text>
+<rect x="40" y="2062" width="720" height="434" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="2120" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
+<text x="70" y="2174" font-size="32" fill="#111827" text-anchor="start">The FAQ cites DMM 604.8.1.2 and</text>
+<text x="70" y="2220" font-size="32" fill="#111827" text-anchor="start">507.1.8.2; refusal text is in DMM 508.1.1.</text>
+<text x="70" y="2266" font-size="32" fill="#111827" text-anchor="start">Not-refusable list: four types in the FAQ,</text>
+<text x="70" y="2312" font-size="32" fill="#111827" text-anchor="start">Adult Signature added in the DMM.</text>
+<text x="70" y="2358" font-size="32" fill="#111827" text-anchor="start">"Reasonable time" is not defined. Not</text>
+<text x="70" y="2404" font-size="32" fill="#111827" text-anchor="start">stated: must "Not at this address" mail</text>
+<text x="70" y="2450" font-size="32" fill="#111827" text-anchor="start">be unopened?</text>
+<text x="40" y="2556" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQs 000006175, 000006162;</text>
+<text x="40" y="2590" font-size="28" fill="#374151" text-anchor="start">DMM 507, 508, 604; read Nov. 20, 2026</text>
 </svg>

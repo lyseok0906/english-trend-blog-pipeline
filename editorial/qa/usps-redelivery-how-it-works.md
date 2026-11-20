@@ -94,3 +94,16 @@ No direct contradiction was found.
 ## Result and next step
 
 Gate 1: **PASS** (41 of 41 claims, 10 of 10 image checks). Next: user push, Gate 2 by commit SHA, then approval to move to `ready`; WordPress only after the Gate 2 PASS.
+
+## Gate 2 round 1 (reviewer, on `5662d08`): FIX — applied 2026-11-20
+
+**Finding.** The diagram, the front-matter alt and the body image alt said that for signature mail "you or your agent must be there", and the body sentence before the electronic-signature sentence said the addressee or an agent "must be present to sign". The PS Form 3849 FAQ (S3) answers "Do I have to be present to sign for my mailpiece?" with "Maybe": an Informed Delivery subscriber can sign up for USPS Electronic Signature Online and sign electronically for domestic Priority Mail Express items, Signature Confirmation items and insured items over a stated value; "Otherwise, you or an authorized agent must be present to sign for accountable mail being delivered by a mail carrier"; and signing the notice and leaving it for the carrier "does not meet the minimum requirements for redelivery".
+
+**Changes (four places, same meaning):**
+1. Body, "Who can accept it", second paragraph: now quotes the FAQ's question and "Maybe", gives the Electronic Signature Online option limited to Informed Delivery subscribers and the three named services (insured items "over a stated value", no amount), then "Otherwise … you or an authorized agent must be present", then "signing the notice and leaving it … does not meet the minimum requirements for redelivery". The business-signer sentence and the Certified Mail link are unchanged.
+2. Diagram card "Who can accept it": "Signature mail: you or your agent must be there, unless you use USPS Electronic Signature Online (Informed Delivery; certain services). Signing the notice is not enough." Card grew by three lines; image now 1200 x 3654.
+3. Front-matter `image_alt` and 4. body image alt: "for signature mail, you or your agent must be there unless you use USPS Electronic Signature Online, which Informed Delivery subscribers can use for certain services; signing the notice is not enough." The SVG `<title>` has the same text.
+
+**Re-check against S3 (read again 2026-11-20 in the built-in browser):** 7 of 7 phrases matched (the question and "Maybe"; the Informed Delivery subscriber and Electronic Signature Online sentence; the three services; "Otherwise …"; the minimum-requirements sentence; the business employee sentence and the first-initial-and-last-name sentence). The earlier claim C22 ("both FAQs say that signing the notice … is not enough") is kept; the body wording "minimum requirements" follows S3. The COD 10 days (text) against 30 days (table) display is kept, as the reviewer said it may be.
+
+**Files after the fix:** md 17,826 B `e484d0c8b0097886`; PNG 1200 x 3654, 656,925 B `c150364d073cced2`; SVG 6,680 B `a51ccf29174defed` (no C2PA data; equal to the originals). The script check for text past the right margin returned an empty list. The WordPress draft and mobile layout are still not checked.

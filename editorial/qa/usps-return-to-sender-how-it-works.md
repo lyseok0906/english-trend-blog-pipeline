@@ -85,3 +85,18 @@ No conflicts in the facts of the published posts were found. The wording "return
 ## Not checked
 
 The WordPress draft, mobile layout (375 px, 320 px), editor validity and the live page have not been checked; this is a repository draft. Search volume was not checked; Trends numbers are relative indexes.
+
+## Gate 2 round 1 (reviewer, on `ec2de70`): FIX — applied 2026-11-20
+
+**Finding 1.** The sender card in the diagram and alt had "Goes to the return address" and "Not arrived in 7 days: use Missing Mail" together, which could read as if every piece not arrived after 7 days is returned automatically; the first table's row "You sent it and it did not arrive" had the same problem. **Finding 2.** The first table's refuse row did not show that after delivery the return has exceptions (the DMM lists the mail types that cannot be refused and returned postage-free).
+
+**Changes:**
+1. Diagram: card 3 is now "3. Sent, but cannot be delivered" (return address; no usable return address: local Post Office or Mail Recovery Center; the four classes returned at no additional charge unless the sender asks otherwise; Marketing Mail not returned unless endorsed). A new dashed card "Not arrived yet: a different case" says: not the same as a return; after 7 days from mailing the FAQ points to Find Missing Mail, a search request or, for insured items, a claim; each has its own conditions. Card 2 now says "Exceptions after delivery (not returned postage-free): Registered, insured, Certified, COD, Adult Signature." Image now 1200 x 3924.
+2. Alt (front matter and body image) and the SVG title carry the same split (alt now 1,865 characters).
+3. Table row 3 now reads "You sent it and USPS could not deliver it | USPS tries to return it to the return address; with no usable return address, the local Post Office or the Mail Recovery Center handles it". A sentence under the table says a piece that has not arrived yet is a different case from one being returned and points to Find Missing Mail, a search request or, for insured items, a claim, each with its own conditions.
+4. Table row 2 now reads: refuse it when it is offered; after delivery, mark it "Refused" and return it unopened within a reasonable time, unless it is a type the DMM says cannot be refused and returned postage-free (Registered Mail, insured mail, Certified Mail, COD, Adult Signature) or it has been opened.
+5. Body: the H2 is now "You sent it: mail that is returned, and mail that has not arrived", and the paragraph on the 7-day options starts "A piece that has not arrived is a different case from one that is being returned, and the FAQ does not say that a piece not delivered after 7 days is returned." The three options and "timeframe requirements" for insured items follow S1.
+
+**Re-check:** every changed statement restates text already matched in S1 (7 days from the date of mailing; the three options; the claim for insured items meeting the timeframe requirements) and S3 (the five types; unopened; reasonable time); the added absence statement ("does not say … returned") was checked by reading the whole undeliverable-mail FAQ section. No fee, price or percentage was added. The reviewer's note that the three-situation split, the two markings ("Not at this address" for the right location with the wrong person, no marking for the wrong location) and the way the cited section numbers are explained are fine is kept as is.
+
+**Files after the fix:** md 20,068 B `b97bf2cdc7a509d6`; PNG 1200 x 3924, 753,824 B `25e2037ecd474e29`; SVG 7,901 B `063a32bbd9927356` (no C2PA data; equal to the originals). The script check for text past the right margin returned an empty list. The WordPress draft and mobile layout are still not checked.
