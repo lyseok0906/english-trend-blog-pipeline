@@ -35,3 +35,7 @@ Proposed reframing (needs the user's decision): "USPS undeliverable mail and ret
 ## Decision log pointer
 
 See `docs/decision-log.md`, entry "2026-11-20 (KST) — USPS redelivery drafted; second candidate held".
+
+## Update (2026-11-20, later)
+
+The user chose the reframed `usps return to sender` plan for the second post. It was drafted as `usps-return-to-sender-how-it-works` (backlog row 41; brief, sources and QA under `research/` and `editorial/qa/`). The placeholder slug `usps-undeliverable-misdelivered-mail` is retired.
