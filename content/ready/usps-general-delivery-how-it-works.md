@@ -4,7 +4,7 @@ slug: usps-general-delivery-how-it-works
 meta_description: "What USPS pages say about General Delivery: finding the Post Office, the address format, identification and how long mail is held."
 category: Postal service and stamps
 focus_keyword: usps general delivery
-status: draft
+status: ready
 date: 2026-11-24
 internal_link_candidates: usps-po-box-how-it-works (published; box service and the waiting-list note); usps-hold-mail-how-it-works (published; the other 30-day service). Each appears once in the body. Link texts match the live titles.
 image: assets/optimized/usps-general-delivery-how-it-works.png
