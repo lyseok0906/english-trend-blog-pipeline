@@ -4,7 +4,7 @@ slug: tsa-holiday-food-carry-on
 meta_description: "What TSA's Food page and its November 2026 Thanksgiving local releases say about pies, turkey, gravy and cranberry sauce in carry-on and checked bags."
 category: Airport security rules
 focus_keyword: can you bring holiday food through tsa
-status: draft
+status: ready
 date: 2026-11-24
 internal_link_candidates: tsa-3-1-1-liquids-rule (published; one link in the body for the 3.4-ounce rule; link text matches the live title "What Is the TSA 3-1-1 Liquids Rule? What's Exempt?")
 image: assets/optimized/tsa-holiday-food-carry-on.png
