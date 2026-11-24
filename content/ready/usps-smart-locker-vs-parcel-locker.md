@@ -4,7 +4,7 @@ slug: usps-smart-locker-vs-parcel-locker
 meta_description: "What USPS pages say about Smart Lockers, gopost units and cluster box parcel lockers: how each opens, who can use it and how long a package is held."
 category: Postal service and stamps
 focus_keyword: usps parcel locker
-status: draft
+status: ready
 date: 2026-11-24
 internal_link_candidates: usps-redelivery-how-it-works (published; redelivery to a Smart Locker); usps-tracking-status-what-it-means (published; the cluster box key); usps-po-box-how-it-works (published; oversized PO Box packages); usps-informed-delivery-how-it-works (published; Daily Digest QR code). Each appears once in the body; link texts match the live titles.
 image: assets/optimized/usps-smart-locker-vs-parcel-locker.png

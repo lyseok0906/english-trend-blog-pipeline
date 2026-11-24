@@ -1,6 +1,6 @@
 # Brief — usps-smart-locker-vs-parcel-locker
 
-**Stage (2026-11-24):** draft with Gate 1 done by Claude (see `editorial/qa/usps-smart-locker-vs-parcel-locker.md`), Gate 2 round 1 = FIX (Priority Mail Express count), applied, waiting for round 2. **Lane:** postal service and stamps (rule-type; re-read all nine sources right before publishing). **Pilot status:** post-pilot (not counted). Sources: `research/sources/usps-smart-locker-vs-parcel-locker.md`.
+**Stage (2026-11-24):** draft with Gate 1 done by Claude (see `editorial/qa/usps-smart-locker-vs-parcel-locker.md`), Gate 2 rounds 1 and 2 = FIX (applied), round 3 = PASS; **published 2026-11-24 as post 165**. **Lane:** postal service and stamps (rule-type; re-read all nine sources right before publishing). **Pilot status:** post-pilot (not counted). Sources: `research/sources/usps-smart-locker-vs-parcel-locker.md`.
 **Chosen:** 2026-11-24 on the user's approval of the USPS Smart Locker candidate (`docs/next-candidates-2026-11-24.md`), with the instruction to check the difference between a Smart Locker and a general parcel locker, the hold periods and the conditions of each feature, to compare with the redelivery and PO Box posts, and not to treat the `usps parcel locker` relative index as Smart Locker interest alone. Title "USPS Smart Locker vs. Parcel Locker: Three Kinds of USPS Lockers", slug `usps-smart-locker-vs-parcel-locker`, keyword `usps parcel locker`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
