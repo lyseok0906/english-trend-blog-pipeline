@@ -1,6 +1,6 @@
 # Brief — usps-smart-locker-vs-parcel-locker
 
-**Stage (2026-11-24):** draft with Gate 1 done by Claude (see `editorial/qa/usps-smart-locker-vs-parcel-locker.md`), waiting for Gate 2. **Lane:** postal service and stamps (rule-type; re-read all nine sources right before publishing). **Pilot status:** post-pilot (not counted). Sources: `research/sources/usps-smart-locker-vs-parcel-locker.md`.
+**Stage (2026-11-24):** draft with Gate 1 done by Claude (see `editorial/qa/usps-smart-locker-vs-parcel-locker.md`), Gate 2 round 1 = FIX (Priority Mail Express count), applied, waiting for round 2. **Lane:** postal service and stamps (rule-type; re-read all nine sources right before publishing). **Pilot status:** post-pilot (not counted). Sources: `research/sources/usps-smart-locker-vs-parcel-locker.md`.
 **Chosen:** 2026-11-24 on the user's approval of the USPS Smart Locker candidate (`docs/next-candidates-2026-11-24.md`), with the instruction to check the difference between a Smart Locker and a general parcel locker, the hold periods and the conditions of each feature, to compare with the redelivery and PO Box posts, and not to treat the `usps parcel locker` relative index as Smart Locker interest alone. Title "USPS Smart Locker vs. Parcel Locker: Three Kinds of USPS Lockers", slug `usps-smart-locker-vs-parcel-locker`, keyword `usps parcel locker`.
 
 ## Why this candidate (demand signal, relative only; search volume not checked)
@@ -24,7 +24,7 @@ Redelivery (its scope sentence leaves Smart Lockers to a later post; it says a S
 
 ## Risks (handled by showing, not resolving)
 
-Priority Mail Express: "immediately returned" after 5 days in the locker (USPS.com) against returned 5 calendar days after the initial delivery attempt (FAQ) and held 5 days after the first attempt (redelivery FAQ table); "anytime, anywhere" (USPS.com) against lobby hours (FAQ, Local XChange page); two different maximum sizes (22.5 x 18 x 16.5 and 22.5 x 19.5 x 14.5 inches) on two USPS.com pages; the notice box label ("Parcel Locker Eligible" used for gopost and, in the Redelivery FAQ, also for Smart Lockers). No sentence tells the reader which wording governs.
+Priority Mail Express: "immediately returned" after 5 days in the locker (USPS.com) against returned to sender 5 calendar days after the initial delivery attempt (FAQ) and held 5 days after the first attempt (redelivery FAQ table); the pages give different starting points for the count (stated in the article after Gate 2 round 1, which also limited the 5 + 10 + 15 timeline to packages other than Priority Mail Express); "anytime, anywhere" (USPS.com) against lobby hours (FAQ, Local XChange page); two different maximum sizes (22.5 x 18 x 16.5 and 22.5 x 19.5 x 14.5 inches) on two USPS.com pages; the notice box label ("Parcel Locker Eligible" used for gopost and, in the Redelivery FAQ, also for Smart Lockers). No sentence tells the reader which wording governs.
 
 ## Re-check rule (mandatory before publishing)
 

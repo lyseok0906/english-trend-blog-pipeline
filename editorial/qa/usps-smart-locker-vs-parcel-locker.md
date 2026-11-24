@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-smart-locker-vs-parcel-locker.md` (draft, 2026-11-24, about 2,220 words in the body, one H1, ten H2 sections including Sources; meta description 148 characters; alt text 839 characters).
 Brief: `research/briefs/usps-smart-locker-vs-parcel-locker.md`. Sources: `research/sources/usps-smart-locker-vs-parcel-locker.md` (S1 to S9, all read 2026-11-24).
-Stage: draft. Gate 1 (Claude) run on 2026-11-24. Gate 2 not yet run. Backlog row 42.
+Stage: draft. Gate 1 (Claude) run on 2026-11-24. **Gate 2 round 1 (ChatGPT, base `6ddb13c`, user-reported 2026-11-24): FIX, one item (Priority Mail Express count), applied 2026-11-24** (section "Gate 2 FIX round 1"); Gate 2 round 2 not yet run. Backlog row 42.
 
 ## Scope as approved by the user (2026-11-24)
 
@@ -35,14 +35,14 @@ All nine sources were opened in the built-in browser on 2026-11-24 and every sta
 | C1 | Lead: Smart Locker is in a Post Office lobby and opens with a one-time QR code | S1 | pass |
 | C2 | Lead: gopost needs a registered account, a card and a PIN | S3 | pass |
 | C3 | Lead: a parcel locker in a cluster box unit opens with a key the carrier leaves in the mailbox | S2 | pass |
-| C4 | Lead: Smart Locker 5 calendar days in the locker, 10 more at the retail counter, return to sender 15 days after the first notification | S1, S4 | pass (FAQ: 5 + 10; S4: "15 days after the initial notification") |
+| C4 | Lead: for packages other than Priority Mail Express, Smart Locker 5 calendar days in the locker, 10 more at the retail counter, return to sender 15 days after the first notification; Priority Mail Express has its own count (FAQ: returned to the sender 5 calendar days after the first delivery attempt; USPS.com: after 5 days in the locker) | S1, S4 | pass (FAQ: 5 + 10; S4: "15 days after the initial notification"; the Priority Mail Express note is in S1 and S4, re-read after round 1) |
 | C5 | Article states the Smart Locker pages' scope: date as of Nov. 24, 2026; FAQ dates Jul 28, Aug 4, Oct 22, 2026; Redelivery FAQ Sep 16; PS Form 3849 FAQ Jun 29; return-dates FAQ Apr 7; USPS.com pages show no update date | S1 to S9 | pass |
 | C6 | Table: Smart Locker in Post Office lobbies | S1 | pass |
 | C7 | Table: gopost near certain Post Offices, grocery stores, pharmacies, transportation hubs and more | S3 | pass |
 | C8 | Table: cluster box locker in a CBU, beside neighborhood delivery and collection box units, or with PO Boxes in a retail facility | S2 | pass |
 | C9 | Table: gopost opens with card and PIN; USPS.com account then authentication | S3 | pass |
 | C10 | Table: no account step named for Smart Locker pickup; cluster box account "not described" | S1, S2 | pass (absence check) |
-| C11 | Table: gopost up to 15 days, 5 for Priority Mail Express; cluster box time "not stated" | S3, S2 | pass |
+| C11 | Table: Smart Locker "Other packages: 5 days in the locker, 10 more at the counter. Priority Mail Express: 5 days, counted from the first delivery attempt (FAQ) or in the locker (USPS.com)"; gopost up to 15 days, 5 for Priority Mail Express; cluster box time "not stated" | S1, S4, S3, S2 | pass |
 | C12 | Smart Locker described as "electronic" and "keyless" and a "free, secure, and convenient" alternative | S1 | pass |
 | C13 | gopost units "automated, secured, self-service parcel lockers" | S3 | pass |
 | C14 | Cluster box FAQ definition of a parcel locker | S2 | pass |
@@ -72,16 +72,16 @@ All nine sources were opened in the built-in browser on 2026-11-24 and every sta
 | C38 | PO Box link sentence: an oversized package goes either to the counter by slip or to a secure parcel locker, including USPS Smart Lockers at select locations | published PO Box post (88), which cites USPS.com | open for Gate 2: depends on the published post; not re-read on USPS.com in this check |
 | C39 | PS Form 3849: February 2021 version "Parcel Locker Eligible" for a gopost parcel locker; September 2022 version "USPS Smart Locker Eligible"; earlier versions still in use | S8 | pass |
 | C40 | Redelivery FAQ: "Parcel Locker Eligible" if eligible for gopost Parcel Locker Delivery (limited ZIP Codes); also checked if the "USPS Smart Locker" option is available | S7 | pass |
-| C41 | PME: S4/S5 "immediately returned to sender" after 5 days in the locker; S1 returned 5 calendar days after the initial delivery attempt, "no matter when the 'USPS Smart Locker' option is selected"; S9 held 5 days after the first attempt | S4, S5, S1, S9 | pass (three wordings shown, no date given) |
+| C41 | PME: S4/S5 "after 5 days in the locker: Priority Mail Express packages will be immediately returned to sender"; S1 "returned to sender 5 calendar days after the initial delivery attempt, no matter when the 'USPS Smart Locker' option is selected"; S9 table: Priority Mail Express "5 days after first attempt" and held 5 days before return; the article says the pages give different starting points (first delivery attempt in the FAQs, time in the locker on USPS.com), does not say which applies, and tells a reader near the deadline to ask the Post Office that holds the package | S4, S5, S1, S9 | pass (re-read on 2026-11-24 after round 1) |
 | C42 | Hours difference: S4 "anytime, anywhere" against lobby hours in S1 and S6 | S4, S1, S6 | pass |
 | C43 | Size difference: 22.5 x 18 x 16.5 (S4, S5) against maximum compartment 22.5 x 19.5 x 14.5 (S6); FAQ: varies by locker, Click-N-Ship shows the limit | S4, S5, S6, S1 | pass |
 | C44 | "What the pages do not say": locker count, free-locker check, tell-apart on older notices, cluster box hold time, ID check at the locker, treatment of a shared QR code | S1 to S9 | pass (absence checks on the pages read) |
 
 ## Image checks
 
-- PNG 1200 x 3090 px, 577,881 bytes, SHA-256 prefix `28dec880d7562b9b`; SVG 5,500 bytes, `e125e0e864a7d923`; C2PA chunk and metadata stripped on the device (hashes equal the originals).
+- After round 1: PNG 1200 x 3435 px, 655,367 bytes, SHA-256 prefix `e48dffcc40a5a110`; SVG 6,171 bytes, `573fe4d1fd51fb13`; md 16,669 bytes, `8f0cd8b9a21e27db`; C2PA chunk and metadata stripped on the device (hashes equal the originals). (First version: PNG 1200 x 3090, `28dec880d7562b9b`; SVG `e125e0e864a7d923`; md `16cfe457f760b40f`.)
 - Text in the image is limited to: card headings (USPS Smart Locker, gopost, Cluster box parcel locker), facts also in the article body, a dashed "Where the pages differ" card, and a sources footer. The rendering script printed no text beyond the right margin.
-- Alt text (839 characters) matches the front matter `image_alt` and the Markdown alt text; it gives the three cards and the two differences.
+- Alt text (979 characters after round 1; 839 before) matches the front matter `image_alt` and the Markdown alt text; it gives the three cards and the two differences.
 
 ## Comparison with the published posts (overlap)
 
@@ -98,10 +98,18 @@ Internal links: four, each once, link text equal to the live title (tracking sta
 ## Open points for Gate 2
 
 1. Is the three-locker framing (and the title "Smart Locker vs. Parcel Locker") fair to the pages, given that USPS pages use "parcel locker" for gopost and the cluster box, and the Redelivery FAQ also ties the notice label "Parcel Locker Eligible" to the Smart Locker option?
-2. The Priority Mail Express section gives three wordings and no date. Is that enough?
+2. (Round 1 asked for the Priority Mail Express count to be shown by source; applied. Re-check the new wording.)
 3. C23 ("stays until pickup") and C37/C38 (statements about our own published posts) should be checked against the posts.
 4. Four internal links in an article of this length: acceptable?
 
 ## Not checked
 
 WordPress draft, editor, mobile (375 and 320 px) and live page: not yet built. Search volume: not checked (Trends relative only). The USPS.com business page, the locator and gopost registration pages beyond the FAQ were not read.
+
+## Gate 2 FIX round 1 (2026-11-24, base `6ddb13c`): applied
+
+Reviewer result: the three-locker structure and the four internal links are appropriate; the checks on the tracking status post (cluster box key), the PO Box post (oversized packages) and the Daily Digest QR code wording matched. One item to fix: the Smart Locker hold-time summary presented 5 days in the locker, 10 at the counter and return as the rule for all packages, while the FAQ treats Priority Mail Express separately (returned 5 calendar days after the first delivery attempt). The diagram and alt said only "returned after 5 days", which a reader could take as 5 days from the notice or from locker placement. The "pages do not say which day the count starts" sentence was wrong, because the FAQ names the first delivery attempt.
+
+Applied: (1) lead and "Picking up" section: the 5 + 10 + 15 timeline is stated for packages other than Priority Mail Express, with the Priority Mail Express count (FAQ: returned to the sender 5 calendar days after the first delivery attempt; USPS.com: after 5 days in the locker) given right after it; the comparison table row says the same; (2) diagram card 1 and the "Where the pages differ" card, and the alt text (front matter and body, identical): the FAQ's first-delivery-attempt count and USPS.com's in-locker count are labeled by source; (3) the "Where the USPS pages differ" bullet: the pages give different starting points for the count, the article does not say which applies, and a reader near the deadline is told to ask the Post Office that holds the package; the earlier sentence that the pages do not say when the count starts is removed.
+
+Re-checked on 2026-11-24 in the built-in browser: the Smart Locker FAQ note ("Priority Mail Express items are returned to sender 5 calendar days after the initial delivery attempt, no matter when the USPS Smart Locker option is selected" follows the pickup section; "all other items not picked up are removed from the locker" follows it), the USPS.com recipient and shipper pages ("After 5 days in the locker: Priority Mail Express packages will be immediately returned to sender. All other packages ..."), and the redelivery return-dates FAQ table (Priority Mail Express: second notice 3 days after receipt of first notice, return 5 days after first attempt; "Priority Mail Express which is held for 5 days, before being returned"). The article's own paraphrase "returned" was changed to the pages' "returned to sender" wording. No other wording changed. Nothing is published; Gate 2 round 2 is needed.
