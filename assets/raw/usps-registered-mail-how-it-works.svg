@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2110" viewBox="0 0 800 2110" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of what USPS pages say about Registered Mail, with no prices, fees or insurance amounts. What it is: the most secure USPS mail service, protected by safes, cages, sealed containers, locks and keys; a signature is required on delivery; Registered Mail Restricted Delivery directs delivery only to the addressee or the addressee's authorized agent. Sending it: only at the time of mailing, presented to a retail employee or a rural carrier; USPS employees may not prepare or seal the mail; the full value must be declared; domestic Registered Mail is available with First-Class Mail, USPS Ground Advantage and Priority Mail, and it is slower. Tracking and delivery: no scans from facility to facility; delivery information appears when a scan shows a delivery or an attempted delivery; the internal receipts are not readily available and are reached only by starting a claim form; proof of delivery with a signature comes from a Return Receipt bought at mailing. If it is lost: the Registered Mail fee is not refunded, postage is refunded if a claim is made; for no declared value the DMM says ask after 15 days. The pages differ on how soon to ask about a missing item: 14 or more days in the Missing Mail FAQ, 15 days in the DMM.</title>
+<rect width="800" height="2110" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS Registered Mail</text>
+<text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
+<rect x="40" y="160" width="720" height="342" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="218" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">1. What it is</text>
+<text x="70" y="272" font-size="32" fill="#111827" text-anchor="start">The most secure USPS mail service: safes,</text>
+<text x="70" y="318" font-size="32" fill="#111827" text-anchor="start">cages, sealed containers, locks and keys.</text>
+<text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">A signature is required on delivery.</text>
+<text x="70" y="410" font-size="32" fill="#111827" text-anchor="start">Restricted Delivery directs delivery only</text>
+<text x="70" y="456" font-size="32" fill="#111827" text-anchor="start">to the addressee or authorized agent.</text>
+<rect x="40" y="532" width="720" height="388" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="590" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">2. Sending it</text>
+<text x="70" y="644" font-size="32" fill="#111827" text-anchor="start">Only at the time of mailing; presented to</text>
+<text x="70" y="690" font-size="32" fill="#111827" text-anchor="start">a retail employee or a rural carrier. USPS</text>
+<text x="70" y="736" font-size="32" fill="#111827" text-anchor="start">employees may not prepare or seal it.</text>
+<text x="70" y="782" font-size="32" fill="#111827" text-anchor="start">Declare the full value. Available with</text>
+<text x="70" y="828" font-size="32" fill="#111827" text-anchor="start">First-Class Mail, Ground Advantage and</text>
+<text x="70" y="874" font-size="32" fill="#111827" text-anchor="start">Priority Mail; slower, not for speed.</text>
+<rect x="40" y="950" width="720" height="388" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="1008" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. Tracking and delivery</text>
+<text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">No scans from facility to facility. Delivery</text>
+<text x="70" y="1108" font-size="32" fill="#111827" text-anchor="start">information appears when a scan shows a</text>
+<text x="70" y="1154" font-size="32" fill="#111827" text-anchor="start">delivery or an attempted delivery. Internal</text>
+<text x="70" y="1200" font-size="32" fill="#111827" text-anchor="start">receipts are not readily available; a claim</text>
+<text x="70" y="1246" font-size="32" fill="#111827" text-anchor="start">form reaches them. A signed record of</text>
+<text x="70" y="1292" font-size="32" fill="#111827" text-anchor="start">delivery comes from a Return Receipt.</text>
+<rect x="40" y="1368" width="720" height="296" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
+<text x="70" y="1426" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">4. If it is lost</text>
+<text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">The Registered Mail fee is not refunded;</text>
+<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">postage is refunded if a claim is made.</text>
+<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">No declared value: the DMM says ask after</text>
+<text x="70" y="1618" font-size="32" fill="#111827" text-anchor="start">15 days (mailer only, usps.com or phone).</text>
+<rect x="40" y="1694" width="720" height="296" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1752" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
+<text x="70" y="1806" font-size="32" fill="#111827" text-anchor="start">How soon to ask about a missing item: 14 or</text>
+<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">more days (Missing Mail FAQ) against 15 days</text>
+<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">(DMM, no declared value). Eligible classes:</text>
+<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">FAQ lists four; the DMM points to an exhibit.</text>
+<text x="40" y="2050" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQs 000006061, 000007968;</text>
+<text x="40" y="2084" font-size="28" fill="#374151" text-anchor="start">DMM 503 section 2.0; read Nov. 24, 2026</text>
+</svg>

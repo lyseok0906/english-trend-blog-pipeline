@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2248" viewBox="0 0 800 2248" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of what USPS pages say about General Delivery. What it is: mail addressed to you is held at an authorized Post Office for pick-up in person, often as a temporary address for people without a permanent one. Before giving the address: find the authorized facility with Find USPS Locations and the General Delivery filter, then contact it to confirm the service and the ZIP Code; the address is NAME, GENERAL DELIVERY, CITY STATE ZIP; it is normally offered at one facility, and a customer may use only one. Identification and limits: suitable identification may be required, a postmaster may restrict or refuse the service, and it is free with no application. How long mail is held: no more than 30 days, or less if the sender asks; the FAQ adds that a longer hold is possible if the sender or addressee asks and the postmaster approves, and gives 10 or 15 days for mail with no specific address or sender instructions. The FAQ and the DMM word the hold and the restrictions differently.</title>
+<rect width="800" height="2248" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS General Delivery</text>
+<text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
+<rect x="40" y="160" width="720" height="388" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="218" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">1. What it is</text>
+<text x="70" y="272" font-size="32" fill="#111827" text-anchor="start">Mail addressed to you is held at an</text>
+<text x="70" y="318" font-size="32" fill="#111827" text-anchor="start">authorized Post Office for pick-up in</text>
+<text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">person. Often a temporary address for</text>
+<text x="70" y="410" font-size="32" fill="#111827" text-anchor="start">people without a permanent one; also</text>
+<text x="70" y="456" font-size="32" fill="#111827" text-anchor="start">used where there is no city carrier</text>
+<text x="70" y="502" font-size="32" fill="#111827" text-anchor="start">delivery or no PO Box is available.</text>
+<rect x="40" y="578" width="720" height="388" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="636" font-size="36" font-weight="bold" fill="#111827" text-anchor="start">2. Before you give the address</text>
+<text x="70" y="690" font-size="32" fill="#111827" text-anchor="start">Find the facility with Find USPS Locations</text>
+<text x="70" y="736" font-size="32" fill="#111827" text-anchor="start">(General Delivery filter), then contact it</text>
+<text x="70" y="782" font-size="32" fill="#111827" text-anchor="start">to confirm the service and the ZIP Code.</text>
+<text x="70" y="828" font-size="32" fill="#111827" text-anchor="start">Address: NAME / GENERAL DELIVERY /</text>
+<text x="70" y="874" font-size="32" fill="#111827" text-anchor="start">CITY STATE ZIP. Normally one facility;</text>
+<text x="70" y="920" font-size="32" fill="#111827" text-anchor="start">a customer may use only one.</text>
+<rect x="40" y="996" width="720" height="388" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="1054" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. Identification and limits</text>
+<text x="70" y="1108" font-size="32" fill="#111827" text-anchor="start">Suitable identification may be required.</text>
+<text x="70" y="1154" font-size="32" fill="#111827" text-anchor="start">A postmaster may restrict (FAQ) or refuse</text>
+<text x="70" y="1200" font-size="32" fill="#111827" text-anchor="start">or restrict (DMM) the service, also for mail</text>
+<text x="70" y="1246" font-size="32" fill="#111827" text-anchor="start">volume. Free where authorized; no</text>
+<text x="70" y="1292" font-size="32" fill="#111827" text-anchor="start">application. No delivery on Sunday or</text>
+<text x="70" y="1338" font-size="32" fill="#111827" text-anchor="start">holidays (FAQ).</text>
+<rect x="40" y="1414" width="720" height="388" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
+<text x="70" y="1472" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">4. How long mail is held</text>
+<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">No more than 30 days, or less if the</text>
+<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">sender asks. The FAQ adds: longer if the</text>
+<text x="70" y="1618" font-size="32" fill="#111827" text-anchor="start">sender or addressee asks and the</text>
+<text x="70" y="1664" font-size="32" fill="#111827" text-anchor="start">postmaster approves; and 10 or 15 days for</text>
+<text x="70" y="1710" font-size="32" fill="#111827" text-anchor="start">mail with no specific address or sender</text>
+<text x="70" y="1756" font-size="32" fill="#111827" text-anchor="start">instructions.</text>
+<rect x="40" y="1832" width="720" height="296" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1890" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
+<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">The FAQ has the longer hold and the 10 or</text>
+<text x="70" y="1990" font-size="32" fill="#111827" text-anchor="start">15 days; the DMM states only 30 days.</text>
+<text x="70" y="2036" font-size="32" fill="#111827" text-anchor="start">Restrict (FAQ) against refuse or restrict</text>
+<text x="70" y="2082" font-size="32" fill="#111827" text-anchor="start">(DMM). Two purposes (DMM), four (FAQ).</text>
+<text x="40" y="2188" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQ 000006989 (Aug. 4, 2026);</text>
+<text x="40" y="2222" font-size="28" fill="#374151" text-anchor="start">DMM 508 section 6.0; read Nov. 24, 2026</text>
+</svg>

@@ -1,8 +1,13 @@
-# Source notes — USPS General Delivery
+# Source notes — usps-general-delivery-how-it-works
 
-Read November 24, 2026.
+Retrieved **2026-11-24** by Cowork (Claude) in the built-in browser; text read by script and normalized (marks, quotation marks, dashes, whitespace, case; on faq.usps.com a single digit glued after a letter was stripped). Brief: `research/briefs/usps-general-delivery-how-it-works.md`. QA: `editorial/qa/usps-general-delivery-how-it-works.md`.
 
-- USPS FAQ, [What Is General Delivery?](https://faq.usps.com/s/article/What-is-General-Delivery), article 000006989, dated August 4, 2026. Address, facility selection, restrictions, individual holding periods, possible postmaster-approved extension, no application and free service where authorized. Search-indexed content was available; opening the FAQ directly returned an error in the research tool. Reopen the live FAQ before clearance.
-- USPS [DMM 508.6.0](https://pe.usps.com/text/dmm300/508.htm): purpose, service restrictions, identification, destination facility, 30-day maximum with shorter period if sender requests. Section 11.1 describes Hold Mail.
+## S1 — USPS FAQ, "What is General Delivery?", Article 000006989, dated Aug 4, 2026 (primary, official)
+- https://faq.usps.com/s/article/What-is-General-Delivery . Opened directly and read in full on 2026-11-24 (the handed-over note said the direct open had failed). 30 of 30 phrase checks.
+- Held at a local Post Office for pick-up in person; temporary address; four intended uses; find the facility with Find USPS Locations (General Delivery filter) and contact it for availability and the ZIP Code; address format NAME / GENERAL DELIVERY / CITY STATE ZIP; one facility normally, a postmaster may authorize more, a customer may use only one; restrictions (suitable identification; mail volume or service level, e.g. accumulation); PO Box suggestion for earlier pick-up ("nominal fee", no amount); hold: no more than 30 days unless the sender requests shorter, longer if requested by sender or addressee and approved by the postmaster, mail without a specific address or sender instructions held 10 days (letter-carrier office) or 15 days (no letter carrier); free where authorized, no application, postmaster for questions, time limits set by the postmaster, no delivery on Sunday or holidays.
 
-The DMM passage does not state the FAQ's postmaster-approved extension; do not reconcile without further evidence.
+## S2 — USPS, DMM 508 "Recipient Services", section 6.0 General Delivery and 11.1 Hold Mail (no update date shown)
+- https://pe.usps.com/text/dmm300/508.htm . 12 of 12 phrase checks in 6.1 to 6.4 and 2 of 2 in 11.1.1. Purpose (temporary delivery for transients and customers not permanently located; PO Box service when boxes are unavailable); service restrictions (one facility, postmaster may authorize more, a customer may use one; may refuse or restrict for identification or mail volume); 6.3 identification before mail is given, contact the destination Post Office first; 6.4 held no more than 30 days, shorter if the sender requests. The section has no longer-hold sentence and no 10 or 15 day note (checked). 11.1.1: Hold Mail holds all mail for an eligible address for not less than 3 and not more than 30 days.
+
+## Not read / not used
+DMM 508 sections other than 6.0 and 11.1.1 (Hold Mail details are in the published Hold Mail post); USPS Find USPS Locations tool; any PO Box page (the PO Box point is attributed to our published article). Trends: see the brief.
