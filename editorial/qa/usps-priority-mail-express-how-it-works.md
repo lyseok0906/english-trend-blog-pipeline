@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-priority-mail-express-how-it-works.md` (draft, 2026-11-24, about 1,900 words in the body, one H1, nine H2 sections including Sources; meta description 146 characters; alt text 891 characters).
 Brief: `research/briefs/usps-priority-mail-express-how-it-works.md`. Sources: `research/sources/usps-priority-mail-express-how-it-works.md` (S1 to S4, read 2026-11-24).
-Stage: draft. Gate 1 (Claude) run on 2026-11-24. Gate 2 not yet run. Backlog row 43.
+Stage: draft. Gate 1 (Claude) run on 2026-11-24. **Gate 2 round 1 (ChatGPT, base `f839045`, user-reported 2026-11-24): FIX, two items, applied 2026-11-24** (section "Gate 2 FIX round 1"); Gate 2 round 2 not yet run. Backlog row 43.
 
 ## Scope
 - No prices, fees, insurance amounts or percentages anywhere (the article says the Sunday and holiday fee exists and does not give it); trends are not in the article; search volume not checked.
@@ -42,7 +42,7 @@ All four pages were opened on 2026-11-24 and each statement tested by script (no
 | C16 | Not said: markets, complete scan list, receipt format, cutoff handling | S1 to S4 | pass (absence checks) |
 
 ## Image checks
-PNG 1200 x 3372 px, 626,204 bytes, SHA-256 prefix `40c306f03a8354f4`; SVG 5,919 bytes, `3dffbcc000ba3564`; md 13,726 bytes, `1030473f21a0f457`; C2PA chunk and metadata stripped on the device (hashes equal the originals). The rendering script printed no text past the right margin; the PNG was viewed. Diagram text only repeats facts from the article; alt text (891 characters) matches the front matter and the Markdown alt text.
+After round 1: PNG 1200 x 3648 px, 696,273 bytes, SHA-256 prefix `2c00d8340b38aa9b`; SVG 6,607 bytes, `4d81bdbb66b80f0f`; md 14,575 bytes, `77c8384bf0e42e97`; alt text 1,100 characters (first version: PNG 3372 px, `40c306f03a8354f4`; SVG `3dffbcc000ba3564`; md `1030473f21a0f457`; alt 891); C2PA chunk and metadata stripped on the device (hashes equal the originals). The rendering script printed no text past the right margin; the PNG was viewed. Diagram text only repeats facts from the article; alt text (891 characters) matches the front matter and the Markdown alt text.
 
 ## Open points for Gate 2
 1. Is the refund section (about 330 words) too close to post 147? It is limited to what the FAQ states.
@@ -52,3 +52,11 @@ PNG 1200 x 3372 px, 626,204 bytes, SHA-256 prefix `40c306f03a8354f4`; SVG 5,919 
 
 ## Not checked
 WordPress draft, editor, mobile, live page, publication slot. Search volume: not checked (Trends relative only). Two older quick drafts in WordPress (post 153 and 168) are not used.
+
+## Gate 2 FIX round 1 (2026-11-24, base `f839045`): applied
+
+Reviewer result: two items. (1) The diagram's Waiver of Signature card put "the carrier leaves the item" and "returned if not claimed in 5 days" in one line, so an item already left in a secure place could look as if it is returned after 5 days; delivered-by-leaving and not-claimed-and-held had to be separated. (2) The lead and the diagram's opening card should not let the money-back guarantee read as automatic for every shipment: the conditions and exceptions should sit close to it.
+
+Applied: (1) body: with a waiver the carrier signs and leaves the item in a secure location where the area is secured and protected from weather, and an item left that way has been delivered; separately, in the same paragraph, the FAQ says an item not claimed within five days by the recipient is returned to the sender; the article says the FAQ does not say whether that return applies to an item left in a secure location or only to one that could not be left. Diagram card 2 and the alt text say the same (carrier signs and leaves the item where the area is secured and weather-protected; "separately, the FAQ says an item not claimed within 5 days is returned"). (2) the lead now says whether a given shipment has the guarantee is shown when it is mailed (the FAQ says the Service Commitments tool shows whether USPS can offer one) and that exceptions apply; diagram card 1 and the alt text carry the same condition. The rest of the article is unchanged, including the refund exceptions list, the Hold for Pickup section and the Where the pages differ section.
+
+The Waiver of Signature FAQ wording was re-checked against the earlier read of the page (same paragraph: carrier signs and leaves; "If the item is not claimed within five days by the Recipient, it will be returned to the Sender"). Nothing is published; Gate 2 round 2 is needed.

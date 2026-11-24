@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2156" viewBox="0 0 800 2156" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>Diagram of what USPS pages say about a Return Receipt. What it shows: the recipient's signature, the date of delivery and the actual delivery address if different. Bought at the time of mailing; it cannot be bought after mailing. Green card, PS Form 3811: mailed to the sender after delivery; the form is attached at mailing and the mail is endorsed Return Receipt Requested; the card cannot be viewed online. Electronic: bought at a Post Office, then requested on the USPS Tracking website with an email address; usually available within 48 hours of delivery; kept two years. If it did not arrive: ask for the delivery record within 90 days of purchase with PS Form 3811-A. The pages differ on when the email should arrive, on how the email address is given and on the refund timing.</title>
-<rect width="800" height="2156" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2248" viewBox="0 0 800 2248" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of what USPS pages say about a Return Receipt. What it shows: the recipient's signature, the date of delivery and the actual delivery address if different. Bought at the time of mailing; it cannot be bought after mailing. Green card, PS Form 3811: mailed to the sender after delivery; the form is attached at mailing and the mail is endorsed Return Receipt Requested; the card cannot be viewed online; Priority Mail Express is marked Form 3811 only. Electronic: bought at a Post Office, then requested on the USPS Tracking website with an email address; if requested before delivery, usually available within 48 hours of delivery, and if the item is already delivered and the record complete, processed right away; kept two years. If it did not arrive: ask for the delivery record within 90 days of purchase with PS Form 3811-A; the fee is refunded only if USPS fails to provide the signature, unless the item was refused, unclaimed or returned to the sender. The pages differ on how the email address is given and on the refund timing.</title>
+<rect width="800" height="2248" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS Return Receipt</text>
 <text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
 <rect x="40" y="160" width="720" height="296" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
@@ -9,36 +9,38 @@
 <text x="70" y="318" font-size="32" fill="#111827" text-anchor="start">delivery and the actual delivery address</text>
 <text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">if it differs. Bought at the time of</text>
 <text x="70" y="410" font-size="32" fill="#111827" text-anchor="start">mailing; it cannot be bought after.</text>
-<rect x="40" y="486" width="720" height="342" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<rect x="40" y="486" width="720" height="388" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
 <text x="70" y="544" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">2. Green card (PS Form 3811)</text>
 <text x="70" y="598" font-size="32" fill="#111827" text-anchor="start">Attached at mailing; the mail is endorsed</text>
 <text x="70" y="644" font-size="32" fill="#111827" text-anchor="start">"Return Receipt Requested." Mailed to the</text>
 <text x="70" y="690" font-size="32" fill="#111827" text-anchor="start">sender after delivery. Cannot be viewed</text>
 <text x="70" y="736" font-size="32" fill="#111827" text-anchor="start">online. The Related Tracking Number</text>
 <text x="70" y="782" font-size="32" fill="#111827" text-anchor="start">tracks the card, not the mailpiece.</text>
-<rect x="40" y="858" width="720" height="388" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
-<text x="70" y="916" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. Electronic</text>
-<text x="70" y="970" font-size="32" fill="#111827" text-anchor="start">Bought at a Post Office, not on USPS.com.</text>
-<text x="70" y="1016" font-size="32" fill="#111827" text-anchor="start">Requested on USPS Tracking with the</text>
-<text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">article number and an email address.</text>
-<text x="70" y="1108" font-size="32" fill="#111827" text-anchor="start">Usually available within 48 hours of</text>
-<text x="70" y="1154" font-size="32" fill="#111827" text-anchor="start">delivery. Kept two years. Courts decide</text>
-<text x="70" y="1200" font-size="32" fill="#111827" text-anchor="start">its legal status.</text>
-<rect x="40" y="1276" width="720" height="342" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
-<text x="70" y="1334" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">4. If it did not arrive</text>
-<text x="70" y="1388" font-size="32" fill="#111827" text-anchor="start">Ask for the delivery record within 90</text>
-<text x="70" y="1434" font-size="32" fill="#111827" text-anchor="start">days of purchase: PS Form 3811-A at a</text>
-<text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">Post Office, with your receipt. The fee</text>
-<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">is refunded only if USPS fails to</text>
-<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">provide the signature.</text>
-<rect x="40" y="1648" width="720" height="388" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1706" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
-<text x="70" y="1760" font-size="32" fill="#111827" text-anchor="start">Email timing: within 48 hours of delivery</text>
-<text x="70" y="1806" font-size="32" fill="#111827" text-anchor="start">(Electronic FAQ) or check at 3 to 5 days</text>
-<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">(Basics FAQ). Email choice: the Basics FAQ,</text>
-<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">the DMM and the Electronic FAQ describe</text>
-<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">it differently. Refund timing: two</text>
-<text x="70" y="1990" font-size="32" fill="#111827" text-anchor="start">wordings that the pages do not reconcile.</text>
-<text x="40" y="2096" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQs 000006076, 000007257;</text>
-<text x="40" y="2130" font-size="28" fill="#374151" text-anchor="start">DMM 503 section 6.0; read Nov. 24, 2026</text>
+<text x="70" y="828" font-size="32" fill="#111827" text-anchor="start">Priority Mail Express: marked Form 3811 only.</text>
+<rect x="40" y="904" width="720" height="480" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="962" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. Electronic</text>
+<text x="70" y="1016" font-size="32" fill="#111827" text-anchor="start">Bought at a Post Office, not on USPS.com.</text>
+<text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">Requested on USPS Tracking with the</text>
+<text x="70" y="1108" font-size="32" fill="#111827" text-anchor="start">article number and an email address.</text>
+<text x="70" y="1154" font-size="32" fill="#111827" text-anchor="start">Requested before delivery: usually</text>
+<text x="70" y="1200" font-size="32" fill="#111827" text-anchor="start">available within 48 hours of delivery.</text>
+<text x="70" y="1246" font-size="32" fill="#111827" text-anchor="start">Already delivered and recorded: processed</text>
+<text x="70" y="1292" font-size="32" fill="#111827" text-anchor="start">right away. Kept two years. Courts decide</text>
+<text x="70" y="1338" font-size="32" fill="#111827" text-anchor="start">its legal status.</text>
+<rect x="40" y="1414" width="720" height="388" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
+<text x="70" y="1472" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">4. If it did not arrive</text>
+<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">Ask for the delivery record within 90</text>
+<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">days of purchase: PS Form 3811-A at a</text>
+<text x="70" y="1618" font-size="32" fill="#111827" text-anchor="start">Post Office, with your receipt. The fee</text>
+<text x="70" y="1664" font-size="32" fill="#111827" text-anchor="start">is refunded only if USPS fails to provide</text>
+<text x="70" y="1710" font-size="32" fill="#111827" text-anchor="start">the signature, unless the item was refused,</text>
+<text x="70" y="1756" font-size="32" fill="#111827" text-anchor="start">unclaimed or returned to the sender.</text>
+<rect x="40" y="1832" width="720" height="296" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1890" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
+<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">Email choice: the Basics FAQ, the DMM and</text>
+<text x="70" y="1990" font-size="32" fill="#111827" text-anchor="start">the Electronic FAQ describe it</text>
+<text x="70" y="2036" font-size="32" fill="#111827" text-anchor="start">differently. Refund timing: two wordings</text>
+<text x="70" y="2082" font-size="32" fill="#111827" text-anchor="start">that the pages do not reconcile.</text>
+<text x="40" y="2188" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQs 000006076, 000007257;</text>
+<text x="40" y="2222" font-size="28" fill="#374151" text-anchor="start">DMM 503 section 6.0; read Nov. 24, 2026</text>
 </svg>
