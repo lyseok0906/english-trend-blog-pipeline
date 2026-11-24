@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-general-delivery-how-it-works.md` (draft, 2026-11-24, about 1300 words in the body, one H1, Sources included; meta description 130 characters; alt text 993 characters).
 
-Stage: draft. Gate 1 (Claude) run on 2026-11-24 on the rewritten article. Gate 2 not yet run. Backlog row 45.
+Stage: draft. Gate 1 (Claude) run on 2026-11-24 on the rewritten article. **Gate 2 round 1 (ChatGPT, base `d955818`, user-reported 2026-11-25): PASS, no FIX**; the diagram was checked for cut-off text (none). Backlog row 45.
 
 ## Handed-over draft
 The first draft came in a bundle (commit `6e09600`, another environment). Its brief and QA said factual QA was incomplete. The article here was rewritten after Claude read the live pages; every claim below was tested against them.
