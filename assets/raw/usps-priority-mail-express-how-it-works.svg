@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2248" viewBox="0 0 800 2248" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of what USPS pages say about Priority Mail Express. Delivery commitment: 1-3 days by 6 PM local time at the recipient's address to most U.S. addresses and PO Boxes; the day depends on the ZIP Codes, the date and the drop-off time; an Attempted delivery, an Arrival at Pickup Point or a Forwarded scan meets the commitment, and the list is not complete. Signature: a waiver of signature is chosen at mailing, the carrier signs and leaves the item, and it is returned if not claimed in 5 days; Signature Required is needed with COD and additional insurance. Hold for Pickup: no delivery attempt, identification needed, returned to the sender after 5 days. If it is late: the sender asks for a refund of postage, 2 to 30 days after mailing or 30 to 60 days with an Extra Service; a refund is not a claim. The pages differ on the refund window and on how Hold for Pickup counts its days.</title>
+<rect width="800" height="2248" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">Priority Mail Express</text>
+<text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
+<rect x="40" y="160" width="720" height="526" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="218" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">1. The delivery commitment</text>
+<text x="70" y="272" font-size="32" fill="#111827" text-anchor="start">1-3 days by 6 PM, local time at the</text>
+<text x="70" y="318" font-size="32" fill="#111827" text-anchor="start">recipient's address, to most U.S.</text>
+<text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">addresses and PO Boxes. The day depends</text>
+<text x="70" y="410" font-size="32" fill="#111827" text-anchor="start">on the ZIP Codes, the date and the</text>
+<text x="70" y="456" font-size="32" fill="#111827" text-anchor="start">drop-off time (Service Commitments tool).</text>
+<text x="70" y="502" font-size="32" fill="#111827" text-anchor="start">These scans meet the commitment:</text>
+<text x="70" y="548" font-size="32" fill="#111827" text-anchor="start">Attempted delivery, Arrival at Pickup</text>
+<text x="70" y="594" font-size="32" fill="#111827" text-anchor="start">Point (PO Box), Forwarded. The list is</text>
+<text x="70" y="640" font-size="32" fill="#111827" text-anchor="start">not complete.</text>
+<rect x="40" y="716" width="720" height="388" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="774" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">2. Signature</text>
+<text x="70" y="828" font-size="32" fill="#111827" text-anchor="start">Waiver of Signature: chosen at mailing;</text>
+<text x="70" y="874" font-size="32" fill="#111827" text-anchor="start">the carrier signs and leaves the item;</text>
+<text x="70" y="920" font-size="32" fill="#111827" text-anchor="start">returned if not claimed in 5 days. Not</text>
+<text x="70" y="966" font-size="32" fill="#111827" text-anchor="start">with additional insurance or COD.</text>
+<text x="70" y="1012" font-size="32" fill="#111827" text-anchor="start">Signature Required: the addressee signs;</text>
+<text x="70" y="1058" font-size="32" fill="#111827" text-anchor="start">needed with COD and additional insurance.</text>
+<rect x="40" y="1134" width="720" height="296" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="1192" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. Hold for Pickup</text>
+<text x="70" y="1246" font-size="32" fill="#111827" text-anchor="start">No delivery attempt. Identification</text>
+<text x="70" y="1292" font-size="32" fill="#111827" text-anchor="start">needed. Returned to the sender if not</text>
+<text x="70" y="1338" font-size="32" fill="#111827" text-anchor="start">picked up within 5 days (3 days: another</text>
+<text x="70" y="1384" font-size="32" fill="#111827" text-anchor="start">notice).</text>
+<rect x="40" y="1460" width="720" height="296" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
+<text x="70" y="1518" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">4. If it is late</text>
+<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">The sender asks for a refund of postage:</text>
+<text x="70" y="1618" font-size="32" fill="#111827" text-anchor="start">2 to 30 days after mailing, or 30 to 60</text>
+<text x="70" y="1664" font-size="32" fill="#111827" text-anchor="start">days with an Extra Service. A refund is</text>
+<text x="70" y="1710" font-size="32" fill="#111827" text-anchor="start">not a claim. Exceptions apply.</text>
+<rect x="40" y="1786" width="720" height="342" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1844" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
+<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">Refund window: USPS.com says 30 days;</text>
+<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">the FAQ adds 2 days at the earliest and</text>
+<text x="70" y="1990" font-size="32" fill="#111827" text-anchor="start">60 days with an Extra Service.</text>
+<text x="70" y="2036" font-size="32" fill="#111827" text-anchor="start">Hold for Pickup: "five postal business</text>
+<text x="70" y="2082" font-size="32" fill="#111827" text-anchor="start">days" (PME FAQ) or "5 days" (Hold FAQ).</text>
+<text x="40" y="2188" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQs 000008250, 000006914,</text>
+<text x="40" y="2222" font-size="28" fill="#374151" text-anchor="start">000008085; USPS.com; read Nov. 24, 2026</text>
+</svg>
