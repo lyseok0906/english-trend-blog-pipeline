@@ -4,7 +4,7 @@ slug: usps-priority-mail-express-how-it-works
 meta_description: "What USPS pages say about Priority Mail Express: how the 1-3 day commitment is set, what meets it, signature choices, Hold for Pickup and refunds."
 category: Postal service and stamps
 focus_keyword: usps priority mail express
-status: draft
+status: ready
 date: 2026-11-24
 internal_link_candidates: usps-refund-how-it-works (published; the refund table); usps-holiday-shipping-deadlines-2026 (published; send-by dates); usps-tracking-status-what-it-means (published; scan messages); usps-redelivery-how-it-works (published; notice for signature items); usps-claim-how-it-works (published; insurance claims); the Smart Locker post is not linked. Each appears once in the body; link texts match the live titles.
 image: assets/optimized/usps-priority-mail-express-how-it-works.png

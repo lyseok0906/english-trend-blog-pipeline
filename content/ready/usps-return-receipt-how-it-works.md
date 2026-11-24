@@ -4,7 +4,7 @@ slug: usps-return-receipt-how-it-works
 meta_description: "What USPS pages say about a Return Receipt: the green card and the electronic version, how to get each, what to do if it does not arrive and refunds."
 category: Postal service and stamps
 focus_keyword: usps return receipt
-status: draft
+status: ready
 date: 2026-11-24
 internal_link_candidates: usps-certified-mail-how-it-works (published; Return Receipt as an add-on); usps-redelivery-how-it-works (published; notice for signature items); usps-refund-how-it-works (published; refund windows). Each appears once in the body; link texts match the live titles. The Priority Mail Express post of the same day is not linked.
 image: assets/optimized/usps-return-receipt-how-it-works.png
