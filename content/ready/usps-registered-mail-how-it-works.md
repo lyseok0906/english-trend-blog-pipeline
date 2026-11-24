@@ -4,7 +4,7 @@ slug: usps-registered-mail-how-it-works
 meta_description: "What USPS pages say about Registered Mail: security, which mail it goes with, what tracking shows, signatures and what happens if it is lost."
 category: Postal service and stamps
 focus_keyword: usps registered mail
-status: draft
+status: ready
 date: 2026-11-24
 internal_link_candidates: usps-certified-mail-how-it-works (published; one sentence, no comparison); usps-claim-how-it-works (published; claims); usps-tracking-status-what-it-means (published; status messages); usps-return-receipt-how-it-works (scheduled for 2026-11-25 15:00 KST; confirm it is public before publishing, otherwise remove the link); usps-missing-mail-search-how-it-works (published; search route). Each appears once in the body; link texts match the live titles.
 image: assets/optimized/usps-registered-mail-how-it-works.png
