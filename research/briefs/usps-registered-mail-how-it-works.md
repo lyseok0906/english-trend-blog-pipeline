@@ -1,0 +1,3 @@
+# Brief — USPS Registered Mail
+
+Stage: draft, November 24, 2026. Intended question: how domestic Registered Mail works, including secure handling, mailing, tracking and delivery. Scope excludes international rules, prices and insurance amounts. Source review: `research/sources/usps-registered-mail-how-it-works.md`. Existing Certified Mail, claims and tracking posts mention it in passing; no dedicated guide found in `content/ready`. Search volume unverified. November 24 candidate research reported Trends relative index 0.2 of its anchor over 90 days and 0.35 over 28 days; neither is search volume. Gate 2 pending; no publishing approval recorded for this specific draft.

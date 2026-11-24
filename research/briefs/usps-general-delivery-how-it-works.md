@@ -1,0 +1,3 @@
+# Brief — USPS General Delivery
+
+Stage: draft, November 24, 2026. Intended question: how to receive mail at an authorized Post Office without a permanent address. Audience: U.S. recipients and senders. Scope: authorized facility, address format, ID, individual item retention, contrast with PO Boxes and Hold Mail. Source review: `research/sources/usps-general-delivery-how-it-works.md`. Existing PO Box post mentions it briefly; no dedicated guide found in `content/ready`. Search volume unverified. November 24 candidate research reported Trends relative index 0.09 of its anchor over 90 days and 0.2 over 28 days; neither is search volume. Gate 2 pending; no publishing approval recorded for this specific draft.
