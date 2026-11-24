@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2202" viewBox="0 0 800 2202" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>Diagram of what USPS pages say about Registered Mail, with no prices, fees or insurance amounts. What it is: the most secure USPS mail service, protected by safes, cages, sealed containers, locks and keys; a signature is required on delivery; Registered Mail Restricted Delivery directs delivery only to the addressee or the addressee's authorized agent. Sending it: only at the time of mailing, presented to a retail employee or a rural carrier; USPS employees may not prepare or seal the mail; the full value must be declared; domestic Registered Mail is available with First-Class Mail, USPS Ground Advantage and Priority Mail, and it is slower. Tracking and delivery: USPS gives customers no facility-to-facility updates for Registered Mail alone; delivery information appears when a scan shows a delivery or an attempted delivery; the internal receipts are not readily available and are reached only by starting a claim form; proof of delivery with a signature comes from a Return Receipt bought at mailing. If it is lost: the Registered Mail fee is not refunded, postage is refunded if a claim is made; for Registered Mail with no declared value, the DMM has a separate mailer inquiry after 15 days from mailing. The 14 and 15 days are different procedures: the Missing Mail FAQ says to allow 14 or more days before a search request and/or a claim, and the pages do not tie the two numbers together or to the claim filing period.</title>
-<rect width="800" height="2202" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2294" viewBox="0 0 800 2294" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of what USPS pages say about Registered Mail, with no prices, fees or insurance amounts. What it is: the most secure USPS mail service, protected by safes, cages, sealed containers, locks and keys; a signature is required on delivery; Registered Mail Restricted Delivery directs delivery only to the addressee or the addressee's authorized agent. Sending it: only at the time of mailing, presented to a retail employee or a rural carrier; USPS employees may not prepare or seal the mail; the full value must be declared; domestic Registered Mail is available with First-Class Mail, USPS Ground Advantage and Priority Mail, and it is slower. Tracking and delivery: USPS gives customers no facility-to-facility updates for Registered Mail alone; delivery information appears when a scan shows a delivery or an attempted delivery; the internal receipts are not readily available and are reached only by starting a claim form; proof of delivery with a signature comes from a Return Receipt bought at mailing. If it is lost: the Registered Mail fee is not refunded, postage is refunded if a claim is made; the claim filing period is a separate rule that this article does not give. For Registered Mail with no declared value, the DMM has a separate mailer inquiry after 15 days from mailing. Three things are kept apart: the Missing Mail FAQ's guidance to allow 14 or more days before a search request, the DMM's 15-day mailer inquiry for no declared value, and the claim filing period; the pages read do not tie them together.</title>
+<rect width="800" height="2294" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS Registered Mail</text>
 <text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
 <rect x="40" y="160" width="720" height="342" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
@@ -26,20 +26,22 @@
 <text x="70" y="1200" font-size="32" fill="#111827" text-anchor="start">Internal receipts are not readily available;</text>
 <text x="70" y="1246" font-size="32" fill="#111827" text-anchor="start">a claim form reaches them. A signed record</text>
 <text x="70" y="1292" font-size="32" fill="#111827" text-anchor="start">of delivery comes from a Return Receipt.</text>
-<rect x="40" y="1368" width="720" height="296" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
+<rect x="40" y="1368" width="720" height="342" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
 <text x="70" y="1426" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">4. If it is lost</text>
 <text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">The Registered Mail fee is not refunded;</text>
-<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">postage is refunded if a claim is made.</text>
-<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">No declared value: the DMM has a separate</text>
-<text x="70" y="1618" font-size="32" fill="#111827" text-anchor="start">mailer inquiry after 15 days from mailing.</text>
-<rect x="40" y="1694" width="720" height="388" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1752" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
-<text x="70" y="1806" font-size="32" fill="#111827" text-anchor="start">14 or more days (Missing Mail FAQ: search</text>
-<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">request and/or claim) and 15 days (DMM:</text>
-<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">mailer inquiry, no declared value) are</text>
-<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">different procedures; the pages do not</text>
-<text x="70" y="1990" font-size="32" fill="#111827" text-anchor="start">tie them together. Eligible classes: the</text>
-<text x="70" y="2036" font-size="32" fill="#111827" text-anchor="start">FAQ lists four; the DMM points to an exhibit.</text>
-<text x="40" y="2142" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQs 000006061, 000007968;</text>
-<text x="40" y="2176" font-size="28" fill="#374151" text-anchor="start">DMM 503 section 2.0; read Nov. 24, 2026</text>
+<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">postage is refunded if a claim is made. The</text>
+<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">claim filing period is a separate rule, not</text>
+<text x="70" y="1618" font-size="32" fill="#111827" text-anchor="start">given here. No declared value: the DMM has</text>
+<text x="70" y="1664" font-size="32" fill="#111827" text-anchor="start">a separate mailer inquiry after 15 days.</text>
+<rect x="40" y="1740" width="720" height="434" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1798" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
+<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">Three separate things: 14 or more days</text>
+<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">(Missing Mail FAQ: when to ask for a search),</text>
+<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">15 days (DMM: mailer inquiry, no declared</text>
+<text x="70" y="1990" font-size="32" fill="#111827" text-anchor="start">value) and the claim filing period (not given</text>
+<text x="70" y="2036" font-size="32" fill="#111827" text-anchor="start">here). The pages do not tie them together.</text>
+<text x="70" y="2082" font-size="32" fill="#111827" text-anchor="start">Eligible classes: FAQ lists four; the DMM</text>
+<text x="70" y="2128" font-size="32" fill="#111827" text-anchor="start">points to an exhibit.</text>
+<text x="40" y="2234" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQs 000006061, 000007968;</text>
+<text x="40" y="2268" font-size="28" fill="#374151" text-anchor="start">DMM 503 section 2.0; read Nov. 24, 2026</text>
 </svg>
