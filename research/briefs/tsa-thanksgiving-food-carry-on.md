@@ -136,3 +136,13 @@ No draft, WordPress, Search Console or site change. The 2026-10-07 text above is
 ## Draft note (2026-11-04)
 
 User approved the scope on 2026-11-04 (holiday-food framing; 2025 local release labeled by year and region; Food page and release not merged; not published until a TSA 2026 notice with food guidance has been read). Draft written: slug `tsa-holiday-food-carry-on` (renamed from `tsa-thanksgiving-food-carry-on` because of the holiday-food framing), `content/drafts/tsa-holiday-food-carry-on.md`; Gate 1 record `editorial/qa/tsa-holiday-food-carry-on.md`. Stage is now draft; the publication block (P1 in the QA record) stays.
+
+## Revision for the 2026 notices (2026-11-24)
+
+**Stage:** draft revised and Gate 1 re-run on 2026-11-24 (see `editorial/qa/tsa-holiday-food-carry-on.md`); waiting for Gate 2 round 4. The hold condition (a 2026 TSA Thanksgiving notice must be read) is met: TSA's press-release list on 2026-11-24 shows eight local Thanksgiving releases (seven dated Nov. 23, 2026: Salt Lake City, Phoenix Sky Harbor, Jacksonville, Dallas Fort Worth, Denver, Boston Logan, Hartsfield-Jackson Atlanta; one dated Nov. 18, 2026: Harry Reid) and no national Thanksgiving release. All eight were read in full. Their holiday food lists match item for item (only a period after "3.4 oz" and the Phoenix heading and opening sentence differ).
+
+**What changed in the article:** intro, meta description, date (2026-11-24), the 2026 releases section replacing "What TSA had published for the 2026 holiday", a new table comparing the Nov. 2025 Harrisburg release with the 2026 releases, a rewritten Food page versus releases table (adds canned goods; merges jam and maple syrup), sources (eight releases added; the Nov. 21, 2025 national release dropped), image alt and the diagram. The Food page (59 items) and the Liquids page were re-read; no value in the table changed.
+
+**Findings that shape the text:** the 2026 checked-bag list is headed "Liquids/spreads over 3.4 oz." (the 2025 Harrisburg list had no figure beside the items), the 2026 releases have no sentence about the 3-1-1 rule for casseroles with liquid, candy and spices are no longer listed, and "canned fruits or vegetables packed in liquid or syrup" is also in the 2025 list (not new). The releases do not say what applies to a container of 3.4 oz or less. No search-volume claim; Trends were not re-checked on 2026-11-24 (the earlier 2026-11-04 relative readings stand, relative only).
+
+**Re-check rule before publishing:** re-read the Food page, the Liquids page and the press-release list (and at least the eight releases) right before publishing; report first if a food list, the 3.4 oz wording or a table value changed or if a national release appears.

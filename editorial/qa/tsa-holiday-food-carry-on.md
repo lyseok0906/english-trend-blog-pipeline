@@ -139,3 +139,38 @@ Result after this round: 34 of 34 claims pass. The body is about 1,626 words (th
 **PASS.** ChatGPT checked the added TSA "Liquids, Aerosols, and Gels Rule" entry in Sources, its check date (read 2026-11-04, no update date on the page) and the adjusted introduction; the PNG in the repository is identical to the one in `0336d6b`. No change requested or made.
 
 **Hold stays (P1).** The article is not published until a TSA 2026 Thanksgiving notice that contains food guidance has been read. When it appears: compare each example with the draft, revise the section "What TSA had published for the 2026 holiday" (or remove it), re-test every statement against the live pages, update the diagram footer and alt if the footer line changes, and run Gate 2 again. A PASS now does not move the post to `ready` or to WordPress; both need the user's approval, and the Food page, the Liquids page and the Harrisburg release are re-read before approval and before publishing. P4 (the focus keyword is Claude's choice, not a measured term) stays noted.
+
+## Revision for the 2026 TSA releases: Gate 1 re-run (2026-11-24)
+
+**Stage:** draft revised 2026-11-24 after Gate 2 round 3 PASS (`7a7cbe3`, on the 2025-based text); the new text needs **Gate 2 round 4**. Article: `content/drafts/tsa-holiday-food-carry-on.md` (about 2,000 words including sources; md 15,310 B `578e4c472881b349`, PNG 1200 x 3669 159,146 B `a968c611b288656c`, SVG 6,406 B `d7c2a67405ef3aec`; meta description 150 characters; image alt 715 characters; no `$`, no `%`). Sources and method: `research/sources/tsa-thanksgiving-food-carry-on.md` ("2026-11-24 reading").
+
+**Method.** On 2026-11-24 the Food page (six pages, 59 rows), the Liquids page, the Harrisburg 2025 release, the press-release list and the eight 2026 releases were fetched in the built-in browser and every statement was tested by script after normalization (remove marks and quotes, unify dashes, lowercase). Table values were compared row by row (15 rows, 0 differences). Phrase checks: Food page 12 of 12, Liquids page 4 of 4, Harrisburg 12 of 12, 2026 releases 16 of 16 in seven and 14 of 14 in Phoenix; absence checks (3-1-1 not in the 2026 food block in any of the eight; no Food-page row named cranberry, stuffing, casserole or turkey). 0 misses.
+
+| # | Claim in the revised draft | Source | Result |
+|---|---|---|---|
+| D1 | Eight local releases: seven dated Nov. 23, 2026 (Salt Lake City, Phoenix Sky Harbor, Jacksonville, Dallas Fort Worth, Denver, Boston Logan, Hartsfield-Jackson Atlanta), one Nov. 18, 2026 (Harry Reid); same food list | releases, list | pass |
+| D2 | The press-release list on Nov. 24, 2026 shows no national Thanksgiving release; newest item Nov. 23, 2026 | list | pass |
+| D3 | Seven releases use the heading "TSA holiday food guidelines: Carry-on vs. checked bags"; Phoenix uses "Thanksgiving food travel tips" with a differently worded opening sentence | releases | pass |
+| D4 | Opening: solid items permitted in carry-on bags; liquid, spreadable or pourable foods exceeding 3.4 ounces must be in checked luggage | releases | pass |
+| D5 | Carry-on list: baked goods, meats (cooked, uncooked or frozen), stuffing, solid casseroles that hold their shape, mac 'n' cheese, fresh produce (raw potatoes, yams, greens, apples, cranberries and citrus) | releases | pass |
+| D6 | Checked list headed "Liquids/spreads over 3.4 oz.": cranberry sauce (homemade jellied sauce or canned), gravy (jars, cans or plastic containers), canned goods (fruits or vegetables in liquid or syrup), preserves (jams, jellies, maple syrup) | releases | pass |
+| D7 | Ice packs completely frozen; slushy or partially melted ice packs will not be permitted | releases | pass |
+| D8 | Food page: 59 items; table values (Pies and Cakes, Cookies, Cooked Meat..., Bread, Candy, Spices (dry), Fresh Fruits and Vegetables, Fresh Meat and Seafood, Frozen Food, Gravy, Jam and Jelly, Maple Syrup, Salsa and Sauces, Soups, Canned Foods) | Food page | pass |
+| D9 | No Food-page row named cranberry sauce, stuffing, casserole or turkey | Food page (absence) | pass |
+| D10 | Solid food note; Hawaii, Puerto Rico, U.S. Virgin Islands; ice rule on fresh meat and frozen food; dry ice note on Fresh Meat and Seafood; canned foods may need additional screening, TSA suggests checked bag, shipping or leaving at home | Food page | pass |
+| D11 | The final decision rests with the TSA officer; pies and cookies rows: officers may instruct travelers to separate items; "Contact AskTSA if your item is not listed" | Food page | pass |
+| D12 | The 3.4 ounces is per container (travel-sized containers of 3.4 ounces (100 milliliters) or less per item, quart-sized bag, larger containers in checked baggage) | Liquids page | pass |
+| D13 | Harrisburg Nov. 24, 2025: "can spill, spread, spray, pump, or pour" and larger than 3.4 ounces go in checked luggage; no figure beside the checked-bag items | Harrisburg | pass |
+| D14 | Harrisburg: cranberry sauce "Homemade or canned, as it is spreadable"; gravy; jams "Spreadable items must be checked"; canned fruits or vegetables in liquid-filled cans or jars | Harrisburg | pass |
+| D15 | Harrisburg: solid casseroles in carry-on or checked; casseroles with liquid or semi-liquid components must follow the 3-1-1 rule; candy and spices listed as carry-on examples; ice packs permitted but frozen solid | Harrisburg | pass |
+| D16 | The 2026 food block has no casserole sentence about 3-1-1 and does not list candy or spices | releases (absence) | pass |
+| D17 | Comparison table: no 2026 text says what applies to a container of 3.4 oz or less; stated as "do not say" | releases (absence) | pass |
+| D18 | Food page marks fresh fruits and vegetables, fresh meat and seafood, and frozen food "Yes (Special Instructions)"; the releases list produce and uncooked or frozen meats as allowed in carry-on | Food page, releases | pass |
+| D19 | The 3-1-1 post link (`/tsa-3-1-1-liquids-rule/`) with the live title; one link | repository | pass (live check before publishing) |
+| D20 | No prices, fees, percentages or search-volume claims | article scan | pass |
+
+**Image checks (diagram 1200 x 3669).** Card 1 matches D8, D10, D12; card 2 matches D1, D5, D6; card 3 matches D6, D8, D9, D17; card 4 matches D13, D15, D16; footer matches D2 and the dates. The "mac 'n' cheese" spelling follows the releases. No text past the right margin (script check returned an empty list). Alt text (715 characters) matches the picture. PNG and SVG carry no C2PA data (chunk and metadata removed; size and hash prefix equal the originals).
+
+**Open points for Gate 2 round 4 (shown in the article, not resolved).** P1: the Food page and the releases word gravy, jam and maple syrup differently, and the article does not say which governs. P2: the 2026 releases do not say what applies at 3.4 oz or less. P3: the comparison with the 2025 Harrisburg release uses one airport's 2025 text; other 2025 releases were not compared. P4: only eight 2026 releases were read; other airports may differ. P5: the 3-1-1 link is the only internal link; no other link added.
+
+**Not checked.** The WordPress draft, mobile layout (375 px, 320 px), editor validity and the live page. Search volume was not checked; Trends were not re-checked on 2026-11-24. Rule-type post: re-read the Food page, Liquids page, the list and the eight releases right before publishing.
