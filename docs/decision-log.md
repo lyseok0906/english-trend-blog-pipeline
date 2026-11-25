@@ -1626,3 +1626,7 @@ Round 3 on `029925b` (pushed) accepted the diagram and alt text and found one bo
 ## 2026-11-25 (KST) — Registered Mail: Gate 2 PASS, WordPress draft built, scheduled for 2026-11-26 15:00 KST
 
 Round 4 on `750caf5` was PASS. After re-reading the three official sources (no change), the pushed files were fetched from GitHub main (hashes equal), the WordPress draft (post 181, media 180) was built and checked in the editor (0 invalid blocks) and at 375 and 320 px, and the post was scheduled with `date_gmt` 2026-11-26T06:00:00 (15:00 KST). The saved status `future` and time were re-read from WordPress. The article links to the Return Receipt article (post 174), which is scheduled to go live 2026-11-25 15:00 KST; if it does not, that link must be removed before the Registered Mail slot. Live QA follows publication.
+
+## 2026-11-25 (KST) — Priority Mail Express published and live QA passed
+
+WordPress post 173 went public on schedule (09:00 KST). The logged-out live QA passed on all points (200, canonical, meta 146 characters, og tags, index robots, BlogPosting JSON-LD, one H1, no comment form or pingback, image hash `ed83c481c8b1b4e4`, five internal links 200, external links `_blank noopener`, sitemap, feed, home, category page, `x-wp-total` 40). The first fetch at about 09:20 KST returned a cached-looking 404 although REST, sitemap, feed, home and category already showed the post; later fetches returned 200 and nothing was changed. Next: Return Receipt (post 174) at 15:00 KST, then General Delivery and Registered Mail on 2026-11-26.
