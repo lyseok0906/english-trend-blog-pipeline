@@ -8,7 +8,7 @@ Retrieved **2026-11-26** by Cowork (Claude) in the built-in browser; text read b
 
 ## S2 — USPS.com, "Sending Money Orders" (no update date shown; primary, official)
 - https://www.usps.com/shop/money-orders.htm . Opened and read in full. 31 of 31 phrase checks pass.
-- Covers: how to send (cash or debit card; no credit card), cashing steps (do not sign; primary photo ID; sign at the counter; free at a Post Office; most banks and some stores; rural carriers if cash is on hand), status check items, lost or stolen (no stop payment; 30 and 60 days; inquiry at the counter; replacement), damaged replacement, how to spot a fake (4 valid designs; amount checks; watermark check; QR code; verify; report to the Postal Inspection Service). Fees, the replacement fee and the single-order maximum on this page are not used.
+- Covers: how to send (cash or debit card; no credit card), cashing steps (do not sign; take a primary photo ID, while the FAQ says an acceptable primary form of identification; sign at the counter; free at a Post Office; most banks and some stores; rural carriers if cash is on hand), status check items, lost or stolen (no stop payment; 30 and 60 days; inquiry at the counter; replacement), damaged replacement, how to spot a fake (4 valid designs; amount checks; watermark check; QR code; verify; report to the Postal Inspection Service). Fees, the replacement fee and the single-order maximum on this page are not used.
 
 ## S3 — USPS, DMM 509 "Other Services", section 3.0 Money Orders (no update date shown; primary, official)
 - https://pe.usps.com/text/dmm300/509.htm . Section 3.0 read in 3.1 to 3.3.6 (to the point of payment to another party). 24 of 24 phrase checks pass.

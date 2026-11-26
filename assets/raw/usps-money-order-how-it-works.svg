@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2248" viewBox="0 0 800 2248" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>Diagram of what USPS pages say about a postal money order. Buying: at a Post Office, from rural carriers or at some contract stations; pay with cash or a debit card with a PIN; checks and credit cards are not accepted; fill in the payee and purchaser and keep the receipt. Cashing: at a Post Office or many banks; do not sign first, bring primary photo ID and sign in front of a USPS employee; no expiry and paid only the printed amount. Checking: the status online needs the serial number, Post Office number and dollar amount; there are no stop payments and no tracing in the mail. Lost or stolen: take the receipt to a Post Office and start a Money Order Inquiry, for which a fee applies; replaced only if not cashed, with up to 30 days to confirm and up to 60 days to investigate; damaged or spoiled ones are replaced at no charge with the money order and its receipt, and without the receipt the FAQ says you can still fill in the inquiry form with the required information. The pages differ on traveler's checks and on refund and replacement timing, and the DMM has separate rules for one payee when the order is completed and several payees when it is cashed.</title>
-<rect width="800" height="2248" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2294" viewBox="0 0 800 2294" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of what USPS pages say about a postal money order. Buying: at a Post Office, from rural carriers or at some contract stations; pay with cash or a debit card with a PIN; checks and credit cards are not accepted; fill in the payee and purchaser and keep the receipt. Cashing: at a Post Office or many banks; do not sign first, bring an acceptable primary ID (USPS.com says a primary photo ID) and sign in front of a USPS employee; no expiry and paid only the printed amount. Checking: the status online needs the serial number, Post Office number and dollar amount; there are no stop payments and no tracing in the mail. Lost or stolen: take the receipt to a Post Office and start a Money Order Inquiry, for which a fee applies; replaced only if not cashed, with up to 30 days to confirm and up to 60 days to investigate; damaged or spoiled ones are replaced at no charge with the money order and its receipt, and without the receipt the FAQ says you can still fill in the inquiry form with the required information. The pages differ on traveler's checks and on refund and replacement timing, and the DMM has separate rules for one payee when the order is completed and several payees when it is cashed.</title>
+<rect width="800" height="2294" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS Money Orders</text>
 <text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
 <rect x="40" y="160" width="720" height="342" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
@@ -10,36 +10,38 @@
 <text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">a debit card (PIN); no checks or credit</text>
 <text x="70" y="410" font-size="32" fill="#111827" text-anchor="start">cards. Fill in payee and purchaser; keep</text>
 <text x="70" y="456" font-size="32" fill="#111827" text-anchor="start">the receipt.</text>
-<rect x="40" y="532" width="720" height="296" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<rect x="40" y="532" width="720" height="342" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
 <text x="70" y="590" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">2. Cashing</text>
 <text x="70" y="644" font-size="32" fill="#111827" text-anchor="start">At a Post Office or many banks. Do not</text>
-<text x="70" y="690" font-size="32" fill="#111827" text-anchor="start">sign first; bring primary photo ID and</text>
-<text x="70" y="736" font-size="32" fill="#111827" text-anchor="start">sign in front of a USPS employee. No</text>
-<text x="70" y="782" font-size="32" fill="#111827" text-anchor="start">expiry; paid only the printed amount.</text>
-<rect x="40" y="858" width="720" height="250" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
-<text x="70" y="916" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. Checking</text>
-<text x="70" y="970" font-size="32" fill="#111827" text-anchor="start">Status online with the serial number,</text>
-<text x="70" y="1016" font-size="32" fill="#111827" text-anchor="start">Post Office number and amount. No stop</text>
-<text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">payments and no tracing in the mail.</text>
-<rect x="40" y="1138" width="720" height="526" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
-<text x="70" y="1196" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">4. Lost, stolen or damaged</text>
-<text x="70" y="1250" font-size="32" fill="#111827" text-anchor="start">Lost or stolen: take the receipt to a Post</text>
-<text x="70" y="1296" font-size="32" fill="#111827" text-anchor="start">Office and start a Money Order Inquiry (a</text>
-<text x="70" y="1342" font-size="32" fill="#111827" text-anchor="start">fee applies). Replaced only if not cashed:</text>
-<text x="70" y="1388" font-size="32" fill="#111827" text-anchor="start">up to 30 days to confirm, up to 60 to</text>
-<text x="70" y="1434" font-size="32" fill="#111827" text-anchor="start">investigate. Damaged or spoiled: replaced</text>
-<text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">at no charge with the money order and its</text>
-<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">receipt; without the receipt, the FAQ says</text>
-<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">you can still fill in the inquiry form with</text>
-<text x="70" y="1618" font-size="32" fill="#111827" text-anchor="start">the required information.</text>
-<rect x="40" y="1694" width="720" height="434" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1752" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
-<text x="70" y="1806" font-size="32" fill="#111827" text-anchor="start">Traveler's checks: not accepted (FAQ)</text>
-<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">but listed in the DMM. Refund or</text>
-<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">replacement timing: 30 days, 10 business</text>
-<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">days and 60 days are not reconciled.</text>
-<text x="70" y="1990" font-size="32" fill="#111827" text-anchor="start">Payees: DMM 3.2.4 says one payee when</text>
-<text x="70" y="2036" font-size="32" fill="#111827" text-anchor="start">completing; 3.3.5 covers several when</text>
-<text x="70" y="2082" font-size="32" fill="#111827" text-anchor="start">cashing.</text>
-<text x="40" y="2188" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQ 000006987; USPS.com</text>
-<text x="40" y="2222" font-size="28" fill="#374151" text-anchor="start">Sending Money Orders; DMM 509.3; read Nov. 26, 2026</text></svg>
+<text x="70" y="690" font-size="32" fill="#111827" text-anchor="start">sign first; bring an acceptable primary</text>
+<text x="70" y="736" font-size="32" fill="#111827" text-anchor="start">ID (USPS.com: primary photo ID) and sign</text>
+<text x="70" y="782" font-size="32" fill="#111827" text-anchor="start">in front of a USPS employee. No expiry;</text>
+<text x="70" y="828" font-size="32" fill="#111827" text-anchor="start">paid only the printed amount.</text>
+<rect x="40" y="904" width="720" height="250" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="962" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. Checking</text>
+<text x="70" y="1016" font-size="32" fill="#111827" text-anchor="start">Status online with the serial number,</text>
+<text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">Post Office number and amount. No stop</text>
+<text x="70" y="1108" font-size="32" fill="#111827" text-anchor="start">payments and no tracing in the mail.</text>
+<rect x="40" y="1184" width="720" height="526" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
+<text x="70" y="1242" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">4. Lost, stolen or damaged</text>
+<text x="70" y="1296" font-size="32" fill="#111827" text-anchor="start">Lost or stolen: take the receipt to a Post</text>
+<text x="70" y="1342" font-size="32" fill="#111827" text-anchor="start">Office and start a Money Order Inquiry (a</text>
+<text x="70" y="1388" font-size="32" fill="#111827" text-anchor="start">fee applies). Replaced only if not cashed:</text>
+<text x="70" y="1434" font-size="32" fill="#111827" text-anchor="start">up to 30 days to confirm, up to 60 to</text>
+<text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">investigate. Damaged or spoiled: replaced</text>
+<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">at no charge with the money order and its</text>
+<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">receipt; without the receipt, the FAQ says</text>
+<text x="70" y="1618" font-size="32" fill="#111827" text-anchor="start">you can still fill in the inquiry form with</text>
+<text x="70" y="1664" font-size="32" fill="#111827" text-anchor="start">the required information.</text>
+<rect x="40" y="1740" width="720" height="434" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1798" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
+<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">Traveler's checks: not accepted (FAQ)</text>
+<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">but listed in the DMM. Refund or</text>
+<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">replacement timing: 30 days, 10 business</text>
+<text x="70" y="1990" font-size="32" fill="#111827" text-anchor="start">days and 60 days are not reconciled.</text>
+<text x="70" y="2036" font-size="32" fill="#111827" text-anchor="start">Payees: DMM 3.2.4 says one payee when</text>
+<text x="70" y="2082" font-size="32" fill="#111827" text-anchor="start">completing; 3.3.5 covers several when</text>
+<text x="70" y="2128" font-size="32" fill="#111827" text-anchor="start">cashing.</text>
+<text x="40" y="2234" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQ 000006987; USPS.com</text>
+<text x="40" y="2268" font-size="28" fill="#374151" text-anchor="start">Sending Money Orders; DMM 509.3; read Nov. 26, 2026</text>
+</svg>
