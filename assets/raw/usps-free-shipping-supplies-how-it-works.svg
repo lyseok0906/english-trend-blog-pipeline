@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1508" viewBox="0 0 800 1508" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of what USPS Postal Store pages say about free shipping supplies. What is listed: Priority Mail, Priority Mail Flat Rate and Priority Mail Express boxes and envelopes, labels, forms, customs pouches, military supplies and cremated remains kits, shown at no cost. The rule: the packaging is free when you pay for the matching service and may only be used to ship that way; international use is charged at the international price. Ordering: items come in packs, quantity maximums differ by item, orders ship by Ground Advantage in 2 to 5 days at no cost after about one business day, and a separate phone line takes supply orders. The pages differ on the Dual-Use tube and the APO/FPO box, and similar prepaid boxes are not free.</title>
+<rect width="800" height="1508" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS Free Shipping Supplies</text>
+<text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the Postal Store pages say</text>
+<rect x="40" y="160" width="720" height="296" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="218" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">1. What the listing includes</text>
+<text x="70" y="272" font-size="32" fill="#111827" text-anchor="start">Priority Mail, Flat Rate and Priority Mail</text>
+<text x="70" y="318" font-size="32" fill="#111827" text-anchor="start">Express boxes and envelopes; labels; forms;</text>
+<text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">customs pouches; military supplies; cremated</text>
+<text x="70" y="410" font-size="32" fill="#111827" text-anchor="start">remains kits. Shown at no cost.</text>
+<rect x="40" y="486" width="720" height="296" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="544" font-size="36" font-weight="bold" fill="#111827" text-anchor="start">2. The rule on the product pages</text>
+<text x="70" y="598" font-size="32" fill="#111827" text-anchor="start">Free when you pay for the matching service</text>
+<text x="70" y="644" font-size="32" fill="#111827" text-anchor="start">and only to be used to ship that way.</text>
+<text x="70" y="690" font-size="32" fill="#111827" text-anchor="start">International use is charged at the</text>
+<text x="70" y="736" font-size="32" fill="#111827" text-anchor="start">international price for that service.</text>
+<rect x="40" y="812" width="720" height="296" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="870" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. Ordering and delivery</text>
+<text x="70" y="924" font-size="32" fill="#111827" text-anchor="start">Items come in packs; quantity maximums</text>
+<text x="70" y="970" font-size="32" fill="#111827" text-anchor="start">differ by item. Ships by Ground Advantage,</text>
+<text x="70" y="1016" font-size="32" fill="#111827" text-anchor="start">2 to 5 days, no cost, after about one business</text>
+<text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">day. Supply orders line: 1-800-610-8734.</text>
+<rect x="40" y="1138" width="720" height="250" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1196" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
+<text x="70" y="1250" font-size="32" fill="#111827" text-anchor="start">Dual-Use tube: no free-when-you-pay rule</text>
+<text x="70" y="1296" font-size="32" fill="#111827" text-anchor="start">and a size fee. APO/FPO box: no rule either.</text>
+<text x="70" y="1342" font-size="32" fill="#111827" text-anchor="start">Similar prepaid boxes are not free.</text>
+<text x="40" y="1448" font-size="28" fill="#374151" text-anchor="start">Sources: Postal Store listing and product pages;</text>
+<text x="40" y="1482" font-size="28" fill="#374151" text-anchor="start">USPS.com Contact Us; read Nov. 26, 2026</text></svg>

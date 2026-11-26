@@ -1650,3 +1650,7 @@ USPS Money Orders drafted (backlog row 48): Gate 1 passed on the FAQ, the USPS.c
 ## 2026-11-26 (KST) — Insurance swapped for a contact-USPS article; Customer Service drafted
 
 Before drafting the third slot (2026-11-28 9 AM KST) the official Insurance pages were read and compared with published posts. They are mostly coverage amounts and fee tiers, which the standing rule keeps out, and the rest overlaps the claims post and the Priority Mail vs Ground Advantage post, so it cannot stand as its own article. As the user allowed, it is swapped for "USPS Customer Service: How to Phone, Email or File a Complaint" (backlog row 49): sources are USPS.com Contact Us, USPS Email Us and the USAGov complaint page; Gate 1 passed; no prices or fees; phone numbers and hours are dated and must be re-read before publishing. Waiting for Gate 2.
+
+## 2026-11-26 (KST) — Free Shipping Supplies drafted
+
+The fourth slot (2026-11-28 3 PM KST) was read and compared with published posts before drafting, as the user asked: the Postal Store listing, nine product pages and the Contact Us supply line give clear rules and no published post covers them, so it stands as its own article (backlog row 50), "USPS Free Boxes and Envelopes: What You Can Order and the Rules That Apply". Gate 1 passed (87 of 87); no prices, fees or insurance amounts. It links to the customer-service post, which must go public first (9 AM KST slot). Waiting for Gate 2.
