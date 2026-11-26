@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1646" viewBox="0 0 800 1646" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>Diagram of the contact routes on USPS pages. Phone: the Customer Care Center at 1-800-ASK-USPS (1-800-275-8777), a tracking line at 1-800-222-1811 and Technical Support at 1-800-344-7779, all open Monday to Friday 8 AM to 8:30 PM Eastern and Saturday 8 AM to 6 PM Eastern. Email Us: pick a topic, either where is my package, where is my mail, USPS.com technical issues, personnel, postal facility, or permits and bulk mail. Complaints: the station manager at the Post Office, then Consumer Affairs or the Office of the Consumer Advocate; the Inspector General for theft, fraud or waste by USPS staff; the Postal Inspection Service for mail fraud or theft by outsiders; the Postal Regulatory Commission for policy changes. The pages differ on mail theft, Informed Delivery help, tracking questions and TTY.</title>
-<rect width="800" height="1646" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1692" viewBox="0 0 800 1692" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of the contact routes on USPS pages. Phone: the Customer Care Center at 1-800-ASK-USPS (1-800-275-8777), a tracking line at 1-800-222-1811 and Technical Support at 1-800-344-7779, all open Monday to Friday 8 AM to 8:30 PM Eastern and Saturday 8 AM to 6 PM Eastern. Email Us: pick a topic, either where is my package, where is my mail, USPS.com technical issues, personnel, postal facility, or permits and bulk mail. Complaints: the station manager at the Post Office, then Consumer Affairs or the Office of the Consumer Advocate; the Inspector General for theft, fraud or waste by USPS staff; the Postal Inspection Service for mail fraud or theft by outsiders; the Postal Regulatory Commission for policy changes. Which route fits which problem: delivery or mail service, technical issues, theft or fraud by USPS staff or by outsiders, policy changes, and hearing or speech needs through the 7-1-1 relay service.</title>
+<rect width="800" height="1692" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS Customer Service</text>
 <text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS and USAGov pages say</text>
 <rect x="40" y="160" width="720" height="342" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
@@ -22,12 +22,14 @@
 <text x="70" y="1016" font-size="32" fill="#111827" text-anchor="start">Theft, fraud or waste by USPS staff: OIG.</text>
 <text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">Mail fraud or theft by outsiders: Postal</text>
 <text x="70" y="1108" font-size="32" fill="#111827" text-anchor="start">Inspection Service. Policy changes: PRC.</text>
-<rect x="40" y="1184" width="720" height="342" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
-<text x="70" y="1242" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
-<text x="70" y="1296" font-size="32" fill="#111827" text-anchor="start">Mail theft: Email Us topic or Inspection</text>
-<text x="70" y="1342" font-size="32" fill="#111827" text-anchor="start">Service. Informed Delivery help: USPS.com</text>
-<text x="70" y="1388" font-size="32" fill="#111827" text-anchor="start">topic or its own email. Tracking: Email Us</text>
-<text x="70" y="1434" font-size="32" fill="#111827" text-anchor="start">topic or a separate phone line. TTY: 711 or</text>
-<text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">state relay service, not a USPS representative.</text>
-<text x="40" y="1586" font-size="28" fill="#374151" text-anchor="start">Sources: USPS.com Contact Us; USPS Email Us;</text>
-<text x="40" y="1620" font-size="28" fill="#374151" text-anchor="start">USAGov (updated Sep. 4, 2026); read Nov. 26, 2026</text></svg>
+<rect x="40" y="1184" width="720" height="388" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1242" font-size="36" font-weight="bold" fill="#111827" text-anchor="start">Which route fits which problem</text>
+<text x="70" y="1296" font-size="32" fill="#111827" text-anchor="start">Delivery problem: Email Us topic, phone or</text>
+<text x="70" y="1342" font-size="32" fill="#111827" text-anchor="start">station manager. Technical issue: Technical</text>
+<text x="70" y="1388" font-size="32" fill="#111827" text-anchor="start">Support or USPS.com topic. Theft or fraud by</text>
+<text x="70" y="1434" font-size="32" fill="#111827" text-anchor="start">USPS staff: OIG. By outsiders: Postal</text>
+<text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">Inspection Service. Policy change: PRC.</text>
+<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">Hearing or speech: 7-1-1 relay service.</text>
+<text x="40" y="1632" font-size="28" fill="#374151" text-anchor="start">Sources: USPS.com Contact Us; USPS Email Us;</text>
+<text x="40" y="1666" font-size="28" fill="#374151" text-anchor="start">USAGov (updated Sep. 4, 2026); read Nov. 26, 2026</text>
+</svg>

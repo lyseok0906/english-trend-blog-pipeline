@@ -1,23 +1,23 @@
 ---
 title: "USPS Customer Service: How to Phone, Email or File a Complaint"
 slug: usps-customer-service-how-to-contact
-meta_description: "What USPS pages say about reaching customer service: phone lines, Email Us topics, where to take a complaint and where the pages differ."
+meta_description: "What USPS pages say about reaching customer service: phone lines, Email Us topics, where to take a complaint and which route fits which problem."
 category: Postal service and stamps
 focus_keyword: usps customer service
 status: draft
 date: 2026-11-26
 internal_link_candidates: usps-tracking-status-what-it-means and usps-missing-mail-search-how-it-works (both published; each appears once in the body with link text matching the live title).
 image: assets/optimized/usps-customer-service-how-to-contact.png
-image_alt: "Diagram of the contact routes on USPS pages. Phone: the Customer Care Center at 1-800-ASK-USPS (1-800-275-8777), a tracking line at 1-800-222-1811 and Technical Support at 1-800-344-7779, all open Monday to Friday 8 AM to 8:30 PM Eastern and Saturday 8 AM to 6 PM Eastern. Email Us: pick a topic, either where is my package, where is my mail, USPS.com technical issues, personnel, postal facility, or permits and bulk mail. Complaints: the station manager at the Post Office, then Consumer Affairs or the Office of the Consumer Advocate; the Inspector General for theft, fraud or waste by USPS staff; the Postal Inspection Service for mail fraud or theft by outsiders; the Postal Regulatory Commission for policy changes. The pages differ on mail theft, Informed Delivery help, tracking questions and TTY."
+image_alt: "Diagram of the contact routes on USPS pages. Phone: the Customer Care Center at 1-800-ASK-USPS (1-800-275-8777), a tracking line at 1-800-222-1811 and Technical Support at 1-800-344-7779, all open Monday to Friday 8 AM to 8:30 PM Eastern and Saturday 8 AM to 6 PM Eastern. Email Us: pick a topic, either where is my package, where is my mail, USPS.com technical issues, personnel, postal facility, or permits and bulk mail. Complaints: the station manager at the Post Office, then Consumer Affairs or the Office of the Consumer Advocate; the Inspector General for theft, fraud or waste by USPS staff; the Postal Inspection Service for mail fraud or theft by outsiders; the Postal Regulatory Commission for policy changes. Which route fits which problem: delivery or mail service, technical issues, theft or fraud by USPS staff or by outsiders, policy changes, and hearing or speech needs through the 7-1-1 relay service."
 ---
 
 # USPS Customer Service: How to Phone, Email or File a Complaint
 
-**USPS pages list one main customer line, 1-800-ASK-USPS (1-800-275-8777), plus separate phone lines for tracking and for technical problems, and an Email Us form that sends you to a different place depending on the reason for your inquiry.** For complaints, a government page adds routes outside USPS customer service for employee misconduct, mail fraud and postal policy. This article puts those routes side by side and shows where the pages word things differently.
+**USPS pages list one main customer line, 1-800-ASK-USPS (1-800-275-8777), plus separate phone lines for tracking and for technical problems, and an Email Us form that sends you to a different place depending on the reason for your inquiry.** For complaints, a government page adds routes outside USPS customer service for employee misconduct, mail fraud and postal policy. This article puts those routes side by side and groups them by the problem each one is for.
 
 This article uses the USPS.com "Contact Us" page (no update date shown), the USPS "Email Us" page at emailus.usps.com (no update date shown) and the USAGov page "How to file a U.S. Postal Service complaint" (last updated September 4, 2026), all read on November 26, 2026. Phone numbers and hours are copied as the pages list them on that date and can change.
 
-![Diagram of the contact routes on USPS pages. Phone: the Customer Care Center at 1-800-ASK-USPS (1-800-275-8777), a tracking line at 1-800-222-1811 and Technical Support at 1-800-344-7779, all open Monday to Friday 8 AM to 8:30 PM Eastern and Saturday 8 AM to 6 PM Eastern. Email Us: pick a topic, either where is my package, where is my mail, USPS.com technical issues, personnel, postal facility, or permits and bulk mail. Complaints: the station manager at the Post Office, then Consumer Affairs or the Office of the Consumer Advocate; the Inspector General for theft, fraud or waste by USPS staff; the Postal Inspection Service for mail fraud or theft by outsiders; the Postal Regulatory Commission for policy changes. The pages differ on mail theft, Informed Delivery help, tracking questions and TTY.](assets/optimized/usps-customer-service-how-to-contact.png)
+![Diagram of the contact routes on USPS pages. Phone: the Customer Care Center at 1-800-ASK-USPS (1-800-275-8777), a tracking line at 1-800-222-1811 and Technical Support at 1-800-344-7779, all open Monday to Friday 8 AM to 8:30 PM Eastern and Saturday 8 AM to 6 PM Eastern. Email Us: pick a topic, either where is my package, where is my mail, USPS.com technical issues, personnel, postal facility, or permits and bulk mail. Complaints: the station manager at the Post Office, then Consumer Affairs or the Office of the Consumer Advocate; the Inspector General for theft, fraud or waste by USPS staff; the Postal Inspection Service for mail fraud or theft by outsiders; the Postal Regulatory Commission for policy changes. Which route fits which problem: delivery or mail service, technical issues, theft or fraud by USPS staff or by outsiders, policy changes, and hearing or speech needs through the 7-1-1 relay service.](assets/optimized/usps-customer-service-how-to-contact.png)
 
 ## Start with the FAQs and tracking
 
@@ -56,16 +56,20 @@ The same page names three other places:
 - **U.S. Postal Inspection Service (USPIS).** The federal law enforcement agency that protects the mail system, for mail fraud and mail theft by a person or company outside USPS, filed online.
 - **Postal Regulatory Commission (PRC).** For a comment or complaint about a policy change such as postage rates, through its online contact form.
 
-## Where the pages differ
+## Which route fits which problem
 
-- **Mail theft.** The Email Us page lists "Theft of Mail" as an example under "Where is my mail?" The USAGov page sends mail theft by someone outside USPS to the Postal Inspection Service. The pages do not say which to use first.
-- **Informed Delivery help.** The Email Us page lists Informed Delivery under USPS.com technical issues. The Contact Us page lists a separate Informed Delivery user-support email and Informed Delivery FAQs.
-- **Tracking questions.** The Email Us page has a "Where is my package?" topic for an envelope or package with a tracking number. The Contact Us page gives a separate phone line for tracking and says representatives see the same tracking information you do.
-- **TTY.** The USAGov page lists "TTY: 711" beside the main number. The USPS page describes dialing 7-1-1 to reach the relay service for your state and says that contact is not a USPS representative.
+The pages describe these routes for different situations rather than as one ordered list, so this section groups them by problem.
+
+- **A delivery or mail service problem.** The Email Us page offers "Where is my package?" and "Where is my mail?" as topics. The USAGov page adds the main phone number and the station manager at your local Post Office, and, if the complaint is not resolved, USPS Consumer Affairs and the Office of the Consumer Advocate.
+- **A question about a tracked package.** The Contact Us page gives a separate tracking phone line and says representatives see the same tracking information you do. The Email Us page has the "Where is my package?" topic for a package or envelope with a tracking number.
+- **A technical problem on USPS.com.** The Contact Us page lists Technical Support by phone and a chat feature. The Email Us page has a USPS.com topic that includes Informed Delivery, and the Contact Us page also lists a separate email address for Informed Delivery user support.
+- **Mail theft or fraud.** The Email Us page lists "Theft of Mail" as an example under "Where is my mail?" The USAGov page names the Office of the Inspector General for theft, fraud or waste at a USPS facility or by a USPS employee, and the Postal Inspection Service for mail fraud or theft by a person or company outside USPS.
+- **A policy change such as postage rates.** The USAGov page names the Postal Regulatory Commission.
+- **Hearing or speech needs.** The USAGov page lists "TTY: 711" beside the main number. The Contact Us page describes the FCC's Telecommunications Relay Services, reached by dialing 7-1-1, and says that contact is not a USPS customer service representative.
 
 ## What the pages do not say
 
-They do not say how long an email reply takes, whether a case or reference number is given, or how long a phone wait is. They do not list holiday hours for the three phone lines above; the only closure stated is for the stamps and Postal Store line, which the page says is closed on Saturdays, Sundays and Postal Holidays. They also do not say what to have ready before you call.
+They do not say which route to start with if you are unsure who took a piece of mail, how long an email reply takes, whether a case or reference number is given, or how long a phone wait is. They do not list holiday hours for the three phone lines above; the only closure stated is for the stamps and Postal Store line, which the page says is closed on Saturdays, Sundays and Postal Holidays. They also do not say what to have ready before you call.
 
 ## Sources
 

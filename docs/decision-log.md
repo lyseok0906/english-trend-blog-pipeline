@@ -1682,3 +1682,7 @@ Gate 2 passed the changed parts of Money Orders (`91d5b5f`). Re-reading the sour
 ## 2026-11-26 (KST) — Money Orders scheduled for 2026-11-27 3 PM KST
 
 Gate 2 passed the changed parts of `0bdda77`. The three sources were re-read (the four spot-a-fake checks and verification options on USPS.com included; no other change), the post was built from the pushed files (media 186, post 187), editor 0 invalid blocks, 375 and 320 px checked, scheduled `future` for 2026-11-27T06:00:00 UTC = 3 PM KST and re-read from WordPress. The file moved to `content/ready/`. Live QA is due about 3:20 PM KST on 2026-11-27. Customer Service and Free Boxes still await Gate 2.
+
+## 2026-11-26 (KST) — Customer Service: Gate 2 round 1 FIX applied
+
+Gate 2 said the "Where the pages differ" section framed ordinary alternative routes as source conflicts (for example "TTY: 711" and the 7-1-1 relay description are not conflicting rules; tracking has an Email Us topic and a phone line as different intake routes; USAGov splits theft by USPS staff from theft or fraud by outsiders). The section, introduction sentence, meta description, diagram card and alt text now group the routes by problem ("Which route fits which problem") and no longer call anything a difference between pages. The USAGov page was re-read to confirm the wording. Not built in WordPress or scheduled until Gate 2 checks the changed parts; the slot stays 2026-11-28 9 AM KST. Free Boxes (3 PM KST) still awaits Gate 2.
