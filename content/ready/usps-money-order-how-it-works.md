@@ -4,7 +4,7 @@ slug: usps-money-order-how-it-works
 meta_description: "What USPS pages say about postal money orders: how to buy and cash one, check its status and replace one that is lost, stolen or damaged."
 category: Postal service and stamps
 focus_keyword: usps money order
-status: draft
+status: ready
 date: 2026-11-26
 internal_link_candidates: usps-claim-how-it-works (published; a money order inquiry is separate from a mail claim). Appears once in the body; link text matches the live title.
 image: assets/optimized/usps-money-order-how-it-works.png

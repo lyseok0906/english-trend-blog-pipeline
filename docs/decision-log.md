@@ -1678,3 +1678,7 @@ After two Gate 2 FIX rounds and the user's whole-article PASS, both sources were
 ## 2026-11-26 (KST) — Money Orders: ID wording corrected in the pre-publication re-read
 
 Gate 2 passed the changed parts of Money Orders (`91d5b5f`). Re-reading the sources before building the WordPress draft showed one imprecision: the FAQ requires an "acceptable primary form of identification" while USPS.com says to take a primary photo ID, and the article had merged them and called the two pages identical. The body, diagram card 2 and alt text now state each page's wording; "PS Form 6387" became "Form 6387" (DMM 509.3 wording). No other change. The post is not built in WordPress or scheduled until Gate 2 has checked this change; the slot stays 2026-11-27 3 PM KST.
+
+## 2026-11-26 (KST) — Money Orders scheduled for 2026-11-27 3 PM KST
+
+Gate 2 passed the changed parts of `0bdda77`. The three sources were re-read (the four spot-a-fake checks and verification options on USPS.com included; no other change), the post was built from the pushed files (media 186, post 187), editor 0 invalid blocks, 375 and 320 px checked, scheduled `future` for 2026-11-27T06:00:00 UTC = 3 PM KST and re-read from WordPress. The file moved to `content/ready/`. Live QA is due about 3:20 PM KST on 2026-11-27. Customer Service and Free Boxes still await Gate 2.
