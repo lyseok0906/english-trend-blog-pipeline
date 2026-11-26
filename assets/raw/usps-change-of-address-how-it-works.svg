@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2064" viewBox="0 0 800 2064" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of what USPS pages say about a change of address. Who and when: filed online or at a Post Office, with identity verified; a request can be submitted 90 days before the move date and up to 30 days after; the move type is Individual, Family (same last name) or Business. Online: pick a move type, verify identity with a mobile code or link and a card (an identity fee applies; the billing address must match the old or new address). At a Post Office: bring acceptable photo ID and fill in PS Form 3575; filing in person is required for a move abroad, for someone else, or if identity cannot be verified online. After filing: a letter goes to the old address and a welcome kit with a 16-digit Confirmation Code arrives about 5 business days before the start date; mail starts arriving within 7-10 business days of the start date according to the FAQ; keep the code to change or cancel. The pages differ on whether the 7-10 days count from the start date or from approval, and on temporary forwarding limits.</title>
+<rect width="800" height="2064" fill="#ffffff"/>
+<text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS Change of Address</text>
+<text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
+<rect x="40" y="160" width="720" height="342" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
+<text x="70" y="218" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">1. Who and when</text>
+<text x="70" y="272" font-size="32" fill="#111827" text-anchor="start">Online or at a Post Office; identity must</text>
+<text x="70" y="318" font-size="32" fill="#111827" text-anchor="start">be verified. Submit from 90 days before</text>
+<text x="70" y="364" font-size="32" fill="#111827" text-anchor="start">the move date to 30 days after. Move</text>
+<text x="70" y="410" font-size="32" fill="#111827" text-anchor="start">type: Individual, Family (same last</text>
+<text x="70" y="456" font-size="32" fill="#111827" text-anchor="start">name) or Business.</text>
+<rect x="40" y="532" width="720" height="342" rx="14" fill="#dcfce7" stroke="#166534" stroke-width="4"/>
+<text x="70" y="590" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">2. Online</text>
+<text x="70" y="644" font-size="32" fill="#111827" text-anchor="start">Pick a move type. Verify identity with a</text>
+<text x="70" y="690" font-size="32" fill="#111827" text-anchor="start">mobile code or link and a card: an</text>
+<text x="70" y="736" font-size="32" fill="#111827" text-anchor="start">identity fee applies, and the card's</text>
+<text x="70" y="782" font-size="32" fill="#111827" text-anchor="start">billing address must match the old or</text>
+<text x="70" y="828" font-size="32" fill="#111827" text-anchor="start">new address.</text>
+<rect x="40" y="904" width="720" height="296" rx="14" fill="#fef3c7" stroke="#92400e" stroke-width="4"/>
+<text x="70" y="962" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">3. At a Post Office</text>
+<text x="70" y="1016" font-size="32" fill="#111827" text-anchor="start">Bring acceptable photo ID and fill in</text>
+<text x="70" y="1062" font-size="32" fill="#111827" text-anchor="start">PS Form 3575. In person is required to</text>
+<text x="70" y="1108" font-size="32" fill="#111827" text-anchor="start">move abroad, to file for someone else,</text>
+<text x="70" y="1154" font-size="32" fill="#111827" text-anchor="start">or if identity cannot be verified online.</text>
+<rect x="40" y="1230" width="720" height="388" rx="14" fill="#ede9fe" stroke="#5b21b6" stroke-width="4"/>
+<text x="70" y="1288" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">4. After filing</text>
+<text x="70" y="1342" font-size="32" fill="#111827" text-anchor="start">A letter goes to the old address. A</text>
+<text x="70" y="1388" font-size="32" fill="#111827" text-anchor="start">welcome kit with a 16-digit Confirmation</text>
+<text x="70" y="1434" font-size="32" fill="#111827" text-anchor="start">Code arrives about 5 business days before</text>
+<text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">the start date. FAQ: mail starts arriving</text>
+<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">within 7-10 business days of the start</text>
+<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">date. Keep the code to change or cancel.</text>
+<rect x="40" y="1648" width="720" height="296" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1706" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Where the pages differ</text>
+<text x="70" y="1760" font-size="32" fill="#111827" text-anchor="start">The 7-10 days: from the start date (FAQ)</text>
+<text x="70" y="1806" font-size="32" fill="#111827" text-anchor="start">or from approval (USPS.com page).</text>
+<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">Temporary forwarding: two limits in the</text>
+<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">FAQ; the page says 15 days up to 1 year.</text>
+<text x="40" y="2004" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQ 000005313; USPS.com</text>
+<text x="40" y="2038" font-size="28" fill="#374151" text-anchor="start">Standard Forward Mail page; read Nov. 26, 2026</text>
+</svg>

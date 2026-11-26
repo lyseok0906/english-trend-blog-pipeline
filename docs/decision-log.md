@@ -1638,3 +1638,7 @@ WordPress post 174 went public on schedule (15:00 KST). The logged-out live QA p
 ## 2026-11-26 (KST) — General Delivery published and live QA passed
 
 WordPress post 178 went public on schedule (09:00 KST). The logged-out live QA passed on all points (200 on the first fetch, canonical, meta 130 characters, og tags, index robots, BlogPosting JSON-LD, one H1, no comment form or pingback, image hash `83d9e59e8461c6ab`, table present, two internal links 200, external links `_blank noopener`, sitemap, feed, home, category page, `x-wp-total` 42). No 404 appeared this time. Next: Registered Mail (post 181) at 15:00 KST; its Return Receipt link already resolves.
+
+## 2026-11-26 (KST) — Four topics approved for 2026-11-27 and 2026-11-28; Change of Address drafted
+
+The user approved four topics and slots (all KST): 11-27 9 AM USPS change of address, 11-27 3 PM USPS Money Order, 11-28 9 AM USPS Insurance, 11-28 3 PM USPS free shipping supplies. Money Order: the single-order limit amount is left out (no fee amounts either). For Insurance and free shipping supplies the official sources are read and the overlap with published posts checked before drafting; if either cannot stand as its own post it is swapped for another candidate and reported. Each post goes through Gate 2 before it is scheduled. Change of Address drafted the same day (backlog row 47): Gate 1 passed, no fee amounts, linked to the forwarding, Informed Delivery and Hold Mail posts; waiting for Gate 2.
