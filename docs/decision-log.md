@@ -1662,3 +1662,7 @@ The user relayed Gate 2 on `10872f5`: Change of Address = FIX; the other three p
 ## 2026-11-26 (KST) — Change of Address: Gate 2 round 2 FIX applied (diagram card)
 
 Gate 2 on `3cf9bce` accepted the body and alt text but found the bottom diagram card had dropped conditions: "at least" and "business days" (USPS.com, 7-10 days after approval) and "within" and "business days" (FAQ, mail starts arriving within 7-10 postal business days of the start date). The card and card 4 are rewritten to the pages' wording and the alt text matches. Body unchanged. Waiting for Gate 2 on the changed parts; nothing scheduled.
+
+## 2026-11-26 (KST) — Registered Mail published, live QA passed
+
+Post 181 (USPS Registered Mail) published on schedule at 15:00 KST. Logged-out live QA about 15:20 KST passed (200 on the first fetch, canonical, 141-character meta, og, robots, JSON-LD, one H1, image hash equal, no dollar or percent sign, 5 internal links 200 including Return Receipt, 3 external links noopener, sitemap, feed, home, category). Backlog row 46 set to published. No action needed.
