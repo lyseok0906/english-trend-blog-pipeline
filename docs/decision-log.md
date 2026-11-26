@@ -1694,3 +1694,7 @@ Gate 2 passed the changed parts of Customer Service (`bdf12d7`) and asked for tw
 ## 2026-11-27 (KST) — Customer Service scheduled for 2026-11-28 9 AM KST
 
 Gate 2 passed the changed parts of `bdf12d7`. Contact Us, Email Us and the USAGov page were re-read (no change), the post was built from the pushed files (media 189, post 190), editor 0 invalid blocks, 375 and 320 px checked, internal links 200, scheduled `future` for 2026-11-28T00:00:00 UTC = 9 AM KST and re-read from WordPress. The file moved to `content/ready/`. Live QA is due about 9:20 AM KST on 2026-11-28. Free Boxes (3 PM KST) links to this post and still awaits Gate 2 on its fix (`d7c2e80`).
+
+## 2026-11-27 (KST) — Free Boxes: Gate 2 round 2 FIX applied
+
+Gate 2 on `d7c2e80` asked that the store page's "allow one business day from order receipt ... to be shipped" and the FAQ's "shipped within one business day from order receipt" not be presented as the same wording. The body, the "Time to ship" bullet, diagram cards 3 and 4 and the alt text now state each source's wording separately. The business-days wording, the FAQ source and the nine product-page links were accepted. Not built in WordPress or scheduled until Gate 2 checks the changed parts; slot stays 2026-11-28 3 PM KST.
