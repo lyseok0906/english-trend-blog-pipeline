@@ -1646,3 +1646,7 @@ The user approved four topics and slots (all KST): 11-27 9 AM USPS change of add
 ## 2026-11-26 (KST) — Money Orders drafted without amounts
 
 USPS Money Orders drafted (backlog row 48): Gate 1 passed on the FAQ, the USPS.com page and DMM 509.3. Following the user's instruction, the single-order limit is left out; the article also omits fees, the inquiry and replacement fees, the daily totals that need extra paperwork and the international maximum, and says the pages state them. The DMM's traveler's-check share is written in words. Waiting for Gate 2.
+
+## 2026-11-26 (KST) — Insurance swapped for a contact-USPS article; Customer Service drafted
+
+Before drafting the third slot (2026-11-28 9 AM KST) the official Insurance pages were read and compared with published posts. They are mostly coverage amounts and fee tiers, which the standing rule keeps out, and the rest overlaps the claims post and the Priority Mail vs Ground Advantage post, so it cannot stand as its own article. As the user allowed, it is swapped for "USPS Customer Service: How to Phone, Email or File a Complaint" (backlog row 49): sources are USPS.com Contact Us, USPS Email Us and the USAGov complaint page; Gate 1 passed; no prices or fees; phone numbers and hours are dated and must be re-read before publishing. Waiting for Gate 2.
