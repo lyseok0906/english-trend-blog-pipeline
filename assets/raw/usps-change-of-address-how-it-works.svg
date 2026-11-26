@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2110" viewBox="0 0 800 2110" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
-<title>Diagram of what USPS pages say about a change of address. Who and when: filed online or at a Post Office, with identity verified; a request can be submitted 90 days before the move date and up to 30 days after; the move type is Individual, Family (same last name) or Business. Online: pick a move type, verify identity with a mobile code or link and a card (an identity fee applies; the billing address must match the old or new address). At a Post Office: bring acceptable photo ID and fill in PS Form 3575; filing in person is required for a move abroad, for someone else, or if identity cannot be verified online. After filing: a letter goes to the old address and a welcome kit with a 16-digit Confirmation Code arrives about 5 business days before the start date; mail starts arriving within 7-10 business days of the start date according to the FAQ; keep the code to change or cancel. Two timing details: USPS.com says to allow at least 7-10 business days after approval for the change to go into effect, while the FAQ gives 7-10 business days after the start date for mail to arrive; and for temporary forwarding the FAQ gives a total of up to 364 days, or a first request of up to 185 days extended by up to 179 more, while USPS.com gives a range of 15 days up to 1 year.</title>
-<rect width="800" height="2110" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2202" viewBox="0 0 800 2202" font-family="Liberation Sans, Arial, Helvetica, sans-serif">
+<title>Diagram of what USPS pages say about a change of address. Who and when: filed online or at a Post Office, with identity verified; a request can be submitted 90 days before the move date and up to 30 days after; the move type is Individual, Family (same last name) or Business. Online: pick a move type, verify identity with a mobile code or link and a card (an identity fee applies; the billing address must match the old or new address). At a Post Office: bring acceptable photo ID and fill in PS Form 3575; filing in person is required for a move abroad, for someone else, or if identity cannot be verified online. After filing: a letter goes to the old address and a welcome kit with a 16-digit Confirmation Code arrives about 5 business days before the start date; mail starts arriving within 7-10 postal business days of the start date according to the FAQ; keep the code to change or cancel. Two timing details: USPS.com says to allow at least 7-10 business days after approval for the change to go into effect, while the FAQ says mail starts arriving within 7-10 postal business days of the start date; and for temporary forwarding the FAQ gives a total of up to 364 days, or a first request of up to 185 days extended by up to 179 more, while USPS.com gives a range of 15 days up to 1 year.</title>
+<rect width="800" height="2202" fill="#ffffff"/>
 <text x="40" y="70" font-size="46" font-weight="bold" fill="#111827" text-anchor="start">USPS Change of Address</text>
 <text x="40" y="120" font-size="32" fill="#374151" text-anchor="start">What the USPS pages say</text>
 <rect x="40" y="160" width="720" height="342" rx="14" fill="#dbeafe" stroke="#1e40af" stroke-width="4"/>
@@ -29,14 +29,16 @@
 <text x="70" y="1388" font-size="32" fill="#111827" text-anchor="start">welcome kit with a 16-digit Confirmation</text>
 <text x="70" y="1434" font-size="32" fill="#111827" text-anchor="start">Code arrives about 5 business days before</text>
 <text x="70" y="1480" font-size="32" fill="#111827" text-anchor="start">the start date. FAQ: mail starts arriving</text>
-<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">within 7-10 business days of the start</text>
-<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">date. Keep the code to change or cancel.</text>
-<rect x="40" y="1648" width="720" height="342" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
+<text x="70" y="1526" font-size="32" fill="#111827" text-anchor="start">within 7-10 postal business days of the</text>
+<text x="70" y="1572" font-size="32" fill="#111827" text-anchor="start">start date. Keep the code to change/cancel.</text>
+<rect x="40" y="1648" width="720" height="434" rx="14" fill="#f3f4f6" stroke="#4b5563" stroke-width="4" stroke-dasharray="10 8"/>
 <text x="70" y="1706" font-size="38" font-weight="bold" fill="#111827" text-anchor="start">Two timing details</text>
-<text x="70" y="1760" font-size="32" fill="#111827" text-anchor="start">7-10 days: after approval for the change to</text>
-<text x="70" y="1806" font-size="32" fill="#111827" text-anchor="start">take effect (USPS.com); after the start date</text>
-<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">for mail to arrive (FAQ). Temporary forwarding:</text>
-<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">FAQ, up to 364 days in total or 185 plus up</text>
-<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">to 179 more; USPS.com, 15 days up to 1 year.</text>
-<text x="40" y="2050" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQ 000005313; USPS.com</text>
-<text x="40" y="2084" font-size="28" fill="#374151" text-anchor="start">Standard Forward Mail page; read Nov. 26, 2026</text></svg>
+<text x="70" y="1760" font-size="32" fill="#111827" text-anchor="start">USPS.com: allow at least 7-10 business days</text>
+<text x="70" y="1806" font-size="32" fill="#111827" text-anchor="start">after approval for the change to take effect.</text>
+<text x="70" y="1852" font-size="32" fill="#111827" text-anchor="start">FAQ: mail starts arriving within 7-10 postal</text>
+<text x="70" y="1898" font-size="32" fill="#111827" text-anchor="start">business days of the start date. Temporary</text>
+<text x="70" y="1944" font-size="32" fill="#111827" text-anchor="start">forwarding: FAQ, up to 364 days in total or</text>
+<text x="70" y="1990" font-size="32" fill="#111827" text-anchor="start">185 plus up to 179 more; USPS.com, 15 days</text>
+<text x="70" y="2036" font-size="32" fill="#111827" text-anchor="start">up to 1 year.</text>
+<text x="40" y="2142" font-size="28" fill="#374151" text-anchor="start">Sources: USPS FAQ 000005313; USPS.com</text>
+<text x="40" y="2176" font-size="28" fill="#374151" text-anchor="start">Standard Forward Mail page; read Nov. 26, 2026</text></svg>

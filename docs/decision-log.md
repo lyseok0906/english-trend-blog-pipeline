@@ -1658,3 +1658,7 @@ The fourth slot (2026-11-28 3 PM KST) was read and compared with published posts
 ## 2026-11-26 (KST) — Change of Address: Gate 2 round 1 FIX applied
 
 The user relayed Gate 2 on `10872f5`: Change of Address = FIX; the other three posts were not judged PASS (Gate 2 and the pre-publication source check not finished; the Free Boxes post needs the customer-service post public before its link opens). The fix: the section that called the 7-10 days and the temporary forwarding periods differences between the pages is rewritten, because the pages describe different points (after approval vs after the start date) and the FAQ's 364-day total and 185 + 179 extension are consistent with USPS.com's 15 days up to 1 year. Body, diagram and alt text changed together; nothing else. Nothing is scheduled; the post waits for Gate 2 on the changed parts.
+
+## 2026-11-26 (KST) — Change of Address: Gate 2 round 2 FIX applied (diagram card)
+
+Gate 2 on `3cf9bce` accepted the body and alt text but found the bottom diagram card had dropped conditions: "at least" and "business days" (USPS.com, 7-10 days after approval) and "within" and "business days" (FAQ, mail starts arriving within 7-10 postal business days of the start date). The card and card 4 are rewritten to the pages' wording and the alt text matches. Body unchanged. Waiting for Gate 2 on the changed parts; nothing scheduled.
