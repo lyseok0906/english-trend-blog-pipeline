@@ -12,3 +12,6 @@ Retrieved **2026-11-26** by Cowork (Claude) in the built-in browser; text read b
 
 ## Not read / not used
 DMM 507.2.0; the USPS page on acceptable identification; Premium Forwarding Services; the Hold Mail FAQ; Informed Delivery pages (the Informed Delivery and Hold Mail points are attributed to the FAQ and to our own published articles for the service itself).
+
+## Re-read for Gate 2 fix (2026-11-26)
+FAQ 000005313: temporary forwarding minimum 15 days; maximum 364 days from the start date; a first request of up to 185 days extendable by up to 179 more days; total cannot exceed 12 months; 45 days back at the original address restarts the 364-day limit; mail starts arriving within 7-10 postal business days of the start date. USPS.com: once the request is approved allow at least 7-10 business days for it to go into effect; temporary request for 15 days up to 1 year. All present on the pages.
