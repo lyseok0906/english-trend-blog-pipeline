@@ -1642,3 +1642,7 @@ WordPress post 178 went public on schedule (09:00 KST). The logged-out live QA p
 ## 2026-11-26 (KST) — Four topics approved for 2026-11-27 and 2026-11-28; Change of Address drafted
 
 The user approved four topics and slots (all KST): 11-27 9 AM USPS change of address, 11-27 3 PM USPS Money Order, 11-28 9 AM USPS Insurance, 11-28 3 PM USPS free shipping supplies. Money Order: the single-order limit amount is left out (no fee amounts either). For Insurance and free shipping supplies the official sources are read and the overlap with published posts checked before drafting; if either cannot stand as its own post it is swapped for another candidate and reported. Each post goes through Gate 2 before it is scheduled. Change of Address drafted the same day (backlog row 47): Gate 1 passed, no fee amounts, linked to the forwarding, Informed Delivery and Hold Mail posts; waiting for Gate 2.
+
+## 2026-11-26 (KST) — Money Orders drafted without amounts
+
+USPS Money Orders drafted (backlog row 48): Gate 1 passed on the FAQ, the USPS.com page and DMM 509.3. Following the user's instruction, the single-order limit is left out; the article also omits fees, the inquiry and replacement fees, the daily totals that need extra paperwork and the international maximum, and says the pages state them. The DMM's traveler's-check share is written in words. Waiting for Gate 2.
