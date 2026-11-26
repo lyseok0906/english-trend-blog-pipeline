@@ -1666,3 +1666,7 @@ Gate 2 on `3cf9bce` accepted the body and alt text but found the bottom diagram 
 ## 2026-11-26 (KST) — Registered Mail published, live QA passed
 
 Post 181 (USPS Registered Mail) published on schedule at 15:00 KST. Logged-out live QA about 15:20 KST passed (200 on the first fetch, canonical, 141-character meta, og, robots, JSON-LD, one H1, image hash equal, no dollar or percent sign, 5 internal links 200 including Return Receipt, 3 external links noopener, sitemap, feed, home, category). Backlog row 46 set to published. No action needed.
+
+## 2026-11-26 (KST) — Money Orders: Gate 2 round 1 FIX applied
+
+Gate 2 asked for two corrections. Payees: the DMM states a single identifiable payee when the order is completed (3.2.4) and rules for several payees when it is cashed (3.3.5); the article now separates the clauses and situations and says the DMM does not reconcile them. Lost receipt: the FAQ's "you may still complete the inquiry form" sentence belongs to its damaged or spoiled steps, not its lost or stolen steps (which say to take the receipt); body, diagram and alt text now say so. Waiting for Gate 2 on the changed parts; nothing scheduled.
