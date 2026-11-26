@@ -1634,3 +1634,7 @@ WordPress post 173 went public on schedule (09:00 KST). The logged-out live QA p
 ## 2026-11-25 (KST) — Return Receipt published and live QA passed; Registered Mail link target is now public
 
 WordPress post 174 went public on schedule (15:00 KST). The logged-out live QA passed on all points (200, canonical, meta 149 characters, og tags, index robots, BlogPosting JSON-LD, one H1, no comment form or pingback, image hash `3497373ec6f530e2`, table present, three internal links 200, external links `_blank noopener`, sitemap, feed, home, category page, `x-wp-total` 41). As with Priority Mail Express, the first fetch returned a short-lived 404 before later fetches returned 200; nothing was changed. The Registered Mail post (181, scheduled 2026-11-26 15:00 KST) links to this article, so that link now resolves and no edit to post 181 is needed. Next: General Delivery 09:00 KST and Registered Mail 15:00 KST on 2026-11-26.
+
+## 2026-11-26 (KST) — General Delivery published and live QA passed
+
+WordPress post 178 went public on schedule (09:00 KST). The logged-out live QA passed on all points (200 on the first fetch, canonical, meta 130 characters, og tags, index robots, BlogPosting JSON-LD, one H1, no comment form or pingback, image hash `83d9e59e8461c6ab`, table present, two internal links 200, external links `_blank noopener`, sitemap, feed, home, category page, `x-wp-total` 42). No 404 appeared this time. Next: Registered Mail (post 181) at 15:00 KST; its Return Receipt link already resolves.
