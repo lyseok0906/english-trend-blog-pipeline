@@ -1698,3 +1698,7 @@ Gate 2 passed the changed parts of `bdf12d7`. Contact Us, Email Us and the USAGo
 ## 2026-11-27 (KST) — Free Boxes: Gate 2 round 2 FIX applied
 
 Gate 2 on `d7c2e80` asked that the store page's "allow one business day from order receipt ... to be shipped" and the FAQ's "shipped within one business day from order receipt" not be presented as the same wording. The body, the "Time to ship" bullet, diagram cards 3 and 4 and the alt text now state each source's wording separately. The business-days wording, the FAQ source and the nine product-page links were accepted. Not built in WordPress or scheduled until Gate 2 checks the changed parts; slot stays 2026-11-28 3 PM KST.
+
+## 2026-11-27 (KST) — Free Boxes: Gate 2 round 3 FIX applied
+
+Gate 2 on `b99c464` accepted the separated shipping wording and found one wrong sentence: the article said the pages do not say what happens if a free box is used with a different service, but the FAQ says Priority Mail or Priority Mail Express packaging used on any other class of mail is charged the applicable Priority Mail or Priority Mail Express price. The FAQ was re-read; the body now states that rule (no amounts) and the "do not say" paragraph no longer claims otherwise. Diagram and PNG unchanged. Not built in WordPress or scheduled until Gate 2 checks the changed parts; slot stays 2026-11-28 3 PM KST.

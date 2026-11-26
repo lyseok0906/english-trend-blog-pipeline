@@ -31,6 +31,8 @@ The pages for the boxes and envelopes say the same thing in three versions. For 
 
 These pages also list what a shipment includes: USPS Tracking with most shipments, insurance with most shipments (restrictions apply) and a free Package Pickup at your home or office, which our article [How Does USPS Package Pickup Work? Free Pickup and Limits](https://statesideexplained.com/usps-package-pickup-how-it-works/) covers. If a Priority Mail or Priority Mail Express envelope or box is used for international shipping, the pages say it is charged at the international price for that service.
 
+The USPS FAQ states what happens when the packaging is used another way. It says Priority Mail or Priority Mail Express packaging provided by USPS that is used on any other class of mail is charged the applicable Priority Mail or Priority Mail Express price, and that supplies mailed in that packaging are charged that price even if the packaging is reconfigured or its markings are obliterated. It adds that the packaging can only be used for the class of mail specified on the box and that misuse may be a violation of federal law.
+
 ## Special items: cremated remains kits, labels and forms
 
 The Cremated Remains Kit 1 page says the free kit holds one Priority Mail Express box and a roll of Priority Mail Express tape, and that Priority Mail Express is the only way for a person or organization to ship cremated remains. It points to Publication 139 for packaging and shipping guidelines. The listing's Kit 2 adds bubble cushioning, a self-sealing plastic bag and Publication 139 to the box and tape.
@@ -54,7 +56,7 @@ The Contact Us page lists a phone line, 1-800-610-8734, "to order free shipping 
 
 ## What the pages do not say
 
-They do not say whether you need a USPS.com account to place an order, whether the quantity maximums apply per order or per day, or what happens if a free box is used with a different service than the one it is tied to. This article read all three listing pages (47 results) and nine product pages, not every item or a general Postal Store shipping policy.
+They do not say whether you need a USPS.com account to place an order or whether the quantity maximums apply per order or per day; the FAQ says only that an order larger than the maximum allowed online can be placed by calling the supply line. This article read all three listing pages (47 results), nine product pages and the FAQ, not every item or a general Postal Store shipping policy.
 
 ## Sources
 
