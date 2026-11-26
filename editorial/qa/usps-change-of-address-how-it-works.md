@@ -2,7 +2,7 @@
 
 Article: `content/drafts/usps-change-of-address-how-it-works.md` (draft, 2026-11-26, about 1,490 words including sources, one H1, Sources included; meta description 147 characters; alt text 1,298 characters).
 
-Stage: draft. Gate 1 (Claude) run on 2026-11-26. Gate 2 round 1 (on `10872f5`) = FIX on the timing section; fixed in `3cf9bce`. Gate 2 round 2 (on `3cf9bce`) = FIX on the diagram card only; fixed 2026-11-26 (see below), waiting for Gate 2 on the changed parts. Backlog row 47.
+Stage: scheduled (2026-11-26). Gate 1 (Claude) run on 2026-11-26. Gate 2 round 1 (on `10872f5`) = FIX on the timing section; fixed in `3cf9bce`. Gate 2 round 2 (on `3cf9bce`) = FIX on the diagram card only; fixed 2026-11-26 (see below), waiting for Gate 2 on the changed parts. Backlog row 47.
 
 ## Gate 1 — claim groups
 - FAQ 000005313 (Oct 15, 2026), read directly: 63 of 63 claim phrases found (one extra string was my own typo and one a page spacing artifact; both verified by reading the page).
@@ -25,3 +25,10 @@ PNG 1200 x 3303 px, 608015 bytes, SHA-256 prefix `f9d7b3f46a4befa1`; SVG 6244 by
 
 ## Not checked
 Search volume; DMM 507.2.0; accepted photo IDs; WordPress (no draft or schedule exists); mobile and editor checks (after Gate 2 PASS); the pre-publication source re-read.
+
+## Gate 2 PASS, pre-publish source re-read and WordPress build (2026-11-26 KST)
+Gate 2: round 1 (on `10872f5`) FIX, fixed in `3cf9bce`; round 2 (on `3cf9bce`) FIX on the diagram card, fixed in `5ec4d21`; the changed parts then passed on `5ec4d21`, and the user confirmed the whole-article Gate 2 PASS in chat.
+Re-read right before scheduling (no change, nothing to report first): FAQ 000005313 still dated Oct 15, 2026, 50 key phrases checked (46 found as typed; the other 4 were my wording against the page's: "Manage My Move" is the managemymove.usps.com site, "no more than two changes" is "no more than 2 (two) changes in a single day", "13-digit" is "13 digit", "letterhead" is "letter head"; all verified on the page); USPS.com Standard Forward Mail page 20 key phrases (15 found as typed; the other 5 were wording differences, verified: in-person cases, confirmation code emailed, photo ID, "only changes your mailing address with the Post Office"). The temporary-forwarding and 7-10 day wording was re-checked earlier today (FAQ 9 of 9, USPS.com 3 of 3).
+Built from the repository files on `main` (md `e27f325562f6095d`, 12,522 bytes; PNG `f9d7b3f46a4befa1`, 608,015 bytes; converted content SHA-256 `87f94941d7a70fbd...f7b42809` equal to the Python reference): media 183 (original URL returns 200 with the same hash prefix; WordPress also made a `-scaled` copy, not used in the post), post 184 created as a draft in category Postal service and stamps (6), comments and pings closed, Rank Math description 147 characters (read back from the preview) and focus keyword `usps change of address`. Editor: 30 blocks, 0 invalid (one table, two lists). No dollar sign or percent sign. Links: 3 internal (forwarding, Informed Delivery, Hold Mail; all 200 logged out) and 2 source links. Preview at 375 px and 320 px: no horizontal scroll (scrollWidth equal to the viewport), image 315 and 260 px wide, table fits its figure (315 and 260 px), one H1. File moved to `content/ready/` with `status: ready` (md `3bd7732f13ec3b0e`).
+Scheduled: status `future`, `date_gmt` 2026-11-27T00:00:00 = 09:00 KST (site time shows 2026-11-26 19:00, America/New_York), re-read from WordPress after saving (status future, date_gmt 2026-11-27T00:00:00; the public URL returns 404 until then; public posts 43).
+Not done yet: live QA (after publication, about 09:20 KST on 2026-11-27).

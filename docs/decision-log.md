@@ -1670,3 +1670,7 @@ Post 181 (USPS Registered Mail) published on schedule at 15:00 KST. Logged-out l
 ## 2026-11-26 (KST) — Money Orders: Gate 2 round 1 FIX applied
 
 Gate 2 asked for two corrections. Payees: the DMM states a single identifiable payee when the order is completed (3.2.4) and rules for several payees when it is cashed (3.3.5); the article now separates the clauses and situations and says the DMM does not reconcile them. Lost receipt: the FAQ's "you may still complete the inquiry form" sentence belongs to its damaged or spoiled steps, not its lost or stolen steps (which say to take the receipt); body, diagram and alt text now say so. Waiting for Gate 2 on the changed parts; nothing scheduled.
+
+## 2026-11-26 (KST) — Change of Address scheduled for 2026-11-27 9 AM KST
+
+After two Gate 2 FIX rounds and the user's whole-article PASS, both sources were re-read (no change) and the post was built from the pushed files: media 183, post 184, editor 0 invalid blocks, 375 and 320 px checked, scheduled `future` for 2026-11-27T00:00:00 UTC = 09:00 KST and re-read from WordPress. The file moved to `content/ready/`. Live QA is due about 09:20 KST on 2026-11-27. The other three posts are not scheduled (Money Orders and Customer Service/Free Boxes await Gate 2).

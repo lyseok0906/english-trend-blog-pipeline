@@ -4,7 +4,7 @@ slug: usps-change-of-address-how-it-works
 meta_description: "What USPS pages say about a change of address: how to file online or in person, identity checks, filing for someone else and the confirmation code."
 category: Postal service and stamps
 focus_keyword: usps change of address
-status: draft
+status: ready
 date: 2026-11-26
 internal_link_candidates: usps-mail-forwarding-how-long (published; forwarding periods by mail class); usps-informed-delivery-how-it-works (published; Informed Delivery suspension note); usps-hold-mail-how-it-works (published; separate service). Each appears once in the body; link texts match the live titles.
 image: assets/optimized/usps-change-of-address-how-it-works.png
