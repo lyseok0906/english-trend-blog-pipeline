@@ -4,7 +4,7 @@ slug: usps-customer-service-how-to-contact
 meta_description: "What USPS pages say about reaching customer service: phone lines, Email Us topics, where to take a complaint and which route fits which problem."
 category: Postal service and stamps
 focus_keyword: usps customer service
-status: draft
+status: ready
 date: 2026-11-26
 internal_link_candidates: usps-tracking-status-what-it-means and usps-missing-mail-search-how-it-works (both published; each appears once in the body with link text matching the live title).
 image: assets/optimized/usps-customer-service-how-to-contact.png
