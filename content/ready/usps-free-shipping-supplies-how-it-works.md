@@ -4,7 +4,7 @@ slug: usps-free-shipping-supplies-how-it-works
 meta_description: "What USPS Postal Store pages say about free boxes and envelopes: what is listed, the rule tying them to a service, ordering, delivery and gaps."
 category: Postal service and stamps
 focus_keyword: usps free boxes
-status: draft
+status: ready
 date: 2026-11-26
 internal_link_candidates: usps-package-pickup-how-it-works, usps-certified-mail-how-it-works, usps-registered-mail-how-it-works (all published or scheduled before this slot) and usps-customer-service-how-to-contact (third post, scheduled for 2026-11-28 9 AM KST, before this one); each appears once in the body with link text matching the title.
 image: assets/optimized/usps-free-shipping-supplies-how-it-works.png
