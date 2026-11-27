@@ -1706,3 +1706,7 @@ Gate 2 on `b99c464` accepted the separated shipping wording and found one wrong 
 ## 2026-11-27 (KST) — Free Boxes scheduled for 2026-11-28 3 PM KST
 
 Gate 2 passed the round 3 changed parts of `b3e0e76`. The listing, nine product pages, Contact Us supply line and FAQ were re-read (no change), the post was built from the pushed files (media 192, post 193), editor 0 invalid blocks, 375 and 320 px checked, scheduled `future` for 2026-11-28T06:00:00 UTC = 3 PM KST and re-read from WordPress. The file moved to `content/ready/`. The customer-service link returns 404 until post 190 publishes at 9 AM KST on 2026-11-28; a check at 2:30 PM KST confirms it is public before this post goes live, and live QA follows about 3:20 PM KST. All four posts of the 2026-11-27 and 2026-11-28 plan are now scheduled or published (Change of Address published 2026-11-27 9 AM KST; its live QA was due about 9:20 AM KST).
+
+## 2026-11-27 (KST) — Change of Address published, live QA passed
+
+Post 184 (USPS Change of Address) published on schedule at 09:00 KST. Logged-out live QA about 09:20 KST passed (200 on the first fetch, canonical, 147-character meta, og, robots, JSON-LD, one H1, no comment form or pingback, image hash `f9d7b3f46a4befa1` equal to the repository file, alt 1,298 characters, "Two timing details", "7-10" and "364" present, no dollar or percent sign, 3 internal links 200, external links noopener, sitemap, feed, home, category; public posts 44). Backlog row 47 set to published. No action needed.
